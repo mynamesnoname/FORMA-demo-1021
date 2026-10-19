@@ -32,7 +32,7 @@ cp config/model_calls.example.json config/model_calls.json
 cp config/rule_parameters.example.json config/rule_parameters.json
 ```
 
-在 `.env` 中填写 `LLM_API_KEY`、`LLM_BASE_URL`、`LLM_MODEL` 和 `RR_TEMPLATE_DIR`。示例默认 `USE_ARCHETYPES=true`，此时还需填写 `ARCHETYPE_DIR`。请在实际运行的 shell 中确认 `rrdesi` 和目录可访问。三个 JSON 分别管理方法参数、模型调用温度和 ontology 规则参数；示例数值已与本机 demo 配置对齐。`analysis_method.json` 必须保留 `instrument.arms`。`.env.example` 中其余旧流水线字段并非 `demo.py` 的必填项。
+在 `.env` 中填写 `LLM_API_KEY`、`LLM_BASE_URL`、`LLM_MODEL` 和 `RR_TEMPLATE_DIR`。示例默认 `USE_ARCHETYPES=true`，此时还需填写 `ARCHETYPE_DIR`。请在实际运行的 shell 中确认 `rrdesi` 和目录可访问。三个 JSON 分别管理方法参数、模型调用温度和 ontology 规则参数；示例数值已与本机 demo 配置对齐。`analysis_method.json` 必须保留 `instrument.arms`。`.env.example` 只保留当前 demo 使用的配置项；已有 `.env` 中的旧流水线变量不会影响 demo 路径。
 
 ```bash
 python demo.py --preflight-only       # 只读取 FITS 标签，不调用 Redrock 或 LLM

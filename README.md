@@ -32,7 +32,7 @@ cp config/model_calls.example.json config/model_calls.json
 cp config/rule_parameters.example.json config/rule_parameters.json
 ```
 
-In `.env`, set `LLM_API_KEY`, `LLM_BASE_URL`, `LLM_MODEL`, and `RR_TEMPLATE_DIR`. Set `ARCHETYPE_DIR` when `USE_ARCHETYPES=true` (the example default). Check that `rrdesi` and these directories resolve in the shell used for the run. The three JSON files are validated method, model-call, and ontology rule-parameter profiles; their example values match the local demo profile. `analysis_method.json` must retain `instrument.arms`. The remaining legacy entries in `.env.example` are not required for `demo.py`.
+In `.env`, set `LLM_API_KEY`, `LLM_BASE_URL`, `LLM_MODEL`, and `RR_TEMPLATE_DIR`. Set `ARCHETYPE_DIR` when `USE_ARCHETYPES=true` (the example default). Check that `rrdesi` and these directories resolve in the shell used for the run. The three JSON files are validated method, model-call, and ontology rule-parameter profiles; their example values match the local demo profile. `analysis_method.json` must retain `instrument.arms`. `.env.example` contains only settings used by this demo; legacy variables left in an existing `.env` are ignored by the demo path.
 
 ```bash
 python demo.py --preflight-only       # FITS labels only; no Redrock or LLM calls
