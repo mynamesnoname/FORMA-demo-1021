@@ -1,0 +1,102 @@
+{
+  "schema_version": "forma-analysis-method-v2",
+  "instrument": {
+    "missing_noise_effective_snr_placeholder": 5.0,
+    "arms": [
+      {
+        "name": "B",
+        "wavelength_min_angstrom": 3600.0,
+        "wavelength_max_angstrom": 5800.0
+      },
+      {
+        "name": "R",
+        "wavelength_min_angstrom": 5760.0,
+        "wavelength_max_angstrom": 7620.0
+      },
+      {
+        "name": "Z",
+        "wavelength_min_angstrom": 7520.0,
+        "wavelength_max_angstrom": 9824.0
+      }
+    ]
+  },
+  "cwt": {
+    "wavelet_response_snr_threshold": 8.0,
+    "min_ridge_length": 4,
+    "n_scales": 24,
+    "min_wavelet_scale_pixels": 1.0,
+    "max_wavelet_scale_pixels": 80.0,
+    "local_noise_half_window_pixels": 50,
+    "local_noise_floor_fraction": 0.1,
+    "ridge_link_max_drift_pixels": 10,
+    "reported_fwhm_min_pixels": 2.0,
+    "baseline_median_min_pixels": 51,
+    "baseline_median_fraction_of_spectrum": 0.05,
+    "amplitude_error_estimate_fraction": 0.15
+  },
+  "evaluation": {
+    "redshift_tolerance": 0.01,
+    "implied_redshift_scatter_min_measured_lines": 2,
+    "strong_feature_reference_fraction": 0.25,
+    "dn4000_min_samples_per_band": 3
+  },
+  "gaussian_fit": {
+    "single_window_half_angstrom": 200.0,
+    "doublet_window_half_angstrom": 300.0,
+    "doublet_separation_tolerance_angstrom": 5.0,
+    "single_min_samples": 10,
+    "doublet_min_samples": 20,
+    "initial_width_sigma_min_angstrom": 2.0,
+    "fitted_width_sigma_min_angstrom": 1.0,
+    "center_bound_half_angstrom": 50.0,
+    "single_max_function_evaluations": 5000,
+    "doublet_max_function_evaluations": 10000,
+    "width_3sigma_angstrom_by_class": {
+      "broad": 90.0, "narrow": 25.0, "both": 50.0, "absorption": 20.0
+    }
+  },
+  "continuum": {
+    "chebyshev_min_degree": 1,
+    "chebyshev_max_degree": 10,
+    "residual_clip_percentile": 95.0,
+    "score_mad_weight": 10.0,
+    "score_abs_skew_target": 0.5,
+    "score_skew_weight": 5.0,
+    "score_degree_weight": 0.2,
+    "mask_half_width_in_fitted_sigma": 3.0,
+    "min_unmasked_samples": 20
+  },
+  "audit": {
+    "feature_read_half_angstrom": 100.0,
+    "composite_read_half_angstrom": 200.0,
+    "lyalpha_forest": {
+      "blueward_span_angstrom": 200.0,
+      "redward_reference_span_angstrom": 80.0,
+      "min_valid_blue_samples": 10,
+      "vote_quorum": 3,
+      "max_attempts_per_vote_seat": 2
+    },
+    "doublet_review": {
+      "context_margin_angstrom": 80.0,
+      "component_check_half_angstrom": 15.0,
+      "cahk_outer_reference_sigma": 3.0,
+      "min_valid_component_samples": 5,
+      "vote_quorum": 3,
+      "max_attempts_per_vote_seat": 2
+    },
+    "line_alignment": {
+      "vote_quorum": 3,
+      "max_attempts_per_vote_seat": 2,
+      "outer_reference_sigma": 3.0
+    },
+    "verified_feature_merge_max_distance_angstrom": 2.0,
+    "missing_line_assessment_match_max_distance_angstrom": 1.0,
+    "oii_slope_search_half_angstrom": 25.0
+  },
+  "qso_type1": {
+    "local_read_half_angstrom": 150.0,
+    "envelope_edge_sigma": 3.0,
+    "strength_vote_quorum": 3,
+    "max_attempts_per_vote_seat": 2
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "schema_version": "forma-rule-parameters-v2",
+  "overrides": {
+    "rule:formal-qso1-no-broad-line": {
+      "n_broad_lines_at_or_above_fwhm_limit": 1500.0
+    },
+    "rule:formal-lya-forest-visibility": {
+      "forest_probe_obs": 200.0
+    },
+    "rule:formal-width-class-match": {
+      "width_consistency_score": 2000.0
+    }
+  },
+  "parameters": {
+    "membership:offset-quality": {
+      "center_right": 20.0,
+      "right": 80.0
+    },
+    "membership:detection-snr": {
+      "low": 5.0
+    },
+    "membership:line-inventory": {
+      "high": 4.0
+    }
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "schema": "forma-graph-fixture-provenance-v1",
+  "fixture": "tests/reasoning/fixtures/qso4_graph_subset.json",
+  "builder": "evaluation/baseline/build_graph_subset_fixture.py",
+  "source": "evaluation/baseline/runs/QSO_4",
+  "source_note": "the retained run is machine-local and git-ignored; this file records what the committed subset was derived from, and the optional provenance test re-verifies both digests when the run is present",
+  "source_graph_schema_version": "forma-evidence-graph-v1",
+  "source_document_digest": "b4fd15c4363ce1635c9cdae7f7be647b0e86015722a6cf7a4093f6b0cab3a313",
+  "source_node_count": 62,
+  "source_edge_count": 61,
+  "selection": "spectrum node (coverage/detectability premises), the redrock_fit node nearest the frozen hypothesis-1 redshift, and every observed_feature node the harness adapter resolves from tests/reasoning/fixtures/qso4_h1_lines_cleaned_cwt.csv; edges are kept only when both endpoints are kept",
+  "kept_node_ids": [
+    "observed_feature:17ffc83e710b5382",
+    "observed_feature:50134aedc255f95f",
+    "observed_feature:621234be045dfc41",
+    "observed_feature:737d74511c2bf84e",
+    "observed_feature:a373b4267141a42a",
+    "observed_feature:f30b1bd8cdfe3c46",
+    "redrock_fit:c8ab569a27b3d485",
+    "spectrum:5e62c5ad81be2617"
+  ],
+  "kept_edge_count": 7,
+  "fixture_document_digest": "180e02a7b12f9faa15d1a5839c92ec821d28b4614140b2761e017badf452e1f6",
+  "referenced_observed_feature_ids": [
+    "observed_feature:17ffc83e710b5382",
+    "observed_feature:50134aedc255f95f",
+    "observed_feature:621234be045dfc41",
+    "observed_feature:737d74511c2bf84e",
+    "observed_feature:a373b4267141a42a",
+    "observed_feature:f30b1bd8cdfe3c46"
+  ]
+}

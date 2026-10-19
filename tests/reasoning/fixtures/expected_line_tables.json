@@ -1,0 +1,81 @@
+{
+  "schema": "independent-expected-line-tables-v1",
+  "transcription_source": [
+    "src/FORMA/agents/multi_agents/harness/kb/lines.md",
+    "src/FORMA/agents/multi_agents/harness/kb/ionization.md",
+    "src/FORMA/agents/multi_agents/utils/VI.py",
+    "src/FORMA/agents/multi_agents/harness/tools.py (_DOUBLET_PARAMS Na D)"
+  ],
+  "note": "Values transcribed by hand from the KB and legacy VI catalogs on 2026-10-11; independent of build_runtime_line_tables().",
+  "emission": {
+    "Lyα": 1215.67,
+    "C IV": 1549.0,
+    "He II": 1640.4,
+    "C III]": 1909.0,
+    "Mg II": 2800.0,
+    "[Ne V]": 3426.0,
+    "[O II]": 3727.0,
+    "Hε": 3970.1,
+    "Hδ": 4102.9,
+    "Hγ": 4341.7,
+    "Hβ": 4862.7,
+    "[O III]a": 4960.3,
+    "[O III]b": 5008.2,
+    "[N II]a": 6549.8,
+    "Hα": 6564.6,
+    "[N II]b": 6585.3,
+    "[S II]a": 6718.3,
+    "[S II]b": 6732.7
+  },
+  "absorption": {
+    "Ca K_abs": 3934.8,
+    "Ca H_abs": 3969.6,
+    "G-band_abs": 4305.6,
+    "Mg I_abs": 5176.7,
+    "Mg II_abs": 2800.0,
+    "Na D_abs": 5895.6,
+    "CaT1_abs": 8498.0,
+    "CaT2_abs": 8542.0,
+    "CaT3_abs": 8662.0,
+    "Hε_abs": 3970.1,
+    "Hδ_abs": 4102.9,
+    "Hγ_abs": 4341.7,
+    "Hβ_abs": 4862.7,
+    "Hα_abs": 6564.6,
+    "Na D1_abs": 5891.6,
+    "Na D2_abs": 5897.6
+  },
+  "widths": {
+    "Lyα": "broad",
+    "C IV": "broad",
+    "C III]": "broad",
+    "He II": "both",
+    "Mg II": "broad",
+    "[Ne V]": "narrow",
+    "[O II]": "narrow",
+    "Hε": "both",
+    "Hδ": "both",
+    "Hγ": "both",
+    "Hβ": "both",
+    "[O III]a": "narrow",
+    "Hα": "both",
+    "[O III]b": "narrow",
+    "[N II]a": "narrow",
+    "[N II]b": "narrow",
+    "[S II]a": "narrow",
+    "[S II]b": "narrow"
+  },
+  "declared_differences": [
+    {
+      "line": "Lyα",
+      "kb_display": 1216.0,
+      "registry": 1215.67,
+      "reason": "the KB display table historically rounded Lyα to 1216.0; the registry 1215.67 Å is the authoritative executable value"
+    },
+    {
+      "line": "Na D components",
+      "addition": "Na D1_abs 5891.6 / Na D2_abs 5897.6",
+      "reason": "registry doublet:na-d absorbed the tools.py _DOUBLET_PARAMS Na D pair as two component lines (v2); the blended Na D_abs 5895.6 label is unchanged. Under WP-028, independently credible resolved components may anchor without double-counting the blended label."
+    }
+  ]
+}

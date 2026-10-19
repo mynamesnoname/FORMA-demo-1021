@@ -1,0 +1,182 @@
+{
+  "schema": "forma-pre-correction-adapter-state-v1",
+  "origin": {
+    "artifact": "evaluation/baseline/candidate_runs/wp012-post-fix-20261011/validation_record.json",
+    "artifact_sha256": "8a3fe42b893db4b458d19a314ce3b0734e63faaac70ffa039921c238a356a292",
+    "recorded_at": "2026-10-11T08:32:57.425380+00:00",
+    "captured_before_run": {
+      "schema": "forma-run-provenance-v1",
+      "captured_at": "before_run",
+      "git": {
+        "head": "554bd56e4457f477051255ccedf1f20fa37257b8",
+        "dirty": true,
+        "source_digest": "02ab62c3f0715e89a87407066e33b0ebafe803707c082943062477b23e42b8f6"
+      },
+      "source_digest": "02ab62c3f0715e89a87407066e33b0ebafe803707c082943062477b23e42b8f6",
+      "config_fingerprint": {
+        "sha256": "53400b9822b854936a6ac773e27bf74b0fb8b4cf6119ef63776fd627811375fe",
+        "components": {
+          "llm": {
+            "model": "deepseek-flash",
+            "temperature": 0.1,
+            "max_tokens": 384000,
+            "thinking": "disabled",
+            "base_url_host": "api.deepseek.com"
+          },
+          "redrock": {
+            "enabled": true,
+            "template_dir": {
+              "basename": "templates",
+              "exists": true
+            },
+            "template_digest": "13adba0cc4cf33c72adefa93d2a02e627b4b087d367f1947ee10e2e234013b83",
+            "archetype_dir": {
+              "basename": "redrock-archetypes",
+              "exists": true
+            },
+            "archetype_digest": "4960ff9b7074c130fc2b6a87a9eb8d5c54bfce78511fc97d903c42610477c8ec",
+            "use_archetypes": true,
+            "nminima": 2,
+            "nnearest": 2,
+            "omp_num_threads": 4
+          },
+          "cwt": {
+            "snr_thresh": 8.0,
+            "min_ridge_length": 4,
+            "n_scales": 24,
+            "min_width": 1.0,
+            "max_width": 80.0
+          },
+          "pipeline": {
+            "evidence_graph_enabled": true,
+            "harness_concurrency": 50,
+            "self_evolve": false,
+            "failure_batch_size": 1,
+            "arm_name": [
+              "B",
+              "R",
+              "Z"
+            ],
+            "arm_wavelength_range": [
+              [
+                3600.0,
+                5800.0
+              ],
+              [
+                5760.0,
+                7620.0
+              ],
+              [
+                7520.0,
+                9824.0
+              ]
+            ]
+          },
+          "io": {
+            "input_format": "fits",
+            "run_mode": "s"
+          }
+        }
+      },
+      "rrdesi_mp_override": "1 (shim /tmp/forma-bin/rrdesi)",
+      "inputs": {
+        "QSO_116": "90d6a98e0220f4a80e2f2e9c9d8cea0ece2203e8de79c3c6ab9ec4b4ebb67d21",
+        "QSO_4": "df6c065ad5ec7c190cb1ac546a619e70a89ab646528cbcaa5181731554b677bd",
+        "BGS_2": "e4496001fdcae2a95ae1b7d8b46cc49a7477784059edb58f1ea918ffd3afad34",
+        "ELG_6": "db0fee1e2156d3f6e3ee45dd250ee45c3265f4ab8bf62e475997b602bfd20f41",
+        "LRG_1": "62314ec47ad7dd07b82a1e9f1d2a83398453e28919dd05879be1df1c3e6af168"
+      }
+    },
+    "meaning": "Rule traces captured by the five-FITS post-fix run on 2026-10-11, before the WP-023 corrections. Historical evidence for its captured source digest; it does not validate the corrected adapter."
+  },
+  "fixtures": {
+    "QSO_116": {
+      "verdict": {
+        "classification": "Unknown",
+        "redshift": null,
+        "confidence": "LOW"
+      },
+      "harness_rules_fired": null,
+      "synthesis_rules_fired": [],
+      "caveats": [],
+      "auditor_rule_trace": null
+    },
+    "QSO_4": {
+      "verdict": {
+        "classification": "QSO",
+        "redshift": 0.2381,
+        "confidence": "HIGH"
+      },
+      "harness_rules_fired": [
+        "rule:formal-detection-snr",
+        "rule:formal-ionization-consistency",
+        "rule:formal-missing-line-coverage",
+        "rule:formal-oiii-doublet",
+        "rule:formal-width-class-match"
+      ],
+      "synthesis_rules_fired": [],
+      "caveats": [
+        "rule:formal-missing-line-coverage: missing line counts as negative evidence",
+        "rule:formal-outflow-blueshift: offset outside the normal window — suspect misidentification"
+      ],
+      "auditor_rule_trace": null
+    },
+    "BGS_2": {
+      "verdict": {
+        "classification": "Galaxy",
+        "redshift": 0.159,
+        "confidence": "MEDIUM"
+      },
+      "harness_rules_fired": [
+        "rule:formal-detection-snr",
+        "rule:formal-missing-line-coverage",
+        "rule:formal-width-class-match"
+      ],
+      "synthesis_rules_fired": [],
+      "caveats": [
+        "rule:formal-missing-line-coverage: missing line counts as negative evidence",
+        "rule:formal-outflow-blueshift: offset outside the normal window — suspect misidentification"
+      ],
+      "auditor_rule_trace": null
+    },
+    "ELG_6": {
+      "verdict": {
+        "classification": "Galaxy",
+        "redshift": 0.1068,
+        "confidence": "HIGH"
+      },
+      "harness_rules_fired": [
+        "rule:formal-detection-snr",
+        "rule:formal-ionization-consistency",
+        "rule:formal-missing-line-coverage",
+        "rule:formal-oiii-doublet",
+        "rule:formal-outflow-blueshift",
+        "rule:formal-width-class-match"
+      ],
+      "synthesis_rules_fired": [],
+      "caveats": [
+        "rule:formal-missing-line-coverage: missing line counts as negative evidence"
+      ],
+      "auditor_rule_trace": null
+    },
+    "LRG_1": {
+      "verdict": {
+        "classification": "Galaxy",
+        "redshift": 0.2718,
+        "confidence": "MEDIUM"
+      },
+      "harness_rules_fired": [
+        "rule:formal-cahk-doublet",
+        "rule:formal-detection-snr",
+        "rule:formal-missing-line-coverage"
+      ],
+      "synthesis_rules_fired": [],
+      "caveats": [
+        "rule:formal-ionization-consistency: [O III] claimed without [O II] and no mask/edge excuse",
+        "rule:formal-missing-line-coverage: missing line counts as negative evidence",
+        "rule:formal-width-class-match: width contradicts the width class — flag, do not veto on this alone"
+      ],
+      "auditor_rule_trace": null
+    }
+  }
+}

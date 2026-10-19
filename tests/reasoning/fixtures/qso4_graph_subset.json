@@ -1,0 +1,974 @@
+{
+  "kind": "forma-evidence-graph-document",
+  "schema_version": "forma-evidence-graph-v1",
+  "nodes": [
+    {
+      "node_type": "observed_feature",
+      "schema_version": "forma-evidence-node-v4",
+      "provenance": {
+        "producer": "cwt",
+        "method": "utils/cwt_feature_finder.py::run_cwt_feature_detection",
+        "inputs": {
+          "QSO_4_emission.csv": "2eb92090c503a10a0a88fb43c2f805a482168e803639b475340ad293c22d8c22",
+          "QSO_4_absorption.csv": "506c2622dcead163b57d5bb1e364b64fdb210623d0df6d7905af3f301288cedf"
+        },
+        "source_revision": null,
+        "note": "read from VisualInterpreter CWT catalogs; no model inference involved"
+      },
+      "uncertainty": {
+        "kind": "heuristic",
+        "value": 8.794123220443725,
+        "unit": null,
+        "lower": null,
+        "upper": null,
+        "note": "Heuristic CWT amplitude-error proxy: configured fraction of |amplitude|; not a measured statistical uncertainty"
+      },
+      "kind": "emission",
+      "wavelength_obs": 6200.0000000001,
+      "detector": "cwt",
+      "amplitude": 58.627488136291504,
+      "fwhm_kms": 819.011221275572,
+      "ridge_length": 24.0,
+      "detection_snr": 133.7046441448805,
+      "is_pseudo_peak": false,
+      "wavelength_uncertainty": {
+        "kind": "resolution",
+        "value": 0.8000000000001819,
+        "unit": "Angstrom",
+        "lower": null,
+        "upper": null,
+        "note": "CWT wavelength grid step"
+      },
+      "content_digest": "17ffc83e710b53820ba520505d2db99cc096f40ab1c20848fa07e14248863bab",
+      "id": "observed_feature:17ffc83e710b5382"
+    },
+    {
+      "node_type": "observed_feature",
+      "schema_version": "forma-evidence-node-v4",
+      "provenance": {
+        "producer": "cwt",
+        "method": "utils/cwt_feature_finder.py::run_cwt_feature_detection",
+        "inputs": {
+          "QSO_4_emission.csv": "2eb92090c503a10a0a88fb43c2f805a482168e803639b475340ad293c22d8c22",
+          "QSO_4_absorption.csv": "506c2622dcead163b57d5bb1e364b64fdb210623d0df6d7905af3f301288cedf"
+        },
+        "source_revision": null,
+        "note": "read from VisualInterpreter CWT catalogs; no model inference involved"
+      },
+      "uncertainty": {
+        "kind": "heuristic",
+        "value": 0.18860807418823242,
+        "unit": null,
+        "lower": null,
+        "upper": null,
+        "note": "Heuristic CWT amplitude-error proxy: configured fraction of |amplitude|; not a measured statistical uncertainty"
+      },
+      "kind": "emission",
+      "wavelength_obs": 5802.40000000001,
+      "detector": "cwt",
+      "amplitude": 1.2573871612548828,
+      "fwhm_kms": 597.8438847726823,
+      "ridge_length": 8.0,
+      "detection_snr": 8.643960523273908,
+      "is_pseudo_peak": false,
+      "wavelength_uncertainty": {
+        "kind": "resolution",
+        "value": 0.8000000000001819,
+        "unit": "Angstrom",
+        "lower": null,
+        "upper": null,
+        "note": "CWT wavelength grid step"
+      },
+      "content_digest": "50134aedc255f95f326e0fa2888461239546facfa765c4f1b31b9e42975044c3",
+      "id": "observed_feature:50134aedc255f95f"
+    },
+    {
+      "node_type": "observed_feature",
+      "schema_version": "forma-evidence-node-v4",
+      "provenance": {
+        "producer": "cwt",
+        "method": "utils/cwt_feature_finder.py::run_cwt_feature_detection",
+        "inputs": {
+          "QSO_4_emission.csv": "2eb92090c503a10a0a88fb43c2f805a482168e803639b475340ad293c22d8c22",
+          "QSO_4_absorption.csv": "506c2622dcead163b57d5bb1e364b64fdb210623d0df6d7905af3f301288cedf"
+        },
+        "source_revision": null,
+        "note": "read from VisualInterpreter CWT catalogs; no model inference involved"
+      },
+      "uncertainty": {
+        "kind": "heuristic",
+        "value": 0.5861321210861206,
+        "unit": null,
+        "lower": null,
+        "upper": null,
+        "note": "Heuristic CWT amplitude-error proxy: configured fraction of |amplitude|; not a measured statistical uncertainty"
+      },
+      "kind": "emission",
+      "wavelength_obs": 8318.400000000182,
+      "detector": "cwt",
+      "amplitude": 3.9075474739074707,
+      "fwhm_kms": 668.4142199866477,
+      "ridge_length": 23.0,
+      "detection_snr": 31.755293136704424,
+      "is_pseudo_peak": false,
+      "wavelength_uncertainty": {
+        "kind": "resolution",
+        "value": 0.8000000000001819,
+        "unit": "Angstrom",
+        "lower": null,
+        "upper": null,
+        "note": "CWT wavelength grid step"
+      },
+      "content_digest": "621234be045dfc4193fb6ce10d79c9ffc045ab5f468e51f1d6fd0dc85f932a17",
+      "id": "observed_feature:621234be045dfc41"
+    },
+    {
+      "node_type": "observed_feature",
+      "schema_version": "forma-evidence-node-v4",
+      "provenance": {
+        "producer": "cwt",
+        "method": "utils/cwt_feature_finder.py::run_cwt_feature_detection",
+        "inputs": {
+          "QSO_4_emission.csv": "2eb92090c503a10a0a88fb43c2f805a482168e803639b475340ad293c22d8c22",
+          "QSO_4_absorption.csv": "506c2622dcead163b57d5bb1e364b64fdb210623d0df6d7905af3f301288cedf"
+        },
+        "source_revision": null,
+        "note": "read from VisualInterpreter CWT catalogs; no model inference involved"
+      },
+      "uncertainty": {
+        "kind": "heuristic",
+        "value": 0.5039644002914428,
+        "unit": null,
+        "lower": null,
+        "upper": null,
+        "note": "Heuristic CWT amplitude-error proxy: configured fraction of |amplitude|; not a measured statistical uncertainty"
+      },
+      "kind": "emission",
+      "wavelength_obs": 8336.000000000186,
+      "detector": "cwt",
+      "amplitude": 3.359762668609619,
+      "fwhm_kms": 284.28350672708837,
+      "ridge_length": 12.0,
+      "detection_snr": 27.204338749821417,
+      "is_pseudo_peak": false,
+      "wavelength_uncertainty": {
+        "kind": "resolution",
+        "value": 0.8000000000001819,
+        "unit": "Angstrom",
+        "lower": null,
+        "upper": null,
+        "note": "CWT wavelength grid step"
+      },
+      "content_digest": "737d74511c2bf84e4d03998bfb8bdbf174fe20d58fae05e19759536732ab46b8",
+      "id": "observed_feature:737d74511c2bf84e"
+    },
+    {
+      "node_type": "observed_feature",
+      "schema_version": "forma-evidence-node-v4",
+      "provenance": {
+        "producer": "cwt",
+        "method": "utils/cwt_feature_finder.py::run_cwt_feature_detection",
+        "inputs": {
+          "QSO_4_emission.csv": "2eb92090c503a10a0a88fb43c2f805a482168e803639b475340ad293c22d8c22",
+          "QSO_4_absorption.csv": "506c2622dcead163b57d5bb1e364b64fdb210623d0df6d7905af3f301288cedf"
+        },
+        "source_revision": null,
+        "note": "read from VisualInterpreter CWT catalogs; no model inference involved"
+      },
+      "uncertainty": {
+        "kind": "heuristic",
+        "value": 1.7329020738601684,
+        "unit": null,
+        "lower": null,
+        "upper": null,
+        "note": "Heuristic CWT amplitude-error proxy: configured fraction of |amplitude|; not a measured statistical uncertainty"
+      },
+      "kind": "emission",
+      "wavelength_obs": 4616.800000000231,
+      "detector": "cwt",
+      "amplitude": 11.552680492401123,
+      "fwhm_kms": 1099.8677811272687,
+      "ridge_length": 24.0,
+      "detection_snr": 76.17869718494916,
+      "is_pseudo_peak": false,
+      "wavelength_uncertainty": {
+        "kind": "resolution",
+        "value": 0.8000000000001819,
+        "unit": "Angstrom",
+        "lower": null,
+        "upper": null,
+        "note": "CWT wavelength grid step"
+      },
+      "content_digest": "a373b4267141a42ae51eb465d9a27302e3c8be843681763aafefecf6776ae32d",
+      "id": "observed_feature:a373b4267141a42a"
+    },
+    {
+      "node_type": "observed_feature",
+      "schema_version": "forma-evidence-node-v4",
+      "provenance": {
+        "producer": "cwt",
+        "method": "utils/cwt_feature_finder.py::run_cwt_feature_detection",
+        "inputs": {
+          "QSO_4_emission.csv": "2eb92090c503a10a0a88fb43c2f805a482168e803639b475340ad293c22d8c22",
+          "QSO_4_absorption.csv": "506c2622dcead163b57d5bb1e364b64fdb210623d0df6d7905af3f301288cedf"
+        },
+        "source_revision": null,
+        "note": "read from VisualInterpreter CWT catalogs; no model inference involved"
+      },
+      "uncertainty": {
+        "kind": "heuristic",
+        "value": 3.39336097240448,
+        "unit": null,
+        "lower": null,
+        "upper": null,
+        "note": "Heuristic CWT amplitude-error proxy: configured fraction of |amplitude|; not a measured statistical uncertainty"
+      },
+      "kind": "emission",
+      "wavelength_obs": 8127.200000000138,
+      "detector": "cwt",
+      "amplitude": 22.622406482696533,
+      "fwhm_kms": 755.933578630969,
+      "ridge_length": 22.0,
+      "detection_snr": 22.65319376689475,
+      "is_pseudo_peak": false,
+      "wavelength_uncertainty": {
+        "kind": "resolution",
+        "value": 0.8000000000001819,
+        "unit": "Angstrom",
+        "lower": null,
+        "upper": null,
+        "note": "CWT wavelength grid step"
+      },
+      "content_digest": "f30b1bd8cdfe3c4610d72b3fa39d47cc4bc1e69803d8f4acc3dc784b4efe22df",
+      "id": "observed_feature:f30b1bd8cdfe3c46"
+    },
+    {
+      "node_type": "redrock_fit",
+      "schema_version": "forma-evidence-node-v4",
+      "provenance": {
+        "producer": "redrock",
+        "method": "rrdesi",
+        "inputs": {
+          "rrdetails_h5_sha256": "0b3d6ccb5f8e9ec5713f25275d825c6a5d1613bf237cefc1c3552f519527125e",
+          "redrock_fits_templates": "GALAXY,QSO:::LOZ,QSO:::HIZ,STAR:::A,STAR:::B,STAR:::CV,STAR:::F,STAR:::G,STAR:::K,STAR:::M,STAR:::WD"
+        },
+        "source_revision": null,
+        "note": "zfit row mapped without LLM inference"
+      },
+      "uncertainty": null,
+      "redshift": 0.23787248591105023,
+      "spectype": "QSO",
+      "chi2": 497471.21875,
+      "templates": [
+        "GALAXY",
+        "QSO:::LOZ",
+        "QSO:::HIZ",
+        "STAR:::A",
+        "STAR:::B",
+        "STAR:::CV",
+        "STAR:::F",
+        "STAR:::G",
+        "STAR:::K",
+        "STAR:::M",
+        "STAR:::WD"
+      ],
+      "nminima": null,
+      "use_archetypes": true,
+      "zwarn": 0,
+      "redrock_index": 0,
+      "details_sha256": "0b3d6ccb5f8e9ec5713f25275d825c6a5d1613bf237cefc1c3552f519527125e",
+      "array_references": [
+        {
+          "artifact": "evaluation/baseline/runs/QSO_4/QSO_4_redrock/QSO_4_rrdetails.h5",
+          "artifact_sha256": "0b3d6ccb5f8e9ec5713f25275d825c6a5d1613bf237cefc1c3552f519527125e",
+          "array_name": "zscan/GALAXY/redshifts",
+          "shape": [
+            1446
+          ],
+          "dtype": "float64",
+          "note": "Redrock zscan GALAXY redshifts"
+        },
+        {
+          "artifact": "evaluation/baseline/runs/QSO_4/QSO_4_redrock/QSO_4_rrdetails.h5",
+          "artifact_sha256": "0b3d6ccb5f8e9ec5713f25275d825c6a5d1613bf237cefc1c3552f519527125e",
+          "array_name": "zscan/GALAXY/penalty",
+          "shape": [
+            1,
+            1446
+          ],
+          "dtype": "float32",
+          "note": "Redrock zscan GALAXY penalty"
+        },
+        {
+          "artifact": "evaluation/baseline/runs/QSO_4/QSO_4_redrock/QSO_4_rrdetails.h5",
+          "artifact_sha256": "0b3d6ccb5f8e9ec5713f25275d825c6a5d1613bf237cefc1c3552f519527125e",
+          "array_name": "zscan/GALAXY/zchi2",
+          "shape": [
+            1,
+            1446
+          ],
+          "dtype": "float32",
+          "note": "Redrock zscan GALAXY zchi2"
+        },
+        {
+          "artifact": "evaluation/baseline/runs/QSO_4/QSO_4_redrock/QSO_4_rrdetails.h5",
+          "artifact_sha256": "0b3d6ccb5f8e9ec5713f25275d825c6a5d1613bf237cefc1c3552f519527125e",
+          "array_name": "zscan/GALAXY/zcoeff",
+          "shape": [
+            1,
+            1446,
+            10
+          ],
+          "dtype": "float32",
+          "note": "Redrock zscan GALAXY zcoeff"
+        },
+        {
+          "artifact": "evaluation/baseline/runs/QSO_4/QSO_4_redrock/QSO_4_rrdetails.h5",
+          "artifact_sha256": "0b3d6ccb5f8e9ec5713f25275d825c6a5d1613bf237cefc1c3552f519527125e",
+          "array_name": "zscan/QSO:::HIZ/redshifts",
+          "shape": [
+            1046
+          ],
+          "dtype": "float64",
+          "note": "Redrock zscan QSO:::HIZ redshifts"
+        },
+        {
+          "artifact": "evaluation/baseline/runs/QSO_4/QSO_4_redrock/QSO_4_rrdetails.h5",
+          "artifact_sha256": "0b3d6ccb5f8e9ec5713f25275d825c6a5d1613bf237cefc1c3552f519527125e",
+          "array_name": "zscan/QSO:::HIZ/penalty",
+          "shape": [
+            1,
+            1046
+          ],
+          "dtype": "float32",
+          "note": "Redrock zscan QSO:::HIZ penalty"
+        },
+        {
+          "artifact": "evaluation/baseline/runs/QSO_4/QSO_4_redrock/QSO_4_rrdetails.h5",
+          "artifact_sha256": "0b3d6ccb5f8e9ec5713f25275d825c6a5d1613bf237cefc1c3552f519527125e",
+          "array_name": "zscan/QSO:::HIZ/zchi2",
+          "shape": [
+            1,
+            1046
+          ],
+          "dtype": "float32",
+          "note": "Redrock zscan QSO:::HIZ zchi2"
+        },
+        {
+          "artifact": "evaluation/baseline/runs/QSO_4/QSO_4_redrock/QSO_4_rrdetails.h5",
+          "artifact_sha256": "0b3d6ccb5f8e9ec5713f25275d825c6a5d1613bf237cefc1c3552f519527125e",
+          "array_name": "zscan/QSO:::HIZ/zcoeff",
+          "shape": [
+            1,
+            1046,
+            4
+          ],
+          "dtype": "float32",
+          "note": "Redrock zscan QSO:::HIZ zcoeff"
+        },
+        {
+          "artifact": "evaluation/baseline/runs/QSO_4/QSO_4_redrock/QSO_4_rrdetails.h5",
+          "artifact_sha256": "0b3d6ccb5f8e9ec5713f25275d825c6a5d1613bf237cefc1c3552f519527125e",
+          "array_name": "zscan/QSO:::LOZ/redshifts",
+          "shape": [
+            788
+          ],
+          "dtype": "float64",
+          "note": "Redrock zscan QSO:::LOZ redshifts"
+        },
+        {
+          "artifact": "evaluation/baseline/runs/QSO_4/QSO_4_redrock/QSO_4_rrdetails.h5",
+          "artifact_sha256": "0b3d6ccb5f8e9ec5713f25275d825c6a5d1613bf237cefc1c3552f519527125e",
+          "array_name": "zscan/QSO:::LOZ/penalty",
+          "shape": [
+            1,
+            788
+          ],
+          "dtype": "float32",
+          "note": "Redrock zscan QSO:::LOZ penalty"
+        },
+        {
+          "artifact": "evaluation/baseline/runs/QSO_4/QSO_4_redrock/QSO_4_rrdetails.h5",
+          "artifact_sha256": "0b3d6ccb5f8e9ec5713f25275d825c6a5d1613bf237cefc1c3552f519527125e",
+          "array_name": "zscan/QSO:::LOZ/zchi2",
+          "shape": [
+            1,
+            788
+          ],
+          "dtype": "float32",
+          "note": "Redrock zscan QSO:::LOZ zchi2"
+        },
+        {
+          "artifact": "evaluation/baseline/runs/QSO_4/QSO_4_redrock/QSO_4_rrdetails.h5",
+          "artifact_sha256": "0b3d6ccb5f8e9ec5713f25275d825c6a5d1613bf237cefc1c3552f519527125e",
+          "array_name": "zscan/QSO:::LOZ/zcoeff",
+          "shape": [
+            1,
+            788,
+            4
+          ],
+          "dtype": "float32",
+          "note": "Redrock zscan QSO:::LOZ zcoeff"
+        },
+        {
+          "artifact": "evaluation/baseline/runs/QSO_4/QSO_4_redrock/QSO_4_rrdetails.h5",
+          "artifact_sha256": "0b3d6ccb5f8e9ec5713f25275d825c6a5d1613bf237cefc1c3552f519527125e",
+          "array_name": "zscan/STAR:::A/redshifts",
+          "shape": [
+            101
+          ],
+          "dtype": "float64",
+          "note": "Redrock zscan STAR:::A redshifts"
+        },
+        {
+          "artifact": "evaluation/baseline/runs/QSO_4/QSO_4_redrock/QSO_4_rrdetails.h5",
+          "artifact_sha256": "0b3d6ccb5f8e9ec5713f25275d825c6a5d1613bf237cefc1c3552f519527125e",
+          "array_name": "zscan/STAR:::A/penalty",
+          "shape": [
+            1,
+            101
+          ],
+          "dtype": "float32",
+          "note": "Redrock zscan STAR:::A penalty"
+        },
+        {
+          "artifact": "evaluation/baseline/runs/QSO_4/QSO_4_redrock/QSO_4_rrdetails.h5",
+          "artifact_sha256": "0b3d6ccb5f8e9ec5713f25275d825c6a5d1613bf237cefc1c3552f519527125e",
+          "array_name": "zscan/STAR:::A/zchi2",
+          "shape": [
+            1,
+            101
+          ],
+          "dtype": "float32",
+          "note": "Redrock zscan STAR:::A zchi2"
+        },
+        {
+          "artifact": "evaluation/baseline/runs/QSO_4/QSO_4_redrock/QSO_4_rrdetails.h5",
+          "artifact_sha256": "0b3d6ccb5f8e9ec5713f25275d825c6a5d1613bf237cefc1c3552f519527125e",
+          "array_name": "zscan/STAR:::A/zcoeff",
+          "shape": [
+            1,
+            101,
+            5
+          ],
+          "dtype": "float32",
+          "note": "Redrock zscan STAR:::A zcoeff"
+        },
+        {
+          "artifact": "evaluation/baseline/runs/QSO_4/QSO_4_redrock/QSO_4_rrdetails.h5",
+          "artifact_sha256": "0b3d6ccb5f8e9ec5713f25275d825c6a5d1613bf237cefc1c3552f519527125e",
+          "array_name": "zscan/STAR:::B/redshifts",
+          "shape": [
+            101
+          ],
+          "dtype": "float64",
+          "note": "Redrock zscan STAR:::B redshifts"
+        },
+        {
+          "artifact": "evaluation/baseline/runs/QSO_4/QSO_4_redrock/QSO_4_rrdetails.h5",
+          "artifact_sha256": "0b3d6ccb5f8e9ec5713f25275d825c6a5d1613bf237cefc1c3552f519527125e",
+          "array_name": "zscan/STAR:::B/penalty",
+          "shape": [
+            1,
+            101
+          ],
+          "dtype": "float32",
+          "note": "Redrock zscan STAR:::B penalty"
+        },
+        {
+          "artifact": "evaluation/baseline/runs/QSO_4/QSO_4_redrock/QSO_4_rrdetails.h5",
+          "artifact_sha256": "0b3d6ccb5f8e9ec5713f25275d825c6a5d1613bf237cefc1c3552f519527125e",
+          "array_name": "zscan/STAR:::B/zchi2",
+          "shape": [
+            1,
+            101
+          ],
+          "dtype": "float32",
+          "note": "Redrock zscan STAR:::B zchi2"
+        },
+        {
+          "artifact": "evaluation/baseline/runs/QSO_4/QSO_4_redrock/QSO_4_rrdetails.h5",
+          "artifact_sha256": "0b3d6ccb5f8e9ec5713f25275d825c6a5d1613bf237cefc1c3552f519527125e",
+          "array_name": "zscan/STAR:::B/zcoeff",
+          "shape": [
+            1,
+            101,
+            5
+          ],
+          "dtype": "float32",
+          "note": "Redrock zscan STAR:::B zcoeff"
+        },
+        {
+          "artifact": "evaluation/baseline/runs/QSO_4/QSO_4_redrock/QSO_4_rrdetails.h5",
+          "artifact_sha256": "0b3d6ccb5f8e9ec5713f25275d825c6a5d1613bf237cefc1c3552f519527125e",
+          "array_name": "zscan/STAR:::CV/redshifts",
+          "shape": [
+            101
+          ],
+          "dtype": "float64",
+          "note": "Redrock zscan STAR:::CV redshifts"
+        },
+        {
+          "artifact": "evaluation/baseline/runs/QSO_4/QSO_4_redrock/QSO_4_rrdetails.h5",
+          "artifact_sha256": "0b3d6ccb5f8e9ec5713f25275d825c6a5d1613bf237cefc1c3552f519527125e",
+          "array_name": "zscan/STAR:::CV/penalty",
+          "shape": [
+            1,
+            101
+          ],
+          "dtype": "float32",
+          "note": "Redrock zscan STAR:::CV penalty"
+        },
+        {
+          "artifact": "evaluation/baseline/runs/QSO_4/QSO_4_redrock/QSO_4_rrdetails.h5",
+          "artifact_sha256": "0b3d6ccb5f8e9ec5713f25275d825c6a5d1613bf237cefc1c3552f519527125e",
+          "array_name": "zscan/STAR:::CV/zchi2",
+          "shape": [
+            1,
+            101
+          ],
+          "dtype": "float32",
+          "note": "Redrock zscan STAR:::CV zchi2"
+        },
+        {
+          "artifact": "evaluation/baseline/runs/QSO_4/QSO_4_redrock/QSO_4_rrdetails.h5",
+          "artifact_sha256": "0b3d6ccb5f8e9ec5713f25275d825c6a5d1613bf237cefc1c3552f519527125e",
+          "array_name": "zscan/STAR:::CV/zcoeff",
+          "shape": [
+            1,
+            101,
+            3
+          ],
+          "dtype": "float32",
+          "note": "Redrock zscan STAR:::CV zcoeff"
+        },
+        {
+          "artifact": "evaluation/baseline/runs/QSO_4/QSO_4_redrock/QSO_4_rrdetails.h5",
+          "artifact_sha256": "0b3d6ccb5f8e9ec5713f25275d825c6a5d1613bf237cefc1c3552f519527125e",
+          "array_name": "zscan/STAR:::F/redshifts",
+          "shape": [
+            101
+          ],
+          "dtype": "float64",
+          "note": "Redrock zscan STAR:::F redshifts"
+        },
+        {
+          "artifact": "evaluation/baseline/runs/QSO_4/QSO_4_redrock/QSO_4_rrdetails.h5",
+          "artifact_sha256": "0b3d6ccb5f8e9ec5713f25275d825c6a5d1613bf237cefc1c3552f519527125e",
+          "array_name": "zscan/STAR:::F/penalty",
+          "shape": [
+            1,
+            101
+          ],
+          "dtype": "float32",
+          "note": "Redrock zscan STAR:::F penalty"
+        },
+        {
+          "artifact": "evaluation/baseline/runs/QSO_4/QSO_4_redrock/QSO_4_rrdetails.h5",
+          "artifact_sha256": "0b3d6ccb5f8e9ec5713f25275d825c6a5d1613bf237cefc1c3552f519527125e",
+          "array_name": "zscan/STAR:::F/zchi2",
+          "shape": [
+            1,
+            101
+          ],
+          "dtype": "float32",
+          "note": "Redrock zscan STAR:::F zchi2"
+        },
+        {
+          "artifact": "evaluation/baseline/runs/QSO_4/QSO_4_redrock/QSO_4_rrdetails.h5",
+          "artifact_sha256": "0b3d6ccb5f8e9ec5713f25275d825c6a5d1613bf237cefc1c3552f519527125e",
+          "array_name": "zscan/STAR:::F/zcoeff",
+          "shape": [
+            1,
+            101,
+            5
+          ],
+          "dtype": "float32",
+          "note": "Redrock zscan STAR:::F zcoeff"
+        },
+        {
+          "artifact": "evaluation/baseline/runs/QSO_4/QSO_4_redrock/QSO_4_rrdetails.h5",
+          "artifact_sha256": "0b3d6ccb5f8e9ec5713f25275d825c6a5d1613bf237cefc1c3552f519527125e",
+          "array_name": "zscan/STAR:::G/redshifts",
+          "shape": [
+            101
+          ],
+          "dtype": "float64",
+          "note": "Redrock zscan STAR:::G redshifts"
+        },
+        {
+          "artifact": "evaluation/baseline/runs/QSO_4/QSO_4_redrock/QSO_4_rrdetails.h5",
+          "artifact_sha256": "0b3d6ccb5f8e9ec5713f25275d825c6a5d1613bf237cefc1c3552f519527125e",
+          "array_name": "zscan/STAR:::G/penalty",
+          "shape": [
+            1,
+            101
+          ],
+          "dtype": "float32",
+          "note": "Redrock zscan STAR:::G penalty"
+        },
+        {
+          "artifact": "evaluation/baseline/runs/QSO_4/QSO_4_redrock/QSO_4_rrdetails.h5",
+          "artifact_sha256": "0b3d6ccb5f8e9ec5713f25275d825c6a5d1613bf237cefc1c3552f519527125e",
+          "array_name": "zscan/STAR:::G/zchi2",
+          "shape": [
+            1,
+            101
+          ],
+          "dtype": "float32",
+          "note": "Redrock zscan STAR:::G zchi2"
+        },
+        {
+          "artifact": "evaluation/baseline/runs/QSO_4/QSO_4_redrock/QSO_4_rrdetails.h5",
+          "artifact_sha256": "0b3d6ccb5f8e9ec5713f25275d825c6a5d1613bf237cefc1c3552f519527125e",
+          "array_name": "zscan/STAR:::G/zcoeff",
+          "shape": [
+            1,
+            101,
+            5
+          ],
+          "dtype": "float32",
+          "note": "Redrock zscan STAR:::G zcoeff"
+        },
+        {
+          "artifact": "evaluation/baseline/runs/QSO_4/QSO_4_redrock/QSO_4_rrdetails.h5",
+          "artifact_sha256": "0b3d6ccb5f8e9ec5713f25275d825c6a5d1613bf237cefc1c3552f519527125e",
+          "array_name": "zscan/STAR:::K/redshifts",
+          "shape": [
+            101
+          ],
+          "dtype": "float64",
+          "note": "Redrock zscan STAR:::K redshifts"
+        },
+        {
+          "artifact": "evaluation/baseline/runs/QSO_4/QSO_4_redrock/QSO_4_rrdetails.h5",
+          "artifact_sha256": "0b3d6ccb5f8e9ec5713f25275d825c6a5d1613bf237cefc1c3552f519527125e",
+          "array_name": "zscan/STAR:::K/penalty",
+          "shape": [
+            1,
+            101
+          ],
+          "dtype": "float32",
+          "note": "Redrock zscan STAR:::K penalty"
+        },
+        {
+          "artifact": "evaluation/baseline/runs/QSO_4/QSO_4_redrock/QSO_4_rrdetails.h5",
+          "artifact_sha256": "0b3d6ccb5f8e9ec5713f25275d825c6a5d1613bf237cefc1c3552f519527125e",
+          "array_name": "zscan/STAR:::K/zchi2",
+          "shape": [
+            1,
+            101
+          ],
+          "dtype": "float32",
+          "note": "Redrock zscan STAR:::K zchi2"
+        },
+        {
+          "artifact": "evaluation/baseline/runs/QSO_4/QSO_4_redrock/QSO_4_rrdetails.h5",
+          "artifact_sha256": "0b3d6ccb5f8e9ec5713f25275d825c6a5d1613bf237cefc1c3552f519527125e",
+          "array_name": "zscan/STAR:::K/zcoeff",
+          "shape": [
+            1,
+            101,
+            5
+          ],
+          "dtype": "float32",
+          "note": "Redrock zscan STAR:::K zcoeff"
+        },
+        {
+          "artifact": "evaluation/baseline/runs/QSO_4/QSO_4_redrock/QSO_4_rrdetails.h5",
+          "artifact_sha256": "0b3d6ccb5f8e9ec5713f25275d825c6a5d1613bf237cefc1c3552f519527125e",
+          "array_name": "zscan/STAR:::M/redshifts",
+          "shape": [
+            101
+          ],
+          "dtype": "float64",
+          "note": "Redrock zscan STAR:::M redshifts"
+        },
+        {
+          "artifact": "evaluation/baseline/runs/QSO_4/QSO_4_redrock/QSO_4_rrdetails.h5",
+          "artifact_sha256": "0b3d6ccb5f8e9ec5713f25275d825c6a5d1613bf237cefc1c3552f519527125e",
+          "array_name": "zscan/STAR:::M/penalty",
+          "shape": [
+            1,
+            101
+          ],
+          "dtype": "float32",
+          "note": "Redrock zscan STAR:::M penalty"
+        },
+        {
+          "artifact": "evaluation/baseline/runs/QSO_4/QSO_4_redrock/QSO_4_rrdetails.h5",
+          "artifact_sha256": "0b3d6ccb5f8e9ec5713f25275d825c6a5d1613bf237cefc1c3552f519527125e",
+          "array_name": "zscan/STAR:::M/zchi2",
+          "shape": [
+            1,
+            101
+          ],
+          "dtype": "float32",
+          "note": "Redrock zscan STAR:::M zchi2"
+        },
+        {
+          "artifact": "evaluation/baseline/runs/QSO_4/QSO_4_redrock/QSO_4_rrdetails.h5",
+          "artifact_sha256": "0b3d6ccb5f8e9ec5713f25275d825c6a5d1613bf237cefc1c3552f519527125e",
+          "array_name": "zscan/STAR:::M/zcoeff",
+          "shape": [
+            1,
+            101,
+            5
+          ],
+          "dtype": "float32",
+          "note": "Redrock zscan STAR:::M zcoeff"
+        },
+        {
+          "artifact": "evaluation/baseline/runs/QSO_4/QSO_4_redrock/QSO_4_rrdetails.h5",
+          "artifact_sha256": "0b3d6ccb5f8e9ec5713f25275d825c6a5d1613bf237cefc1c3552f519527125e",
+          "array_name": "zscan/STAR:::WD/redshifts",
+          "shape": [
+            101
+          ],
+          "dtype": "float64",
+          "note": "Redrock zscan STAR:::WD redshifts"
+        },
+        {
+          "artifact": "evaluation/baseline/runs/QSO_4/QSO_4_redrock/QSO_4_rrdetails.h5",
+          "artifact_sha256": "0b3d6ccb5f8e9ec5713f25275d825c6a5d1613bf237cefc1c3552f519527125e",
+          "array_name": "zscan/STAR:::WD/penalty",
+          "shape": [
+            1,
+            101
+          ],
+          "dtype": "float32",
+          "note": "Redrock zscan STAR:::WD penalty"
+        },
+        {
+          "artifact": "evaluation/baseline/runs/QSO_4/QSO_4_redrock/QSO_4_rrdetails.h5",
+          "artifact_sha256": "0b3d6ccb5f8e9ec5713f25275d825c6a5d1613bf237cefc1c3552f519527125e",
+          "array_name": "zscan/STAR:::WD/zchi2",
+          "shape": [
+            1,
+            101
+          ],
+          "dtype": "float32",
+          "note": "Redrock zscan STAR:::WD zchi2"
+        },
+        {
+          "artifact": "evaluation/baseline/runs/QSO_4/QSO_4_redrock/QSO_4_rrdetails.h5",
+          "artifact_sha256": "0b3d6ccb5f8e9ec5713f25275d825c6a5d1613bf237cefc1c3552f519527125e",
+          "array_name": "zscan/STAR:::WD/zcoeff",
+          "shape": [
+            1,
+            101,
+            5
+          ],
+          "dtype": "float32",
+          "note": "Redrock zscan STAR:::WD zcoeff"
+        },
+        {
+          "artifact": "evaluation/baseline/runs/QSO_4/QSO_4_redrock/QSO_4_rrdetails.h5",
+          "artifact_sha256": "0b3d6ccb5f8e9ec5713f25275d825c6a5d1613bf237cefc1c3552f519527125e",
+          "array_name": "zfit/39633286355488472/zfit/zz/0",
+          "shape": [
+            15
+          ],
+          "dtype": "float32",
+          "note": "Redrock zz for znum 0"
+        },
+        {
+          "artifact": "evaluation/baseline/runs/QSO_4/QSO_4_redrock/QSO_4_rrdetails.h5",
+          "artifact_sha256": "0b3d6ccb5f8e9ec5713f25275d825c6a5d1613bf237cefc1c3552f519527125e",
+          "array_name": "zfit/39633286355488472/zfit/zzchi2/0",
+          "shape": [
+            15
+          ],
+          "dtype": "float32",
+          "note": "Redrock zzchi2 for znum 0"
+        }
+      ],
+      "content_digest": "c8ab569a27b3d485e00014916e9e547a677aba1e94fac2b5b80fba108a729a70",
+      "id": "redrock_fit:c8ab569a27b3d485"
+    },
+    {
+      "node_type": "spectrum",
+      "schema_version": "forma-evidence-node-v4",
+      "provenance": {
+        "producer": "visual_interpreter",
+        "method": "utils/VI.py::_load_spectrum_from_fits",
+        "inputs": {
+          "spectrum_npz_sha256": "b1453dd8cfd1b2d37c2b4609ee80ebf00333d5861dfad55becde2cac7dcb7dfe",
+          "input_fits_sha256": "df6c065ad5ec7c190cb1ac546a619e70a89ab646528cbcaa5181731554b677bd"
+        },
+        "source_revision": null,
+        "note": "target_id from FIBERMAP HDU; array metadata from NPZ and FITS HDUs"
+      },
+      "uncertainty": null,
+      "file_sha256": "df6c065ad5ec7c190cb1ac546a619e70a89ab646528cbcaa5181731554b677bd",
+      "wavelength_min": 3600.0,
+      "wavelength_max": 9824.000000000524,
+      "n_points": 7608,
+      "arm_names": [
+        "B",
+        "R",
+        "Z"
+      ],
+      "snr_median": 46.64555060067673,
+      "target_id": 39633286355488472,
+      "array_references": [
+        {
+          "artifact": "evaluation/baseline/runs/QSO_4/visual_interpreter/QSO_4_spectrum.npz",
+          "artifact_sha256": "b1453dd8cfd1b2d37c2b4609ee80ebf00333d5861dfad55becde2cac7dcb7dfe",
+          "array_name": "wavelength",
+          "shape": [
+            7608
+          ],
+          "dtype": "float64",
+          "note": "wavelength array from VisualInterpreter NPZ"
+        },
+        {
+          "artifact": "evaluation/baseline/runs/QSO_4/visual_interpreter/QSO_4_spectrum.npz",
+          "artifact_sha256": "b1453dd8cfd1b2d37c2b4609ee80ebf00333d5861dfad55becde2cac7dcb7dfe",
+          "array_name": "flux",
+          "shape": [
+            7608
+          ],
+          "dtype": "float64",
+          "note": "flux array from VisualInterpreter NPZ"
+        },
+        {
+          "artifact": "evaluation/baseline/runs/QSO_4/visual_interpreter/QSO_4_spectrum.npz",
+          "artifact_sha256": "b1453dd8cfd1b2d37c2b4609ee80ebf00333d5861dfad55becde2cac7dcb7dfe",
+          "array_name": "snr",
+          "shape": [
+            7608
+          ],
+          "dtype": "float64",
+          "note": "snr array from VisualInterpreter NPZ"
+        },
+        {
+          "artifact": "evaluation/baseline/runs/QSO_4/visual_interpreter/QSO_4_spectrum.npz",
+          "artifact_sha256": "b1453dd8cfd1b2d37c2b4609ee80ebf00333d5861dfad55becde2cac7dcb7dfe",
+          "array_name": "ivar",
+          "shape": [
+            7608
+          ],
+          "dtype": "float64",
+          "note": "ivar array from VisualInterpreter NPZ"
+        },
+        {
+          "artifact": "example/basic/QSO_4.fits",
+          "artifact_sha256": "df6c065ad5ec7c190cb1ac546a619e70a89ab646528cbcaa5181731554b677bd",
+          "array_name": "B_MASK",
+          "shape": [
+            1,
+            2751
+          ],
+          "dtype": "uint32",
+          "note": "DESI B-camera mask array"
+        },
+        {
+          "artifact": "example/basic/QSO_4.fits",
+          "artifact_sha256": "df6c065ad5ec7c190cb1ac546a619e70a89ab646528cbcaa5181731554b677bd",
+          "array_name": "B_RESOLUTION",
+          "shape": [
+            1,
+            11,
+            2751
+          ],
+          "dtype": ">f4",
+          "note": "DESI B-camera resolution array"
+        },
+        {
+          "artifact": "example/basic/QSO_4.fits",
+          "artifact_sha256": "df6c065ad5ec7c190cb1ac546a619e70a89ab646528cbcaa5181731554b677bd",
+          "array_name": "R_MASK",
+          "shape": [
+            1,
+            2326
+          ],
+          "dtype": "uint32",
+          "note": "DESI R-camera mask array"
+        },
+        {
+          "artifact": "example/basic/QSO_4.fits",
+          "artifact_sha256": "df6c065ad5ec7c190cb1ac546a619e70a89ab646528cbcaa5181731554b677bd",
+          "array_name": "R_RESOLUTION",
+          "shape": [
+            1,
+            11,
+            2326
+          ],
+          "dtype": ">f4",
+          "note": "DESI R-camera resolution array"
+        },
+        {
+          "artifact": "example/basic/QSO_4.fits",
+          "artifact_sha256": "df6c065ad5ec7c190cb1ac546a619e70a89ab646528cbcaa5181731554b677bd",
+          "array_name": "Z_MASK",
+          "shape": [
+            1,
+            2881
+          ],
+          "dtype": "uint32",
+          "note": "DESI Z-camera mask array"
+        },
+        {
+          "artifact": "example/basic/QSO_4.fits",
+          "artifact_sha256": "df6c065ad5ec7c190cb1ac546a619e70a89ab646528cbcaa5181731554b677bd",
+          "array_name": "Z_RESOLUTION",
+          "shape": [
+            1,
+            11,
+            2881
+          ],
+          "dtype": ">f4",
+          "note": "DESI Z-camera resolution array"
+        }
+      ],
+      "content_digest": "5e62c5ad81be2617a7147aae9afa3b6e8d954bc6cbb62d6de07239dda72aae67",
+      "id": "spectrum:5e62c5ad81be2617"
+    }
+  ],
+  "edges": [
+    {
+      "source_id": "observed_feature:17ffc83e710b5382",
+      "target_id": "spectrum:5e62c5ad81be2617",
+      "edge_type": "observed_in",
+      "note": null
+    },
+    {
+      "source_id": "observed_feature:50134aedc255f95f",
+      "target_id": "spectrum:5e62c5ad81be2617",
+      "edge_type": "observed_in",
+      "note": null
+    },
+    {
+      "source_id": "observed_feature:621234be045dfc41",
+      "target_id": "spectrum:5e62c5ad81be2617",
+      "edge_type": "observed_in",
+      "note": null
+    },
+    {
+      "source_id": "observed_feature:737d74511c2bf84e",
+      "target_id": "spectrum:5e62c5ad81be2617",
+      "edge_type": "observed_in",
+      "note": null
+    },
+    {
+      "source_id": "observed_feature:a373b4267141a42a",
+      "target_id": "spectrum:5e62c5ad81be2617",
+      "edge_type": "observed_in",
+      "note": null
+    },
+    {
+      "source_id": "observed_feature:f30b1bd8cdfe3c46",
+      "target_id": "spectrum:5e62c5ad81be2617",
+      "edge_type": "observed_in",
+      "note": null
+    },
+    {
+      "source_id": "redrock_fit:c8ab569a27b3d485",
+      "target_id": "spectrum:5e62c5ad81be2617",
+      "edge_type": "derived_from",
+      "note": null
+    }
+  ],
+  "document_digest": "180e02a7b12f9faa15d1a5839c92ec821d28b4614140b2761e017badf452e1f6"
+}

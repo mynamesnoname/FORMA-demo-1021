@@ -1,0 +1,10 @@
+{
+  "schema_version": "forma-model-calls-v1",
+  "single_hypothesis_temperature": 0.1,
+  "feature_audit_temperature": 0.1,
+  "hypothesis_synthesis_temperature": 0.1,
+  "result_audit_temperature": 0.1,
+  "report_writer_temperature": 0.1,
+  "extraction_temperature": 0.0,
+  "self_evolve_temperature": 0.0
+}

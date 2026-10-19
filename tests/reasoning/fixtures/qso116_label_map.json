@@ -1,0 +1,67 @@
+{
+  "schema": "forma-hypothesis-label-map-v1",
+  "seed": "bd430a6d6a320cb24cae098cba271db6",
+  "fit_node_id_coverage": "complete",
+  "entries": [
+    {
+      "label": 1,
+      "file_prefix": "single_hypothesis/1",
+      "fit_content_key": "50b6cec922b4c8a3adb6c144a95b76a979c510dde6ad767f05744bdf88db10ed",
+      "z": 0.5424233218550429,
+      "fit_node_id": "redrock_fit:707f2fa82887dcea",
+      "znum": 5,
+      "spectype": "GALAXY",
+      "subtype": "ELG_60;ELG_21"
+    },
+    {
+      "label": 2,
+      "file_prefix": "single_hypothesis/2",
+      "fit_content_key": "7a97c3f95e0069368d2079432d169fa1a7a6101f27dd6e9399b51693497999e0",
+      "z": 2.9196962422694117,
+      "fit_node_id": "redrock_fit:21a3b0b1cfdcc335",
+      "znum": 0,
+      "spectype": "QSO",
+      "subtype": "_54;_37"
+    },
+    {
+      "label": 3,
+      "file_prefix": "single_hypothesis/3",
+      "fit_content_key": "a46e89b5f63f9e115afca0d29f64b6e96a333e07dde57825aa81956479e3e4b1",
+      "z": -0.0005607447321606066,
+      "fit_node_id": "redrock_fit:d329dbb873d0a325",
+      "znum": 3,
+      "spectype": "STAR",
+      "subtype": "G4V(32923)_15;M_6"
+    },
+    {
+      "label": 4,
+      "file_prefix": "single_hypothesis/4",
+      "fit_content_key": "f64d06419307e775d8d1bad45ad4384b0bda261186e83b0641cd64a6e73de3da",
+      "z": -0.0010220268078304992,
+      "fit_node_id": "redrock_fit:775f309db138ad50",
+      "znum": 4,
+      "spectype": "STAR",
+      "subtype": "G4V(32923)_15;M_6"
+    },
+    {
+      "label": 5,
+      "file_prefix": "single_hypothesis/5",
+      "fit_content_key": "ae5cc0a45bf705f8c2393b1da17407b964c330a4872085b58b99ce348fb49a0e",
+      "z": 0.7079175775287458,
+      "fit_node_id": "redrock_fit:7f2c0d0b85cdd106",
+      "znum": 1,
+      "spectype": "QSO",
+      "subtype": "BAL_1;_6"
+    },
+    {
+      "label": 6,
+      "file_prefix": "single_hypothesis/6",
+      "fit_content_key": "eb1ebd545539465a639ffb6400da2eaf3a7d3cca6250aa0edb19a88eba6f1dfa",
+      "z": 0.2121167421507701,
+      "fit_node_id": "redrock_fit:5ee95ec75e3a6e96",
+      "znum": 2,
+      "spectype": "GALAXY",
+      "subtype": "ELG_12;BGS_77"
+    }
+  ]
+}

@@ -1,0 +1,77 @@
+# ====================
+# Data & outputs (RECURSIVE)
+# ====================
+data/
+.data/
+test_set/
+.to_harness/
+llm-spectro-agent-old-master/
+.test_set/
+
+docs/
+agenticGraphReasoningDesign/
+evaluation/
+
+# 人机交互
+.design/
+.assets/
+.lingnote/
+.obsidian/
+.trash/
+
+_tmp/
+_lecture
+
+# agent
+.agents/
+.qoder/
+.claude/
+.arts/
+.codeartsdoer/
+.codex/
+.aws/
+
+# Paper
+.paper/
+.lecture
+
+# Backup
+.backup/
+
+# log
+.log/
+
+# Environments
+.env
+.env.*
+# the committed configuration template is the one exception
+!.env.example
+
+# Local validated method payloads selected by .env; examples live under docs/.
+config/analysis_method.json
+config/model_calls.json
+config/rule_parameters.json
+
+# VS Code
+.vscode/
+
+# WebUI persisted config
+.forma_webui_config.json
+
+# Python
+__pycache__/
+*.py[cod]
+*.so
+.Python
+.venv/
+env/
+ENV/
+
+# Test runner caches (pytest and coverage are optional; unittest is the default)
+# 测试运行器缓存（pytest 与 coverage 为可选；默认使用 unittest）
+.pytest_cache/
+.coverage
+htmlcov/
+
+# demo run artifacts under the example tree
+example/basic/output/

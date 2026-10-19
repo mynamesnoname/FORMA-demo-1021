@@ -1,0 +1,137 @@
+{
+  "fixture": "QSO_116",
+  "origin": ".data/output_/st004-real/QSO_116/QSO_116_hypothesis_analysis.txt (2026-10-11 real run)",
+  "verdict": {
+    "redshift": 2.9197,
+    "anchor_line": "C IV",
+    "anchor_wavelength": 6072.0,
+    "wavelength_error": 0.8,
+    "classification": "QSO",
+    "confidence": "MEDIUM",
+    "best_hypothesis_idx": 2,
+    "primary_evidence": "Two broad emission lines — Lyα at 4768.0 Å (FWHM ~2500 km/s, CWT SNR 13.0) and C IV at 6072.0 Å (FWHM ~3475 km/s, CWT SNR 23.3) — are detected at a consistent redshift (Δz=0.0012, ~90 km/s) with the correct QSO amplitude ordering (Lyα > C IV). No competing hypothesis explains both features.",
+    "excluded_hypotheses": [
+      {
+        "idx": 5,
+        "z": 0.7079,
+        "reason": "Rests on a single broad Mg II line; its Mg I_abs anchor (8831 Å) was removed as an OH-zone single-pixel spike artifact and its Hγ anchor (7474 Å) was removed as noise, leaving the 6072 Å feature unexplained.",
+        "fit_content_key": "ae5cc0a45bf705f8c2393b1da17407b964c330a4872085b58b99ce348fb49a0e",
+        "znum": 1,
+        "fit_node_id": "redrock_fit:7f2c0d0b85cdd106"
+      },
+      {
+        "idx": 6,
+        "z": 0.2121,
+        "reason": "Orphan [O III] doublet ([O III]a removed as noise) plus a fatal width mismatch — the broad 6072 Å feature (FWHM ~3475 km/s) is claimed as the true single narrow line [O III]b; no supporting low-ionization lines.",
+        "fit_content_key": "eb1ebd545539465a639ffb6400da2eaf3a7d3cca6250aa0edb19a88eba6f1dfa",
+        "znum": 2,
+        "fit_node_id": "redrock_fit:5ee95ec75e3a6e96"
+      },
+      {
+        "idx": 1,
+        "z": 0.5424,
+        "reason": "No LIKELY lines; all independent anchors fail (Mg II SNR <2.1, [O II] absent, Ca K/H separation mismatch, [O III] zero amplitude); the 7474 Å feature was removed as noise.",
+        "fit_content_key": "50b6cec922b4c8a3adb6c144a95b76a979c510dde6ad767f05744bdf88db10ed",
+        "znum": 5,
+        "fit_node_id": "redrock_fit:707f2fa82887dcea"
+      },
+      {
+        "idx": 3,
+        "z": -0.0006,
+        "reason": "No CWT feature falls within 20 Å of any predicted line at z≈0; all Gaussian fits returned noise-level results (local_snr < 5); Na D anchor removed as artifact.",
+        "fit_content_key": "a46e89b5f63f9e115afca0d29f64b6e96a333e07dde57825aa81956479e3e4b1",
+        "znum": 3,
+        "fit_node_id": "redrock_fit:d329dbb873d0a325"
+      },
+      {
+        "idx": 4,
+        "z": -0.001,
+        "reason": "No CWT feature within 20 Å of any prediction; all fits noise-level; Hβ and Na D are broad continuum wiggles (FWHM ~8600–9700 km/s), and Na D was removed as artifact.",
+        "fit_content_key": "f64d06419307e775d8d1bad45ad4384b0bda261186e83b0641cd64a6e73de3da",
+        "znum": 4,
+        "fit_node_id": "redrock_fit:775f309db138ad50"
+      }
+    ],
+    "best_hypothesis": {
+      "label": 2,
+      "file_prefix": "single_hypothesis/2",
+      "fit_content_key": "7a97c3f95e0069368d2079432d169fa1a7a6101f27dd6e9399b51693497999e0",
+      "z": 2.9196962422694117,
+      "fit_node_id": "redrock_fit:21a3b0b1cfdcc335",
+      "znum": 0,
+      "spectype": "QSO",
+      "subtype": "_54;_37"
+    },
+    "best_hypothesis_znum": 0,
+    "best_hypothesis_fit_node_id": "redrock_fit:21a3b0b1cfdcc335",
+    "hypothesis_priority": [
+      {
+        "rank": 1,
+        "label": 2,
+        "file_prefix": "single_hypothesis/2",
+        "fit_content_key": "7a97c3f95e0069368d2079432d169fa1a7a6101f27dd6e9399b51693497999e0",
+        "fit_node_id": "redrock_fit:21a3b0b1cfdcc335",
+        "znum": 0,
+        "z": 2.9196962422694117,
+        "evidence_strength": null,
+        "evidence_strength_unavailable_reason": "not_assessed"
+      },
+      {
+        "rank": 3,
+        "label": 5,
+        "file_prefix": "single_hypothesis/5",
+        "fit_content_key": "ae5cc0a45bf705f8c2393b1da17407b964c330a4872085b58b99ce348fb49a0e",
+        "fit_node_id": "redrock_fit:7f2c0d0b85cdd106",
+        "znum": 1,
+        "z": 0.7079175775287458,
+        "evidence_strength": null,
+        "evidence_strength_unavailable_reason": "not_assessed"
+      },
+      {
+        "rank": 4,
+        "label": 6,
+        "file_prefix": "single_hypothesis/6",
+        "fit_content_key": "eb1ebd545539465a639ffb6400da2eaf3a7d3cca6250aa0edb19a88eba6f1dfa",
+        "fit_node_id": "redrock_fit:5ee95ec75e3a6e96",
+        "znum": 2,
+        "z": 0.2121167421507701,
+        "evidence_strength": null,
+        "evidence_strength_unavailable_reason": "not_assessed"
+      },
+      {
+        "rank": 5,
+        "label": 1,
+        "file_prefix": "single_hypothesis/1",
+        "fit_content_key": "50b6cec922b4c8a3adb6c144a95b76a979c510dde6ad767f05744bdf88db10ed",
+        "fit_node_id": "redrock_fit:707f2fa82887dcea",
+        "znum": 5,
+        "z": 0.5424233218550429,
+        "evidence_strength": null,
+        "evidence_strength_unavailable_reason": "not_assessed"
+      },
+      {
+        "rank": 6,
+        "label": 3,
+        "file_prefix": "single_hypothesis/3",
+        "fit_content_key": "a46e89b5f63f9e115afca0d29f64b6e96a333e07dde57825aa81956479e3e4b1",
+        "fit_node_id": "redrock_fit:d329dbb873d0a325",
+        "znum": 3,
+        "z": -0.0005607447321606066,
+        "evidence_strength": null,
+        "evidence_strength_unavailable_reason": "not_assessed"
+      },
+      {
+        "rank": 7,
+        "label": 4,
+        "file_prefix": "single_hypothesis/4",
+        "fit_content_key": "f64d06419307e775d8d1bad45ad4384b0bda261186e83b0641cd64a6e73de3da",
+        "fit_node_id": "redrock_fit:775f309db138ad50",
+        "znum": 4,
+        "z": -0.0010220268078304992,
+        "evidence_strength": null,
+        "evidence_strength_unavailable_reason": "not_assessed"
+      }
+    ]
+  },
+  "parity_note": "2026-10-12 (defect-grade contract §3.3): enrichment now attaches the per-candidate evidence strength to each hypothesis_priority entry. The fixture records the additive keys; no pre-cutover key was removed or changed."
+}
