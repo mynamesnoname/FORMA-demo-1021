@@ -1,0 +1,168 @@
+{
+  "schema_version": "forma-fa-doublet-review-v1",
+  "node_type": "fa.doublet_review",
+  "node_key": "fa.real_doublet_or_not/graph-853b617a68f04c36bd82f06bdb770ac4/H1/doublet%3Acahk",
+  "run_id": "graph-853b617a68f04c36bd82f06bdb770ac4",
+  "branch_id": "main",
+  "hypothesis_ref": "H1",
+  "doublet_id": "doublet:cahk",
+  "claim_mode": "orphan",
+  "components": [
+    {
+      "line_id": "line:cak-3934-abs",
+      "line_name": "Ca K_abs",
+      "rest_angstrom": 3934.8,
+      "expected_obs_angstrom": 4870.7806575628,
+      "sh_status": "MARGINAL",
+      "measurement_id": "cwt:abs:0006",
+      "measurement_source": "CWT",
+      "measured_center_angstrom": 4868.000000000288,
+      "amplitude": -0.7605710029602051,
+      "measured_offset_from_expected_angstrom": -2.7806575625118057,
+      "fa_state": "signal_absent",
+      "cleaned_pairing": "rejected_measurement",
+      "fa_vote_artifact_refs": [
+        "fa/c3f2978dd151438a8c2c87cfb865e0e5/node",
+        "fa/206704c936b8445da4042b1cb5e1ca3d/node",
+        "fa/c00a7959cdf64400a05280256f0bd2b6/node"
+      ]
+    },
+    {
+      "line_id": "line:cah-3969-abs",
+      "line_name": "Ca H_abs",
+      "rest_angstrom": 3969.6,
+      "expected_obs_angstrom": 4913.858620072505,
+      "sh_status": "NOT_FOUND",
+      "measurement_id": null,
+      "measurement_source": null,
+      "measured_center_angstrom": null,
+      "amplitude": null,
+      "measured_offset_from_expected_angstrom": null,
+      "fa_state": null,
+      "cleaned_pairing": "no_pairing",
+      "fa_vote_artifact_refs": []
+    }
+  ],
+  "metrics": {
+    "expected_separation_angstrom": 43.077962509704776,
+    "registry_rest_separation_angstrom": 34.8,
+    "measured_separation_angstrom": null,
+    "separation_difference_angstrom": null,
+    "amplitude_ratio_a_over_b": null,
+    "reference_ratio_window_a_over_b": null,
+    "reference_ratio_note": "Ca K must be deeper than Ca H",
+    "reference_ratio_within_window": null,
+    "reference_ratio_is_advisory": true
+  },
+  "coverage": {
+    "requested_window_angstrom": [
+      4790.7806575628,
+      4993.858620072505
+    ],
+    "actual_window_angstrom": [
+      4791.200000000271,
+      4993.600000000317
+    ],
+    "spectrum_bounds_angstrom": [
+      3600.0,
+      9824.000000000524
+    ],
+    "component_cores": [
+      {
+        "line_id": "line:cak-3934-abs",
+        "predicted_obs_angstrom": 4870.7806575628,
+        "center_within_spectrum_bounds": true,
+        "samples": 38,
+        "valid_samples": 38,
+        "masked_samples": 0,
+        "assessable": true
+      },
+      {
+        "line_id": "line:cah-3969-abs",
+        "predicted_obs_angstrom": 4913.858620072505,
+        "center_within_spectrum_bounds": true,
+        "samples": 38,
+        "valid_samples": 38,
+        "masked_samples": 0,
+        "assessable": true
+      }
+    ],
+    "assessable": true,
+    "unreviewable_reason": null
+  },
+  "status": "complete",
+  "pair_supported": false,
+  "consultative_only": true,
+  "method_snapshot": {
+    "context_margin_angstrom": 80.0,
+    "component_check_half_angstrom": 15.0,
+    "cahk_outer_reference_sigma": 3.0,
+    "min_valid_component_samples": 5,
+    "vote_quorum": 3,
+    "max_attempts_per_vote_seat": 2
+  },
+  "vote_summary": {
+    "yes": 0,
+    "no": 3,
+    "yes_fraction": 0.0,
+    "assurance": "assured"
+  },
+  "ballots": [
+    {
+      "seat": 0,
+      "answer": "no",
+      "reason": "Ca K window (4868–4872 Å) shows only a shallow, broad dip offset ~2.8 Å blueward of prediction with FA=signal_absent; Ca H window (4912–4917 Å) shows a local peak, not absorption, with SH=NOT_FOUND. No credible second component and no convincing K feature, so the pair is not corroborated.",
+      "vote_ref": "fa_doublet/39a3210fced0421091b4f137d1f35d89/vote.json"
+    },
+    {
+      "seat": 1,
+      "answer": "no",
+      "reason": "Ca K window shows only a shallow, noise-level dip near 4868–4871 (~5.5 vs ~6.2 continuum), offset ~2.8 Å blueward of prediction and flagged signal_absent. Ca H window at 4913.9 Å shows no absorption trough at all — flux peaks (~8.0 at 4913.6) rather than dipping. The unpaired partner is absent, so the two-component interpretation is not corroborated.",
+      "vote_ref": "fa_doublet/d1049d934b9247e692cce7df67d0d9b3/vote.json"
+    },
+    {
+      "seat": 2,
+      "answer": "no",
+      "reason": "Ca K window (~4870.8 Å) is flat continuum with only a noise-level dip near 4868, no credible absorption; Ca H window (~4913.9 Å) shows a positive bump (~7.6-8.0) rather than absorption, and no partner measurement exists. Neither component is corroborated in the usable pixels, so the two-component interpretation fails.",
+      "vote_ref": "fa_doublet/b45285f511bc4d0c95cc807f29eb6de4/vote.json"
+    }
+  ],
+  "successful_votes": 3,
+  "required_votes": 3,
+  "failed_seats": 0,
+  "model_usage": {
+    "calls": 3,
+    "input_tokens": 27225,
+    "output_tokens": 1384,
+    "cache_hit_tokens": 1536,
+    "cache_hit_reported_calls": 3,
+    "cache_hit_unreported_calls": 0
+  },
+  "prompt_identity": {
+    "system_sha256": "92cc96d1542cdf1088b68d4688ccd8de256ac572ab050c2a5e087060f5955e1b",
+    "user_sha256": "f8dcba1a440b2f1121499708aed8fac5ad13ed249755de492e891873d329ca95",
+    "tool_name": "submit_doublet_vote",
+    "prompt_text_sha256": "b54939c045378005cfaab43203a03dd869c76297cdc5637a833f881500120dd5"
+  },
+  "source_refs": [
+    "sh/H1/node",
+    "sh/H1/catalog",
+    "sh/H1/judgments",
+    "spectrum_npz",
+    "fa/c3f2978dd151438a8c2c87cfb865e0e5/node",
+    "fa/206704c936b8445da4042b1cb5e1ca3d/node",
+    "fa/c00a7959cdf64400a05280256f0bd2b6/node"
+  ],
+  "attempt_refs": [
+    "fa_doublet/39a3210fced0421091b4f137d1f35d89/vote.json",
+    "fa_doublet/39a3210fced0421091b4f137d1f35d89/session.md",
+    "fa_doublet/39a3210fced0421091b4f137d1f35d89/model_usage.json",
+    "fa_doublet/d1049d934b9247e692cce7df67d0d9b3/vote.json",
+    "fa_doublet/d1049d934b9247e692cce7df67d0d9b3/session.md",
+    "fa_doublet/d1049d934b9247e692cce7df67d0d9b3/model_usage.json",
+    "fa_doublet/b45285f511bc4d0c95cc807f29eb6de4/vote.json",
+    "fa_doublet/b45285f511bc4d0c95cc807f29eb6de4/session.md",
+    "fa_doublet/b45285f511bc4d0c95cc807f29eb6de4/model_usage.json"
+  ],
+  "node_execution_id": "7055dcdc0a6e479caa71ba8b360ad83f"
+}

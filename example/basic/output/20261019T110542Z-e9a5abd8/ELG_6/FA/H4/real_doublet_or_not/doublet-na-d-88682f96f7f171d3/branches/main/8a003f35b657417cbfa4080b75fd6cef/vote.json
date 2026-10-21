@@ -1,0 +1,13 @@
+{
+  "answer": "no",
+  "reason": "Both component windows fall in low-ivar noise (ivar ~10-35) with no credible absorption at the predicted positions: a's center is 2.0 Å blueward and b's 1.5 Å redward of prediction, giving a measured separation of 9.53 Å vs expected 6.00 Å. Both single-feature FA states are signal_absent, so the joint doublet is not corroborated.",
+  "execution": {
+    "schema_version": "forma-agentic-node-execution-v1",
+    "run_id": "graph-fe0d30030bcc4939b88103e27753b2c1",
+    "branch_id": "main",
+    "node_key": "fa.real_doublet_or_not/graph-fe0d30030bcc4939b88103e27753b2c1/H4/doublet%3Ana-d",
+    "node_execution_id": "8a003f35b657417cbfa4080b75fd6cef",
+    "attempt_id": "1aa02ab8ab354af0a295c9abc365aa8e",
+    "relative_dir": "FA/H4/real_doublet_or_not/doublet-na-d-88682f96f7f171d3/branches/main/8a003f35b657417cbfa4080b75fd6cef"
+  }
+}

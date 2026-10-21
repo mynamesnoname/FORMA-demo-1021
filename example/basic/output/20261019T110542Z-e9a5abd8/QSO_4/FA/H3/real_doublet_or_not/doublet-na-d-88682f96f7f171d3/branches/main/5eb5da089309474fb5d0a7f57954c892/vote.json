@@ -1,0 +1,13 @@
+{
+  "answer": "no",
+  "reason": "D2 window (7299-7303 Å) shows a weak but coherent dip, but the D1 window (7292-7296 Å) is flat continuum with no absorption at the predicted 7294 Å position; the claimed D1 center (7326 Å) is 32 Å off, a pairing mismatch. Measured separation 26.7 Å vs expected 7.4 Å, so the two features are not a Na D pair.",
+  "execution": {
+    "schema_version": "forma-agentic-node-execution-v1",
+    "run_id": "graph-853b617a68f04c36bd82f06bdb770ac4",
+    "branch_id": "main",
+    "node_key": "fa.real_doublet_or_not/graph-853b617a68f04c36bd82f06bdb770ac4/H3/doublet%3Ana-d",
+    "node_execution_id": "5eb5da089309474fb5d0a7f57954c892",
+    "attempt_id": "0d68acb012f04307aed4b5ff91e7ffe7",
+    "relative_dir": "FA/H3/real_doublet_or_not/doublet-na-d-88682f96f7f171d3/branches/main/5eb5da089309474fb5d0a7f57954c892"
+  }
+}

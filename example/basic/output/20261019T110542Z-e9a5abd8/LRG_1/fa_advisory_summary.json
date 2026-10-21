@@ -1,0 +1,139 @@
+{
+  "schema_version": "forma-fa-advisory-summary-v1",
+  "run_id": "graph-6f4e6510cc5d45df9da3b7be0c8597cc",
+  "branch_id": "main",
+  "consultative_only": true,
+  "hypotheses": [
+    {
+      "hypothesis_ref": "H4",
+      "lya_forest": null,
+      "doublets": [
+        {
+          "doublet_id": "doublet:cahk",
+          "node_ref": "fa_doublet/2fdc36d19d4b4f3f805636345c38851d/node",
+          "status": "complete"
+        }
+      ]
+    },
+    {
+      "hypothesis_ref": "H2",
+      "lya_forest": null,
+      "doublets": [
+        {
+          "doublet_id": "doublet:oiii",
+          "node_ref": "fa_doublet/0389fbb06a724388a27289c108849ce5/node",
+          "status": "complete"
+        },
+        {
+          "doublet_id": "doublet:cahk",
+          "node_ref": "fa_doublet/07ece2f623004e97b40ad440a65f38c0/node",
+          "status": "complete"
+        }
+      ]
+    },
+    {
+      "hypothesis_ref": "H3",
+      "lya_forest": null,
+      "doublets": [
+        {
+          "doublet_id": "doublet:oiii",
+          "node_ref": "fa_doublet/f460405dfba84d4ebdf7513f493d9342/node",
+          "status": "complete"
+        },
+        {
+          "doublet_id": "doublet:nii",
+          "node_ref": "fa_doublet/6db0df6a7a5047509f796e2d60c48c0e/node",
+          "status": "complete"
+        },
+        {
+          "doublet_id": "doublet:cahk",
+          "node_ref": "fa_doublet/14d2511dfab84c9b95d7a7ec8e3bcf38/node",
+          "status": "complete"
+        },
+        {
+          "doublet_id": "doublet:na-d",
+          "node_ref": "fa_doublet/5a1d1be716924061b12bd60095289a6a/node",
+          "status": "complete"
+        }
+      ]
+    },
+    {
+      "hypothesis_ref": "H1",
+      "lya_forest": null,
+      "doublets": [
+        {
+          "doublet_id": "doublet:oiii",
+          "node_ref": "fa_doublet/70628ea7694a4fd2bb87d61742368bec/node",
+          "status": "complete"
+        },
+        {
+          "doublet_id": "doublet:sii",
+          "node_ref": "fa_doublet/12e250b86f284cc58b81c279bc95eda0/node",
+          "status": "complete"
+        },
+        {
+          "doublet_id": "doublet:nii",
+          "node_ref": "fa_doublet/33791b888b1f4ba68995a067ed5eb240/node",
+          "status": "complete"
+        },
+        {
+          "doublet_id": "doublet:cahk",
+          "node_ref": "fa_doublet/0fbae353b2fc4b70a399242e01dbb175/node",
+          "status": "complete"
+        }
+      ]
+    },
+    {
+      "hypothesis_ref": "H5",
+      "lya_forest": null,
+      "doublets": [
+        {
+          "doublet_id": "doublet:oiii",
+          "node_ref": "fa_doublet/7ec8f710ef65445ebc0606455950f382/node",
+          "status": "complete"
+        },
+        {
+          "doublet_id": "doublet:sii",
+          "node_ref": "fa_doublet/1c3a5f155bee46cdbcc65cfb760499c3/node",
+          "status": "complete"
+        },
+        {
+          "doublet_id": "doublet:nii",
+          "node_ref": "fa_doublet/4fbb2a4e0745431e93d516b63c12f3c5/node",
+          "status": "complete"
+        },
+        {
+          "doublet_id": "doublet:cahk",
+          "node_ref": "fa_doublet/931e9d29a3f945e4a84ac6699339e15d/node",
+          "status": "complete"
+        },
+        {
+          "doublet_id": "doublet:na-d",
+          "node_ref": "fa_doublet/7fd36ba0e8f54e28a759758c8dfe9c3a/node",
+          "status": "complete"
+        }
+      ]
+    },
+    {
+      "hypothesis_ref": "H6",
+      "lya_forest": null,
+      "doublets": [
+        {
+          "doublet_id": "doublet:oiii",
+          "node_ref": "fa_doublet/76d077feeda241498dba6c295581e60c/node",
+          "status": "complete"
+        },
+        {
+          "doublet_id": "doublet:sii",
+          "node_ref": "fa_doublet/5cb0bd00c07a4e3c98f93d1d613636dd/node",
+          "status": "complete"
+        },
+        {
+          "doublet_id": "doublet:cahk",
+          "node_ref": "fa_doublet/318f1a246a75471fa75f36f6029874ae/node",
+          "status": "complete"
+        }
+      ]
+    }
+  ]
+}

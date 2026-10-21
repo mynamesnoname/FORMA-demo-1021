@@ -1,0 +1,13 @@
+{
+  "answer": "no",
+  "reason": "Neither component window shows an absorption dip: Ca K (3930.8 Å) is flat noise with no negative excursion, and Ca H (3965.5 Å) is likewise flat, with its claimed center 3977.4 Å ~12 Å off prediction. Separation (45.7 Å vs 34.8 Å expected) and inverted amplitude ratio further contradict the pair; both FA states are signal_absent.",
+  "execution": {
+    "schema_version": "forma-agentic-node-execution-v1",
+    "run_id": "graph-325ff74c7f444efdb17e3f3b69698eea",
+    "branch_id": "main",
+    "node_key": "fa.real_doublet_or_not/graph-325ff74c7f444efdb17e3f3b69698eea/H1/doublet%3Acahk",
+    "node_execution_id": "15f6a7fa3e1b42469d5ca336909abd9b",
+    "attempt_id": "1b9243e64b404fd3bdc0e6f7307c41c0",
+    "relative_dir": "FA/H1/real_doublet_or_not/doublet-cahk-adc0de4c56cfce1d/branches/main/15f6a7fa3e1b42469d5ca336909abd9b"
+  }
+}

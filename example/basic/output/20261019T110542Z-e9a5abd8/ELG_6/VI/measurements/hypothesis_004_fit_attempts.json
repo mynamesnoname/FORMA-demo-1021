@@ -1,0 +1,73 @@
+[
+  {
+    "target": "He II",
+    "method": "fit_peak",
+    "predicted_obs": [
+      4365.134574095613
+    ],
+    "result": {
+      "center": 4315.135,
+      "center_err": 26.1908,
+      "amplitude": 0.168256,
+      "amplitude_err": 0.071548,
+      "sigma": 62.787,
+      "fwhm": 147.852,
+      "fwhm_km_s": 10272.0,
+      "delta_chi2_per_n": 0.109,
+      "local_rms": 0.268522,
+      "local_snr": 0.63,
+      "n_points": 500,
+      "flags": [
+        "center_at_bound"
+      ],
+      "message": "Fit OK. center=4315.13±26.191 Å, amp=0.1683, FWHM=147.9 Å (10272 km/s), S/N=0.6, Δχ²/n=0.1"
+    },
+    "status": "warning"
+  },
+  {
+    "target": "C III]",
+    "method": "fit_peak",
+    "predicted_obs": [
+      5079.884114818657
+    ],
+    "result": {
+      "center": 5056.043,
+      "center_err": 0.8446,
+      "amplitude": 0.164981,
+      "amplitude_err": 0.120769,
+      "sigma": 1.0,
+      "fwhm": 2.355,
+      "fwhm_km_s": 139.6,
+      "delta_chi2_per_n": 0.005,
+      "local_rms": 0.153004,
+      "local_snr": 1.08,
+      "n_points": 500,
+      "flags": [],
+      "message": "Fit OK. center=5056.04±0.845 Å, amp=0.1650, FWHM=2.4 Å (140 km/s), S/N=1.1, Δχ²/n=0.0"
+    },
+    "status": "ok"
+  },
+  {
+    "target": "[Ne V]",
+    "method": "fit_peak",
+    "predicted_obs": [
+      9116.649019051189
+    ],
+    "result": {
+      "center": 9132.526,
+      "center_err": 2.759,
+      "amplitude": 0.061796,
+      "amplitude_err": 0.060746,
+      "sigma": 2.435,
+      "fwhm": 5.734,
+      "fwhm_km_s": 188.2,
+      "delta_chi2_per_n": 0.008,
+      "local_rms": 0.070043,
+      "local_snr": 0.88,
+      "n_points": 500,
+      "flags": [],
+      "message": "Fit OK. center=9132.53±2.759 Å, amp=0.0618, FWHM=5.7 Å (188 km/s), S/N=0.9, Δχ²/n=0.0"
+    },
+    "status": "ok"
+  }
+]

@@ -1,0 +1,13 @@
+{
+  "answer": "no",
+  "reason": "Orphan claim not corroborated: the a-window near 6308 Å shows no distinct emission peak above the noisy continuum (and its measured center 6292 Å is 16 Å off prediction, already rejected), while the b-window near 6369 Å is flat continuum with no visible line. No credible two-component pair is present in the usable pixels.",
+  "execution": {
+    "schema_version": "forma-agentic-node-execution-v1",
+    "run_id": "graph-6f4e6510cc5d45df9da3b7be0c8597cc",
+    "branch_id": "main",
+    "node_key": "fa.real_doublet_or_not/graph-6f4e6510cc5d45df9da3b7be0c8597cc/H5/doublet%3Aoiii",
+    "node_execution_id": "88767b77594e4cd6adef73ae426440da",
+    "attempt_id": "5ee0d2ab830840259ed1ee0e44d3f241",
+    "relative_dir": "FA/H5/real_doublet_or_not/doublet-oiii-15250b3aa7a2fbdb/branches/main/88767b77594e4cd6adef73ae426440da"
+  }
+}

@@ -1,0 +1,169 @@
+{
+  "schema_version": "forma-sh-line-alignment-v1",
+  "run_id": "graph-325ff74c7f444efdb17e3f3b69698eea",
+  "branch_id": "main",
+  "hypothesis_ref": "H6",
+  "graph": "QSO",
+  "node_key": "sh2.alignment/H6/QSO",
+  "node_execution_id": "06f7bfce442546da93261a370f8f40bc",
+  "input_refs": [
+    "sh/H6/node",
+    "sh/H6/catalog",
+    "sh/H6/judgments",
+    "spectrum_npz",
+    "fa/1757960a350f4deb9b4aee694d27a9df/node",
+    "fa/2ecb7ab9cee646ea80616e0e3d3dd802/node",
+    "fa/35d321eabed24564877090f84a0e06a0/node",
+    "fa/48b5db09e46e4a99b597ecbc8679aa71/node",
+    "fa/4e0f417adf0e425cba15d6e83d45fe62/node",
+    "fa/54f59df1d8fa4184af610c970465c5ec/node",
+    "fa/5ec304c5bc3d4911ac9d85bde6cd8e04/node",
+    "fa/5fc360cade004e1d95aeec94485ed261/node",
+    "fa/77e73aadf3544bb388109669bec6555e/node",
+    "fa/7b4b3f4bde5f416da3f0e9566fdb2e12/node",
+    "fa/7ee866a3b1eb4058919c862effd50c8c/node",
+    "fa/804bbb4bdeb44cd8a5120b94dfcdeeef/node",
+    "fa/91a7953244c74dae93e50b0e5ef178de/node",
+    "fa/98cd3b20cecd4628872c3d144ea6ea00/node",
+    "fa/a11ae2afaef2411abe3edfce17083239/node",
+    "fa/a1c3992597c249e38f4f9f14fe7db303/node",
+    "fa/a6dbe494673e4d5bb7869d465bf3b0ac/node",
+    "fa/adfe126a44f9436fa7f7f8fc70bcb20c/node",
+    "fa/ba79c6c5f5464c828a089e3ea2e5247d/node",
+    "fa/c5024e5c8ba34446894cbfbf57d644cd/node",
+    "fa/d25ca5d9fd714c839dc5969b554e8840/node",
+    "fa/d5c716d30b8244b192eeac8f030ae74c/node",
+    "fa/d9b7484de37e493eb42b01bebaad6a0b/node",
+    "fa/ecc7a91d21d64345ad3da6a88275d046/node",
+    "fa/f2fa68a54bfc431c9ce8bc3f6524a5b7/node",
+    "fa/f5433e63884e47f085dbc79655e92324/node",
+    "fa/fb0add0161b64da28378c7b29cca2bbf/node"
+  ],
+  "vote_refs": [],
+  "output": {
+    "collisions": [],
+    "aligned_claims": [
+      {
+        "line_id": "line:cah-3969-abs",
+        "original_measurement_id": "fit:H6:0003",
+        "status": "unassigned",
+        "effective_feature_id": null
+      },
+      {
+        "line_id": "line:cak-3934-abs",
+        "original_measurement_id": null,
+        "status": "unassigned",
+        "effective_feature_id": null
+      },
+      {
+        "line_id": "line:gband-4305-abs",
+        "original_measurement_id": "fit:H6:0013",
+        "status": "unassigned",
+        "effective_feature_id": null
+      },
+      {
+        "line_id": "line:hbet-4862",
+        "original_measurement_id": "fit:H6:0009",
+        "status": "unassigned",
+        "effective_feature_id": null
+      },
+      {
+        "line_id": "line:hbet-4862-abs",
+        "original_measurement_id": "fit:H6:0015",
+        "status": "unassigned",
+        "effective_feature_id": null
+      },
+      {
+        "line_id": "line:hdel-4102",
+        "original_measurement_id": "fit:H6:0007",
+        "status": "unassigned",
+        "effective_feature_id": null
+      },
+      {
+        "line_id": "line:hdel-4102-abs",
+        "original_measurement_id": "fit:H6:0012",
+        "status": "unassigned",
+        "effective_feature_id": null
+      },
+      {
+        "line_id": "line:heps-3970",
+        "original_measurement_id": "fit:H6:0006",
+        "status": "unassigned",
+        "effective_feature_id": null
+      },
+      {
+        "line_id": "line:heps-3970-abs",
+        "original_measurement_id": null,
+        "status": "unassigned",
+        "effective_feature_id": null
+      },
+      {
+        "line_id": "line:hgam-4341",
+        "original_measurement_id": null,
+        "status": "unassigned",
+        "effective_feature_id": null
+      },
+      {
+        "line_id": "line:hgam-4341-abs",
+        "original_measurement_id": null,
+        "status": "unassigned",
+        "effective_feature_id": null
+      },
+      {
+        "line_id": "line:mgi-5176-abs",
+        "original_measurement_id": "cwt:abs:0003",
+        "status": "unassigned",
+        "effective_feature_id": null
+      },
+      {
+        "line_id": "line:mgii-2800",
+        "original_measurement_id": "cwt:em:0000",
+        "status": "original_claim",
+        "effective_feature_id": "cwt:em:0000"
+      },
+      {
+        "line_id": "line:mgii-2800-abs",
+        "original_measurement_id": null,
+        "status": "unassigned",
+        "effective_feature_id": null
+      },
+      {
+        "line_id": "line:nev-3426",
+        "original_measurement_id": null,
+        "status": "unassigned",
+        "effective_feature_id": null
+      },
+      {
+        "line_id": "line:oii-3727",
+        "original_measurement_id": null,
+        "status": "unassigned",
+        "effective_feature_id": null
+      },
+      {
+        "line_id": "line:oiii-4960",
+        "original_measurement_id": null,
+        "status": "unassigned",
+        "effective_feature_id": null
+      },
+      {
+        "line_id": "line:oiii-5008",
+        "original_measurement_id": null,
+        "status": "unassigned",
+        "effective_feature_id": null
+      }
+    ],
+    "model_usage": {
+      "calls": 0,
+      "input_tokens": 0,
+      "output_tokens": 0,
+      "cache_hit_tokens": 0,
+      "cache_hit_reported_calls": 0,
+      "cache_hit_unreported_calls": 0
+    },
+    "window_half_angstrom": 100.0,
+    "vote_quorum": 3,
+    "max_attempts_per_vote_seat": 2,
+    "outer_reference_sigma": 3.0,
+    "concurrency": 3
+  }
+}

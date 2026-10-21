@@ -1,0 +1,13 @@
+{
+  "answer": "no",
+  "reason": "Both components are assigned the identical measurement center (7496.8 Å), so the claimed 7.6 Å separation is not present: measured separation is 0.0 Å. The D1 window near 7497 shows only a shallow dip, and the D2 window near 7504.8 shows no distinct absorption dip at all (flux rises smoothly from ~6.2 to ~7.0). No two-component doublet is corroborated in the usable pixels.",
+  "execution": {
+    "schema_version": "forma-agentic-node-execution-v1",
+    "run_id": "graph-6f4e6510cc5d45df9da3b7be0c8597cc",
+    "branch_id": "main",
+    "node_key": "fa.real_doublet_or_not/graph-6f4e6510cc5d45df9da3b7be0c8597cc/H3/doublet%3Ana-d",
+    "node_execution_id": "28f9f6ad58bb407f89b455e8dc2f3d90",
+    "attempt_id": "feac0d9ce9174145978460e5f7300c1b",
+    "relative_dir": "FA/H3/real_doublet_or_not/doublet-na-d-88682f96f7f171d3/branches/main/28f9f6ad58bb407f89b455e8dc2f3d90"
+  }
+}

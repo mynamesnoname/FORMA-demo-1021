@@ -1,0 +1,26 @@
+{
+  "schema_version": "forma-sh-line-review-v1",
+  "key": "sh.pre_analysis/graph-df7434d5533647e999870708120307b0/H4",
+  "hypothesis_ref": "H4",
+  "hypothesis_redshift": -0.0013673513056349023,
+  "status": "complete",
+  "csv_path": "/mnt/linux_share/code/FORMA/example/basic/output/20261019T110542Z-e9a5abd8/BGS_2/SH/H4/pre_analysis/branches/main/3cd00e208e2345ca8061e56c83b52ed2/lines.csv",
+  "csv_sha256": "6bd7c1658d3cbd64fa587bd544309edb927b332d9b9c7bb940723d7a6d914fba",
+  "measurement_catalog_path": "/mnt/linux_share/code/FORMA/example/basic/output/20261019T110542Z-e9a5abd8/BGS_2/VI/measurements/hypothesis_003_measurement_catalog.json",
+  "measurement_catalog_sha256": "d0102d4f68036e8b17cf7f5e4de00093841d301dfe6e71b2ecc4ca3560f98aa9",
+  "judgment_path": "/mnt/linux_share/code/FORMA/example/basic/output/20261019T110542Z-e9a5abd8/BGS_2/SH/H4/pre_analysis/branches/main/3cd00e208e2345ca8061e56c83b52ed2/lines_judgments.json",
+  "judgment_sha256": "92502bee720cc847ba5d973252df02a72de63f60b72a8273b6ee41b4d9ebba47",
+  "session_stage1_path": "/mnt/linux_share/code/FORMA/example/basic/output/20261019T110542Z-e9a5abd8/BGS_2/SH/H4/pre_analysis/branches/main/3cd00e208e2345ca8061e56c83b52ed2/stage1_session.md",
+  "session_stage1_sha256": "7fb38efd6b1d5efc5d207cdb084670a5c5838c749c55496641e3ca435ae6b382",
+  "adopted_lines_plot_path": "/mnt/linux_share/code/FORMA/example/basic/output/20261019T110542Z-e9a5abd8/BGS_2/SH/H4/pre_analysis/branches/main/3cd00e208e2345ca8061e56c83b52ed2/adopted_lines.png",
+  "adopted_lines_plot_sha256": "f4a00fa71a66c794382164af9cfa2c0cc4d408582786ee4c144bb540ff271c8c",
+  "execution": {
+    "schema_version": "forma-agentic-node-execution-v1",
+    "run_id": "graph-df7434d5533647e999870708120307b0",
+    "branch_id": "main",
+    "node_key": "sh.pre_analysis/graph-df7434d5533647e999870708120307b0/H4",
+    "node_execution_id": "3cd00e208e2345ca8061e56c83b52ed2",
+    "attempt_id": "04981e0578214e76914a5f42fa8c2b56",
+    "relative_dir": "SH/H4/pre_analysis/branches/main/3cd00e208e2345ca8061e56c83b52ed2"
+  }
+}

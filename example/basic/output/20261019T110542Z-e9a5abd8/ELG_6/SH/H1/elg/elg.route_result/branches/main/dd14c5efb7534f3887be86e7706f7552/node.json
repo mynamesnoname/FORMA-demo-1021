@@ -1,0 +1,44 @@
+{
+  "schema_version": "forma-elg-node-v1",
+  "graph_version": "forma-elg-type-graph-v1",
+  "run_id": "graph-fe0d30030bcc4939b88103e27753b2c1",
+  "branch_id": "main",
+  "hypothesis_ref": "H1",
+  "node_key": "sh2.elg/H1/elg.route_result",
+  "node_type": "elg.route_result",
+  "status": "completed",
+  "input_refs": [
+    "sh2/8d4d0d213ec1447da7f1226531eb6417/node"
+  ],
+  "evidence_refs": [
+    "sh2/8d4d0d213ec1447da7f1226531eb6417/node"
+  ],
+  "output": {
+    "path_status": "survive",
+    "candidate_type": "ELG",
+    "reason_code": "emission_support",
+    "to_graph": null,
+    "from_graph": "ELG",
+    "fixed_redshift": 0.1068183112742081,
+    "preliminary_classification": "LRG/BGS",
+    "unresolved_reasons": [
+      "old_population_hint_not_a_hard_gate"
+    ],
+    "rule_id": "project:elg-canvas-v1",
+    "rule_version": "forma-elg-type-graph-v1",
+    "evidence_refs": [
+      "sh2/8d4d0d213ec1447da7f1226531eb6417/node"
+    ],
+    "qso_transfer_mode": null,
+    "qso_trigger_pairs": [],
+    "retained_diagnostic_pairs": [],
+    "galaxy_retention_by_mgii_pair": false,
+    "nev_measurement_id": null
+  },
+  "unresolved_reasons": [
+    "old_population_hint_not_a_hard_gate"
+  ],
+  "created_by": "code",
+  "node_execution_id": "dd14c5efb7534f3887be86e7706f7552",
+  "attempt_id": "658c337ba79f49469da77202321d216d"
+}

@@ -1,0 +1,13 @@
+{
+  "answer": "no",
+  "reason": "Ca K window shows only a weak, shallow dip offset ~3.5 Å from prediction (FA=signal_absent), and the Ca H window shows a local peak rather than any absorption (SH=NOT_FOUND). Neither component is a credible absorption feature, so the two-component doublet is not corroborated in the usable pixels.",
+  "execution": {
+    "schema_version": "forma-agentic-node-execution-v1",
+    "run_id": "graph-853b617a68f04c36bd82f06bdb770ac4",
+    "branch_id": "main",
+    "node_key": "fa.real_doublet_or_not/graph-853b617a68f04c36bd82f06bdb770ac4/H3/doublet%3Acahk",
+    "node_execution_id": "3bc24e551d87410d9cc44dea56f0bf40",
+    "attempt_id": "9f3b8fe3f489476c993d2d11ff077d4f",
+    "relative_dir": "FA/H3/real_doublet_or_not/doublet-cahk-adc0de4c56cfce1d/branches/main/3bc24e551d87410d9cc44dea56f0bf40"
+  }
+}

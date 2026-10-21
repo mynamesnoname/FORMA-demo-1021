@@ -1,0 +1,13 @@
+{
+  "answer": "no",
+  "reason": "Neither predicted component window (5883.5, 5889.5 Å) shows an absorption dip; both are flat continuum. Claimed centers (5914.7, 5920.5 Å) are ~31 Å redward of prediction and also show no absorption. Amplitudes are 0.0 and both single-feature states are signal_absent, so the two-component interpretation is not corroborated.",
+  "execution": {
+    "schema_version": "forma-agentic-node-execution-v1",
+    "run_id": "graph-df7434d5533647e999870708120307b0",
+    "branch_id": "main",
+    "node_key": "fa.real_doublet_or_not/graph-df7434d5533647e999870708120307b0/H4/doublet%3Ana-d",
+    "node_execution_id": "afdbddc4c251446ba160dbae6d35fc26",
+    "attempt_id": "ee96d8a9384a45639bda3aa194f5f1da",
+    "relative_dir": "FA/H4/real_doublet_or_not/doublet-na-d-88682f96f7f171d3/branches/main/afdbddc4c251446ba160dbae6d35fc26"
+  }
+}

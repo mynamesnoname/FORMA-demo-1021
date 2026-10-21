@@ -1,0 +1,69 @@
+{
+  "schema_version": "forma-qso-node-v1",
+  "graph_version": "forma-qso-entry-v1",
+  "run_id": "graph-853b617a68f04c36bd82f06bdb770ac4",
+  "branch_id": "main",
+  "hypothesis_ref": "H6",
+  "node_key": "sh2.qso/H6/qso.type1_formal_gate",
+  "node_type": "qso.type1_formal_gate",
+  "status": "completed",
+  "input_refs": [
+    "sh2/0537e1c792f14ef8acb95e61d18dad67/node",
+    "sh2/552f2a1b0e8f460eb7566b866be8fe54/node",
+    "sh2/57d5b79b10984fe6b0675d2b4d6eea29/node",
+    "sh2/b62b8c30d40642a88d9dbc0e1e16a6b3/node",
+    "sh2/e36be4f9d36d41d08dfef9a635e21964/node"
+  ],
+  "output": {
+    "selected_line_ids": [
+      "line:civ-1549",
+      "line:ciii-1909"
+    ],
+    "gate_status": "type1_failed",
+    "effective_line_states": [
+      [
+        "line:civ-1549",
+        "failed"
+      ],
+      [
+        "line:ciii-1909",
+        "failed"
+      ]
+    ],
+    "raw_line_states": {
+      "line:civ-1549": "failed",
+      "line:ciii-1909": "failed"
+    },
+    "coverage": {
+      "line:lya-1216": "outside_range",
+      "line:civ-1549": "usable",
+      "line:ciii-1909": "usable",
+      "line:mgii-2800": "usable"
+    },
+    "state_source_refs": {
+      "line:civ-1549": [
+        "sh2/57d5b79b10984fe6b0675d2b4d6eea29/node",
+        "sh2/552f2a1b0e8f460eb7566b866be8fe54/node"
+      ],
+      "line:ciii-1909": [
+        "sh2/0537e1c792f14ef8acb95e61d18dad67/node",
+        "sh2/b62b8c30d40642a88d9dbc0e1e16a6b3/node"
+      ]
+    },
+    "reason_codes": [
+      "line:civ-1549:failed",
+      "line:ciii-1909:failed"
+    ]
+  },
+  "evidence_refs": [
+    "sh2/0537e1c792f14ef8acb95e61d18dad67/node",
+    "sh2/552f2a1b0e8f460eb7566b866be8fe54/node",
+    "sh2/57d5b79b10984fe6b0675d2b4d6eea29/node",
+    "sh2/b62b8c30d40642a88d9dbc0e1e16a6b3/node",
+    "sh2/e36be4f9d36d41d08dfef9a635e21964/node"
+  ],
+  "unresolved_reasons": [],
+  "created_by": "code",
+  "node_execution_id": "f4b31cc7751f4e1aafade840e8eda228",
+  "attempt_id": "a4c5a2bbb20549cab29135a871704f27"
+}

@@ -1,0 +1,13 @@
+{
+  "answer": "no",
+  "reason": "Neither component window shows a credible line: around 4961 Å the flux is a flat noisy continuum (~0.5-1.0) with no peak at the predicted center, and around 5009 Å likewise no distinct feature (values ~0.6-0.9, comparable to surrounding noise). The claimed centers (4985.7, 5025.0) are offset by 24 and 16 Å from prediction, and the measured separation (39.2 Å) is ~8.7 Å short of the 47.9 Å expected. Both single-feature states are signal_absent, so the joint doublet is not corroborated.",
+  "execution": {
+    "schema_version": "forma-agentic-node-execution-v1",
+    "run_id": "graph-fe0d30030bcc4939b88103e27753b2c1",
+    "branch_id": "main",
+    "node_key": "fa.real_doublet_or_not/graph-fe0d30030bcc4939b88103e27753b2c1/H4/doublet%3Aoiii",
+    "node_execution_id": "4bb600e4c08d40b79e5c7becd62cef95",
+    "attempt_id": "d0969937cf1c408cb0cf39adb176221f",
+    "relative_dir": "FA/H4/real_doublet_or_not/doublet-oiii-15250b3aa7a2fbdb/branches/main/4bb600e4c08d40b79e5c7becd62cef95"
+  }
+}

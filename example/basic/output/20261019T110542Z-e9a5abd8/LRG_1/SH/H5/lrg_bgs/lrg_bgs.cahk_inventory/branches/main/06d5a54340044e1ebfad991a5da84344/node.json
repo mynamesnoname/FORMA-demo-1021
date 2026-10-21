@@ -1,0 +1,72 @@
+{
+  "schema_version": "forma-lrg-bgs-node-v1",
+  "graph_version": "forma-lrg-bgs-type-graph-v2",
+  "run_id": "graph-6f4e6510cc5d45df9da3b7be0c8597cc",
+  "branch_id": "main",
+  "hypothesis_ref": "H5",
+  "node_key": "sh2.lrg_bgs/H5/lrg_bgs.cahk_inventory",
+  "node_type": "lrg_bgs.cahk_inventory",
+  "status": "completed",
+  "input_refs": [
+    "sh2/54485335aded4d8792f9cbf7aad1bdf4/node"
+  ],
+  "evidence_refs": [
+    "sh2/54485335aded4d8792f9cbf7aad1bdf4/node"
+  ],
+  "output": {
+    "components": [
+      {
+        "line_id": "line:cak-3934-abs",
+        "line_name": "Ca K_abs",
+        "rest_angstrom": 3934.8,
+        "expected_obs_angstrom": 5004.209726274055,
+        "sh_status": "LIKELY",
+        "measurement_id": "fit:H5:0006",
+        "measurement_source": "fit_doublet",
+        "measured_center_angstrom": 5004.88,
+        "amplitude": -1.939078,
+        "measured_offset_from_expected_angstrom": 0.6702737259447531,
+        "fa_state": "signal_present",
+        "cleaned_pairing": "adopted",
+        "fa_vote_artifact_refs": [
+          "fa/73cd1a2ca21642d78c106e1fb4feffc3/node",
+          "fa/08b5d410051c4e8f8885e383223731b2/node",
+          "fa/49bfda3674b44e619cb175860e1788fc/node"
+        ],
+        "predicted_obs_angstrom": 5004.209726274055
+      },
+      {
+        "line_id": "line:cah-3969-abs",
+        "line_name": "Ca H_abs",
+        "rest_angstrom": 3969.6,
+        "expected_obs_angstrom": 5048.46775679005,
+        "sh_status": "LIKELY",
+        "measurement_id": "fit:H5:0007",
+        "measurement_source": "fit_doublet",
+        "measured_center_angstrom": 5047.321,
+        "amplitude": -1.970934,
+        "measured_offset_from_expected_angstrom": -1.146756790049949,
+        "fa_state": "signal_present",
+        "cleaned_pairing": "adopted",
+        "fa_vote_artifact_refs": [
+          "fa/d39260163b6e454aa5d9ddc0b2c6da35/node",
+          "fa/6f98d49a757f42728636b6bb6d0dbe0e/node",
+          "fa/d621fa38eb28462db3bf2620f4d6d5ae/node"
+        ],
+        "predicted_obs_angstrom": 5048.46775679005
+      }
+    ],
+    "adopted_count": 2,
+    "adopted_line_ids": [
+      "line:cak-3934-abs",
+      "line:cah-3969-abs"
+    ],
+    "inventory_status": "assessed",
+    "unknown_is_negative": false,
+    "doublet_advisory": null
+  },
+  "unresolved_reasons": [],
+  "created_by": "code",
+  "node_execution_id": "06d5a54340044e1ebfad991a5da84344",
+  "attempt_id": "3168463ac0224f0389a95c5a7a6a75e6"
+}

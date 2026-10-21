@@ -1,0 +1,139 @@
+{
+  "schema_version": "forma-type-entry-route-v1",
+  "run_id": "graph-df7434d5533647e999870708120307b0",
+  "branch_id": "main",
+  "hypothesis_ref": "H4",
+  "node_key": "sh2.entry_router/H4",
+  "input_refs": [
+    "fa/03899db0cdd74451b666d7be12d483a5/node",
+    "fa/03b67a16aac14efd989c436d96b09ef9/node",
+    "fa/03eb448ddbae4d108fef16c4d0f9cc77/node",
+    "fa/0706f151481042fdbba67f9206ee6329/node",
+    "fa/08178f20e4a548a4bc1aa58cf21beab4/node",
+    "fa/0cf7efe68c01474e9cbc4d61a64eb60e/node",
+    "fa/10a7e0964edd48d0bf414f43928e1a90/node",
+    "fa/1c8225ca537c41a8af4d6a3091e836b0/node",
+    "fa/1e073b5572b042fa85eedd990a8126ab/node",
+    "fa/24dcfaf8f7d2423b8b75d10a2e5a5c55/node",
+    "fa/2774ace914f04dda80dd7f1158ab50e6/node",
+    "fa/29e9e782e75f47c0a267ccfa1449c11a/node",
+    "fa/2b377cd68c724941ba82ef124016731d/node",
+    "fa/2be35e922c10427ea3b2338b2332675a/node",
+    "fa/30cfa205ff8047328596b4b92e3c7e61/node",
+    "fa/3558e74825354c4a83d02db6470c1305/node",
+    "fa/36304362f92b486c877efdece67bfc8a/node",
+    "fa/38fff71079e6423e865e9bb5958da294/node",
+    "fa/39f4c7762ff349a7b9a1c077b38a5550/node",
+    "fa/3c872b2fd0dc4ae38ad80186030156c5/node",
+    "fa/3ec9f8684dfb42029d68e0fd16ec5d6b/node",
+    "fa/4f1f46a79e914fba9f32d7c03b21e60f/node",
+    "fa/522f0e6fd4804aeb8a6add7f8941f348/node",
+    "fa/53d9eed9ab3b41d3aa3c0942f0a2a433/node",
+    "fa/541d873e22674539a1b5ea371cc41d7f/node",
+    "fa/5a22723e614e4c3b843cbfdb021abd77/node",
+    "fa/6a850e2cc90a4f5692e9a7a0b0a4a75b/node",
+    "fa/6c60e1f677bf4d42b895db7b8ad17b5f/node",
+    "fa/729f87aae8b04d068ce47b7d7d795119/node",
+    "fa/78e3c2d3d1db45c7bc52620882ac157e/node",
+    "fa/79dce426597b4307947fd756a1474b8e/node",
+    "fa/7d2c3523c6e340df81936a193dfad0ee/node",
+    "fa/914e52093d1e40f7bed51c47d4423186/node",
+    "fa/9747b6ec95da4ec7918353c8d9da86c0/node",
+    "fa/9779c42de02a496ba9fdd5e7f0f3c5d1/node",
+    "fa/97a6e85e67f64693ab029560bda7fa60/node",
+    "fa/97ba75f663474de38802571816f15c06/node",
+    "fa/9c8b2730da2f4b0ea9fbae182cef8624/node",
+    "fa/a0a82a4f239847a7913b03204b229ba4/node",
+    "fa/bce6be55239c42c68f7f6f8a8c00521c/node",
+    "fa/c15eca5685ed476ea9faff86d24aca22/node",
+    "fa/c3569227f7f14efcb3f19c8dd6ea4e95/node",
+    "fa/c547042c3d124177b9c28e25616bcb7e/node",
+    "fa/d00e4c8e91ed4c119b0644e73a5eb6b1/node",
+    "fa/d9bf61630c024352b348619acfa20d1e/node",
+    "fa/d9c0a749115f4f048fac03afd6e421a1/node",
+    "fa/dbda9aa4f03d47d7adbc240c0e8a4a53/node",
+    "fa/dc9275a52a274a3985299cdf85a68dcc/node",
+    "fa/dec49342c57b438aa7447257c45a1106/node",
+    "fa/df9f19b48a85466d861326759b0a14c7/node",
+    "fa/e1512934e4a1464db7792deb44493bf8/node",
+    "fa/e22f34bb0f344aada5dd26f6ee0677c6/node",
+    "fa/e33178bc23f44e67a2abddfd45db8561/node",
+    "fa/e9507a5199df48798021b61a10422955/node",
+    "fa/ea7a94c8af694e73afdb80b2ab15686f/node",
+    "fa/ecfa7731b44046c5aac66dfb106ae41f/node",
+    "fa/f0cee9cd0b264fb89d66611a71e5deb0/node",
+    "fa/f3bd972e550848c28bb1603191c2d16d/node",
+    "fa/f8331308299d42a5a03469f186975628/node",
+    "fa/fd07cca548784feb8f219b0ba0a23c15/node",
+    "sh/H4/catalog",
+    "sh/H4/judgments",
+    "sh/H4/node",
+    "spectrum_npz"
+  ],
+  "output": {
+    "checks": [
+      {
+        "name": "nev",
+        "positive": false,
+        "pairs": []
+      },
+      {
+        "name": "qso_type1",
+        "positive": false,
+        "pairs": [],
+        "mgii_pair_retains_galaxy": false
+      },
+      {
+        "name": "old_population",
+        "positive": false,
+        "pairs": [],
+        "dn4000": {
+          "index_id": "index:dn4000",
+          "rule_id": "rule:formal-dn4000-interpretation",
+          "reference_bands": {
+            "strong": 1.6,
+            "moderate_low": 1.3,
+            "moderate_high": 1.6
+          },
+          "minimum_valid_samples_per_band": 3,
+          "windows": {
+            "blue": {
+              "window_angstrom": [
+                3844.7356974733057,
+                3944.598962342742
+              ],
+              "fully_covered": true,
+              "sample_count": 125,
+              "usable_sample_count": 125,
+              "mean_flux": 1.4447785162329674
+            },
+            "red": {
+              "window_angstrom": [
+                3994.5305947774605,
+                4094.393859646897
+              ],
+              "fully_covered": true,
+              "sample_count": 124,
+              "usable_sample_count": 124,
+              "mean_flux": 1.4737016129637919
+            }
+          },
+          "value": 1.0200190523362964,
+          "reference_strength": "not_strong",
+          "consultative_only": true,
+          "unresolved_reason": null
+        }
+      },
+      {
+        "name": "emission_galaxy",
+        "positive": false,
+        "oii_pair": null,
+        "oiii_pairs": [],
+        "oiii_distinct_pair": false
+      }
+    ],
+    "selected_initial_graph": null,
+    "selected_reason": "no_adopted_entry_evidence",
+    "eligible_graphs": []
+  }
+}

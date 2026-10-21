@@ -1,0 +1,274 @@
+[
+  {
+    "line_id": "line:nev-3426",
+    "measurement_id": null,
+    "status": "NOT_FOUND",
+    "reason_codes": [
+      "weak_snr",
+      "no_cwt_feature",
+      "offset"
+    ],
+    "comment": "No CWT feature near 3946.5; fit_peak at 3959.7 has local SNR 0.36 and broad 2544 km/s, not credible. Blue edge region."
+  },
+  {
+    "line_id": "line:oii-3727",
+    "measurement_id": null,
+    "status": "NOT_FOUND",
+    "reason_codes": [
+      "center_at_bound",
+      "no_cwt_feature"
+    ],
+    "comment": "No CWT feature near 4293; fit_peak center_at_bound with zero amplitude, unselectable."
+  },
+  {
+    "line_id": "line:cak-3934-abs",
+    "measurement_id": null,
+    "status": "NOT_FOUND",
+    "reason_codes": [
+      "separation_fail",
+      "offset",
+      "blend"
+    ],
+    "comment": "Doublet fit gives Ca K at 4482.6, ~50 A blueward of prediction with huge width; separation fail. No credible CWT trough. Weak plausible component but not adoptable."
+  },
+  {
+    "line_id": "line:cah-3969-abs",
+    "measurement_id": null,
+    "status": "NOT_FOUND",
+    "reason_codes": [
+      "separation_fail",
+      "blend",
+      "offset"
+    ],
+    "comment": "Ca H fit at 4579.7 near prediction but part of failed doublet with implausible widths; depth ordering uncertain. No independent CWT trough; not adopted."
+  },
+  {
+    "line_id": "line:heps-3970",
+    "measurement_id": null,
+    "status": "NOT_FOUND",
+    "reason_codes": [
+      "center_at_bound",
+      "no_cwt_feature"
+    ],
+    "comment": "No CWT emission near 4573; fit_peak center_at_bound, unselectable."
+  },
+  {
+    "line_id": "line:heps-3970-abs",
+    "measurement_id": "fit:H3:0015",
+    "status": "MARGINAL",
+    "reason_codes": [
+      "weak_snr",
+      "broad_width",
+      "blend"
+    ],
+    "comment": "Fit trough at 4575.2 close to prediction but very broad (4118 km/s) and low local SNR; blended with Ca H region. Weak marginal absorption."
+  },
+  {
+    "line_id": "line:hdel-4102",
+    "measurement_id": null,
+    "status": "NOT_FOUND",
+    "reason_codes": [
+      "center_at_bound",
+      "no_cwt_feature"
+    ],
+    "comment": "No CWT emission near 4726; fit_peak center_at_bound, unselectable."
+  },
+  {
+    "line_id": "line:hdel-4102-abs",
+    "measurement_id": "fit:H3:0016",
+    "status": "MARGINAL",
+    "reason_codes": [
+      "offset",
+      "weak_snr"
+    ],
+    "comment": "Fit trough at 4755.3, ~29 A redward of prediction, narrow width; plausible weak absorption but offset weakens confidence."
+  },
+  {
+    "line_id": "line:gband-4305-abs",
+    "measurement_id": "fit:H3:0017",
+    "status": "MARGINAL",
+    "reason_codes": [
+      "offset",
+      "blend"
+    ],
+    "comment": "Fit trough at 4989.6, ~30 A redward of prediction; broad and blended with Hgamma_abs at nearly same center. Marginal."
+  },
+  {
+    "line_id": "line:hgam-4341",
+    "measurement_id": null,
+    "status": "NOT_FOUND",
+    "reason_codes": [
+      "zero_amplitude",
+      "no_cwt_feature"
+    ],
+    "comment": "No CWT emission near 5001; fit_peak zero amplitude, no signal."
+  },
+  {
+    "line_id": "line:hgam-4341-abs",
+    "measurement_id": "fit:H3:0018",
+    "status": "MARGINAL",
+    "reason_codes": [
+      "offset",
+      "blend"
+    ],
+    "comment": "Fit trough at 4989.5, ~12 A blueward; broad and degenerate with G-band fit at same center. Marginal."
+  },
+  {
+    "line_id": "line:hbet-4862",
+    "measurement_id": null,
+    "status": "NOT_FOUND",
+    "reason_codes": [
+      "weak_snr",
+      "no_cwt_feature"
+    ],
+    "comment": "No CWT emission near 5601; fit_peak at 5558 has local SNR 0.59 and broad width, not credible."
+  },
+  {
+    "line_id": "line:hbet-4862-abs",
+    "measurement_id": "fit:H3:0019",
+    "status": "MARGINAL",
+    "reason_codes": [
+      "offset",
+      "weak_snr"
+    ],
+    "comment": "Fit trough at 5648.6, ~47 A redward of prediction; weak local SNR. Marginal absorption."
+  },
+  {
+    "line_id": "line:oiii-4960",
+    "measurement_id": null,
+    "status": "NOT_FOUND",
+    "reason_codes": [
+      "separation_fail",
+      "weak_snr",
+      "no_cwt_feature"
+    ],
+    "comment": "Doublet fit at 5731.6 with separation fail and component ratio ~1; no CWT emission. Not credible."
+  },
+  {
+    "line_id": "line:oiii-5008",
+    "measurement_id": null,
+    "status": "NOT_FOUND",
+    "reason_codes": [
+      "separation_fail",
+      "broad_width",
+      "no_cwt_feature"
+    ],
+    "comment": "Doublet fit at 5819 with 9904 km/s width and separation fail; no CWT emission. Not credible."
+  },
+  {
+    "line_id": "line:mgi-5176-abs",
+    "measurement_id": "fit:H3:0020",
+    "status": "MARGINAL",
+    "reason_codes": [
+      "offset",
+      "broad_width",
+      "weak_snr"
+    ],
+    "comment": "Fit trough at 6001.1, ~38 A redward, very broad (2767 km/s) and low SNR. Marginal."
+  },
+  {
+    "line_id": "line:nad1-5891-abs",
+    "measurement_id": null,
+    "status": "NOT_FOUND",
+    "reason_codes": [
+      "offset",
+      "blend"
+    ],
+    "comment": "Nearest CWT trough at 6831.2 implies z=0.1595, ~45 A redward of prediction; no credible Na D1 component at 6786.6."
+  },
+  {
+    "line_id": "line:nad-5895-abs",
+    "measurement_id": null,
+    "status": "NOT_FOUND",
+    "reason_codes": [
+      "offset",
+      "blend"
+    ],
+    "comment": "CWT trough at 6831.2 is ~40 A redward of 6791.2; not a credible Na D match."
+  },
+  {
+    "line_id": "line:nad2-5897-abs",
+    "measurement_id": null,
+    "status": "NOT_FOUND",
+    "reason_codes": [
+      "offset",
+      "blend"
+    ],
+    "comment": "CWT trough at 6831.2 is ~38 A redward of 6793.5; no credible Na D2 component."
+  },
+  {
+    "line_id": "line:nii-6549",
+    "measurement_id": null,
+    "status": "NOT_FOUND",
+    "reason_codes": [
+      "unconstrained_fit",
+      "separation_fail",
+      "no_cwt_feature"
+    ],
+    "comment": "Doublet fit unconstrained (huge errors, ratio 107); no CWT emission at 7544.8. Not credible."
+  },
+  {
+    "line_id": "line:half-6564",
+    "measurement_id": null,
+    "status": "NOT_FOUND",
+    "reason_codes": [
+      "zero_amplitude",
+      "no_cwt_feature"
+    ],
+    "comment": "No CWT emission at 7561.9; fit_peak zero amplitude. Not detected."
+  },
+  {
+    "line_id": "line:half-6564-abs",
+    "measurement_id": null,
+    "status": "NOT_FOUND",
+    "reason_codes": [
+      "offset",
+      "no_cwt_feature"
+    ],
+    "comment": "CWT trough at 7516.8 implies z=0.1451, ~45 A blueward of prediction; not a credible Halpha absorption match."
+  },
+  {
+    "line_id": "line:nii-6585",
+    "measurement_id": null,
+    "status": "NOT_FOUND",
+    "reason_codes": [
+      "offset",
+      "blend",
+      "unconstrained_fit"
+    ],
+    "comment": "CWT peak at 7632 implies z=0.1589, ~46 A redward; doublet fit unconstrained. Not adopted."
+  },
+  {
+    "line_id": "line:sii-6718",
+    "measurement_id": null,
+    "status": "NOT_FOUND",
+    "reason_codes": [
+      "separation_fail",
+      "offset",
+      "no_cwt_feature"
+    ],
+    "comment": "Doublet fit at 7786 with separation fail and ratio 0.17; no CWT emission near 7738.9. Not credible."
+  },
+  {
+    "line_id": "line:sii-6732",
+    "measurement_id": null,
+    "status": "NOT_FOUND",
+    "reason_codes": [
+      "separation_fail",
+      "offset",
+      "no_cwt_feature"
+    ],
+    "comment": "Doublet fit at 7705.5, ~50 A blueward with separation fail; no CWT emission. Not credible."
+  },
+  {
+    "line_id": "line:cat1-8498-abs",
+    "measurement_id": "fit:H3:0021",
+    "status": "MARGINAL",
+    "reason_codes": [
+      "offset",
+      "weak_snr",
+      "red_edge"
+    ],
+    "comment": "Fit trough at 9803.5, ~15 A redward of prediction, narrow; low SNR and near red edge. Marginal."
+  }
+]

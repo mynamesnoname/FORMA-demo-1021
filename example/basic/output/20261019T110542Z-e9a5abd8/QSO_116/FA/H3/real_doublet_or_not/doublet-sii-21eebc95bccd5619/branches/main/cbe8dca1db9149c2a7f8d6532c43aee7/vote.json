@@ -1,0 +1,13 @@
+{
+  "answer": "no",
+  "reason": "Both predicted windows (6714.5 and 6728.9 Å) show only flat noise-level flux with no emission peaks; the claimed centers (6664.5, 6678.9 Å) are ~50 Å off prediction and also show no features. No two-component signal is corroborated.",
+  "execution": {
+    "schema_version": "forma-agentic-node-execution-v1",
+    "run_id": "graph-325ff74c7f444efdb17e3f3b69698eea",
+    "branch_id": "main",
+    "node_key": "fa.real_doublet_or_not/graph-325ff74c7f444efdb17e3f3b69698eea/H3/doublet%3Asii",
+    "node_execution_id": "cbe8dca1db9149c2a7f8d6532c43aee7",
+    "attempt_id": "235d8e7abdf04a6694549b6ea98d0c19",
+    "relative_dir": "FA/H3/real_doublet_or_not/doublet-sii-21eebc95bccd5619/branches/main/cbe8dca1db9149c2a7f8d6532c43aee7"
+  }
+}

@@ -1,0 +1,178 @@
+{
+  "schema_version": "forma-fa-doublet-review-v1",
+  "node_type": "fa.doublet_review",
+  "node_key": "fa.real_doublet_or_not/graph-325ff74c7f444efdb17e3f3b69698eea/H3/doublet%3Asii",
+  "run_id": "graph-325ff74c7f444efdb17e3f3b69698eea",
+  "branch_id": "main",
+  "hypothesis_ref": "H3",
+  "doublet_id": "doublet:sii",
+  "claim_mode": "complete_pair",
+  "components": [
+    {
+      "line_id": "line:sii-6718",
+      "line_name": "[S II]a",
+      "rest_angstrom": 6718.3,
+      "expected_obs_angstrom": 6714.532748665925,
+      "sh_status": "MARGINAL",
+      "measurement_id": "fit:H3:0002",
+      "measurement_source": "fit_doublet",
+      "measured_center_angstrom": 6664.534,
+      "amplitude": 0.0,
+      "measured_offset_from_expected_angstrom": -49.99874866592563,
+      "fa_state": "signal_absent",
+      "cleaned_pairing": "rejected_measurement",
+      "fa_vote_artifact_refs": [
+        "fa/f6714ffd55334a3380cc9d0820bc1de0/node",
+        "fa/13f0a446219c4096a8c96838ea067f36/node",
+        "fa/ed042c79b849453caac398ac22e4343d/node"
+      ]
+    },
+    {
+      "line_id": "line:sii-6732",
+      "line_name": "[S II]b",
+      "rest_angstrom": 6732.7,
+      "expected_obs_angstrom": 6728.924673941782,
+      "sh_status": "MARGINAL",
+      "measurement_id": "fit:H3:0003",
+      "measurement_source": "fit_doublet",
+      "measured_center_angstrom": 6678.925,
+      "amplitude": 0.0,
+      "measured_offset_from_expected_angstrom": -49.99967394178202,
+      "fa_state": "signal_absent",
+      "cleaned_pairing": "rejected_measurement",
+      "fa_vote_artifact_refs": [
+        "fa/f0462d38a7cf4211b5c63b19bc522d28/node",
+        "fa/df0818bec8f04c308d4b2caa772500f1/node",
+        "fa/50b71b74378a4441817c099ec155fdec/node"
+      ]
+    }
+  ],
+  "metrics": {
+    "expected_separation_angstrom": 14.39192527585692,
+    "registry_rest_separation_angstrom": 14.4,
+    "measured_separation_angstrom": 14.391000000000531,
+    "separation_difference_angstrom": -0.0009252758563889074,
+    "amplitude_ratio_a_over_b": null,
+    "reference_ratio_window_a_over_b": [
+      0.7,
+      1.4
+    ],
+    "reference_ratio_note": "a ≈ b",
+    "reference_ratio_within_window": null,
+    "reference_ratio_is_advisory": true
+  },
+  "coverage": {
+    "requested_window_angstrom": [
+      6634.532748665925,
+      6808.924673941782
+    ],
+    "actual_window_angstrom": [
+      6635.200000000199,
+      6808.8000000002385
+    ],
+    "spectrum_bounds_angstrom": [
+      3600.0,
+      9824.000000000524
+    ],
+    "component_cores": [
+      {
+        "line_id": "line:sii-6718",
+        "predicted_obs_angstrom": 6714.532748665925,
+        "center_within_spectrum_bounds": true,
+        "samples": 37,
+        "valid_samples": 37,
+        "masked_samples": 0,
+        "assessable": true
+      },
+      {
+        "line_id": "line:sii-6732",
+        "predicted_obs_angstrom": 6728.924673941782,
+        "center_within_spectrum_bounds": true,
+        "samples": 37,
+        "valid_samples": 37,
+        "masked_samples": 0,
+        "assessable": true
+      }
+    ],
+    "assessable": true,
+    "unreviewable_reason": null
+  },
+  "status": "complete",
+  "pair_supported": false,
+  "consultative_only": true,
+  "method_snapshot": {
+    "context_margin_angstrom": 80.0,
+    "component_check_half_angstrom": 15.0,
+    "cahk_outer_reference_sigma": 3.0,
+    "min_valid_component_samples": 5,
+    "vote_quorum": 3,
+    "max_attempts_per_vote_seat": 2
+  },
+  "vote_summary": {
+    "yes": 0,
+    "no": 3,
+    "yes_fraction": 0.0,
+    "assurance": "assured"
+  },
+  "ballots": [
+    {
+      "seat": 0,
+      "answer": "no",
+      "reason": "Both predicted windows (6714.5 and 6728.9 Å) show only flat noise-level continuum with no emission peaks; the claimed centers are ~50 Å blueward of prediction and amplitude is 0.0, so neither component is corroborated.",
+      "vote_ref": "fa_doublet/aa096dc0bfe9488192eb6b82f346d0ec/vote.json"
+    },
+    {
+      "seat": 1,
+      "answer": "no",
+      "reason": "Both component windows (6714.5 and 6728.9 Å) show only flat noise-level flux with no emission peak; the claimed measurement centers are ~50 Å blueward of prediction, and both single-feature states are signal_absent. No two-component structure is corroborated.",
+      "vote_ref": "fa_doublet/96b06e89d4d34519b329c73f4acff508/vote.json"
+    },
+    {
+      "seat": 2,
+      "answer": "no",
+      "reason": "Both predicted windows (6714.5 and 6728.9 Å) show only flat noise-level flux with no emission peaks; the claimed centers (6664.5, 6678.9 Å) are ~50 Å off prediction and also show no features. No two-component signal is corroborated.",
+      "vote_ref": "fa_doublet/cbe8dca1db9149c2a7f8d6532c43aee7/vote.json"
+    }
+  ],
+  "successful_votes": 3,
+  "required_votes": 3,
+  "failed_seats": 0,
+  "model_usage": {
+    "calls": 3,
+    "input_tokens": 24465,
+    "output_tokens": 340,
+    "cache_hit_tokens": 1536,
+    "cache_hit_reported_calls": 3,
+    "cache_hit_unreported_calls": 0
+  },
+  "prompt_identity": {
+    "system_sha256": "92cc96d1542cdf1088b68d4688ccd8de256ac572ab050c2a5e087060f5955e1b",
+    "user_sha256": "844638973ab57c0cac64164eb6624446316f686c332479db361544caf488ce07",
+    "tool_name": "submit_doublet_vote",
+    "prompt_text_sha256": "d3b3f473204b57df974e8465274252e07a42d392d4022c36e62dd3b6fd5b27f0"
+  },
+  "source_refs": [
+    "sh/H3/node",
+    "sh/H3/catalog",
+    "sh/H3/judgments",
+    "spectrum_npz",
+    "fa/f6714ffd55334a3380cc9d0820bc1de0/node",
+    "fa/13f0a446219c4096a8c96838ea067f36/node",
+    "fa/ed042c79b849453caac398ac22e4343d/node",
+    "fa/f0462d38a7cf4211b5c63b19bc522d28/node",
+    "fa/df0818bec8f04c308d4b2caa772500f1/node",
+    "fa/50b71b74378a4441817c099ec155fdec/node"
+  ],
+  "attempt_refs": [
+    "fa_doublet/aa096dc0bfe9488192eb6b82f346d0ec/vote.json",
+    "fa_doublet/aa096dc0bfe9488192eb6b82f346d0ec/session.md",
+    "fa_doublet/aa096dc0bfe9488192eb6b82f346d0ec/model_usage.json",
+    "fa_doublet/96b06e89d4d34519b329c73f4acff508/vote.json",
+    "fa_doublet/96b06e89d4d34519b329c73f4acff508/session.md",
+    "fa_doublet/96b06e89d4d34519b329c73f4acff508/model_usage.json",
+    "fa_doublet/cbe8dca1db9149c2a7f8d6532c43aee7/vote.json",
+    "fa_doublet/cbe8dca1db9149c2a7f8d6532c43aee7/session.md",
+    "fa_doublet/cbe8dca1db9149c2a7f8d6532c43aee7/model_usage.json"
+  ],
+  "node_execution_id": "29716f19dcd24d58b57db024ea04baff"
+}

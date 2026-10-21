@@ -1,0 +1,13 @@
+{
+  "answer": "no",
+  "reason": "Neither component window shows a real line: at 4959 Å the flux is a smooth broad continuum rise with no localized peak (claimed center 4964 Å is a ~5 Å mismatch, FA=signal_absent), and at 5007 Å the flux is a local trough (~1.2–1.8) with no emission feature (SH=NOT_FOUND). The expected strong 5007 partner is absent, so the two-component interpretation is not corroborated.",
+  "execution": {
+    "schema_version": "forma-agentic-node-execution-v1",
+    "run_id": "graph-6f4e6510cc5d45df9da3b7be0c8597cc",
+    "branch_id": "main",
+    "node_key": "fa.real_doublet_or_not/graph-6f4e6510cc5d45df9da3b7be0c8597cc/H2/doublet%3Aoiii",
+    "node_execution_id": "120825b42b454e989cfd452c3fd5ae7f",
+    "attempt_id": "4156170cdef94cc6a609e7572f07ae23",
+    "relative_dir": "FA/H2/real_doublet_or_not/doublet-oiii-15250b3aa7a2fbdb/branches/main/120825b42b454e989cfd452c3fd5ae7f"
+  }
+}

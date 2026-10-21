@@ -1,0 +1,26 @@
+{
+  "schema_version": "forma-sh-line-review-v1",
+  "key": "sh.pre_analysis/graph-6f4e6510cc5d45df9da3b7be0c8597cc/H6",
+  "hypothesis_ref": "H6",
+  "hypothesis_redshift": 0.001342809297630766,
+  "status": "complete",
+  "csv_path": "/mnt/linux_share/code/FORMA/example/basic/output/20261019T110542Z-e9a5abd8/LRG_1/SH/H6/pre_analysis/branches/main/c2d3024b380a49bc88997ca955be6577/lines.csv",
+  "csv_sha256": "46c34074da26c2f164dd375e75d52996967ff22b2b6024a8aad2883066045dd9",
+  "measurement_catalog_path": "/mnt/linux_share/code/FORMA/example/basic/output/20261019T110542Z-e9a5abd8/LRG_1/VI/measurements/hypothesis_005_measurement_catalog.json",
+  "measurement_catalog_sha256": "b00ed43b48e701ea5b1807a09a06619b09c833a055bb9ed7d6ed2f136a2d4257",
+  "judgment_path": "/mnt/linux_share/code/FORMA/example/basic/output/20261019T110542Z-e9a5abd8/LRG_1/SH/H6/pre_analysis/branches/main/c2d3024b380a49bc88997ca955be6577/lines_judgments.json",
+  "judgment_sha256": "ac4264ba8eba604389044cd0163f8942db721d754e1fee1684f211cfb6502555",
+  "session_stage1_path": "/mnt/linux_share/code/FORMA/example/basic/output/20261019T110542Z-e9a5abd8/LRG_1/SH/H6/pre_analysis/branches/main/c2d3024b380a49bc88997ca955be6577/stage1_session.md",
+  "session_stage1_sha256": "2014d986729b648a7f776bef041e0f113760401f1d14dc97304c3fa5d6b45632",
+  "adopted_lines_plot_path": "/mnt/linux_share/code/FORMA/example/basic/output/20261019T110542Z-e9a5abd8/LRG_1/SH/H6/pre_analysis/branches/main/c2d3024b380a49bc88997ca955be6577/adopted_lines.png",
+  "adopted_lines_plot_sha256": "d0b5bae66520509dee4df8eff32cf8299dde896e9daaf626b2bd49cdb1959e1f",
+  "execution": {
+    "schema_version": "forma-agentic-node-execution-v1",
+    "run_id": "graph-6f4e6510cc5d45df9da3b7be0c8597cc",
+    "branch_id": "main",
+    "node_key": "sh.pre_analysis/graph-6f4e6510cc5d45df9da3b7be0c8597cc/H6",
+    "node_execution_id": "c2d3024b380a49bc88997ca955be6577",
+    "attempt_id": "09f3677892274057b8e0da6301e07788",
+    "relative_dir": "SH/H6/pre_analysis/branches/main/c2d3024b380a49bc88997ca955be6577"
+  }
+}

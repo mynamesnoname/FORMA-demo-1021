@@ -1,0 +1,277 @@
+[
+  {
+    "line_id": "line:nev-3426",
+    "measurement_id": "cwt:em:0001",
+    "status": "LIKELY",
+    "reason_codes": [
+      "offset_ok",
+      "snr_strong",
+      "ridge_persistent"
+    ],
+    "comment": "Peak 4242.4 (z=0.2383) within 1.4 A of prediction; SNR 21.3, ridge 19, FWHM 1917 km/s broad but credible."
+  },
+  {
+    "line_id": "line:oii-3727",
+    "measurement_id": "cwt:em:0002",
+    "status": "LIKELY",
+    "reason_codes": [
+      "offset_ok",
+      "snr_strong",
+      "ridge_persistent"
+    ],
+    "comment": "Peak 4616.8 (z=0.2387), offset 3.2 A, SNR 76.2, ridge 24; strong narrow feature."
+  },
+  {
+    "line_id": "line:cak-3934-abs",
+    "measurement_id": "cwt:abs:0006",
+    "status": "MARGINAL",
+    "reason_codes": [
+      "offset_ok",
+      "weak_depth",
+      "blend",
+      "doublet_separation_fail"
+    ],
+    "comment": "Trough 4868.0 (z=0.2372) offset 2.8 A; doublet fit gave Ca K 4869.6 but Ca H component failed separation (huge error). Weak depth, plausible Ca K component retained."
+  },
+  {
+    "line_id": "line:cah-3969-abs",
+    "measurement_id": null,
+    "status": "NOT_FOUND",
+    "reason_codes": [
+      "no_cwt_feature",
+      "doublet_separation_fail",
+      "unreliable_fit"
+    ],
+    "comment": "No CWT trough near 4913.9; doublet fit Ca H center 4863.9 with 445 A error and separation fail, not adoptable."
+  },
+  {
+    "line_id": "line:heps-3970",
+    "measurement_id": "cwt:em:0004",
+    "status": "MARGINAL",
+    "reason_codes": [
+      "offset_ok",
+      "weak_amp",
+      "blend"
+    ],
+    "comment": "Peak 4912.8 (z=0.2374) offset 1.7 A; low amp 1.3, SNR 10.7, ridge 14; blended with Ca H region, weak but plausible."
+  },
+  {
+    "line_id": "line:heps-3970-abs",
+    "measurement_id": null,
+    "status": "NOT_FOUND",
+    "reason_codes": [
+      "no_cwt_feature",
+      "fit_offset_large"
+    ],
+    "comment": "No trough at 4914.5; fit_peak center 4869.0 is 45 A off and belongs to Ca K region, not adoptable."
+  },
+  {
+    "line_id": "line:hdel-4102",
+    "measurement_id": "cwt:em:0005",
+    "status": "LIKELY",
+    "reason_codes": [
+      "offset_ok",
+      "snr_strong",
+      "ridge_persistent"
+    ],
+    "comment": "Peak 5079.2 (z=0.2380) offset 0.3 A; SNR 16.2, ridge 24, narrow FWHM 999 km/s."
+  },
+  {
+    "line_id": "line:hdel-4102-abs",
+    "measurement_id": "cwt:abs:0007",
+    "status": "MARGINAL",
+    "reason_codes": [
+      "offset_ok",
+      "weak_depth",
+      "low_ridge"
+    ],
+    "comment": "Trough 5075.2 (z=0.2370) offset 3.7 A; amp -0.2, ridge 4, SNR 8.8; weak but positionally consistent."
+  },
+  {
+    "line_id": "line:gband-4305-abs",
+    "measurement_id": "cwt:abs:0008",
+    "status": "MARGINAL",
+    "reason_codes": [
+      "offset_ok",
+      "broad_weak",
+      "low_ridge"
+    ],
+    "comment": "Trough 5333.6 (z=0.2388) offset 3.8 A; broad FWHM 3268 km/s, amp -0.5, ridge 5; plausible G-band but weak."
+  },
+  {
+    "line_id": "line:hgam-4341",
+    "measurement_id": "cwt:em:0006",
+    "status": "MARGINAL",
+    "reason_codes": [
+      "offset_weak",
+      "broad",
+      "low_ridge"
+    ],
+    "comment": "Peak 5387.2 (z=0.2408) offset 12.7 A, within 20 A but broad FWHM 4736 km/s, amp 0.7, ridge 7; marginal."
+  },
+  {
+    "line_id": "line:hgam-4341-abs",
+    "measurement_id": null,
+    "status": "NOT_FOUND",
+    "reason_codes": [
+      "no_cwt_feature",
+      "offset_reject"
+    ],
+    "comment": "No trough near 5374.5; nearest trough 5333.6 implies z=0.2285, 41 A off, not adoptable."
+  },
+  {
+    "line_id": "line:hbet-4862",
+    "measurement_id": "cwt:em:0008",
+    "status": "LIKELY",
+    "reason_codes": [
+      "offset_ok",
+      "snr_strong",
+      "ridge_persistent"
+    ],
+    "comment": "Peak 6020.0 (z=0.2380) offset 0.6 A; SNR 36.2, ridge 21, narrow FWHM 631 km/s."
+  },
+  {
+    "line_id": "line:hbet-4862-abs",
+    "measurement_id": "cwt:abs:0010",
+    "status": "MARGINAL",
+    "reason_codes": [
+      "offset_ok",
+      "blend",
+      "weak_depth"
+    ],
+    "comment": "Trough 6010.4 (z=0.2360) offset 9 A; adjacent trough 6031.2 (z=0.2403) also present; blended absorption, weak depth."
+  },
+  {
+    "line_id": "line:oiii-4960",
+    "measurement_id": "cwt:em:0009",
+    "status": "LIKELY",
+    "reason_codes": [
+      "offset_ok",
+      "snr_strong",
+      "ridge_persistent"
+    ],
+    "comment": "Peak 6140.8 (z=0.2380) offset 0.6 A; SNR 66.3, ridge 19, narrow FWHM 511 km/s."
+  },
+  {
+    "line_id": "line:oiii-5008",
+    "measurement_id": "cwt:em:0010",
+    "status": "LIKELY",
+    "reason_codes": [
+      "offset_ok",
+      "snr_strong",
+      "ridge_persistent",
+      "doublet_ratio_ok"
+    ],
+    "comment": "Peak 6200.0 (z=0.2380) offset 0.5 A; SNR 133.7, ridge 24; b:a amplitude ratio ~2.8 consistent with 3:1."
+  },
+  {
+    "line_id": "line:mgi-5176-abs",
+    "measurement_id": null,
+    "status": "NOT_FOUND",
+    "reason_codes": [
+      "no_cwt_feature",
+      "fit_center_at_bound"
+    ],
+    "comment": "No CWT trough near 6408.1; fit_peak center 6358.1 flagged center_at_bound and 50 A off, not adoptable."
+  },
+  {
+    "line_id": "line:nad1-5891-abs",
+    "measurement_id": "fit:H1:0002",
+    "status": "MARGINAL",
+    "reason_codes": [
+      "fit_offset_ok",
+      "weak_depth",
+      "doublet_ratio_off"
+    ],
+    "comment": "Doublet fit center 7298.5, offset 5.5 A; weak amp -0.25, local SNR 2.3; component ratio 0.69 vs expected 2, but position consistent."
+  },
+  {
+    "line_id": "line:nad-5895-abs",
+    "measurement_id": null,
+    "status": "NOT_FOUND",
+    "reason_codes": [
+      "no_cwt_feature",
+      "blend",
+      "unresolved_doublet"
+    ],
+    "comment": "No distinct CWT trough at 7298.0; Na D region only resolved as blended doublet fit, no separate measurement for this component."
+  },
+  {
+    "line_id": "line:nad2-5897-abs",
+    "measurement_id": "fit:H1:0003",
+    "status": "MARGINAL",
+    "reason_codes": [
+      "fit_offset_ok",
+      "weak_depth",
+      "doublet_ratio_off"
+    ],
+    "comment": "Doublet fit center 7306.3, offset 5.8 A; weak amp -0.17, local SNR 2.3; ratio inconsistent with 2:1 but position plausible."
+  },
+  {
+    "line_id": "line:nii-6549",
+    "measurement_id": null,
+    "status": "NOT_FOUND",
+    "reason_codes": [
+      "no_cwt_feature",
+      "blend_with_halpha"
+    ],
+    "comment": "No CWT peak at 8107.8; nearest peak 8127.2 is Halpha (z=0.2380), 19 A away and blended; no separate [N II]a measurement."
+  },
+  {
+    "line_id": "line:half-6564",
+    "measurement_id": "cwt:em:0012",
+    "status": "LIKELY",
+    "reason_codes": [
+      "offset_ok",
+      "snr_strong",
+      "ridge_persistent",
+      "blend"
+    ],
+    "comment": "Peak 8127.2 (z=0.2380) offset 1.1 A; SNR 22.7, ridge 22; blended with [N II] but dominant Halpha component."
+  },
+  {
+    "line_id": "line:half-6564-abs",
+    "measurement_id": "cwt:abs:0021",
+    "status": "MARGINAL",
+    "reason_codes": [
+      "offset_ok",
+      "weak_depth",
+      "low_ridge"
+    ],
+    "comment": "Trough 8120.0 (z=0.2369) offset 6.1 A; amp -3.5 but ridge 5, SNR 9.5; plausible weak absorption."
+  },
+  {
+    "line_id": "line:nii-6585",
+    "measurement_id": null,
+    "status": "NOT_FOUND",
+    "reason_codes": [
+      "no_cwt_feature",
+      "blend_with_halpha"
+    ],
+    "comment": "No CWT peak at 8151.8; only 8127.2 Halpha peak present, 24.6 A away; no separate [N II]b measurement."
+  },
+  {
+    "line_id": "line:sii-6718",
+    "measurement_id": "cwt:em:0013",
+    "status": "LIKELY",
+    "reason_codes": [
+      "offset_ok",
+      "snr_strong",
+      "ridge_persistent",
+      "doublet_ratio_ok"
+    ],
+    "comment": "Peak 8318.4 (z=0.2382) offset 2.0 A; SNR 31.8, ridge 23; a component of S II doublet with 8336.0."
+  },
+  {
+    "line_id": "line:sii-6732",
+    "measurement_id": "cwt:em:0014",
+    "status": "LIKELY",
+    "reason_codes": [
+      "offset_ok",
+      "snr_strong",
+      "ridge_persistent",
+      "doublet_ratio_ok"
+    ],
+    "comment": "Peak 8336.0 (z=0.2381) offset 1.8 A; SNR 27.2, ridge 12; b component, amplitude comparable to a as expected."
+  }
+]

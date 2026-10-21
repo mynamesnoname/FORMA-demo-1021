@@ -1,0 +1,13 @@
+{
+  "answer": "yes",
+  "reason": "Both windows show clean, distinct emission peaks at the predicted positions: a peaks at 6140.8/6141.6 (~27 vs ~6 baseline) and b peaks at 6200.0/6200.8 (~65-68 vs ~6 baseline). Measured separation 59.20 Å matches expected 59.29 Å, and amplitude ratio ~0.36 sits in the advisory 0.25-0.5 window. Joint doublet interpretation is visually supported.",
+  "execution": {
+    "schema_version": "forma-agentic-node-execution-v1",
+    "run_id": "graph-853b617a68f04c36bd82f06bdb770ac4",
+    "branch_id": "main",
+    "node_key": "fa.real_doublet_or_not/graph-853b617a68f04c36bd82f06bdb770ac4/H1/doublet%3Aoiii",
+    "node_execution_id": "d23dea223b174da1b01fee8356eb6a6a",
+    "attempt_id": "1c4ab01ee08d4465b2e588678a3e5460",
+    "relative_dir": "FA/H1/real_doublet_or_not/doublet-oiii-15250b3aa7a2fbdb/branches/main/d23dea223b174da1b01fee8356eb6a6a"
+  }
+}

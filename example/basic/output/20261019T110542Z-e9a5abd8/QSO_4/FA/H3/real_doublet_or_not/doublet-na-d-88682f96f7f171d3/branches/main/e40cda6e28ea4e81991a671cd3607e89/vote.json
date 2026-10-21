@@ -1,0 +1,13 @@
+{
+  "answer": "no",
+  "reason": "Component a's claimed center (7326.2 Å) is ~32 Å from its predicted 7294.1 Å position, and the pixels there show no absorption dip (flux ~4.2-4.3, flat). Component b at 7299.5 Å shows only a shallow, marginal dip (~4.0-4.1 vs continuum ~4.3) that is not a convincing partner. The measured separation (26.7 Å) is far from the expected 7.4 Å, so the two-component pairing is not corroborated.",
+  "execution": {
+    "schema_version": "forma-agentic-node-execution-v1",
+    "run_id": "graph-853b617a68f04c36bd82f06bdb770ac4",
+    "branch_id": "main",
+    "node_key": "fa.real_doublet_or_not/graph-853b617a68f04c36bd82f06bdb770ac4/H3/doublet%3Ana-d",
+    "node_execution_id": "e40cda6e28ea4e81991a671cd3607e89",
+    "attempt_id": "8c879abedc4c49ca923d933189adc40f",
+    "relative_dir": "FA/H3/real_doublet_or_not/doublet-na-d-88682f96f7f171d3/branches/main/e40cda6e28ea4e81991a671cd3607e89"
+  }
+}

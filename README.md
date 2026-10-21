@@ -40,7 +40,7 @@ python demo.py --samples QSO_116     # one sample
 python demo.py                       # all five: BGS_2, ELG_6, LRG_1, QSO_4, QSO_116
 ```
 
-`--samples` accepts any subset of these five names. `--output-root DIR` changes the parent output directory; `--sh-concurrency`, `--fa-concurrency`, and `--fa-max-attempts` control execution. A full run calls Redrock and the configured LLM endpoint, and can be slow or costly. Preflight needs only the FITS reading dependencies. Each full invocation creates a **new** timestamped run directory; it does not resume or overwrite an earlier run.
+`--samples` accepts any subset of these five names. `--output-root DIR` changes the parent output directory; `--sh-concurrency`, `--fa-concurrency`, and `--fa-max-attempts` control execution. A full run calls Redrock and the configured LLM endpoint, and can be slow or costly: **the complete five-sample run typically takes 30–50 minutes**, depending on the machine and the model endpoint. Use `--samples` if you only want to check that the setup works. Preflight needs only the FITS reading dependencies. Each full invocation creates a **new** timestamped run directory; it does not resume or overwrite an earlier run.
 
 ## Read the outputs
 
@@ -75,6 +75,8 @@ python scripts/build_demo_node_gallery.py .data/output_/demo/<run-directory>
 ```
 
 The gallery shows investigation paths, node decisions, votes, and spectrum positions with a Chinese/English switch. It is generated from that run's artifacts; it is not automatically created by `demo.py`. Local runs and generated galleries are ignored by Git, so a fresh clone must run the demo to create them.
+
+To see the form of a finished run without waiting for one, open the pre-run five-sample gallery kept in this repository: `example/basic/output/20261019T110542Z-e9a5abd8/ui/index.html`.
 
 ## Configuration and scope
 

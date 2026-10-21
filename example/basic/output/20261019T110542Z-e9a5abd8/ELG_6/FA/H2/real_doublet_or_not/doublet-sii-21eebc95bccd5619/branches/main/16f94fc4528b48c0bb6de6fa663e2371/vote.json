@@ -1,0 +1,13 @@
+{
+  "answer": "yes",
+  "reason": "Both component windows show clear, distinct emission peaks at the predicted positions: a strong peak near 7436 Å (flux ~4.7 over a ~0.5 continuum) and a weaker but well-defined peak near 7452 Å (flux ~3.5). Separation (~16 Å) matches the expected 15.94 Å, and the amplitude ratio ~1.39 is within the advisory window. Both are real, resolved, and consistent with the S II doublet.",
+  "execution": {
+    "schema_version": "forma-agentic-node-execution-v1",
+    "run_id": "graph-fe0d30030bcc4939b88103e27753b2c1",
+    "branch_id": "main",
+    "node_key": "fa.real_doublet_or_not/graph-fe0d30030bcc4939b88103e27753b2c1/H2/doublet%3Asii",
+    "node_execution_id": "16f94fc4528b48c0bb6de6fa663e2371",
+    "attempt_id": "7c91a77450c64b40b241fdf54c74f2cf",
+    "relative_dir": "FA/H2/real_doublet_or_not/doublet-sii-21eebc95bccd5619/branches/main/16f94fc4528b48c0bb6de6fa663e2371"
+  }
+}

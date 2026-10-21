@@ -1,0 +1,13 @@
+{
+  "answer": "no",
+  "reason": "Neither window shows a real line: at 6308 Å (component a) flux is flat continuum with no peak, and the claimed center 6292 Å is 16 Å off prediction (FA=signal_absent, rejected measurement). At 6369 Å (component b) flux is likewise flat with only a low-ivar dip near 6365, no emission and no measurement. No credible two-component structure or unpaired partner is visible in the usable pixels.",
+  "execution": {
+    "schema_version": "forma-agentic-node-execution-v1",
+    "run_id": "graph-6f4e6510cc5d45df9da3b7be0c8597cc",
+    "branch_id": "main",
+    "node_key": "fa.real_doublet_or_not/graph-6f4e6510cc5d45df9da3b7be0c8597cc/H5/doublet%3Aoiii",
+    "node_execution_id": "d9fac7e4670247d8975845b8e1b14eac",
+    "attempt_id": "7fbf0dcd648a41e2a01bc32c36015bb0",
+    "relative_dir": "FA/H5/real_doublet_or_not/doublet-oiii-15250b3aa7a2fbdb/branches/main/d9fac7e4670247d8975845b8e1b14eac"
+  }
+}

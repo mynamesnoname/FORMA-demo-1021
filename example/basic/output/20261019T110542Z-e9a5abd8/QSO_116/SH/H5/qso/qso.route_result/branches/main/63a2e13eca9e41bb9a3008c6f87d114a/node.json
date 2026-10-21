@@ -1,0 +1,26 @@
+{
+  "schema_version": "forma-qso-node-v1",
+  "graph_version": "forma-qso-entry-v1",
+  "run_id": "graph-325ff74c7f444efdb17e3f3b69698eea",
+  "branch_id": "main",
+  "hypothesis_ref": "H5",
+  "node_key": "sh2.qso/H5/qso.route_result",
+  "node_type": "qso.route_result",
+  "status": "completed",
+  "input_refs": [
+    "sh2/25ec1046a7694849b10165a3aec7aab1/node"
+  ],
+  "output": {
+    "path_status": "survive",
+    "candidate_type": "Type 1 QSO",
+    "rule_id": "project:qso-type1-formal-gate",
+    "reason_codes": []
+  },
+  "evidence_refs": [
+    "sh2/25ec1046a7694849b10165a3aec7aab1/node"
+  ],
+  "unresolved_reasons": [],
+  "created_by": "code",
+  "node_execution_id": "63a2e13eca9e41bb9a3008c6f87d114a",
+  "attempt_id": "17df75cfd4f648c0bcd2575564dc87d1"
+}

@@ -1,0 +1,178 @@
+{
+  "schema_version": "forma-fa-doublet-review-v1",
+  "node_type": "fa.doublet_review",
+  "node_key": "fa.real_doublet_or_not/graph-df7434d5533647e999870708120307b0/H6/doublet%3Asii",
+  "run_id": "graph-df7434d5533647e999870708120307b0",
+  "branch_id": "main",
+  "hypothesis_ref": "H6",
+  "doublet_id": "doublet:sii",
+  "claim_mode": "complete_pair",
+  "components": [
+    {
+      "line_id": "line:sii-6718",
+      "line_name": "[S II]a",
+      "rest_angstrom": 6718.3,
+      "expected_obs_angstrom": 7785.975154347031,
+      "sh_status": "LIKELY",
+      "measurement_id": "fit:H6:0002",
+      "measurement_source": "fit_doublet",
+      "measured_center_angstrom": 7786.159,
+      "amplitude": 0.718468,
+      "measured_offset_from_expected_angstrom": 0.18384565296855726,
+      "fa_state": "signal_present",
+      "cleaned_pairing": "adopted",
+      "fa_vote_artifact_refs": [
+        "fa/90b7d330d92648c5834259c0def82732/node",
+        "fa/ed058f4ccddc473f89788ecc116f1946/node",
+        "fa/ae9cc960dc144fcf9a2f58565cbf7d5e/node"
+      ]
+    },
+    {
+      "line_id": "line:sii-6732",
+      "line_name": "[S II]b",
+      "rest_angstrom": 6732.7,
+      "expected_obs_angstrom": 7802.663608602214,
+      "sh_status": "LIKELY",
+      "measurement_id": "fit:H6:0003",
+      "measurement_source": "fit_doublet",
+      "measured_center_angstrom": 7803.824,
+      "amplitude": 0.596504,
+      "measured_offset_from_expected_angstrom": 1.160391397786043,
+      "fa_state": "signal_present",
+      "cleaned_pairing": "adopted",
+      "fa_vote_artifact_refs": [
+        "fa/4523204b0eeb43e19b0f5cb999c54a81/node",
+        "fa/70a7edfb2a5d46c994980b7c6c2d3305/node",
+        "fa/c122ffe550f24c0c9791657f47cd785d/node"
+      ]
+    }
+  ],
+  "metrics": {
+    "expected_separation_angstrom": 16.688454255182478,
+    "registry_rest_separation_angstrom": 14.4,
+    "measured_separation_angstrom": 17.664999999999964,
+    "separation_difference_angstrom": 0.9765457448174857,
+    "amplitude_ratio_a_over_b": 1.2044646808738917,
+    "reference_ratio_window_a_over_b": [
+      0.7,
+      1.4
+    ],
+    "reference_ratio_note": "a ≈ b",
+    "reference_ratio_within_window": true,
+    "reference_ratio_is_advisory": true
+  },
+  "coverage": {
+    "requested_window_angstrom": [
+      7705.975154347031,
+      7882.663608602214
+    ],
+    "actual_window_angstrom": [
+      7706.400000000042,
+      7882.400000000082
+    ],
+    "spectrum_bounds_angstrom": [
+      3600.0,
+      9824.000000000524
+    ],
+    "component_cores": [
+      {
+        "line_id": "line:sii-6718",
+        "predicted_obs_angstrom": 7785.975154347031,
+        "center_within_spectrum_bounds": true,
+        "samples": 38,
+        "valid_samples": 38,
+        "masked_samples": 0,
+        "assessable": true
+      },
+      {
+        "line_id": "line:sii-6732",
+        "predicted_obs_angstrom": 7802.663608602214,
+        "center_within_spectrum_bounds": true,
+        "samples": 38,
+        "valid_samples": 38,
+        "masked_samples": 0,
+        "assessable": true
+      }
+    ],
+    "assessable": true,
+    "unreviewable_reason": null
+  },
+  "status": "complete",
+  "pair_supported": true,
+  "consultative_only": true,
+  "method_snapshot": {
+    "context_margin_angstrom": 80.0,
+    "component_check_half_angstrom": 15.0,
+    "cahk_outer_reference_sigma": 3.0,
+    "min_valid_component_samples": 5,
+    "vote_quorum": 3,
+    "max_attempts_per_vote_seat": 2
+  },
+  "vote_summary": {
+    "yes": 3,
+    "no": 0,
+    "yes_fraction": 1.0,
+    "assurance": "assured"
+  },
+  "ballots": [
+    {
+      "seat": 0,
+      "answer": "yes",
+      "reason": "Both windows show distinct broad positive bumps: a at ~7786-7788 Å (flux ~6.0-6.4 vs ~5.4 baseline) and b at ~7800-7808 Å (flux ~6.0-6.25), separated ~17.7 Å vs predicted 16.7 Å. Centers match predictions (a offset 0.18 Å; b offset 1.16 Å, within the bump width). Amplitude ratio 1.20 is within the advisory window; neither feature is a noise spike or blend.",
+      "vote_ref": "fa_doublet/b3ff023726164bc9b49ece45bbbaf5a8/vote.json"
+    },
+    {
+      "seat": 1,
+      "answer": "yes",
+      "reason": "Both windows show distinct real bumps: a peaks ~7786-7788 Å (center 7786.16, offset 0.18 Å) and the weaker b peaks ~7803-7806 Å (center 7803.82, offset 1.16 Å, still within the displayed feature). A trough near 7795-7797 Å separates them, measured separation 17.66 Å vs expected 16.69 Å, and amplitude ratio 1.20 is within the advisory window. Both components are visible above continuum, so the pair interpretation is corroborated.",
+      "vote_ref": "fa_doublet/8bbea2f4ce4c4a9ebd166e5f985d3aed/vote.json"
+    },
+    {
+      "seat": 2,
+      "answer": "yes",
+      "reason": "Two distinct emission bumps are visible in usable pixels: a peaks ~7786-7788 (flux ~6.0-6.4) and b peaks ~7804-7806 (flux ~6.0-6.25), separated by a trough near 7795. Both components, including the weaker partner b, are independently detected; separation (17.66 Å) and amplitude ratio (1.20) are consistent with the proposed pair.",
+      "vote_ref": "fa_doublet/4c3784817d9a47beb6a260235ef405b8/vote.json"
+    }
+  ],
+  "successful_votes": 3,
+  "required_votes": 3,
+  "failed_seats": 0,
+  "model_usage": {
+    "calls": 3,
+    "input_tokens": 24276,
+    "output_tokens": 1594,
+    "cache_hit_tokens": 1920,
+    "cache_hit_reported_calls": 3,
+    "cache_hit_unreported_calls": 0
+  },
+  "prompt_identity": {
+    "system_sha256": "92cc96d1542cdf1088b68d4688ccd8de256ac572ab050c2a5e087060f5955e1b",
+    "user_sha256": "304b2d8d7edb9872584ab2ecff4e4f77979cd8882b6b6e765ae0baea470dfba2",
+    "tool_name": "submit_doublet_vote",
+    "prompt_text_sha256": "cff7602bb1227daa9dbc85c4d626ea8e4bb6b3da0cf1b947b57ee71e5ab7ddfd"
+  },
+  "source_refs": [
+    "sh/H6/node",
+    "sh/H6/catalog",
+    "sh/H6/judgments",
+    "spectrum_npz",
+    "fa/90b7d330d92648c5834259c0def82732/node",
+    "fa/ed058f4ccddc473f89788ecc116f1946/node",
+    "fa/ae9cc960dc144fcf9a2f58565cbf7d5e/node",
+    "fa/4523204b0eeb43e19b0f5cb999c54a81/node",
+    "fa/70a7edfb2a5d46c994980b7c6c2d3305/node",
+    "fa/c122ffe550f24c0c9791657f47cd785d/node"
+  ],
+  "attempt_refs": [
+    "fa_doublet/b3ff023726164bc9b49ece45bbbaf5a8/vote.json",
+    "fa_doublet/b3ff023726164bc9b49ece45bbbaf5a8/session.md",
+    "fa_doublet/b3ff023726164bc9b49ece45bbbaf5a8/model_usage.json",
+    "fa_doublet/8bbea2f4ce4c4a9ebd166e5f985d3aed/vote.json",
+    "fa_doublet/8bbea2f4ce4c4a9ebd166e5f985d3aed/session.md",
+    "fa_doublet/8bbea2f4ce4c4a9ebd166e5f985d3aed/model_usage.json",
+    "fa_doublet/4c3784817d9a47beb6a260235ef405b8/vote.json",
+    "fa_doublet/4c3784817d9a47beb6a260235ef405b8/session.md",
+    "fa_doublet/4c3784817d9a47beb6a260235ef405b8/model_usage.json"
+  ],
+  "node_execution_id": "cd21df6c4db0454c9021c3ceaf1ca6b7"
+}

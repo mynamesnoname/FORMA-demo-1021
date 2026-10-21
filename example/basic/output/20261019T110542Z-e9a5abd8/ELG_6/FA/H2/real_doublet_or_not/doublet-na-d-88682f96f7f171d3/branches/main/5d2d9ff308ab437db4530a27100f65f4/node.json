@@ -1,0 +1,178 @@
+{
+  "schema_version": "forma-fa-doublet-review-v1",
+  "node_type": "fa.doublet_review",
+  "node_key": "fa.real_doublet_or_not/graph-fe0d30030bcc4939b88103e27753b2c1/H2/doublet%3Ana-d",
+  "run_id": "graph-fe0d30030bcc4939b88103e27753b2c1",
+  "branch_id": "main",
+  "hypothesis_ref": "H2",
+  "doublet_id": "doublet:na-d",
+  "claim_mode": "complete_pair",
+  "components": [
+    {
+      "line_id": "line:nad1-5891-abs",
+      "line_name": "Na D1_abs",
+      "rest_angstrom": 5891.6,
+      "expected_obs_angstrom": 6520.79929749409,
+      "sh_status": "MARGINAL",
+      "measurement_id": "fit:H2:0002",
+      "measurement_source": "fit_doublet",
+      "measured_center_angstrom": 6527.317,
+      "amplitude": -0.096473,
+      "measured_offset_from_expected_angstrom": 6.517702505910165,
+      "fa_state": "signal_absent",
+      "cleaned_pairing": "rejected_measurement",
+      "fa_vote_artifact_refs": [
+        "fa/d7c3ed75f3384f138fcba289c755a08e/node",
+        "fa/c416b28371b5419b9966b86d6ce40e1a/node",
+        "fa/7dc5fdda4abc498b922653eb5e88a26c/node"
+      ]
+    },
+    {
+      "line_id": "line:nad2-5897-abs",
+      "line_name": "Na D2_abs",
+      "rest_angstrom": 5897.6,
+      "expected_obs_angstrom": 6527.440073477688,
+      "sh_status": "MARGINAL",
+      "measurement_id": "fit:H2:0003",
+      "measurement_source": "fit_doublet",
+      "measured_center_angstrom": 6576.145,
+      "amplitude": -0.173172,
+      "measured_offset_from_expected_angstrom": 48.704926522312235,
+      "fa_state": "signal_absent",
+      "cleaned_pairing": "rejected_measurement",
+      "fa_vote_artifact_refs": [
+        "fa/363223d14ef34cb5a57da8de9bd0c2ee/node",
+        "fa/43923ae6230440009b449b3a0e21e1e3/node",
+        "fa/a5750320fca4423eab9bbe5d7ad28289/node"
+      ]
+    }
+  ],
+  "metrics": {
+    "expected_separation_angstrom": 6.64077598359836,
+    "registry_rest_separation_angstrom": 6.0,
+    "measured_separation_angstrom": 48.82800000000043,
+    "separation_difference_angstrom": 42.18722401640207,
+    "amplitude_ratio_a_over_b": 0.5570935255122076,
+    "reference_ratio_window_a_over_b": [
+      1.4,
+      2.8
+    ],
+    "reference_ratio_note": "a:b ≈ 2:1 (fitting hint)",
+    "reference_ratio_within_window": false,
+    "reference_ratio_is_advisory": true
+  },
+  "coverage": {
+    "requested_window_angstrom": [
+      6440.79929749409,
+      6607.440073477688
+    ],
+    "actual_window_angstrom": [
+      6440.800000000155,
+      6607.200000000193
+    ],
+    "spectrum_bounds_angstrom": [
+      3600.0,
+      9824.000000000524
+    ],
+    "component_cores": [
+      {
+        "line_id": "line:nad1-5891-abs",
+        "predicted_obs_angstrom": 6520.79929749409,
+        "center_within_spectrum_bounds": true,
+        "samples": 37,
+        "valid_samples": 37,
+        "masked_samples": 0,
+        "assessable": true
+      },
+      {
+        "line_id": "line:nad2-5897-abs",
+        "predicted_obs_angstrom": 6527.440073477688,
+        "center_within_spectrum_bounds": true,
+        "samples": 38,
+        "valid_samples": 38,
+        "masked_samples": 0,
+        "assessable": true
+      }
+    ],
+    "assessable": true,
+    "unreviewable_reason": null
+  },
+  "status": "complete",
+  "pair_supported": false,
+  "consultative_only": true,
+  "method_snapshot": {
+    "context_margin_angstrom": 80.0,
+    "component_check_half_angstrom": 15.0,
+    "cahk_outer_reference_sigma": 3.0,
+    "min_valid_component_samples": 5,
+    "vote_quorum": 3,
+    "max_attempts_per_vote_seat": 2
+  },
+  "vote_summary": {
+    "yes": 0,
+    "no": 3,
+    "yes_fraction": 0.0,
+    "assurance": "assured"
+  },
+  "ballots": [
+    {
+      "seat": 0,
+      "answer": "no",
+      "reason": "Neither window shows an absorption dip: around 6520.8 Å (D1) and 6527.4 Å (D2) the flux is a flat noisy plateau. Claimed centers are offset 6.5 Å and 48.7 Å from prediction, giving a 48.8 Å separation vs 6.64 Å expected — a gross pairing mismatch. Both single-feature states are signal_absent, so no two-component structure is supported.",
+      "vote_ref": "fa_doublet/8d61ac7facff4b1aa6656cb8f311377e/vote.json"
+    },
+    {
+      "seat": 1,
+      "answer": "no",
+      "reason": "Neither component window shows an absorption dip: at predicted 6520.8 Å and 6527.4 Å the flux stays at continuum (~0.47–0.62) with no trough. The claimed centers (6527.3 and 6576.1 Å) are far from prediction and also show no feature. Both single-feature states are signal_absent and the 48.8 Å separation is not a real doublet.",
+      "vote_ref": "fa_doublet/535c4eacfd41414fb14c89fa3e91cf6a/vote.json"
+    },
+    {
+      "seat": 2,
+      "answer": "no",
+      "reason": "Neither window shows absorption at the predicted positions: 6518-6523 Å and 6525-6530 Å are flat continuum with no dips. Component b's claimed center (6576 Å) is ~49 Å from prediction, a gross pairing mismatch, and that region is also featureless. No two-component structure is corroborated.",
+      "vote_ref": "fa_doublet/7b318f96e61c4640875ae4237e34ae61/vote.json"
+    }
+  ],
+  "successful_votes": 3,
+  "required_votes": 3,
+  "failed_seats": 0,
+  "model_usage": {
+    "calls": 3,
+    "input_tokens": 23712,
+    "output_tokens": 1228,
+    "cache_hit_tokens": 1536,
+    "cache_hit_reported_calls": 3,
+    "cache_hit_unreported_calls": 0
+  },
+  "prompt_identity": {
+    "system_sha256": "92cc96d1542cdf1088b68d4688ccd8de256ac572ab050c2a5e087060f5955e1b",
+    "user_sha256": "bd96c28fc47992265e2de2f218927620ef45fd533295fae7da837bfbba667c2c",
+    "tool_name": "submit_doublet_vote",
+    "prompt_text_sha256": "419047f93c727515c584288d9b232a3f886f31452aaf6871a4b8f0e905fd5368"
+  },
+  "source_refs": [
+    "sh/H2/node",
+    "sh/H2/catalog",
+    "sh/H2/judgments",
+    "spectrum_npz",
+    "fa/d7c3ed75f3384f138fcba289c755a08e/node",
+    "fa/c416b28371b5419b9966b86d6ce40e1a/node",
+    "fa/7dc5fdda4abc498b922653eb5e88a26c/node",
+    "fa/363223d14ef34cb5a57da8de9bd0c2ee/node",
+    "fa/43923ae6230440009b449b3a0e21e1e3/node",
+    "fa/a5750320fca4423eab9bbe5d7ad28289/node"
+  ],
+  "attempt_refs": [
+    "fa_doublet/8d61ac7facff4b1aa6656cb8f311377e/vote.json",
+    "fa_doublet/8d61ac7facff4b1aa6656cb8f311377e/session.md",
+    "fa_doublet/8d61ac7facff4b1aa6656cb8f311377e/model_usage.json",
+    "fa_doublet/535c4eacfd41414fb14c89fa3e91cf6a/vote.json",
+    "fa_doublet/535c4eacfd41414fb14c89fa3e91cf6a/session.md",
+    "fa_doublet/535c4eacfd41414fb14c89fa3e91cf6a/model_usage.json",
+    "fa_doublet/7b318f96e61c4640875ae4237e34ae61/vote.json",
+    "fa_doublet/7b318f96e61c4640875ae4237e34ae61/session.md",
+    "fa_doublet/7b318f96e61c4640875ae4237e34ae61/model_usage.json"
+  ],
+  "node_execution_id": "5d2d9ff308ab437db4530a27100f65f4"
+}

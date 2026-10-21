@@ -1,0 +1,13 @@
+{
+  "answer": "no",
+  "reason": "Neither component window shows a real line at its predicted position: around 8330 Å and 8375 Å the flux is flat continuum with no emission peak. The claimed centers (8304 Å, 8430 Å) are 25–55 Å off prediction and lie in low-ivar noisy stretches; measured separation ~126 Å vs expected ~45 Å. Both single-feature states are signal_absent, so the pair interpretation is unsupported.",
+  "execution": {
+    "schema_version": "forma-agentic-node-execution-v1",
+    "run_id": "graph-6f4e6510cc5d45df9da3b7be0c8597cc",
+    "branch_id": "main",
+    "node_key": "fa.real_doublet_or_not/graph-6f4e6510cc5d45df9da3b7be0c8597cc/H5/doublet%3Anii",
+    "node_execution_id": "73979517868b4374865d949a72401aa9",
+    "attempt_id": "6b98dddaeb1c4f8c8a0746ed7e4d3bf0",
+    "relative_dir": "FA/H5/real_doublet_or_not/doublet-nii-9c5a452678982a5b/branches/main/73979517868b4374865d949a72401aa9"
+  }
+}

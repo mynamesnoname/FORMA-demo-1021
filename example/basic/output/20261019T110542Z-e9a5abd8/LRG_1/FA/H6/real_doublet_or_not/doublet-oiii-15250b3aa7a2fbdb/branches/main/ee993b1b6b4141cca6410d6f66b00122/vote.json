@@ -1,0 +1,13 @@
+{
+  "answer": "no",
+  "reason": "Component a window (4960-4975 Å) shows only a broad, noisy rise with no distinct peak at the predicted 4966.96 Å; the measured center 4964 Å is offset ~3 Å and the single-feature state is signal_absent. Component b window (5008-5022 Å) shows a smooth continuum trough/rise with no emission feature at the predicted 5014.9 Å (SH=NOT_FOUND, no measurement). Neither component is corroborated, so the orphan pair interpretation is unsupported.",
+  "execution": {
+    "schema_version": "forma-agentic-node-execution-v1",
+    "run_id": "graph-6f4e6510cc5d45df9da3b7be0c8597cc",
+    "branch_id": "main",
+    "node_key": "fa.real_doublet_or_not/graph-6f4e6510cc5d45df9da3b7be0c8597cc/H6/doublet%3Aoiii",
+    "node_execution_id": "ee993b1b6b4141cca6410d6f66b00122",
+    "attempt_id": "f343457203c845c3ae5cdeb995c49e73",
+    "relative_dir": "FA/H6/real_doublet_or_not/doublet-oiii-15250b3aa7a2fbdb/branches/main/ee993b1b6b4141cca6410d6f66b00122"
+  }
+}

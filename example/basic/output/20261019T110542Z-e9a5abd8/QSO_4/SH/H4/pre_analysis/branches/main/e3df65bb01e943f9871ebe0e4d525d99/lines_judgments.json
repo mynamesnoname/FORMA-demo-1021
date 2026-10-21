@@ -1,0 +1,295 @@
+[
+  {
+    "line_id": "line:oii-3727",
+    "measurement_id": null,
+    "status": "NOT_FOUND",
+    "reason_codes": [
+      "no_cwt_feature",
+      "zero_amp_fit",
+      "blue_edge"
+    ],
+    "comment": "No CWT peak near 3720 A; fit_peak returned zero amplitude at 3769.6 (offset ~50 A). Blue edge, no credible signal."
+  },
+  {
+    "line_id": "line:cak-3934-abs",
+    "measurement_id": null,
+    "status": "NOT_FOUND",
+    "reason_codes": [
+      "fit_center_deviation",
+      "no_cwt_feature",
+      "blend_cah"
+    ],
+    "comment": "Doublet fit placed Ca K at 3977.5 (offset ~50 A) with near-zero amplitude; no CWT trough at 3927.5. Not adopted."
+  },
+  {
+    "line_id": "line:cah-3969-abs",
+    "measurement_id": null,
+    "status": "NOT_FOUND",
+    "reason_codes": [
+      "fit_unconstrained",
+      "huge_error",
+      "blend_cak"
+    ],
+    "comment": "Ca H fit centre 4012.3 with error ~2e5 A and depth -1.75; unconstrained, no CWT trough at 3962.3. Not adopted."
+  },
+  {
+    "line_id": "line:heps-3970",
+    "measurement_id": "fit:H4:0011",
+    "status": "MARGINAL",
+    "reason_codes": [
+      "weak_snr",
+      "blend_cah",
+      "offset_4A"
+    ],
+    "comment": "Fit centre 3966.5 (offset ~4 A) amp 0.73, local SNR 1.8; weak and blended with Ca H region. Marginal."
+  },
+  {
+    "line_id": "line:heps-3970-abs",
+    "measurement_id": null,
+    "status": "NOT_FOUND",
+    "reason_codes": [
+      "center_at_bound",
+      "unselectable_fit"
+    ],
+    "comment": "Absorption fit centre at bound (4012.8), unselectable; no credible trough at 3962.8."
+  },
+  {
+    "line_id": "line:hdel-4102",
+    "measurement_id": null,
+    "status": "NOT_FOUND",
+    "reason_codes": [
+      "outside_z_window",
+      "offset_47A",
+      "weak_snr"
+    ],
+    "comment": "Only fit centre 4142.4 lies outside the redshift window (offset ~47 A); no in-window CWT peak at 4095.3. Not adopted."
+  },
+  {
+    "line_id": "line:hdel-4102-abs",
+    "measurement_id": null,
+    "status": "NOT_FOUND",
+    "reason_codes": [
+      "outside_z_window",
+      "offset_50A",
+      "weak_snr"
+    ],
+    "comment": "Only fit centre 4045.5 lies outside the redshift window (offset ~50 A); no in-window trough at 4095.3. Not adopted."
+  },
+  {
+    "line_id": "line:gband-4305-abs",
+    "measurement_id": null,
+    "status": "NOT_FOUND",
+    "reason_codes": [
+      "offset_23A",
+      "weak_feature",
+      "no_fit"
+    ],
+    "comment": "Only nearby trough is 4274.4 (offset ~23 A, z=-0.0072), weak amp -0.4; no fit attempted. Not adopted."
+  },
+  {
+    "line_id": "line:hgam-4341",
+    "measurement_id": null,
+    "status": "NOT_FOUND",
+    "reason_codes": [
+      "zero_amp_fit",
+      "no_cwt_feature"
+    ],
+    "comment": "Fit_peak returned zero amplitude at 4316.2; no CWT peak near 4333.7. Not adopted."
+  },
+  {
+    "line_id": "line:hgam-4341-abs",
+    "measurement_id": "fit:H4:0018",
+    "status": "MARGINAL",
+    "reason_codes": [
+      "weak_snr",
+      "broad_width",
+      "offset_2A"
+    ],
+    "comment": "Fit centre 4335.7 (offset ~2 A) amp -0.25, local SNR 0.7, broad FWHM 1779 km/s. Weak marginal."
+  },
+  {
+    "line_id": "line:hbet-4862",
+    "measurement_id": null,
+    "status": "NOT_FOUND",
+    "reason_codes": [
+      "center_at_bound",
+      "unselectable_fit"
+    ],
+    "comment": "Fit centre at bound (4803.7), unselectable; no CWT peak at 4853.7. Not adopted."
+  },
+  {
+    "line_id": "line:hbet-4862-abs",
+    "measurement_id": null,
+    "status": "NOT_FOUND",
+    "reason_codes": [
+      "offset_14A",
+      "broad_absorption",
+      "no_fit"
+    ],
+    "comment": "Nearest trough 4868.0 (offset ~14 A) is broad (4331 km/s) and likely unrelated; no targeted fit. Not adopted."
+  },
+  {
+    "line_id": "line:oiii-4960",
+    "measurement_id": null,
+    "status": "NOT_FOUND",
+    "reason_codes": [
+      "doublet_fit_failed",
+      "center_deviation_large",
+      "separation_fail"
+    ],
+    "comment": "Doublet fit centre 4901.2 with huge error, component ratio 0; separation fail. CWT peak 4912.8 is offset ~38 A. Not adopted."
+  },
+  {
+    "line_id": "line:oiii-5008",
+    "measurement_id": null,
+    "status": "NOT_FOUND",
+    "reason_codes": [
+      "doublet_fit_failed",
+      "zero_amplitude",
+      "separation_fail"
+    ],
+    "comment": "Second component amplitude 0.0 in failed doublet fit; no CWT peak at 4999.0. Not adopted."
+  },
+  {
+    "line_id": "line:mgi-5176-abs",
+    "measurement_id": "fit:H4:0019",
+    "status": "MARGINAL",
+    "reason_codes": [
+      "weak_snr",
+      "broad_width",
+      "offset_3A"
+    ],
+    "comment": "Fit centre 5163.9 (offset ~3 A) amp -0.20, local SNR 1.1, very broad FWHM. Weak marginal."
+  },
+  {
+    "line_id": "line:nad1-5891-abs",
+    "measurement_id": null,
+    "status": "NOT_FOUND",
+    "reason_codes": [
+      "doublet_fit_failed",
+      "center_deviation_large",
+      "separation_fail"
+    ],
+    "comment": "Na D doublet fit placed D1 at 5905.3 with error ~207 A; separation fail, ratio 0.24. Not adopted."
+  },
+  {
+    "line_id": "line:nad-5895-abs",
+    "measurement_id": null,
+    "status": "NOT_FOUND",
+    "reason_codes": [
+      "no_cwt_feature",
+      "blend_nad"
+    ],
+    "comment": "No CWT trough at 5884.7; blended Na D region unresolved by failed doublet fit. Not adopted."
+  },
+  {
+    "line_id": "line:nad2-5897-abs",
+    "measurement_id": "fit:H4:0009",
+    "status": "MARGINAL",
+    "reason_codes": [
+      "doublet_fit_warning",
+      "separation_fail",
+      "blend_nad"
+    ],
+    "comment": "Fit centre 5890.5 (offset ~4 A) amp -0.40, local SNR 5.2; doublet separation failed and D1 unconstrained, so depth ordering unreliable. Marginal."
+  },
+  {
+    "line_id": "line:nii-6549",
+    "measurement_id": "fit:H4:0004",
+    "status": "MARGINAL",
+    "reason_codes": [
+      "doublet_fit_warning",
+      "separation_fail",
+      "blend_halpha"
+    ],
+    "comment": "Fit centre 6536.3 (offset ~1 A) amp 0.19, local SNR 2.2; separation fail, blended with Halpha region. Marginal."
+  },
+  {
+    "line_id": "line:half-6564",
+    "measurement_id": "fit:H4:0015",
+    "status": "MARGINAL",
+    "reason_codes": [
+      "weak_snr",
+      "blend_nii",
+      "broad_width"
+    ],
+    "comment": "Fit centre 6564.2 (offset ~12 A) amp 0.26, local SNR 2.0, broad FWHM; blended with [N II]. Marginal."
+  },
+  {
+    "line_id": "line:half-6564-abs",
+    "measurement_id": null,
+    "status": "NOT_FOUND",
+    "reason_codes": [
+      "center_at_bound",
+      "zero_amplitude",
+      "unselectable_fit"
+    ],
+    "comment": "Absorption fit centre at bound (6502.5) with zero amplitude; unselectable. Not adopted."
+  },
+  {
+    "line_id": "line:nii-6585",
+    "measurement_id": "fit:H4:0005",
+    "status": "MARGINAL",
+    "reason_codes": [
+      "doublet_fit_warning",
+      "separation_fail",
+      "blend_halpha"
+    ],
+    "comment": "Fit centre 6565.9 (offset ~7 A) amp 0.28, local SNR 2.2; separation fail, blended with Halpha. Marginal."
+  },
+  {
+    "line_id": "line:sii-6718",
+    "measurement_id": "fit:H4:0002",
+    "status": "MARGINAL",
+    "reason_codes": [
+      "doublet_fit_warning",
+      "separation_fail",
+      "weak_snr"
+    ],
+    "comment": "Fit centre 6713.9 (offset ~8 A) amp 0.18, local SNR 1.4; doublet separation failed, second component unconstrained. Marginal."
+  },
+  {
+    "line_id": "line:sii-6732",
+    "measurement_id": null,
+    "status": "NOT_FOUND",
+    "reason_codes": [
+      "doublet_fit_failed",
+      "center_deviation_large",
+      "separation_fail"
+    ],
+    "comment": "Second S II component fit at 6670.3 with error ~183 A; separation fail. Not adopted."
+  },
+  {
+    "line_id": "line:cat1-8498-abs",
+    "measurement_id": null,
+    "status": "NOT_FOUND",
+    "reason_codes": [
+      "center_at_bound",
+      "unselectable_fit",
+      "red_edge"
+    ],
+    "comment": "Fit centre at bound (8432.3), unselectable; no CWT trough at 8482.3. Not adopted."
+  },
+  {
+    "line_id": "line:cat2-8542-abs",
+    "measurement_id": null,
+    "status": "NOT_FOUND",
+    "reason_codes": [
+      "center_at_bound",
+      "unselectable_fit",
+      "red_edge"
+    ],
+    "comment": "Fit centre at bound (8476.2), unselectable; no CWT trough at 8526.2. Not adopted."
+  },
+  {
+    "line_id": "line:cat3-8662-abs",
+    "measurement_id": null,
+    "status": "NOT_FOUND",
+    "reason_codes": [
+      "center_at_bound",
+      "unselectable_fit",
+      "red_edge"
+    ],
+    "comment": "Fit centre at bound (8696.0) with huge error; unselectable. Not adopted."
+  }
+]

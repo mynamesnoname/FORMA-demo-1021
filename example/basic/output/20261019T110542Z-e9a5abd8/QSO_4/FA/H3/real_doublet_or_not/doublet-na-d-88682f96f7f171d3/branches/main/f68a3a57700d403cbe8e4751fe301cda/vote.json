@@ -1,0 +1,13 @@
+{
+  "answer": "no",
+  "reason": "D2 window shows only a weak dip near 7299-7303 Å, but the D1 window at the predicted 7294 Å is flat continuum with no absorption feature; the claimed D1 center (7326 Å) is ~32 Å off prediction and also featureless. Measured separation 26.7 Å vs expected 7.4 Å is a gross pairing mismatch, so the joint doublet is not corroborated.",
+  "execution": {
+    "schema_version": "forma-agentic-node-execution-v1",
+    "run_id": "graph-853b617a68f04c36bd82f06bdb770ac4",
+    "branch_id": "main",
+    "node_key": "fa.real_doublet_or_not/graph-853b617a68f04c36bd82f06bdb770ac4/H3/doublet%3Ana-d",
+    "node_execution_id": "f68a3a57700d403cbe8e4751fe301cda",
+    "attempt_id": "a7c21eafe6ea4e089e3429d54fb006e3",
+    "relative_dir": "FA/H3/real_doublet_or_not/doublet-na-d-88682f96f7f171d3/branches/main/f68a3a57700d403cbe8e4751fe301cda"
+  }
+}

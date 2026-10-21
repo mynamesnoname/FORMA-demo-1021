@@ -1,0 +1,101 @@
+{
+  "schema_version": "forma-fa-advisory-summary-v1",
+  "run_id": "graph-853b617a68f04c36bd82f06bdb770ac4",
+  "branch_id": "main",
+  "consultative_only": true,
+  "hypotheses": [
+    {
+      "hypothesis_ref": "H1",
+      "lya_forest": null,
+      "doublets": [
+        {
+          "doublet_id": "doublet:oiii",
+          "node_ref": "fa_doublet/bae120b8a96d4b13be289a3b70df15f2/node",
+          "status": "complete"
+        },
+        {
+          "doublet_id": "doublet:sii",
+          "node_ref": "fa_doublet/ad9c442db08945409deb862a3642e289/node",
+          "status": "complete"
+        },
+        {
+          "doublet_id": "doublet:cahk",
+          "node_ref": "fa_doublet/7055dcdc0a6e479caa71ba8b360ad83f/node",
+          "status": "complete"
+        },
+        {
+          "doublet_id": "doublet:na-d",
+          "node_ref": "fa_doublet/c2d14afca2694ed1938a8405c2684551/node",
+          "status": "complete"
+        }
+      ]
+    },
+    {
+      "hypothesis_ref": "H2",
+      "lya_forest": null,
+      "doublets": []
+    },
+    {
+      "hypothesis_ref": "H4",
+      "lya_forest": null,
+      "doublets": [
+        {
+          "doublet_id": "doublet:sii",
+          "node_ref": "fa_doublet/793fb7bc53a34f4498afce1a7a25df7d/node",
+          "status": "complete"
+        },
+        {
+          "doublet_id": "doublet:nii",
+          "node_ref": "fa_doublet/64d711b2366748649e20278a7f6654b3/node",
+          "status": "complete"
+        },
+        {
+          "doublet_id": "doublet:na-d",
+          "node_ref": "fa_doublet/f6f91c5088594a5983da7235d0edbb78/node",
+          "status": "complete"
+        }
+      ]
+    },
+    {
+      "hypothesis_ref": "H6",
+      "lya_forest": null,
+      "doublets": []
+    },
+    {
+      "hypothesis_ref": "H3",
+      "lya_forest": null,
+      "doublets": [
+        {
+          "doublet_id": "doublet:oiii",
+          "node_ref": "fa_doublet/2eead22b6a214e798fac9301448b78f6/node",
+          "status": "complete"
+        },
+        {
+          "doublet_id": "doublet:sii",
+          "node_ref": "fa_doublet/3c5b80cd15dd4e83a1e16ebe23d5b63c/node",
+          "status": "complete"
+        },
+        {
+          "doublet_id": "doublet:nii",
+          "node_ref": "fa_doublet/cab576ea2bd943e8be37a7624e0412db/node",
+          "status": "complete"
+        },
+        {
+          "doublet_id": "doublet:cahk",
+          "node_ref": "fa_doublet/03a382a9fff94beea932f223b78c9e2f/node",
+          "status": "complete"
+        },
+        {
+          "doublet_id": "doublet:na-d",
+          "node_ref": "fa_doublet/e9815dfff16c48b5832d38b8d9ab48f0/node",
+          "status": "complete"
+        }
+      ]
+    },
+    {
+      "hypothesis_ref": "H5",
+      "lya_forest": null,
+      "doublets": []
+    }
+  ]
+}

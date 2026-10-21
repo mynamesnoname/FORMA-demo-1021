@@ -1,0 +1,67 @@
+[
+  {
+    "line_id": "line:civ-1549",
+    "measurement_id": "cwt:em:0000",
+    "status": "MARGINAL",
+    "reason_codes": [
+      "offset_weak",
+      "broad_width",
+      "blue_edge"
+    ],
+    "comment": "CWT peak 4127.2 (z=1.6644, in window) offset ~5 A from 4121.9; strong SNR 88 but FWHM ~1229 km/s and blue-edge (<4000 A scrutiny); plausible broad C IV but width/edge caveats."
+  },
+  {
+    "line_id": "line:heii-1640",
+    "measurement_id": null,
+    "status": "NOT_FOUND",
+    "reason_codes": [
+      "no_cwt_feature",
+      "fit_center_at_bound",
+      "fit_rejected"
+    ],
+    "comment": "No CWT feature near 4365 A; targeted fit 4315.1 is center_at_bound and unselectable, low SNR 0.63. No credible measurement."
+  },
+  {
+    "line_id": "line:ciii-1909",
+    "measurement_id": null,
+    "status": "NOT_FOUND",
+    "reason_codes": [
+      "cwt_missed",
+      "fit_outside_window",
+      "weak_snr"
+    ],
+    "comment": "CWT missed; targeted fit converged at 5056.0 (z=1.6485) which is outside the [1.651,1.671] window, low local SNR 1.08. No adoptable measurement."
+  },
+  {
+    "line_id": "line:mgii-2800",
+    "measurement_id": "cwt:em:0015",
+    "status": "LIKELY",
+    "reason_codes": [
+      "blend",
+      "doublet_ambiguity"
+    ],
+    "comment": "CWT peak 7452.0 (z=1.6614) matches predicted 7450.9 within ~1 A; strong SNR 31.5. Blended with peak 7436.0 (z=1.6557) and nearby absorption troughs; Mg II doublet ambiguity noted."
+  },
+  {
+    "line_id": "line:mgii-2800-abs",
+    "measurement_id": "cwt:abs:0019",
+    "status": "MARGINAL",
+    "reason_codes": [
+      "blend",
+      "weak_depth",
+      "doublet_ambiguity"
+    ],
+    "comment": "Trough 7447.2 (z=1.6597) closest to 7450.9; shallow depth, blended with troughs 7463.2 and 7428.0 and adjacent emission. Plausible weak absorption but ambiguous."
+  },
+  {
+    "line_id": "line:nev-3426",
+    "measurement_id": "fit:H5:0002",
+    "status": "MARGINAL",
+    "reason_codes": [
+      "cwt_missed",
+      "weak_snr",
+      "offset_weak"
+    ],
+    "comment": "CWT missed; targeted fit converged at 9132.5 (offset ~16 A, weak) with narrow FWHM 188 km/s but low local SNR 0.88 and tiny dchi2. Weak candidate only."
+  }
+]

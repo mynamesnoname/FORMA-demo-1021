@@ -1,0 +1,13 @@
+{
+  "answer": "no",
+  "reason": "Neither window shows a real absorption component. At Ca K (~4924.6 Å) the flux is flat/noisy with only a single low sample at 4926.4 (offset ~1.4 Å from prediction), consistent with the rejected measurement and signal_absent FA state. At Ca H (~4968.2 Å) the flux actually rises through the region (~2.8–3.2) with no dip, matching NOT_FOUND/no pairing. No credible two-component structure or unpaired partner is visible in the usable pixels.",
+  "execution": {
+    "schema_version": "forma-agentic-node-execution-v1",
+    "run_id": "graph-6f4e6510cc5d45df9da3b7be0c8597cc",
+    "branch_id": "main",
+    "node_key": "fa.real_doublet_or_not/graph-6f4e6510cc5d45df9da3b7be0c8597cc/H1/doublet%3Acahk",
+    "node_execution_id": "74cd864a674a463aa2c064cca0d686c7",
+    "attempt_id": "9775d6943a444f0a8869c0382fcc21c8",
+    "relative_dir": "FA/H1/real_doublet_or_not/doublet-cahk-adc0de4c56cfce1d/branches/main/74cd864a674a463aa2c064cca0d686c7"
+  }
+}

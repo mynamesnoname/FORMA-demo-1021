@@ -1,0 +1,178 @@
+{
+  "schema_version": "forma-fa-doublet-review-v1",
+  "node_type": "fa.doublet_review",
+  "node_key": "fa.real_doublet_or_not/graph-fe0d30030bcc4939b88103e27753b2c1/H4/doublet%3Ana-d",
+  "run_id": "graph-fe0d30030bcc4939b88103e27753b2c1",
+  "branch_id": "main",
+  "hypothesis_ref": "H4",
+  "doublet_id": "doublet:na-d",
+  "claim_mode": "complete_pair",
+  "components": [
+    {
+      "line_id": "line:nad1-5891-abs",
+      "line_name": "Na D1_abs",
+      "rest_angstrom": 5891.6,
+      "expected_obs_angstrom": 5892.8954453685765,
+      "sh_status": "MARGINAL",
+      "measurement_id": "fit:H4:0008",
+      "measurement_source": "fit_doublet",
+      "measured_center_angstrom": 5890.873,
+      "amplitude": -0.162207,
+      "measured_offset_from_expected_angstrom": -2.022445368576882,
+      "fa_state": "signal_absent",
+      "cleaned_pairing": "rejected_measurement",
+      "fa_vote_artifact_refs": [
+        "fa/3a9326ca559f49aa860760183a413336/node",
+        "fa/3883d9f660784031b5716455d2c66535/node",
+        "fa/c59c675d2db747b5a4d0dae9c5bb3f01/node"
+      ]
+    },
+    {
+      "line_id": "line:nad2-5897-abs",
+      "line_name": "Na D2_abs",
+      "rest_angstrom": 5897.6,
+      "expected_obs_angstrom": 5898.896764648944,
+      "sh_status": "MARGINAL",
+      "measurement_id": "fit:H4:0009",
+      "measurement_source": "fit_doublet",
+      "measured_center_angstrom": 5900.401,
+      "amplitude": -0.186447,
+      "measured_offset_from_expected_angstrom": 1.5042353510561952,
+      "fa_state": "signal_absent",
+      "cleaned_pairing": "rejected_measurement",
+      "fa_vote_artifact_refs": [
+        "fa/7a2d774903744d9797179ba131541f8e/node",
+        "fa/7d18809daee44296ac39546017f992f5/node",
+        "fa/4320bee910fb409f96382f45f423bd13/node"
+      ]
+    }
+  ],
+  "metrics": {
+    "expected_separation_angstrom": 6.00131928036717,
+    "registry_rest_separation_angstrom": 6.0,
+    "measured_separation_angstrom": 9.528000000000247,
+    "separation_difference_angstrom": 3.5266807196330774,
+    "amplitude_ratio_a_over_b": 0.8699898630710067,
+    "reference_ratio_window_a_over_b": [
+      1.4,
+      2.8
+    ],
+    "reference_ratio_note": "a:b ≈ 2:1 (fitting hint)",
+    "reference_ratio_within_window": false,
+    "reference_ratio_is_advisory": true
+  },
+  "coverage": {
+    "requested_window_angstrom": [
+      5812.8954453685765,
+      5978.896764648944
+    ],
+    "actual_window_angstrom": [
+      5813.600000000012,
+      5978.40000000005
+    ],
+    "spectrum_bounds_angstrom": [
+      3600.0,
+      9824.000000000524
+    ],
+    "component_cores": [
+      {
+        "line_id": "line:nad1-5891-abs",
+        "predicted_obs_angstrom": 5892.8954453685765,
+        "center_within_spectrum_bounds": true,
+        "samples": 37,
+        "valid_samples": 37,
+        "masked_samples": 0,
+        "assessable": true
+      },
+      {
+        "line_id": "line:nad2-5897-abs",
+        "predicted_obs_angstrom": 5898.896764648944,
+        "center_within_spectrum_bounds": true,
+        "samples": 38,
+        "valid_samples": 38,
+        "masked_samples": 0,
+        "assessable": true
+      }
+    ],
+    "assessable": true,
+    "unreviewable_reason": null
+  },
+  "status": "complete",
+  "pair_supported": false,
+  "consultative_only": true,
+  "method_snapshot": {
+    "context_margin_angstrom": 80.0,
+    "component_check_half_angstrom": 15.0,
+    "cahk_outer_reference_sigma": 3.0,
+    "min_valid_component_samples": 5,
+    "vote_quorum": 3,
+    "max_attempts_per_vote_seat": 2
+  },
+  "vote_summary": {
+    "yes": 0,
+    "no": 3,
+    "yes_fraction": 0.0,
+    "assurance": "assured"
+  },
+  "ballots": [
+    {
+      "seat": 0,
+      "answer": "no",
+      "reason": "Both component windows fall in low-ivar noisy stretches with no coherent absorption trough at the predicted positions (a: center 5890.87 vs 5892.90; b: 5900.40 vs 5898.90). Measured separation 9.53 Å vs expected 6.00 Å is a clear pairing mismatch, and both single-feature states are signal_absent. The joint doublet is not visually supported.",
+      "vote_ref": "fa_doublet/7e10335ce7294f2b8283a6189bb67340/vote.json"
+    },
+    {
+      "seat": 1,
+      "answer": "no",
+      "reason": "Neither component window shows a clean absorption trough at its predicted position: both sit in low-ivar noisy stretches (ivar ~10-35) with centers offset ~2 Å (a) and ~1.5 Å (b). Measured separation 9.53 Å vs expected 6.00 Å, and amplitude ratio 0.87 vs ~2:1 hint. No corroborated paired Na D doublet in usable pixels.",
+      "vote_ref": "fa_doublet/d6de9953a49c45e7b1baf8cfe6ff88ed/vote.json"
+    },
+    {
+      "seat": 2,
+      "answer": "no",
+      "reason": "Both component windows fall in low-ivar noise (ivar ~10-35) with no credible absorption at the predicted positions: a's center is 2.0 Å blueward and b's 1.5 Å redward of prediction, giving a measured separation of 9.53 Å vs expected 6.00 Å. Both single-feature FA states are signal_absent, so the joint doublet is not corroborated.",
+      "vote_ref": "fa_doublet/8a003f35b657417cbfa4080b75fd6cef/vote.json"
+    }
+  ],
+  "successful_votes": 3,
+  "required_votes": 3,
+  "failed_seats": 0,
+  "model_usage": {
+    "calls": 3,
+    "input_tokens": 23577,
+    "output_tokens": 1628,
+    "cache_hit_tokens": 23040,
+    "cache_hit_reported_calls": 3,
+    "cache_hit_unreported_calls": 0
+  },
+  "prompt_identity": {
+    "system_sha256": "92cc96d1542cdf1088b68d4688ccd8de256ac572ab050c2a5e087060f5955e1b",
+    "user_sha256": "820f14d32043c7cc06e65fd0238cfcb7e6a55d235187bc2134353a3eb38ea927",
+    "tool_name": "submit_doublet_vote",
+    "prompt_text_sha256": "adec86d2e169957fc6f95bfdf8c1d8b7fad0878b16a772e094ae7ddd8bfbb9eb"
+  },
+  "source_refs": [
+    "sh/H4/node",
+    "sh/H4/catalog",
+    "sh/H4/judgments",
+    "spectrum_npz",
+    "fa/3a9326ca559f49aa860760183a413336/node",
+    "fa/3883d9f660784031b5716455d2c66535/node",
+    "fa/c59c675d2db747b5a4d0dae9c5bb3f01/node",
+    "fa/7a2d774903744d9797179ba131541f8e/node",
+    "fa/7d18809daee44296ac39546017f992f5/node",
+    "fa/4320bee910fb409f96382f45f423bd13/node"
+  ],
+  "attempt_refs": [
+    "fa_doublet/7e10335ce7294f2b8283a6189bb67340/vote.json",
+    "fa_doublet/7e10335ce7294f2b8283a6189bb67340/session.md",
+    "fa_doublet/7e10335ce7294f2b8283a6189bb67340/model_usage.json",
+    "fa_doublet/d6de9953a49c45e7b1baf8cfe6ff88ed/vote.json",
+    "fa_doublet/d6de9953a49c45e7b1baf8cfe6ff88ed/session.md",
+    "fa_doublet/d6de9953a49c45e7b1baf8cfe6ff88ed/model_usage.json",
+    "fa_doublet/8a003f35b657417cbfa4080b75fd6cef/vote.json",
+    "fa_doublet/8a003f35b657417cbfa4080b75fd6cef/session.md",
+    "fa_doublet/8a003f35b657417cbfa4080b75fd6cef/model_usage.json"
+  ],
+  "node_execution_id": "816a7d831f6a4ae789696ba0f30a34e6"
+}

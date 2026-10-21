@@ -1,0 +1,9 @@
+{
+  "schema_version": "forma-agentic-node-execution-v1",
+  "run_id": "graph-fe0d30030bcc4939b88103e27753b2c1",
+  "branch_id": "main",
+  "node_key": "fa.real_feature_or_not/graph-fe0d30030bcc4939b88103e27753b2c1/fit:H4:0001",
+  "node_execution_id": "3c6f141e49ef489495bccef340b0b2e3",
+  "attempt_id": "31dbce2e15cd4b3c87120fad49aa7009",
+  "relative_dir": "FA/H4/real_feature_or_not/fit-H4-0001-c37f0eeab2206d55/branches/main/3c6f141e49ef489495bccef340b0b2e3"
+}

@@ -1,0 +1,64 @@
+{
+  "schema_version": "forma-elg-node-v1",
+  "graph_version": "forma-elg-type-graph-v1",
+  "run_id": "graph-fe0d30030bcc4939b88103e27753b2c1",
+  "branch_id": "main",
+  "hypothesis_ref": "H2",
+  "node_key": "sh2.elg/H2/elg.emission_evidence",
+  "node_type": "elg.emission_evidence",
+  "status": "completed",
+  "input_refs": [
+    "sh2/0996697b657343d88a81341d5c5e6c0c/node"
+  ],
+  "evidence_refs": [
+    "sh2/0996697b657343d88a81341d5c5e6c0c/node"
+  ],
+  "output": {
+    "A": "yes",
+    "B": "yes",
+    "oiii_components": [
+      {
+        "line_id": "line:oiii-4960",
+        "measurement_id": "cwt:em:0007",
+        "sh_status": "LIKELY",
+        "fa_state": "signal_present",
+        "cleaned_pairing": "adopted",
+        "fa_vote_artifact_refs": [
+          "fa/d5dfe389c0a14b29b2fb320562298a08/node",
+          "fa/56a1091bcae64749b8db5d0875fb9212/node",
+          "fa/cf28f57f2acb49c8a58a1c0790fe77b7/node"
+        ]
+      },
+      {
+        "line_id": "line:oiii-5008",
+        "measurement_id": "cwt:em:0008",
+        "sh_status": "LIKELY",
+        "fa_state": "signal_present",
+        "cleaned_pairing": "adopted",
+        "fa_vote_artifact_refs": [
+          "fa/27a4d18069514c23b98e3794958e00ad/node",
+          "fa/bda4763884a746888c724bd91328190a/node",
+          "fa/19fea7b7d50d4af9aced59f0128a981c/node"
+        ]
+      }
+    ],
+    "oii": {
+      "line_id": "line:oii-3727",
+      "measurement_id": "cwt:em:0000",
+      "sh_status": "LIKELY",
+      "fa_state": "signal_present",
+      "cleaned_pairing": "adopted",
+      "fa_vote_artifact_refs": [
+        "fa/2c50ff5c25364b928cab718eadd55f86/node",
+        "fa/1e34ea100b834a04b471fc74fc6661ff/node",
+        "fa/8d277314fa5e4142be3176009d6d0870/node"
+      ]
+    },
+    "oiii_component_id_conflict": false,
+    "unknown_is_negative": false
+  },
+  "unresolved_reasons": [],
+  "created_by": "code",
+  "node_execution_id": "0444a688f1c94dfd863fdce323586637",
+  "attempt_id": "0c29573576284d8d9b9b4692c88bba94"
+}

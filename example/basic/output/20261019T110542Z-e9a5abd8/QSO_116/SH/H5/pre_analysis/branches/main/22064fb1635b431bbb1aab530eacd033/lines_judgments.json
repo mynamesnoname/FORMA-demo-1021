@@ -1,0 +1,46 @@
+[
+  {
+    "line_id": "line:lya-1216",
+    "measurement_id": "cwt:em:0000",
+    "status": "LIKELY",
+    "reason_codes": [
+      "offset_ok",
+      "snr_strong",
+      "broad_width"
+    ],
+    "comment": "CWT peak 4768.0 A, implied z=2.9221 within window; offset +2.9 A; SNR 13, ridge 15, FWHM ~2500 km/s consistent with broad Ly-alpha."
+  },
+  {
+    "line_id": "line:civ-1549",
+    "measurement_id": "cwt:em:0002",
+    "status": "LIKELY",
+    "reason_codes": [
+      "offset_ok",
+      "snr_strong",
+      "broad_width"
+    ],
+    "comment": "CWT peak 6072.0 A, implied z=2.9199; offset +0.4 A; SNR 23, ridge 9, FWHM ~3470 km/s consistent with broad C IV."
+  },
+  {
+    "line_id": "line:heii-1640",
+    "measurement_id": null,
+    "status": "NOT_FOUND",
+    "reason_codes": [
+      "no_cwt_feature",
+      "fit_center_at_bound",
+      "fit_rejected"
+    ],
+    "comment": "No CWT feature near 6430 A; targeted fit 6479.9 A is center_at_bound and unselectable, offset ~50 A. No credible measurement adopted."
+  },
+  {
+    "line_id": "line:ciii-1909",
+    "measurement_id": "cwt:em:0003",
+    "status": "MARGINAL",
+    "reason_codes": [
+      "offset_weak",
+      "low_amplitude",
+      "broad_width"
+    ],
+    "comment": "CWT peak 7474.4 A, implied z=2.9153 within window; offset -8.3 A; SNR 20 but low amplitude 0.3 and FWHM ~3400 km/s; plausible but weak C III] candidate."
+  }
+]

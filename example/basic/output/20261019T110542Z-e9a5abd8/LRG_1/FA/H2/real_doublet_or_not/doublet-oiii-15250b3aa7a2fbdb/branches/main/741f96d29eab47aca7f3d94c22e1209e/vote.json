@@ -1,0 +1,13 @@
+{
+  "answer": "no",
+  "reason": "Component a window shows only a broad, slowly varying hump with no discrete line at 4959 Å (claimed center 4964 Å sits on continuum, offset ~5 Å; FA signal_absent). Component b window at 5006.9 Å is a local flux minimum (~1.2–1.8) with no peak (SH NOT_FOUND). No credible two-component doublet is visible in the usable pixels.",
+  "execution": {
+    "schema_version": "forma-agentic-node-execution-v1",
+    "run_id": "graph-6f4e6510cc5d45df9da3b7be0c8597cc",
+    "branch_id": "main",
+    "node_key": "fa.real_doublet_or_not/graph-6f4e6510cc5d45df9da3b7be0c8597cc/H2/doublet%3Aoiii",
+    "node_execution_id": "741f96d29eab47aca7f3d94c22e1209e",
+    "attempt_id": "e449eb9768294ec780fe31b8e5d7803d",
+    "relative_dir": "FA/H2/real_doublet_or_not/doublet-oiii-15250b3aa7a2fbdb/branches/main/741f96d29eab47aca7f3d94c22e1209e"
+  }
+}

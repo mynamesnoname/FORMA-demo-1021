@@ -1,0 +1,159 @@
+{
+  "schema_version": "forma-demo-hs-run-v1",
+  "status": "completed",
+  "samples_requested": [
+    "BGS_2",
+    "ELG_6",
+    "LRG_1",
+    "QSO_4",
+    "QSO_116"
+  ],
+  "source_dir": "/mnt/linux_share/code/FORMA/example/basic",
+  "results": [
+    {
+      "sample": "BGS_2",
+      "workflow_status": "hs_comparison_complete",
+      "final_classification_available": false,
+      "truth": {
+        "vi_z": 0.159,
+        "vi_spectype": "BGS",
+        "vi_quality": 4.0
+      },
+      "surviving_hypotheses": [
+        "H1",
+        "H6"
+      ],
+      "hs_group_count": 1,
+      "hs_comparison_ref": "hs/46fcab826ee34023a2783bfc982bee9b/node",
+      "hs_status": "provisional_selection",
+      "winner_group_id": "hs.cross/H1+H6",
+      "winner_type": "LRG/BGS",
+      "winner_member_hypotheses": [
+        "H1",
+        "H6"
+      ],
+      "winner_redshift": 0.15914557283724706,
+      "absolute_vi_redshift_error": 0.00014557283724705994,
+      "type_matches_vi": true,
+      "ra_review_pending": true,
+      "comparison_reason": "Cross-merge accepted after source-bound checks; sole resolved group pending RA.",
+      "output_root": "/mnt/linux_share/code/FORMA/example/basic/output/20261019T110542Z-e9a5abd8/BGS_2"
+    },
+    {
+      "sample": "ELG_6",
+      "workflow_status": "hs_comparison_complete",
+      "final_classification_available": false,
+      "truth": {
+        "vi_z": 0.1068,
+        "vi_spectype": "ELG",
+        "vi_quality": 4.0
+      },
+      "surviving_hypotheses": [
+        "H2",
+        "H1"
+      ],
+      "hs_group_count": 1,
+      "hs_comparison_ref": "hs/1a56c96eea394c5fb8a0bee2cd255c56/node",
+      "hs_status": "provisional_selection",
+      "winner_group_id": "hs.merge/H1+H2",
+      "winner_type": "ELG",
+      "winner_member_hypotheses": [
+        "H1",
+        "H2"
+      ],
+      "winner_redshift": 0.10737858867725247,
+      "absolute_vi_redshift_error": 0.0005785886772524673,
+      "type_matches_vi": true,
+      "ra_review_pending": true,
+      "comparison_reason": "Only surviving group; provisional pending RA.",
+      "output_root": "/mnt/linux_share/code/FORMA/example/basic/output/20261019T110542Z-e9a5abd8/ELG_6"
+    },
+    {
+      "sample": "LRG_1",
+      "workflow_status": "hs_comparison_complete",
+      "final_classification_available": false,
+      "truth": {
+        "vi_z": 0.2717,
+        "vi_spectype": "LRG",
+        "vi_quality": 4.0
+      },
+      "surviving_hypotheses": [
+        "H3",
+        "H1",
+        "H5"
+      ],
+      "hs_group_count": 2,
+      "hs_comparison_ref": "hs/b8c1ec75b56e465ca6a9e1be293a1bc1/node",
+      "hs_status": "provisional_selection",
+      "winner_group_id": "hs.cross/H3+H5",
+      "winner_type": "LRG/BGS",
+      "winner_member_hypotheses": [
+        "H3",
+        "H5"
+      ],
+      "winner_redshift": 0.2719528311477075,
+      "absolute_vi_redshift_error": 0.0002528311477075218,
+      "type_matches_vi": true,
+      "ra_review_pending": true,
+      "comparison_reason": "hs.cross/H3+H5 is the only eligible group (merged, no type recheck) and has a coherent, FA-supported LRG/BGS absorption pattern: a doublet-supported Ca H/K pair (3/3 yes for both H3 and H5) plus several distinct FA signal_present absorption features (Mg I, H-beta, Na D, and the shared cwt:abs:0003). hs.merge/H1 is type_recheck_required and cannot win; its Ca H/K doublet review returned 0/3 and its only selected pairs are the shared cwt:abs:0003 (identified as H-gamma absorption) and an emission feature at cwt:em:0004, with no corroborating doublet support. The shared feature cwt:abs:0003 is a single observed signal whose line identity is contested (H-gamma-abs vs g-band-4305-abs), so it does not independently favour either group; the decisive advantage is the additional distinct, FA-confirmed Ca H/K doublet and other absorption features supporting H3+H5.",
+      "output_root": "/mnt/linux_share/code/FORMA/example/basic/output/20261019T110542Z-e9a5abd8/LRG_1"
+    },
+    {
+      "sample": "QSO_4",
+      "workflow_status": "hs_comparison_complete",
+      "final_classification_available": false,
+      "truth": {
+        "vi_z": 0.2381,
+        "vi_spectype": "QSO",
+        "vi_quality": 4.0
+      },
+      "surviving_hypotheses": [
+        "H1",
+        "H3"
+      ],
+      "hs_group_count": 1,
+      "hs_comparison_ref": "hs/5e139a98214f4359a3d985b8c8c9eb80/node",
+      "hs_status": "provisional_selection",
+      "winner_group_id": "hs.merge/H1+H3",
+      "winner_type": "Type 2 QSO",
+      "winner_member_hypotheses": [
+        "H1",
+        "H3"
+      ],
+      "winner_redshift": 0.23874429836335698,
+      "absolute_vi_redshift_error": 0.000644298363356971,
+      "type_matches_vi": true,
+      "ra_review_pending": true,
+      "comparison_reason": "Only surviving group; provisional pending RA.",
+      "output_root": "/mnt/linux_share/code/FORMA/example/basic/output/20261019T110542Z-e9a5abd8/QSO_4"
+    },
+    {
+      "sample": "QSO_116",
+      "workflow_status": "hs_comparison_complete",
+      "final_classification_available": false,
+      "truth": {
+        "vi_z": 2.9183,
+        "vi_spectype": "QSO",
+        "vi_quality": 4.0
+      },
+      "surviving_hypotheses": [
+        "H5",
+        "H6"
+      ],
+      "hs_group_count": 2,
+      "hs_comparison_ref": "hs/cdcc815ec97545148b839e0f68ec335b/node",
+      "hs_status": "provisional_selection",
+      "winner_group_id": "hs.merge/H5",
+      "winner_type": "Type 1 QSO",
+      "winner_member_hypotheses": [
+        "H5"
+      ],
+      "winner_redshift": 2.9196962422694117,
+      "absolute_vi_redshift_error": 0.0013962422694118182,
+      "type_matches_vi": true,
+      "ra_review_pending": true,
+      "comparison_reason": "H5 and H6 both identify the same observed CWT feature cwt:em:0000, but as different lines (Lyα at z=2.92 vs Mg II at z=0.708). H5 has a second, distinct FA-confirmed broad feature (cwt:em:0002, C IV, signal_present 2/3) with a very small positional residual (+0.39 Å), giving it an additional independent observational support that H6 lacks. H6's Mg II assignment has a larger descriptive offset (-14.17 Å) and only a MARGINAL SH status, and its Ca H/K doublet review returned pair-supported=no (0/3). H5's Lyα forest review returned not_seen, which is a limitation rather than a rejection. On balance H5's pattern (two broad, FA-confirmed features at consistent positions) is the more credible provisional interpretation.",
+      "output_root": "/mnt/linux_share/code/FORMA/example/basic/output/20261019T110542Z-e9a5abd8/QSO_116"
+    }
+  ]
+}

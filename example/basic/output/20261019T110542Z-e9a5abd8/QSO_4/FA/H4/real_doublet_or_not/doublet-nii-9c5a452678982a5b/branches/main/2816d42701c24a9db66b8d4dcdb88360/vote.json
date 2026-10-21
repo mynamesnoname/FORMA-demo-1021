@@ -1,0 +1,13 @@
+{
+  "answer": "no",
+  "reason": "Component a window (6536-6539 Å) shows only flat continuum with no visible peak, matching signal_absent. Component b's claimed center (6565.9 Å) is ~7 Å off prediction and the predicted 6573 Å position shows no peak; only a weak broad bump appears. Separation (29.6 Å vs 35.4 expected) and ratio also mismatch. Joint doublet not corroborated.",
+  "execution": {
+    "schema_version": "forma-agentic-node-execution-v1",
+    "run_id": "graph-853b617a68f04c36bd82f06bdb770ac4",
+    "branch_id": "main",
+    "node_key": "fa.real_doublet_or_not/graph-853b617a68f04c36bd82f06bdb770ac4/H4/doublet%3Anii",
+    "node_execution_id": "2816d42701c24a9db66b8d4dcdb88360",
+    "attempt_id": "582e6c48e3284a8786d353e951222234",
+    "relative_dir": "FA/H4/real_doublet_or_not/doublet-nii-9c5a452678982a5b/branches/main/2816d42701c24a9db66b8d4dcdb88360"
+  }
+}

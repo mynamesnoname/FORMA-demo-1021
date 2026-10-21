@@ -1,0 +1,171 @@
+{
+  "schema_version": "forma-fa-doublet-review-v1",
+  "node_type": "fa.doublet_review",
+  "node_key": "fa.real_doublet_or_not/graph-df7434d5533647e999870708120307b0/H1/doublet%3Aoiii",
+  "run_id": "graph-df7434d5533647e999870708120307b0",
+  "branch_id": "main",
+  "hypothesis_ref": "H1",
+  "doublet_id": "doublet:oiii",
+  "claim_mode": "orphan",
+  "components": [
+    {
+      "line_id": "line:oiii-4960",
+      "line_name": "[O III]a",
+      "rest_angstrom": 4960.3,
+      "expected_obs_angstrom": 5748.827752482947,
+      "sh_status": "NOT_FOUND",
+      "measurement_id": null,
+      "measurement_source": null,
+      "measured_center_angstrom": null,
+      "amplitude": null,
+      "measured_offset_from_expected_angstrom": null,
+      "fa_state": null,
+      "cleaned_pairing": "no_pairing",
+      "fa_vote_artifact_refs": []
+    },
+    {
+      "line_id": "line:oiii-5008",
+      "line_name": "[O III]b",
+      "rest_angstrom": 5008.2,
+      "expected_obs_angstrom": 5804.342307921918,
+      "sh_status": "MARGINAL",
+      "measurement_id": "fit:H1:0001",
+      "measurement_source": "fit_doublet",
+      "measured_center_angstrom": 5804.145,
+      "amplitude": 1.091457,
+      "measured_offset_from_expected_angstrom": -0.1973079219178544,
+      "fa_state": "signal_absent",
+      "cleaned_pairing": "rejected_measurement",
+      "fa_vote_artifact_refs": [
+        "fa/e9fc9b8925ca43068d40e235b365997a/node",
+        "fa/1da5e2689a2644d7bbf0286a006bb9cd/node",
+        "fa/ff47583b3c6241cc8b2d76579f8d1291/node"
+      ]
+    }
+  ],
+  "metrics": {
+    "expected_separation_angstrom": 55.514555438971,
+    "registry_rest_separation_angstrom": 47.9,
+    "measured_separation_angstrom": null,
+    "separation_difference_angstrom": null,
+    "amplitude_ratio_a_over_b": null,
+    "reference_ratio_window_a_over_b": [
+      0.25,
+      0.5
+    ],
+    "reference_ratio_note": "b:a ≈ 3:1",
+    "reference_ratio_within_window": null,
+    "reference_ratio_is_advisory": true
+  },
+  "coverage": {
+    "requested_window_angstrom": [
+      5668.827752482947,
+      5884.342307921918
+    ],
+    "actual_window_angstrom": [
+      5669.600000000471,
+      5884.000000000028
+    ],
+    "spectrum_bounds_angstrom": [
+      3600.0,
+      9824.000000000524
+    ],
+    "component_cores": [
+      {
+        "line_id": "line:oiii-4960",
+        "predicted_obs_angstrom": 5748.827752482947,
+        "center_within_spectrum_bounds": true,
+        "samples": 32,
+        "valid_samples": 32,
+        "masked_samples": 0,
+        "assessable": true
+      },
+      {
+        "line_id": "line:oiii-5008",
+        "predicted_obs_angstrom": 5804.342307921918,
+        "center_within_spectrum_bounds": true,
+        "samples": 26,
+        "valid_samples": 26,
+        "masked_samples": 0,
+        "assessable": true
+      }
+    ],
+    "assessable": true,
+    "unreviewable_reason": null
+  },
+  "status": "complete",
+  "pair_supported": false,
+  "consultative_only": true,
+  "method_snapshot": {
+    "context_margin_angstrom": 80.0,
+    "component_check_half_angstrom": 15.0,
+    "cahk_outer_reference_sigma": 3.0,
+    "min_valid_component_samples": 5,
+    "vote_quorum": 3,
+    "max_attempts_per_vote_seat": 2
+  },
+  "vote_summary": {
+    "yes": 0,
+    "no": 3,
+    "yes_fraction": 0.0,
+    "assurance": "assured"
+  },
+  "ballots": [
+    {
+      "seat": 0,
+      "answer": "no",
+      "reason": "Component a window (5740–5760 Å) is flat continuum with no peak at 5748.8 Å (SH=NOT_FOUND, FA=none). The only candidate, b at ~5804 Å, is a broad low-S/N hump (ivar ~1–2) flagged signal_absent and rejected_measurement, not a credible narrow line. No paired partner is visible, so the two-component interpretation is uncorroborated.",
+      "vote_ref": "fa_doublet/c583d40321c5456582a556f10edd0566/vote.json"
+    },
+    {
+      "seat": 1,
+      "answer": "no",
+      "reason": "Component a window (5740–5760 Å) is flat noisy continuum with no feature at 5748.8 Å (SH=NOT_FOUND, FA=none). Component b window (5800–5810 Å) shows only low-ivar noise-level undulation, no credible line at 5804.1 Å (FA=signal_absent, pairing rejected). The orphan partner is absent and the claimed component is not visually real, so the two-component interpretation is uncorroborated.",
+      "vote_ref": "fa_doublet/fc6a213d4b2647e6a65ff0a499f2f18c/vote.json"
+    },
+    {
+      "seat": 2,
+      "answer": "no",
+      "reason": "Component a window (~5748 Å) is flat noisy continuum with no emission peak at the predicted center, matching NOT_FOUND. Component b (~5804 Å) sits in very low-ivar (~1) noisy data with only a marginal, signal_absent blip. Neither window shows a credible line, so the orphan pair is not visually corroborated.",
+      "vote_ref": "fa_doublet/1cf97739d49e4008a7bac9494b88df34/vote.json"
+    }
+  ],
+  "successful_votes": 3,
+  "required_votes": 3,
+  "failed_seats": 0,
+  "model_usage": {
+    "calls": 3,
+    "input_tokens": 24186,
+    "output_tokens": 1294,
+    "cache_hit_tokens": 1536,
+    "cache_hit_reported_calls": 3,
+    "cache_hit_unreported_calls": 0
+  },
+  "prompt_identity": {
+    "system_sha256": "92cc96d1542cdf1088b68d4688ccd8de256ac572ab050c2a5e087060f5955e1b",
+    "user_sha256": "8878b53d7e9a551e8371d0366e9584a178a93582fefa6ea8c3cea06bf02f0926",
+    "tool_name": "submit_doublet_vote",
+    "prompt_text_sha256": "fe689c1b5fae532de42e0546f992de23e380d72bcd0dbc7f62d62f0899bce0fa"
+  },
+  "source_refs": [
+    "sh/H1/node",
+    "sh/H1/catalog",
+    "sh/H1/judgments",
+    "spectrum_npz",
+    "fa/e9fc9b8925ca43068d40e235b365997a/node",
+    "fa/1da5e2689a2644d7bbf0286a006bb9cd/node",
+    "fa/ff47583b3c6241cc8b2d76579f8d1291/node"
+  ],
+  "attempt_refs": [
+    "fa_doublet/c583d40321c5456582a556f10edd0566/vote.json",
+    "fa_doublet/c583d40321c5456582a556f10edd0566/session.md",
+    "fa_doublet/c583d40321c5456582a556f10edd0566/model_usage.json",
+    "fa_doublet/fc6a213d4b2647e6a65ff0a499f2f18c/vote.json",
+    "fa_doublet/fc6a213d4b2647e6a65ff0a499f2f18c/session.md",
+    "fa_doublet/fc6a213d4b2647e6a65ff0a499f2f18c/model_usage.json",
+    "fa_doublet/1cf97739d49e4008a7bac9494b88df34/vote.json",
+    "fa_doublet/1cf97739d49e4008a7bac9494b88df34/session.md",
+    "fa_doublet/1cf97739d49e4008a7bac9494b88df34/model_usage.json"
+  ],
+  "node_execution_id": "d73a363e88c54626b4a84b2e8a0de91b"
+}

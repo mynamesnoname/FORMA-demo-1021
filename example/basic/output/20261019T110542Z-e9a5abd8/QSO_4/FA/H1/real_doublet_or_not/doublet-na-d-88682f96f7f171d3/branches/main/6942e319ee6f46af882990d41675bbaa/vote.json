@@ -1,0 +1,13 @@
+{
+  "answer": "no",
+  "reason": "Component a shows only a shallow dip near 7296-7298 Å, and component b's window (7300-7306 Å) shows no credible absorption feature distinguishable from noise; b's FA state is signal_absent, its pairing was rejected, and its measured center is ~5.9 Å off prediction. The weaker partner is not corroborated in the usable pixels, so the joint doublet interpretation fails.",
+  "execution": {
+    "schema_version": "forma-agentic-node-execution-v1",
+    "run_id": "graph-853b617a68f04c36bd82f06bdb770ac4",
+    "branch_id": "main",
+    "node_key": "fa.real_doublet_or_not/graph-853b617a68f04c36bd82f06bdb770ac4/H1/doublet%3Ana-d",
+    "node_execution_id": "6942e319ee6f46af882990d41675bbaa",
+    "attempt_id": "aeaddbce033140f38dcdf990c88e9fd4",
+    "relative_dir": "FA/H1/real_doublet_or_not/doublet-na-d-88682f96f7f171d3/branches/main/6942e319ee6f46af882990d41675bbaa"
+  }
+}

@@ -1,0 +1,360 @@
+# FA session: FA doublet review
+
+- Run ID: `graph-df7434d5533647e999870708120307b0`
+- Advisory claim (internal): `fa.real_doublet_or_not/graph-df7434d5533647e999870708120307b0/H6/doublet%3Ana-d`
+- Started (UTC): 2026-10-19T11:17:12.686915+00:00
+- Available tools: `submit_doublet_vote`
+
+The record contains model-facing input and returned messages. Provider reasoning appears only if the API returned it; hidden reasoning cannot be archived.
+
+## Model-facing input
+
+### System prompt
+
+```markdown
+You review one proposed spectral doublet for one fixed redshift hypothesis.
+This is an advisory review of the *pair interpretation*, not a repeat of the
+single-feature reality vote. You may use only the supplied spectrum pixels,
+the frozen SH pairings and the independent FA feature states. Do not change a
+feature state, identify a different line, classify the source, or change z.
+
+For a complete pair, inspect both component windows, especially the weaker
+partner. For an orphan claim, inspect the claimed component and the expected
+position of the unpaired partner. A broad or blended profile, noise, or an
+atmospheric residual may distort an amplitude ratio; a failed numeric ratio
+hint alone is not proof that the pair is false. A claimed measurement center
+far from its predicted position is a pairing mismatch. If it falls outside
+the displayed pixels, do not describe its local shape. Conversely, two SH pairings
+alone are not proof that both components are real. Treat pending or
+unreviewable single-feature states as unresolved, never as positive votes.
+Use only pixels marked usable for visual support.
+
+Call `submit_doublet_vote` exactly once with `answer` (`yes` or `no`) and a
+short `reason` tied to the actual component windows. `yes` means the supplied
+data visually support the proposed two-component interpretation, including a
+credible previously unpaired partner. `no` means that interpretation is not
+corroborated in the supplied usable pixels. Neither answer is a type gate.
+
+```
+
+### Input message 1: human
+
+```markdown
+# Doublet review
+
+Doublet: Na I D 5891.6/5897.6 (`doublet:na-d`)
+Fixed hypothesis redshift: 0.15892043
+SH claim mode: complete_pair
+
+## Components and prior feature reviews
+
+- a: Na D1_abs (`line:nad1-5891-abs`), expected 6827.895631 Å, SH=MARGINAL, measurement=cwt:abs:0000, measured center=6831.200000000244, offset from prediction=3.3043687615418094 Å, amplitude=-0.9516310691833496, single-feature FA=signal_present, cleaned pairing=adopted
+- b: Na D2_abs (`line:nad2-5897-abs`), expected 6834.849154 Å, SH=MARGINAL, measurement=cwt:abs:0000, measured center=6831.200000000244, offset from prediction=-3.6491538447844505 Å, amplitude=-0.9516310691833496, single-feature FA=signal_present, cleaned pairing=adopted
+
+## Code-computed geometry and amplitude hint
+
+{"expected_separation_angstrom": 6.95352260632626, "registry_rest_separation_angstrom": 6.0, "measured_separation_angstrom": 0.0, "separation_difference_angstrom": -6.95352260632626, "amplitude_ratio_a_over_b": 1.0, "reference_ratio_window_a_over_b": [1.4, 2.8], "reference_ratio_note": "a:b ≈ 2:1 (fitting hint)", "reference_ratio_within_window": false, "reference_ratio_is_advisory": true}
+
+## Coverage
+
+{"requested_window_angstrom": [6747.895631238702, 6914.849153845028], "actual_window_angstrom": [6748.000000000225, 6914.4000000002625], "spectrum_bounds_angstrom": [3600.0, 9824.000000000524], "component_cores": [{"line_id": "line:nad1-5891-abs", "predicted_obs_angstrom": 6827.895631238702, "center_within_spectrum_bounds": true, "samples": 37, "valid_samples": 37, "masked_samples": 0, "assessable": true}, {"line_id": "line:nad2-5897-abs", "predicted_obs_angstrom": 6834.849153845028, "center_within_spectrum_bounds": true, "samples": 38, "valid_samples": 38, "masked_samples": 0, "assessable": true}], "assessable": true, "unreviewable_reason": null}
+
+## Joint local spectrum
+
+| sample ID | wavelength (Å) | flux | ivar | usable |
+|---:|---:|---:|---:|---|
+| 3886 | 6748 | 6.051663398742676 | 33.660491943359375 | yes |
+| 3887 | 6748.8 | 5.567362308502197 | 33.43876647949219 | yes |
+| 3888 | 6749.6 | 5.971993923187256 | 32.291709899902344 | yes |
+| 3889 | 6750.4 | 6.199711322784424 | 33.54429244995117 | yes |
+| 3890 | 6751.2 | 5.436354160308838 | 33.464969635009766 | yes |
+| 3891 | 6752 | 5.82705545425415 | 32.37321472167969 | yes |
+| 3892 | 6752.8 | 5.86774206161499 | 33.112709045410156 | yes |
+| 3893 | 6753.6 | 5.834339141845703 | 32.2733268737793 | yes |
+| 3894 | 6754.4 | 5.597031116485596 | 32.39094924926758 | yes |
+| 3895 | 6755.2 | 5.697428226470947 | 31.720458984375 | yes |
+| 3896 | 6756 | 5.930329322814941 | 32.61924743652344 | yes |
+| 3897 | 6756.8 | 5.834872722625732 | 32.72348403930664 | yes |
+| 3898 | 6757.6 | 5.837924957275391 | 32.6677360534668 | yes |
+| 3899 | 6758.4 | 5.852432727813721 | 32.78999328613281 | yes |
+| 3900 | 6759.2 | 5.641486167907715 | 33.81458282470703 | yes |
+| 3901 | 6760 | 5.968180179595947 | 33.16386413574219 | yes |
+| 3902 | 6760.8 | 5.806994438171387 | 33.86588668823242 | yes |
+| 3903 | 6761.6 | 5.880666255950928 | 33.21684265136719 | yes |
+| 3904 | 6762.4 | 5.778846740722656 | 33.814918518066406 | yes |
+| 3905 | 6763.2 | 6.05935525894165 | 34.090057373046875 | yes |
+| 3906 | 6764 | 5.593143463134766 | 34.16073989868164 | yes |
+| 3907 | 6764.8 | 5.980699062347412 | 34.35837936401367 | yes |
+| 3908 | 6765.6 | 5.622381687164307 | 33.69430160522461 | yes |
+| 3909 | 6766.4 | 5.774582862854004 | 33.60053634643555 | yes |
+| 3910 | 6767.2 | 5.371992588043213 | 34.049339294433594 | yes |
+| 3911 | 6768 | 5.920052528381348 | 32.2950553894043 | yes |
+| 3912 | 6768.8 | 5.866450786590576 | 33.127655029296875 | yes |
+| 3913 | 6769.6 | 5.718194961547852 | 33.665283203125 | yes |
+| 3914 | 6770.4 | 5.608058452606201 | 34.207550048828125 | yes |
+| 3915 | 6771.2 | 6.0247907638549805 | 34.737548828125 | yes |
+| 3916 | 6772 | 6.025604724884033 | 35.77430725097656 | yes |
+| 3917 | 6772.8 | 5.772941589355469 | 35.56499099731445 | yes |
+| 3918 | 6773.6 | 5.6632609367370605 | 35.636497497558594 | yes |
+| 3919 | 6774.4 | 5.787862300872803 | 34.696250915527344 | yes |
+| 3920 | 6775.2 | 5.607085227966309 | 35.48565673828125 | yes |
+| 3921 | 6776 | 5.934686660766602 | 35.20747756958008 | yes |
+| 3922 | 6776.8 | 5.827642440795898 | 35.364036560058594 | yes |
+| 3923 | 6777.6 | 5.747255325317383 | 35.43019485473633 | yes |
+| 3924 | 6778.4 | 5.945509910583496 | 35.415428161621094 | yes |
+| 3925 | 6779.2 | 5.759482383728027 | 34.884178161621094 | yes |
+| 3926 | 6780 | 5.744863510131836 | 34.79113006591797 | yes |
+| 3927 | 6780.8 | 5.788856029510498 | 35.07858657836914 | yes |
+| 3928 | 6781.6 | 5.475782871246338 | 35.34526443481445 | yes |
+| 3929 | 6782.4 | 5.581252098083496 | 35.40719223022461 | yes |
+| 3930 | 6783.2 | 5.603018283843994 | 35.77104187011719 | yes |
+| 3931 | 6784 | 5.6598052978515625 | 35.898075103759766 | yes |
+| 3932 | 6784.8 | 5.604043006896973 | 35.82463836669922 | yes |
+| 3933 | 6785.6 | 5.353011608123779 | 35.804847717285156 | yes |
+| 3934 | 6786.4 | 5.335346221923828 | 35.168113708496094 | yes |
+| 3935 | 6787.2 | 5.57274866104126 | 35.7663688659668 | yes |
+| 3936 | 6788 | 5.556411266326904 | 35.125755310058594 | yes |
+| 3937 | 6788.8 | 5.679797649383545 | 33.673439025878906 | yes |
+| 3938 | 6789.6 | 4.9763007164001465 | 34.77081298828125 | yes |
+| 3939 | 6790.4 | 5.612293243408203 | 33.90800094604492 | yes |
+| 3940 | 6791.2 | 5.602262020111084 | 35.3265495300293 | yes |
+| 3941 | 6792 | 5.394576549530029 | 36.250709533691406 | yes |
+| 3942 | 6792.8 | 5.305984973907471 | 36.0903434753418 | yes |
+| 3943 | 6793.6 | 5.295700550079346 | 36.161346435546875 | yes |
+| 3944 | 6794.4 | 5.430415153503418 | 35.53590774536133 | yes |
+| 3945 | 6795.2 | 5.299736976623535 | 35.92787551879883 | yes |
+| 3946 | 6796 | 5.469583988189697 | 35.97977066040039 | yes |
+| 3947 | 6796.8 | 5.691844463348389 | 36.37000274658203 | yes |
+| 3948 | 6797.6 | 5.628102779388428 | 36.861328125 | yes |
+| 3949 | 6798.4 | 5.269525051116943 | 36.40968704223633 | yes |
+| 3950 | 6799.2 | 5.734272003173828 | 35.623817443847656 | yes |
+| 3951 | 6800 | 5.803345680236816 | 36.114986419677734 | yes |
+| 3952 | 6800.8 | 5.283848762512207 | 35.32626724243164 | yes |
+| 3953 | 6801.6 | 5.677187919616699 | 36.374752044677734 | yes |
+| 3954 | 6802.4 | 5.5185651779174805 | 36.055179595947266 | yes |
+| 3955 | 6803.2 | 5.586984157562256 | 36.2743034362793 | yes |
+| 3956 | 6804 | 5.77034330368042 | 36.25714111328125 | yes |
+| 3957 | 6804.8 | 5.801173210144043 | 34.23167037963867 | yes |
+| 3958 | 6805.6 | 5.638619422912598 | 35.95207977294922 | yes |
+| 3959 | 6806.4 | 5.511006832122803 | 34.742889404296875 | yes |
+| 3960 | 6807.2 | 5.700075626373291 | 35.42972183227539 | yes |
+| 3961 | 6808 | 5.8421759605407715 | 35.87194061279297 | yes |
+| 3962 | 6808.8 | 5.628939628601074 | 36.298152923583984 | yes |
+| 3963 | 6809.6 | 5.840044975280762 | 36.25493240356445 | yes |
+| 3964 | 6810.4 | 5.553645133972168 | 36.25674819946289 | yes |
+| 3965 | 6811.2 | 5.704001426696777 | 35.56785202026367 | yes |
+| 3966 | 6812 | 5.843978404998779 | 35.79292297363281 | yes |
+| 3967 | 6812.8 | 5.611077308654785 | 35.701026916503906 | yes |
+| 3968 | 6813.6 | 5.7163310050964355 | 36.10175704956055 | yes |
+| 3969 | 6814.4 | 5.620223045349121 | 36.02352523803711 | yes |
+| 3970 | 6815.2 | 5.652624607086182 | 36.848331451416016 | yes |
+| 3971 | 6816 | 5.7467875480651855 | 36.63770294189453 | yes |
+| 3972 | 6816.8 | 5.875441074371338 | 37.02336502075195 | yes |
+| 3973 | 6817.6 | 5.482510566711426 | 35.55324172973633 | yes |
+| 3974 | 6818.4 | 5.23367977142334 | 37.38896560668945 | yes |
+| 3975 | 6819.2 | 5.536738395690918 | 36.27561569213867 | yes |
+| 3976 | 6820 | 5.557714939117432 | 36.80642318725586 | yes |
+| 3977 | 6820.8 | 5.421751976013184 | 35.38238525390625 | yes |
+| 3978 | 6821.6 | 5.397319793701172 | 37.040950775146484 | yes |
+| 3979 | 6822.4 | 5.2591681480407715 | 37.29840850830078 | yes |
+| 3980 | 6823.2 | 5.33951997756958 | 37.74152755737305 | yes |
+| 3981 | 6824 | 5.060927867889404 | 37.81166458129883 | yes |
+| 3982 | 6824.8 | 5.229164123535156 | 38.14341354370117 | yes |
+| 3983 | 6825.6 | 4.838396072387695 | 38.53934860229492 | yes |
+| 3984 | 6826.4 | 4.442774295806885 | 38.1405143737793 | yes |
+| 3985 | 6827.2 | 4.21166467666626 | 37.86248779296875 | yes |
+| 3986 | 6828 | 3.6527516841888428 | 34.769935607910156 | yes |
+| 3987 | 6828.8 | 3.6069445610046387 | 29.78058624267578 | yes |
+| 3988 | 6829.6 | 4.135131359100342 | 26.828536987304688 | yes |
+| 3989 | 6830.4 | 4.258098125457764 | 23.687999725341797 | yes |
+| 3990 | 6831.2 | 4.641512393951416 | 22.223365783691406 | yes |
+| 3991 | 6832 | 4.445764541625977 | 23.26934814453125 | yes |
+| 3992 | 6832.8 | 4.258022308349609 | 30.36760711669922 | yes |
+| 3993 | 6833.6 | 4.1658196449279785 | 35.19279098510742 | yes |
+| 3994 | 6834.4 | 4.5808634757995605 | 30.239839553833008 | yes |
+| 3995 | 6835.2 | 4.488203048706055 | 23.69354820251465 | yes |
+| 3996 | 6836 | 4.23441219329834 | 21.64089012145996 | yes |
+| 3997 | 6836.8 | 4.406078815460205 | 21.607261657714844 | yes |
+| 3998 | 6837.6 | 4.9120001792907715 | 30.387102127075195 | yes |
+| 3999 | 6838.4 | 4.610487937927246 | 37.95210647583008 | yes |
+| 4000 | 6839.2 | 5.140669345855713 | 38.565364837646484 | yes |
+| 4001 | 6840 | 5.292409420013428 | 38.44913101196289 | yes |
+| 4002 | 6840.8 | 5.344498634338379 | 37.53367614746094 | yes |
+| 4003 | 6841.6 | 5.133070945739746 | 36.51363754272461 | yes |
+| 4004 | 6842.4 | 5.412968158721924 | 32.58639907836914 | yes |
+| 4005 | 6843.2 | 5.412915229797363 | 32.97966384887695 | yes |
+| 4006 | 6844 | 5.233066082000732 | 28.562644958496094 | yes |
+| 4007 | 6844.8 | 5.510329246520996 | 29.030071258544922 | yes |
+| 4008 | 6845.6 | 5.622298717498779 | 33.482749938964844 | yes |
+| 4009 | 6846.4 | 5.381352424621582 | 33.97850799560547 | yes |
+| 4010 | 6847.2 | 5.464008808135986 | 34.35314178466797 | yes |
+| 4011 | 6848 | 5.3311567306518555 | 34.04927444458008 | yes |
+| 4012 | 6848.8 | 5.471916198730469 | 34.03273391723633 | yes |
+| 4013 | 6849.6 | 5.544414520263672 | 36.05729675292969 | yes |
+| 4014 | 6850.4 | 5.77422571182251 | 35.239891052246094 | yes |
+| 4015 | 6851.2 | 5.772291660308838 | 34.7850227355957 | yes |
+| 4016 | 6852 | 5.760004043579102 | 36.50010681152344 | yes |
+| 4017 | 6852.8 | 5.952648639678955 | 35.253028869628906 | yes |
+| 4018 | 6853.6 | 5.753442764282227 | 35.51742935180664 | yes |
+| 4019 | 6854.4 | 5.472070217132568 | 37.23805236816406 | yes |
+| 4020 | 6855.2 | 5.650454521179199 | 37.16541290283203 | yes |
+| 4021 | 6856 | 5.708969593048096 | 36.03029251098633 | yes |
+| 4022 | 6856.8 | 5.429940700531006 | 37.1531982421875 | yes |
+| 4023 | 6857.6 | 5.620237827301025 | 36.93457794189453 | yes |
+| 4024 | 6858.4 | 5.374006748199463 | 37.349212646484375 | yes |
+| 4025 | 6859.2 | 5.506507396697998 | 38.36280059814453 | yes |
+| 4026 | 6860 | 5.366652488708496 | 37.27734375 | yes |
+| 4027 | 6860.8 | 5.6084699630737305 | 36.80126190185547 | yes |
+| 4028 | 6861.6 | 5.586615085601807 | 33.784061431884766 | yes |
+| 4029 | 6862.4 | 5.508693218231201 | 31.835514068603516 | yes |
+| 4030 | 6863.2 | 5.857484340667725 | 34.11837387084961 | yes |
+| 4031 | 6864 | 5.956684589385986 | 27.992023468017578 | yes |
+| 4032 | 6864.8 | 5.9561967849731445 | 18.124534606933594 | yes |
+| 4033 | 6865.6 | 6.073195457458496 | 15.512584686279297 | yes |
+| 4034 | 6866.4 | 5.414515018463135 | 16.789213180541992 | yes |
+| 4035 | 6867.2 | 5.2314043045043945 | 27.364328384399414 | yes |
+| 4036 | 6868 | 5.676640033721924 | 35.405967712402344 | yes |
+| 4037 | 6868.8 | 5.681155681610107 | 29.0710391998291 | yes |
+| 4038 | 6869.6 | 5.501265048980713 | 19.892675399780273 | yes |
+| 4039 | 6870.4 | 5.306077480316162 | 17.109174728393555 | yes |
+| 4040 | 6871.2 | 6.054551124572754 | 18.8126163482666 | yes |
+| 4041 | 6872 | 5.703587055206299 | 19.357526779174805 | yes |
+| 4042 | 6872.8 | 5.940558433532715 | 19.22119140625 | yes |
+| 4043 | 6873.6 | 5.196805477142334 | 20.695375442504883 | yes |
+| 4044 | 6874.4 | 5.21404504776001 | 23.403453826904297 | yes |
+| 4045 | 6875.2 | 5.547708511352539 | 25.2125244140625 | yes |
+| 4046 | 6876 | 5.254354476928711 | 24.65576934814453 | yes |
+| 4047 | 6876.8 | 5.457688331604004 | 25.935609817504883 | yes |
+| 4048 | 6877.6 | 5.420398712158203 | 27.39396858215332 | yes |
+| 4049 | 6878.4 | 5.227333068847656 | 28.38015365600586 | yes |
+| 4050 | 6879.2 | 5.498673915863037 | 29.430051803588867 | yes |
+| 4051 | 6880 | 5.671867370605469 | 31.167896270751953 | yes |
+| 4052 | 6880.8 | 5.702157020568848 | 30.159927368164062 | yes |
+| 4053 | 6881.6 | 5.384866714477539 | 26.648250579833984 | yes |
+| 4054 | 6882.4 | 5.506744861602783 | 31.5145263671875 | yes |
+| 4055 | 6883.2 | 5.692752361297607 | 31.50950813293457 | yes |
+| 4056 | 6884 | 5.830151557922363 | 32.24024200439453 | yes |
+| 4057 | 6884.8 | 5.6109418869018555 | 35.12316131591797 | yes |
+| 4058 | 6885.6 | 5.528218746185303 | 34.21822738647461 | yes |
+| 4059 | 6886.4 | 5.40605354309082 | 34.90732955932617 | yes |
+| 4060 | 6887.2 | 5.980005741119385 | 32.505332946777344 | yes |
+| 4061 | 6888 | 5.515771865844727 | 29.720483779907227 | yes |
+| 4062 | 6888.8 | 5.746614933013916 | 29.9428653717041 | yes |
+| 4063 | 6889.6 | 5.603341102600098 | 30.572811126708984 | yes |
+| 4064 | 6890.4 | 5.724221229553223 | 25.45433235168457 | yes |
+| 4065 | 6891.2 | 5.691496849060059 | 20.395076751708984 | yes |
+| 4066 | 6892 | 5.673481464385986 | 25.09109115600586 | yes |
+| 4067 | 6892.8 | 5.750222682952881 | 33.76029968261719 | yes |
+| 4068 | 6893.6 | 5.940389633178711 | 33.181270599365234 | yes |
+| 4069 | 6894.4 | 5.656083583831787 | 27.969850540161133 | yes |
+| 4070 | 6895.2 | 5.729860782623291 | 27.689111709594727 | yes |
+| 4071 | 6896 | 5.7701215744018555 | 33.85599899291992 | yes |
+| 4072 | 6896.8 | 5.730678558349609 | 35.03532791137695 | yes |
+| 4073 | 6897.6 | 5.5462470054626465 | 30.64853286743164 | yes |
+| 4074 | 6898.4 | 5.099409103393555 | 27.755897521972656 | yes |
+| 4075 | 6899.2 | 5.392642498016357 | 31.646772384643555 | yes |
+| 4076 | 6900 | 5.459928035736084 | 37.36882400512695 | yes |
+| 4077 | 6900.8 | 5.563073635101318 | 34.75836944580078 | yes |
+| 4078 | 6901.6 | 5.540830135345459 | 24.78497886657715 | yes |
+| 4079 | 6902.4 | 5.394546031951904 | 22.121936798095703 | yes |
+| 4080 | 6903.2 | 5.751684665679932 | 24.702816009521484 | yes |
+| 4081 | 6904 | 5.373113632202148 | 33.744407653808594 | yes |
+| 4082 | 6904.8 | 5.609065532684326 | 35.86117935180664 | yes |
+| 4083 | 6905.6 | 5.669874668121338 | 32.21963119506836 | yes |
+| 4084 | 6906.4 | 5.57175874710083 | 29.0734920501709 | yes |
+| 4085 | 6907.2 | 5.843534469604492 | 31.303977966308594 | yes |
+| 4086 | 6908 | 5.8714494705200195 | 36.47331237792969 | yes |
+| 4087 | 6908.8 | 5.473325729370117 | 38.92683029174805 | yes |
+| 4088 | 6909.6 | 5.486452579498291 | 35.78223419189453 | yes |
+| 4089 | 6910.4 | 5.648131370544434 | 32.05317687988281 | yes |
+| 4090 | 6911.2 | 5.5199198722839355 | 31.837059020996094 | yes |
+| 4091 | 6912 | 5.4275383949279785 | 35.11280822753906 | yes |
+| 4092 | 6912.8 | 5.486485481262207 | 33.50429916381836 | yes |
+| 4093 | 6913.6 | 5.617958068847656 | 28.485130310058594 | yes |
+| 4094 | 6914.4 | 5.6228928565979 | 23.947954177856445 | yes |
+
+Inspect the two component windows independently before deciding whether
+their *joint* interpretation is corroborated. The numeric ratio is a hint,
+not an automatic veto. Call `submit_doublet_vote` with only `answer` and
+`reason`.
+
+```
+
+## Returned events
+
+### Event 1
+
+#### Graph update: `model`
+
+### Event 1 message: ai
+
+```markdown
+I'll inspect the two component windows in the supplied pixels.
+
+**Component a (Na D1, predicted 6827.9 Å):** Around 6824–6832 Å the flux drops from ~5.2–5.3 to a minimum of ~3.65 at 6828.0 and ~3.61 at 6828.8, then recovers to ~4.6 by 6831.2. This is a single, fairly narrow absorption dip centered near 6828.5, close to the prediction (offset ~0.6 Å, not the reported 3.3 Å). So there is a real absorption feature here.
+
+**Component b (Na D2, predicted 6834.8 Å):** Around 6833.6–6837.6 the flux is ~4.17–4.91, with a local minimum ~4.17 at 6833.6 and ~4.23 at 6836.0, but this region is contiguous with the same broad trough as component a — the flux never returns to the ~5.5 continuum level between 6828 and 6838. There is no distinct second absorption minimum at 6834.8; instead the whole 6828–6838 span is one blended trough with a noisy, elevated-uncertainty floor (ivar drops to ~21–30).
+
+**Joint interpretation:** The measured centers for both components are identical (6831.2 Å), giving a measured separation of 0.0 Å versus the expected 6.95 Å. The data show one blended absorption trough, not two resolved components at the predicted positions. The weaker partner (b) is not independently visible as a separate dip; the "detection" is the same blended feature assigned to both lines. The amplitude ratio hint (1.0 vs expected 1.4–2.8) is consistent with this being a single blended feature rather than a resolved doublet.
+
+The two-component interpretation is not corroborated by the usable pixels.
+```
+
+Tool calls:
+
+```json
+[
+  {
+    "name": "submit_doublet_vote",
+    "args": {
+      "answer": "no",
+      "reason": "Only one blended absorption trough is visible (~6828-6838 Å); component a shows a dip near 6828.5 but component b's predicted 6834.8 Å position shows no separate minimum, and both measured centers coincide at 6831.2 Å (separation 0.0 Å vs expected 6.95 Å). The weaker partner is not independently resolved, so the two-component interpretation is not corroborated."
+    },
+    "id": "call_00_kdUZa0By3U9asODnLw1t9198",
+    "type": "tool_call"
+  }
+]
+```
+
+Provider usage:
+
+```json
+{
+  "input_tokens": 7748,
+  "output_tokens": 561,
+  "total_tokens": 8309,
+  "cache_hit_tokens": 7552,
+  "cache_miss_tokens": 196,
+  "provider_usage": {
+    "completion_tokens": 561,
+    "prompt_tokens": 7748,
+    "total_tokens": 8309,
+    "completion_tokens_details": null,
+    "prompt_tokens_details": {
+      "audio_tokens": null,
+      "cached_tokens": 7552
+    },
+    "prompt_cache_hit_tokens": 7552,
+    "prompt_cache_miss_tokens": 196
+  }
+}
+```
+
+### Event 2
+
+#### Graph update: `tools`
+
+### Event 2 message: tool
+
+Tool: `submit_doublet_vote`; call ID: `call_00_kdUZa0By3U9asODnLw1t9198`
+
+```markdown
+{"ok": true}
+```
+
+## Session outcome
+
+- Status: `complete`
+- Returned events: 2
+- Provider reasoning field returned: no
+- Ended (UTC): 2026-10-19T11:17:16.189202+00:00

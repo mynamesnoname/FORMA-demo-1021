@@ -1,0 +1,220 @@
+{
+  "schema_version": "forma-agentic-graph-summary-v2",
+  "run_id": "graph-853b617a68f04c36bd82f06bdb770ac4",
+  "status": "hs_comparison_complete",
+  "final_classification_available": false,
+  "active_branch_id": "main",
+  "hypotheses": {
+    "H1": {
+      "preliminary_classification": "Type 2 QSO",
+      "path_status": "survive",
+      "candidate_type": "Type 2 QSO",
+      "report_ref": "sh2/d9719e61a24543c78e71d78a62d5bab0/report",
+      "entry_route_ref": "entry_route/cc6fd591e6c145d4bf7f760922633731/node",
+      "eligible_graphs": [
+        "QSO",
+        "ELG"
+      ]
+    },
+    "H2": {
+      "preliminary_classification": null,
+      "entry_route_ref": "entry_route/731c47300aed492a903d82f98b7abc7d/node",
+      "path_status": "unresolved",
+      "candidate_type": null,
+      "report_ref": null,
+      "eligible_graphs": []
+    },
+    "H4": {
+      "preliminary_classification": null,
+      "entry_route_ref": "entry_route/8f2c45c0bddb494e9db83d7b183d78bc/node",
+      "path_status": "unresolved",
+      "candidate_type": null,
+      "report_ref": null,
+      "eligible_graphs": []
+    },
+    "H6": {
+      "preliminary_classification": "Type 1 QSO",
+      "path_status": "dead",
+      "candidate_type": null,
+      "report_ref": "sh2/bb320b4bbca24237b2b3a79bc36ccc07/report",
+      "entry_route_ref": "entry_route/75453be40c174558911a89e22b0ca0fc/node",
+      "eligible_graphs": [
+        "QSO"
+      ]
+    },
+    "H3": {
+      "preliminary_classification": "Type 2 QSO",
+      "path_status": "survive",
+      "candidate_type": "Type 2 QSO",
+      "report_ref": "sh2/88e10557ffee4e1aa16f3c4fb1b469e6/report",
+      "entry_route_ref": "entry_route/b9850fa841e043df9d67c08ac5b291a5/node",
+      "eligible_graphs": [
+        "QSO",
+        "ELG"
+      ]
+    },
+    "H5": {
+      "preliminary_classification": null,
+      "entry_route_ref": "entry_route/516a62f175dc4f08965ad71b2baa8a0c/node",
+      "path_status": "unresolved",
+      "candidate_type": null,
+      "report_ref": null,
+      "eligible_graphs": []
+    }
+  },
+  "surviving_hypotheses": [
+    "H1",
+    "H3"
+  ],
+  "hs_merge_ref": "hs/6eb9030fc9384b97bcf7417a9520433b/node",
+  "hs_comparison_ref": "hs/5e139a98214f4359a3d985b8c8c9eb80/node",
+  "hs_comparison": {
+    "winner_group_id": "hs.merge/H1+H3",
+    "reason": "Only surviving group; provisional pending RA.",
+    "assessments": [
+      {
+        "group_id": "hs.merge/H1+H3",
+        "support_pairs": [
+          {
+            "line_id": "line:nev-3426",
+            "feature_id": "cwt:em:0001"
+          },
+          {
+            "line_id": "line:oii-3727",
+            "feature_id": "cwt:em:0002"
+          },
+          {
+            "line_id": "line:heps-3970",
+            "feature_id": "cwt:em:0004"
+          },
+          {
+            "line_id": "line:hdel-4102",
+            "feature_id": "cwt:em:0005"
+          },
+          {
+            "line_id": "line:hbet-4862",
+            "feature_id": "cwt:em:0008"
+          },
+          {
+            "line_id": "line:oiii-4960",
+            "feature_id": "cwt:em:0009"
+          },
+          {
+            "line_id": "line:oiii-5008",
+            "feature_id": "cwt:em:0010"
+          },
+          {
+            "line_id": "line:nad1-5891-abs",
+            "feature_id": "fit:H1:0002"
+          },
+          {
+            "line_id": "line:nad2-5897-abs",
+            "feature_id": "fit:H3:0003"
+          },
+          {
+            "line_id": "line:half-6564",
+            "feature_id": "cwt:em:0012"
+          },
+          {
+            "line_id": "line:sii-6718",
+            "feature_id": "cwt:em:0013"
+          },
+          {
+            "line_id": "line:sii-6732",
+            "feature_id": "cwt:em:0014"
+          }
+        ],
+        "conflict_pairs": [],
+        "comparative_evidence": {
+          "advantages": [],
+          "disadvantages": [],
+          "limitations": [
+            "Only one group survived; no cross-group comparison was made."
+          ]
+        },
+        "unresolved": [],
+        "comparison_note": "No other surviving group to compare."
+      }
+    ],
+    "merge_review": null,
+    "cross_merges": [],
+    "status": "provisional_selection",
+    "ra_review_pending": true
+  },
+  "hs_groups": [
+    {
+      "group_id": "hs.merge/H1+H3",
+      "candidate_type": "Type 2 QSO",
+      "member_hypotheses": [
+        "H1",
+        "H3"
+      ],
+      "merge_status": "merged",
+      "merged_anchor_redshift": 0.23874429836335698
+    }
+  ],
+  "hs_initial_groups": [
+    {
+      "group_id": "hs.merge/H1+H3",
+      "member_hypotheses": [
+        "H1",
+        "H3"
+      ]
+    }
+  ],
+  "fa_summary": {
+    "run_id": "graph-853b617a68f04c36bd82f06bdb770ac4",
+    "branch_id": "main",
+    "requested_features": 34,
+    "scheduled_vote_seats": 102,
+    "successful_votes": 102,
+    "failed_seats": [],
+    "blocked_features": [],
+    "signal_present": [
+      "cwt:em:0001",
+      "cwt:em:0002",
+      "cwt:em:0004",
+      "cwt:em:0005",
+      "cwt:em:0008",
+      "cwt:em:0009",
+      "cwt:em:0010",
+      "cwt:em:0012",
+      "cwt:em:0013",
+      "cwt:em:0014",
+      "fit:H1:0002",
+      "fit:H2:0006",
+      "fit:H3:0003",
+      "fit:H4:0005",
+      "fit:H4:0015",
+      "fit:H5:0015"
+    ],
+    "signal_absent": [
+      "cwt:abs:0006",
+      "cwt:abs:0007",
+      "cwt:abs:0008",
+      "cwt:abs:0010",
+      "cwt:abs:0021",
+      "cwt:em:0006",
+      "fit:H1:0003",
+      "fit:H3:0002",
+      "fit:H4:0002",
+      "fit:H4:0004",
+      "fit:H4:0009",
+      "fit:H4:0011",
+      "fit:H4:0018",
+      "fit:H4:0019",
+      "fit:H5:0011",
+      "fit:H5:0018",
+      "fit:H5:0019",
+      "fit:H5:0023"
+    ],
+    "pending_features": [],
+    "model_call_count": 102,
+    "input_tokens": 504378,
+    "output_tokens": 22529,
+    "cache_hit_tokens": 260608,
+    "cache_hit_reported_calls": 102,
+    "cache_hit_unreported_calls": 0
+  },
+  "reasoning_tree_path": "/mnt/linux_share/code/FORMA/example/basic/output/20261019T110542Z-e9a5abd8/QSO_4/reasoning_tree.json"
+}

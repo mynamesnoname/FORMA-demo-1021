@@ -1,0 +1,26 @@
+{
+  "schema_version": "forma-sh-line-review-v1",
+  "key": "sh.pre_analysis/graph-853b617a68f04c36bd82f06bdb770ac4/H1",
+  "hypothesis_ref": "H1",
+  "hypothesis_redshift": 0.23787248591105023,
+  "status": "complete",
+  "csv_path": "/mnt/linux_share/code/FORMA/example/basic/output/20261019T110542Z-e9a5abd8/QSO_4/SH/H1/pre_analysis/branches/main/94b9060e5061491faf6d294e090d69d8/lines.csv",
+  "csv_sha256": "f4b5b8c1d50f583ac167bfe6f47f6d2cf80021655614b25fa30e931c6b68e328",
+  "measurement_catalog_path": "/mnt/linux_share/code/FORMA/example/basic/output/20261019T110542Z-e9a5abd8/QSO_4/VI/measurements/hypothesis_000_measurement_catalog.json",
+  "measurement_catalog_sha256": "95c13ee95b422950e1fbcd50752719d5fa60c4670b909db9a96e1704b8e8a4fd",
+  "judgment_path": "/mnt/linux_share/code/FORMA/example/basic/output/20261019T110542Z-e9a5abd8/QSO_4/SH/H1/pre_analysis/branches/main/94b9060e5061491faf6d294e090d69d8/lines_judgments.json",
+  "judgment_sha256": "3193e70ef8f60c430d44665abb13830559c39f0e6f354164735955569ce1da03",
+  "session_stage1_path": "/mnt/linux_share/code/FORMA/example/basic/output/20261019T110542Z-e9a5abd8/QSO_4/SH/H1/pre_analysis/branches/main/94b9060e5061491faf6d294e090d69d8/stage1_session.md",
+  "session_stage1_sha256": "d3a41857ec0f6d5cd9b5496e307b283a50535c724920ec59fb1a3acd1c915190",
+  "adopted_lines_plot_path": "/mnt/linux_share/code/FORMA/example/basic/output/20261019T110542Z-e9a5abd8/QSO_4/SH/H1/pre_analysis/branches/main/94b9060e5061491faf6d294e090d69d8/adopted_lines.png",
+  "adopted_lines_plot_sha256": "b0209bb98ff7a87abce2b2ba5dd5fd7b3800def93aec52841b943af820333554",
+  "execution": {
+    "schema_version": "forma-agentic-node-execution-v1",
+    "run_id": "graph-853b617a68f04c36bd82f06bdb770ac4",
+    "branch_id": "main",
+    "node_key": "sh.pre_analysis/graph-853b617a68f04c36bd82f06bdb770ac4/H1",
+    "node_execution_id": "94b9060e5061491faf6d294e090d69d8",
+    "attempt_id": "734b1d156cd548b693a02bf03319d85f",
+    "relative_dir": "SH/H1/pre_analysis/branches/main/94b9060e5061491faf6d294e090d69d8"
+  }
+}

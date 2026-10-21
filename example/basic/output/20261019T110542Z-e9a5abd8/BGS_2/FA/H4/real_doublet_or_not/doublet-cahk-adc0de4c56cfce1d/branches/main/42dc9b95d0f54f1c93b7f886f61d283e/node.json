@@ -1,0 +1,168 @@
+{
+  "schema_version": "forma-fa-doublet-review-v1",
+  "node_type": "fa.doublet_review",
+  "node_key": "fa.real_doublet_or_not/graph-df7434d5533647e999870708120307b0/H4/doublet%3Acahk",
+  "run_id": "graph-df7434d5533647e999870708120307b0",
+  "branch_id": "main",
+  "hypothesis_ref": "H4",
+  "doublet_id": "doublet:cahk",
+  "claim_mode": "orphan",
+  "components": [
+    {
+      "line_id": "line:cak-3934-abs",
+      "line_name": "Ca K_abs",
+      "rest_angstrom": 3934.8,
+      "expected_obs_angstrom": 3929.419746082588,
+      "sh_status": "MARGINAL",
+      "measurement_id": "fit:H4:0004",
+      "measurement_source": "fit_doublet",
+      "measured_center_angstrom": 3933.458,
+      "amplitude": -0.303636,
+      "measured_offset_from_expected_angstrom": 4.038253917412021,
+      "fa_state": "signal_absent",
+      "cleaned_pairing": "rejected_measurement",
+      "fa_vote_artifact_refs": [
+        "fa/2b377cd68c724941ba82ef124016731d/node",
+        "fa/1c8225ca537c41a8af4d6a3091e836b0/node",
+        "fa/53d9eed9ab3b41d3aa3c0942f0a2a433/node"
+      ]
+    },
+    {
+      "line_id": "line:cah-3969-abs",
+      "line_name": "Ca H_abs",
+      "rest_angstrom": 3969.6,
+      "expected_obs_angstrom": 3964.1721622571517,
+      "sh_status": "NOT_FOUND",
+      "measurement_id": null,
+      "measurement_source": null,
+      "measured_center_angstrom": null,
+      "amplitude": null,
+      "measured_offset_from_expected_angstrom": null,
+      "fa_state": null,
+      "cleaned_pairing": "no_pairing",
+      "fa_vote_artifact_refs": []
+    }
+  ],
+  "metrics": {
+    "expected_separation_angstrom": 34.75241617456368,
+    "registry_rest_separation_angstrom": 34.8,
+    "measured_separation_angstrom": null,
+    "separation_difference_angstrom": null,
+    "amplitude_ratio_a_over_b": null,
+    "reference_ratio_window_a_over_b": null,
+    "reference_ratio_note": "Ca K must be deeper than Ca H",
+    "reference_ratio_within_window": null,
+    "reference_ratio_is_advisory": true
+  },
+  "coverage": {
+    "requested_window_angstrom": [
+      3849.419746082588,
+      4044.1721622571517
+    ],
+    "actual_window_angstrom": [
+      3849.6000000000568,
+      4044.000000000101
+    ],
+    "spectrum_bounds_angstrom": [
+      3600.0,
+      9824.000000000524
+    ],
+    "component_cores": [
+      {
+        "line_id": "line:cak-3934-abs",
+        "predicted_obs_angstrom": 3929.419746082588,
+        "center_within_spectrum_bounds": true,
+        "samples": 37,
+        "valid_samples": 37,
+        "masked_samples": 0,
+        "assessable": true
+      },
+      {
+        "line_id": "line:cah-3969-abs",
+        "predicted_obs_angstrom": 3964.1721622571517,
+        "center_within_spectrum_bounds": true,
+        "samples": 37,
+        "valid_samples": 37,
+        "masked_samples": 0,
+        "assessable": true
+      }
+    ],
+    "assessable": true,
+    "unreviewable_reason": null
+  },
+  "status": "complete",
+  "pair_supported": false,
+  "consultative_only": true,
+  "method_snapshot": {
+    "context_margin_angstrom": 80.0,
+    "component_check_half_angstrom": 15.0,
+    "cahk_outer_reference_sigma": 3.0,
+    "min_valid_component_samples": 5,
+    "vote_quorum": 3,
+    "max_attempts_per_vote_seat": 2
+  },
+  "vote_summary": {
+    "yes": 0,
+    "no": 3,
+    "yes_fraction": 0.0,
+    "assurance": "assured"
+  },
+  "ballots": [
+    {
+      "seat": 0,
+      "answer": "no",
+      "reason": "Neither window shows an absorption trough: Ca K region (~3929 Å) is continuum-level with the claimed center 4 Å redward (pairing mismatch, FA signal_absent), and the Ca H window (~3964 Å) shows no feature at all (SH NOT_FOUND). No credible two-component pair is corroborated in the usable pixels.",
+      "vote_ref": "fa_doublet/851c89d13a91425a8cf6519820a3631e/vote.json"
+    },
+    {
+      "seat": 1,
+      "answer": "no",
+      "reason": "Neither component window shows an absorption dip: Ca K region (3929–3934 Å) is flat scatter with no trough and its claimed center is ~4 Å off prediction (signal_absent); Ca H region (3964 Å) is likewise flat with no feature (NOT_FOUND). No credible two-component pair is corroborated in the usable pixels.",
+      "vote_ref": "fa_doublet/7ccc7ba0b27249f0ad12128ae7c1e782/vote.json"
+    },
+    {
+      "seat": 2,
+      "answer": "no",
+      "reason": "Neither component window shows an absorption dip: Ca K region (3928–3935 Å) is flat noise with the claimed center 4.04 Å off prediction (pairing mismatch), and Ca H region (3962–3966 Å) shows no feature at all (SH=NOT_FOUND). No credible unpaired partner is visible, so the two-component interpretation is not corroborated.",
+      "vote_ref": "fa_doublet/be05e1a605ed47b8a361d91b155052c9/vote.json"
+    }
+  ],
+  "successful_votes": 3,
+  "required_votes": 3,
+  "failed_seats": 0,
+  "model_usage": {
+    "calls": 3,
+    "input_tokens": 26514,
+    "output_tokens": 1058,
+    "cache_hit_tokens": 1536,
+    "cache_hit_reported_calls": 3,
+    "cache_hit_unreported_calls": 0
+  },
+  "prompt_identity": {
+    "system_sha256": "92cc96d1542cdf1088b68d4688ccd8de256ac572ab050c2a5e087060f5955e1b",
+    "user_sha256": "17145c13669e977bea272c5b1ec5f1abf280718a4aa7288e3f58bac94bf2b695",
+    "tool_name": "submit_doublet_vote",
+    "prompt_text_sha256": "19de65d26f272c43d82697f730204733d4662bcc21ea5f7c897954cab03c388f"
+  },
+  "source_refs": [
+    "sh/H4/node",
+    "sh/H4/catalog",
+    "sh/H4/judgments",
+    "spectrum_npz",
+    "fa/2b377cd68c724941ba82ef124016731d/node",
+    "fa/1c8225ca537c41a8af4d6a3091e836b0/node",
+    "fa/53d9eed9ab3b41d3aa3c0942f0a2a433/node"
+  ],
+  "attempt_refs": [
+    "fa_doublet/851c89d13a91425a8cf6519820a3631e/vote.json",
+    "fa_doublet/851c89d13a91425a8cf6519820a3631e/session.md",
+    "fa_doublet/851c89d13a91425a8cf6519820a3631e/model_usage.json",
+    "fa_doublet/7ccc7ba0b27249f0ad12128ae7c1e782/vote.json",
+    "fa_doublet/7ccc7ba0b27249f0ad12128ae7c1e782/session.md",
+    "fa_doublet/7ccc7ba0b27249f0ad12128ae7c1e782/model_usage.json",
+    "fa_doublet/be05e1a605ed47b8a361d91b155052c9/vote.json",
+    "fa_doublet/be05e1a605ed47b8a361d91b155052c9/session.md",
+    "fa_doublet/be05e1a605ed47b8a361d91b155052c9/model_usage.json"
+  ],
+  "node_execution_id": "42dc9b95d0f54f1c93b7f886f61d283e"
+}

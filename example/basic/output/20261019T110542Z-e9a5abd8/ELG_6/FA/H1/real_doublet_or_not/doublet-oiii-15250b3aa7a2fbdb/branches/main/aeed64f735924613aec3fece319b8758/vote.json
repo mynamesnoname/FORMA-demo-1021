@@ -1,0 +1,13 @@
+{
+  "answer": "yes",
+  "reason": "Both windows show clear, isolated emission peaks at the predicted positions: the weaker [O III]a core rises to ~13 at 5489.6-5490.4 Å (offset -0.55 Å) and the stronger [O III]b core reaches ~44 at 5543.2 Å (offset +0.03 Å), each flanked by clean continuum. Measured separation 53.6 Å matches the expected 53.0 Å, and the ~0.28 amplitude ratio is consistent with the advisory 3:1 window, so the two-component interpretation is corroborated.",
+  "execution": {
+    "schema_version": "forma-agentic-node-execution-v1",
+    "run_id": "graph-fe0d30030bcc4939b88103e27753b2c1",
+    "branch_id": "main",
+    "node_key": "fa.real_doublet_or_not/graph-fe0d30030bcc4939b88103e27753b2c1/H1/doublet%3Aoiii",
+    "node_execution_id": "aeed64f735924613aec3fece319b8758",
+    "attempt_id": "65f60e9b87ef468dbe9e6b39a57279fe",
+    "relative_dir": "FA/H1/real_doublet_or_not/doublet-oiii-15250b3aa7a2fbdb/branches/main/aeed64f735924613aec3fece319b8758"
+  }
+}

@@ -1,0 +1,99 @@
+{
+  "schema_version": "forma-type-entry-route-v1",
+  "run_id": "graph-325ff74c7f444efdb17e3f3b69698eea",
+  "branch_id": "main",
+  "hypothesis_ref": "H2",
+  "node_key": "sh2.entry_router/H2",
+  "input_refs": [
+    "fa/06040e9d917f447593c101027922db93/node",
+    "fa/07d6b5da1e18459f8a27c2830be23ff0/node",
+    "fa/0ed558bc0606404ab49496138b5e019e/node",
+    "fa/2423a8ed1f6344f9bcffbaf0f2004e83/node",
+    "fa/28ea7f3b6b7f49a296dbaa39d8e6fb96/node",
+    "fa/3baea011731b426a8284740aea8d37b4/node",
+    "fa/5004720ea4634c26ba115dc4b9f3ef98/node",
+    "fa/56b2a610cb2a4baa98ccea7ac37ba4b2/node",
+    "fa/5b9b0d2b08d44297aa8bd7b32066e5ef/node",
+    "fa/87467cd2df07435ca7001b702d655bee/node",
+    "fa/8b6e4373205c4741a8e606521fa5d2ad/node",
+    "fa/922908165d5f40d39d6e75b7ef22132a/node",
+    "fa/93f66aebdb214a4caf62344446425c26/node",
+    "fa/b750609e24624f8ab993747de199a175/node",
+    "fa/c1f670560eb14356abea8c19b672ed66/node",
+    "sh/H2/catalog",
+    "sh/H2/judgments",
+    "sh/H2/node",
+    "spectrum_npz"
+  ],
+  "output": {
+    "checks": [
+      {
+        "name": "nev",
+        "positive": false,
+        "pairs": []
+      },
+      {
+        "name": "qso_type1",
+        "positive": false,
+        "pairs": [],
+        "mgii_pair_retains_galaxy": false
+      },
+      {
+        "name": "old_population",
+        "positive": false,
+        "pairs": [],
+        "dn4000": {
+          "index_id": "index:dn4000",
+          "rule_id": "rule:formal-dn4000-interpretation",
+          "reference_bands": {
+            "strong": 1.6,
+            "moderate_low": 1.3,
+            "moderate_high": 1.6
+          },
+          "minimum_valid_samples_per_band": 3,
+          "windows": {
+            "blue": {
+              "window_angstrom": [
+                4666.649457280465,
+                4787.861131495542
+              ],
+              "fully_covered": true,
+              "sample_count": 151,
+              "usable_sample_count": 151,
+              "mean_flux": 1.980703386644654
+            },
+            "red": {
+              "window_angstrom": [
+                4848.46696860308,
+                4969.678642818158
+              ],
+              "fully_covered": true,
+              "sample_count": 152,
+              "usable_sample_count": 152,
+              "mean_flux": 1.1725684684750282
+            }
+          },
+          "value": 0.5919959931311974,
+          "reference_strength": "not_strong",
+          "consultative_only": true,
+          "unresolved_reason": null
+        }
+      },
+      {
+        "name": "emission_galaxy",
+        "positive": false,
+        "oii_pair": null,
+        "oiii_pairs": [
+          {
+            "line_id": "line:oiii-5008",
+            "measurement_id": "cwt:em:0002"
+          }
+        ],
+        "oiii_distinct_pair": false
+      }
+    ],
+    "selected_initial_graph": null,
+    "selected_reason": "no_adopted_entry_evidence",
+    "eligible_graphs": []
+  }
+}

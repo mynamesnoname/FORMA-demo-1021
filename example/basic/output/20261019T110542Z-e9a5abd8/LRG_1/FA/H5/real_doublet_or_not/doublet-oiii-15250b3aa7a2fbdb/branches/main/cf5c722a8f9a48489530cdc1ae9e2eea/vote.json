@@ -1,0 +1,13 @@
+{
+  "answer": "no",
+  "reason": "Neither window shows a credible line: at 6308 Å (component a) flux is flat continuum with no peak, and the claimed center 6292 Å is a 16 Å mismatch in a noisy low-ivar stretch; at 6369 Å (component b) there is only continuum with no emission. No paired partner is visible, so the doublet interpretation is uncorroborated.",
+  "execution": {
+    "schema_version": "forma-agentic-node-execution-v1",
+    "run_id": "graph-6f4e6510cc5d45df9da3b7be0c8597cc",
+    "branch_id": "main",
+    "node_key": "fa.real_doublet_or_not/graph-6f4e6510cc5d45df9da3b7be0c8597cc/H5/doublet%3Aoiii",
+    "node_execution_id": "cf5c722a8f9a48489530cdc1ae9e2eea",
+    "attempt_id": "75bc2cd956324e3d8f10912637a2e611",
+    "relative_dir": "FA/H5/real_doublet_or_not/doublet-oiii-15250b3aa7a2fbdb/branches/main/cf5c722a8f9a48489530cdc1ae9e2eea"
+  }
+}

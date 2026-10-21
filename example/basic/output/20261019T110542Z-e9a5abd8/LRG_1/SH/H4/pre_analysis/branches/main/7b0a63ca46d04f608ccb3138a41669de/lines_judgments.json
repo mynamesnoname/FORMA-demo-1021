@@ -1,0 +1,155 @@
+[
+  {
+    "line_id": "line:ciii-1909",
+    "measurement_id": null,
+    "status": "NOT_FOUND",
+    "reason_codes": [
+      "no_cwt_feature",
+      "fit_center_at_bound",
+      "fit_rejected"
+    ],
+    "comment": "No CWT emission feature near 4093.8 A; targeted fit center_at_bound at 4143.8 (50 A offset) and rejected. No credible measurement."
+  },
+  {
+    "line_id": "line:mgii-2800",
+    "measurement_id": null,
+    "status": "NOT_FOUND",
+    "reason_codes": [
+      "no_cwt_feature",
+      "fit_center_at_bound",
+      "fit_rejected"
+    ],
+    "comment": "No CWT emission feature near 6004.6 A; nearest CWT em 6292.0 is far. Fit center_at_bound at 6054.6, rejected."
+  },
+  {
+    "line_id": "line:mgii-2800-abs",
+    "measurement_id": null,
+    "status": "NOT_FOUND",
+    "reason_codes": [
+      "zero_amplitude",
+      "no_cwt_feature",
+      "fit_unreliable"
+    ],
+    "comment": "Fit at 5954.8 has zero amplitude and zero error; no CWT trough near 6004.6. No credible absorption signal."
+  },
+  {
+    "line_id": "line:nev-3426",
+    "measurement_id": null,
+    "status": "NOT_FOUND",
+    "reason_codes": [
+      "no_cwt_feature",
+      "fit_center_at_bound",
+      "fit_rejected"
+    ],
+    "comment": "No CWT feature near 7347 A; fit center_at_bound at 7397.0 with huge width, rejected."
+  },
+  {
+    "line_id": "line:oii-3727",
+    "measurement_id": "fit:H4:0005",
+    "status": "MARGINAL",
+    "reason_codes": [
+      "weak_snr",
+      "low_delta_chi2",
+      "blend_risk"
+    ],
+    "comment": "Fit at 7994.4 (2 A offset, within tolerance) but local SNR 1.9 and delta-chi2/n 0.016; no CWT emission feature listed. Weak, marginal only."
+  },
+  {
+    "line_id": "line:cak-3934-abs",
+    "measurement_id": "fit:H4:0000",
+    "status": "MARGINAL",
+    "reason_codes": [
+      "doublet_separation_fail",
+      "weak_depth",
+      "blend_risk"
+    ],
+    "comment": "Doublet fit gives Ca K at 8447.4 (9 A offset, acceptable) but separation fails vs Ca H; depth ordering Ca K deeper than Ca H is consistent. Weak local SNR 1.96; plausible weak component retained as marginal."
+  },
+  {
+    "line_id": "line:cah-3969-abs",
+    "measurement_id": null,
+    "status": "NOT_FOUND",
+    "reason_codes": [
+      "outside_redshift_window",
+      "doublet_separation_fail",
+      "broad_width",
+      "fit_rejected"
+    ],
+    "comment": "Ca H doublet fit center 8552.9 A lies outside the z-window (implied z too high); separation fail and very broad FWHM 3543 km/s. No selectable measurement; plausible weak Ca H component noted but not adoptable."
+  },
+  {
+    "line_id": "line:heps-3970",
+    "measurement_id": "fit:H4:0006",
+    "status": "MARGINAL",
+    "reason_codes": [
+      "weak_snr",
+      "low_delta_chi2",
+      "blend_risk"
+    ],
+    "comment": "Fit at 8495.6 (18 A offset) with local SNR 1.43 and delta-chi2/n 0.009; no distinct CWT emission peak. Weak marginal, blended with Ca H absorption region."
+  },
+  {
+    "line_id": "line:heps-3970-abs",
+    "measurement_id": "fit:H4:0010",
+    "status": "MARGINAL",
+    "reason_codes": [
+      "weak_snr",
+      "broad_width",
+      "blend_risk"
+    ],
+    "comment": "Absorption fit at 8551.2 (37 A offset) with broad FWHM 3262 km/s and shallow depth, local SNR 0.85. Weak marginal, blended with Ca H."
+  },
+  {
+    "line_id": "line:hdel-4102",
+    "measurement_id": "fit:H4:0007",
+    "status": "MARGINAL",
+    "reason_codes": [
+      "weak_snr",
+      "low_delta_chi2",
+      "broad_width"
+    ],
+    "comment": "Fit at 8779.5 (19 A offset) with local SNR 1.49 and delta-chi2/n 0.064; no CWT emission peak. Weak marginal."
+  },
+  {
+    "line_id": "line:hdel-4102-abs",
+    "measurement_id": null,
+    "status": "NOT_FOUND",
+    "reason_codes": [
+      "fit_center_at_bound",
+      "zero_amplitude",
+      "fit_rejected"
+    ],
+    "comment": "Fit center_at_bound at 8848.6 with zero amplitude; no CWT trough near 8798.6. No credible measurement."
+  },
+  {
+    "line_id": "line:gband-4305-abs",
+    "measurement_id": "fit:H4:0012",
+    "status": "MARGINAL",
+    "reason_codes": [
+      "weak_snr",
+      "low_delta_chi2"
+    ],
+    "comment": "Fit at 9226.5 (7 A offset, good position) but local SNR 0.69 and delta-chi2/n 0.012; no CWT trough listed. Weak marginal."
+  },
+  {
+    "line_id": "line:hgam-4341",
+    "measurement_id": "fit:H4:0008",
+    "status": "MARGINAL",
+    "reason_codes": [
+      "weak_snr",
+      "low_delta_chi2",
+      "broad_width"
+    ],
+    "comment": "Fit at 9322.3 (12 A offset) with local SNR 1.44 and delta-chi2/n 0.13; no CWT emission peak. Weak marginal."
+  },
+  {
+    "line_id": "line:hgam-4341-abs",
+    "measurement_id": "fit:H4:0013",
+    "status": "MARGINAL",
+    "reason_codes": [
+      "weak_snr",
+      "low_delta_chi2"
+    ],
+    "comment": "Absorption fit at 9287.6 (23 A offset) with local SNR 1.23 and delta-chi2/n 0.012; no CWT trough listed. Weak marginal."
+  }
+]

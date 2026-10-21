@@ -1,0 +1,13 @@
+{
+  "answer": "no",
+  "reason": "Neither window shows a line: at 8408.4 Å and 8426.4 Å the flux is flat continuum (~7.5–8.0) with no emission or absorption feature. Both components share one low-ivar noisy center at 8430.4 Å (separation 0.0 vs expected 18.0 Å), and component a's center is 22 Å off prediction. The negative equal amplitudes are noise, not a corroborated doublet.",
+  "execution": {
+    "schema_version": "forma-agentic-node-execution-v1",
+    "run_id": "graph-6f4e6510cc5d45df9da3b7be0c8597cc",
+    "branch_id": "main",
+    "node_key": "fa.real_doublet_or_not/graph-6f4e6510cc5d45df9da3b7be0c8597cc/H1/doublet%3Asii",
+    "node_execution_id": "a8eb67e413e4456687403cfd9d838c51",
+    "attempt_id": "576b18a5092847d4a95bad22ff969a2c",
+    "relative_dir": "FA/H1/real_doublet_or_not/doublet-sii-21eebc95bccd5619/branches/main/a8eb67e413e4456687403cfd9d838c51"
+  }
+}

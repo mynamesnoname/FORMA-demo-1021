@@ -1,0 +1,13 @@
+{
+  "answer": "yes",
+  "reason": "Two distinct resolved peaks: a peaks at 8317.6 (flux 9.96) near predicted 8316.4, b peaks at 8336.0 (flux 8.61) near predicted 8334.2, with a clear trough (~5.1) between them. Measured separation 17.6 Å matches expected 17.8 Å, and amplitudes are comparable (ratio 1.16). Both components are real and jointly consistent with the S II doublet.",
+  "execution": {
+    "schema_version": "forma-agentic-node-execution-v1",
+    "run_id": "graph-853b617a68f04c36bd82f06bdb770ac4",
+    "branch_id": "main",
+    "node_key": "fa.real_doublet_or_not/graph-853b617a68f04c36bd82f06bdb770ac4/H1/doublet%3Asii",
+    "node_execution_id": "02875a6b789a4945bfdc454f0f09e205",
+    "attempt_id": "8d2cd13a08544f889a56e5bb4fd5c533",
+    "relative_dir": "FA/H1/real_doublet_or_not/doublet-sii-21eebc95bccd5619/branches/main/02875a6b789a4945bfdc454f0f09e205"
+  }
+}

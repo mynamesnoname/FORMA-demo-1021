@@ -1,0 +1,13 @@
+{
+  "answer": "no",
+  "reason": "Neither predicted window shows a line: at 6551.2 Å and 6586.7 Å the flux is flat noise with no peak. Both claimed centers sit ~47 Å away (6598, 6634 Å), outside the component windows, and those regions show only noise-level fluctuations. No credible two-component structure is corroborated.",
+  "execution": {
+    "schema_version": "forma-agentic-node-execution-v1",
+    "run_id": "graph-fe0d30030bcc4939b88103e27753b2c1",
+    "branch_id": "main",
+    "node_key": "fa.real_doublet_or_not/graph-fe0d30030bcc4939b88103e27753b2c1/H4/doublet%3Anii",
+    "node_execution_id": "5eda9714c73a4cc2b407f8b644c5373a",
+    "attempt_id": "af35f2b8b3c04a31a505892bc54e9f22",
+    "relative_dir": "FA/H4/real_doublet_or_not/doublet-nii-9c5a452678982a5b/branches/main/5eda9714c73a4cc2b407f8b644c5373a"
+  }
+}

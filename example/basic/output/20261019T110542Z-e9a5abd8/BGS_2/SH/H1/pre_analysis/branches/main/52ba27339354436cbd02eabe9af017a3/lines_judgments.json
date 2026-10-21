@@ -1,0 +1,260 @@
+[
+  {
+    "line_id": "line:nev-3426",
+    "measurement_id": null,
+    "status": "NOT_FOUND",
+    "reason_codes": [
+      "weak_snr",
+      "no_cwt_feature",
+      "edge_blue"
+    ],
+    "comment": "Fit centre 3958.8 offset ~12 A from predicted 3970.6, local SNR 0.42, no CWT feature; blue edge. Not credible."
+  },
+  {
+    "line_id": "line:oii-3727",
+    "measurement_id": "fit:H1:0007",
+    "status": "MARGINAL",
+    "reason_codes": [
+      "low_snr",
+      "no_cwt_feature",
+      "edge_blue"
+    ],
+    "comment": "Fit centre 4319.9 matches prediction well (offset <1 A) but local SNR 4.25 and no CWT ridge; weak blue-edge detection."
+  },
+  {
+    "line_id": "line:cak-3934-abs",
+    "measurement_id": "fit:H1:0004",
+    "status": "MARGINAL",
+    "reason_codes": [
+      "blend",
+      "low_snr",
+      "depth_ordering_uncertain"
+    ],
+    "comment": "Doublet fit centre 4561.0 near predicted 4560.3; Ca K depth (-1.65) slightly shallower than Ca H (-1.75), ordering uncertain; low local SNR 3.5. Plausible weak component."
+  },
+  {
+    "line_id": "line:cah-3969-abs",
+    "measurement_id": "fit:H1:0005",
+    "status": "MARGINAL",
+    "reason_codes": [
+      "blend",
+      "low_snr",
+      "depth_ordering_uncertain"
+    ],
+    "comment": "Doublet fit centre 4601.6 near predicted 4600.6; blended with H-epsilon region; depth ordering vs Ca K uncertain; low SNR. Plausible weak component."
+  },
+  {
+    "line_id": "line:heps-3970",
+    "measurement_id": null,
+    "status": "NOT_FOUND",
+    "reason_codes": [
+      "zero_amplitude",
+      "degenerate_fit",
+      "blend"
+    ],
+    "comment": "Fit returned zero amplitude with huge FWHM (degenerate); no CWT emission feature near 4601. No credible emission measurement."
+  },
+  {
+    "line_id": "line:heps-3970-abs",
+    "measurement_id": "fit:H1:0012",
+    "status": "MARGINAL",
+    "reason_codes": [
+      "blend",
+      "low_snr"
+    ],
+    "comment": "Absorption fit centre 4601.7 matches prediction; blended with Ca H; local SNR 3.2. Weak but plausible."
+  },
+  {
+    "line_id": "line:hdel-4102",
+    "measurement_id": null,
+    "status": "NOT_FOUND",
+    "reason_codes": [
+      "center_at_bound",
+      "rejected_fit",
+      "no_cwt_feature"
+    ],
+    "comment": "Emission fit centre 4705.1 at bound, offset ~50 A from predicted 4755.1, FWHM 13310 km/s; unselectable. No CWT emission feature."
+  },
+  {
+    "line_id": "line:hdel-4102-abs",
+    "measurement_id": "fit:H1:0013",
+    "status": "MARGINAL",
+    "reason_codes": [
+      "low_snr"
+    ],
+    "comment": "Absorption fit centre 4755.3 matches predicted 4755.1 closely; local SNR 1.9, weak but positionally consistent."
+  },
+  {
+    "line_id": "line:gband-4305-abs",
+    "measurement_id": "fit:H1:0014",
+    "status": "MARGINAL",
+    "reason_codes": [
+      "low_snr"
+    ],
+    "comment": "Absorption fit centre 4989.5 matches predicted 4990.1; local SNR 3.0, weak but positionally consistent."
+  },
+  {
+    "line_id": "line:hgam-4341",
+    "measurement_id": null,
+    "status": "NOT_FOUND",
+    "reason_codes": [
+      "center_at_bound",
+      "zero_amplitude",
+      "rejected_fit"
+    ],
+    "comment": "Emission fit centre 5081.9 at bound with zero amplitude; unselectable. No CWT emission feature near 5032."
+  },
+  {
+    "line_id": "line:hgam-4341-abs",
+    "measurement_id": "fit:H1:0015",
+    "status": "MARGINAL",
+    "reason_codes": [
+      "low_snr"
+    ],
+    "comment": "Absorption fit centre 5033.5 near predicted 5031.9 (offset ~1.5 A); local SNR 1.5, weak but plausible."
+  },
+  {
+    "line_id": "line:hbet-4862",
+    "measurement_id": null,
+    "status": "NOT_FOUND",
+    "reason_codes": [
+      "offset_reject",
+      "low_snr",
+      "outside_window"
+    ],
+    "comment": "Emission fit centre 5587.0 offset ~49 A from predicted 5635.7 and outside redshift window; local SNR 0.62. No credible measurement."
+  },
+  {
+    "line_id": "line:hbet-4862-abs",
+    "measurement_id": "fit:H1:0016",
+    "status": "MARGINAL",
+    "reason_codes": [
+      "low_snr",
+      "offset_weak"
+    ],
+    "comment": "Absorption fit centre 5648.6 offset ~13 A from predicted 5635.7; local SNR 2.05. Weak but plausible."
+  },
+  {
+    "line_id": "line:oiii-4960",
+    "measurement_id": null,
+    "status": "NOT_FOUND",
+    "reason_codes": [
+      "separation_fail",
+      "low_snr",
+      "rejected_fit"
+    ],
+    "comment": "Doublet fit failed separation; component a centre 5740.1 offset ~9 A, local SNR 2.85, ratio 7.9 inconsistent. No credible measurement."
+  },
+  {
+    "line_id": "line:oiii-5008",
+    "measurement_id": "fit:H1:0001",
+    "status": "MARGINAL",
+    "reason_codes": [
+      "blend",
+      "doublet_ratio_off",
+      "low_snr"
+    ],
+    "comment": "Component b centre 5804.1 matches predicted 5804.3 well, but doublet separation failed and ratio 7.9 far from 3:1; local SNR 2.85. Marginal."
+  },
+  {
+    "line_id": "line:mgi-5176-abs",
+    "measurement_id": "fit:H1:0017",
+    "status": "MARGINAL",
+    "reason_codes": [
+      "low_snr",
+      "broad_width"
+    ],
+    "comment": "Absorption fit centre 6001.2 matches predicted 5999.6; local SNR 1.7, very broad FWHM ~2790 km/s. Weak but positionally consistent."
+  },
+  {
+    "line_id": "line:nad1-5891-abs",
+    "measurement_id": "cwt:abs:0000",
+    "status": "MARGINAL",
+    "reason_codes": [
+      "blend",
+      "doublet_unresolved"
+    ],
+    "comment": "CWT trough at 6831.2 (z=0.1595) within Na D complex; Na D1/D2/D unresolved at this resolution, shared feature. Plausible but blended."
+  },
+  {
+    "line_id": "line:nad-5895-abs",
+    "measurement_id": null,
+    "status": "NOT_FOUND",
+    "reason_codes": [
+      "blend",
+      "doublet_unresolved",
+      "duplicate_label"
+    ],
+    "comment": "Na D_abs is a blended label duplicating the adopted Na D1/D2 doublet components; no separate measurement adopted."
+  },
+  {
+    "line_id": "line:nad2-5897-abs",
+    "measurement_id": "cwt:abs:0000",
+    "status": "MARGINAL",
+    "reason_codes": [
+      "blend",
+      "doublet_unresolved"
+    ],
+    "comment": "Same CWT trough 6831.2 (z=0.1583) serves Na D2; unresolved blend with D1/D. Plausible but ambiguous."
+  },
+  {
+    "line_id": "line:nii-6549",
+    "measurement_id": null,
+    "status": "NOT_FOUND",
+    "reason_codes": [
+      "offset_reject",
+      "blend"
+    ],
+    "comment": "Nearest CWT peak 7632.0 implies z=0.1652, offset ~41 A from predicted 7591.0; that peak is better matched to [N II]b. No credible [N II]a measurement."
+  },
+  {
+    "line_id": "line:half-6564",
+    "measurement_id": null,
+    "status": "NOT_FOUND",
+    "reason_codes": [
+      "offset_reject",
+      "blend"
+    ],
+    "comment": "Nearest CWT peak 7632.0 implies z=0.1626, offset ~24 A from predicted 7608.2; peak assigned to [N II]b. No credible H-alpha measurement."
+  },
+  {
+    "line_id": "line:half-6564-abs",
+    "measurement_id": "cwt:abs:0002",
+    "status": "MARGINAL",
+    "reason_codes": [
+      "blend",
+      "offset_weak"
+    ],
+    "comment": "CWT trough 7648.0 implies z=0.1650, offset ~40 A from predicted 7608.2; weak amplitude -0.1. Marginal, possibly blended."
+  },
+  {
+    "line_id": "line:nii-6585",
+    "measurement_id": "cwt:em:0002",
+    "status": "LIKELY",
+    "reason_codes": [
+      "strong_snr",
+      "ridge_persistent"
+    ],
+    "comment": "CWT peak 7632.0 implies z=0.1589, offset ~0.2 A from predicted 7632.2; SNR 31.6, ridge 19. Strong credible detection."
+  },
+  {
+    "line_id": "line:sii-6718",
+    "measurement_id": "fit:H1:0002",
+    "status": "MARGINAL",
+    "reason_codes": [
+      "low_snr",
+      "doublet_ratio_off"
+    ],
+    "comment": "Doublet fit centre 7786.2 matches predicted 7786.3; separation pass but ratio 0.83 vs expected 1; local SNR 3.8. Marginal."
+  },
+  {
+    "line_id": "line:sii-6732",
+    "measurement_id": "fit:H1:0003",
+    "status": "MARGINAL",
+    "reason_codes": [
+      "low_snr",
+      "doublet_ratio_off"
+    ],
+    "comment": "Doublet fit centre 7803.8 matches predicted 7803.0; separation pass, ratio 0.83; local SNR 3.8. Marginal."
+  }
+]

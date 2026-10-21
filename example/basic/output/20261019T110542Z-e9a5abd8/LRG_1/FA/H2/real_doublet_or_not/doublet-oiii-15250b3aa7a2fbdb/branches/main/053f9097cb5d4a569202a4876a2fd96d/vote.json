@@ -1,0 +1,13 @@
+{
+  "answer": "no",
+  "reason": "Component a shows only a broad rising plateau with no discrete peak at 4959 Å (claimed center 4964 Å is ~5 Å off, FA signal_absent). Component b's predicted 5006.9 Å falls in a local trough (~1.2–1.3 flux) with no emission feature (SH NOT_FOUND). Neither window supports a two-component [O III] doublet.",
+  "execution": {
+    "schema_version": "forma-agentic-node-execution-v1",
+    "run_id": "graph-6f4e6510cc5d45df9da3b7be0c8597cc",
+    "branch_id": "main",
+    "node_key": "fa.real_doublet_or_not/graph-6f4e6510cc5d45df9da3b7be0c8597cc/H2/doublet%3Aoiii",
+    "node_execution_id": "053f9097cb5d4a569202a4876a2fd96d",
+    "attempt_id": "5cf1c7de0b674d5182ab98720eaa9df5",
+    "relative_dir": "FA/H2/real_doublet_or_not/doublet-oiii-15250b3aa7a2fbdb/branches/main/053f9097cb5d4a569202a4876a2fd96d"
+  }
+}

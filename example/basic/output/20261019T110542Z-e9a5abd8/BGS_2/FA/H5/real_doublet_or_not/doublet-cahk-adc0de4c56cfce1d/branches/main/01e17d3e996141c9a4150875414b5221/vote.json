@@ -1,0 +1,13 @@
+{
+  "answer": "no",
+  "reason": "Neither component window shows an absorption dip: around 9517.8 Å (Ca K) the flux stays at the continuum level (~5.0-5.2) with no negative feature, and around 9601.9 Å (Ca H) the flux is likewise flat continuum (~5.0-5.3). Both single-feature states are signal_absent, and the claimed centers are offset from prediction (K by -12.5 Å). No two-component absorption doublet is corroborated in the usable pixels.",
+  "execution": {
+    "schema_version": "forma-agentic-node-execution-v1",
+    "run_id": "graph-df7434d5533647e999870708120307b0",
+    "branch_id": "main",
+    "node_key": "fa.real_doublet_or_not/graph-df7434d5533647e999870708120307b0/H5/doublet%3Acahk",
+    "node_execution_id": "01e17d3e996141c9a4150875414b5221",
+    "attempt_id": "ab1679255608467d86fd9e2ee1dfe5b6",
+    "relative_dir": "FA/H5/real_doublet_or_not/doublet-cahk-adc0de4c56cfce1d/branches/main/01e17d3e996141c9a4150875414b5221"
+  }
+}

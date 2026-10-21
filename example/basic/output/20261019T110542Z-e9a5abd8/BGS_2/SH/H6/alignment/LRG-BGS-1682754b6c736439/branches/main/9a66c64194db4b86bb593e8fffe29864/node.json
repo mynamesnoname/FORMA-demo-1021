@@ -1,0 +1,249 @@
+{
+  "schema_version": "forma-sh-line-alignment-v1",
+  "run_id": "graph-df7434d5533647e999870708120307b0",
+  "branch_id": "main",
+  "hypothesis_ref": "H6",
+  "graph": "LRG/BGS",
+  "node_key": "sh2.alignment/H6/LRG%2FBGS",
+  "node_execution_id": "9a66c64194db4b86bb593e8fffe29864",
+  "input_refs": [
+    "sh/H6/node",
+    "sh/H6/catalog",
+    "sh/H6/judgments",
+    "spectrum_npz",
+    "fa/02cc5436f04148baa749da027cf96a37/node",
+    "fa/066e241d7b2548ad9fc66f8f8e1c3588/node",
+    "fa/0d0d7485025143e78b97a799d8dfa522/node",
+    "fa/15350b5795744dbaa44be9cae3c57ef3/node",
+    "fa/1b999b1ee32941a0b3cce7bf11ccb2ef/node",
+    "fa/1cf104e2680c479e9d2358d0ad03e22e/node",
+    "fa/1d09a87589d84243aa2166e94f581a6f/node",
+    "fa/20c94b6c2a554353ac3949d8687cbab5/node",
+    "fa/301d747eddaa40ff86ba27543874993e/node",
+    "fa/39d1cb533f9541a8b710e20f119d2e7f/node",
+    "fa/3f6404faff874c5fa32f5b51f36c5bb0/node",
+    "fa/40e0f62289a940008abf2800baf0493f/node",
+    "fa/44b62c06cb144cd2b36538d7800cbf63/node",
+    "fa/4523204b0eeb43e19b0f5cb999c54a81/node",
+    "fa/4a878dc5a306477fb3841a1ad571444e/node",
+    "fa/4c92836c67a1438dafa0e9979d8b42d4/node",
+    "fa/5244524f191e44cc84ec7cdc4ea5dd3f/node",
+    "fa/55d5235b44424c87b11f3a56913f8af1/node",
+    "fa/5b26a18ad51b4e168cc0a29bb30eedd1/node",
+    "fa/5bea69afbc3748f89abc7ef8de70beee/node",
+    "fa/604d925cef4a474fb5aef0923417d282/node",
+    "fa/64e4aad1b9e244bba1a2921dc83638e9/node",
+    "fa/70a7edfb2a5d46c994980b7c6c2d3305/node",
+    "fa/7fecb4f6a0634d54bf80cc994979dc72/node",
+    "fa/85e53d03059b45c0ab6f157ed2563724/node",
+    "fa/8750476af6074abd98de75edc41e7834/node",
+    "fa/8b7e2fcbba7c4ee4967942eb03410b57/node",
+    "fa/90b7d330d92648c5834259c0def82732/node",
+    "fa/9addcb7c9e354201a59ce689e70baef8/node",
+    "fa/9b8ea60f2d57474892ec18bdd704ffe7/node",
+    "fa/9e92bf51b19e41d99ae62431bfd00671/node",
+    "fa/a2b3c0a23ecd4d2ab7127940b290a297/node",
+    "fa/a35835e8023345a7be4381675d357996/node",
+    "fa/a42232f965764084bd26fe29de7df251/node",
+    "fa/a99c70fce8f84980924ca0c991b81826/node",
+    "fa/ae61c7698fb54ab986154669b5c14245/node",
+    "fa/ae9cc960dc144fcf9a2f58565cbf7d5e/node",
+    "fa/b22304088db34f7282d56d08fe8afccc/node",
+    "fa/c122ffe550f24c0c9791657f47cd785d/node",
+    "fa/c6b7d15db6624ef09e5ddc93e23336d9/node",
+    "fa/ce63316a95a549fb8f22e3c96a697372/node",
+    "fa/dddad1ada492430d93f5843c389fe282/node",
+    "fa/ed058f4ccddc473f89788ecc116f1946/node",
+    "fa/ee6a3bdb6143497298e47577e4b45040/node",
+    "fa/fad2aa1414d242a9a105aada665991e2/node"
+  ],
+  "vote_refs": [],
+  "output": {
+    "collisions": [
+      {
+        "measurement_id": "cwt:abs:0000",
+        "shared_measurement_ids": [
+          "cwt:abs:0000"
+        ],
+        "tbd_line_ids": [
+          "line:nad1-5891-abs",
+          "line:nad2-5897-abs"
+        ],
+        "group": "unresolved_non_diagnostic",
+        "slots": [],
+        "eligible": false,
+        "ca_h_region_includes_unresolved_h_epsilon": false,
+        "status": "tbd",
+        "ballots": [],
+        "line_results": {},
+        "window": null,
+        "reason": "no_diagnostic_vote"
+      }
+    ],
+    "aligned_claims": [
+      {
+        "line_id": "line:cah-3969-abs",
+        "original_measurement_id": "fit:H6:0005",
+        "status": "original_claim",
+        "effective_feature_id": "fit:H6:0005"
+      },
+      {
+        "line_id": "line:cak-3934-abs",
+        "original_measurement_id": "fit:H6:0004",
+        "status": "original_claim",
+        "effective_feature_id": "fit:H6:0004"
+      },
+      {
+        "line_id": "line:gband-4305-abs",
+        "original_measurement_id": "fit:H6:0014",
+        "status": "original_claim",
+        "effective_feature_id": "fit:H6:0014"
+      },
+      {
+        "line_id": "line:half-6564",
+        "original_measurement_id": null,
+        "status": "unassigned",
+        "effective_feature_id": null
+      },
+      {
+        "line_id": "line:half-6564-abs",
+        "original_measurement_id": "cwt:abs:0002",
+        "status": "unassigned",
+        "effective_feature_id": null
+      },
+      {
+        "line_id": "line:hbet-4862",
+        "original_measurement_id": null,
+        "status": "unassigned",
+        "effective_feature_id": null
+      },
+      {
+        "line_id": "line:hbet-4862-abs",
+        "original_measurement_id": "fit:H6:0016",
+        "status": "original_claim",
+        "effective_feature_id": "fit:H6:0016"
+      },
+      {
+        "line_id": "line:hdel-4102",
+        "original_measurement_id": null,
+        "status": "unassigned",
+        "effective_feature_id": null
+      },
+      {
+        "line_id": "line:hdel-4102-abs",
+        "original_measurement_id": "fit:H6:0013",
+        "status": "unassigned",
+        "effective_feature_id": null
+      },
+      {
+        "line_id": "line:heps-3970",
+        "original_measurement_id": null,
+        "status": "unassigned",
+        "effective_feature_id": null
+      },
+      {
+        "line_id": "line:heps-3970-abs",
+        "original_measurement_id": "fit:H6:0012",
+        "status": "original_claim",
+        "effective_feature_id": "fit:H6:0012"
+      },
+      {
+        "line_id": "line:hgam-4341",
+        "original_measurement_id": null,
+        "status": "unassigned",
+        "effective_feature_id": null
+      },
+      {
+        "line_id": "line:hgam-4341-abs",
+        "original_measurement_id": "fit:H6:0015",
+        "status": "unassigned",
+        "effective_feature_id": null
+      },
+      {
+        "line_id": "line:mgi-5176-abs",
+        "original_measurement_id": "fit:H6:0017",
+        "status": "unassigned",
+        "effective_feature_id": null
+      },
+      {
+        "line_id": "line:nad-5895-abs",
+        "original_measurement_id": null,
+        "status": "unassigned",
+        "effective_feature_id": null
+      },
+      {
+        "line_id": "line:nad1-5891-abs",
+        "original_measurement_id": "cwt:abs:0000",
+        "status": "tbd",
+        "effective_feature_id": null
+      },
+      {
+        "line_id": "line:nad2-5897-abs",
+        "original_measurement_id": "cwt:abs:0000",
+        "status": "tbd",
+        "effective_feature_id": null
+      },
+      {
+        "line_id": "line:nev-3426",
+        "original_measurement_id": null,
+        "status": "unassigned",
+        "effective_feature_id": null
+      },
+      {
+        "line_id": "line:nii-6549",
+        "original_measurement_id": null,
+        "status": "unassigned",
+        "effective_feature_id": null
+      },
+      {
+        "line_id": "line:nii-6585",
+        "original_measurement_id": "cwt:em:0002",
+        "status": "original_claim",
+        "effective_feature_id": "cwt:em:0002"
+      },
+      {
+        "line_id": "line:oii-3727",
+        "original_measurement_id": "fit:H6:0007",
+        "status": "unassigned",
+        "effective_feature_id": null
+      },
+      {
+        "line_id": "line:oiii-4960",
+        "original_measurement_id": null,
+        "status": "unassigned",
+        "effective_feature_id": null
+      },
+      {
+        "line_id": "line:oiii-5008",
+        "original_measurement_id": "fit:H6:0001",
+        "status": "unassigned",
+        "effective_feature_id": null
+      },
+      {
+        "line_id": "line:sii-6718",
+        "original_measurement_id": "fit:H6:0002",
+        "status": "original_claim",
+        "effective_feature_id": "fit:H6:0002"
+      },
+      {
+        "line_id": "line:sii-6732",
+        "original_measurement_id": "fit:H6:0003",
+        "status": "original_claim",
+        "effective_feature_id": "fit:H6:0003"
+      }
+    ],
+    "model_usage": {
+      "calls": 0,
+      "input_tokens": 0,
+      "output_tokens": 0,
+      "cache_hit_tokens": 0,
+      "cache_hit_reported_calls": 0,
+      "cache_hit_unreported_calls": 0
+    },
+    "window_half_angstrom": 100.0,
+    "vote_quorum": 3,
+    "max_attempts_per_vote_seat": 2,
+    "outer_reference_sigma": 3.0,
+    "concurrency": 3
+  }
+}

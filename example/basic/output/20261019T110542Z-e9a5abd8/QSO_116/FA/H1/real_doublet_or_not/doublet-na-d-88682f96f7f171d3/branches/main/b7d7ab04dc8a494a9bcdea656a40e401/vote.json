@@ -1,0 +1,13 @@
+{
+  "answer": "no",
+  "reason": "Neither predicted window shows absorption: D1 (~5885.6 Å, samples 2806-2810) is flat continuum, and D2 (~5891.6 Å, samples 2814-2818) shows only a low-ivar bump, not a dip. Claimed centers (5870.1, 5918.5 Å) are 15-27 Å off prediction with no feature there; measured separation ~48 Å vs expected ~6 Å. No corroborated two-component pair.",
+  "execution": {
+    "schema_version": "forma-agentic-node-execution-v1",
+    "run_id": "graph-325ff74c7f444efdb17e3f3b69698eea",
+    "branch_id": "main",
+    "node_key": "fa.real_doublet_or_not/graph-325ff74c7f444efdb17e3f3b69698eea/H1/doublet%3Ana-d",
+    "node_execution_id": "b7d7ab04dc8a494a9bcdea656a40e401",
+    "attempt_id": "b25aa1f8216e4ba28a7cc21e1fa19feb",
+    "relative_dir": "FA/H1/real_doublet_or_not/doublet-na-d-88682f96f7f171d3/branches/main/b7d7ab04dc8a494a9bcdea656a40e401"
+  }
+}

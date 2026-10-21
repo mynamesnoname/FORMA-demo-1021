@@ -1,0 +1,13 @@
+{
+  "answer": "no",
+  "reason": "Component a window (~6719 Å) shows no emission feature above the noisy continuum; component b's claimed center at 6737.2 Å is 3.4 Å off prediction and its window shows only continuum noise, not a credible line. No paired partner is corroborated.",
+  "execution": {
+    "schema_version": "forma-agentic-node-execution-v1",
+    "run_id": "graph-fe0d30030bcc4939b88103e27753b2c1",
+    "branch_id": "main",
+    "node_key": "fa.real_doublet_or_not/graph-fe0d30030bcc4939b88103e27753b2c1/H3/doublet%3Asii",
+    "node_execution_id": "9210f436db4a43b99faebd4d8413825e",
+    "attempt_id": "0616dddc08a442088953beea06fe3a36",
+    "relative_dir": "FA/H3/real_doublet_or_not/doublet-sii-21eebc95bccd5619/branches/main/9210f436db4a43b99faebd4d8413825e"
+  }
+}

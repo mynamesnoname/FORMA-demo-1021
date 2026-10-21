@@ -1,0 +1,13 @@
+{
+  "answer": "no",
+  "reason": "Both windows show flat continuum with no credible peak: at 6208 Å flux is ~6.4-6.9 (no feature), and at 6268 Å ~6.9-7.0 (no feature). Claimed centers (6236, 6292 Å) sit on low-contrast continuum/noise, ~24-28 Å off prediction, with separation and amplitude ratio also inconsistent. No visual support for two components.",
+  "execution": {
+    "schema_version": "forma-agentic-node-execution-v1",
+    "run_id": "graph-6f4e6510cc5d45df9da3b7be0c8597cc",
+    "branch_id": "main",
+    "node_key": "fa.real_doublet_or_not/graph-6f4e6510cc5d45df9da3b7be0c8597cc/H1/doublet%3Aoiii",
+    "node_execution_id": "946d42901fc847be9cae1dc082dbfffa",
+    "attempt_id": "ce3b6f0d41f2432e86df82f86961960b",
+    "relative_dir": "FA/H1/real_doublet_or_not/doublet-oiii-15250b3aa7a2fbdb/branches/main/946d42901fc847be9cae1dc082dbfffa"
+  }
+}

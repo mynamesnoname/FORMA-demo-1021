@@ -1,0 +1,13 @@
+{
+  "answer": "no",
+  "reason": "Neither component window shows a credible line: at predicted 6208 Å and 6268 Å the flux is flat continuum with no peak. Both claimed centers are displaced ~24–28 Å from prediction (pairing mismatch), both single-feature FA states are signal_absent, and the amplitude ratio (0.75) is far from the expected ~3:1. The joint doublet is not corroborated in the usable pixels.",
+  "execution": {
+    "schema_version": "forma-agentic-node-execution-v1",
+    "run_id": "graph-6f4e6510cc5d45df9da3b7be0c8597cc",
+    "branch_id": "main",
+    "node_key": "fa.real_doublet_or_not/graph-6f4e6510cc5d45df9da3b7be0c8597cc/H1/doublet%3Aoiii",
+    "node_execution_id": "6728251662984114a67aec513d8d75cf",
+    "attempt_id": "71eb0339ce8e4753a60086b9682b7f94",
+    "relative_dir": "FA/H1/real_doublet_or_not/doublet-oiii-15250b3aa7a2fbdb/branches/main/6728251662984114a67aec513d8d75cf"
+  }
+}

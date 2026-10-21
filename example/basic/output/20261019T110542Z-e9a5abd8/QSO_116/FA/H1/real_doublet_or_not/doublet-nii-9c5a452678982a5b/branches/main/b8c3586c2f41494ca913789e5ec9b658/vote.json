@@ -1,0 +1,13 @@
+{
+  "answer": "no",
+  "reason": "Neither component window shows a credible line: at 6543 Å and 6578.6 Å the flux is flat noisy continuum (~0.5–0.65) with no peak, and the claimed centers (6525.6, 6564.7 Å) are continuum-level noise, offset 14–18 Å from prediction. Separation (39.1 Å) and ratio (0.80) also disagree with the [N II] pair. No visual support for two components.",
+  "execution": {
+    "schema_version": "forma-agentic-node-execution-v1",
+    "run_id": "graph-325ff74c7f444efdb17e3f3b69698eea",
+    "branch_id": "main",
+    "node_key": "fa.real_doublet_or_not/graph-325ff74c7f444efdb17e3f3b69698eea/H1/doublet%3Anii",
+    "node_execution_id": "b8c3586c2f41494ca913789e5ec9b658",
+    "attempt_id": "cec1c609a675483db0669871a90d0bc0",
+    "relative_dir": "FA/H1/real_doublet_or_not/doublet-nii-9c5a452678982a5b/branches/main/b8c3586c2f41494ca913789e5ec9b658"
+  }
+}

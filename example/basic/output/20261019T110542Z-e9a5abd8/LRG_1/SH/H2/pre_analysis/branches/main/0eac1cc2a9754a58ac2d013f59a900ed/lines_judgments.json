@@ -1,0 +1,288 @@
+[
+  {
+    "line_id": "line:oii-3727",
+    "measurement_id": "fit:H2:0008",
+    "status": "MARGINAL",
+    "reason_codes": [
+      "weak_snr",
+      "broad_width",
+      "blue_edge"
+    ],
+    "comment": "Fit centre 3732.2 vs pred 3726.0 (offset ~6 A, within window) but local SNR 0.57, FWHM ~6000 km/s and blue edge; weak, broad, unconvincing."
+  },
+  {
+    "line_id": "line:cak-3934-abs",
+    "measurement_id": "fit:H2:0004",
+    "status": "MARGINAL",
+    "reason_codes": [
+      "weak_snr",
+      "broad_width",
+      "blend_cah",
+      "blue_edge"
+    ],
+    "comment": "Doublet fit centre 3937.6 (offset ~4 A) with separation pass, but local SNR 0.91 and FWHM ~890 km/s; plausible weak Ca K component, blended with Ca H."
+  },
+  {
+    "line_id": "line:cah-3969-abs",
+    "measurement_id": "fit:H2:0005",
+    "status": "MARGINAL",
+    "reason_codes": [
+      "weak_snr",
+      "huge_width",
+      "blend_cak",
+      "blue_edge"
+    ],
+    "comment": "Ca H fit centre 3977.1 with very large error and FWHM ~20000 km/s; depth ordering (K deeper than H) preserved but fit is poorly constrained; plausible weak component."
+  },
+  {
+    "line_id": "line:heps-3970",
+    "measurement_id": null,
+    "status": "NOT_FOUND",
+    "reason_codes": [
+      "center_at_bound",
+      "no_cwt_feature"
+    ],
+    "comment": "Only fit attempt failed with center_at_bound (4019 A); no CWT emission feature near 3969 A."
+  },
+  {
+    "line_id": "line:heps-3970-abs",
+    "measurement_id": null,
+    "status": "NOT_FOUND",
+    "reason_codes": [
+      "center_at_bound",
+      "no_cwt_feature"
+    ],
+    "comment": "Absorption fit failed with center_at_bound and enormous width; no credible trough near 3969 A."
+  },
+  {
+    "line_id": "line:hdel-4102",
+    "measurement_id": null,
+    "status": "NOT_FOUND",
+    "reason_codes": [
+      "center_at_bound",
+      "no_cwt_feature"
+    ],
+    "comment": "Emission fit center_at_bound (4151.8 A); no CWT peak near 4102 A."
+  },
+  {
+    "line_id": "line:hdel-4102-abs",
+    "measurement_id": "fit:H2:0014",
+    "status": "MARGINAL",
+    "reason_codes": [
+      "weak_snr",
+      "offset_weak",
+      "broad_width"
+    ],
+    "comment": "Fit centre 4114.2 (offset ~12 A) with local SNR 1.05 and FWHM ~730 km/s; weak absorption, no matching CWT trough."
+  },
+  {
+    "line_id": "line:gband-4305-abs",
+    "measurement_id": "fit:H2:0015",
+    "status": "MARGINAL",
+    "reason_codes": [
+      "weak_snr",
+      "offset_weak",
+      "broad_width"
+    ],
+    "comment": "Fit centre 4283.8 (offset ~21 A, weaker band) with local SNR 1.12 and FWHM ~1500 km/s; weak, broad, no CWT trough."
+  },
+  {
+    "line_id": "line:hgam-4341",
+    "measurement_id": "fit:H2:0011",
+    "status": "MARGINAL",
+    "reason_codes": [
+      "weak_snr",
+      "offset_weak",
+      "broad_width"
+    ],
+    "comment": "Fit centre 4360.6 (offset ~20 A) with local SNR 1.73 and FWHM ~950 km/s; weak emission, no matching CWT peak."
+  },
+  {
+    "line_id": "line:hgam-4341-abs",
+    "measurement_id": null,
+    "status": "NOT_FOUND",
+    "reason_codes": [
+      "offset_large",
+      "outside_window",
+      "no_cwt_feature"
+    ],
+    "comment": "Fit centre 4390.2 implies z~+0.0114, outside the verification window; no credible Hgamma absorption measurement."
+  },
+  {
+    "line_id": "line:hbet-4862",
+    "measurement_id": null,
+    "status": "NOT_FOUND",
+    "reason_codes": [
+      "no_cwt_feature",
+      "offset_large"
+    ],
+    "comment": "Nearest CWT peak 4815.2 implies z=-0.0098, ~46 A blueward; no credible Hbeta emission measurement."
+  },
+  {
+    "line_id": "line:hbet-4862-abs",
+    "measurement_id": null,
+    "status": "NOT_FOUND",
+    "reason_codes": [
+      "no_cwt_feature",
+      "offset_large"
+    ],
+    "comment": "Nearest CWT trough 4884.8 implies z=+0.0045, ~23 A redward; no adopted Hbeta absorption."
+  },
+  {
+    "line_id": "line:oiii-4960",
+    "measurement_id": "cwt:em:0002",
+    "status": "MARGINAL",
+    "reason_codes": [
+      "offset_weak",
+      "broad_width",
+      "blend_oiiib"
+    ],
+    "comment": "CWT peak 4964.0 (offset ~5 A, z=0.0007 in window) but FWHM ~4250 km/s, far broader than narrow [O III]; shared feature with [O III]b ambiguity."
+  },
+  {
+    "line_id": "line:oiii-5008",
+    "measurement_id": null,
+    "status": "NOT_FOUND",
+    "reason_codes": [
+      "no_cwt_feature",
+      "offset_large"
+    ],
+    "comment": "Only nearby peak 4964.0 implies z=-0.0088, ~43 A blueward; no separate [O III]b measurement; doublet separation fails."
+  },
+  {
+    "line_id": "line:mgi-5176-abs",
+    "measurement_id": null,
+    "status": "NOT_FOUND",
+    "reason_codes": [
+      "zero_amplitude",
+      "no_cwt_feature"
+    ],
+    "comment": "Fit returned zero amplitude at 5224.8 A; no CWT trough near 5175 A."
+  },
+  {
+    "line_id": "line:nad1-5891-abs",
+    "measurement_id": null,
+    "status": "NOT_FOUND",
+    "reason_codes": [
+      "separation_fail",
+      "offset_large",
+      "no_cwt_feature"
+    ],
+    "comment": "Doublet fit centre 5912.7 (offset ~23 A) with separation fail and component ratio ~1; no CWT trough near 5890 A."
+  },
+  {
+    "line_id": "line:nad-5895-abs",
+    "measurement_id": null,
+    "status": "NOT_FOUND",
+    "reason_codes": [
+      "separation_fail",
+      "offset_large",
+      "no_cwt_feature"
+    ],
+    "comment": "No independent measurement; Na D doublet fit failed separation and is offset; no CWT trough near 5894 A."
+  },
+  {
+    "line_id": "line:nad2-5897-abs",
+    "measurement_id": null,
+    "status": "NOT_FOUND",
+    "reason_codes": [
+      "separation_fail",
+      "offset_large",
+      "no_cwt_feature"
+    ],
+    "comment": "Doublet fit centre 5946.1 with huge error and separation fail; no credible Na D2 absorption."
+  },
+  {
+    "line_id": "line:nii-6549",
+    "measurement_id": null,
+    "status": "NOT_FOUND",
+    "reason_codes": [
+      "zero_amplitude",
+      "separation_fail"
+    ],
+    "comment": "Doublet fit returned zero amplitudes with separation fail; no CWT peak near 6548 A."
+  },
+  {
+    "line_id": "line:half-6564",
+    "measurement_id": null,
+    "status": "NOT_FOUND",
+    "reason_codes": [
+      "zero_amplitude",
+      "no_cwt_feature"
+    ],
+    "comment": "Fit returned zero amplitude at 6575.5 A; no CWT peak near 6563 A."
+  },
+  {
+    "line_id": "line:half-6564-abs",
+    "measurement_id": null,
+    "status": "NOT_FOUND",
+    "reason_codes": [
+      "no_cwt_feature",
+      "offset_large"
+    ],
+    "comment": "Nearest CWT trough 6583.2 implies z=+0.0028, ~20 A redward; no adopted Halpha absorption."
+  },
+  {
+    "line_id": "line:nii-6585",
+    "measurement_id": null,
+    "status": "NOT_FOUND",
+    "reason_codes": [
+      "zero_amplitude",
+      "separation_fail"
+    ],
+    "comment": "Doublet fit zero amplitude with separation fail; no CWT peak near 6584 A."
+  },
+  {
+    "line_id": "line:sii-6718",
+    "measurement_id": null,
+    "status": "NOT_FOUND",
+    "reason_codes": [
+      "separation_fail",
+      "offset_large",
+      "no_cwt_feature"
+    ],
+    "comment": "Doublet fit centre 6726.4 (offset ~10 A) with separation fail and component ratio 2.03; nearest CWT peak 6651.2 implies z=-0.0100, outside window."
+  },
+  {
+    "line_id": "line:sii-6732",
+    "measurement_id": null,
+    "status": "NOT_FOUND",
+    "reason_codes": [
+      "separation_fail",
+      "huge_width",
+      "no_cwt_feature"
+    ],
+    "comment": "Doublet fit centre 6780.9 with FWHM ~7200 km/s and separation fail; no credible [S II]b measurement."
+  },
+  {
+    "line_id": "line:cat1-8498-abs",
+    "measurement_id": null,
+    "status": "NOT_FOUND",
+    "reason_codes": [
+      "center_at_bound",
+      "red_edge"
+    ],
+    "comment": "Fit failed with center_at_bound (8545.8 A); no CWT trough near 8496 A."
+  },
+  {
+    "line_id": "line:cat2-8542-abs",
+    "measurement_id": "fit:H2:0019",
+    "status": "MARGINAL",
+    "reason_codes": [
+      "weak_snr",
+      "broad_width",
+      "red_edge"
+    ],
+    "comment": "Fit centre 8551.9 (offset ~12 A) with local SNR 0.83 and FWHM ~3100 km/s; weak, broad, no CWT trough."
+  },
+  {
+    "line_id": "line:cat3-8662-abs",
+    "measurement_id": "fit:H2:0020",
+    "status": "MARGINAL",
+    "reason_codes": [
+      "weak_snr",
+      "red_edge"
+    ],
+    "comment": "Fit centre 8660.6 (offset ~1 A) with local SNR 1.68 and narrow FWHM ~80 km/s; weak but positionally consistent, no CWT trough."
+  }
+]

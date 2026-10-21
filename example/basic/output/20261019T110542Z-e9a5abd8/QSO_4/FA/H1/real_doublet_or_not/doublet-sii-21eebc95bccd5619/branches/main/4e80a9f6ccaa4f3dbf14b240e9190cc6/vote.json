@@ -1,0 +1,13 @@
+{
+  "answer": "yes",
+  "reason": "Two distinct emission peaks are visible in the usable pixels: a strong peak near 8317.6-8318.4 Å (component a) and a separate, slightly weaker peak near 8335.2-8336.0 Å (component b), with a clean trough between them. Measured separation ~17.6 Å matches the predicted 17.8 Å, and the a/b amplitude ratio ~1.16 is consistent with the advisory a≈b window. Both components are independently corroborated.",
+  "execution": {
+    "schema_version": "forma-agentic-node-execution-v1",
+    "run_id": "graph-853b617a68f04c36bd82f06bdb770ac4",
+    "branch_id": "main",
+    "node_key": "fa.real_doublet_or_not/graph-853b617a68f04c36bd82f06bdb770ac4/H1/doublet%3Asii",
+    "node_execution_id": "4e80a9f6ccaa4f3dbf14b240e9190cc6",
+    "attempt_id": "8e6219c7d02a4058b4649e6a08a637ca",
+    "relative_dir": "FA/H1/real_doublet_or_not/doublet-sii-21eebc95bccd5619/branches/main/4e80a9f6ccaa4f3dbf14b240e9190cc6"
+  }
+}

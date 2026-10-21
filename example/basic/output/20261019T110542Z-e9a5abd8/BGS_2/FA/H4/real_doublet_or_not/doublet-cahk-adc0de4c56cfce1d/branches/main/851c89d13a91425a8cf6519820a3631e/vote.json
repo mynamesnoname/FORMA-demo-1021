@@ -1,0 +1,13 @@
+{
+  "answer": "no",
+  "reason": "Neither window shows an absorption trough: Ca K region (~3929 Å) is continuum-level with the claimed center 4 Å redward (pairing mismatch, FA signal_absent), and the Ca H window (~3964 Å) shows no feature at all (SH NOT_FOUND). No credible two-component pair is corroborated in the usable pixels.",
+  "execution": {
+    "schema_version": "forma-agentic-node-execution-v1",
+    "run_id": "graph-df7434d5533647e999870708120307b0",
+    "branch_id": "main",
+    "node_key": "fa.real_doublet_or_not/graph-df7434d5533647e999870708120307b0/H4/doublet%3Acahk",
+    "node_execution_id": "851c89d13a91425a8cf6519820a3631e",
+    "attempt_id": "52d3b38e71f745e29134d1376556a94e",
+    "relative_dir": "FA/H4/real_doublet_or_not/doublet-cahk-adc0de4c56cfce1d/branches/main/851c89d13a91425a8cf6519820a3631e"
+  }
+}

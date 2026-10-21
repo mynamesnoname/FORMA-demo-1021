@@ -1,0 +1,65 @@
+{
+  "schema_version": "forma-qso-node-v1",
+  "graph_version": "forma-qso-entry-v1",
+  "run_id": "graph-853b617a68f04c36bd82f06bdb770ac4",
+  "branch_id": "main",
+  "hypothesis_ref": "H6",
+  "node_key": "sh2.qso/H6/qso.broad_line_inventory",
+  "node_type": "qso.broad_line_inventory",
+  "status": "completed",
+  "input_refs": [
+    "sh2/1db904717d3845d39d270b56402aa714/node"
+  ],
+  "output": {
+    "lines": [
+      {
+        "line_id": "line:lya-1216",
+        "predicted_obs_angstrom": 3528.772424641495,
+        "coverage": "outside_range",
+        "cleaned_pairing": "out_of_scope",
+        "measurement_id": null,
+        "fwhm_km_s": null,
+        "broadness": "unresolved"
+      },
+      {
+        "line_id": "line:civ-1549",
+        "predicted_obs_angstrom": 4496.3423344901785,
+        "coverage": "needs_q5",
+        "cleaned_pairing": "no_pairing",
+        "measurement_id": null,
+        "fwhm_km_s": null,
+        "broadness": "unresolved"
+      },
+      {
+        "line_id": "line:ciii-1909",
+        "predicted_obs_angstrom": 5541.328286986282,
+        "coverage": "needs_q5",
+        "cleaned_pairing": "no_pairing",
+        "measurement_id": null,
+        "fwhm_km_s": null,
+        "broadness": "unresolved"
+      },
+      {
+        "line_id": "line:mgii-2800",
+        "predicted_obs_angstrom": 8127.668519414138,
+        "coverage": "needs_q5",
+        "cleaned_pairing": "adopted",
+        "measurement_id": "cwt:em:0012",
+        "fwhm_km_s": 755.4106187417149,
+        "broadness": "not_supported"
+      }
+    ],
+    "any_supported_broad_line": null,
+    "strict_broad_fwhm_km_s": 2000.0,
+    "strict_broad_threshold_source": "config:rule:formal-width-class-match.width_consistency_score",
+    "strict_broad_threshold_payload_sha256": "b06941d9d371bd8792640873665004016437f947477142bdeae1f9622298d97e",
+    "next_node": "qso.missing_broad_line_queue"
+  },
+  "evidence_refs": [
+    "sh2/1db904717d3845d39d270b56402aa714/node"
+  ],
+  "unresolved_reasons": [],
+  "created_by": "code",
+  "node_execution_id": "db8e127d68cb483fad7795c395220b0c",
+  "attempt_id": "dbd5d1ce860f41de86fdb2eded4c27b3"
+}

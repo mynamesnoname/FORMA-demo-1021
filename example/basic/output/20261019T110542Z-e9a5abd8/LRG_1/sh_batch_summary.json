@@ -1,0 +1,13 @@
+{
+  "schema_version": "forma-sh-batch-summary-v1",
+  "run_id": "graph-6f4e6510cc5d45df9da3b7be0c8597cc",
+  "completed": {
+    "H1": "/mnt/linux_share/code/FORMA/example/basic/output/20261019T110542Z-e9a5abd8/LRG_1/SH/H1/pre_analysis/branches/main/c47ae169db164d16a479007b831c6e8e/node.json",
+    "H2": "/mnt/linux_share/code/FORMA/example/basic/output/20261019T110542Z-e9a5abd8/LRG_1/SH/H2/pre_analysis/branches/main/0eac1cc2a9754a58ac2d013f59a900ed/node.json",
+    "H3": "/mnt/linux_share/code/FORMA/example/basic/output/20261019T110542Z-e9a5abd8/LRG_1/SH/H3/pre_analysis/branches/main/9d5d427fadbd4f0b8ecd2ff292570588/node.json",
+    "H4": "/mnt/linux_share/code/FORMA/example/basic/output/20261019T110542Z-e9a5abd8/LRG_1/SH/H4/pre_analysis/branches/main/7b0a63ca46d04f608ccb3138a41669de/node.json",
+    "H5": "/mnt/linux_share/code/FORMA/example/basic/output/20261019T110542Z-e9a5abd8/LRG_1/SH/H5/pre_analysis/branches/main/b93e4e52c42a4719b89f2b10a58f5d3b/node.json",
+    "H6": "/mnt/linux_share/code/FORMA/example/basic/output/20261019T110542Z-e9a5abd8/LRG_1/SH/H6/pre_analysis/branches/main/c2d3024b380a49bc88997ca955be6577/node.json"
+  },
+  "failed": {}
+}

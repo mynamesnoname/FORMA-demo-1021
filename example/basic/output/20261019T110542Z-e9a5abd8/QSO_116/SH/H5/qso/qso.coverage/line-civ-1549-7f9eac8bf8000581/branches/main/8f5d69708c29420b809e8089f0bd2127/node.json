@@ -1,0 +1,40 @@
+{
+  "schema_version": "forma-qso-node-v1",
+  "graph_version": "forma-qso-entry-v1",
+  "run_id": "graph-325ff74c7f444efdb17e3f3b69698eea",
+  "branch_id": "main",
+  "hypothesis_ref": "H5",
+  "node_key": "sh2.qso/H5/qso.coverage/line:civ-1549",
+  "node_type": "qso.coverage/line:civ-1549",
+  "status": "completed",
+  "input_refs": [
+    "sh2/4ae027ef899141a39d74ec4d1314c624/node",
+    "spectrum_npz",
+    "sh/H5/catalog"
+  ],
+  "output": {
+    "center_angstrom": 6071.609479275318,
+    "requested_window_angstrom": [
+      5921.609479275318,
+      6221.609479275318
+    ],
+    "actual_window_angstrom": [
+      5922.400000000037,
+      6221.600000000105
+    ],
+    "coverage": "usable",
+    "total_samples": 375,
+    "usable_samples": 375,
+    "explicit_masked_samples": 0,
+    "full_window_explicit_mask_proof": false
+  },
+  "evidence_refs": [
+    "sh2/4ae027ef899141a39d74ec4d1314c624/node",
+    "spectrum_npz",
+    "sh/H5/catalog"
+  ],
+  "unresolved_reasons": [],
+  "created_by": "code",
+  "node_execution_id": "8f5d69708c29420b809e8089f0bd2127",
+  "attempt_id": "ad0afec5af004424a80a1334dc17d540"
+}

@@ -1,0 +1,63 @@
+{
+  "schema_version": "forma-qso-node-v1",
+  "graph_version": "forma-qso-entry-v1",
+  "run_id": "graph-853b617a68f04c36bd82f06bdb770ac4",
+  "branch_id": "main",
+  "hypothesis_ref": "H6",
+  "node_key": "sh2.qso/H6/qso.missing_broad_line_queue",
+  "node_type": "qso.missing_broad_line_queue",
+  "status": "completed",
+  "input_refs": [
+    "sh2/db8e127d68cb483fad7795c395220b0c/node",
+    "sh/H6/catalog",
+    "spectrum_npz"
+  ],
+  "output": {
+    "selected_line_ids": [
+      "line:civ-1549",
+      "line:ciii-1909"
+    ],
+    "queue": [
+      {
+        "line_id": "line:civ-1549",
+        "predicted_obs_angstrom": 4496.3423344901785,
+        "reason": "no_pairing",
+        "coverage_preview": "usable"
+      },
+      {
+        "line_id": "line:ciii-1909",
+        "predicted_obs_angstrom": 5541.328286986282,
+        "reason": "no_pairing",
+        "coverage_preview": "usable"
+      }
+    ],
+    "coverage_preview": {
+      "line:lya-1216": "outside_range",
+      "line:civ-1549": "usable",
+      "line:ciii-1909": "usable",
+      "line:mgii-2800": "usable"
+    },
+    "window_half_width_angstrom": 150.0,
+    "window_parameter": "analysis_method.qso_type1.local_read_half_angstrom",
+    "method_snapshot": {
+      "qso_type1": {
+        "local_read_half_angstrom": 150.0,
+        "envelope_edge_sigma": 3.0,
+        "strength_vote_quorum": 3,
+        "max_attempts_per_vote_seat": 2
+      },
+      "peak_center_bound_half_angstrom": 50.0,
+      "effective_vote_quorum": 3
+    },
+    "method_snapshot_sha256": "99aecb2f96f4d3273f3731cac409629dbe5d2f3c22a0ae7432e97ae5c6873d59"
+  },
+  "evidence_refs": [
+    "sh2/db8e127d68cb483fad7795c395220b0c/node",
+    "sh/H6/catalog",
+    "spectrum_npz"
+  ],
+  "unresolved_reasons": [],
+  "created_by": "code",
+  "node_execution_id": "e36be4f9d36d41d08dfef9a635e21964",
+  "attempt_id": "f87a436c781e4665b506d3deb9c77896"
+}

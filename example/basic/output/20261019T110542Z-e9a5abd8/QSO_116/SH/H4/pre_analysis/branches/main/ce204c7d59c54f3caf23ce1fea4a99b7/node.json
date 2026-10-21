@@ -1,0 +1,26 @@
+{
+  "schema_version": "forma-sh-line-review-v1",
+  "key": "sh.pre_analysis/graph-325ff74c7f444efdb17e3f3b69698eea/H4",
+  "hypothesis_ref": "H4",
+  "hypothesis_redshift": 0.5424233218550429,
+  "status": "complete",
+  "csv_path": "/mnt/linux_share/code/FORMA/example/basic/output/20261019T110542Z-e9a5abd8/QSO_116/SH/H4/pre_analysis/branches/main/ce204c7d59c54f3caf23ce1fea4a99b7/lines.csv",
+  "csv_sha256": "6cddc25c050da0d24427ca1f9d8280f20e035056f22f8beecaf0f9a89617ff89",
+  "measurement_catalog_path": "/mnt/linux_share/code/FORMA/example/basic/output/20261019T110542Z-e9a5abd8/QSO_116/VI/measurements/hypothesis_003_measurement_catalog.json",
+  "measurement_catalog_sha256": "de5ddd2411a1ce206e4f67fcd8f30565b10ed6c28c7486178d8e54729ff5695c",
+  "judgment_path": "/mnt/linux_share/code/FORMA/example/basic/output/20261019T110542Z-e9a5abd8/QSO_116/SH/H4/pre_analysis/branches/main/ce204c7d59c54f3caf23ce1fea4a99b7/lines_judgments.json",
+  "judgment_sha256": "83dc556659fb97f4c7ec35682fa8a26fefea9f9f335edf4ee4089b4d5e20c91a",
+  "session_stage1_path": "/mnt/linux_share/code/FORMA/example/basic/output/20261019T110542Z-e9a5abd8/QSO_116/SH/H4/pre_analysis/branches/main/ce204c7d59c54f3caf23ce1fea4a99b7/stage1_session.md",
+  "session_stage1_sha256": "f907ce64a9dec1be8d3f72181a54078abf80c7ca879c69c88438deddf813132e",
+  "adopted_lines_plot_path": "/mnt/linux_share/code/FORMA/example/basic/output/20261019T110542Z-e9a5abd8/QSO_116/SH/H4/pre_analysis/branches/main/ce204c7d59c54f3caf23ce1fea4a99b7/adopted_lines.png",
+  "adopted_lines_plot_sha256": "6fddd444272b5386d25db1e81800c2533aa97160773d9ecabf28193eb00535c2",
+  "execution": {
+    "schema_version": "forma-agentic-node-execution-v1",
+    "run_id": "graph-325ff74c7f444efdb17e3f3b69698eea",
+    "branch_id": "main",
+    "node_key": "sh.pre_analysis/graph-325ff74c7f444efdb17e3f3b69698eea/H4",
+    "node_execution_id": "ce204c7d59c54f3caf23ce1fea4a99b7",
+    "attempt_id": "f9d5093c0c704fe8afd4957443e75211",
+    "relative_dir": "SH/H4/pre_analysis/branches/main/ce204c7d59c54f3caf23ce1fea4a99b7"
+  }
+}

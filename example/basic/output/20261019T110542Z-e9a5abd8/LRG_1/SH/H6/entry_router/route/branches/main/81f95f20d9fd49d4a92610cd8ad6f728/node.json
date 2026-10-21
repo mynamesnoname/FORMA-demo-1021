@@ -1,0 +1,115 @@
+{
+  "schema_version": "forma-type-entry-route-v1",
+  "run_id": "graph-6f4e6510cc5d45df9da3b7be0c8597cc",
+  "branch_id": "main",
+  "hypothesis_ref": "H6",
+  "node_key": "sh2.entry_router/H6",
+  "input_refs": [
+    "fa/04d6e930fb1b455ca9e98c81ea11b665/node",
+    "fa/1a49cbe476fc4f7681b262220a7d69e6/node",
+    "fa/1cc3f9ed67054ee4aea341bbdbdfb1ee/node",
+    "fa/1ed0ae67502643dc817e7356d2f363e8/node",
+    "fa/281bba796fce43e4909819009cfa8b36/node",
+    "fa/3103227402e84f7eaf13a5d701a60bc9/node",
+    "fa/3db01af7831a4994ac4d040b836c2017/node",
+    "fa/4ae01f7cbb5c4b0892d8168b104b6be5/node",
+    "fa/587854118e2e40959b955f0b64203f97/node",
+    "fa/59bd685bc33f4a97951dc741ec944c43/node",
+    "fa/61a6c74ddecd4cca84a3782c49d637a7/node",
+    "fa/6f5218221cea4671b5a6509b1f643b08/node",
+    "fa/7818c422ab4c4cac8f2515878635f430/node",
+    "fa/7d8c7284512041e79d3fc094806561b9/node",
+    "fa/80e7c9e9e67f4665b12ea3bde66ef4aa/node",
+    "fa/8664f1633dfa419dbf92ddc8463e893b/node",
+    "fa/94b5d4293c1d42c0b8ba8ddee475dec5/node",
+    "fa/9aa76dee608c476491d57725dd150494/node",
+    "fa/9b3fe43c57d44e9fa840a86f5a3f7e0a/node",
+    "fa/a1e5e10558f04f7c9708fc5c85717d19/node",
+    "fa/a27bf67bb4de4fd6a0e7885260ce50e1/node",
+    "fa/a5a055a0b3c246a4ad7c4f5fe5ecb9ff/node",
+    "fa/a67a054129294ef1865cbf4281154aed/node",
+    "fa/ade4fbc27b644e72a7143db59ede7303/node",
+    "fa/ae8d6b59875540038daa4d9d8bd5623f/node",
+    "fa/bd8c1f4ba3774d4daead1045bfb45334/node",
+    "fa/c0f2e88604704f7e8b00209f37ebb206/node",
+    "fa/c1bdc3624d90469fa566a289fa63afe4/node",
+    "fa/cc1fffc411504c16a15cdc504c4165ed/node",
+    "fa/cc2d77aaf2604829a6ebf27f2615b1e4/node",
+    "fa/d3aa5a1b39c94cb6a8dfdbb0c3f40dbc/node",
+    "fa/dcc80e13d093420c9bdf87ea7281984c/node",
+    "fa/e485a2d7c7924d6ea6d789cd149a8c39/node",
+    "fa/e7249b2c7ce346e9b1b14b5cd0d19a98/node",
+    "fa/f00f0f7097e545099bcc664fe6581d79/node",
+    "fa/fd6dc85e64ff4712bb6067142a3ae533/node",
+    "sh/H6/catalog",
+    "sh/H6/judgments",
+    "sh/H6/node",
+    "spectrum_npz"
+  ],
+  "output": {
+    "checks": [
+      {
+        "name": "nev",
+        "positive": false,
+        "pairs": []
+      },
+      {
+        "name": "qso_type1",
+        "positive": false,
+        "pairs": [],
+        "mgii_pair_retains_galaxy": false
+      },
+      {
+        "name": "old_population",
+        "positive": false,
+        "pairs": [],
+        "dn4000": {
+          "index_id": "index:dn4000",
+          "rule_id": "rule:formal-dn4000-interpretation",
+          "reference_bands": {
+            "strong": 1.6,
+            "moderate_low": 1.3,
+            "moderate_high": 1.6
+          },
+          "minimum_valid_samples_per_band": 3,
+          "windows": {
+            "blue": {
+              "window_angstrom": [
+                3855.169815795879,
+                3955.304096725642
+              ],
+              "fully_covered": true,
+              "sample_count": 126,
+              "usable_sample_count": 126,
+              "mean_flux": 1.1239219014606778
+            },
+            "red": {
+              "window_angstrom": [
+                4005.3712371905235,
+                4105.505518120287
+              ],
+              "fully_covered": true,
+              "sample_count": 125,
+              "usable_sample_count": 125,
+              "mean_flux": 1.4120621342062951
+            }
+          },
+          "value": 1.2563703335357579,
+          "reference_strength": "not_strong",
+          "consultative_only": true,
+          "unresolved_reason": null
+        }
+      },
+      {
+        "name": "emission_galaxy",
+        "positive": false,
+        "oii_pair": null,
+        "oiii_pairs": [],
+        "oiii_distinct_pair": false
+      }
+    ],
+    "selected_initial_graph": null,
+    "selected_reason": "no_adopted_entry_evidence",
+    "eligible_graphs": []
+  }
+}

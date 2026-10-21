@@ -1,0 +1,168 @@
+{
+  "schema_version": "forma-fa-doublet-review-v1",
+  "node_type": "fa.doublet_review",
+  "node_key": "fa.real_doublet_or_not/graph-325ff74c7f444efdb17e3f3b69698eea/H6/doublet%3Acahk",
+  "run_id": "graph-325ff74c7f444efdb17e3f3b69698eea",
+  "branch_id": "main",
+  "hypothesis_ref": "H6",
+  "doublet_id": "doublet:cahk",
+  "claim_mode": "orphan",
+  "components": [
+    {
+      "line_id": "line:cak-3934-abs",
+      "line_name": "Ca K_abs",
+      "rest_angstrom": 3934.8,
+      "expected_obs_angstrom": 6720.314084060109,
+      "sh_status": "NOT_FOUND",
+      "measurement_id": null,
+      "measurement_source": null,
+      "measured_center_angstrom": null,
+      "amplitude": null,
+      "measured_offset_from_expected_angstrom": null,
+      "fa_state": null,
+      "cleaned_pairing": "no_pairing",
+      "fa_vote_artifact_refs": []
+    },
+    {
+      "line_id": "line:cah-3969-abs",
+      "line_name": "Ca H_abs",
+      "rest_angstrom": 3969.6,
+      "expected_obs_angstrom": 6779.749615758109,
+      "sh_status": "MARGINAL",
+      "measurement_id": "fit:H6:0003",
+      "measurement_source": "fit_doublet",
+      "measured_center_angstrom": 6784.746,
+      "amplitude": -0.021858,
+      "measured_offset_from_expected_angstrom": 4.9963842418910644,
+      "fa_state": "signal_absent",
+      "cleaned_pairing": "rejected_measurement",
+      "fa_vote_artifact_refs": [
+        "fa/98cd3b20cecd4628872c3d144ea6ea00/node",
+        "fa/c5024e5c8ba34446894cbfbf57d644cd/node",
+        "fa/d9b7484de37e493eb42b01bebaad6a0b/node"
+      ]
+    }
+  ],
+  "metrics": {
+    "expected_separation_angstrom": 59.43553169799998,
+    "registry_rest_separation_angstrom": 34.8,
+    "measured_separation_angstrom": null,
+    "separation_difference_angstrom": null,
+    "amplitude_ratio_a_over_b": null,
+    "reference_ratio_window_a_over_b": null,
+    "reference_ratio_note": "Ca K must be deeper than Ca H",
+    "reference_ratio_within_window": null,
+    "reference_ratio_is_advisory": true
+  },
+  "coverage": {
+    "requested_window_angstrom": [
+      6640.314084060109,
+      6859.749615758109
+    ],
+    "actual_window_angstrom": [
+      6640.8000000002,
+      6859.20000000025
+    ],
+    "spectrum_bounds_angstrom": [
+      3600.0,
+      9824.000000000524
+    ],
+    "component_cores": [
+      {
+        "line_id": "line:cak-3934-abs",
+        "predicted_obs_angstrom": 6720.314084060109,
+        "center_within_spectrum_bounds": true,
+        "samples": 38,
+        "valid_samples": 38,
+        "masked_samples": 0,
+        "assessable": true
+      },
+      {
+        "line_id": "line:cah-3969-abs",
+        "predicted_obs_angstrom": 6779.749615758109,
+        "center_within_spectrum_bounds": true,
+        "samples": 38,
+        "valid_samples": 38,
+        "masked_samples": 0,
+        "assessable": true
+      }
+    ],
+    "assessable": true,
+    "unreviewable_reason": null
+  },
+  "status": "complete",
+  "pair_supported": false,
+  "consultative_only": true,
+  "method_snapshot": {
+    "context_margin_angstrom": 80.0,
+    "component_check_half_angstrom": 15.0,
+    "cahk_outer_reference_sigma": 3.0,
+    "min_valid_component_samples": 5,
+    "vote_quorum": 3,
+    "max_attempts_per_vote_seat": 2
+  },
+  "vote_summary": {
+    "yes": 0,
+    "no": 3,
+    "yes_fraction": 0.0,
+    "assurance": "assured"
+  },
+  "ballots": [
+    {
+      "seat": 0,
+      "answer": "no",
+      "reason": "Neither window shows an absorption trough: Ca K (6720 Å) is flat continuum scatter with no dip (SH NOT_FOUND), and the Ca H fit center 6784.7 Å is ~5 Å off prediction and lands on a local flux maximum (0.637), not a trough. No credible paired or unpaired partner is visible in the usable pixels.",
+      "vote_ref": "fa_doublet/39a01970d49a40629469629984e392bb/vote.json"
+    },
+    {
+      "seat": 1,
+      "answer": "no",
+      "reason": "Ca K window (~6720 Å) shows only continuum scatter with no absorption trough (SH=NOT_FOUND, no measurement). Ca H window (~6780 Å) likewise lacks a dip; the claimed center 6784.7 Å is ~5 Å off prediction and lands on a local flux maximum (0.637), consistent with FA signal_absent and rejected pairing. Neither component is visually supported, so the pair interpretation is uncorroborated.",
+      "vote_ref": "fa_doublet/a252cf52dfbc4f24b4d2602b419bc385/vote.json"
+    },
+    {
+      "seat": 2,
+      "answer": "no",
+      "reason": "Ca K window (~6720 Å) shows only continuum scatter with no absorption dip (SH NOT_FOUND). Ca H window (~6780 Å) also lacks a trough; the claimed center 6784.7 Å is ~5 Å off prediction and lands on a local flux maximum (0.637). Neither component is corroborated in usable pixels, so the doublet interpretation fails.",
+      "vote_ref": "fa_doublet/3e7d41e56bec4b209e6e57508cbc97c6/vote.json"
+    }
+  ],
+  "successful_votes": 3,
+  "required_votes": 3,
+  "failed_seats": 0,
+  "model_usage": {
+    "calls": 3,
+    "input_tokens": 29646,
+    "output_tokens": 1696,
+    "cache_hit_tokens": 29184,
+    "cache_hit_reported_calls": 3,
+    "cache_hit_unreported_calls": 0
+  },
+  "prompt_identity": {
+    "system_sha256": "92cc96d1542cdf1088b68d4688ccd8de256ac572ab050c2a5e087060f5955e1b",
+    "user_sha256": "13178eae45cb8201cbda27e21299af3b78e9b75da74549da3562058eeb0bff22",
+    "tool_name": "submit_doublet_vote",
+    "prompt_text_sha256": "8fbbb062c5f2992a56dc9adb544a52ded2bd131f7332f24e8d77fce9c6d9ad6d"
+  },
+  "source_refs": [
+    "sh/H6/node",
+    "sh/H6/catalog",
+    "sh/H6/judgments",
+    "spectrum_npz",
+    "fa/98cd3b20cecd4628872c3d144ea6ea00/node",
+    "fa/c5024e5c8ba34446894cbfbf57d644cd/node",
+    "fa/d9b7484de37e493eb42b01bebaad6a0b/node"
+  ],
+  "attempt_refs": [
+    "fa_doublet/39a01970d49a40629469629984e392bb/vote.json",
+    "fa_doublet/39a01970d49a40629469629984e392bb/session.md",
+    "fa_doublet/39a01970d49a40629469629984e392bb/model_usage.json",
+    "fa_doublet/a252cf52dfbc4f24b4d2602b419bc385/vote.json",
+    "fa_doublet/a252cf52dfbc4f24b4d2602b419bc385/session.md",
+    "fa_doublet/a252cf52dfbc4f24b4d2602b419bc385/model_usage.json",
+    "fa_doublet/3e7d41e56bec4b209e6e57508cbc97c6/vote.json",
+    "fa_doublet/3e7d41e56bec4b209e6e57508cbc97c6/session.md",
+    "fa_doublet/3e7d41e56bec4b209e6e57508cbc97c6/model_usage.json"
+  ],
+  "node_execution_id": "928863c4694b40d1b879f14ce8d3cdfe"
+}

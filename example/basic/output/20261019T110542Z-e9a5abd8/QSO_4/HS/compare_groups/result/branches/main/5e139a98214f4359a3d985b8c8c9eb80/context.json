@@ -1,0 +1,1052 @@
+{
+  "schema_version": "forma-hs-group-comparison-v3",
+  "run_id": "graph-853b617a68f04c36bd82f06bdb770ac4",
+  "branch_id": "main",
+  "merge_ref": "hs/6eb9030fc9384b97bcf7417a9520433b/node",
+  "source_refs": [
+    "fa_doublet/03a382a9fff94beea932f223b78c9e2f/node",
+    "fa_doublet/2eead22b6a214e798fac9301448b78f6/node",
+    "fa_doublet/3c5b80cd15dd4e83a1e16ebe23d5b63c/node",
+    "fa_doublet/7055dcdc0a6e479caa71ba8b360ad83f/node",
+    "fa_doublet/ad9c442db08945409deb862a3642e289/node",
+    "fa_doublet/bae120b8a96d4b13be289a3b70df15f2/node",
+    "fa_doublet/c2d14afca2694ed1938a8405c2684551/node",
+    "fa_doublet/cab576ea2bd943e8be37a7624e0412db/node",
+    "fa_doublet/e9815dfff16c48b5832d38b8d9ab48f0/node",
+    "hs/6eb9030fc9384b97bcf7417a9520433b/node",
+    "sh2/88e10557ffee4e1aa16f3c4fb1b469e6/report",
+    "sh2/d9719e61a24543c78e71d78a62d5bab0/report"
+  ],
+  "groups": [
+    {
+      "group_id": "hs.merge/H1+H3",
+      "candidate_type": "Type 2 QSO",
+      "member_hypotheses": [
+        "H1",
+        "H3"
+      ],
+      "original_redshifts": {
+        "H1": 0.23787248591105023,
+        "H3": 0.23805248503053472
+      },
+      "merged_anchor_redshift": 0.23874429836335698,
+      "merge_status": "merged",
+      "comparison_status": "merged",
+      "type_recheck_required": false,
+      "selected_pairs": [
+        {
+          "line_id": "line:nev-3426",
+          "feature_id": "cwt:em:0001",
+          "wavelength_angstrom": 4242.400000000146,
+          "measurement_source": "CWT",
+          "assignment_status": "non_tbd",
+          "provenance": [
+            {
+              "hypothesis_ref": "H1",
+              "assignment_status": "non_tbd",
+              "fa_state": "signal_present",
+              "fa_review_status": "original_measurement",
+              "measurement_source": "CWT",
+              "prior_measurement_id": null,
+              "prior_measurement_fa_state": null,
+              "source_refs": [
+                "sh/H1/judgments"
+              ]
+            },
+            {
+              "hypothesis_ref": "H3",
+              "assignment_status": "non_tbd",
+              "fa_state": "signal_present",
+              "fa_review_status": "original_measurement",
+              "measurement_source": "CWT",
+              "prior_measurement_id": null,
+              "prior_measurement_fa_state": null,
+              "source_refs": [
+                "sh/H3/judgments"
+              ]
+            }
+          ]
+        },
+        {
+          "line_id": "line:oii-3727",
+          "feature_id": "cwt:em:0002",
+          "wavelength_angstrom": 4616.800000000231,
+          "measurement_source": "CWT",
+          "assignment_status": "non_tbd",
+          "provenance": [
+            {
+              "hypothesis_ref": "H1",
+              "assignment_status": "non_tbd",
+              "fa_state": "signal_present",
+              "fa_review_status": "original_measurement",
+              "measurement_source": "CWT",
+              "prior_measurement_id": null,
+              "prior_measurement_fa_state": null,
+              "source_refs": [
+                "sh/H1/judgments"
+              ]
+            },
+            {
+              "hypothesis_ref": "H3",
+              "assignment_status": "non_tbd",
+              "fa_state": "signal_present",
+              "fa_review_status": "original_measurement",
+              "measurement_source": "CWT",
+              "prior_measurement_id": null,
+              "prior_measurement_fa_state": null,
+              "source_refs": [
+                "sh/H3/judgments"
+              ]
+            }
+          ]
+        },
+        {
+          "line_id": "line:heps-3970",
+          "feature_id": "cwt:em:0004",
+          "wavelength_angstrom": 4912.8000000002985,
+          "measurement_source": "CWT",
+          "assignment_status": "non_tbd",
+          "provenance": [
+            {
+              "hypothesis_ref": "H1",
+              "assignment_status": "non_tbd",
+              "fa_state": "signal_present",
+              "fa_review_status": "original_measurement",
+              "measurement_source": "CWT",
+              "prior_measurement_id": null,
+              "prior_measurement_fa_state": null,
+              "source_refs": [
+                "sh/H1/judgments"
+              ]
+            },
+            {
+              "hypothesis_ref": "H3",
+              "assignment_status": "non_tbd",
+              "fa_state": "signal_present",
+              "fa_review_status": "original_measurement",
+              "measurement_source": "CWT",
+              "prior_measurement_id": null,
+              "prior_measurement_fa_state": null,
+              "source_refs": [
+                "sh/H3/judgments"
+              ]
+            }
+          ]
+        },
+        {
+          "line_id": "line:hdel-4102",
+          "feature_id": "cwt:em:0005",
+          "wavelength_angstrom": 5079.200000000336,
+          "measurement_source": "CWT",
+          "assignment_status": "non_tbd",
+          "provenance": [
+            {
+              "hypothesis_ref": "H1",
+              "assignment_status": "non_tbd",
+              "fa_state": "signal_present",
+              "fa_review_status": "original_measurement",
+              "measurement_source": "CWT",
+              "prior_measurement_id": null,
+              "prior_measurement_fa_state": null,
+              "source_refs": [
+                "sh/H1/judgments"
+              ]
+            },
+            {
+              "hypothesis_ref": "H3",
+              "assignment_status": "non_tbd",
+              "fa_state": "signal_present",
+              "fa_review_status": "original_measurement",
+              "measurement_source": "CWT",
+              "prior_measurement_id": null,
+              "prior_measurement_fa_state": null,
+              "source_refs": [
+                "sh/H3/judgments"
+              ]
+            }
+          ]
+        },
+        {
+          "line_id": "line:hbet-4862",
+          "feature_id": "cwt:em:0008",
+          "wavelength_angstrom": 6020.000000000059,
+          "measurement_source": "CWT",
+          "assignment_status": "non_tbd",
+          "provenance": [
+            {
+              "hypothesis_ref": "H1",
+              "assignment_status": "non_tbd",
+              "fa_state": "signal_present",
+              "fa_review_status": "original_measurement",
+              "measurement_source": "CWT",
+              "prior_measurement_id": null,
+              "prior_measurement_fa_state": null,
+              "source_refs": [
+                "sh/H1/judgments"
+              ]
+            },
+            {
+              "hypothesis_ref": "H3",
+              "assignment_status": "non_tbd",
+              "fa_state": "signal_present",
+              "fa_review_status": "original_measurement",
+              "measurement_source": "CWT",
+              "prior_measurement_id": null,
+              "prior_measurement_fa_state": null,
+              "source_refs": [
+                "sh/H3/judgments"
+              ]
+            }
+          ]
+        },
+        {
+          "line_id": "line:oiii-4960",
+          "feature_id": "cwt:em:0009",
+          "wavelength_angstrom": 6140.800000000087,
+          "measurement_source": "CWT",
+          "assignment_status": "non_tbd",
+          "provenance": [
+            {
+              "hypothesis_ref": "H1",
+              "assignment_status": "non_tbd",
+              "fa_state": "signal_present",
+              "fa_review_status": "original_measurement",
+              "measurement_source": "CWT",
+              "prior_measurement_id": null,
+              "prior_measurement_fa_state": null,
+              "source_refs": [
+                "sh/H1/judgments"
+              ]
+            },
+            {
+              "hypothesis_ref": "H3",
+              "assignment_status": "non_tbd",
+              "fa_state": "signal_present",
+              "fa_review_status": "original_measurement",
+              "measurement_source": "CWT",
+              "prior_measurement_id": null,
+              "prior_measurement_fa_state": null,
+              "source_refs": [
+                "sh/H3/judgments"
+              ]
+            }
+          ]
+        },
+        {
+          "line_id": "line:oiii-5008",
+          "feature_id": "cwt:em:0010",
+          "wavelength_angstrom": 6200.0000000001,
+          "measurement_source": "CWT",
+          "assignment_status": "non_tbd",
+          "provenance": [
+            {
+              "hypothesis_ref": "H1",
+              "assignment_status": "non_tbd",
+              "fa_state": "signal_present",
+              "fa_review_status": "original_measurement",
+              "measurement_source": "CWT",
+              "prior_measurement_id": null,
+              "prior_measurement_fa_state": null,
+              "source_refs": [
+                "sh/H1/judgments"
+              ]
+            },
+            {
+              "hypothesis_ref": "H3",
+              "assignment_status": "non_tbd",
+              "fa_state": "signal_present",
+              "fa_review_status": "original_measurement",
+              "measurement_source": "CWT",
+              "prior_measurement_id": null,
+              "prior_measurement_fa_state": null,
+              "source_refs": [
+                "sh/H3/judgments"
+              ]
+            }
+          ]
+        },
+        {
+          "line_id": "line:nad1-5891-abs",
+          "feature_id": "fit:H1:0002",
+          "wavelength_angstrom": 7298.536,
+          "measurement_source": "fit_doublet",
+          "assignment_status": "non_tbd",
+          "provenance": [
+            {
+              "hypothesis_ref": "H1",
+              "assignment_status": "non_tbd",
+              "fa_state": "signal_present",
+              "fa_review_status": "original_measurement",
+              "measurement_source": "fit_doublet",
+              "prior_measurement_id": null,
+              "prior_measurement_fa_state": null,
+              "source_refs": [
+                "sh/H1/judgments"
+              ]
+            }
+          ]
+        },
+        {
+          "line_id": "line:nad2-5897-abs",
+          "feature_id": "fit:H3:0003",
+          "wavelength_angstrom": 7299.47,
+          "measurement_source": "fit_doublet",
+          "assignment_status": "non_tbd",
+          "provenance": [
+            {
+              "hypothesis_ref": "H3",
+              "assignment_status": "non_tbd",
+              "fa_state": "signal_present",
+              "fa_review_status": "original_measurement",
+              "measurement_source": "fit_doublet",
+              "prior_measurement_id": null,
+              "prior_measurement_fa_state": null,
+              "source_refs": [
+                "sh/H3/judgments"
+              ]
+            }
+          ]
+        },
+        {
+          "line_id": "line:half-6564",
+          "feature_id": "cwt:em:0012",
+          "wavelength_angstrom": 8127.200000000138,
+          "measurement_source": "CWT",
+          "assignment_status": "non_tbd",
+          "provenance": [
+            {
+              "hypothesis_ref": "H1",
+              "assignment_status": "non_tbd",
+              "fa_state": "signal_present",
+              "fa_review_status": "original_measurement",
+              "measurement_source": "CWT",
+              "prior_measurement_id": null,
+              "prior_measurement_fa_state": null,
+              "source_refs": [
+                "sh/H1/judgments"
+              ]
+            },
+            {
+              "hypothesis_ref": "H3",
+              "assignment_status": "tbd",
+              "fa_state": "signal_present",
+              "fa_review_status": "original_measurement",
+              "measurement_source": "CWT",
+              "prior_measurement_id": null,
+              "prior_measurement_fa_state": null,
+              "source_refs": [
+                "sh/H3/judgments"
+              ]
+            }
+          ]
+        },
+        {
+          "line_id": "line:sii-6718",
+          "feature_id": "cwt:em:0013",
+          "wavelength_angstrom": 8318.400000000182,
+          "measurement_source": "CWT",
+          "assignment_status": "non_tbd",
+          "provenance": [
+            {
+              "hypothesis_ref": "H1",
+              "assignment_status": "non_tbd",
+              "fa_state": "signal_present",
+              "fa_review_status": "original_measurement",
+              "measurement_source": "CWT",
+              "prior_measurement_id": null,
+              "prior_measurement_fa_state": null,
+              "source_refs": [
+                "sh/H1/judgments"
+              ]
+            },
+            {
+              "hypothesis_ref": "H3",
+              "assignment_status": "non_tbd",
+              "fa_state": "signal_present",
+              "fa_review_status": "original_measurement",
+              "measurement_source": "CWT",
+              "prior_measurement_id": null,
+              "prior_measurement_fa_state": null,
+              "source_refs": [
+                "sh/H3/judgments"
+              ]
+            }
+          ]
+        },
+        {
+          "line_id": "line:sii-6732",
+          "feature_id": "cwt:em:0014",
+          "wavelength_angstrom": 8336.000000000186,
+          "measurement_source": "CWT",
+          "assignment_status": "non_tbd",
+          "provenance": [
+            {
+              "hypothesis_ref": "H1",
+              "assignment_status": "non_tbd",
+              "fa_state": "signal_present",
+              "fa_review_status": "original_measurement",
+              "measurement_source": "CWT",
+              "prior_measurement_id": null,
+              "prior_measurement_fa_state": null,
+              "source_refs": [
+                "sh/H1/judgments"
+              ]
+            },
+            {
+              "hypothesis_ref": "H3",
+              "assignment_status": "non_tbd",
+              "fa_state": "signal_present",
+              "fa_review_status": "original_measurement",
+              "measurement_source": "CWT",
+              "prior_measurement_id": null,
+              "prior_measurement_fa_state": null,
+              "source_refs": [
+                "sh/H3/judgments"
+              ]
+            }
+          ]
+        }
+      ],
+      "excluded_pairs": [
+        {
+          "line_id": "line:nii-6549",
+          "feature_id": "cwt:em:0012",
+          "had_fa_confirmation": true,
+          "reason": "feature_selected_for_another_line"
+        },
+        {
+          "line_id": "line:nii-6585",
+          "feature_id": "cwt:em:0012",
+          "had_fa_confirmation": true,
+          "reason": "feature_selected_for_another_line"
+        }
+      ],
+      "lost_shared_key_pairs": [],
+      "lost_type_support_line_ids": [],
+      "advisory_reviews": [
+        {
+          "hypothesis_ref": "H1",
+          "lya_forest": null,
+          "doublets": [
+            {
+              "node_ref": "fa_doublet/bae120b8a96d4b13be289a3b70df15f2/node",
+              "doublet_id": "doublet:oiii",
+              "status": "complete",
+              "pair_supported": true,
+              "claim_mode": "complete_pair",
+              "component_line_ids": [
+                "line:oiii-4960",
+                "line:oiii-5008"
+              ],
+              "vote_summary": {
+                "yes": 3,
+                "no": 0,
+                "yes_fraction": 1.0,
+                "assurance": "assured"
+              },
+              "coverage": {
+                "requested_window_angstrom": [
+                  6060.2188918645825,
+                  6279.512983939721
+                ],
+                "actual_window_angstrom": [
+                  6060.800000000068,
+                  6279.200000000118
+                ],
+                "spectrum_bounds_angstrom": [
+                  3600.0,
+                  9824.000000000524
+                ],
+                "component_cores": [
+                  {
+                    "line_id": "line:oiii-4960",
+                    "predicted_obs_angstrom": 6140.2188918645825,
+                    "center_within_spectrum_bounds": true,
+                    "samples": 38,
+                    "valid_samples": 38,
+                    "masked_samples": 0,
+                    "assessable": true
+                  },
+                  {
+                    "line_id": "line:oiii-5008",
+                    "predicted_obs_angstrom": 6199.512983939721,
+                    "center_within_spectrum_bounds": true,
+                    "samples": 38,
+                    "valid_samples": 38,
+                    "masked_samples": 0,
+                    "assessable": true
+                  }
+                ],
+                "assessable": true,
+                "unreviewable_reason": null
+              },
+              "metrics": {
+                "expected_separation_angstrom": 59.294092075138906,
+                "registry_rest_separation_angstrom": 47.9,
+                "measured_separation_angstrom": 59.20000000001346,
+                "separation_difference_angstrom": -0.09409207512544526,
+                "amplitude_ratio_a_over_b": 0.35512817595246304,
+                "reference_ratio_window_a_over_b": [
+                  0.25,
+                  0.5
+                ],
+                "reference_ratio_note": "b:a ≈ 3:1",
+                "reference_ratio_within_window": true,
+                "reference_ratio_is_advisory": true
+              }
+            },
+            {
+              "node_ref": "fa_doublet/ad9c442db08945409deb862a3642e289/node",
+              "doublet_id": "doublet:sii",
+              "status": "complete",
+              "pair_supported": true,
+              "claim_mode": "complete_pair",
+              "component_line_ids": [
+                "line:sii-6718",
+                "line:sii-6732"
+              ],
+              "vote_summary": {
+                "yes": 3,
+                "no": 0,
+                "yes_fraction": 1.0,
+                "assurance": "assured"
+              },
+              "coverage": {
+                "requested_window_angstrom": [
+                  8236.398722096208,
+                  8414.224085893327
+                ],
+                "actual_window_angstrom": [
+                  8236.800000000163,
+                  8413.600000000202
+                ],
+                "spectrum_bounds_angstrom": [
+                  3600.0,
+                  9824.000000000524
+                ],
+                "component_cores": [
+                  {
+                    "line_id": "line:sii-6718",
+                    "predicted_obs_angstrom": 8316.398722096208,
+                    "center_within_spectrum_bounds": true,
+                    "samples": 38,
+                    "valid_samples": 38,
+                    "masked_samples": 0,
+                    "assessable": true
+                  },
+                  {
+                    "line_id": "line:sii-6732",
+                    "predicted_obs_angstrom": 8334.224085893327,
+                    "center_within_spectrum_bounds": true,
+                    "samples": 37,
+                    "valid_samples": 37,
+                    "masked_samples": 0,
+                    "assessable": true
+                  }
+                ],
+                "assessable": true,
+                "unreviewable_reason": null
+              },
+              "metrics": {
+                "expected_separation_angstrom": 17.82536379711928,
+                "registry_rest_separation_angstrom": 14.4,
+                "measured_separation_angstrom": 17.600000000004002,
+                "separation_difference_angstrom": -0.22536379711527843,
+                "amplitude_ratio_a_over_b": 1.1630427084674237,
+                "reference_ratio_window_a_over_b": [
+                  0.7,
+                  1.4
+                ],
+                "reference_ratio_note": "a ≈ b",
+                "reference_ratio_within_window": true,
+                "reference_ratio_is_advisory": true
+              }
+            },
+            {
+              "node_ref": "fa_doublet/7055dcdc0a6e479caa71ba8b360ad83f/node",
+              "doublet_id": "doublet:cahk",
+              "status": "complete",
+              "pair_supported": false,
+              "claim_mode": "orphan",
+              "component_line_ids": [
+                "line:cak-3934-abs",
+                "line:cah-3969-abs"
+              ],
+              "vote_summary": {
+                "yes": 0,
+                "no": 3,
+                "yes_fraction": 0.0,
+                "assurance": "assured"
+              },
+              "coverage": {
+                "requested_window_angstrom": [
+                  4790.7806575628,
+                  4993.858620072505
+                ],
+                "actual_window_angstrom": [
+                  4791.200000000271,
+                  4993.600000000317
+                ],
+                "spectrum_bounds_angstrom": [
+                  3600.0,
+                  9824.000000000524
+                ],
+                "component_cores": [
+                  {
+                    "line_id": "line:cak-3934-abs",
+                    "predicted_obs_angstrom": 4870.7806575628,
+                    "center_within_spectrum_bounds": true,
+                    "samples": 38,
+                    "valid_samples": 38,
+                    "masked_samples": 0,
+                    "assessable": true
+                  },
+                  {
+                    "line_id": "line:cah-3969-abs",
+                    "predicted_obs_angstrom": 4913.858620072505,
+                    "center_within_spectrum_bounds": true,
+                    "samples": 38,
+                    "valid_samples": 38,
+                    "masked_samples": 0,
+                    "assessable": true
+                  }
+                ],
+                "assessable": true,
+                "unreviewable_reason": null
+              },
+              "metrics": {
+                "expected_separation_angstrom": 43.077962509704776,
+                "registry_rest_separation_angstrom": 34.8,
+                "measured_separation_angstrom": null,
+                "separation_difference_angstrom": null,
+                "amplitude_ratio_a_over_b": null,
+                "reference_ratio_window_a_over_b": null,
+                "reference_ratio_note": "Ca K must be deeper than Ca H",
+                "reference_ratio_within_window": null,
+                "reference_ratio_is_advisory": true
+              }
+            },
+            {
+              "node_ref": "fa_doublet/c2d14afca2694ed1938a8405c2684551/node",
+              "doublet_id": "doublet:na-d",
+              "status": "complete",
+              "pair_supported": false,
+              "claim_mode": "complete_pair",
+              "component_line_ids": [
+                "line:nad1-5891-abs",
+                "line:nad2-5897-abs"
+              ],
+              "vote_summary": {
+                "yes": 0,
+                "no": 3,
+                "yes_fraction": 0.0,
+                "assurance": "assured"
+              },
+              "coverage": {
+                "requested_window_angstrom": [
+                  7213.049537993544,
+                  7380.47677290901
+                ],
+                "actual_window_angstrom": [
+                  7213.6000000003305,
+                  7380.000000000368
+                ],
+                "spectrum_bounds_angstrom": [
+                  3600.0,
+                  9824.000000000524
+                ],
+                "component_cores": [
+                  {
+                    "line_id": "line:nad1-5891-abs",
+                    "predicted_obs_angstrom": 7293.049537993544,
+                    "center_within_spectrum_bounds": true,
+                    "samples": 38,
+                    "valid_samples": 38,
+                    "masked_samples": 0,
+                    "assessable": true
+                  },
+                  {
+                    "line_id": "line:nad2-5897-abs",
+                    "predicted_obs_angstrom": 7300.47677290901,
+                    "center_within_spectrum_bounds": true,
+                    "samples": 38,
+                    "valid_samples": 38,
+                    "masked_samples": 0,
+                    "assessable": true
+                  }
+                ],
+                "assessable": true,
+                "unreviewable_reason": null
+              },
+              "metrics": {
+                "expected_separation_angstrom": 7.427234915466215,
+                "registry_rest_separation_angstrom": 6.0,
+                "measured_separation_angstrom": 7.807999999999993,
+                "separation_difference_angstrom": 0.38076508453377755,
+                "amplitude_ratio_a_over_b": 1.4530166505113307,
+                "reference_ratio_window_a_over_b": [
+                  1.4,
+                  2.8
+                ],
+                "reference_ratio_note": "a:b ≈ 2:1 (fitting hint)",
+                "reference_ratio_within_window": true,
+                "reference_ratio_is_advisory": true
+              }
+            }
+          ]
+        },
+        {
+          "hypothesis_ref": "H3",
+          "lya_forest": null,
+          "doublets": [
+            {
+              "node_ref": "fa_doublet/2eead22b6a214e798fac9301448b78f6/node",
+              "doublet_id": "doublet:oiii",
+              "status": "complete",
+              "pair_supported": true,
+              "claim_mode": "complete_pair",
+              "component_line_ids": [
+                "line:oiii-4960",
+                "line:oiii-5008"
+              ],
+              "vote_summary": {
+                "yes": 3,
+                "no": 0,
+                "yes_fraction": 1.0,
+                "assurance": "assured"
+              },
+              "coverage": {
+                "requested_window_angstrom": [
+                  6061.111741496962,
+                  6280.414455529924
+                ],
+                "actual_window_angstrom": [
+                  6061.600000000069,
+                  6280.000000000118
+                ],
+                "spectrum_bounds_angstrom": [
+                  3600.0,
+                  9824.000000000524
+                ],
+                "component_cores": [
+                  {
+                    "line_id": "line:oiii-4960",
+                    "predicted_obs_angstrom": 6141.111741496962,
+                    "center_within_spectrum_bounds": true,
+                    "samples": 38,
+                    "valid_samples": 38,
+                    "masked_samples": 0,
+                    "assessable": true
+                  },
+                  {
+                    "line_id": "line:oiii-5008",
+                    "predicted_obs_angstrom": 6200.414455529924,
+                    "center_within_spectrum_bounds": true,
+                    "samples": 38,
+                    "valid_samples": 38,
+                    "masked_samples": 0,
+                    "assessable": true
+                  }
+                ],
+                "assessable": true,
+                "unreviewable_reason": null
+              },
+              "metrics": {
+                "expected_separation_angstrom": 59.302714032962285,
+                "registry_rest_separation_angstrom": 47.9,
+                "measured_separation_angstrom": 59.20000000001346,
+                "separation_difference_angstrom": -0.10271403294882475,
+                "amplitude_ratio_a_over_b": 0.35512817595246304,
+                "reference_ratio_window_a_over_b": [
+                  0.25,
+                  0.5
+                ],
+                "reference_ratio_note": "b:a ≈ 3:1",
+                "reference_ratio_within_window": true,
+                "reference_ratio_is_advisory": true
+              }
+            },
+            {
+              "node_ref": "fa_doublet/3c5b80cd15dd4e83a1e16ebe23d5b63c/node",
+              "doublet_id": "doublet:sii",
+              "status": "complete",
+              "pair_supported": true,
+              "claim_mode": "complete_pair",
+              "component_line_ids": [
+                "line:sii-6718",
+                "line:sii-6732"
+              ],
+              "vote_summary": {
+                "yes": 3,
+                "no": 0,
+                "yes_fraction": 1.0,
+                "assurance": "assured"
+              },
+              "coverage": {
+                "requested_window_angstrom": [
+                  8237.608010180642,
+                  8415.435965965082
+                ],
+                "actual_window_angstrom": [
+                  8238.400000000163,
+                  8415.200000000204
+                ],
+                "spectrum_bounds_angstrom": [
+                  3600.0,
+                  9824.000000000524
+                ],
+                "component_cores": [
+                  {
+                    "line_id": "line:sii-6718",
+                    "predicted_obs_angstrom": 8317.608010180642,
+                    "center_within_spectrum_bounds": true,
+                    "samples": 37,
+                    "valid_samples": 37,
+                    "masked_samples": 0,
+                    "assessable": true
+                  },
+                  {
+                    "line_id": "line:sii-6732",
+                    "predicted_obs_angstrom": 8335.435965965082,
+                    "center_within_spectrum_bounds": true,
+                    "samples": 38,
+                    "valid_samples": 38,
+                    "masked_samples": 0,
+                    "assessable": true
+                  }
+                ],
+                "assessable": true,
+                "unreviewable_reason": null
+              },
+              "metrics": {
+                "expected_separation_angstrom": 17.827955784439837,
+                "registry_rest_separation_angstrom": 14.4,
+                "measured_separation_angstrom": 17.600000000004002,
+                "separation_difference_angstrom": -0.22795578443583508,
+                "amplitude_ratio_a_over_b": 1.1630427084674237,
+                "reference_ratio_window_a_over_b": [
+                  0.7,
+                  1.4
+                ],
+                "reference_ratio_note": "a ≈ b",
+                "reference_ratio_within_window": true,
+                "reference_ratio_is_advisory": true
+              }
+            },
+            {
+              "node_ref": "fa_doublet/cab576ea2bd943e8be37a7624e0412db/node",
+              "doublet_id": "doublet:nii",
+              "status": "complete",
+              "pair_supported": true,
+              "claim_mode": "complete_pair",
+              "component_line_ids": [
+                "line:nii-6549",
+                "line:nii-6585"
+              ],
+              "vote_summary": {
+                "yes": 3,
+                "no": 0,
+                "yes_fraction": 1.0,
+                "assurance": "assured"
+              },
+              "coverage": {
+                "requested_window_angstrom": [
+                  8028.9961664529965,
+                  8232.94702967158
+                ],
+                "actual_window_angstrom": [
+                  8029.600000000116,
+                  8232.800000000163
+                ],
+                "spectrum_bounds_angstrom": [
+                  3600.0,
+                  9824.000000000524
+                ],
+                "component_cores": [
+                  {
+                    "line_id": "line:nii-6549",
+                    "predicted_obs_angstrom": 8108.9961664529965,
+                    "center_within_spectrum_bounds": true,
+                    "samples": 37,
+                    "valid_samples": 37,
+                    "masked_samples": 0,
+                    "assessable": true
+                  },
+                  {
+                    "line_id": "line:nii-6585",
+                    "predicted_obs_angstrom": 8152.947029671581,
+                    "center_within_spectrum_bounds": true,
+                    "samples": 37,
+                    "valid_samples": 37,
+                    "masked_samples": 0,
+                    "assessable": true
+                  }
+                ],
+                "assessable": true,
+                "unreviewable_reason": null
+              },
+              "metrics": {
+                "expected_separation_angstrom": 43.950863218584345,
+                "registry_rest_separation_angstrom": 35.5,
+                "measured_separation_angstrom": 0.0,
+                "separation_difference_angstrom": -43.950863218584345,
+                "amplitude_ratio_a_over_b": 1.0,
+                "reference_ratio_window_a_over_b": [
+                  0.2,
+                  0.45
+                ],
+                "reference_ratio_note": "a:b ≈ 1:3",
+                "reference_ratio_within_window": false,
+                "reference_ratio_is_advisory": true
+              }
+            },
+            {
+              "node_ref": "fa_doublet/03a382a9fff94beea932f223b78c9e2f/node",
+              "doublet_id": "doublet:cahk",
+              "status": "complete",
+              "pair_supported": false,
+              "claim_mode": "orphan",
+              "component_line_ids": [
+                "line:cak-3934-abs",
+                "line:cah-3969-abs"
+              ],
+              "vote_summary": {
+                "yes": 0,
+                "no": 3,
+                "yes_fraction": 0.0,
+                "assurance": "assured"
+              },
+              "coverage": {
+                "requested_window_angstrom": [
+                  4791.488918098148,
+                  4994.573144577211
+                ],
+                "actual_window_angstrom": [
+                  4792.000000000271,
+                  4994.400000000317
+                ],
+                "spectrum_bounds_angstrom": [
+                  3600.0,
+                  9824.000000000524
+                ],
+                "component_cores": [
+                  {
+                    "line_id": "line:cak-3934-abs",
+                    "predicted_obs_angstrom": 4871.488918098148,
+                    "center_within_spectrum_bounds": true,
+                    "samples": 38,
+                    "valid_samples": 38,
+                    "masked_samples": 0,
+                    "assessable": true
+                  },
+                  {
+                    "line_id": "line:cah-3969-abs",
+                    "predicted_obs_angstrom": 4914.573144577211,
+                    "center_within_spectrum_bounds": true,
+                    "samples": 37,
+                    "valid_samples": 37,
+                    "masked_samples": 0,
+                    "assessable": true
+                  }
+                ],
+                "assessable": true,
+                "unreviewable_reason": null
+              },
+              "metrics": {
+                "expected_separation_angstrom": 43.084226479062636,
+                "registry_rest_separation_angstrom": 34.8,
+                "measured_separation_angstrom": null,
+                "separation_difference_angstrom": null,
+                "amplitude_ratio_a_over_b": null,
+                "reference_ratio_window_a_over_b": null,
+                "reference_ratio_note": "Ca K must be deeper than Ca H",
+                "reference_ratio_within_window": null,
+                "reference_ratio_is_advisory": true
+              }
+            },
+            {
+              "node_ref": "fa_doublet/e9815dfff16c48b5832d38b8d9ab48f0/node",
+              "doublet_id": "doublet:na-d",
+              "status": "complete",
+              "pair_supported": false,
+              "claim_mode": "complete_pair",
+              "component_line_ids": [
+                "line:nad1-5891-abs",
+                "line:nad2-5897-abs"
+              ],
+              "vote_summary": {
+                "yes": 0,
+                "no": 3,
+                "yes_fraction": 0.0,
+                "assurance": "assured"
+              },
+              "coverage": {
+                "requested_window_angstrom": [
+                  7214.110020805899,
+                  7381.538335716083
+                ],
+                "actual_window_angstrom": [
+                  7214.400000000331,
+                  7380.8000000003685
+                ],
+                "spectrum_bounds_angstrom": [
+                  3600.0,
+                  9824.000000000524
+                ],
+                "component_cores": [
+                  {
+                    "line_id": "line:nad1-5891-abs",
+                    "predicted_obs_angstrom": 7294.110020805899,
+                    "center_within_spectrum_bounds": true,
+                    "samples": 38,
+                    "valid_samples": 38,
+                    "masked_samples": 0,
+                    "assessable": true
+                  },
+                  {
+                    "line_id": "line:nad2-5897-abs",
+                    "predicted_obs_angstrom": 7301.538335716083,
+                    "center_within_spectrum_bounds": true,
+                    "samples": 37,
+                    "valid_samples": 37,
+                    "masked_samples": 0,
+                    "assessable": true
+                  }
+                ],
+                "assessable": true,
+                "unreviewable_reason": null
+              },
+              "metrics": {
+                "expected_separation_angstrom": 7.428314910183872,
+                "registry_rest_separation_angstrom": 6.0,
+                "measured_separation_angstrom": 26.735999999999876,
+                "separation_difference_angstrom": 19.307685089816005,
+                "amplitude_ratio_a_over_b": 0.34872658167836496,
+                "reference_ratio_window_a_over_b": [
+                  1.4,
+                  2.8
+                ],
+                "reference_ratio_note": "a:b ≈ 2:1 (fitting hint)",
+                "reference_ratio_within_window": false,
+                "reference_ratio_is_advisory": true
+              }
+            }
+          ]
+        }
+      ],
+      "source_reports": [
+        {
+          "hypothesis_ref": "H1",
+          "source_ref": "sh2/d9719e61a24543c78e71d78a62d5bab0/report",
+          "text": "### 3a. Spectrum Summary\n\nHypothesis redshift: 0.23787248591105023\n\n- Hypothesis reference: H1 (branch `main`, run `graph-853b617a68f04c36bd82f06bdb770ac4`).\n- Reported wavelength coverage: 3600.0–9824.000000000524 Å.\n- Masked regions: none supplied.\n- Measurement catalog: `sh/H1/catalog`; SH judgments from `sh/H1/judgments` and `sh/H1/node`.\n\n### 3b. Recorded Graph Outcome\n\nGraph path status: survive\nCandidate type: Type 2 QSO\n\nThe terminal code node is `sh2/f38acbe4c26a4b3d874cddbd392aaded/node`, applying rule `project:qso-nev-type2-exit` (version `forma-qso-entry-v1`). No reason codes were recorded. The recorded supporting action is the Q2 `qso.nev_pairing_gate` node (`sh2/f38acbe4c26a4b3d874cddbd392aaded/node`): for `line:nev-3426` / `cwt:em:0001`, SH status `LIKELY`, FA state `signal_present`, pairing `adopted`, yielding candidate type `Type 2 QSO`, path status `survive`, next node `qso.analysis_report`. This is a Q2 [Ne V] gate exit; Q3–Q10 were bypassed (see 3d).\n\n### 3c. Per-Line Results\n\n**adopted**\n\n| Line / ID | λ_pred (Å) | Measurement / λ (Å) | Source / FWHM (km/s) | SH | FA | Graph gate | Flags |\n|---|---:|---|---|---|---|---|---|\n| [Ne V] (`line:nev-3426`) | 4240.951136731258 | `cwt:em:0001` / 4242.400000000146 | CWT / 1917.164597169737 | LIKELY | signal_present (3/3 yes) | q2_type2_support | — |\n| [O II] (`line:oii-3727`) | 4613.550754990484 | `cwt:em:0002` / 4616.800000000231 | CWT / 1099.106885263833 | LIKELY | signal_present (3/3 yes) | not_evaluated | — |\n| Hε (`line:heps-3970`) | 4914.47755631546 | `cwt:em:0004` / 4912.8000000002985 | CWT / 1249.668861064443 | MARGINAL | signal_present (3/3 yes) | not_evaluated | — |\n| Hδ (`line:hdel-4102`) | 5078.867022444447 | `cwt:em:0005` / 5079.200000000336 | CWT / 999.0464379992876 | LIKELY | signal_present (3/3 yes) | not_evaluated | — |\n| Hβ (`line:hbet-4862`) | 6019.402537239664 | `cwt:em:0008` / 6020.000000000059 | CWT / 630.5250595235257 | LIKELY | signal_present (3/3 yes) | not_evaluated | — |\n| [O III]a (`line:oiii-4960`) | 6140.2188918645825 | `cwt:em:0009` / 6140.800000000087 | CWT / 510.89405269143833 | LIKELY | signal_present (3/3 yes) | not_evaluated | — |\n| [O III]b (`line:oiii-5008`) | 6199.512983939721 | `cwt:em:0010` / 6200.0000000001 | CWT / 818.4446238526186 | LIKELY | signal_present (3/3 yes) | not_evaluated | — |\n| Na D1_abs (`line:nad1-5891-abs`) | 7293.049537993544 | `fit:H1:0002` / 7298.536 | fit_doublet / 422.6 | MARGINAL | signal_present (3/3 yes) | not_evaluated | — |\n| Hα (`line:half-6564`) | 8126.137721011681 | `cwt:em:0012` / 8127.200000000138 | CWT / 755.4106187417149 | LIKELY | signal_present (3/3 yes) | not_evaluated | — |\n| [S II]a (`line:sii-6718`) | 8316.398722096208 | `cwt:em:0013` / 8318.400000000182 | CWT / 667.9518065731661 | LIKELY | signal_present (3/3 yes) | not_evaluated | — |\n| [S II]b (`line:sii-6732`) | 8334.224085893327 | `cwt:em:0014` / 8336.000000000186 | CWT / 284.08683750191113 | LIKELY | signal_present (3/3 yes) | not_evaluated | — |\n\n**rejected_measurement**\n\n| Line / ID | λ_pred (Å) | Measurement / λ (Å) | Source / FWHM (km/s) | SH | FA | Graph gate | Flags |\n|---|---:|---|---|---|---|---|---|\n| Ca K_abs (`line:cak-3934-abs`) | 4870.7806575628 | `cwt:abs:0006` / 4868.000000000288 | CWT / 4331.473480019335 | MARGINAL | signal_absent (1/3 yes) | not_evaluated | — |\n| Hδ_abs (`line:hdel-4102-abs`) | 5078.867022444447 | `cwt:abs:0007` / 5075.200000000335 | CWT / 318.76422245673183 | MARGINAL | signal_absent (0/3 yes) | not_evaluated | — |\n| G-band_abs (`line:gband-4305-abs`) | 5329.783775338618 | `cwt:abs:0008` / 5333.600000000394 | CWT / 3267.5537798036685 | MARGINAL | signal_absent (0/3 yes) | not_evaluated | — |\n| Hγ (`line:hgam-4341`) | 5374.4709720800065 | `cwt:em:0006` / 5387.200000000406 | CWT / 4735.5036222788995 | MARGINAL | signal_absent (0/3 yes) | not_evaluated | — |\n| Hβ_abs (`line:hbet-4862-abs`) | 6019.402537239664 | `cwt:abs:0010` / 6010.400000000057 | CWT / 631.5321539883578 | MARGINAL | signal_absent (0/3 yes) | not_evaluated | — |\n| Na D2_abs (`line:nad2-5897-abs`) | 7300.47677290901 | `fit:H1:0003` / 7306.344 | fit_doublet / 96.6 | MARGINAL | signal_absent (0/3 yes) | not_evaluated | — |\n| Hα_abs (`line:half-6564-abs`) | 8126.137721011681 | `cwt:abs:0021` / 8120.000000000136 | CWT / 319.34250523490385 | MARGINAL | signal_absent (0/3 yes) | not_evaluated | — |\n\n**no_pairing**\n\n| Line / ID | λ_pred (Å) | Measurement / λ (Å) | Source / FWHM (km/s) | SH | FA | Graph gate | Flags |\n|---|---:|---|---|---|---|---|---|\n| Ca H_abs (`line:cah-3969-abs`) | 4913.858620072505 | — | — | NOT_FOUND | — | not_evaluated | — |\n| Hε_abs (`line:heps-3970-abs`) | 4914.47755631546 | — | — | NOT_FOUND | — | not_evaluated | — |\n| Hγ_abs (`line:hgam-4341-abs`) | 5374.4709720800065 | — | — | NOT_FOUND | — | not_evaluated | — |\n| Mg I_abs (`line:mgi-5176-abs`) | 6408.094497815733 | — | — | NOT_FOUND | — | not_evaluated | — |\n| Na D_abs (`line:nad-5895-abs`) | 7298.001027937187 | — | — | NOT_FOUND | — | not_evaluated | — |\n| [N II]a (`line:nii-6549`) | 8107.817208220196 | — | — | NOT_FOUND | — | not_evaluated | — |\n| [N II]b (`line:nii-6585`) | 8151.761681470039 | — | — | NOT_FOUND | — | not_evaluated | — |\n\n### 3d. Key Findings and Graph Actions\n\n- **Q2 gate input (executed):** `line:nev-3426` ([Ne V], predicted 4240.951136731258 Å) has measurement `cwt:em:0001` (CWT, center 4242.400000000146 Å, FWHM 1917.164597169737 km/s), SH `LIKELY`, FA `signal_present`, vote 3 yes / 0 no (`assured`), cleaned pairing `adopted`, gate state `q2_type2_support`. This single gate drove the terminal `survive` / `Type 2 QSO` outcome.\n- **Other adopted emission pairings (not evaluated by the type graph):** `[O II]` (`cwt:em:0002`), Hε (`cwt:em:0004`), Hδ (`cwt:em:0005`), Hβ (`cwt:em:0008`), `[O III]a` (`cwt:em:0009`), `[O III]b` (`cwt:em:0010`), Hα (`cwt:em:0012`), `[S II]a` (`cwt:em:0013`), `[S II]b` (`cwt:em:0014`) are all SH `LIKELY` with FA `signal_present` and 3/0 assured votes. Their `graph_gate_state` is `not_evaluated` — they were not checked by the type graph on this path.\n- **Rejected measurements (FA signal_absent, cleaned pairing rejected):** Ca K_abs (`cwt:abs:0006`, contested 1/2), Hδ_abs (`cwt:abs:0007`, 0/3), G-band_abs (`cwt:abs:0008`, 0/3), Hγ (`cwt:em:0006`, 0/3), Hβ_abs (`cwt:abs:0010`, 0/3), Na D2_abs (`fit:H1:0003`, 0/3), Hα_abs (`cwt:abs:0021`, 0/3). A rejected measurement does not establish line absence.\n- **Adopted absorption:** Na D1_abs (`fit:H1:0002`, fit_doublet, center 7298.536 Å, FWHM 422.6 km/s) is SH `MARGINAL`, FA `signal_present`, 3/0 assured, pairing `adopted`; gate state `not_evaluated`.\n- **SH `NOT_FOUND` lines (no measurement):** Ca H_abs, Hε_abs, Hγ_abs, Mg I_abs, Na D_abs, `[N II]a`, `[N II]b` — all `no_pairing`, `not_evaluated`.\n- **Line alignment** (`alignment/aae7ecfdafcc422aa438c9cec62207d4/node`): no collisions recorded; all adopted emission/absorption claims retain `original_claim` status; rejected and unmeasured lines are `unassigned`. No shared-feature conflict votes were raised.\n- **Skipped nodes:** `qso.broad_line_inventory`, `qso.missing_broad_line_queue`, `qso.coverage`, `qso.inspect_line`, `qso.proposed_observation`, `qso.relative_strength`, `qso.type1_formal_gate`, `qso.route_result` — all bypassed by the Q2 exit. No Q5–Q8 local reads, targeted candidate observations, or Q9/Q10 gate states were executed (`targeted_measurements` empty).\n\n### 3e. Recorded Classification\n\nPreliminary classification: Type 2 QSO\nRecorded classification: Type 2 QSO\n\nThe preliminary classification `Type 2 QSO` was carried through unchanged. The Q2 `qso.nev_pairing_gate` node (`sh2/f38acbe4c26a4b3d874cddbd392aaded/node`) recorded an adopted, FA-confirmed [Ne V] signal and routed directly to `qso.analysis_report` under rule `project:qso-nev-type2-exit` (v `forma-qso-entry-v1`), producing terminal `survive` / `Type 2 QSO`. The final type is the graph rule's result, not an independent classification; this is one-hypothesis analysis, not the final choice among Redrock hypotheses.\n\n### 3f. Caveats and Open Items\n\n- **Bypassed checks:** Q3–Q10 (broad-line inventory, missing-broad-line queue, coverage, inspect-line, proposed observation, relative strength, Type 1 formal gate, route result) were skipped by the Q2 exit; no broad-line, coverage, or relative-strength properties were evaluated on this path. Skipped nodes supply no negative evidence.\n- **No targeted measurements:** `targeted_measurements` is empty; no Q8 envelope proxies or candidate observations exist for this run.\n- **Contested/rejected absorption:** Ca K_abs is contested (1 yes / 2 no, `contested`); several absorption and Hγ measurements are FA `signal_absent` and rejected — these do not prove absence.\n- **SH `NOT_FOUND` labels** apply only where SH actually supplied them (Ca H_abs, Hε_abs, Hγ_abs, Mg I_abs, Na D_abs, `[N II]a`, `[N II]b`); these were not checked by the type graph.\n- **No recorded conflicts or unresolved items** in the canonical context (`conflicts` and `unresolved_items` empty); no classification conflict between preliminary type and terminal type was recorded.\n"
+        },
+        {
+          "hypothesis_ref": "H3",
+          "source_ref": "sh2/88e10557ffee4e1aa16f3c4fb1b469e6/report",
+          "text": "### 3a. Spectrum Summary\n\nHypothesis redshift: 0.23805248503053472\n\nHypothesis reference: H3 (branch `main`, run `graph-853b617a68f04c36bd82f06bdb770ac4`). Reported wavelength coverage is 3600.0–9824.0 Å (approximately), with no masked regions supplied in the spectrum summary. The measurement catalog provenance is `sh/H3/catalog`; SH judgments are registered under `sh/H3/judgments` and `sh/H3/node`.\n\n### 3b. Recorded Graph Outcome\n\nGraph path status: survive\nCandidate type: Type 2 QSO\n\nThe terminal code node is `sh2/4093cb4c9c084e019e4bc47e17713d92/node`, applying rule `project:qso-nev-type2-exit` (version `forma-qso-entry-v1`). No reason codes were recorded. The recorded graph action at this node is the Q2 `qso.nev_pairing_gate` output for `line:nev-3426` / `cwt:em:0001`: SH status `LIKELY`, FA state `signal_present`, pairing state `adopted`, candidate type `Type 2 QSO`, path status `survive`, next node `qso.analysis_report`. The path therefore survives directly through the Q2 [Ne V] gate; Q3–Q10 were not executed on this path.\n\n### 3c. Per-Line Results\n\n**adopted**\n\n| Line / ID | λ_pred (Å) | Measurement / λ (Å) | Source / FWHM (km/s) | SH | FA | Graph gate | Flags |\n|---|---:|---|---|---|---|---|---|\n| [Ne V] (`line:nev-3426`) | 4241.567813714612 | `cwt:em:0001` / 4242.400000000146 | CWT / 1917.164597169737 | LIKELY | signal_present (3/3 yes) | q2_type2_support | — |\n| [O II] (`line:oii-3727`) | 4614.221611708803 | `cwt:em:0002` / 4616.800000000231 | CWT / 1099.106885263833 | LIKELY | signal_present (3/3 yes) | not_evaluated | — |\n| Hε (`line:heps-3970`) | 4915.192170819726 | `cwt:em:0004` / 4912.8000000002985 | CWT / 1249.668861064443 | MARGINAL | signal_present (3/3 yes) | not_evaluated | — |\n| Hδ (`line:hdel-4102`) | 5079.605540831781 | `cwt:em:0005` / 5079.200000000336 | CWT / 999.0464379992876 | LIKELY | signal_present (3/3 yes) | not_evaluated | — |\n| Hβ (`line:hbet-4862`) | 6020.277818957981 | `cwt:em:0008` / 6020.000000000059 | CWT / 630.5250595235257 | LIKELY | signal_present (3/3 yes) | not_evaluated | — |\n| [O III]a (`line:oiii-4960`) | 6141.111741496962 | `cwt:em:0009` / 6140.800000000087 | CWT / 510.89405269143833 | LIKELY | signal_present (3/3 yes) | not_evaluated | — |\n| [O III]b (`line:oiii-5008`) | 6200.414455529924 | `cwt:em:0010` / 6200.0000000001 | CWT / 818.4446238526186 | LIKELY | signal_present (3/3 yes) | not_evaluated | — |\n| Na D2_abs (`line:nad2-5897-abs`) | 7301.538335716083 | `fit:H3:0003` / 7299.47 | fit_doublet / 512.7 | MARGINAL | signal_present (3/3 yes) | not_evaluated | — |\n| [N II]a (`line:nii-6549`) | 8108.9961664529965 | `cwt:em:0012` / 8127.200000000138 | CWT / 755.4106187417149 | MARGINAL | signal_present (3/3 yes) | not_evaluated | alignment:TBD |\n| Hα (`line:half-6564`) | 8127.319343231449 | `cwt:em:0012` / 8127.200000000138 | CWT / 755.4106187417149 | LIKELY | signal_present (3/3 yes) | not_evaluated | alignment:TBD |\n| [N II]b (`line:nii-6585`) | 8152.947029671581 | `cwt:em:0012` / 8127.200000000138 | CWT / 755.4106187417149 | MARGINAL | signal_present (3/3 yes) | not_evaluated | alignment:TBD |\n| [S II]a (`line:sii-6718`) | 8317.608010180642 | `cwt:em:0013` / 8318.400000000182 | CWT / 667.9518065731661 | LIKELY | signal_present (3/3 yes) | not_evaluated | — |\n| [S II]b (`line:sii-6732`) | 8335.435965965082 | `cwt:em:0014` / 8336.000000000186 | CWT / 284.08683750191113 | LIKELY | signal_present (3/3 yes) | not_evaluated | — |\n\n**rejected_measurement**\n\n| Line / ID | λ_pred (Å) | Measurement / λ (Å) | Source / FWHM (km/s) | SH | FA | Graph gate | Flags |\n|---|---:|---|---|---|---|---|---|\n| Ca K_abs (`line:cak-3934-abs`) | 4871.488918098148 | `cwt:abs:0006` / 4868.000000000288 | CWT / 4331.473480019335 | MARGINAL | signal_absent (1/3 yes) | not_evaluated | — |\n| Hδ_abs (`line:hdel-4102-abs`) | 5079.605540831781 | `cwt:abs:0007` / 5075.200000000335 | CWT / 318.76422245673183 | MARGINAL | signal_absent (0/3 yes) | not_evaluated | — |\n| G-band_abs (`line:gband-4305-abs`) | 5330.558779547471 | `cwt:abs:0008` / 5333.600000000394 | CWT / 3267.5537798036685 | MARGINAL | signal_absent (0/3 yes) | not_evaluated | — |\n| Hγ (`line:hgam-4341`) | 5375.252474257072 | `cwt:em:0006` / 5387.200000000406 | CWT / 4735.5036222788995 | MARGINAL | signal_absent (0/3 yes) | not_evaluated | — |\n| Hβ_abs (`line:hbet-4862-abs`) | 6020.277818957981 | `cwt:abs:0010` / 6010.400000000057 | CWT / 631.5321539883578 | MARGINAL | signal_absent (0/3 yes) | not_evaluated | — |\n| Na D1_abs (`line:nad1-5891-abs`) | 7294.110020805899 | `fit:H3:0002` / 7326.206 | fit_doublet / 464.3 | MARGINAL | signal_absent (0/3 yes) | not_evaluated | — |\n| Hα_abs (`line:half-6564-abs`) | 8127.319343231449 | `cwt:abs:0021` / 8120.000000000136 | CWT / 319.34250523490385 | MARGINAL | signal_absent (0/3 yes) | not_evaluated | — |\n\n**no_pairing**\n\n| Line / ID | λ_pred (Å) | Measurement / λ (Å) | Source / FWHM (km/s) | SH | FA | Graph gate | Flags |\n|---|---:|---|---|---|---|---|---|\n| Ca H_abs (`line:cah-3969-abs`) | 4914.573144577211 | — | — | NOT_FOUND | — | not_evaluated | — |\n| Hε_abs (`line:heps-3970-abs`) | 4915.192170819726 | — | — | NOT_FOUND | — | not_evaluated | — |\n| Hγ_abs (`line:hgam-4341-abs`) | 5375.252474257072 | — | — | NOT_FOUND | — | not_evaluated | — |\n| Mg I_abs (`line:mgi-5176-abs`) | 6409.026299257569 | — | — | NOT_FOUND | — | not_evaluated | — |\n| Na D_abs (`line:nad-5895-abs`) | 7299.062230746022 | — | — | NOT_FOUND | — | not_evaluated | — |\n\n**Hypothesis-local shared-feature alignment (original SH/FA rows retained)**\n\nSource: `alignment/e758789f9f3647478b5ef41bab680576/node`\n\n| Shared measurement | Line ID | Status | Vote | Candidate ID | Representative centre (Å) | Amplitude proxy | FWHM proxy (Å) |\n|---|---|---|---|---|---:|---:|---:|\n| cwt:em:0012 | line:half-6564 | TBD | — | — | — | — | — |\n| cwt:em:0012 | line:nii-6549 | TBD | — | — | — | — | — |\n| cwt:em:0012 | line:nii-6585 | TBD | — | — | — | — | — |\n\n### 3d. Key Findings and Graph Actions\n\nThe only executed graph gate is the Q2 [Ne V] pairing gate (`sh2/4093cb4c9c084e019e4bc47e17713d92/node`). Its input was the [Ne V] record `line:nev-3426` with measurement `cwt:em:0001` (CWT, measured center 4242.4 Å against predicted 4241.567813714612 Å, FWHM 1917.164597169737 km/s). That record carries SH status `LIKELY`, FA state `signal_present`, a 3-yes/0-no assured vote summary, and cleaned pairing `adopted`; the gate recorded `q2_type2_support` and routed to `survive` with candidate type `Type 2 QSO`.\n\nAll other line records carry `graph_gate_state: not_evaluated`; they were not checked by the type graph on this path. Several emission lines have SH `LIKELY` and FA `signal_present` with adopted pairings (e.g., [O II] `cwt:em:0002`, Hε `cwt:em:0004`, Hδ `cwt:em:0005`, Hβ `cwt:em:0008`, [O III]a `cwt:em:0009`, [O III]b `cwt:em:0010`, [S II]a `cwt:em:0013`, [S II]b `cwt:em:0014`), but these are recorded SH/FA layers only and were not used as graph gate inputs. Hγ (`cwt:em:0006`) is SH `MARGINAL` with FA `signal_absent` and a rejected measurement.\n\nAbsorption-line records are mixed: Ca K_abs (`cwt:abs:0006`) is SH `MARGINAL`, FA `signal_absent`, contested (1 yes/2 no), rejected; Hδ_abs (`cwt:abs:0007`), G-band_abs (`cwt:abs:0008`), Hβ_abs (`cwt:abs:0010`), and Hα_abs (`cwt:abs:0021`) are SH `MARGINAL`, FA `signal_absent`, assured 0-yes/3-no, rejected. Na D1_abs (`fit:H3:0002`) is SH `MARGINAL`, FA `signal_absent`, rejected, while Na D2_abs (`fit:H3:0003`) is SH `MARGINAL`, FA `signal_present`, adopted. Ca H_abs, Hε_abs, Hγ_abs, Mg I_abs, and Na D_abs have no measurement and SH `NOT_FOUND` with `no_pairing`; these are SH labels only and were not graph-checked.\n\nLine alignment (`alignment/e758789f9f3647478b5ef41bab680576/node`) records one shared-feature collision on `cwt:em:0012`, claimed by `line:half-6564`, `line:nii-6549`, and `line:nii-6585`. It is grouped `unresolved_non_diagnostic`, status `tbd`, eligible `false`, with no slots or ballots and reason `no_diagnostic_vote`. This does not alter the terminal route. No targeted Q8 measurements were supplied (`targeted_measurements` empty).\n\nSkipped nodes on this path: `qso.broad_line_inventory`, `qso.missing_broad_line_queue`, `qso.coverage`, `qso.inspect_line`, `qso.proposed_observation`, `qso.relative_strength`, `qso.type1_formal_gate`, and `qso.route_result`. These were bypassed by the Q2 exit and supply no negative evidence.\n\n### 3e. Recorded Classification\n\nPreliminary classification: Type 2 QSO\nRecorded classification: Type 2 QSO\n\nThe preliminary classification `Type 2 QSO` was carried through the Q2 [Ne V] gate at `sh2/4093cb4c9c084e019e4bc47e17713d92/node`, which recorded `q2_type2_support` for the adopted [Ne V] measurement `cwt:em:0001` and returned candidate type `Type 2 QSO` with path status `survive` under rule `project:qso-nev-type2-exit` (version `forma-qso-entry-v1`). The final type is the result of this graph rule, not an independent classification. This is one-hypothesis analysis and not the final choice among Redrock hypotheses.\n\n### 3f. Caveats and Open Items\n\n- The path survives solely via the Q2 [Ne V] gate; Q3–Q10 were skipped (`qso.broad_line_inventory`, `qso.missing_broad_line_queue`, `qso.coverage`, `qso.inspect_line`, `qso.proposed_observation`, `qso.relative_strength`, `qso.type1_formal_gate`, `qso.route_result`). Broad-line inventory, coverage, relative-strength, and Type 1 formal checks were therefore not evaluated on this path and provide no negative evidence.\n- The shared-feature collision on `cwt:em:0012` (Hα / [N II]a / [N II]b) remains `tbd` and unresolved (`alignment/e758789f9f3647478b5ef41bab680576/node`); no diagnostic vote was recorded, and this does not prove line absence.\n- Absorption-line SH `MARGINAL`/`NOT_FOUND` labels and rejected measurements reflect SH/FA layers only; a rejected measurement does not establish that a line is absent, and `NOT_FOUND` is retained strictly as an SH label.\n- No masked regions were supplied, and no Q5 full-mask determination is recorded; no Q8 targeted envelope proxies were supplied.\n- No conflicts or unresolved items were recorded in the canonical `conflicts` and `unresolved_items` fields.\n"
+        }
+      ]
+    }
+  ],
+  "observed_feature_competitions": []
+}

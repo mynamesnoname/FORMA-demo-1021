@@ -1,0 +1,13 @@
+{
+  "answer": "no",
+  "reason": "Neither window shows a credible absorption trough: Ca K (3928-3934 Å) and Ca H (3964-3972 Å) pixels are flat/positive noise with no dip at prediction. Ca H measured center 3977.4 Å is ~12 Å off prediction (pairing mismatch), separation 45.7 Å vs expected 34.8 Å, and K is shallower than H, opposite the required ordering. Both single-feature FA states are signal_absent; joint doublet not corroborated.",
+  "execution": {
+    "schema_version": "forma-agentic-node-execution-v1",
+    "run_id": "graph-325ff74c7f444efdb17e3f3b69698eea",
+    "branch_id": "main",
+    "node_key": "fa.real_doublet_or_not/graph-325ff74c7f444efdb17e3f3b69698eea/H1/doublet%3Acahk",
+    "node_execution_id": "a371172ea4574459a013e0b639c2578b",
+    "attempt_id": "c9a6d08b8a824d9ba5d937522acbf489",
+    "relative_dir": "FA/H1/real_doublet_or_not/doublet-cahk-adc0de4c56cfce1d/branches/main/a371172ea4574459a013e0b639c2578b"
+  }
+}

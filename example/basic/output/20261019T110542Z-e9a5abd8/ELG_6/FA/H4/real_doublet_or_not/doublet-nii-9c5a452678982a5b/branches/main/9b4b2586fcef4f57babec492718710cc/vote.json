@@ -1,0 +1,13 @@
+{
+  "answer": "no",
+  "reason": "Neither component window shows a line: at 6551.2 Å flux is a local dip (~0.43) and at 6586.7 Å it is flat continuum (~0.60), with no peak in either. Claimed centers (6598, 6634 Å) are ~47 Å off prediction and also show only continuum noise; both FA states are signal_absent, so the pair is not corroborated.",
+  "execution": {
+    "schema_version": "forma-agentic-node-execution-v1",
+    "run_id": "graph-fe0d30030bcc4939b88103e27753b2c1",
+    "branch_id": "main",
+    "node_key": "fa.real_doublet_or_not/graph-fe0d30030bcc4939b88103e27753b2c1/H4/doublet%3Anii",
+    "node_execution_id": "9b4b2586fcef4f57babec492718710cc",
+    "attempt_id": "f3299412b71a4cffba04cbc9abff1b70",
+    "relative_dir": "FA/H4/real_doublet_or_not/doublet-nii-9c5a452678982a5b/branches/main/9b4b2586fcef4f57babec492718710cc"
+  }
+}

@@ -1,0 +1,46 @@
+{
+  "schema_version": "forma-lrg-bgs-node-v1",
+  "graph_version": "forma-lrg-bgs-type-graph-v2",
+  "run_id": "graph-6f4e6510cc5d45df9da3b7be0c8597cc",
+  "branch_id": "main",
+  "hypothesis_ref": "H3",
+  "node_key": "sh2.lrg_bgs/H3/lrg_bgs.route_result",
+  "node_type": "lrg_bgs.route_result",
+  "status": "completed",
+  "input_refs": [
+    "sh2/83cf85ec4b4f421eafcffc7b90dc3aca/node"
+  ],
+  "evidence_refs": [
+    "sh2/83cf85ec4b4f421eafcffc7b90dc3aca/node"
+  ],
+  "output": {
+    "path_status": "survive",
+    "candidate_type": "LRG/BGS",
+    "reason_code": "dn4000_strong",
+    "from_graph": "LRG/BGS",
+    "to_graph": null,
+    "fixed_redshift": 0.2725121403358714,
+    "preliminary_classification": "LRG/BGS",
+    "rule_id": "project:lrg-bgs-dn4000-or-cahk-v2",
+    "rule_version": "forma-lrg-bgs-type-graph-v2",
+    "gate_inputs": {
+      "dn4000_strength": "strong",
+      "adopted_cahk_count": 2,
+      "cahk_inventory_status": "assessed"
+    },
+    "sampled_candidate_ids": [],
+    "qso_transfer_mode": null,
+    "qso_trigger_pairs": [],
+    "retained_diagnostic_pairs": [],
+    "galaxy_retention_by_mgii_pair": false,
+    "nev_measurement_id": null,
+    "unresolved_reasons": [],
+    "evidence_refs": [
+      "sh2/83cf85ec4b4f421eafcffc7b90dc3aca/node"
+    ]
+  },
+  "unresolved_reasons": [],
+  "created_by": "code",
+  "node_execution_id": "60c57a3137a14aa3a459edef37b7d01f",
+  "attempt_id": "da7b68c9ef814925b4f1f2375b4f4ae0"
+}

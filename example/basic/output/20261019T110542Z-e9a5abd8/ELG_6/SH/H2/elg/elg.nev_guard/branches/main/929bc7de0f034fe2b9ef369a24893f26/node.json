@@ -1,0 +1,32 @@
+{
+  "schema_version": "forma-elg-node-v1",
+  "graph_version": "forma-elg-type-graph-v1",
+  "run_id": "graph-fe0d30030bcc4939b88103e27753b2c1",
+  "branch_id": "main",
+  "hypothesis_ref": "H2",
+  "node_key": "sh2.elg/H2/elg.nev_guard",
+  "node_type": "elg.nev_guard",
+  "status": "completed",
+  "input_refs": [
+    "sh2/5181bdf0d05b498fa44e55d4ab042baf/node"
+  ],
+  "evidence_refs": [
+    "sh2/5181bdf0d05b498fa44e55d4ab042baf/node"
+  ],
+  "output": {
+    "line": {
+      "line_id": "line:nev-3426",
+      "measurement_id": null,
+      "sh_status": "NOT_FOUND",
+      "fa_state": null,
+      "cleaned_pairing": "no_pairing",
+      "fa_vote_artifact_refs": []
+    },
+    "adopted": false,
+    "next_node": "elg.qso_type1_guard"
+  },
+  "unresolved_reasons": [],
+  "created_by": "code",
+  "node_execution_id": "929bc7de0f034fe2b9ef369a24893f26",
+  "attempt_id": "8ff1240b48b14af8aa23b321d6ef1148"
+}

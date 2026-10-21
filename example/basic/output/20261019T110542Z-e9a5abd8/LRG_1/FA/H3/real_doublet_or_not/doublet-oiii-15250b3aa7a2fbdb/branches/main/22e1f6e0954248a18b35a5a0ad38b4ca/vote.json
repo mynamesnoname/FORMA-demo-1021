@@ -1,0 +1,13 @@
+{
+  "answer": "no",
+  "reason": "Neither component window shows a real emission feature: at ~6312 Å and ~6373 Å the flux is flat continuum with no distinct peak, and the claimed centers (6292.0, 6423.0) sit ~20 and ~50 Å off prediction. Measured separation 131 Å vs expected 61 Å, inverted amplitude ratio, and both single-feature states signal_absent — the two-component interpretation is not corroborated.",
+  "execution": {
+    "schema_version": "forma-agentic-node-execution-v1",
+    "run_id": "graph-6f4e6510cc5d45df9da3b7be0c8597cc",
+    "branch_id": "main",
+    "node_key": "fa.real_doublet_or_not/graph-6f4e6510cc5d45df9da3b7be0c8597cc/H3/doublet%3Aoiii",
+    "node_execution_id": "22e1f6e0954248a18b35a5a0ad38b4ca",
+    "attempt_id": "77aa2bd2e0974d75bf5d2d99d1b9e3d8",
+    "relative_dir": "FA/H3/real_doublet_or_not/doublet-oiii-15250b3aa7a2fbdb/branches/main/22e1f6e0954248a18b35a5a0ad38b4ca"
+  }
+}

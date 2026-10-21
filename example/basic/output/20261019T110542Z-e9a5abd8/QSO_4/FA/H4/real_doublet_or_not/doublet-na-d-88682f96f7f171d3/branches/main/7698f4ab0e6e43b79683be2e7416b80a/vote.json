@@ -1,0 +1,13 @@
+{
+  "answer": "no",
+  "reason": "Both predicted windows (5880.7 Å and 5886.7 Å) show flat, high-ivar continuum with no absorption dip. The only dip near the claimed b center is offset ~3.8 Å from prediction and sits in a low-ivar noisy patch (samples 2814-2816), consistent with a residual, not a real line. No credible pair or unpaired partner is visible.",
+  "execution": {
+    "schema_version": "forma-agentic-node-execution-v1",
+    "run_id": "graph-853b617a68f04c36bd82f06bdb770ac4",
+    "branch_id": "main",
+    "node_key": "fa.real_doublet_or_not/graph-853b617a68f04c36bd82f06bdb770ac4/H4/doublet%3Ana-d",
+    "node_execution_id": "7698f4ab0e6e43b79683be2e7416b80a",
+    "attempt_id": "e9a4c84b8ddd42b0b200eff76cb867d5",
+    "relative_dir": "FA/H4/real_doublet_or_not/doublet-na-d-88682f96f7f171d3/branches/main/7698f4ab0e6e43b79683be2e7416b80a"
+  }
+}

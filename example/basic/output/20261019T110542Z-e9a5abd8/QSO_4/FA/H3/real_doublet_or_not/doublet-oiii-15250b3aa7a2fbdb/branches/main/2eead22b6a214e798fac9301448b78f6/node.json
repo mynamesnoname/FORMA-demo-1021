@@ -1,0 +1,178 @@
+{
+  "schema_version": "forma-fa-doublet-review-v1",
+  "node_type": "fa.doublet_review",
+  "node_key": "fa.real_doublet_or_not/graph-853b617a68f04c36bd82f06bdb770ac4/H3/doublet%3Aoiii",
+  "run_id": "graph-853b617a68f04c36bd82f06bdb770ac4",
+  "branch_id": "main",
+  "hypothesis_ref": "H3",
+  "doublet_id": "doublet:oiii",
+  "claim_mode": "complete_pair",
+  "components": [
+    {
+      "line_id": "line:oiii-4960",
+      "line_name": "[O III]a",
+      "rest_angstrom": 4960.3,
+      "expected_obs_angstrom": 6141.111741496962,
+      "sh_status": "LIKELY",
+      "measurement_id": "cwt:em:0009",
+      "measurement_source": "CWT",
+      "measured_center_angstrom": 6140.800000000087,
+      "amplitude": 20.82027292251587,
+      "measured_offset_from_expected_angstrom": -0.31174149687558383,
+      "fa_state": "signal_present",
+      "cleaned_pairing": "adopted",
+      "fa_vote_artifact_refs": [
+        "fa/957cb18c5af449b9bec5b51e58b2d501/node",
+        "fa/ba81d5cbd6654ef79ef9697a40f89507/node",
+        "fa/c62d6e1ecd9241229d7c784f81683a10/node"
+      ]
+    },
+    {
+      "line_id": "line:oiii-5008",
+      "line_name": "[O III]b",
+      "rest_angstrom": 5008.2,
+      "expected_obs_angstrom": 6200.414455529924,
+      "sh_status": "LIKELY",
+      "measurement_id": "cwt:em:0010",
+      "measurement_source": "CWT",
+      "measured_center_angstrom": 6200.0000000001,
+      "amplitude": 58.627488136291504,
+      "measured_offset_from_expected_angstrom": -0.4144555298244086,
+      "fa_state": "signal_present",
+      "cleaned_pairing": "adopted",
+      "fa_vote_artifact_refs": [
+        "fa/781e9feac4824252aebbb77ee9f04d2e/node",
+        "fa/ef5f0edabadc4059835fee5165ee9d59/node",
+        "fa/f948c5dbbca140a9b2f7986330216187/node"
+      ]
+    }
+  ],
+  "metrics": {
+    "expected_separation_angstrom": 59.302714032962285,
+    "registry_rest_separation_angstrom": 47.9,
+    "measured_separation_angstrom": 59.20000000001346,
+    "separation_difference_angstrom": -0.10271403294882475,
+    "amplitude_ratio_a_over_b": 0.35512817595246304,
+    "reference_ratio_window_a_over_b": [
+      0.25,
+      0.5
+    ],
+    "reference_ratio_note": "b:a ≈ 3:1",
+    "reference_ratio_within_window": true,
+    "reference_ratio_is_advisory": true
+  },
+  "coverage": {
+    "requested_window_angstrom": [
+      6061.111741496962,
+      6280.414455529924
+    ],
+    "actual_window_angstrom": [
+      6061.600000000069,
+      6280.000000000118
+    ],
+    "spectrum_bounds_angstrom": [
+      3600.0,
+      9824.000000000524
+    ],
+    "component_cores": [
+      {
+        "line_id": "line:oiii-4960",
+        "predicted_obs_angstrom": 6141.111741496962,
+        "center_within_spectrum_bounds": true,
+        "samples": 38,
+        "valid_samples": 38,
+        "masked_samples": 0,
+        "assessable": true
+      },
+      {
+        "line_id": "line:oiii-5008",
+        "predicted_obs_angstrom": 6200.414455529924,
+        "center_within_spectrum_bounds": true,
+        "samples": 38,
+        "valid_samples": 38,
+        "masked_samples": 0,
+        "assessable": true
+      }
+    ],
+    "assessable": true,
+    "unreviewable_reason": null
+  },
+  "status": "complete",
+  "pair_supported": true,
+  "consultative_only": true,
+  "method_snapshot": {
+    "context_margin_angstrom": 80.0,
+    "component_check_half_angstrom": 15.0,
+    "cahk_outer_reference_sigma": 3.0,
+    "min_valid_component_samples": 5,
+    "vote_quorum": 3,
+    "max_attempts_per_vote_seat": 2
+  },
+  "vote_summary": {
+    "yes": 3,
+    "no": 0,
+    "yes_fraction": 1.0,
+    "assurance": "assured"
+  },
+  "ballots": [
+    {
+      "seat": 0,
+      "answer": "yes",
+      "reason": "Both components are independently visible: a narrow peak at ~6141 Å (max ~27, offset −0.31 Å) and a stronger peak at ~6200 Å (max ~68, offset −0.41 Å), each returning to baseline. Measured separation 59.2 Å matches expected 59.3 Å, and the a/b ratio ~0.36 lies in the advisory window. Joint two-component interpretation is corroborated.",
+      "vote_ref": "fa_doublet/50b2455e81314ace97609caf4b712a5c/vote.json"
+    },
+    {
+      "seat": 1,
+      "answer": "yes",
+      "reason": "Both windows show clear emission peaks: a at ~6140.8 (flux ~27 vs continuum ~6) and b at ~6200.8 (flux ~68 vs continuum ~6), separated by ~59.2 Å matching the predicted 59.3 Å. The weaker a component is well detected above noise, and the a/b amplitude ratio ~0.36 sits within the advisory 0.25-0.5 window. Centers match predictions within ~0.4 Å, so the two-component interpretation is corroborated.",
+      "vote_ref": "fa_doublet/76f42235f9574c5281191e8c32dd74f0/vote.json"
+    },
+    {
+      "seat": 2,
+      "answer": "yes",
+      "reason": "Both windows show clear, independent emission peaks: a narrow feature at ~6140.8 Å (peak ~27 over continuum ~6) and a stronger peak at ~6200.4 Å (peak ~68). Measured separation 59.2 Å matches the predicted 59.3 Å, and the a/b amplitude ratio ~0.36 lies within the advisory 0.25–0.5 window. Centers are within ~0.4 Å of prediction, so the two-component pairing is corroborated.",
+      "vote_ref": "fa_doublet/1ad1d183394c43789158389146b5b0f9/vote.json"
+    }
+  ],
+  "successful_votes": 3,
+  "required_votes": 3,
+  "failed_seats": 0,
+  "model_usage": {
+    "calls": 3,
+    "input_tokens": 29175,
+    "output_tokens": 784,
+    "cache_hit_tokens": 28416,
+    "cache_hit_reported_calls": 3,
+    "cache_hit_unreported_calls": 0
+  },
+  "prompt_identity": {
+    "system_sha256": "92cc96d1542cdf1088b68d4688ccd8de256ac572ab050c2a5e087060f5955e1b",
+    "user_sha256": "9e694fbfb1b5a5d09d6e888765202596921d8150481f9fd53053cdaabc6cbf0e",
+    "tool_name": "submit_doublet_vote",
+    "prompt_text_sha256": "0292832378727bb8e72e61b479eee472e50dd58aed399ec1453f08584b7db824"
+  },
+  "source_refs": [
+    "sh/H3/node",
+    "sh/H3/catalog",
+    "sh/H3/judgments",
+    "spectrum_npz",
+    "fa/957cb18c5af449b9bec5b51e58b2d501/node",
+    "fa/ba81d5cbd6654ef79ef9697a40f89507/node",
+    "fa/c62d6e1ecd9241229d7c784f81683a10/node",
+    "fa/781e9feac4824252aebbb77ee9f04d2e/node",
+    "fa/ef5f0edabadc4059835fee5165ee9d59/node",
+    "fa/f948c5dbbca140a9b2f7986330216187/node"
+  ],
+  "attempt_refs": [
+    "fa_doublet/50b2455e81314ace97609caf4b712a5c/vote.json",
+    "fa_doublet/50b2455e81314ace97609caf4b712a5c/session.md",
+    "fa_doublet/50b2455e81314ace97609caf4b712a5c/model_usage.json",
+    "fa_doublet/76f42235f9574c5281191e8c32dd74f0/vote.json",
+    "fa_doublet/76f42235f9574c5281191e8c32dd74f0/session.md",
+    "fa_doublet/76f42235f9574c5281191e8c32dd74f0/model_usage.json",
+    "fa_doublet/1ad1d183394c43789158389146b5b0f9/vote.json",
+    "fa_doublet/1ad1d183394c43789158389146b5b0f9/session.md",
+    "fa_doublet/1ad1d183394c43789158389146b5b0f9/model_usage.json"
+  ],
+  "node_execution_id": "2eead22b6a214e798fac9301448b78f6"
+}

@@ -1,0 +1,259 @@
+[
+  {
+    "line_id": "line:nev-3426",
+    "measurement_id": null,
+    "status": "NOT_FOUND",
+    "reason_codes": [
+      "weak_snr",
+      "no_cwt_feature"
+    ],
+    "comment": "Fit centre 3958.8 is 11.7 A blueward of prediction (within 20 A) but local SNR 0.42 and no CWT feature; not credible."
+  },
+  {
+    "line_id": "line:oii-3727",
+    "measurement_id": "fit:H6:0007",
+    "status": "MARGINAL",
+    "reason_codes": [
+      "low_snr",
+      "no_cwt_feature",
+      "weak_detection"
+    ],
+    "comment": "Fit centre 4319.9 matches prediction (0.6 A offset) but local SNR 4.25 and no CWT ridge; weak candidate only."
+  },
+  {
+    "line_id": "line:cak-3934-abs",
+    "measurement_id": "fit:H6:0004",
+    "status": "MARGINAL",
+    "reason_codes": [
+      "blend_cah",
+      "depth_ordering_uncertain",
+      "low_snr"
+    ],
+    "comment": "Doublet fit centre 4561.0 within 1 A of prediction; Ca K depth (-1.65) slightly shallower than Ca H (-1.75), ordering uncertain; local SNR 3.5. Plausible weak component retained."
+  },
+  {
+    "line_id": "line:cah-3969-abs",
+    "measurement_id": "fit:H6:0005",
+    "status": "MARGINAL",
+    "reason_codes": [
+      "blend_cak",
+      "depth_ordering_uncertain",
+      "low_snr"
+    ],
+    "comment": "Doublet fit centre 4601.6 within 1.1 A of prediction; blended with Ca K and H-epsilon region; local SNR 3.5. Plausible weak component retained."
+  },
+  {
+    "line_id": "line:heps-3970",
+    "measurement_id": null,
+    "status": "NOT_FOUND",
+    "reason_codes": [
+      "zero_amplitude",
+      "degenerate_fit",
+      "blend_cah"
+    ],
+    "comment": "Fit returned zero amplitude with 31012 km/s width at 4552.6; no credible emission; region blended with Ca H absorption."
+  },
+  {
+    "line_id": "line:heps-3970-abs",
+    "measurement_id": "fit:H6:0012",
+    "status": "MARGINAL",
+    "reason_codes": [
+      "blend_cah",
+      "low_snr"
+    ],
+    "comment": "Absorption fit centre 4601.7 matches prediction (0.7 A); local SNR 3.2; blended with Ca H absorption, ambiguous attribution."
+  },
+  {
+    "line_id": "line:hdel-4102",
+    "measurement_id": null,
+    "status": "NOT_FOUND",
+    "reason_codes": [
+      "center_at_bound",
+      "rejected_fit"
+    ],
+    "comment": "Only fit has center_at_bound (4704.9, 50 A blueward) and is not selectable; no CWT emission feature."
+  },
+  {
+    "line_id": "line:hdel-4102-abs",
+    "measurement_id": "fit:H6:0013",
+    "status": "MARGINAL",
+    "reason_codes": [
+      "low_snr",
+      "weak_detection"
+    ],
+    "comment": "Absorption fit centre 4755.3 matches prediction (0.4 A); local SNR 1.9, weak but plausible."
+  },
+  {
+    "line_id": "line:gband-4305-abs",
+    "measurement_id": "fit:H6:0014",
+    "status": "MARGINAL",
+    "reason_codes": [
+      "low_snr",
+      "broad_width"
+    ],
+    "comment": "Absorption fit centre 4989.5 matches prediction (0.3 A); local SNR 3.0; broad FWHM 1069 km/s."
+  },
+  {
+    "line_id": "line:hgam-4341",
+    "measurement_id": null,
+    "status": "NOT_FOUND",
+    "reason_codes": [
+      "center_at_bound",
+      "zero_amplitude",
+      "rejected_fit"
+    ],
+    "comment": "Fit has center_at_bound at 5081.7 with zero amplitude; not selectable; no CWT emission feature."
+  },
+  {
+    "line_id": "line:hgam-4341-abs",
+    "measurement_id": "fit:H6:0015",
+    "status": "MARGINAL",
+    "reason_codes": [
+      "low_snr",
+      "weak_detection"
+    ],
+    "comment": "Absorption fit centre 5033.5 within 1.8 A of prediction; local SNR 1.5, weak."
+  },
+  {
+    "line_id": "line:hbet-4862",
+    "measurement_id": null,
+    "status": "NOT_FOUND",
+    "reason_codes": [
+      "low_snr",
+      "weak_amplitude"
+    ],
+    "comment": "Fit centre 5602.8 is 32.7 A blueward with local SNR 0.89 and small amplitude; not credible emission."
+  },
+  {
+    "line_id": "line:hbet-4862-abs",
+    "measurement_id": "fit:H6:0016",
+    "status": "MARGINAL",
+    "reason_codes": [
+      "offset_weak",
+      "low_snr"
+    ],
+    "comment": "Absorption fit centre 5648.6 is 13.1 A redward (within 20 A); local SNR 2.05; weak candidate."
+  },
+  {
+    "line_id": "line:oiii-4960",
+    "measurement_id": null,
+    "status": "NOT_FOUND",
+    "reason_codes": [
+      "separation_fail",
+      "low_snr",
+      "rejected_fit"
+    ],
+    "comment": "Doublet fit separation failed; component centre 5740.1 is 8.5 A off with local SNR 2.85 and ratio 7.9; not credible."
+  },
+  {
+    "line_id": "line:oiii-5008",
+    "measurement_id": "fit:H6:0001",
+    "status": "MARGINAL",
+    "reason_codes": [
+      "doublet_separation_fail",
+      "blend_oiiia"
+    ],
+    "comment": "Centre 5804.1 matches prediction (0.05 A) but doublet separation failed and companion [O III]a is unreliable; treat as marginal single-component detection."
+  },
+  {
+    "line_id": "line:mgi-5176-abs",
+    "measurement_id": "fit:H6:0017",
+    "status": "MARGINAL",
+    "reason_codes": [
+      "low_snr",
+      "broad_width"
+    ],
+    "comment": "Absorption fit centre 6001.2 within 1.8 A of prediction; local SNR 1.7; broad FWHM 2790 km/s."
+  },
+  {
+    "line_id": "line:nad1-5891-abs",
+    "measurement_id": "cwt:abs:0000",
+    "status": "MARGINAL",
+    "reason_codes": [
+      "blend_nad_doublet",
+      "shared_feature"
+    ],
+    "comment": "CWT trough at 6831.2 (z=0.1595) lies between Na D1/D2 predictions; single feature shared across the Na D multiplet, so component attribution ambiguous."
+  },
+  {
+    "line_id": "line:nad-5895-abs",
+    "measurement_id": null,
+    "status": "NOT_FOUND",
+    "reason_codes": [
+      "blend_nad_doublet",
+      "shared_feature"
+    ],
+    "comment": "Blended Na D label; the single CWT trough at 6831.2 is adopted for the D1/D2 doublet components, so no separate measurement is adopted here."
+  },
+  {
+    "line_id": "line:nad2-5897-abs",
+    "measurement_id": "cwt:abs:0000",
+    "status": "MARGINAL",
+    "reason_codes": [
+      "blend_nad_doublet",
+      "shared_feature"
+    ],
+    "comment": "CWT trough at 6831.2 (z=0.1583) matches Na D2 within 3.6 A; shared unresolved feature, ratio diagnostics not usable."
+  },
+  {
+    "line_id": "line:nii-6549",
+    "measurement_id": null,
+    "status": "NOT_FOUND",
+    "reason_codes": [
+      "offset_reject",
+      "blend_halpha"
+    ],
+    "comment": "Nearest CWT peak 7632.0 implies z=0.1652, 41 A redward of prediction (>20 A); no credible [N II]a measurement."
+  },
+  {
+    "line_id": "line:half-6564",
+    "measurement_id": null,
+    "status": "NOT_FOUND",
+    "reason_codes": [
+      "offset_reject",
+      "blend_nii"
+    ],
+    "comment": "Nearest CWT peak 7632.0 implies z=0.1626, 24 A redward; no targeted fit; not adopted as H-alpha."
+  },
+  {
+    "line_id": "line:half-6564-abs",
+    "measurement_id": "cwt:abs:0002",
+    "status": "MARGINAL",
+    "reason_codes": [
+      "offset_weak",
+      "blend_nii",
+      "edge_region"
+    ],
+    "comment": "CWT trough 7648.0 implies z=0.1650, 40 A redward of prediction (weaker offset band); possible blend with [N II] region; marginal."
+  },
+  {
+    "line_id": "line:nii-6585",
+    "measurement_id": "cwt:em:0002",
+    "status": "LIKELY",
+    "reason_codes": [
+      "strong_cwt",
+      "position_match"
+    ],
+    "comment": "CWT peak 7632.0 (z=0.1589) matches [N II]b within 0.2 A; strong ridge 19, SNR 31.6; note possible H-alpha blend ambiguity."
+  },
+  {
+    "line_id": "line:sii-6718",
+    "measurement_id": "fit:H6:0002",
+    "status": "LIKELY",
+    "reason_codes": [
+      "doublet_separation_pass",
+      "position_match"
+    ],
+    "comment": "Doublet fit centre 7786.2 matches prediction (0.2 A); separation passes; ratio 0.83 near expected 1."
+  },
+  {
+    "line_id": "line:sii-6732",
+    "measurement_id": "fit:H6:0003",
+    "status": "LIKELY",
+    "reason_codes": [
+      "doublet_separation_pass",
+      "position_match"
+    ],
+    "comment": "Doublet fit centre 7803.8 within 1.1 A of prediction; separation passes; consistent [S II] doublet."
+  }
+]

@@ -1,0 +1,27 @@
+{
+  "key": "fa.real_feature_or_not/graph-325ff74c7f444efdb17e3f3b69698eea/fit:H6:0012",
+  "measurement_id": "fit:H6:0012",
+  "answer": "no",
+  "center": 7010.401,
+  "kind": "absorption",
+  "vi_catalog_path": "/mnt/linux_share/code/FORMA/example/basic/output/20261019T110542Z-e9a5abd8/QSO_116/VI/measurements/hypothesis_005_measurement_catalog.json",
+  "vi_catalog_sha256": "543822c9fbeb7e130f09481ecaea9614dc0994ffe9de57f665f1d0669fc901fb",
+  "spectrum_npz_sha256": "9cf53ea6486de2048d61660e3ba27c145e67bd644343281aa2072e398fbf6d8c",
+  "prompt_identity": {
+    "system_sha256": "d248b30aa12429aa77632f4b5c9776f069a3e1350015dc7f17a171137c39ad13",
+    "user_sha256": "b2636f821f2c86e98a342c9b419c59aa439f45cf03564d7cf229c361f531e33b",
+    "tool_name": "submit_feature_reality",
+    "prompt_text_sha256": "8e59809e3967e7f7aea449609fa951ffcda87794a64375fdb9aa7a831cdf16c7"
+  },
+  "session_path": "/mnt/linux_share/code/FORMA/example/basic/output/20261019T110542Z-e9a5abd8/QSO_116/FA/H6/real_feature_or_not/fit-H6-0012-dd091a8a9868756a/branches/main/f5433e63884e47f085dbc79655e92324/session.md",
+  "execution": {
+    "schema_version": "forma-agentic-node-execution-v1",
+    "run_id": "graph-325ff74c7f444efdb17e3f3b69698eea",
+    "branch_id": "main",
+    "node_key": "fa.real_feature_or_not/graph-325ff74c7f444efdb17e3f3b69698eea/fit:H6:0012",
+    "node_execution_id": "f5433e63884e47f085dbc79655e92324",
+    "attempt_id": "125699c2469c4af0b6a1d2e36f34a572",
+    "relative_dir": "FA/H6/real_feature_or_not/fit-H6-0012-dd091a8a9868756a/branches/main/f5433e63884e47f085dbc79655e92324"
+  },
+  "session_sha256": "da6a7e7ca17e47e0bd58e635b3466b0bfed03e15f8e80658b0ffc9c1385d4bbe"
+}

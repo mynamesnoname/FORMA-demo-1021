@@ -1,0 +1,13 @@
+{
+  "answer": "no",
+  "reason": "Neither window shows a credible line: at 4953.5 Å the flux (~2.6–3.7) is indistinguishable from continuum scatter, and at 5001.4 Å the modest bump (~4.0) is matched by surrounding values, with the claimed center 17.4 Å off prediction and amplitude 0.0. No paired partner is supported.",
+  "execution": {
+    "schema_version": "forma-agentic-node-execution-v1",
+    "run_id": "graph-df7434d5533647e999870708120307b0",
+    "branch_id": "main",
+    "node_key": "fa.real_doublet_or_not/graph-df7434d5533647e999870708120307b0/H4/doublet%3Aoiii",
+    "node_execution_id": "7cce10cedb09465bbc657f3c89676886",
+    "attempt_id": "e4d37ccc3bba45ff92d51353bcfbd320",
+    "relative_dir": "FA/H4/real_doublet_or_not/doublet-oiii-15250b3aa7a2fbdb/branches/main/7cce10cedb09465bbc657f3c89676886"
+  }
+}

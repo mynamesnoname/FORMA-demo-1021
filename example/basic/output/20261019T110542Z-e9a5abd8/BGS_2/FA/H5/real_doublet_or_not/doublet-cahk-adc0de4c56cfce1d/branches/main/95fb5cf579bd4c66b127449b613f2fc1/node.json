@@ -1,0 +1,175 @@
+{
+  "schema_version": "forma-fa-doublet-review-v1",
+  "node_type": "fa.doublet_review",
+  "node_key": "fa.real_doublet_or_not/graph-df7434d5533647e999870708120307b0/H5/doublet%3Acahk",
+  "run_id": "graph-df7434d5533647e999870708120307b0",
+  "branch_id": "main",
+  "hypothesis_ref": "H5",
+  "doublet_id": "doublet:cahk",
+  "claim_mode": "complete_pair",
+  "components": [
+    {
+      "line_id": "line:cak-3934-abs",
+      "line_name": "Ca K_abs",
+      "rest_angstrom": 3934.8,
+      "expected_obs_angstrom": 9517.758150071337,
+      "sh_status": "MARGINAL",
+      "measurement_id": "fit:H5:0000",
+      "measurement_source": "fit_doublet",
+      "measured_center_angstrom": 9505.281,
+      "amplitude": -0.763722,
+      "measured_offset_from_expected_angstrom": -12.477150071335927,
+      "fa_state": "signal_absent",
+      "cleaned_pairing": "rejected_measurement",
+      "fa_vote_artifact_refs": [
+        "fa/53b4475c0b26423293ab82ef87fd5a20/node",
+        "fa/5b93b5db95ea4c56b82f88c67c52248a/node",
+        "fa/c7ff985823a24adb932051973c834ed2/node"
+      ]
+    },
+    {
+      "line_id": "line:cah-3969-abs",
+      "line_name": "Ca H_abs",
+      "rest_angstrom": 3969.6,
+      "expected_obs_angstrom": 9601.93472413418,
+      "sh_status": "MARGINAL",
+      "measurement_id": "fit:H5:0001",
+      "measurement_source": "fit_doublet",
+      "measured_center_angstrom": 9599.668,
+      "amplitude": -0.0,
+      "measured_offset_from_expected_angstrom": -2.2667241341805493,
+      "fa_state": "signal_absent",
+      "cleaned_pairing": "rejected_measurement",
+      "fa_vote_artifact_refs": [
+        "fa/2e09a332774949db98d4a4bbeef0c197/node",
+        "fa/06ac50a3ca3049cf94cd3fa12559e8b5/node",
+        "fa/ae39d42cfcd4472b9bf1728f9ad0232c/node"
+      ]
+    }
+  ],
+  "metrics": {
+    "expected_separation_angstrom": 84.17657406284343,
+    "registry_rest_separation_angstrom": 34.8,
+    "measured_separation_angstrom": 94.3869999999988,
+    "separation_difference_angstrom": 10.210425937155378,
+    "amplitude_ratio_a_over_b": null,
+    "reference_ratio_window_a_over_b": null,
+    "reference_ratio_note": "Ca K must be deeper than Ca H",
+    "reference_ratio_within_window": null,
+    "reference_ratio_is_advisory": true
+  },
+  "coverage": {
+    "requested_window_angstrom": [
+      9437.758150071337,
+      9681.93472413418
+    ],
+    "actual_window_angstrom": [
+      9438.400000000436,
+      9681.600000000491
+    ],
+    "spectrum_bounds_angstrom": [
+      3600.0,
+      9824.000000000524
+    ],
+    "component_cores": [
+      {
+        "line_id": "line:cak-3934-abs",
+        "predicted_obs_angstrom": 9517.758150071337,
+        "center_within_spectrum_bounds": true,
+        "samples": 37,
+        "valid_samples": 37,
+        "masked_samples": 0,
+        "assessable": true
+      },
+      {
+        "line_id": "line:cah-3969-abs",
+        "predicted_obs_angstrom": 9601.93472413418,
+        "center_within_spectrum_bounds": true,
+        "samples": 38,
+        "valid_samples": 38,
+        "masked_samples": 0,
+        "assessable": true
+      }
+    ],
+    "assessable": true,
+    "unreviewable_reason": null
+  },
+  "status": "complete",
+  "pair_supported": false,
+  "consultative_only": true,
+  "method_snapshot": {
+    "context_margin_angstrom": 80.0,
+    "component_check_half_angstrom": 15.0,
+    "cahk_outer_reference_sigma": 3.0,
+    "min_valid_component_samples": 5,
+    "vote_quorum": 3,
+    "max_attempts_per_vote_seat": 2
+  },
+  "vote_summary": {
+    "yes": 0,
+    "no": 3,
+    "yes_fraction": 0.0,
+    "assurance": "assured"
+  },
+  "ballots": [
+    {
+      "seat": 0,
+      "answer": "no",
+      "reason": "Neither component window shows an absorption dip: around 9517.8 Å (Ca K) the flux stays at the continuum level (~5.0-5.2) with no negative feature, and around 9601.9 Å (Ca H) the flux is likewise flat continuum (~5.0-5.3). Both single-feature states are signal_absent, and the claimed centers are offset from prediction (K by -12.5 Å). No two-component absorption doublet is corroborated in the usable pixels.",
+      "vote_ref": "fa_doublet/01e17d3e996141c9a4150875414b5221/vote.json"
+    },
+    {
+      "seat": 1,
+      "answer": "no",
+      "reason": "Neither window shows a real absorption component. Ca H at ~9600-9602 Å is flat high-S/N continuum (flux ~5.0-5.3, ivar ~45) with no dip (amplitude -0.0). Ca K's only dip is a single low-S/N point near 9505 Å, ~12.5 Å off the 9517.8 Å prediction, with no trough at the predicted position. Separation (94.4 Å) also exceeds expected (84.2 Å). No corroborating two-component structure.",
+      "vote_ref": "fa_doublet/16e770829e1c43c481b7b77f97637c3a/vote.json"
+    },
+    {
+      "seat": 2,
+      "answer": "no",
+      "reason": "Neither component window shows an absorption dip: Ca K region (~9514-9521 Å) and Ca H region (~9598-9606 Å) are flat continuum at ~5.0-5.3 flux with high ivar. K center offset -12.5 Å and separation excess ~10 Å further weaken the pairing; both FA states signal_absent. No visual support for a two-component doublet.",
+      "vote_ref": "fa_doublet/0cb4b6fe9b2b4a93a813a3747a389be8/vote.json"
+    }
+  ],
+  "successful_votes": 3,
+  "required_votes": 3,
+  "failed_seats": 0,
+  "model_usage": {
+    "calls": 3,
+    "input_tokens": 32007,
+    "output_tokens": 1028,
+    "cache_hit_tokens": 1536,
+    "cache_hit_reported_calls": 3,
+    "cache_hit_unreported_calls": 0
+  },
+  "prompt_identity": {
+    "system_sha256": "92cc96d1542cdf1088b68d4688ccd8de256ac572ab050c2a5e087060f5955e1b",
+    "user_sha256": "7d179c8b6b1f12ee7a254042a96a68f09a55211b76192ef9bd17fb9bae08f626",
+    "tool_name": "submit_doublet_vote",
+    "prompt_text_sha256": "cb6c83475627758ab0f471a1e38e38472a783fa8a10c851f1b6e0a540876ffe0"
+  },
+  "source_refs": [
+    "sh/H5/node",
+    "sh/H5/catalog",
+    "sh/H5/judgments",
+    "spectrum_npz",
+    "fa/53b4475c0b26423293ab82ef87fd5a20/node",
+    "fa/5b93b5db95ea4c56b82f88c67c52248a/node",
+    "fa/c7ff985823a24adb932051973c834ed2/node",
+    "fa/2e09a332774949db98d4a4bbeef0c197/node",
+    "fa/06ac50a3ca3049cf94cd3fa12559e8b5/node",
+    "fa/ae39d42cfcd4472b9bf1728f9ad0232c/node"
+  ],
+  "attempt_refs": [
+    "fa_doublet/01e17d3e996141c9a4150875414b5221/vote.json",
+    "fa_doublet/01e17d3e996141c9a4150875414b5221/session.md",
+    "fa_doublet/01e17d3e996141c9a4150875414b5221/model_usage.json",
+    "fa_doublet/16e770829e1c43c481b7b77f97637c3a/vote.json",
+    "fa_doublet/16e770829e1c43c481b7b77f97637c3a/session.md",
+    "fa_doublet/16e770829e1c43c481b7b77f97637c3a/model_usage.json",
+    "fa_doublet/0cb4b6fe9b2b4a93a813a3747a389be8/vote.json",
+    "fa_doublet/0cb4b6fe9b2b4a93a813a3747a389be8/session.md",
+    "fa_doublet/0cb4b6fe9b2b4a93a813a3747a389be8/model_usage.json"
+  ],
+  "node_execution_id": "95fb5cf579bd4c66b127449b613f2fc1"
+}

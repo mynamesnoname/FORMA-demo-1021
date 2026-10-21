@@ -1,0 +1,13 @@
+{
+  "answer": "no",
+  "reason": "Neither component is corroborated at its predicted position. At [N II]b (6586.4 Å) the flux (~0.53-0.60) is flat continuum with no feature. The claimed [N II]a center (6504.9 Å) is ~46 Å from prediction — a pairing mismatch, not a valid anchor — and the actual predicted position (6550.9 Å) shows only continuum. No credible partner exists, so the two-component interpretation fails.",
+  "execution": {
+    "schema_version": "forma-agentic-node-execution-v1",
+    "run_id": "graph-fe0d30030bcc4939b88103e27753b2c1",
+    "branch_id": "main",
+    "node_key": "fa.real_doublet_or_not/graph-fe0d30030bcc4939b88103e27753b2c1/H3/doublet%3Anii",
+    "node_execution_id": "38d00aaa629a482ebc171807edf91ab2",
+    "attempt_id": "5a7f5cffeb7b435ab962698e27b4adb6",
+    "relative_dir": "FA/H3/real_doublet_or_not/doublet-nii-9c5a452678982a5b/branches/main/38d00aaa629a482ebc171807edf91ab2"
+  }
+}

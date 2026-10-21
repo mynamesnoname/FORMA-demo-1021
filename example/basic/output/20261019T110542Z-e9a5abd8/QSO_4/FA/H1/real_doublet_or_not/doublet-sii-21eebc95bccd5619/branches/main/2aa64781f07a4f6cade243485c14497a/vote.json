@@ -1,0 +1,13 @@
+{
+  "answer": "yes",
+  "reason": "Two distinct, resolved emission peaks in the usable pixels: component a peaks at 8317.6-8318.4 (flux ~10 vs continuum ~5.5) and component b peaks at 8336.0 (flux ~8.6), separated by 17.6 Å vs predicted 17.83 Å. Both centers match their predictions within ~2 Å, amplitudes are comparable (ratio 1.16), and a clear trough (~5.1 at 8325-8326) separates them, so this is a genuine two-component pair rather than a blend.",
+  "execution": {
+    "schema_version": "forma-agentic-node-execution-v1",
+    "run_id": "graph-853b617a68f04c36bd82f06bdb770ac4",
+    "branch_id": "main",
+    "node_key": "fa.real_doublet_or_not/graph-853b617a68f04c36bd82f06bdb770ac4/H1/doublet%3Asii",
+    "node_execution_id": "2aa64781f07a4f6cade243485c14497a",
+    "attempt_id": "e0bc67949a8746238fb2030a665283dd",
+    "relative_dir": "FA/H1/real_doublet_or_not/doublet-sii-21eebc95bccd5619/branches/main/2aa64781f07a4f6cade243485c14497a"
+  }
+}

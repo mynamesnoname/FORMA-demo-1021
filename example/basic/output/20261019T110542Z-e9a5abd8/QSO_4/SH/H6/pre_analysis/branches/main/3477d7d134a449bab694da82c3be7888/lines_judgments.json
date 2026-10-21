@@ -1,0 +1,58 @@
+[
+  {
+    "line_id": "line:civ-1549",
+    "measurement_id": null,
+    "status": "NOT_FOUND",
+    "reason_codes": [
+      "no_cwt_feature",
+      "fit_zero_amplitude",
+      "fit_offset"
+    ],
+    "comment": "No CWT peak near 4496 A; nearest peaks 4242/4617 A are far off. Targeted fit at 4507.1 A has zero amplitude and no SNR, so not adoptable."
+  },
+  {
+    "line_id": "line:heii-1640",
+    "measurement_id": null,
+    "status": "NOT_FOUND",
+    "reason_codes": [
+      "no_cwt_feature",
+      "fit_zero_amplitude",
+      "fit_offset"
+    ],
+    "comment": "No CWT peak near 4762 A (nearest 4791 A is 30 A off). Targeted fit at 4805.9 A has zero amplitude and absurd 21621 km/s width; not credible."
+  },
+  {
+    "line_id": "line:ciii-1909",
+    "measurement_id": null,
+    "status": "NOT_FOUND",
+    "reason_codes": [
+      "no_cwt_feature",
+      "fit_zero_amplitude",
+      "fit_offset"
+    ],
+    "comment": "No CWT peak near 5541 A. Targeted fit at 5503.9 A has zero amplitude and 6203 km/s width; not adoptable."
+  },
+  {
+    "line_id": "line:mgii-2800",
+    "measurement_id": "cwt:em:0012",
+    "status": "LIKELY",
+    "reason_codes": [
+      "cwt_peak",
+      "offset_ok",
+      "strong_snr"
+    ],
+    "comment": "CWT peak at 8127.2 A (z=1.9026) matches predicted 8127.7 A within 0.5 A; SNR 22.7, ridge 22, FWHM 755 km/s. Red-edge caveat but credible."
+  },
+  {
+    "line_id": "line:mgii-2800-abs",
+    "measurement_id": "cwt:abs:0021",
+    "status": "MARGINAL",
+    "reason_codes": [
+      "cwt_trough",
+      "offset_weak",
+      "blend_with_emission",
+      "low_snr"
+    ],
+    "comment": "Trough at 8120.0 A (z=1.9000) is 7.7 A blueward of predicted; SNR 9.5, ridge 5. Sits in the wing of the strong Mg II emission peak at 8127.2 A, so blend ambiguity; weak but plausible absorption component."
+  }
+]

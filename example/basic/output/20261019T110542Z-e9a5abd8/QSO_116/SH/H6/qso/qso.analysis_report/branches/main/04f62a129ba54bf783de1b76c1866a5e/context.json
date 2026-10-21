@@ -1,0 +1,643 @@
+{
+  "run_id": "graph-325ff74c7f444efdb17e3f3b69698eea",
+  "branch_id": "main",
+  "hypothesis_ref": "H6",
+  "fixed_redshift": "0.7079175775287458",
+  "preliminary_classification": "Type 1 QSO",
+  "graph_handoff": null,
+  "spectrum_summary": {
+    "wavelength_min_angstrom": 3600.0,
+    "wavelength_max_angstrom": 9824.000000000524,
+    "masked_regions": [],
+    "measurement_catalog_ref": "sh/H6/catalog"
+  },
+  "terminal": {
+    "source_node_ref": "sh2/3ee7584874ff49f9862661771dbfaf44/node",
+    "path_status": "survive",
+    "candidate_type": "Type 1 QSO",
+    "rule_id": "project:qso-type1-formal-gate",
+    "rule_version": "forma-qso-entry-v1",
+    "reason_codes": []
+  },
+  "line_records": [
+    {
+      "line_id": "line:mgii-2800",
+      "line_name": "Mg II",
+      "predicted_obs_angstrom": 4782.169217080488,
+      "measurement_id": "cwt:em:0000",
+      "measured_center_angstrom": 4768.000000000266,
+      "measurement_source": "CWT",
+      "fwhm_km_s": 2497.013289890503,
+      "measurement_flags": [],
+      "sh_status": "MARGINAL",
+      "fa_state": "signal_present",
+      "vote_summary": {
+        "yes": 3,
+        "no": 0,
+        "assurance": "assured"
+      },
+      "cleaned_pairing": "adopted",
+      "graph_gate_state": "paired"
+    },
+    {
+      "line_id": "line:mgii-2800-abs",
+      "line_name": "Mg II_abs",
+      "predicted_obs_angstrom": 4782.169217080488,
+      "measurement_id": null,
+      "measured_center_angstrom": null,
+      "measurement_source": null,
+      "fwhm_km_s": null,
+      "measurement_flags": [],
+      "sh_status": "NOT_FOUND",
+      "fa_state": null,
+      "vote_summary": null,
+      "cleaned_pairing": "no_pairing",
+      "graph_gate_state": "not_evaluated"
+    },
+    {
+      "line_id": "line:nev-3426",
+      "line_name": "[Ne V]",
+      "predicted_obs_angstrom": 5851.325620613483,
+      "measurement_id": null,
+      "measured_center_angstrom": null,
+      "measurement_source": null,
+      "fwhm_km_s": null,
+      "measurement_flags": [],
+      "sh_status": "NOT_FOUND",
+      "fa_state": null,
+      "vote_summary": null,
+      "cleaned_pairing": "no_pairing",
+      "graph_gate_state": "not_evaluated"
+    },
+    {
+      "line_id": "line:oii-3727",
+      "line_name": "[O II]",
+      "predicted_obs_angstrom": 6365.408811449635,
+      "measurement_id": null,
+      "measured_center_angstrom": null,
+      "measurement_source": null,
+      "fwhm_km_s": null,
+      "measurement_flags": [],
+      "sh_status": "NOT_FOUND",
+      "fa_state": null,
+      "vote_summary": null,
+      "cleaned_pairing": "no_pairing",
+      "graph_gate_state": "not_evaluated"
+    },
+    {
+      "line_id": "line:cak-3934-abs",
+      "line_name": "Ca K_abs",
+      "predicted_obs_angstrom": 6720.314084060109,
+      "measurement_id": null,
+      "measured_center_angstrom": null,
+      "measurement_source": null,
+      "fwhm_km_s": null,
+      "measurement_flags": [],
+      "sh_status": "NOT_FOUND",
+      "fa_state": null,
+      "vote_summary": null,
+      "cleaned_pairing": "no_pairing",
+      "graph_gate_state": "not_evaluated"
+    },
+    {
+      "line_id": "line:cah-3969-abs",
+      "line_name": "Ca H_abs",
+      "predicted_obs_angstrom": 6779.749615758109,
+      "measurement_id": "fit:H6:0003",
+      "measured_center_angstrom": 6784.746,
+      "measurement_source": "fit_doublet",
+      "fwhm_km_s": 2403.0,
+      "measurement_flags": [],
+      "sh_status": "MARGINAL",
+      "fa_state": "signal_absent",
+      "vote_summary": {
+        "yes": 0,
+        "no": 3,
+        "assurance": "assured"
+      },
+      "cleaned_pairing": "rejected_measurement",
+      "graph_gate_state": "not_evaluated"
+    },
+    {
+      "line_id": "line:heps-3970",
+      "line_name": "Hε",
+      "predicted_obs_angstrom": 6780.6035745468735,
+      "measurement_id": "fit:H6:0006",
+      "measured_center_angstrom": 6798.722,
+      "measurement_source": "fit_peak",
+      "fwhm_km_s": 1201.4,
+      "measurement_flags": [],
+      "sh_status": "MARGINAL",
+      "fa_state": "signal_absent",
+      "vote_summary": {
+        "yes": 0,
+        "no": 3,
+        "assurance": "assured"
+      },
+      "cleaned_pairing": "rejected_measurement",
+      "graph_gate_state": "not_evaluated"
+    },
+    {
+      "line_id": "line:heps-3970-abs",
+      "line_name": "Hε_abs",
+      "predicted_obs_angstrom": 6780.6035745468735,
+      "measurement_id": null,
+      "measured_center_angstrom": null,
+      "measurement_source": null,
+      "fwhm_km_s": null,
+      "measurement_flags": [],
+      "sh_status": "NOT_FOUND",
+      "fa_state": null,
+      "vote_summary": null,
+      "cleaned_pairing": "no_pairing",
+      "graph_gate_state": "not_evaluated"
+    },
+    {
+      "line_id": "line:hdel-4102",
+      "line_name": "Hδ",
+      "predicted_obs_angstrom": 7007.415028842691,
+      "measurement_id": "fit:H6:0007",
+      "measured_center_angstrom": 7026.638,
+      "measurement_source": "fit_peak",
+      "fwhm_km_s": 309.0,
+      "measurement_flags": [],
+      "sh_status": "MARGINAL",
+      "fa_state": "signal_absent",
+      "vote_summary": {
+        "yes": 0,
+        "no": 3,
+        "assurance": "assured"
+      },
+      "cleaned_pairing": "rejected_measurement",
+      "graph_gate_state": "not_evaluated"
+    },
+    {
+      "line_id": "line:hdel-4102-abs",
+      "line_name": "Hδ_abs",
+      "predicted_obs_angstrom": 7007.415028842691,
+      "measurement_id": "fit:H6:0012",
+      "measured_center_angstrom": 7010.401,
+      "measurement_source": "fit_peak",
+      "fwhm_km_s": 7889.4,
+      "measurement_flags": [],
+      "sh_status": "MARGINAL",
+      "fa_state": "signal_absent",
+      "vote_summary": {
+        "yes": 0,
+        "no": 3,
+        "assurance": "assured"
+      },
+      "cleaned_pairing": "rejected_measurement",
+      "graph_gate_state": "not_evaluated"
+    },
+    {
+      "line_id": "line:gband-4305-abs",
+      "line_name": "G-band_abs",
+      "predicted_obs_angstrom": 7353.609921807769,
+      "measurement_id": "fit:H6:0013",
+      "measured_center_angstrom": 7358.995,
+      "measurement_source": "fit_peak",
+      "fwhm_km_s": 3573.9,
+      "measurement_flags": [],
+      "sh_status": "MARGINAL",
+      "fa_state": "signal_absent",
+      "vote_summary": {
+        "yes": 0,
+        "no": 3,
+        "assurance": "assured"
+      },
+      "cleaned_pairing": "rejected_measurement",
+      "graph_gate_state": "not_evaluated"
+    },
+    {
+      "line_id": "line:hgam-4341",
+      "line_name": "Hγ",
+      "predicted_obs_angstrom": 7415.265746356556,
+      "measurement_id": null,
+      "measured_center_angstrom": null,
+      "measurement_source": null,
+      "fwhm_km_s": null,
+      "measurement_flags": [],
+      "sh_status": "NOT_FOUND",
+      "fa_state": null,
+      "vote_summary": null,
+      "cleaned_pairing": "no_pairing",
+      "graph_gate_state": "not_evaluated"
+    },
+    {
+      "line_id": "line:hgam-4341-abs",
+      "line_name": "Hγ_abs",
+      "predicted_obs_angstrom": 7415.265746356556,
+      "measurement_id": null,
+      "measured_center_angstrom": null,
+      "measurement_source": null,
+      "fwhm_km_s": null,
+      "measurement_flags": [],
+      "sh_status": "NOT_FOUND",
+      "fa_state": null,
+      "vote_summary": null,
+      "cleaned_pairing": "no_pairing",
+      "graph_gate_state": "not_evaluated"
+    },
+    {
+      "line_id": "line:hbet-4862",
+      "line_name": "Hβ",
+      "predicted_obs_angstrom": 8305.090804249032,
+      "measurement_id": "fit:H6:0009",
+      "measured_center_angstrom": 8323.558,
+      "measurement_source": "fit_peak",
+      "fwhm_km_s": 84.8,
+      "measurement_flags": [],
+      "sh_status": "MARGINAL",
+      "fa_state": "signal_absent",
+      "vote_summary": {
+        "yes": 0,
+        "no": 3,
+        "assurance": "assured"
+      },
+      "cleaned_pairing": "rejected_measurement",
+      "graph_gate_state": "not_evaluated"
+    },
+    {
+      "line_id": "line:hbet-4862-abs",
+      "line_name": "Hβ_abs",
+      "predicted_obs_angstrom": 8305.090804249032,
+      "measurement_id": "fit:H6:0015",
+      "measured_center_angstrom": 8295.764,
+      "measurement_source": "fit_peak",
+      "fwhm_km_s": 813.9,
+      "measurement_flags": [],
+      "sh_status": "MARGINAL",
+      "fa_state": "signal_absent",
+      "vote_summary": {
+        "yes": 0,
+        "no": 3,
+        "assurance": "assured"
+      },
+      "cleaned_pairing": "rejected_measurement",
+      "graph_gate_state": "not_evaluated"
+    },
+    {
+      "line_id": "line:oiii-4960",
+      "line_name": "[O III]a",
+      "predicted_obs_angstrom": 8471.783559815838,
+      "measurement_id": null,
+      "measured_center_angstrom": null,
+      "measurement_source": null,
+      "fwhm_km_s": null,
+      "measurement_flags": [],
+      "sh_status": "NOT_FOUND",
+      "fa_state": null,
+      "vote_summary": null,
+      "cleaned_pairing": "no_pairing",
+      "graph_gate_state": "not_evaluated"
+    },
+    {
+      "line_id": "line:oiii-5008",
+      "line_name": "[O III]b",
+      "predicted_obs_angstrom": 8553.592811779465,
+      "measurement_id": null,
+      "measured_center_angstrom": null,
+      "measurement_source": null,
+      "fwhm_km_s": null,
+      "measurement_flags": [],
+      "sh_status": "NOT_FOUND",
+      "fa_state": null,
+      "vote_summary": null,
+      "cleaned_pairing": "no_pairing",
+      "graph_gate_state": "not_evaluated"
+    },
+    {
+      "line_id": "line:mgi-5176-abs",
+      "line_name": "Mg I_abs",
+      "predicted_obs_angstrom": 8841.376923593058,
+      "measurement_id": "cwt:abs:0003",
+      "measured_center_angstrom": 8831.200000000299,
+      "measurement_source": "CWT",
+      "fwhm_km_s": 125.14598650991758,
+      "measurement_flags": [],
+      "sh_status": "MARGINAL",
+      "fa_state": "signal_absent",
+      "vote_summary": {
+        "yes": 0,
+        "no": 3,
+        "assurance": "assured"
+      },
+      "cleaned_pairing": "rejected_measurement",
+      "graph_gate_state": "not_evaluated"
+    }
+  ],
+  "targeted_measurements": [],
+  "line_alignment": {
+    "collisions": [],
+    "aligned_claims": [
+      {
+        "line_id": "line:cah-3969-abs",
+        "original_measurement_id": "fit:H6:0003",
+        "status": "unassigned",
+        "effective_feature_id": null
+      },
+      {
+        "line_id": "line:cak-3934-abs",
+        "original_measurement_id": null,
+        "status": "unassigned",
+        "effective_feature_id": null
+      },
+      {
+        "line_id": "line:gband-4305-abs",
+        "original_measurement_id": "fit:H6:0013",
+        "status": "unassigned",
+        "effective_feature_id": null
+      },
+      {
+        "line_id": "line:hbet-4862",
+        "original_measurement_id": "fit:H6:0009",
+        "status": "unassigned",
+        "effective_feature_id": null
+      },
+      {
+        "line_id": "line:hbet-4862-abs",
+        "original_measurement_id": "fit:H6:0015",
+        "status": "unassigned",
+        "effective_feature_id": null
+      },
+      {
+        "line_id": "line:hdel-4102",
+        "original_measurement_id": "fit:H6:0007",
+        "status": "unassigned",
+        "effective_feature_id": null
+      },
+      {
+        "line_id": "line:hdel-4102-abs",
+        "original_measurement_id": "fit:H6:0012",
+        "status": "unassigned",
+        "effective_feature_id": null
+      },
+      {
+        "line_id": "line:heps-3970",
+        "original_measurement_id": "fit:H6:0006",
+        "status": "unassigned",
+        "effective_feature_id": null
+      },
+      {
+        "line_id": "line:heps-3970-abs",
+        "original_measurement_id": null,
+        "status": "unassigned",
+        "effective_feature_id": null
+      },
+      {
+        "line_id": "line:hgam-4341",
+        "original_measurement_id": null,
+        "status": "unassigned",
+        "effective_feature_id": null
+      },
+      {
+        "line_id": "line:hgam-4341-abs",
+        "original_measurement_id": null,
+        "status": "unassigned",
+        "effective_feature_id": null
+      },
+      {
+        "line_id": "line:mgi-5176-abs",
+        "original_measurement_id": "cwt:abs:0003",
+        "status": "unassigned",
+        "effective_feature_id": null
+      },
+      {
+        "line_id": "line:mgii-2800",
+        "original_measurement_id": "cwt:em:0000",
+        "status": "original_claim",
+        "effective_feature_id": "cwt:em:0000"
+      },
+      {
+        "line_id": "line:mgii-2800-abs",
+        "original_measurement_id": null,
+        "status": "unassigned",
+        "effective_feature_id": null
+      },
+      {
+        "line_id": "line:nev-3426",
+        "original_measurement_id": null,
+        "status": "unassigned",
+        "effective_feature_id": null
+      },
+      {
+        "line_id": "line:oii-3727",
+        "original_measurement_id": null,
+        "status": "unassigned",
+        "effective_feature_id": null
+      },
+      {
+        "line_id": "line:oiii-4960",
+        "original_measurement_id": null,
+        "status": "unassigned",
+        "effective_feature_id": null
+      },
+      {
+        "line_id": "line:oiii-5008",
+        "original_measurement_id": null,
+        "status": "unassigned",
+        "effective_feature_id": null
+      }
+    ],
+    "model_usage": {
+      "calls": 0,
+      "input_tokens": 0,
+      "output_tokens": 0,
+      "cache_hit_tokens": 0,
+      "cache_hit_reported_calls": 0,
+      "cache_hit_unreported_calls": 0
+    },
+    "window_half_angstrom": 100.0,
+    "vote_quorum": 3,
+    "max_attempts_per_vote_seat": 2,
+    "outer_reference_sigma": 3.0,
+    "concurrency": 3
+  },
+  "line_alignment_ref": "alignment/06f7bfce442546da93261a370f8f40bc/node",
+  "graph_actions": [
+    {
+      "node_type": "qso.broad_line_inventory",
+      "source_node_ref": "sh2/5b72c414f0cf456ca43df96d8bed97ad/node",
+      "output": {
+        "lines": [
+          {
+            "line_id": "line:lya-1216",
+            "predicted_obs_angstrom": 2076.2641614743707,
+            "coverage": "outside_range",
+            "cleaned_pairing": "out_of_scope",
+            "measurement_id": null,
+            "fwhm_km_s": null,
+            "broadness": "unresolved"
+          },
+          {
+            "line_id": "line:civ-1549",
+            "predicted_obs_angstrom": 2645.5643275920274,
+            "coverage": "outside_range",
+            "cleaned_pairing": "out_of_scope",
+            "measurement_id": null,
+            "fwhm_km_s": null,
+            "broadness": "unresolved"
+          },
+          {
+            "line_id": "line:ciii-1909",
+            "predicted_obs_angstrom": 3260.414655502376,
+            "coverage": "outside_range",
+            "cleaned_pairing": "out_of_scope",
+            "measurement_id": null,
+            "fwhm_km_s": null,
+            "broadness": "unresolved"
+          },
+          {
+            "line_id": "line:mgii-2800",
+            "predicted_obs_angstrom": 4782.169217080488,
+            "coverage": "needs_q5",
+            "cleaned_pairing": "adopted",
+            "measurement_id": "cwt:em:0000",
+            "fwhm_km_s": 2497.013289890503,
+            "broadness": "supported"
+          }
+        ],
+        "any_supported_broad_line": true,
+        "strict_broad_fwhm_km_s": 2000.0,
+        "strict_broad_threshold_source": "config:rule:formal-width-class-match.width_consistency_score",
+        "strict_broad_threshold_payload_sha256": "b06941d9d371bd8792640873665004016437f947477142bdeae1f9622298d97e",
+        "next_node": "qso.missing_broad_line_queue"
+      }
+    },
+    {
+      "node_type": "qso.missing_broad_line_queue",
+      "source_node_ref": "sh2/6919df0e16a14a81af29d6323e4ce413/node",
+      "output": {
+        "selected_line_ids": [
+          "line:mgii-2800"
+        ],
+        "queue": [],
+        "coverage_preview": {
+          "line:lya-1216": "outside_range",
+          "line:civ-1549": "outside_range",
+          "line:ciii-1909": "outside_range",
+          "line:mgii-2800": "usable"
+        },
+        "window_half_width_angstrom": 150.0,
+        "window_parameter": "analysis_method.qso_type1.local_read_half_angstrom",
+        "method_snapshot": {
+          "qso_type1": {
+            "local_read_half_angstrom": 150.0,
+            "envelope_edge_sigma": 3.0,
+            "strength_vote_quorum": 3,
+            "max_attempts_per_vote_seat": 2
+          },
+          "peak_center_bound_half_angstrom": 50.0,
+          "effective_vote_quorum": 3
+        },
+        "method_snapshot_sha256": "99aecb2f96f4d3273f3731cac409629dbe5d2f3c22a0ae7432e97ae5c6873d59"
+      }
+    },
+    {
+      "node_type": "qso.coverage/line:mgii-2800",
+      "source_node_ref": "sh2/13a17fbf7668439794ad865845ab7903/node",
+      "output": {
+        "center_angstrom": 4782.169217080488,
+        "requested_window_angstrom": [
+          4632.169217080488,
+          4932.169217080488
+        ],
+        "actual_window_angstrom": [
+          4632.800000000235,
+          4932.000000000303
+        ],
+        "coverage": "usable",
+        "total_samples": 375,
+        "usable_samples": 375,
+        "explicit_masked_samples": 0,
+        "full_window_explicit_mask_proof": false
+      }
+    },
+    {
+      "node_type": "qso.type1_formal_gate",
+      "source_node_ref": "sh2/348a2821d578400ebf6fd189a8951e0d/node",
+      "output": {
+        "selected_line_ids": [
+          "line:mgii-2800"
+        ],
+        "gate_status": "type1_supported",
+        "effective_line_states": [
+          [
+            "line:mgii-2800",
+            "paired"
+          ]
+        ],
+        "raw_line_states": {
+          "line:mgii-2800": "paired"
+        },
+        "coverage": {
+          "line:lya-1216": "outside_range",
+          "line:civ-1549": "outside_range",
+          "line:ciii-1909": "outside_range",
+          "line:mgii-2800": "usable"
+        },
+        "state_source_refs": {
+          "line:mgii-2800": [
+            "sh2/13a17fbf7668439794ad865845ab7903/node",
+            "sh2/5b72c414f0cf456ca43df96d8bed97ad/node"
+          ]
+        },
+        "reason_codes": []
+      }
+    },
+    {
+      "node_type": "qso.route_result",
+      "source_node_ref": "sh2/3ee7584874ff49f9862661771dbfaf44/node",
+      "output": {
+        "path_status": "survive",
+        "candidate_type": "Type 1 QSO",
+        "rule_id": "project:qso-type1-formal-gate",
+        "reason_codes": []
+      }
+    }
+  ],
+  "conflicts": [],
+  "unresolved_items": [],
+  "skipped_nodes": [],
+  "source_refs": [
+    "alignment/06f7bfce442546da93261a370f8f40bc/node",
+    "fa/1757960a350f4deb9b4aee694d27a9df/node",
+    "fa/2ecb7ab9cee646ea80616e0e3d3dd802/node",
+    "fa/35d321eabed24564877090f84a0e06a0/node",
+    "fa/48b5db09e46e4a99b597ecbc8679aa71/node",
+    "fa/4e0f417adf0e425cba15d6e83d45fe62/node",
+    "fa/54f59df1d8fa4184af610c970465c5ec/node",
+    "fa/5ec304c5bc3d4911ac9d85bde6cd8e04/node",
+    "fa/5fc360cade004e1d95aeec94485ed261/node",
+    "fa/77e73aadf3544bb388109669bec6555e/node",
+    "fa/7b4b3f4bde5f416da3f0e9566fdb2e12/node",
+    "fa/7ee866a3b1eb4058919c862effd50c8c/node",
+    "fa/804bbb4bdeb44cd8a5120b94dfcdeeef/node",
+    "fa/91a7953244c74dae93e50b0e5ef178de/node",
+    "fa/98cd3b20cecd4628872c3d144ea6ea00/node",
+    "fa/a11ae2afaef2411abe3edfce17083239/node",
+    "fa/a1c3992597c249e38f4f9f14fe7db303/node",
+    "fa/a6dbe494673e4d5bb7869d465bf3b0ac/node",
+    "fa/adfe126a44f9436fa7f7f8fc70bcb20c/node",
+    "fa/ba79c6c5f5464c828a089e3ea2e5247d/node",
+    "fa/c5024e5c8ba34446894cbfbf57d644cd/node",
+    "fa/d25ca5d9fd714c839dc5969b554e8840/node",
+    "fa/d5c716d30b8244b192eeac8f030ae74c/node",
+    "fa/d9b7484de37e493eb42b01bebaad6a0b/node",
+    "fa/ecc7a91d21d64345ad3da6a88275d046/node",
+    "fa/f2fa68a54bfc431c9ce8bc3f6524a5b7/node",
+    "fa/f5433e63884e47f085dbc79655e92324/node",
+    "fa/fb0add0161b64da28378c7b29cca2bbf/node",
+    "sh/H6/catalog",
+    "sh/H6/judgments",
+    "sh/H6/node",
+    "sh2/08d455c1ccbc47fba655f2608156c754/node",
+    "sh2/13a17fbf7668439794ad865845ab7903/node",
+    "sh2/348a2821d578400ebf6fd189a8951e0d/node",
+    "sh2/3ee7584874ff49f9862661771dbfaf44/node",
+    "sh2/5b72c414f0cf456ca43df96d8bed97ad/node",
+    "sh2/6919df0e16a14a81af29d6323e4ce413/node",
+    "sh2/b52794055df24ab19d6a9cf82247b421/node"
+  ]
+}

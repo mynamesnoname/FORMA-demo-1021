@@ -1,0 +1,13 @@
+{
+  "answer": "no",
+  "reason": "Component a's claimed center (6761.4 Å) is 50 Å from its predicted 6711.4 Å position, and the pixels at the predicted position show only continuum noise with no peak; component b's window (6722–6729 Å) likewise shows no emission feature. No credible two-component structure is corroborated in the usable pixels.",
+  "execution": {
+    "schema_version": "forma-agentic-node-execution-v1",
+    "run_id": "graph-325ff74c7f444efdb17e3f3b69698eea",
+    "branch_id": "main",
+    "node_key": "fa.real_doublet_or_not/graph-325ff74c7f444efdb17e3f3b69698eea/H1/doublet%3Asii",
+    "node_execution_id": "20f6e4c70f3841f0b3af005cfb275928",
+    "attempt_id": "bdfc1d7082924a04ac9cc76b6b5643fe",
+    "relative_dir": "FA/H1/real_doublet_or_not/doublet-sii-21eebc95bccd5619/branches/main/20f6e4c70f3841f0b3af005cfb275928"
+  }
+}

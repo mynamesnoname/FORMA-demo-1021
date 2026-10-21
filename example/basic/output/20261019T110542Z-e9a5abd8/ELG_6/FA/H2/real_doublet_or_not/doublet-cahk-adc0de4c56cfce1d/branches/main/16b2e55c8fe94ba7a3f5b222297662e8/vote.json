@@ -1,0 +1,13 @@
+{
+  "answer": "no",
+  "reason": "Ca K window (~4355 Å) shows only a low-S/N noise dip (ivar ~2-5, flux -0.43) with no credible absorption trough; Ca H window (~4393.5 Å) is well-measured (ivar ~22) and flat/emission-like with no dip at the predicted position. Neither component is visually supported, so the orphan pair interpretation is not corroborated.",
+  "execution": {
+    "schema_version": "forma-agentic-node-execution-v1",
+    "run_id": "graph-fe0d30030bcc4939b88103e27753b2c1",
+    "branch_id": "main",
+    "node_key": "fa.real_doublet_or_not/graph-fe0d30030bcc4939b88103e27753b2c1/H2/doublet%3Acahk",
+    "node_execution_id": "16b2e55c8fe94ba7a3f5b222297662e8",
+    "attempt_id": "fd97b5460abb44c1ad61ba0be103ce56",
+    "relative_dir": "FA/H2/real_doublet_or_not/doublet-cahk-adc0de4c56cfce1d/branches/main/16b2e55c8fe94ba7a3f5b222297662e8"
+  }
+}

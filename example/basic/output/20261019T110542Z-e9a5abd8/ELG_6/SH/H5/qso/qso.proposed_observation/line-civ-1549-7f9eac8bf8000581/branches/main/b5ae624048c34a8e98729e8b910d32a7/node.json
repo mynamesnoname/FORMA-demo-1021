@@ -1,0 +1,33 @@
+{
+  "schema_version": "forma-qso-node-v1",
+  "graph_version": "forma-qso-entry-v1",
+  "run_id": "graph-fe0d30030bcc4939b88103e27753b2c1",
+  "branch_id": "main",
+  "hypothesis_ref": "H5",
+  "node_key": "sh2.qso/H5/qso.proposed_observation/line:civ-1549",
+  "node_type": "qso.proposed_observation/line:civ-1549",
+  "status": "completed",
+  "input_refs": [
+    "sh2/7a423a8ec7b0428cbbeee232a33b1097/node",
+    "sh2/7a423a8ec7b0428cbbeee232a33b1097/window"
+  ],
+  "output": {
+    "line_id": "line:civ-1549",
+    "candidate_id": "targeted:H5:line:civ-1549:7a423a8ec7b0428cbbeee232a33b1097",
+    "provenance": "targeted_read",
+    "q6_ref": "sh2/7a423a8ec7b0428cbbeee232a33b1097/node",
+    "measurement_status": "awaiting_q8_point_selection",
+    "broad_envelope_claim": true,
+    "absorption_fragmentation": false,
+    "fa_status": "not_re_reviewed",
+    "original_sh_fa_pairing_unchanged": true
+  },
+  "evidence_refs": [
+    "sh2/7a423a8ec7b0428cbbeee232a33b1097/node",
+    "sh2/7a423a8ec7b0428cbbeee232a33b1097/window"
+  ],
+  "unresolved_reasons": [],
+  "created_by": "code",
+  "node_execution_id": "b5ae624048c34a8e98729e8b910d32a7",
+  "attempt_id": "97b7c9f02d9d4b46b7928621221afe2e"
+}

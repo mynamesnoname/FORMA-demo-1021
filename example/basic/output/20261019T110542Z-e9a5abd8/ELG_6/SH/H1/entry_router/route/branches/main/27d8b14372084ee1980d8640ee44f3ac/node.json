@@ -1,0 +1,156 @@
+{
+  "schema_version": "forma-type-entry-route-v1",
+  "run_id": "graph-fe0d30030bcc4939b88103e27753b2c1",
+  "branch_id": "main",
+  "hypothesis_ref": "H1",
+  "node_key": "sh2.entry_router/H1",
+  "input_refs": [
+    "fa/09d2ef6b631947f1bc5a1e39dd318500/node",
+    "fa/0e2e240c24884718a2c3555650ab985a/node",
+    "fa/19fea7b7d50d4af9aced59f0128a981c/node",
+    "fa/1dca4ca4940b4a55ada32387e1c6e99e/node",
+    "fa/1e34ea100b834a04b471fc74fc6661ff/node",
+    "fa/1ee27c3ac05448d59bf34e1be7d8c306/node",
+    "fa/23e457d0e6e44d7c93bb0bd68b2bf6ec/node",
+    "fa/27a4d18069514c23b98e3794958e00ad/node",
+    "fa/28a6f2a9d7514d89becc9387eb48e521/node",
+    "fa/2c50ff5c25364b928cab718eadd55f86/node",
+    "fa/320a8b9a73184156b93927f20f1f5cfa/node",
+    "fa/35fdfada15144dbba9676a72cb9ba74a/node",
+    "fa/3941e33df75a4c7e8d908ca2461d60a6/node",
+    "fa/39c4785a02a14d62a53ec2dd0fe5b8a3/node",
+    "fa/407e12e07a1949cba2f031eb426177db/node",
+    "fa/46f4e7e76bb54c548fef914ec5c37389/node",
+    "fa/47900d82f9a3406b8dfd2e517957d0d4/node",
+    "fa/546aa71d2227454e95487049a44b228a/node",
+    "fa/55218a2d2cc94c12b8c6bc282994f065/node",
+    "fa/56a1091bcae64749b8db5d0875fb9212/node",
+    "fa/5d26c8fbfb8941d6b0825f4437d6b84f/node",
+    "fa/5e2a3e0ae3d94369be31f7eb2117ba43/node",
+    "fa/5f6a24989a6249a6852f7426bb8acdfb/node",
+    "fa/5fcfb8fd9b7d4deeb8159840997e57d0/node",
+    "fa/615637b258c54d2da95999e92824c341/node",
+    "fa/6b6fca1110764795b3d5e1faef143e99/node",
+    "fa/6b72ceca6d8044b39c38ace60e1d6c81/node",
+    "fa/71759de65128463ebc33668b02364990/node",
+    "fa/7190757d20bb48fd86730d6053ad9f00/node",
+    "fa/721484c7716c4157a93745e78e792c0d/node",
+    "fa/772d33310d634011833c468f66089d04/node",
+    "fa/78b3aac56efa44e4bfd6c059a4564179/node",
+    "fa/811c1588e10a4d69819e3ced68b89f5c/node",
+    "fa/8cfbdc85f2344f02bb4f5bbac70a9897/node",
+    "fa/8d277314fa5e4142be3176009d6d0870/node",
+    "fa/93618f8e811d43d088780decaaad3317/node",
+    "fa/95a9adbf56204aa4b7be28302c6195fe/node",
+    "fa/9be9acdfdd98486eaba21433da416e2b/node",
+    "fa/a6cd8c9228db4f208acf92c84b5522c6/node",
+    "fa/a874454aced94d96a6710afd03ae036f/node",
+    "fa/a9acbdde0e0c49769f36b73729057c0d/node",
+    "fa/a9c9f734194c4d55beb048ecd4df2026/node",
+    "fa/aa9a3f0b89dc4b159b0a551ce21bdcdd/node",
+    "fa/b7f4babf4d6b42f982b02dc5c31ce5b3/node",
+    "fa/b88a9233e88d4a41ab45712e665b92e7/node",
+    "fa/bda4763884a746888c724bd91328190a/node",
+    "fa/bef91f4b89434c5da1acb1d2bf4384e9/node",
+    "fa/cf28f57f2acb49c8a58a1c0790fe77b7/node",
+    "fa/d3282bcab8a04336b4fd2b0705248846/node",
+    "fa/d5dfe389c0a14b29b2fb320562298a08/node",
+    "fa/d843f8ba19674d128253b2cbc63ff2ef/node",
+    "fa/dbe92ec6773447be9a1403bdef1f1e72/node",
+    "fa/e14453d8632b42e792c6412e836d1b51/node",
+    "fa/e2bec98f353043df9872bb011954bc54/node",
+    "fa/e4d33edb9cc34845851b82f8e810ee25/node",
+    "fa/f12c2a97ed77464a90c0daebb4a1c80e/node",
+    "fa/f3b19fb3a472488d8b0902d9fbab4c99/node",
+    "sh/H1/catalog",
+    "sh/H1/judgments",
+    "sh/H1/node",
+    "spectrum_npz"
+  ],
+  "output": {
+    "checks": [
+      {
+        "name": "nev",
+        "positive": false,
+        "pairs": []
+      },
+      {
+        "name": "qso_type1",
+        "positive": false,
+        "pairs": [],
+        "mgii_pair_retains_galaxy": false
+      },
+      {
+        "name": "old_population",
+        "positive": true,
+        "pairs": [
+          {
+            "line_id": "line:cak-3934-abs",
+            "measurement_id": "fit:H1:0000"
+          }
+        ],
+        "dn4000": {
+          "index_id": "index:dn4000",
+          "rule_id": "rule:formal-dn4000-interpretation",
+          "reference_bands": {
+            "strong": 1.6,
+            "moderate_low": 1.3,
+            "moderate_high": 1.6
+          },
+          "minimum_valid_samples_per_band": 3,
+          "windows": {
+            "blue": {
+              "window_angstrom": [
+                4261.250498405701,
+                4371.932329533121
+              ],
+              "fully_covered": true,
+              "sample_count": 138,
+              "usable_sample_count": 138,
+              "mean_flux": 1.0290884621765302
+            },
+            "red": {
+              "window_angstrom": [
+                4427.273245096832,
+                4537.955076224253
+              ],
+              "fully_covered": true,
+              "sample_count": 138,
+              "usable_sample_count": 138,
+              "mean_flux": 0.8936100503618735
+            }
+          },
+          "value": 0.8683510535837524,
+          "reference_strength": "not_strong",
+          "consultative_only": true,
+          "unresolved_reason": null
+        }
+      },
+      {
+        "name": "emission_galaxy",
+        "positive": true,
+        "oii_pair": {
+          "line_id": "line:oii-3727",
+          "measurement_id": "cwt:em:0000"
+        },
+        "oiii_pairs": [
+          {
+            "line_id": "line:oiii-4960",
+            "measurement_id": "cwt:em:0007"
+          },
+          {
+            "line_id": "line:oiii-5008",
+            "measurement_id": "cwt:em:0008"
+          }
+        ],
+        "oiii_distinct_pair": true
+      }
+    ],
+    "selected_initial_graph": "LRG/BGS",
+    "selected_reason": "old_population_candidate",
+    "eligible_graphs": [
+      "LRG/BGS",
+      "ELG"
+    ]
+  }
+}

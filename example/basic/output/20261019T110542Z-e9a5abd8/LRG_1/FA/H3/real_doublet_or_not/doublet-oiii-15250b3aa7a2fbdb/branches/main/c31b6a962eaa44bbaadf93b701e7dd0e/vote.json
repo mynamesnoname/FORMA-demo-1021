@@ -1,0 +1,13 @@
+{
+  "answer": "no",
+  "reason": "Both windows are flat continuum: no emission peak at 6312 Å (a) or 6373 Å (b); claimed centers (6292, 6423) sit in featureless flux, separation 131 Å vs expected 61 Å, and ratio inverted. No visual support for two components.",
+  "execution": {
+    "schema_version": "forma-agentic-node-execution-v1",
+    "run_id": "graph-6f4e6510cc5d45df9da3b7be0c8597cc",
+    "branch_id": "main",
+    "node_key": "fa.real_doublet_or_not/graph-6f4e6510cc5d45df9da3b7be0c8597cc/H3/doublet%3Aoiii",
+    "node_execution_id": "c31b6a962eaa44bbaadf93b701e7dd0e",
+    "attempt_id": "f439e6dca790421cb74d544b5dc4baa0",
+    "relative_dir": "FA/H3/real_doublet_or_not/doublet-oiii-15250b3aa7a2fbdb/branches/main/c31b6a962eaa44bbaadf93b701e7dd0e"
+  }
+}

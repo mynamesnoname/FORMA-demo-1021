@@ -1,0 +1,13 @@
+{
+  "answer": "no",
+  "reason": "Neither window shows a resolved absorption trough at prediction: Ca K (3933.6–3937.6 Å) and Ca H (3968.8–3972 Å) are noisy continuum with only isolated single-sample dips. Claimed centers (3948.7, 3985.0 Å) are 13–15 Å off, sitting on isolated low samples, not line cores; both single-feature states are signal_absent. Pair not corroborated.",
+  "execution": {
+    "schema_version": "forma-agentic-node-execution-v1",
+    "run_id": "graph-fe0d30030bcc4939b88103e27753b2c1",
+    "branch_id": "main",
+    "node_key": "fa.real_doublet_or_not/graph-fe0d30030bcc4939b88103e27753b2c1/H3/doublet%3Acahk",
+    "node_execution_id": "30309ee827e444bcaca2e16e7e311c4b",
+    "attempt_id": "f60ab6767db449f5aeabdb2f7f20c2c5",
+    "relative_dir": "FA/H3/real_doublet_or_not/doublet-cahk-adc0de4c56cfce1d/branches/main/30309ee827e444bcaca2e16e7e311c4b"
+  }
+}

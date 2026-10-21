@@ -1,0 +1,9 @@
+{
+  "schema_version": "forma-agentic-node-execution-v1",
+  "run_id": "graph-df7434d5533647e999870708120307b0",
+  "branch_id": "main",
+  "node_key": "fa.real_doublet_or_not/graph-df7434d5533647e999870708120307b0/H6/doublet%3Asii",
+  "node_execution_id": "b3ff023726164bc9b49ece45bbbaf5a8",
+  "attempt_id": "1839dc28592f4f6dabc180ef0072269e",
+  "relative_dir": "FA/H6/real_doublet_or_not/doublet-sii-21eebc95bccd5619/branches/main/b3ff023726164bc9b49ece45bbbaf5a8"
+}

@@ -1,0 +1,96 @@
+{
+  "schema_version": "forma-hs-group-comparison-v3",
+  "run_id": "graph-853b617a68f04c36bd82f06bdb770ac4",
+  "branch_id": "main",
+  "node_key": "hs.compare_groups",
+  "node_execution_id": "5e139a98214f4359a3d985b8c8c9eb80",
+  "attempt_id": "2f2c5f6dadf649338145491ff737e0da",
+  "input_refs": [
+    "fa_doublet/03a382a9fff94beea932f223b78c9e2f/node",
+    "fa_doublet/2eead22b6a214e798fac9301448b78f6/node",
+    "fa_doublet/3c5b80cd15dd4e83a1e16ebe23d5b63c/node",
+    "fa_doublet/7055dcdc0a6e479caa71ba8b360ad83f/node",
+    "fa_doublet/ad9c442db08945409deb862a3642e289/node",
+    "fa_doublet/bae120b8a96d4b13be289a3b70df15f2/node",
+    "fa_doublet/c2d14afca2694ed1938a8405c2684551/node",
+    "fa_doublet/cab576ea2bd943e8be37a7624e0412db/node",
+    "fa_doublet/e9815dfff16c48b5832d38b8d9ab48f0/node",
+    "hs/6eb9030fc9384b97bcf7417a9520433b/node",
+    "sh2/88e10557ffee4e1aa16f3c4fb1b469e6/report",
+    "sh2/d9719e61a24543c78e71d78a62d5bab0/report"
+  ],
+  "mode": "deterministic",
+  "output": {
+    "winner_group_id": "hs.merge/H1+H3",
+    "reason": "Only surviving group; provisional pending RA.",
+    "assessments": [
+      {
+        "group_id": "hs.merge/H1+H3",
+        "support_pairs": [
+          {
+            "line_id": "line:nev-3426",
+            "feature_id": "cwt:em:0001"
+          },
+          {
+            "line_id": "line:oii-3727",
+            "feature_id": "cwt:em:0002"
+          },
+          {
+            "line_id": "line:heps-3970",
+            "feature_id": "cwt:em:0004"
+          },
+          {
+            "line_id": "line:hdel-4102",
+            "feature_id": "cwt:em:0005"
+          },
+          {
+            "line_id": "line:hbet-4862",
+            "feature_id": "cwt:em:0008"
+          },
+          {
+            "line_id": "line:oiii-4960",
+            "feature_id": "cwt:em:0009"
+          },
+          {
+            "line_id": "line:oiii-5008",
+            "feature_id": "cwt:em:0010"
+          },
+          {
+            "line_id": "line:nad1-5891-abs",
+            "feature_id": "fit:H1:0002"
+          },
+          {
+            "line_id": "line:nad2-5897-abs",
+            "feature_id": "fit:H3:0003"
+          },
+          {
+            "line_id": "line:half-6564",
+            "feature_id": "cwt:em:0012"
+          },
+          {
+            "line_id": "line:sii-6718",
+            "feature_id": "cwt:em:0013"
+          },
+          {
+            "line_id": "line:sii-6732",
+            "feature_id": "cwt:em:0014"
+          }
+        ],
+        "conflict_pairs": [],
+        "comparative_evidence": {
+          "advantages": [],
+          "disadvantages": [],
+          "limitations": [
+            "Only one group survived; no cross-group comparison was made."
+          ]
+        },
+        "unresolved": [],
+        "comparison_note": "No other surviving group to compare."
+      }
+    ],
+    "merge_review": null,
+    "cross_merges": [],
+    "status": "provisional_selection",
+    "ra_review_pending": true
+  }
+}

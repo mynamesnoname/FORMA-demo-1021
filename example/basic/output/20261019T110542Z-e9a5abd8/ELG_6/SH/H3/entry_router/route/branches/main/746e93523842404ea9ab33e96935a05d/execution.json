@@ -1,0 +1,9 @@
+{
+  "schema_version": "forma-agentic-node-execution-v1",
+  "run_id": "graph-fe0d30030bcc4939b88103e27753b2c1",
+  "branch_id": "main",
+  "node_key": "sh2.entry_router/H3",
+  "node_execution_id": "746e93523842404ea9ab33e96935a05d",
+  "attempt_id": "383da3d903064162a9b89bc1e5dc7877",
+  "relative_dir": "SH/H3/entry_router/route/branches/main/746e93523842404ea9ab33e96935a05d"
+}

@@ -1,0 +1,67 @@
+{
+  "schema_version": "forma-lrg-bgs-node-v1",
+  "graph_version": "forma-lrg-bgs-type-graph-v2",
+  "run_id": "graph-fe0d30030bcc4939b88103e27753b2c1",
+  "branch_id": "main",
+  "hypothesis_ref": "H1",
+  "node_key": "sh2.lrg_bgs/H1/lrg_bgs.cahk_inventory",
+  "node_type": "lrg_bgs.cahk_inventory",
+  "status": "completed",
+  "input_refs": [
+    "sh2/3d9b2ee36a384ecc8b99e1076bdc424c/node"
+  ],
+  "evidence_refs": [
+    "sh2/3d9b2ee36a384ecc8b99e1076bdc424c/node"
+  ],
+  "output": {
+    "components": [
+      {
+        "line_id": "line:cak-3934-abs",
+        "line_name": "Ca K_abs",
+        "rest_angstrom": 3934.8,
+        "expected_obs_angstrom": 4355.108691201754,
+        "sh_status": "MARGINAL",
+        "measurement_id": "fit:H1:0000",
+        "measurement_source": "fit_doublet",
+        "measured_center_angstrom": 4355.517,
+        "amplitude": -1.23896,
+        "measured_offset_from_expected_angstrom": 0.408308798246253,
+        "fa_state": "signal_present",
+        "cleaned_pairing": "adopted",
+        "fa_vote_artifact_refs": [
+          "fa/7190757d20bb48fd86730d6053ad9f00/node",
+          "fa/407e12e07a1949cba2f031eb426177db/node",
+          "fa/39c4785a02a14d62a53ec2dd0fe5b8a3/node"
+        ],
+        "predicted_obs_angstrom": 4355.108691201754
+      },
+      {
+        "line_id": "line:cah-3969-abs",
+        "line_name": "Ca H_abs",
+        "rest_angstrom": 3969.6,
+        "expected_obs_angstrom": 4393.625968434096,
+        "sh_status": "NOT_FOUND",
+        "measurement_id": null,
+        "measurement_source": null,
+        "measured_center_angstrom": null,
+        "amplitude": null,
+        "measured_offset_from_expected_angstrom": null,
+        "fa_state": null,
+        "cleaned_pairing": "no_pairing",
+        "fa_vote_artifact_refs": [],
+        "predicted_obs_angstrom": 4393.625968434096
+      }
+    ],
+    "adopted_count": 1,
+    "adopted_line_ids": [
+      "line:cak-3934-abs"
+    ],
+    "inventory_status": "assessed",
+    "unknown_is_negative": false,
+    "doublet_advisory": null
+  },
+  "unresolved_reasons": [],
+  "created_by": "code",
+  "node_execution_id": "dceb72598b754cf78d4621d0359a0fa7",
+  "attempt_id": "6dfb99514e7143ffaa5e4452384cfa20"
+}

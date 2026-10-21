@@ -1,0 +1,95 @@
+{
+  "schema_version": "forma-fa-advisory-summary-v1",
+  "run_id": "graph-325ff74c7f444efdb17e3f3b69698eea",
+  "branch_id": "main",
+  "consultative_only": true,
+  "hypotheses": [
+    {
+      "hypothesis_ref": "H2",
+      "lya_forest": null,
+      "doublets": [
+        {
+          "doublet_id": "doublet:oiii",
+          "node_ref": "fa_doublet/ad29788b7ebb4ff08ad0bf675ef01872/node",
+          "status": "complete"
+        }
+      ]
+    },
+    {
+      "hypothesis_ref": "H5",
+      "lya_forest": {
+        "node_ref": "fa_forest/2e9744fbcab4444e93bc8532c742376f/node",
+        "status": "complete"
+      },
+      "doublets": []
+    },
+    {
+      "hypothesis_ref": "H4",
+      "lya_forest": null,
+      "doublets": []
+    },
+    {
+      "hypothesis_ref": "H3",
+      "lya_forest": null,
+      "doublets": [
+        {
+          "doublet_id": "doublet:sii",
+          "node_ref": "fa_doublet/29716f19dcd24d58b57db024ea04baff/node",
+          "status": "complete"
+        },
+        {
+          "doublet_id": "doublet:nii",
+          "node_ref": "fa_doublet/cd9d8a53939f4864aa56f115eab3b4b4/node",
+          "status": "complete"
+        },
+        {
+          "doublet_id": "doublet:cahk",
+          "node_ref": "fa_doublet/4a370a0654da4892a10b598c73079a93/node",
+          "status": "complete"
+        },
+        {
+          "doublet_id": "doublet:na-d",
+          "node_ref": "fa_doublet/8fe9dbcdc01c4082b1a3057619df3248/node",
+          "status": "complete"
+        }
+      ]
+    },
+    {
+      "hypothesis_ref": "H1",
+      "lya_forest": null,
+      "doublets": [
+        {
+          "doublet_id": "doublet:sii",
+          "node_ref": "fa_doublet/3dfc6f03f0e2420aaf0e7e6b113ce1ef/node",
+          "status": "complete"
+        },
+        {
+          "doublet_id": "doublet:nii",
+          "node_ref": "fa_doublet/718d3510e0f34d8786f97bcf39aaae8c/node",
+          "status": "complete"
+        },
+        {
+          "doublet_id": "doublet:cahk",
+          "node_ref": "fa_doublet/99bf2f64e72d4f52a74932f947fbe7ad/node",
+          "status": "complete"
+        },
+        {
+          "doublet_id": "doublet:na-d",
+          "node_ref": "fa_doublet/af7ffa91f6984159b0f03be2d173c4c9/node",
+          "status": "complete"
+        }
+      ]
+    },
+    {
+      "hypothesis_ref": "H6",
+      "lya_forest": null,
+      "doublets": [
+        {
+          "doublet_id": "doublet:cahk",
+          "node_ref": "fa_doublet/928863c4694b40d1b879f14ce8d3cdfe/node",
+          "status": "complete"
+        }
+      ]
+    }
+  ]
+}

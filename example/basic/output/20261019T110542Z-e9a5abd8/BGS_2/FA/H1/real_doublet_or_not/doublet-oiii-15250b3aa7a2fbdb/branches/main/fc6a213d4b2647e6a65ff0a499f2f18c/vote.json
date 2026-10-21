@@ -1,0 +1,13 @@
+{
+  "answer": "no",
+  "reason": "Component a window (5740–5760 Å) is flat noisy continuum with no feature at 5748.8 Å (SH=NOT_FOUND, FA=none). Component b window (5800–5810 Å) shows only low-ivar noise-level undulation, no credible line at 5804.1 Å (FA=signal_absent, pairing rejected). The orphan partner is absent and the claimed component is not visually real, so the two-component interpretation is uncorroborated.",
+  "execution": {
+    "schema_version": "forma-agentic-node-execution-v1",
+    "run_id": "graph-df7434d5533647e999870708120307b0",
+    "branch_id": "main",
+    "node_key": "fa.real_doublet_or_not/graph-df7434d5533647e999870708120307b0/H1/doublet%3Aoiii",
+    "node_execution_id": "fc6a213d4b2647e6a65ff0a499f2f18c",
+    "attempt_id": "b05b7f7aaa554690bc07e08c69aab2f0",
+    "relative_dir": "FA/H1/real_doublet_or_not/doublet-oiii-15250b3aa7a2fbdb/branches/main/fc6a213d4b2647e6a65ff0a499f2f18c"
+  }
+}

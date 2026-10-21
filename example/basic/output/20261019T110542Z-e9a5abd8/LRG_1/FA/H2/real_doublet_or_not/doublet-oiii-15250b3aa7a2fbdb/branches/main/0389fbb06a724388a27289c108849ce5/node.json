@@ -1,0 +1,171 @@
+{
+  "schema_version": "forma-fa-doublet-review-v1",
+  "node_type": "fa.doublet_review",
+  "node_key": "fa.real_doublet_or_not/graph-6f4e6510cc5d45df9da3b7be0c8597cc/H2/doublet%3Aoiii",
+  "run_id": "graph-6f4e6510cc5d45df9da3b7be0c8597cc",
+  "branch_id": "main",
+  "hypothesis_ref": "H2",
+  "doublet_id": "doublet:oiii",
+  "claim_mode": "orphan",
+  "components": [
+    {
+      "line_id": "line:oiii-4960",
+      "line_name": "[O III]a",
+      "rest_angstrom": 4960.3,
+      "expected_obs_angstrom": 4959.002308003791,
+      "sh_status": "MARGINAL",
+      "measurement_id": "cwt:em:0002",
+      "measurement_source": "CWT",
+      "measured_center_angstrom": 4964.00000000031,
+      "amplitude": 0.5909578800201416,
+      "measured_offset_from_expected_angstrom": 4.997691996519279,
+      "fa_state": "signal_absent",
+      "cleaned_pairing": "rejected_measurement",
+      "fa_vote_artifact_refs": [
+        "fa/7818c422ab4c4cac8f2515878635f430/node",
+        "fa/1a49cbe476fc4f7681b262220a7d69e6/node",
+        "fa/c1bdc3624d90469fa566a289fa63afe4/node"
+      ]
+    },
+    {
+      "line_id": "line:oiii-5008",
+      "line_name": "[O III]b",
+      "rest_angstrom": 5008.2,
+      "expected_obs_angstrom": 5006.889776615241,
+      "sh_status": "NOT_FOUND",
+      "measurement_id": null,
+      "measurement_source": null,
+      "measured_center_angstrom": null,
+      "amplitude": null,
+      "measured_offset_from_expected_angstrom": null,
+      "fa_state": null,
+      "cleaned_pairing": "no_pairing",
+      "fa_vote_artifact_refs": []
+    }
+  ],
+  "metrics": {
+    "expected_separation_angstrom": 47.88746861145046,
+    "registry_rest_separation_angstrom": 47.9,
+    "measured_separation_angstrom": null,
+    "separation_difference_angstrom": null,
+    "amplitude_ratio_a_over_b": null,
+    "reference_ratio_window_a_over_b": [
+      0.25,
+      0.5
+    ],
+    "reference_ratio_note": "b:a ≈ 3:1",
+    "reference_ratio_within_window": null,
+    "reference_ratio_is_advisory": true
+  },
+  "coverage": {
+    "requested_window_angstrom": [
+      4879.002308003791,
+      5086.889776615241
+    ],
+    "actual_window_angstrom": [
+      4879.200000000291,
+      5086.400000000338
+    ],
+    "spectrum_bounds_angstrom": [
+      3600.0,
+      9824.000000000524
+    ],
+    "component_cores": [
+      {
+        "line_id": "line:oiii-4960",
+        "predicted_obs_angstrom": 4959.002308003791,
+        "center_within_spectrum_bounds": true,
+        "samples": 37,
+        "valid_samples": 37,
+        "masked_samples": 0,
+        "assessable": true
+      },
+      {
+        "line_id": "line:oiii-5008",
+        "predicted_obs_angstrom": 5006.889776615241,
+        "center_within_spectrum_bounds": true,
+        "samples": 38,
+        "valid_samples": 38,
+        "masked_samples": 0,
+        "assessable": true
+      }
+    ],
+    "assessable": true,
+    "unreviewable_reason": null
+  },
+  "status": "complete",
+  "pair_supported": false,
+  "consultative_only": true,
+  "method_snapshot": {
+    "context_margin_angstrom": 80.0,
+    "component_check_half_angstrom": 15.0,
+    "cahk_outer_reference_sigma": 3.0,
+    "min_valid_component_samples": 5,
+    "vote_quorum": 3,
+    "max_attempts_per_vote_seat": 2
+  },
+  "vote_summary": {
+    "yes": 0,
+    "no": 3,
+    "yes_fraction": 0.0,
+    "assurance": "assured"
+  },
+  "ballots": [
+    {
+      "seat": 0,
+      "answer": "no",
+      "reason": "Component a window shows only a broad, slowly varying hump with no discrete line at 4959 Å (claimed center 4964 Å sits on continuum, offset ~5 Å; FA signal_absent). Component b window at 5006.9 Å is a local flux minimum (~1.2–1.8) with no peak (SH NOT_FOUND). No credible two-component doublet is visible in the usable pixels.",
+      "vote_ref": "fa_doublet/741f96d29eab47aca7f3d94c22e1209e/vote.json"
+    },
+    {
+      "seat": 1,
+      "answer": "no",
+      "reason": "Component a shows only a broad rising plateau with no discrete peak at 4959 Å (claimed center 4964 Å is ~5 Å off, FA signal_absent). Component b's predicted 5006.9 Å falls in a local trough (~1.2–1.3 flux) with no emission feature (SH NOT_FOUND). Neither window supports a two-component [O III] doublet.",
+      "vote_ref": "fa_doublet/053f9097cb5d4a569202a4876a2fd96d/vote.json"
+    },
+    {
+      "seat": 2,
+      "answer": "no",
+      "reason": "Neither component window shows a real line: at 4959 Å the flux is a smooth broad continuum rise with no localized peak (claimed center 4964 Å is a ~5 Å mismatch, FA=signal_absent), and at 5007 Å the flux is a local trough (~1.2–1.8) with no emission feature (SH=NOT_FOUND). The expected strong 5007 partner is absent, so the two-component interpretation is not corroborated.",
+      "vote_ref": "fa_doublet/120825b42b454e989cfd452c3fd5ae7f/vote.json"
+    }
+  ],
+  "successful_votes": 3,
+  "required_votes": 3,
+  "failed_seats": 0,
+  "model_usage": {
+    "calls": 3,
+    "input_tokens": 28215,
+    "output_tokens": 1408,
+    "cache_hit_tokens": 27648,
+    "cache_hit_reported_calls": 3,
+    "cache_hit_unreported_calls": 0
+  },
+  "prompt_identity": {
+    "system_sha256": "92cc96d1542cdf1088b68d4688ccd8de256ac572ab050c2a5e087060f5955e1b",
+    "user_sha256": "75f436d03febecd970eb2709dd6a191a6733a1b951dc7f455e4d27b5ac5b3c33",
+    "tool_name": "submit_doublet_vote",
+    "prompt_text_sha256": "a245d6d9de919b7948d01186b9423325bcf6ecad7258de4962089fa619b10f6f"
+  },
+  "source_refs": [
+    "sh/H2/node",
+    "sh/H2/catalog",
+    "sh/H2/judgments",
+    "spectrum_npz",
+    "fa/7818c422ab4c4cac8f2515878635f430/node",
+    "fa/1a49cbe476fc4f7681b262220a7d69e6/node",
+    "fa/c1bdc3624d90469fa566a289fa63afe4/node"
+  ],
+  "attempt_refs": [
+    "fa_doublet/741f96d29eab47aca7f3d94c22e1209e/vote.json",
+    "fa_doublet/741f96d29eab47aca7f3d94c22e1209e/session.md",
+    "fa_doublet/741f96d29eab47aca7f3d94c22e1209e/model_usage.json",
+    "fa_doublet/053f9097cb5d4a569202a4876a2fd96d/vote.json",
+    "fa_doublet/053f9097cb5d4a569202a4876a2fd96d/session.md",
+    "fa_doublet/053f9097cb5d4a569202a4876a2fd96d/model_usage.json",
+    "fa_doublet/120825b42b454e989cfd452c3fd5ae7f/vote.json",
+    "fa_doublet/120825b42b454e989cfd452c3fd5ae7f/session.md",
+    "fa_doublet/120825b42b454e989cfd452c3fd5ae7f/model_usage.json"
+  ],
+  "node_execution_id": "0389fbb06a724388a27289c108849ce5"
+}

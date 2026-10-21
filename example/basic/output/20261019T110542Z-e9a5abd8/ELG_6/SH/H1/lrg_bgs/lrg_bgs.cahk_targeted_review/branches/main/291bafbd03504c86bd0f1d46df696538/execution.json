@@ -1,0 +1,9 @@
+{
+  "schema_version": "forma-agentic-node-execution-v1",
+  "run_id": "graph-fe0d30030bcc4939b88103e27753b2c1",
+  "branch_id": "main",
+  "node_key": "sh2.lrg_bgs/H1/lrg_bgs.cahk_targeted_review",
+  "node_execution_id": "291bafbd03504c86bd0f1d46df696538",
+  "attempt_id": "25d2e449cedf4971a9a6973e7eff5e44",
+  "relative_dir": "SH/H1/lrg_bgs/lrg_bgs.cahk_targeted_review/branches/main/291bafbd03504c86bd0f1d46df696538"
+}

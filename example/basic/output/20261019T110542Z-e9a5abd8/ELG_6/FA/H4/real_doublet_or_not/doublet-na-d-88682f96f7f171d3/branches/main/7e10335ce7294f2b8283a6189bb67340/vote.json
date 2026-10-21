@@ -1,0 +1,13 @@
+{
+  "answer": "no",
+  "reason": "Both component windows fall in low-ivar noisy stretches with no coherent absorption trough at the predicted positions (a: center 5890.87 vs 5892.90; b: 5900.40 vs 5898.90). Measured separation 9.53 Å vs expected 6.00 Å is a clear pairing mismatch, and both single-feature states are signal_absent. The joint doublet is not visually supported.",
+  "execution": {
+    "schema_version": "forma-agentic-node-execution-v1",
+    "run_id": "graph-fe0d30030bcc4939b88103e27753b2c1",
+    "branch_id": "main",
+    "node_key": "fa.real_doublet_or_not/graph-fe0d30030bcc4939b88103e27753b2c1/H4/doublet%3Ana-d",
+    "node_execution_id": "7e10335ce7294f2b8283a6189bb67340",
+    "attempt_id": "db106377d42247ae8ba14777c41a704c",
+    "relative_dir": "FA/H4/real_doublet_or_not/doublet-na-d-88682f96f7f171d3/branches/main/7e10335ce7294f2b8283a6189bb67340"
+  }
+}

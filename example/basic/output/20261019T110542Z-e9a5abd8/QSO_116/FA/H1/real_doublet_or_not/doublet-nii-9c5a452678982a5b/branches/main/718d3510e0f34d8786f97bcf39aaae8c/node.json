@@ -1,0 +1,178 @@
+{
+  "schema_version": "forma-fa-doublet-review-v1",
+  "node_type": "fa.doublet_review",
+  "node_key": "fa.real_doublet_or_not/graph-325ff74c7f444efdb17e3f3b69698eea/H1/doublet%3Anii",
+  "run_id": "graph-325ff74c7f444efdb17e3f3b69698eea",
+  "branch_id": "main",
+  "hypothesis_ref": "H1",
+  "doublet_id": "doublet:nii",
+  "claim_mode": "complete_pair",
+  "components": [
+    {
+      "line_id": "line:nii-6549",
+      "line_name": "[N II]a",
+      "rest_angstrom": 6549.8,
+      "expected_obs_angstrom": 6543.105928814072,
+      "sh_status": "MARGINAL",
+      "measurement_id": "fit:H1:0004",
+      "measurement_source": "fit_doublet",
+      "measured_center_angstrom": 6525.576,
+      "amplitude": 0.101951,
+      "measured_offset_from_expected_angstrom": -17.529928814072264,
+      "fa_state": "signal_absent",
+      "cleaned_pairing": "rejected_measurement",
+      "fa_vote_artifact_refs": [
+        "fa/475cb728a79a47d5a0cf87bf287ea9b4/node",
+        "fa/3814edbd1fdf41ce9691fc1107dfb797/node",
+        "fa/2e795f3a99c64e4693cfcfd468f727a3/node"
+      ]
+    },
+    {
+      "line_id": "line:nii-6585",
+      "line_name": "[N II]b",
+      "rest_angstrom": 6585.3,
+      "expected_obs_angstrom": 6578.569646862394,
+      "sh_status": "MARGINAL",
+      "measurement_id": "fit:H1:0005",
+      "measurement_source": "fit_doublet",
+      "measured_center_angstrom": 6564.712,
+      "amplitude": 0.127321,
+      "measured_offset_from_expected_angstrom": -13.857646862393267,
+      "fa_state": "signal_absent",
+      "cleaned_pairing": "rejected_measurement",
+      "fa_vote_artifact_refs": [
+        "fa/64a7ea85672349caa2a6cec2b3efbf0c/node",
+        "fa/2fedb28a75b84cce8d2e2e92b1c41e3c/node",
+        "fa/dbb4c6cfe42f4659bf1cadb901cfd82d/node"
+      ]
+    }
+  ],
+  "metrics": {
+    "expected_separation_angstrom": 35.463718048321425,
+    "registry_rest_separation_angstrom": 35.5,
+    "measured_separation_angstrom": 39.13600000000042,
+    "separation_difference_angstrom": 3.672281951678997,
+    "amplitude_ratio_a_over_b": 0.8007398622379656,
+    "reference_ratio_window_a_over_b": [
+      0.2,
+      0.45
+    ],
+    "reference_ratio_note": "a:b ≈ 1:3",
+    "reference_ratio_within_window": false,
+    "reference_ratio_is_advisory": true
+  },
+  "coverage": {
+    "requested_window_angstrom": [
+      6463.105928814072,
+      6658.569646862394
+    ],
+    "actual_window_angstrom": [
+      6463.20000000016,
+      6658.400000000204
+    ],
+    "spectrum_bounds_angstrom": [
+      3600.0,
+      9824.000000000524
+    ],
+    "component_cores": [
+      {
+        "line_id": "line:nii-6549",
+        "predicted_obs_angstrom": 6543.105928814072,
+        "center_within_spectrum_bounds": true,
+        "samples": 37,
+        "valid_samples": 37,
+        "masked_samples": 0,
+        "assessable": true
+      },
+      {
+        "line_id": "line:nii-6585",
+        "predicted_obs_angstrom": 6578.569646862394,
+        "center_within_spectrum_bounds": true,
+        "samples": 37,
+        "valid_samples": 37,
+        "masked_samples": 0,
+        "assessable": true
+      }
+    ],
+    "assessable": true,
+    "unreviewable_reason": null
+  },
+  "status": "complete",
+  "pair_supported": false,
+  "consultative_only": true,
+  "method_snapshot": {
+    "context_margin_angstrom": 80.0,
+    "component_check_half_angstrom": 15.0,
+    "cahk_outer_reference_sigma": 3.0,
+    "min_valid_component_samples": 5,
+    "vote_quorum": 3,
+    "max_attempts_per_vote_seat": 2
+  },
+  "vote_summary": {
+    "yes": 0,
+    "no": 3,
+    "yes_fraction": 0.0,
+    "assurance": "assured"
+  },
+  "ballots": [
+    {
+      "seat": 0,
+      "answer": "no",
+      "reason": "Neither component window shows a credible line: at 6543 Å and 6578.6 Å the flux is flat noisy continuum (~0.5–0.65) with no peak, and the claimed centers (6525.6, 6564.7 Å) are continuum-level noise, offset 14–18 Å from prediction. Separation (39.1 Å) and ratio (0.80) also disagree with the [N II] pair. No visual support for two components.",
+      "vote_ref": "fa_doublet/b8c3586c2f41494ca913789e5ec9b658/vote.json"
+    },
+    {
+      "seat": 1,
+      "answer": "no",
+      "reason": "Neither window shows a real feature: at predicted 6543 Å and 6578.6 Å the flux is flat continuum/noise with no peak. Both claimed centers (6525.6, 6564.7 Å) fall in noisy stretches, offset >13 Å from prediction, and the measured separation (39.1 Å) and ratio (0.80) disagree with the [N II] pair. Both FA states are signal_absent.",
+      "vote_ref": "fa_doublet/b28b455a02584b098fd47388c187f45f/vote.json"
+    },
+    {
+      "seat": 2,
+      "answer": "no",
+      "reason": "Both component windows show only flat noise: no emission peak at predicted 6543/6578 Å nor at the claimed centers 6525.6/6564.7 Å. Both measured centers are offset ~14–18 Å from prediction (pairing mismatch), both single-feature FA states are signal_absent, and the amplitude ratio 0.80 is far outside the expected 1:3 window. No visual support for a two-component pair.",
+      "vote_ref": "fa_doublet/4bbbea38fdb34eb9bd05a4887fcc7f12/vote.json"
+    }
+  ],
+  "successful_votes": 3,
+  "required_votes": 3,
+  "failed_seats": 0,
+  "model_usage": {
+    "calls": 3,
+    "input_tokens": 27114,
+    "output_tokens": 1504,
+    "cache_hit_tokens": 26496,
+    "cache_hit_reported_calls": 3,
+    "cache_hit_unreported_calls": 0
+  },
+  "prompt_identity": {
+    "system_sha256": "92cc96d1542cdf1088b68d4688ccd8de256ac572ab050c2a5e087060f5955e1b",
+    "user_sha256": "3ee221e0b83187ecb2bb3b78b98eadc816535c6d7aa87692fcec374ef70d8991",
+    "tool_name": "submit_doublet_vote",
+    "prompt_text_sha256": "423af33977ac07808c77e33f41954da183994debf606a0178018add27ba4ff82"
+  },
+  "source_refs": [
+    "sh/H1/node",
+    "sh/H1/catalog",
+    "sh/H1/judgments",
+    "spectrum_npz",
+    "fa/475cb728a79a47d5a0cf87bf287ea9b4/node",
+    "fa/3814edbd1fdf41ce9691fc1107dfb797/node",
+    "fa/2e795f3a99c64e4693cfcfd468f727a3/node",
+    "fa/64a7ea85672349caa2a6cec2b3efbf0c/node",
+    "fa/2fedb28a75b84cce8d2e2e92b1c41e3c/node",
+    "fa/dbb4c6cfe42f4659bf1cadb901cfd82d/node"
+  ],
+  "attempt_refs": [
+    "fa_doublet/b8c3586c2f41494ca913789e5ec9b658/vote.json",
+    "fa_doublet/b8c3586c2f41494ca913789e5ec9b658/session.md",
+    "fa_doublet/b8c3586c2f41494ca913789e5ec9b658/model_usage.json",
+    "fa_doublet/b28b455a02584b098fd47388c187f45f/vote.json",
+    "fa_doublet/b28b455a02584b098fd47388c187f45f/session.md",
+    "fa_doublet/b28b455a02584b098fd47388c187f45f/model_usage.json",
+    "fa_doublet/4bbbea38fdb34eb9bd05a4887fcc7f12/vote.json",
+    "fa_doublet/4bbbea38fdb34eb9bd05a4887fcc7f12/session.md",
+    "fa_doublet/4bbbea38fdb34eb9bd05a4887fcc7f12/model_usage.json"
+  ],
+  "node_execution_id": "718d3510e0f34d8786f97bcf39aaae8c"
+}

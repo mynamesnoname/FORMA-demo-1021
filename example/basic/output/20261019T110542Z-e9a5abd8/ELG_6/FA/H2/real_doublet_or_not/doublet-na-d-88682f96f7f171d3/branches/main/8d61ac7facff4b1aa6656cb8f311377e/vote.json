@@ -1,0 +1,13 @@
+{
+  "answer": "no",
+  "reason": "Neither window shows an absorption dip: around 6520.8 Å (D1) and 6527.4 Å (D2) the flux is a flat noisy plateau. Claimed centers are offset 6.5 Å and 48.7 Å from prediction, giving a 48.8 Å separation vs 6.64 Å expected — a gross pairing mismatch. Both single-feature states are signal_absent, so no two-component structure is supported.",
+  "execution": {
+    "schema_version": "forma-agentic-node-execution-v1",
+    "run_id": "graph-fe0d30030bcc4939b88103e27753b2c1",
+    "branch_id": "main",
+    "node_key": "fa.real_doublet_or_not/graph-fe0d30030bcc4939b88103e27753b2c1/H2/doublet%3Ana-d",
+    "node_execution_id": "8d61ac7facff4b1aa6656cb8f311377e",
+    "attempt_id": "0682fbf3e0d5421fbbfe14026a14d43f",
+    "relative_dir": "FA/H2/real_doublet_or_not/doublet-na-d-88682f96f7f171d3/branches/main/8d61ac7facff4b1aa6656cb8f311377e"
+  }
+}

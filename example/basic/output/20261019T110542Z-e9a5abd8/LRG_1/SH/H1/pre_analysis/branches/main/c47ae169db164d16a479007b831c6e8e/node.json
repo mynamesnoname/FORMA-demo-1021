@@ -1,0 +1,26 @@
+{
+  "schema_version": "forma-sh-line-review-v1",
+  "key": "sh.pre_analysis/graph-6f4e6510cc5d45df9da3b7be0c8597cc/H1",
+  "hypothesis_ref": "H1",
+  "hypothesis_redshift": 0.2515625506820086,
+  "status": "complete",
+  "csv_path": "/mnt/linux_share/code/FORMA/example/basic/output/20261019T110542Z-e9a5abd8/LRG_1/SH/H1/pre_analysis/branches/main/c47ae169db164d16a479007b831c6e8e/lines.csv",
+  "csv_sha256": "e65ef36d7107f1fba99648e1db65ab897e501ebde8fcf3831f5d8ba16c8fd49f",
+  "measurement_catalog_path": "/mnt/linux_share/code/FORMA/example/basic/output/20261019T110542Z-e9a5abd8/LRG_1/VI/measurements/hypothesis_000_measurement_catalog.json",
+  "measurement_catalog_sha256": "3144f09de5ebe44d16b0f796f9b4451f2b34efcedb9df242d452260e825f7151",
+  "judgment_path": "/mnt/linux_share/code/FORMA/example/basic/output/20261019T110542Z-e9a5abd8/LRG_1/SH/H1/pre_analysis/branches/main/c47ae169db164d16a479007b831c6e8e/lines_judgments.json",
+  "judgment_sha256": "6df4c1db53029f0a4af1e9ca08793e767b1066e532436e45323871511a34d095",
+  "session_stage1_path": "/mnt/linux_share/code/FORMA/example/basic/output/20261019T110542Z-e9a5abd8/LRG_1/SH/H1/pre_analysis/branches/main/c47ae169db164d16a479007b831c6e8e/stage1_session.md",
+  "session_stage1_sha256": "1ea0d74a55afbbc8cae292d2f5f6dd4b3080f25b24452cf30390ec61482bf21f",
+  "adopted_lines_plot_path": "/mnt/linux_share/code/FORMA/example/basic/output/20261019T110542Z-e9a5abd8/LRG_1/SH/H1/pre_analysis/branches/main/c47ae169db164d16a479007b831c6e8e/adopted_lines.png",
+  "adopted_lines_plot_sha256": "50ca1691fadf22f4caf087db74871abde153c01777e313cbffe85548231a5566",
+  "execution": {
+    "schema_version": "forma-agentic-node-execution-v1",
+    "run_id": "graph-6f4e6510cc5d45df9da3b7be0c8597cc",
+    "branch_id": "main",
+    "node_key": "sh.pre_analysis/graph-6f4e6510cc5d45df9da3b7be0c8597cc/H1",
+    "node_execution_id": "c47ae169db164d16a479007b831c6e8e",
+    "attempt_id": "70bcccb604ef4a27b5c7636aeb759885",
+    "relative_dir": "SH/H1/pre_analysis/branches/main/c47ae169db164d16a479007b831c6e8e"
+  }
+}

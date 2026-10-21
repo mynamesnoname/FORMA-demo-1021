@@ -1,0 +1,13 @@
+{
+  "answer": "no",
+  "reason": "Both predicted cores (5883.5, 5889.5 Å) show flat continuum with no absorption dip; claimed centers at 5914.7/5920.5 Å are ~31 Å off prediction and also show no feature. Amplitudes are -0.0 and both single-feature states are signal_absent, so the pair is not corroborated.",
+  "execution": {
+    "schema_version": "forma-agentic-node-execution-v1",
+    "run_id": "graph-df7434d5533647e999870708120307b0",
+    "branch_id": "main",
+    "node_key": "fa.real_doublet_or_not/graph-df7434d5533647e999870708120307b0/H4/doublet%3Ana-d",
+    "node_execution_id": "fb4ef1ca617a4f0cbbe9eb266366d641",
+    "attempt_id": "aef0910f82294545a8ce3c71ef231251",
+    "relative_dir": "FA/H4/real_doublet_or_not/doublet-na-d-88682f96f7f171d3/branches/main/fb4ef1ca617a4f0cbbe9eb266366d641"
+  }
+}

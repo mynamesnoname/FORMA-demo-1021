@@ -1,0 +1,26 @@
+{
+  "schema_version": "forma-sh-line-review-v1",
+  "key": "sh.pre_analysis/graph-df7434d5533647e999870708120307b0/H5",
+  "hypothesis_ref": "H5",
+  "hypothesis_redshift": 1.418867070771408,
+  "status": "complete",
+  "csv_path": "/mnt/linux_share/code/FORMA/example/basic/output/20261019T110542Z-e9a5abd8/BGS_2/SH/H5/pre_analysis/branches/main/61c4d4b5796f4955b054c686843b3609/lines.csv",
+  "csv_sha256": "39c859cdb2a304f3c30ea3598c7bf54f393ad94a909c36070b62dd92e04127db",
+  "measurement_catalog_path": "/mnt/linux_share/code/FORMA/example/basic/output/20261019T110542Z-e9a5abd8/BGS_2/VI/measurements/hypothesis_004_measurement_catalog.json",
+  "measurement_catalog_sha256": "3d11b7353d6975fbe36955dded3bacc8566877a54cffb4924e082f2c6e357ab1",
+  "judgment_path": "/mnt/linux_share/code/FORMA/example/basic/output/20261019T110542Z-e9a5abd8/BGS_2/SH/H5/pre_analysis/branches/main/61c4d4b5796f4955b054c686843b3609/lines_judgments.json",
+  "judgment_sha256": "a32807ea65ae9f968d07d54abfbf80ecca05e8dc28e05a3904be0bc0b592bf5c",
+  "session_stage1_path": "/mnt/linux_share/code/FORMA/example/basic/output/20261019T110542Z-e9a5abd8/BGS_2/SH/H5/pre_analysis/branches/main/61c4d4b5796f4955b054c686843b3609/stage1_session.md",
+  "session_stage1_sha256": "f565b8fd9f30522384eac657b60f7d430042046dd30263723560aedd9cab7a74",
+  "adopted_lines_plot_path": "/mnt/linux_share/code/FORMA/example/basic/output/20261019T110542Z-e9a5abd8/BGS_2/SH/H5/pre_analysis/branches/main/61c4d4b5796f4955b054c686843b3609/adopted_lines.png",
+  "adopted_lines_plot_sha256": "da04442df027166c14a952374d3a926be0ef24672fca9849a93f6028e92f87ca",
+  "execution": {
+    "schema_version": "forma-agentic-node-execution-v1",
+    "run_id": "graph-df7434d5533647e999870708120307b0",
+    "branch_id": "main",
+    "node_key": "sh.pre_analysis/graph-df7434d5533647e999870708120307b0/H5",
+    "node_execution_id": "61c4d4b5796f4955b054c686843b3609",
+    "attempt_id": "370cf670c5a8491c8eb924870b81047f",
+    "relative_dir": "SH/H5/pre_analysis/branches/main/61c4d4b5796f4955b054c686843b3609"
+  }
+}

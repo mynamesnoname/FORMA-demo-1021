@@ -1,0 +1,13 @@
+{
+  "answer": "yes",
+  "reason": "Both windows show coherent absorption dips at the predicted positions: Ca K core dips to ~0.05-0.75 near 4561-4562 Å and Ca H core dips to ~0.44-0.84 near 4600.8-4602.4 Å, each recovering to continuum on both sides. Measured separation 40.59 Å matches expected 40.33 Å within 0.26 Å. The slightly shallow K/H ratio (0.94) is advisory only and attributable to shallow, blended profiles; the two-component interpretation is supported.",
+  "execution": {
+    "schema_version": "forma-agentic-node-execution-v1",
+    "run_id": "graph-df7434d5533647e999870708120307b0",
+    "branch_id": "main",
+    "node_key": "fa.real_doublet_or_not/graph-df7434d5533647e999870708120307b0/H1/doublet%3Acahk",
+    "node_execution_id": "74b18118963c43a79d0619ee023a7f97",
+    "attempt_id": "19bd3377be4d4eedb09b799a5e19fed5",
+    "relative_dir": "FA/H1/real_doublet_or_not/doublet-cahk-adc0de4c56cfce1d/branches/main/74b18118963c43a79d0619ee023a7f97"
+  }
+}

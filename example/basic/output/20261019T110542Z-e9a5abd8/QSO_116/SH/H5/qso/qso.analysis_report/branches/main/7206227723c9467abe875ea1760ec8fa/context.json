@@ -1,0 +1,339 @@
+{
+  "run_id": "graph-325ff74c7f444efdb17e3f3b69698eea",
+  "branch_id": "main",
+  "hypothesis_ref": "H5",
+  "fixed_redshift": "2.9196962422694117",
+  "preliminary_classification": "Type 1 QSO",
+  "graph_handoff": null,
+  "spectrum_summary": {
+    "wavelength_min_angstrom": 3600.0,
+    "wavelength_max_angstrom": 9824.000000000524,
+    "masked_regions": [],
+    "measurement_catalog_ref": "sh/H5/catalog"
+  },
+  "terminal": {
+    "source_node_ref": "sh2/63a2e13eca9e41bb9a3008c6f87d114a/node",
+    "path_status": "survive",
+    "candidate_type": "Type 1 QSO",
+    "rule_id": "project:qso-type1-formal-gate",
+    "rule_version": "forma-qso-entry-v1",
+    "reason_codes": []
+  },
+  "line_records": [
+    {
+      "line_id": "line:lya-1216",
+      "line_name": "Lyα",
+      "predicted_obs_angstrom": 4765.057130839656,
+      "measurement_id": "cwt:em:0000",
+      "measured_center_angstrom": 4768.000000000266,
+      "measurement_source": "CWT",
+      "fwhm_km_s": 2497.013289890503,
+      "measurement_flags": [],
+      "sh_status": "LIKELY",
+      "fa_state": "signal_present",
+      "vote_summary": {
+        "yes": 3,
+        "no": 0,
+        "assurance": "assured"
+      },
+      "cleaned_pairing": "adopted",
+      "graph_gate_state": "paired"
+    },
+    {
+      "line_id": "line:civ-1549",
+      "line_name": "C IV",
+      "predicted_obs_angstrom": 6071.609479275318,
+      "measurement_id": "cwt:em:0002",
+      "measured_center_angstrom": 6072.000000000071,
+      "measurement_source": "CWT",
+      "fwhm_km_s": 3472.5976450486037,
+      "measurement_flags": [],
+      "sh_status": "LIKELY",
+      "fa_state": "signal_present",
+      "vote_summary": {
+        "yes": 2,
+        "no": 1,
+        "assurance": "contested"
+      },
+      "cleaned_pairing": "adopted",
+      "graph_gate_state": "paired"
+    },
+    {
+      "line_id": "line:heii-1640",
+      "line_name": "He II",
+      "predicted_obs_angstrom": 6429.869715818743,
+      "measurement_id": null,
+      "measured_center_angstrom": null,
+      "measurement_source": null,
+      "fwhm_km_s": null,
+      "measurement_flags": [],
+      "sh_status": "NOT_FOUND",
+      "fa_state": null,
+      "vote_summary": null,
+      "cleaned_pairing": "no_pairing",
+      "graph_gate_state": "not_evaluated"
+    },
+    {
+      "line_id": "line:ciii-1909",
+      "line_name": "C III]",
+      "predicted_obs_angstrom": 7482.700126492307,
+      "measurement_id": "cwt:em:0003",
+      "measured_center_angstrom": 7474.40000000039,
+      "measurement_source": "CWT",
+      "fwhm_km_s": 3413.130835109371,
+      "measurement_flags": [],
+      "sh_status": "MARGINAL",
+      "fa_state": "signal_absent",
+      "vote_summary": {
+        "yes": 0,
+        "no": 3,
+        "assurance": "assured"
+      },
+      "cleaned_pairing": "rejected_measurement",
+      "graph_gate_state": "not_evaluated"
+    }
+  ],
+  "targeted_measurements": [],
+  "line_alignment": {
+    "collisions": [],
+    "aligned_claims": [
+      {
+        "line_id": "line:ciii-1909",
+        "original_measurement_id": "cwt:em:0003",
+        "status": "unassigned",
+        "effective_feature_id": null
+      },
+      {
+        "line_id": "line:civ-1549",
+        "original_measurement_id": "cwt:em:0002",
+        "status": "original_claim",
+        "effective_feature_id": "cwt:em:0002"
+      },
+      {
+        "line_id": "line:heii-1640",
+        "original_measurement_id": null,
+        "status": "unassigned",
+        "effective_feature_id": null
+      },
+      {
+        "line_id": "line:lya-1216",
+        "original_measurement_id": "cwt:em:0000",
+        "status": "original_claim",
+        "effective_feature_id": "cwt:em:0000"
+      }
+    ],
+    "model_usage": {
+      "calls": 0,
+      "input_tokens": 0,
+      "output_tokens": 0,
+      "cache_hit_tokens": 0,
+      "cache_hit_reported_calls": 0,
+      "cache_hit_unreported_calls": 0
+    },
+    "window_half_angstrom": 100.0,
+    "vote_quorum": 3,
+    "max_attempts_per_vote_seat": 2,
+    "outer_reference_sigma": 3.0,
+    "concurrency": 3
+  },
+  "line_alignment_ref": "alignment/819f69b6304740ccbeeb94b46b97eef1/node",
+  "graph_actions": [
+    {
+      "node_type": "qso.broad_line_inventory",
+      "source_node_ref": "sh2/7c2f26573577439997525b4056d2b5ed/node",
+      "output": {
+        "lines": [
+          {
+            "line_id": "line:lya-1216",
+            "predicted_obs_angstrom": 4765.057130839656,
+            "coverage": "needs_q5",
+            "cleaned_pairing": "adopted",
+            "measurement_id": "cwt:em:0000",
+            "fwhm_km_s": 2497.013289890503,
+            "broadness": "supported"
+          },
+          {
+            "line_id": "line:civ-1549",
+            "predicted_obs_angstrom": 6071.609479275318,
+            "coverage": "needs_q5",
+            "cleaned_pairing": "adopted",
+            "measurement_id": "cwt:em:0002",
+            "fwhm_km_s": 3472.5976450486037,
+            "broadness": "supported"
+          },
+          {
+            "line_id": "line:ciii-1909",
+            "predicted_obs_angstrom": 7482.700126492307,
+            "coverage": "needs_q5",
+            "cleaned_pairing": "rejected_measurement",
+            "measurement_id": "cwt:em:0003",
+            "fwhm_km_s": 3413.130835109371,
+            "broadness": "unresolved"
+          },
+          {
+            "line_id": "line:mgii-2800",
+            "predicted_obs_angstrom": 10975.149478354353,
+            "coverage": "outside_range",
+            "cleaned_pairing": "out_of_scope",
+            "measurement_id": null,
+            "fwhm_km_s": null,
+            "broadness": "unresolved"
+          }
+        ],
+        "any_supported_broad_line": true,
+        "strict_broad_fwhm_km_s": 2000.0,
+        "strict_broad_threshold_source": "config:rule:formal-width-class-match.width_consistency_score",
+        "strict_broad_threshold_payload_sha256": "b06941d9d371bd8792640873665004016437f947477142bdeae1f9622298d97e",
+        "next_node": "qso.missing_broad_line_queue"
+      }
+    },
+    {
+      "node_type": "qso.missing_broad_line_queue",
+      "source_node_ref": "sh2/4ae027ef899141a39d74ec4d1314c624/node",
+      "output": {
+        "selected_line_ids": [
+          "line:lya-1216",
+          "line:civ-1549"
+        ],
+        "queue": [],
+        "coverage_preview": {
+          "line:lya-1216": "usable",
+          "line:civ-1549": "usable",
+          "line:ciii-1909": "usable",
+          "line:mgii-2800": "outside_range"
+        },
+        "window_half_width_angstrom": 150.0,
+        "window_parameter": "analysis_method.qso_type1.local_read_half_angstrom",
+        "method_snapshot": {
+          "qso_type1": {
+            "local_read_half_angstrom": 150.0,
+            "envelope_edge_sigma": 3.0,
+            "strength_vote_quorum": 3,
+            "max_attempts_per_vote_seat": 2
+          },
+          "peak_center_bound_half_angstrom": 50.0,
+          "effective_vote_quorum": 3
+        },
+        "method_snapshot_sha256": "99aecb2f96f4d3273f3731cac409629dbe5d2f3c22a0ae7432e97ae5c6873d59"
+      }
+    },
+    {
+      "node_type": "qso.coverage/line:lya-1216",
+      "source_node_ref": "sh2/35c41779be6743279bad3e2776467892/node",
+      "output": {
+        "center_angstrom": 4765.057130839656,
+        "requested_window_angstrom": [
+          4615.057130839656,
+          4915.057130839656
+        ],
+        "actual_window_angstrom": [
+          4615.200000000231,
+          4914.400000000299
+        ],
+        "coverage": "usable",
+        "total_samples": 375,
+        "usable_samples": 375,
+        "explicit_masked_samples": 0,
+        "full_window_explicit_mask_proof": false
+      }
+    },
+    {
+      "node_type": "qso.coverage/line:civ-1549",
+      "source_node_ref": "sh2/8f5d69708c29420b809e8089f0bd2127/node",
+      "output": {
+        "center_angstrom": 6071.609479275318,
+        "requested_window_angstrom": [
+          5921.609479275318,
+          6221.609479275318
+        ],
+        "actual_window_angstrom": [
+          5922.400000000037,
+          6221.600000000105
+        ],
+        "coverage": "usable",
+        "total_samples": 375,
+        "usable_samples": 375,
+        "explicit_masked_samples": 0,
+        "full_window_explicit_mask_proof": false
+      }
+    },
+    {
+      "node_type": "qso.type1_formal_gate",
+      "source_node_ref": "sh2/25ec1046a7694849b10165a3aec7aab1/node",
+      "output": {
+        "selected_line_ids": [
+          "line:lya-1216",
+          "line:civ-1549"
+        ],
+        "gate_status": "type1_supported",
+        "effective_line_states": [
+          [
+            "line:lya-1216",
+            "paired"
+          ],
+          [
+            "line:civ-1549",
+            "paired"
+          ]
+        ],
+        "raw_line_states": {
+          "line:lya-1216": "paired",
+          "line:civ-1549": "paired"
+        },
+        "coverage": {
+          "line:lya-1216": "usable",
+          "line:civ-1549": "usable",
+          "line:ciii-1909": "usable",
+          "line:mgii-2800": "outside_range"
+        },
+        "state_source_refs": {
+          "line:lya-1216": [
+            "sh2/35c41779be6743279bad3e2776467892/node",
+            "sh2/7c2f26573577439997525b4056d2b5ed/node"
+          ],
+          "line:civ-1549": [
+            "sh2/8f5d69708c29420b809e8089f0bd2127/node",
+            "sh2/7c2f26573577439997525b4056d2b5ed/node"
+          ]
+        },
+        "reason_codes": []
+      }
+    },
+    {
+      "node_type": "qso.route_result",
+      "source_node_ref": "sh2/63a2e13eca9e41bb9a3008c6f87d114a/node",
+      "output": {
+        "path_status": "survive",
+        "candidate_type": "Type 1 QSO",
+        "rule_id": "project:qso-type1-formal-gate",
+        "reason_codes": []
+      }
+    }
+  ],
+  "conflicts": [],
+  "unresolved_items": [],
+  "skipped_nodes": [],
+  "source_refs": [
+    "alignment/819f69b6304740ccbeeb94b46b97eef1/node",
+    "fa/06040e9d917f447593c101027922db93/node",
+    "fa/3baea011731b426a8284740aea8d37b4/node",
+    "fa/4be1ce7d69544109bbc4ead9e598d39a/node",
+    "fa/4e0f417adf0e425cba15d6e83d45fe62/node",
+    "fa/6154accbba564e9b94cc33ad2518fac4/node",
+    "fa/7b4b3f4bde5f416da3f0e9566fdb2e12/node",
+    "fa/87467cd2df07435ca7001b702d655bee/node",
+    "fa/a745fd172b284fbf80ee5fecb05eb133/node",
+    "fa/d5c716d30b8244b192eeac8f030ae74c/node",
+    "sh/H5/catalog",
+    "sh/H5/judgments",
+    "sh/H5/node",
+    "sh2/25ec1046a7694849b10165a3aec7aab1/node",
+    "sh2/35c41779be6743279bad3e2776467892/node",
+    "sh2/4ae027ef899141a39d74ec4d1314c624/node",
+    "sh2/5ff8bb0ed84549a68b10b25525774769/node",
+    "sh2/63a2e13eca9e41bb9a3008c6f87d114a/node",
+    "sh2/7c2f26573577439997525b4056d2b5ed/node",
+    "sh2/8f5d69708c29420b809e8089f0bd2127/node",
+    "sh2/a7245254fad24557bd57c356b4ac24c2/node"
+  ]
+}

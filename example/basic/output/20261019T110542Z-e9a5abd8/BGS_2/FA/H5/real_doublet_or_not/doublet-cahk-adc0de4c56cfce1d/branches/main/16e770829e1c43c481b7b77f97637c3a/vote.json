@@ -1,0 +1,13 @@
+{
+  "answer": "no",
+  "reason": "Neither window shows a real absorption component. Ca H at ~9600-9602 Å is flat high-S/N continuum (flux ~5.0-5.3, ivar ~45) with no dip (amplitude -0.0). Ca K's only dip is a single low-S/N point near 9505 Å, ~12.5 Å off the 9517.8 Å prediction, with no trough at the predicted position. Separation (94.4 Å) also exceeds expected (84.2 Å). No corroborating two-component structure.",
+  "execution": {
+    "schema_version": "forma-agentic-node-execution-v1",
+    "run_id": "graph-df7434d5533647e999870708120307b0",
+    "branch_id": "main",
+    "node_key": "fa.real_doublet_or_not/graph-df7434d5533647e999870708120307b0/H5/doublet%3Acahk",
+    "node_execution_id": "16e770829e1c43c481b7b77f97637c3a",
+    "attempt_id": "5ebbafafa0f44097912e4dacf5a8742a",
+    "relative_dir": "FA/H5/real_doublet_or_not/doublet-cahk-adc0de4c56cfce1d/branches/main/16e770829e1c43c481b7b77f97637c3a"
+  }
+}

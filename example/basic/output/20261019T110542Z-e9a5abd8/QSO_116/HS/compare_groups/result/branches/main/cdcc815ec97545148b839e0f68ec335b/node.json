@@ -1,0 +1,111 @@
+{
+  "schema_version": "forma-hs-group-comparison-v3",
+  "run_id": "graph-325ff74c7f444efdb17e3f3b69698eea",
+  "branch_id": "main",
+  "node_key": "hs.compare_groups",
+  "node_execution_id": "cdcc815ec97545148b839e0f68ec335b",
+  "attempt_id": "7b5948913f0c46528500dbbc16025a87",
+  "input_refs": [
+    "alignment/06f7bfce442546da93261a370f8f40bc/node",
+    "alignment/819f69b6304740ccbeeb94b46b97eef1/node",
+    "fa/06040e9d917f447593c101027922db93/node",
+    "fa/3baea011731b426a8284740aea8d37b4/node",
+    "fa/4e0f417adf0e425cba15d6e83d45fe62/node",
+    "fa/7b4b3f4bde5f416da3f0e9566fdb2e12/node",
+    "fa/87467cd2df07435ca7001b702d655bee/node",
+    "fa/d5c716d30b8244b192eeac8f030ae74c/node",
+    "fa_doublet/928863c4694b40d1b879f14ce8d3cdfe/node",
+    "fa_forest/2e9744fbcab4444e93bc8532c742376f/node",
+    "hs/5551d6a1a1b74f8ba4112435e10705c2/node",
+    "sh/H5/catalog",
+    "sh/H5/judgments",
+    "sh/H5/node",
+    "sh/H6/catalog",
+    "sh/H6/judgments",
+    "sh/H6/node",
+    "sh2/04f62a129ba54bf783de1b76c1866a5e/report",
+    "sh2/3ee7584874ff49f9862661771dbfaf44/node",
+    "sh2/63a2e13eca9e41bb9a3008c6f87d114a/node",
+    "sh2/7206227723c9467abe875ea1760ec8fa/report"
+  ],
+  "mode": "model",
+  "output": {
+    "winner_group_id": "hs.merge/H5",
+    "reason": "H5 and H6 both identify the same observed CWT feature cwt:em:0000, but as different lines (Lyα at z=2.92 vs Mg II at z=0.708). H5 has a second, distinct FA-confirmed broad feature (cwt:em:0002, C IV, signal_present 2/3) with a very small positional residual (+0.39 Å), giving it an additional independent observational support that H6 lacks. H6's Mg II assignment has a larger descriptive offset (-14.17 Å) and only a MARGINAL SH status, and its Ca H/K doublet review returned pair-supported=no (0/3). H5's Lyα forest review returned not_seen, which is a limitation rather than a rejection. On balance H5's pattern (two broad, FA-confirmed features at consistent positions) is the more credible provisional interpretation.",
+    "assessments": [
+      {
+        "group_id": "hs.merge/H5",
+        "support_pairs": [
+          {
+            "line_id": "line:lya-1216",
+            "feature_id": "cwt:em:0000"
+          },
+          {
+            "line_id": "line:civ-1549",
+            "feature_id": "cwt:em:0002"
+          }
+        ],
+        "conflict_pairs": [],
+        "comparative_evidence": {
+          "advantages": [
+            "Two distinct FA-confirmed broad features: cwt:em:0000 (Lyα, signal_present 3/3 assured) and cwt:em:0002 (C IV, signal_present 2/3 contested) with FWHM ~2497 and ~3473 km/s, both above the strict broad threshold.",
+            "C IV positional residual is very small (+0.39 Å) and the Q10 formal gate recorded type1_supported with both lines paired and usable coverage.",
+            "The second feature cwt:em:0002 is not used by H6, so it provides additional support unique to this interpretation."
+          ],
+          "disadvantages": [
+            "C IV FA vote is contested (2 yes / 1 no), so its signal presence is less secure than Lyα's.",
+            "C III] measurement was rejected (signal_absent 0/3), though this does not prove absence."
+          ],
+          "limitations": [
+            "Lyα forest advisory review returned not_seen (0/3 yes) over an assessable blueward window, so positive Lyα-forest corroboration was not obtained.",
+            "The Lyα identification of cwt:em:0000 competes directly with H6's Mg II identification of the same feature; positional agreement alone does not establish line identity.",
+            "No uncertainty model is supplied, so the +2.94 Å Lyα residual cannot be given a calibrated significance."
+          ]
+        },
+        "unresolved": [
+          "Whether cwt:em:0000 is genuinely Lyα (H5) or Mg II (H6) cannot be settled from position alone; the Lyα forest not_seen result leaves no positive blueward corroboration.",
+          "The contested C IV vote (2/3) leaves the second supporting feature somewhat less secure."
+        ],
+        "comparison_note": "H5 and H6 share the exact observed feature cwt:em:0000 but assign it to different lines at very different redshifts. H5 additionally uses cwt:em:0002 (C IV), a distinct FA-confirmed feature not claimed by H6, which is the main discriminator in H5's favour."
+      },
+      {
+        "group_id": "hs.merge/H6",
+        "support_pairs": [
+          {
+            "line_id": "line:mgii-2800",
+            "feature_id": "cwt:em:0000"
+          }
+        ],
+        "conflict_pairs": [],
+        "comparative_evidence": {
+          "advantages": [
+            "cwt:em:0000 is FA signal_present with an assured 3/3 vote and broad FWHM (~2497 km/s), and Mg II coverage is usable.",
+            "The formal Type 1 gate recorded type1_supported on the paired Mg II line."
+          ],
+          "disadvantages": [
+            "Only one selected feature supports this interpretation; it is the same observed feature contested by H5.",
+            "The Mg II positional residual is larger (-14.17 Å) and the SH status is MARGINAL rather than a clean detection label.",
+            "The Ca H/K doublet advisory review returned pair supported = no (0/3 yes), and all other candidate lines (Ca H, Hε, Hδ, G-band, Hβ, Mg I) were FA signal_absent (0/3)."
+          ],
+          "limitations": [
+            "Lyα, C IV, and C III] fall outside the reported wavelength range on this path, so the features H5 uses were not evaluated here; this is missing coverage, not evidence against H6.",
+            "No Q8 targeted measurements were supplied, so no envelope proxies or strength votes are available.",
+            "No uncertainty model is supplied for the -14.17 Å offset."
+          ]
+        },
+        "unresolved": [
+          "Whether the single broad feature cwt:em:0000 is Mg II rather than Lyα remains open; H6 has no second independent FA-confirmed feature to corroborate the redshift.",
+          "The absence of coverage for Lyα/C IV on this path means H6 cannot be positively excluded, only left less supported."
+        ],
+        "comparison_note": "H6 rests entirely on the shared feature cwt:em:0000 reinterpreted as Mg II. It lacks the distinct second FA-confirmed feature that supports H5, and its doublet advisory review was negative (pair supported = no)."
+      }
+    ],
+    "merge_review": {
+      "proposals": [],
+      "reason": "No credible duplicate pair is present. The only two groups are H5 (z≈2.92, Type 1 QSO) and H6 (z≈0.708, Type 1 QSO), and they are separated by a very large redshift gap, not a small one. Their shared CWT feature cwt:em:0000 at 4768 Å is assigned to Lyα in H5 and Mg II in H6, but this is a single competing-identity feature, not evidence that the two hypotheses describe one coherent observed structure. The LRG/BGS merge diagnostics (Ca K and Ca H) do not support a merge: H6's Ca K is NOT_FOUND and its Ca H is a rejected measurement with FA signal_absent (0/3), while H5 has no Ca K/Ca H diagnostic support at all. The remaining H6 absorption/emission fits (Hε, Hδ, G band, Hβ, Mg I) are non-diagnostic for this merge check and are all rejected/signal_absent. H5's supporting lines (Lyα, C IV) are QSO broad lines at its own redshift and do not align with H6's structure. Thus no pair of groups plausibly represents the same observed structure."
+    },
+    "cross_merges": [],
+    "status": "provisional_selection",
+    "ra_review_pending": true
+  }
+}

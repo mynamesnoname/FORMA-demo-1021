@@ -1,0 +1,13 @@
+{
+  "answer": "yes",
+  "reason": "Both component windows show clear, isolated emission peaks at the predicted positions: a peaks ~4.7 at 7436.0 (baseline ~0.45) and the weaker b peaks ~3.5 at 7452.0, each flanked by clean continuum. Measured separation 16.0 Å matches the expected 15.94 Å, centers are within ~0.2-0.3 Å of prediction, and the a/b amplitude ratio 1.39 is consistent with the advisory a≈b window. No blending or atmospheric residual distorts either profile.",
+  "execution": {
+    "schema_version": "forma-agentic-node-execution-v1",
+    "run_id": "graph-fe0d30030bcc4939b88103e27753b2c1",
+    "branch_id": "main",
+    "node_key": "fa.real_doublet_or_not/graph-fe0d30030bcc4939b88103e27753b2c1/H2/doublet%3Asii",
+    "node_execution_id": "260b01ede00745a3b83441f6a0be4fc7",
+    "attempt_id": "b5ca5eed56d94360ba0f0ef9d7f0be76",
+    "relative_dir": "FA/H2/real_doublet_or_not/doublet-sii-21eebc95bccd5619/branches/main/260b01ede00745a3b83441f6a0be4fc7"
+  }
+}

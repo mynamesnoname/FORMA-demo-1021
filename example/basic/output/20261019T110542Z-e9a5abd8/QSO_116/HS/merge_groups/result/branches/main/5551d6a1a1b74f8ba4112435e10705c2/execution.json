@@ -1,0 +1,9 @@
+{
+  "schema_version": "forma-agentic-node-execution-v1",
+  "run_id": "graph-325ff74c7f444efdb17e3f3b69698eea",
+  "branch_id": "main",
+  "node_key": "hs.merge_groups",
+  "node_execution_id": "5551d6a1a1b74f8ba4112435e10705c2",
+  "attempt_id": "6a1c7c84fc17466bbd3d0a139d4aac29",
+  "relative_dir": "HS/merge_groups/result/branches/main/5551d6a1a1b74f8ba4112435e10705c2"
+}

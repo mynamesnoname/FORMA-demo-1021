@@ -1,0 +1,67 @@
+{
+  "schema_version": "forma-sh-line-alignment-v1",
+  "run_id": "graph-325ff74c7f444efdb17e3f3b69698eea",
+  "branch_id": "main",
+  "hypothesis_ref": "H5",
+  "graph": "QSO",
+  "node_key": "sh2.alignment/H5/QSO",
+  "node_execution_id": "819f69b6304740ccbeeb94b46b97eef1",
+  "input_refs": [
+    "sh/H5/node",
+    "sh/H5/catalog",
+    "sh/H5/judgments",
+    "spectrum_npz",
+    "fa/06040e9d917f447593c101027922db93/node",
+    "fa/3baea011731b426a8284740aea8d37b4/node",
+    "fa/4be1ce7d69544109bbc4ead9e598d39a/node",
+    "fa/4e0f417adf0e425cba15d6e83d45fe62/node",
+    "fa/6154accbba564e9b94cc33ad2518fac4/node",
+    "fa/7b4b3f4bde5f416da3f0e9566fdb2e12/node",
+    "fa/87467cd2df07435ca7001b702d655bee/node",
+    "fa/a745fd172b284fbf80ee5fecb05eb133/node",
+    "fa/d5c716d30b8244b192eeac8f030ae74c/node"
+  ],
+  "vote_refs": [],
+  "output": {
+    "collisions": [],
+    "aligned_claims": [
+      {
+        "line_id": "line:ciii-1909",
+        "original_measurement_id": "cwt:em:0003",
+        "status": "unassigned",
+        "effective_feature_id": null
+      },
+      {
+        "line_id": "line:civ-1549",
+        "original_measurement_id": "cwt:em:0002",
+        "status": "original_claim",
+        "effective_feature_id": "cwt:em:0002"
+      },
+      {
+        "line_id": "line:heii-1640",
+        "original_measurement_id": null,
+        "status": "unassigned",
+        "effective_feature_id": null
+      },
+      {
+        "line_id": "line:lya-1216",
+        "original_measurement_id": "cwt:em:0000",
+        "status": "original_claim",
+        "effective_feature_id": "cwt:em:0000"
+      }
+    ],
+    "model_usage": {
+      "calls": 0,
+      "input_tokens": 0,
+      "output_tokens": 0,
+      "cache_hit_tokens": 0,
+      "cache_hit_reported_calls": 0,
+      "cache_hit_unreported_calls": 0
+    },
+    "window_half_angstrom": 100.0,
+    "vote_quorum": 3,
+    "max_attempts_per_vote_seat": 2,
+    "outer_reference_sigma": 3.0,
+    "concurrency": 3
+  }
+}

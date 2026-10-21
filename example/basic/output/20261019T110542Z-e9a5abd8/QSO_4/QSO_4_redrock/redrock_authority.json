@@ -1,0 +1,58 @@
+{
+  "schema": "forma-redrock-external-authority-v1",
+  "argv": [
+    "rrdesi",
+    "-i",
+    "/mnt/linux_share/code/FORMA/example/basic/QSO_4.fits",
+    "-o",
+    "/mnt/linux_share/code/FORMA/example/basic/output/20261019T110542Z-e9a5abd8/QSO_4/QSO_4_redrock/QSO_4_redrock.fits",
+    "-d",
+    "/mnt/linux_share/code/FORMA/example/basic/output/20261019T110542Z-e9a5abd8/QSO_4/QSO_4_redrock/QSO_4_rrdetails.h5",
+    "--nminima",
+    "2",
+    "--archetypes",
+    "/home/user/apps/redrock/redrock-archetypes",
+    "--archetype-nnearest",
+    "2",
+    "--archetype-legendre-percamera",
+    "True",
+    "--archetype-legendre-degree",
+    "2",
+    "--archetype-legendre-prior",
+    "0.1"
+  ],
+  "binary": {
+    "path": "/tmp/forma-bin/rrdesi",
+    "status": "file",
+    "sha256": "8b34721a0be54aba6960179338402b20e38792eae28eb6cd77afe531950a5f6b"
+  },
+  "package_probe": {
+    "scope": "FORMA Python interpreter; rrdesi may use another interpreter",
+    "version": "0.22.0.post1188",
+    "source": {
+      "path": "/home/user/apps/redrock/py/redrock",
+      "status": "directory",
+      "sha256": "67f289573ec138a74be3211353a062734d23314bf91a4ad20a94e3291d88769f",
+      "file_count": 31
+    }
+  },
+  "templates": {
+    "path": "/home/user/apps/redrock/py/redrock/templates",
+    "status": "directory",
+    "sha256": "757f1e94b8a8cb716bf3419e32cf4cb3aff7855dff1da3b940641bcc53f6dc45",
+    "file_count": 58
+  },
+  "archetypes": {
+    "path": "/home/user/apps/redrock/redrock-archetypes",
+    "status": "directory",
+    "sha256": "ba932d8fc4ad9beecde5710481e9d2c4a5b04a9c5f59f0f614a0b0df3af72091",
+    "file_count": 36
+  },
+  "selected_environment": {
+    "OMP_NUM_THREADS": "4",
+    "RR_TEMPLATE_DIR": "/home/user/apps/redrock/py/redrock/templates"
+  },
+  "other_environment": "inherited; values not recorded",
+  "omitted_options": "Redrock defaults; interpretation requires the recorded binary identity",
+  "returncode": 0
+}

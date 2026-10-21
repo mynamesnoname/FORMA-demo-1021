@@ -1,0 +1,105 @@
+{
+  "schema_version": "forma-fa-lya-forest-v1",
+  "node_type": "fa.lyalpha_forest_visibility",
+  "node_key": "fa.real_lya_forest_or_not/graph-325ff74c7f444efdb17e3f3b69698eea/H5",
+  "run_id": "graph-325ff74c7f444efdb17e3f3b69698eea",
+  "branch_id": "main",
+  "hypothesis_ref": "H5",
+  "line_id": "line:lya-1216",
+  "predicted_obs_angstrom": 4765.057130839656,
+  "status": "complete",
+  "forest_visible": false,
+  "visibility": "not_seen",
+  "consultative_only": true,
+  "coverage": {
+    "blue_requested_angstrom": [
+      4565.057130839656,
+      4765.057130839656
+    ],
+    "red_requested_angstrom": [
+      4765.057130839656,
+      4845.057130839656
+    ],
+    "actual_window_angstrom": [
+      4565.60000000022,
+      4844.800000000283
+    ],
+    "blue_samples": 250,
+    "blue_valid_samples": 250,
+    "red_valid_samples": 100,
+    "blue_masked_samples": 0,
+    "blue_invalid_ivar_or_flux_samples": 0,
+    "requested_blue_interval_within_spectrum_bounds": true,
+    "assessable": true,
+    "unreviewable_reason": null,
+    "median_blue_pixel_noise": 0.18192725595352832
+  },
+  "method_snapshot": {
+    "blueward_span_angstrom": 200.0,
+    "redward_reference_span_angstrom": 80.0,
+    "min_valid_blue_samples": 10,
+    "vote_quorum": 3,
+    "max_attempts_per_vote_seat": 2
+  },
+  "vote_summary": {
+    "yes": 0,
+    "no": 3,
+    "yes_fraction": 0.0,
+    "assurance": "assured"
+  },
+  "ballots": [
+    {
+      "seat": 0,
+      "answer": "no",
+      "reason": "Blueward coverage is complete and usable, but no repeated narrow absorption pattern is seen. Flux is mostly positive, rising smoothly from ~0.3-0.9 near 4565-4600 Å to ~1-2 by 4700-4750 Å, with only isolated low points (near 4586, 4590-4591, 4725, 4752-4753) consistent with noise. The redward reference is also elevated and variable, so no forest-like series of narrow blueward dips is visible.",
+      "vote_ref": "fa_forest/42102cbc46d046568a3dee16efb239e8/vote.json"
+    },
+    {
+      "seat": 1,
+      "answer": "no",
+      "reason": "The blueward window is fully covered and usable, but it does not show a repeated pattern of narrow absorption dips. Instead the flux rises smoothly from ~0.3-0.9 near 4565-4600 Å to ~1-2 by 4700-4750 Å, with only a few isolated low points (e.g. near 4586, 4590-4591, 4725, 4752-4753) that look like noise rather than a forest. The redward reference is also broadly elevated and variable, so no forest-like series of narrow lines is visible in these pixels.",
+      "vote_ref": "fa_forest/1ec8aef4efc94640ba715e95d1bd884c/vote.json"
+    },
+    {
+      "seat": 2,
+      "answer": "no",
+      "reason": "The blueward window is fully covered and usable, but it does not show a repeated pattern of narrow absorption dips. Instead the flux rises smoothly from ~0.3-0.9 near 4565-4600 Å to ~1-3 by 4740-4760 Å, with only a few isolated low points (e.g. near 4586, 4590-4591, 4725, 4752-4753) that look like noise rather than a forest. The redward reference is similarly smooth, so no forest-like absorption structure is visible in these pixels.",
+      "vote_ref": "fa_forest/f9a215f616d84a2da767403cd219a4c9/vote.json"
+    }
+  ],
+  "successful_votes": 3,
+  "required_votes": 3,
+  "failed_seats": 0,
+  "model_usage": {
+    "calls": 4,
+    "input_tokens": 34214,
+    "output_tokens": 718,
+    "cache_hit_tokens": 33536,
+    "cache_hit_reported_calls": 4,
+    "cache_hit_unreported_calls": 0
+  },
+  "prompt_identity": {
+    "system_sha256": "47a94d77ea4e7424bf53a19b49bc76e3291982e023a036cfeb800a37d323e5bd",
+    "user_sha256": "2461b0f7f8d35ff194e550314993fd5b6364f7fa12d40909e9045ec9875cbd7b",
+    "tool_name": "submit_lya_forest_vote",
+    "prompt_text_sha256": "6d8c032b43f1d57f333d34887153ff6c9a2c2104f546893cfab1e7e3f86b161a"
+  },
+  "source_refs": [
+    "sh/H5/node",
+    "sh/H5/catalog",
+    "sh/H5/judgments",
+    "spectrum_npz"
+  ],
+  "attempt_refs": [
+    "fa_forest/42102cbc46d046568a3dee16efb239e8/vote.json",
+    "fa_forest/42102cbc46d046568a3dee16efb239e8/session.md",
+    "fa_forest/42102cbc46d046568a3dee16efb239e8/model_usage.json",
+    "fa_forest/1ec8aef4efc94640ba715e95d1bd884c/vote.json",
+    "fa_forest/1ec8aef4efc94640ba715e95d1bd884c/session.md",
+    "fa_forest/1ec8aef4efc94640ba715e95d1bd884c/model_usage.json",
+    "fa_forest/f9a215f616d84a2da767403cd219a4c9/vote.json",
+    "fa_forest/f9a215f616d84a2da767403cd219a4c9/session.md",
+    "fa_forest/f9a215f616d84a2da767403cd219a4c9/model_usage.json"
+  ],
+  "node_execution_id": "2e9744fbcab4444e93bc8532c742376f"
+}

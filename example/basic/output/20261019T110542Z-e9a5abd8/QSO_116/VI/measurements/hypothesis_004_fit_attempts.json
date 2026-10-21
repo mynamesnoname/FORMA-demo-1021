@@ -1,0 +1,27 @@
+[
+  {
+    "target": "He II",
+    "method": "fit_peak",
+    "predicted_obs": [
+      6429.869715818743
+    ],
+    "result": {
+      "center": 6479.87,
+      "center_err": 33.5428,
+      "amplitude": 0.166733,
+      "amplitude_err": 0.097778,
+      "sigma": 111.754,
+      "fwhm": 263.159,
+      "fwhm_km_s": 12175.1,
+      "delta_chi2_per_n": 0.97,
+      "local_rms": 0.117366,
+      "local_snr": 1.42,
+      "n_points": 500,
+      "flags": [
+        "center_at_bound"
+      ],
+      "message": "Fit OK. center=6479.87±33.543 Å, amp=0.1667, FWHM=263.2 Å (12175 km/s), S/N=1.4, Δχ²/n=1.0"
+    },
+    "status": "warning"
+  }
+]

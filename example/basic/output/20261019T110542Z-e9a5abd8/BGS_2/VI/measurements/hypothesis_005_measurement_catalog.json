@@ -1,0 +1,1284 @@
+{
+  "run_id": "graph-df7434d5533647e999870708120307b0",
+  "hypothesis_ref": "H6",
+  "redshift": 0.15892043438772183,
+  "z_min": 0.1489,
+  "z_max": 0.1689,
+  "wavelength_min": 3600.0,
+  "wavelength_max": 9824.000000000524,
+  "lines": [
+    {
+      "id": "line:nev-3426",
+      "name": "[Ne V]",
+      "rest_wavelength": 3426.0,
+      "predicted_obs": 3970.461408212335,
+      "kind": "emission"
+    },
+    {
+      "id": "line:oii-3727",
+      "name": "[O II]",
+      "rest_wavelength": 3727.0,
+      "predicted_obs": 4319.296458963039,
+      "kind": "emission"
+    },
+    {
+      "id": "line:cak-3934-abs",
+      "name": "Ca K_abs",
+      "rest_wavelength": 3934.8,
+      "predicted_obs": 4560.120125228807,
+      "kind": "absorption"
+    },
+    {
+      "id": "line:cah-3969-abs",
+      "name": "Ca H_abs",
+      "rest_wavelength": 3969.6,
+      "predicted_obs": 4600.4505563455,
+      "kind": "absorption"
+    },
+    {
+      "id": "line:heps-3970",
+      "name": "Hε",
+      "rest_wavelength": 3970.1,
+      "predicted_obs": 4601.030016562694,
+      "kind": "emission"
+    },
+    {
+      "id": "line:heps-3970-abs",
+      "name": "Hε_abs",
+      "rest_wavelength": 3970.1,
+      "predicted_obs": 4601.030016562694,
+      "kind": "absorption"
+    },
+    {
+      "id": "line:hdel-4102",
+      "name": "Hδ",
+      "rest_wavelength": 4102.9,
+      "predicted_obs": 4754.934650249383,
+      "kind": "emission"
+    },
+    {
+      "id": "line:hdel-4102-abs",
+      "name": "Hδ_abs",
+      "rest_wavelength": 4102.9,
+      "predicted_obs": 4754.934650249383,
+      "kind": "absorption"
+    },
+    {
+      "id": "line:gband-4305-abs",
+      "name": "G-band_abs",
+      "rest_wavelength": 4305.6,
+      "predicted_obs": 4989.8478222997755,
+      "kind": "absorption"
+    },
+    {
+      "id": "line:hgam-4341",
+      "name": "Hγ",
+      "rest_wavelength": 4341.7,
+      "predicted_obs": 5031.684849981171,
+      "kind": "emission"
+    },
+    {
+      "id": "line:hgam-4341-abs",
+      "name": "Hγ_abs",
+      "rest_wavelength": 4341.7,
+      "predicted_obs": 5031.684849981171,
+      "kind": "absorption"
+    },
+    {
+      "id": "line:hbet-4862",
+      "name": "Hβ",
+      "rest_wavelength": 4862.7,
+      "predicted_obs": 5635.482396297174,
+      "kind": "emission"
+    },
+    {
+      "id": "line:hbet-4862-abs",
+      "name": "Hβ_abs",
+      "rest_wavelength": 4862.7,
+      "predicted_obs": 5635.482396297174,
+      "kind": "absorption"
+    },
+    {
+      "id": "line:oiii-4960",
+      "name": "[O III]a",
+      "rest_wavelength": 4960.3,
+      "predicted_obs": 5748.593030693416,
+      "kind": "emission"
+    },
+    {
+      "id": "line:oiii-5008",
+      "name": "[O III]b",
+      "rest_wavelength": 5008.2,
+      "predicted_obs": 5804.105319500588,
+      "kind": "emission"
+    },
+    {
+      "id": "line:mgi-5176-abs",
+      "name": "Mg I_abs",
+      "rest_wavelength": 5176.7,
+      "predicted_obs": 5999.383412694919,
+      "kind": "absorption"
+    },
+    {
+      "id": "line:nad1-5891-abs",
+      "name": "Na D1_abs",
+      "rest_wavelength": 5891.6,
+      "predicted_obs": 6827.895631238702,
+      "kind": "absorption"
+    },
+    {
+      "id": "line:nad-5895-abs",
+      "name": "Na D_abs",
+      "rest_wavelength": 5895.6,
+      "predicted_obs": 6832.531312976253,
+      "kind": "absorption"
+    },
+    {
+      "id": "line:nad2-5897-abs",
+      "name": "Na D2_abs",
+      "rest_wavelength": 5897.6,
+      "predicted_obs": 6834.849153845028,
+      "kind": "absorption"
+    },
+    {
+      "id": "line:nii-6549",
+      "name": "[N II]a",
+      "rest_wavelength": 6549.8,
+      "predicted_obs": 7590.6970611527,
+      "kind": "emission"
+    },
+    {
+      "id": "line:half-6564",
+      "name": "Hα",
+      "rest_wavelength": 6564.6,
+      "predicted_obs": 7607.849083581638,
+      "kind": "emission"
+    },
+    {
+      "id": "line:half-6564-abs",
+      "name": "Hα_abs",
+      "rest_wavelength": 6564.6,
+      "predicted_obs": 7607.849083581638,
+      "kind": "absorption"
+    },
+    {
+      "id": "line:nii-6585",
+      "name": "[N II]b",
+      "rest_wavelength": 6585.3,
+      "predicted_obs": 7631.838736573464,
+      "kind": "emission"
+    },
+    {
+      "id": "line:sii-6718",
+      "name": "[S II]a",
+      "rest_wavelength": 6718.3,
+      "predicted_obs": 7785.975154347031,
+      "kind": "emission"
+    },
+    {
+      "id": "line:sii-6732",
+      "name": "[S II]b",
+      "rest_wavelength": 6732.7,
+      "predicted_obs": 7802.663608602214,
+      "kind": "emission"
+    }
+  ],
+  "measurements": [
+    {
+      "id": "cwt:em:0000",
+      "source": "CWT",
+      "kind": "emission",
+      "target_line": null,
+      "adoptable": true,
+      "flags": [],
+      "record": {
+        "wavelength": 4660.000000000241,
+        "wavelength_err": 0.8000000000001819,
+        "FWHM_A": 94.02593766207234,
+        "FWHM_km_s": 6048.984327782399,
+        "amplitude": 0.663090705871582,
+        "amplitude_err": 0.0994636058807373,
+        "width_class": "broad",
+        "feature_type": "emission",
+        "ridge_length": 6,
+        "snr": 11.476459063879501,
+        "left_neighbor": "None",
+        "right_neighbor": "None",
+        "is_pseudo_peak": false,
+        "pseudo_reason": "",
+        "covered_troughs": 0,
+        "trough_centers": "",
+        "amplitude_rank": 2,
+        "feature_id": "cwt:em:0000"
+      }
+    },
+    {
+      "id": "cwt:em:0001",
+      "source": "CWT",
+      "kind": "emission",
+      "target_line": null,
+      "adoptable": true,
+      "flags": [],
+      "record": {
+        "wavelength": 6760.800000000228,
+        "wavelength_err": 0.8000000000001819,
+        "FWHM_A": 94.02593766207234,
+        "FWHM_km_s": 4169.368561038115,
+        "amplitude": 0.21613597869873047,
+        "amplitude_err": 0.03242039680480957,
+        "width_class": "broad",
+        "feature_type": "emission",
+        "ridge_length": 6,
+        "snr": 12.82615232712036,
+        "left_neighbor": "None",
+        "right_neighbor": "None",
+        "is_pseudo_peak": false,
+        "pseudo_reason": "",
+        "covered_troughs": 0,
+        "trough_centers": "",
+        "amplitude_rank": 3,
+        "feature_id": "cwt:em:0001"
+      }
+    },
+    {
+      "id": "cwt:em:0002",
+      "source": "CWT",
+      "kind": "emission",
+      "target_line": null,
+      "adoptable": true,
+      "flags": [],
+      "record": {
+        "wavelength": 7632.0000000000255,
+        "wavelength_err": 0.8000000000001819,
+        "FWHM_A": 27.13003236069792,
+        "FWHM_km_s": 1065.6943248209047,
+        "amplitude": 2.884467601776123,
+        "amplitude_err": 0.4326701402664184,
+        "width_class": "intermediate",
+        "feature_type": "emission",
+        "ridge_length": 19,
+        "snr": 31.606737929551684,
+        "left_neighbor": "None",
+        "right_neighbor": "None",
+        "is_pseudo_peak": false,
+        "pseudo_reason": "",
+        "covered_troughs": 0,
+        "trough_centers": "",
+        "amplitude_rank": 1,
+        "feature_id": "cwt:em:0002"
+      }
+    },
+    {
+      "id": "cwt:abs:0000",
+      "source": "CWT",
+      "kind": "absorption",
+      "target_line": null,
+      "adoptable": true,
+      "flags": [],
+      "record": {
+        "wavelength": 6831.200000000244,
+        "wavelength_err": 0.8000000000001819,
+        "FWHM_A": 36.26873919290783,
+        "FWHM_km_s": 1591.6814719525687,
+        "amplitude": -0.9516310691833496,
+        "amplitude_err": 0.14274466037750244,
+        "width_class": "intermediate",
+        "feature_type": "absorption",
+        "ridge_length": 12,
+        "snr": 15.055130019635593,
+        "left_neighbor": "None",
+        "right_neighbor": "None",
+        "is_pseudo_peak": false,
+        "pseudo_reason": "",
+        "covered_troughs": 0,
+        "trough_centers": "",
+        "amplitude_rank": 1,
+        "feature_id": "cwt:abs:0000"
+      }
+    },
+    {
+      "id": "cwt:abs:0001",
+      "source": "CWT",
+      "kind": "absorption",
+      "target_line": null,
+      "adoptable": true,
+      "flags": [],
+      "record": {
+        "wavelength": 7516.800000000399,
+        "wavelength_err": 0.8000000000001819,
+        "FWHM_A": 20.478744600832385,
+        "FWHM_km_s": 816.7535627710519,
+        "amplitude": -0.1987752914428711,
+        "amplitude_err": 0.029816293716430662,
+        "width_class": "narrow",
+        "feature_type": "absorption",
+        "ridge_length": 14,
+        "snr": 14.671157324557887,
+        "left_neighbor": "None",
+        "right_neighbor": "None",
+        "is_pseudo_peak": false,
+        "pseudo_reason": "",
+        "covered_troughs": 0,
+        "trough_centers": "",
+        "amplitude_rank": 2,
+        "feature_id": "cwt:abs:0001"
+      }
+    },
+    {
+      "id": "cwt:abs:0002",
+      "source": "CWT",
+      "kind": "absorption",
+      "target_line": null,
+      "adoptable": true,
+      "flags": [],
+      "record": {
+        "wavelength": 7648.000000000029,
+        "wavelength_err": 0.8000000000001819,
+        "FWHM_A": 20.478744600832385,
+        "FWHM_km_s": 802.7423091838057,
+        "amplitude": -0.08795690536499023,
+        "amplitude_err": 0.013193535804748534,
+        "width_class": "narrow",
+        "feature_type": "absorption",
+        "ridge_length": 12,
+        "snr": 15.509619756555997,
+        "left_neighbor": "None",
+        "right_neighbor": "None",
+        "is_pseudo_peak": false,
+        "pseudo_reason": "",
+        "covered_troughs": 0,
+        "trough_centers": "",
+        "amplitude_rank": 5,
+        "feature_id": "cwt:abs:0002"
+      }
+    },
+    {
+      "id": "cwt:abs:0003",
+      "source": "CWT",
+      "kind": "absorption",
+      "target_line": null,
+      "adoptable": true,
+      "flags": [],
+      "record": {
+        "wavelength": 7717.600000000045,
+        "wavelength_err": 0.8000000000001819,
+        "FWHM_A": 113.76029667368628,
+        "FWHM_km_s": 4419.052420780221,
+        "amplitude": -0.1785893440246582,
+        "amplitude_err": 0.02678840160369873,
+        "width_class": "broad",
+        "feature_type": "absorption",
+        "ridge_length": 4,
+        "snr": 13.698762398294454,
+        "left_neighbor": "None",
+        "right_neighbor": "None",
+        "is_pseudo_peak": false,
+        "pseudo_reason": "",
+        "covered_troughs": 0,
+        "trough_centers": "",
+        "amplitude_rank": 4,
+        "feature_id": "cwt:abs:0003"
+      }
+    },
+    {
+      "id": "cwt:abs:0004",
+      "source": "CWT",
+      "kind": "absorption",
+      "target_line": null,
+      "adoptable": true,
+      "flags": [],
+      "record": {
+        "wavelength": 9190.40000000038,
+        "wavelength_err": 0.8000000000001819,
+        "FWHM_A": 102.9559883757718,
+        "FWHM_km_s": 3358.4423769358,
+        "amplitude": -0.19140386581420898,
+        "amplitude_err": 0.028710579872131346,
+        "width_class": "broad",
+        "feature_type": "absorption",
+        "ridge_length": 5,
+        "snr": 12.172857549967478,
+        "left_neighbor": "None",
+        "right_neighbor": "None",
+        "is_pseudo_peak": false,
+        "pseudo_reason": "",
+        "covered_troughs": 0,
+        "trough_centers": "",
+        "amplitude_rank": 3,
+        "feature_id": "cwt:abs:0004"
+      }
+    },
+    {
+      "id": "fit:H6:0000",
+      "source": "fit_doublet",
+      "kind": "emission",
+      "target_line": "[O III]a",
+      "adoptable": true,
+      "flags": [],
+      "record": {
+        "source": "fit_doublet",
+        "kind": "emission",
+        "target_line": "[O III]a",
+        "center": 5740.112,
+        "center_err": 7.2731,
+        "amplitude": 0.138096,
+        "amplitude_err": 0.132721,
+        "sigma": 6.581,
+        "fwhm": 15.498,
+        "fwhm_km_s": 809.4,
+        "measurement_id": "fit:H6:0000"
+      }
+    },
+    {
+      "id": "fit:H6:0001",
+      "source": "fit_doublet",
+      "kind": "emission",
+      "target_line": "[O III]b",
+      "adoptable": true,
+      "flags": [],
+      "record": {
+        "source": "fit_doublet",
+        "kind": "emission",
+        "target_line": "[O III]b",
+        "center": 5804.146,
+        "center_err": 0.4237,
+        "amplitude": 1.09147,
+        "amplitude_err": 0.286812,
+        "sigma": 1.397,
+        "fwhm": 3.289,
+        "fwhm_km_s": 169.9,
+        "measurement_id": "fit:H6:0001"
+      }
+    },
+    {
+      "id": "fit:H6:0002",
+      "source": "fit_doublet",
+      "kind": "emission",
+      "target_line": "[S II]a",
+      "adoptable": true,
+      "flags": [],
+      "record": {
+        "source": "fit_doublet",
+        "kind": "emission",
+        "target_line": "[S II]a",
+        "center": 7786.159,
+        "center_err": 0.86,
+        "amplitude": 0.718468,
+        "amplitude_err": 0.194584,
+        "sigma": 2.755,
+        "fwhm": 6.488,
+        "fwhm_km_s": 249.8,
+        "measurement_id": "fit:H6:0002"
+      }
+    },
+    {
+      "id": "fit:H6:0003",
+      "source": "fit_doublet",
+      "kind": "emission",
+      "target_line": "[S II]b",
+      "adoptable": true,
+      "flags": [],
+      "record": {
+        "source": "fit_doublet",
+        "kind": "emission",
+        "target_line": "[S II]b",
+        "center": 7803.824,
+        "center_err": 1.0865,
+        "amplitude": 0.596504,
+        "amplitude_err": 0.185526,
+        "sigma": 3.031,
+        "fwhm": 7.139,
+        "fwhm_km_s": 274.2,
+        "measurement_id": "fit:H6:0003"
+      }
+    },
+    {
+      "id": "fit:H6:0004",
+      "source": "fit_doublet",
+      "kind": "absorption",
+      "target_line": "Ca K_abs",
+      "adoptable": true,
+      "flags": [],
+      "record": {
+        "source": "fit_doublet",
+        "kind": "absorption",
+        "target_line": "Ca K_abs",
+        "center": 4561.006,
+        "center_err": 0.8004,
+        "amplitude": -1.654647,
+        "amplitude_err": 0.184645,
+        "sigma": 6.233,
+        "fwhm": 14.678,
+        "fwhm_km_s": 964.8,
+        "measurement_id": "fit:H6:0004"
+      }
+    },
+    {
+      "id": "fit:H6:0005",
+      "source": "fit_doublet",
+      "kind": "absorption",
+      "target_line": "Ca H_abs",
+      "adoptable": true,
+      "flags": [],
+      "record": {
+        "source": "fit_doublet",
+        "kind": "absorption",
+        "target_line": "Ca H_abs",
+        "center": 4601.599,
+        "center_err": 0.7006,
+        "amplitude": -1.754092,
+        "amplitude_err": 0.198909,
+        "sigma": 5.366,
+        "fwhm": 12.636,
+        "fwhm_km_s": 823.3,
+        "measurement_id": "fit:H6:0005"
+      }
+    },
+    {
+      "id": "fit:H6:0006",
+      "source": "fit_peak",
+      "kind": "emission",
+      "target_line": "[Ne V]",
+      "adoptable": true,
+      "flags": [],
+      "record": {
+        "source": "fit_peak",
+        "kind": "emission",
+        "target_line": "[Ne V]",
+        "center": 3958.777,
+        "center_err": 9.166,
+        "amplitude": 0.300019,
+        "amplitude_err": 0.162522,
+        "sigma": 14.822,
+        "fwhm": 34.904,
+        "fwhm_km_s": 2643.2,
+        "delta_chi2_per_n": 0.012,
+        "local_rms": 0.707158,
+        "local_snr": 0.42,
+        "n_points": 500,
+        "flags": [],
+        "message": "Fit OK. center=3958.78±9.166 Å, amp=0.3000, FWHM=34.9 Å (2643 km/s), S/N=0.4, Δχ²/n=0.0",
+        "measurement_id": "fit:H6:0006"
+      }
+    },
+    {
+      "id": "fit:H6:0007",
+      "source": "fit_peak",
+      "kind": "emission",
+      "target_line": "[O II]",
+      "adoptable": true,
+      "flags": [],
+      "record": {
+        "source": "fit_peak",
+        "kind": "emission",
+        "target_line": "[O II]",
+        "center": 4319.897,
+        "center_err": 0.3343,
+        "amplitude": 2.35234,
+        "amplitude_err": 0.3479,
+        "sigma": 1.96,
+        "fwhm": 4.616,
+        "fwhm_km_s": 320.4,
+        "delta_chi2_per_n": 0.157,
+        "local_rms": 0.553769,
+        "local_snr": 4.25,
+        "n_points": 500,
+        "flags": [],
+        "message": "Fit OK. center=4319.90±0.334 Å, amp=2.3523, FWHM=4.6 Å (320 km/s), S/N=4.2, Δχ²/n=0.2",
+        "measurement_id": "fit:H6:0007"
+      }
+    },
+    {
+      "id": "fit:H6:0008",
+      "source": "fit_peak",
+      "kind": "emission",
+      "target_line": "Hε",
+      "adoptable": true,
+      "flags": [],
+      "record": {
+        "source": "fit_peak",
+        "kind": "emission",
+        "target_line": "Hε",
+        "center": 4552.579,
+        "center_err": 0.0,
+        "amplitude": 0.0,
+        "amplitude_err": 0.248385,
+        "sigma": 199.991,
+        "fwhm": 470.943,
+        "fwhm_km_s": 31012.1,
+        "delta_chi2_per_n": -0.0,
+        "local_rms": 0.58102,
+        "local_snr": 0.0,
+        "n_points": 500,
+        "flags": [],
+        "message": "Fit OK. center=4552.58±0.000 Å, amp=0.0000, FWHM=470.9 Å (31012 km/s), S/N=0.0, Δχ²/n=-0.0",
+        "measurement_id": "fit:H6:0008"
+      }
+    },
+    {
+      "id": "fit:H6:0009",
+      "source": "fit_peak",
+      "kind": "emission",
+      "target_line": "Hδ",
+      "adoptable": false,
+      "flags": [
+        "center_at_bound"
+      ],
+      "record": {
+        "source": "fit_peak",
+        "kind": "emission",
+        "target_line": "Hδ",
+        "center": 4704.935,
+        "center_err": 12.3807,
+        "amplitude": 0.947197,
+        "amplitude_err": 0.197757,
+        "sigma": 88.517,
+        "fwhm": 208.441,
+        "fwhm_km_s": 13281.6,
+        "delta_chi2_per_n": 1.638,
+        "local_rms": 0.461595,
+        "local_snr": 2.05,
+        "n_points": 500,
+        "flags": [
+          "center_at_bound"
+        ],
+        "message": "Fit OK. center=4704.93±12.381 Å, amp=0.9472, FWHM=208.4 Å (13282 km/s), S/N=2.0, Δχ²/n=1.6",
+        "measurement_id": "fit:H6:0009"
+      }
+    },
+    {
+      "id": "fit:H6:0010",
+      "source": "fit_peak",
+      "kind": "emission",
+      "target_line": "Hγ",
+      "adoptable": false,
+      "flags": [
+        "center_at_bound"
+      ],
+      "record": {
+        "source": "fit_peak",
+        "kind": "emission",
+        "target_line": "Hγ",
+        "center": 5081.684,
+        "center_err": 0.0,
+        "amplitude": 0.0,
+        "amplitude_err": 0.081809,
+        "sigma": 13.782,
+        "fwhm": 32.455,
+        "fwhm_km_s": 1914.7,
+        "delta_chi2_per_n": -0.0,
+        "local_rms": 0.418811,
+        "local_snr": 0.0,
+        "n_points": 500,
+        "flags": [
+          "center_at_bound"
+        ],
+        "message": "Fit OK. center=5081.68±0.000 Å, amp=0.0000, FWHM=32.5 Å (1915 km/s), S/N=0.0, Δχ²/n=-0.0",
+        "measurement_id": "fit:H6:0010"
+      }
+    },
+    {
+      "id": "fit:H6:0011",
+      "source": "fit_peak",
+      "kind": "emission",
+      "target_line": "Hβ",
+      "adoptable": true,
+      "flags": [],
+      "record": {
+        "source": "fit_peak",
+        "kind": "emission",
+        "target_line": "Hβ",
+        "center": 5602.832,
+        "center_err": 1.1631,
+        "amplitude": 0.336977,
+        "amplitude_err": 0.339724,
+        "sigma": 1.0,
+        "fwhm": 2.355,
+        "fwhm_km_s": 126.0,
+        "delta_chi2_per_n": 0.004,
+        "local_rms": 0.377085,
+        "local_snr": 0.89,
+        "n_points": 451,
+        "flags": [],
+        "message": "Fit OK. center=5602.83±1.163 Å, amp=0.3370, FWHM=2.4 Å (126 km/s), S/N=0.9, Δχ²/n=0.0",
+        "measurement_id": "fit:H6:0011"
+      }
+    },
+    {
+      "id": "fit:H6:0012",
+      "source": "fit_peak",
+      "kind": "absorption",
+      "target_line": "Hε_abs",
+      "adoptable": true,
+      "flags": [],
+      "record": {
+        "source": "fit_peak",
+        "kind": "absorption",
+        "target_line": "Hε_abs",
+        "center": 4601.668,
+        "center_err": 0.7291,
+        "amplitude": -1.691912,
+        "amplitude_err": 0.21124,
+        "sigma": 5.077,
+        "fwhm": 11.956,
+        "fwhm_km_s": 778.9,
+        "delta_chi2_per_n": 0.226,
+        "local_rms": 0.534312,
+        "local_snr": 3.17,
+        "n_points": 500,
+        "flags": [],
+        "message": "Fit OK. center=4601.67±0.729 Å, amp=-1.6919, FWHM=12.0 Å (779 km/s), S/N=3.2, Δχ²/n=0.2",
+        "measurement_id": "fit:H6:0012"
+      }
+    },
+    {
+      "id": "fit:H6:0013",
+      "source": "fit_peak",
+      "kind": "absorption",
+      "target_line": "Hδ_abs",
+      "adoptable": true,
+      "flags": [],
+      "record": {
+        "source": "fit_peak",
+        "kind": "absorption",
+        "target_line": "Hδ_abs",
+        "center": 4755.292,
+        "center_err": 0.8348,
+        "amplitude": -0.913403,
+        "amplitude_err": 0.334127,
+        "sigma": 1.979,
+        "fwhm": 4.661,
+        "fwhm_km_s": 293.8,
+        "delta_chi2_per_n": 0.032,
+        "local_rms": 0.478922,
+        "local_snr": 1.91,
+        "n_points": 500,
+        "flags": [],
+        "message": "Fit OK. center=4755.29±0.835 Å, amp=-0.9134, FWHM=4.7 Å (294 km/s), S/N=1.9, Δχ²/n=0.0",
+        "measurement_id": "fit:H6:0013"
+      }
+    },
+    {
+      "id": "fit:H6:0014",
+      "source": "fit_peak",
+      "kind": "absorption",
+      "target_line": "G-band_abs",
+      "adoptable": true,
+      "flags": [],
+      "record": {
+        "source": "fit_peak",
+        "kind": "absorption",
+        "target_line": "G-band_abs",
+        "center": 4989.488,
+        "center_err": 0.8565,
+        "amplitude": -1.128303,
+        "amplitude_err": 0.111426,
+        "sigma": 7.555,
+        "fwhm": 17.791,
+        "fwhm_km_s": 1069.0,
+        "delta_chi2_per_n": 0.305,
+        "local_rms": 0.374079,
+        "local_snr": 3.02,
+        "n_points": 500,
+        "flags": [],
+        "message": "Fit OK. center=4989.49±0.857 Å, amp=-1.1283, FWHM=17.8 Å (1069 km/s), S/N=3.0, Δχ²/n=0.3",
+        "measurement_id": "fit:H6:0014"
+      }
+    },
+    {
+      "id": "fit:H6:0015",
+      "source": "fit_peak",
+      "kind": "absorption",
+      "target_line": "Hγ_abs",
+      "adoptable": true,
+      "flags": [],
+      "record": {
+        "source": "fit_peak",
+        "kind": "absorption",
+        "target_line": "Hγ_abs",
+        "center": 5033.451,
+        "center_err": 1.2498,
+        "amplitude": -0.603048,
+        "amplitude_err": 0.17565,
+        "sigma": 3.727,
+        "fwhm": 8.775,
+        "fwhm_km_s": 522.7,
+        "delta_chi2_per_n": 0.038,
+        "local_rms": 0.39928,
+        "local_snr": 1.51,
+        "n_points": 500,
+        "flags": [],
+        "message": "Fit OK. center=5033.45±1.250 Å, amp=-0.6030, FWHM=8.8 Å (523 km/s), S/N=1.5, Δχ²/n=0.0",
+        "measurement_id": "fit:H6:0015"
+      }
+    },
+    {
+      "id": "fit:H6:0016",
+      "source": "fit_peak",
+      "kind": "absorption",
+      "target_line": "Hβ_abs",
+      "adoptable": true,
+      "flags": [],
+      "record": {
+        "source": "fit_peak",
+        "kind": "absorption",
+        "target_line": "Hβ_abs",
+        "center": 5648.609,
+        "center_err": 1.2203,
+        "amplitude": -0.714975,
+        "amplitude_err": 0.142241,
+        "sigma": 5.338,
+        "fwhm": 12.571,
+        "fwhm_km_s": 667.2,
+        "delta_chi2_per_n": 0.11,
+        "local_rms": 0.349282,
+        "local_snr": 2.05,
+        "n_points": 451,
+        "flags": [],
+        "message": "Fit OK. center=5648.61±1.220 Å, amp=-0.7150, FWHM=12.6 Å (667 km/s), S/N=2.0, Δχ²/n=0.1",
+        "measurement_id": "fit:H6:0016"
+      }
+    },
+    {
+      "id": "fit:H6:0017",
+      "source": "fit_peak",
+      "kind": "absorption",
+      "target_line": "Mg I_abs",
+      "adoptable": true,
+      "flags": [],
+      "record": {
+        "source": "fit_peak",
+        "kind": "absorption",
+        "target_line": "Mg I_abs",
+        "center": 6001.204,
+        "center_err": 3.1637,
+        "amplitude": -0.596059,
+        "amplitude_err": 0.069973,
+        "sigma": 23.715,
+        "fwhm": 55.845,
+        "fwhm_km_s": 2789.7,
+        "delta_chi2_per_n": 0.312,
+        "local_rms": 0.345791,
+        "local_snr": 1.72,
+        "n_points": 501,
+        "flags": [],
+        "message": "Fit OK. center=6001.20±3.164 Å, amp=-0.5961, FWHM=55.8 Å (2790 km/s), S/N=1.7, Δχ²/n=0.3",
+        "measurement_id": "fit:H6:0017"
+      }
+    }
+  ],
+  "fit_attempts": [
+    {
+      "target": "[O III]a/[O III]b",
+      "method": "fit_doublet",
+      "predicted_obs": [
+        5748.593030693416,
+        5804.105319500588
+      ],
+      "result": {
+        "component_1": {
+          "center": 5740.112,
+          "center_err": 7.2731,
+          "amplitude": 0.138096,
+          "amplitude_err": 0.132721,
+          "sigma": 6.581,
+          "fwhm": 15.498,
+          "fwhm_km_s": 809.4
+        },
+        "component_2": {
+          "center": 5804.146,
+          "center_err": 0.4237,
+          "amplitude": 1.09147,
+          "amplitude_err": 0.286812,
+          "sigma": 1.397,
+          "fwhm": 3.289,
+          "fwhm_km_s": 169.9
+        },
+        "delta_chi2_per_n": 0.039,
+        "local_rms": 0.382823,
+        "local_snr": 2.85,
+        "separation_check": {
+          "observed_sep_A": 64.03,
+          "expected_sep_A": 55.51,
+          "match": false
+        },
+        "amp_ratio_check": {
+          "observed_ratio": 7.9,
+          "expected_ratio": 3.0
+        },
+        "n_points": 701,
+        "flags": [],
+        "message": "Fit OK. C1: 5740.11±7.273 Å, amp=0.1381, FWHM=15.5 Å C2: 5804.15±0.424 Å, amp=1.0915, FWHM=3.3 Å S/N=2.9, Δχ²/n=0.0 sep=64.0 Å ✗"
+      },
+      "status": "warning"
+    },
+    {
+      "target": "[S II]a/[S II]b",
+      "method": "fit_doublet",
+      "predicted_obs": [
+        7785.975154347031,
+        7802.663608602214
+      ],
+      "result": {
+        "component_1": {
+          "center": 7786.159,
+          "center_err": 0.86,
+          "amplitude": 0.718468,
+          "amplitude_err": 0.194584,
+          "sigma": 2.755,
+          "fwhm": 6.488,
+          "fwhm_km_s": 249.8
+        },
+        "component_2": {
+          "center": 7803.824,
+          "center_err": 1.0865,
+          "amplitude": 0.596504,
+          "amplitude_err": 0.185526,
+          "sigma": 3.031,
+          "fwhm": 7.139,
+          "fwhm_km_s": 274.2
+        },
+        "delta_chi2_per_n": 0.242,
+        "local_rms": 0.191236,
+        "local_snr": 3.76,
+        "separation_check": {
+          "observed_sep_A": 17.66,
+          "expected_sep_A": 16.69,
+          "match": true
+        },
+        "amp_ratio_check": {
+          "observed_ratio": 0.83,
+          "expected_ratio": 1.0
+        },
+        "n_points": 626,
+        "flags": [],
+        "message": "Fit OK. C1: 7786.16±0.860 Å, amp=0.7185, FWHM=6.5 Å C2: 7803.82±1.087 Å, amp=0.5965, FWHM=7.1 Å S/N=3.8, Δχ²/n=0.2 sep=17.7 Å ✓"
+      },
+      "status": "ok"
+    },
+    {
+      "target": "Ca K_abs/Ca H_abs",
+      "method": "fit_doublet",
+      "predicted_obs": [
+        4560.120125228807,
+        4600.4505563455
+      ],
+      "result": {
+        "component_1": {
+          "center": 4561.006,
+          "center_err": 0.8004,
+          "amplitude": -1.654647,
+          "amplitude_err": 0.184645,
+          "sigma": 6.233,
+          "fwhm": 14.678,
+          "fwhm_km_s": 964.8
+        },
+        "component_2": {
+          "center": 4601.599,
+          "center_err": 0.7006,
+          "amplitude": -1.754092,
+          "amplitude_err": 0.198909,
+          "sigma": 5.366,
+          "fwhm": 12.636,
+          "fwhm_km_s": 823.3
+        },
+        "delta_chi2_per_n": 0.397,
+        "local_rms": 0.499948,
+        "local_snr": 3.51,
+        "separation_check": {
+          "observed_sep_A": 40.59,
+          "expected_sep_A": 40.33,
+          "match": true
+        },
+        "amp_ratio_check": null,
+        "n_points": 750,
+        "flags": [],
+        "message": "Fit OK. C1: 4561.01±0.800 Å, amp=-1.6546, FWHM=14.7 Å C2: 4601.60±0.701 Å, amp=-1.7541, FWHM=12.6 Å S/N=3.5, Δχ²/n=0.4 sep=40.6 Å ✓"
+      },
+      "status": "ok"
+    },
+    {
+      "target": "[Ne V]",
+      "method": "fit_peak",
+      "predicted_obs": [
+        3970.461408212335
+      ],
+      "result": {
+        "center": 3958.777,
+        "center_err": 9.166,
+        "amplitude": 0.300019,
+        "amplitude_err": 0.162522,
+        "sigma": 14.822,
+        "fwhm": 34.904,
+        "fwhm_km_s": 2643.2,
+        "delta_chi2_per_n": 0.012,
+        "local_rms": 0.707158,
+        "local_snr": 0.42,
+        "n_points": 500,
+        "flags": [],
+        "message": "Fit OK. center=3958.78±9.166 Å, amp=0.3000, FWHM=34.9 Å (2643 km/s), S/N=0.4, Δχ²/n=0.0"
+      },
+      "status": "ok"
+    },
+    {
+      "target": "[O II]",
+      "method": "fit_peak",
+      "predicted_obs": [
+        4319.296458963039
+      ],
+      "result": {
+        "center": 4319.897,
+        "center_err": 0.3343,
+        "amplitude": 2.35234,
+        "amplitude_err": 0.3479,
+        "sigma": 1.96,
+        "fwhm": 4.616,
+        "fwhm_km_s": 320.4,
+        "delta_chi2_per_n": 0.157,
+        "local_rms": 0.553769,
+        "local_snr": 4.25,
+        "n_points": 500,
+        "flags": [],
+        "message": "Fit OK. center=4319.90±0.334 Å, amp=2.3523, FWHM=4.6 Å (320 km/s), S/N=4.2, Δχ²/n=0.2"
+      },
+      "status": "ok"
+    },
+    {
+      "target": "Hε",
+      "method": "fit_peak",
+      "predicted_obs": [
+        4601.030016562694
+      ],
+      "result": {
+        "center": 4552.579,
+        "center_err": 0.0,
+        "amplitude": 0.0,
+        "amplitude_err": 0.248385,
+        "sigma": 199.991,
+        "fwhm": 470.943,
+        "fwhm_km_s": 31012.1,
+        "delta_chi2_per_n": -0.0,
+        "local_rms": 0.58102,
+        "local_snr": 0.0,
+        "n_points": 500,
+        "flags": [],
+        "message": "Fit OK. center=4552.58±0.000 Å, amp=0.0000, FWHM=470.9 Å (31012 km/s), S/N=0.0, Δχ²/n=-0.0"
+      },
+      "status": "ok"
+    },
+    {
+      "target": "Hδ",
+      "method": "fit_peak",
+      "predicted_obs": [
+        4754.934650249383
+      ],
+      "result": {
+        "center": 4704.935,
+        "center_err": 12.3807,
+        "amplitude": 0.947197,
+        "amplitude_err": 0.197757,
+        "sigma": 88.517,
+        "fwhm": 208.441,
+        "fwhm_km_s": 13281.6,
+        "delta_chi2_per_n": 1.638,
+        "local_rms": 0.461595,
+        "local_snr": 2.05,
+        "n_points": 500,
+        "flags": [
+          "center_at_bound"
+        ],
+        "message": "Fit OK. center=4704.93±12.381 Å, amp=0.9472, FWHM=208.4 Å (13282 km/s), S/N=2.0, Δχ²/n=1.6"
+      },
+      "status": "warning"
+    },
+    {
+      "target": "Hγ",
+      "method": "fit_peak",
+      "predicted_obs": [
+        5031.684849981171
+      ],
+      "result": {
+        "center": 5081.684,
+        "center_err": 0.0,
+        "amplitude": 0.0,
+        "amplitude_err": 0.081809,
+        "sigma": 13.782,
+        "fwhm": 32.455,
+        "fwhm_km_s": 1914.7,
+        "delta_chi2_per_n": -0.0,
+        "local_rms": 0.418811,
+        "local_snr": 0.0,
+        "n_points": 500,
+        "flags": [
+          "center_at_bound"
+        ],
+        "message": "Fit OK. center=5081.68±0.000 Å, amp=0.0000, FWHM=32.5 Å (1915 km/s), S/N=0.0, Δχ²/n=-0.0"
+      },
+      "status": "warning"
+    },
+    {
+      "target": "Hβ",
+      "method": "fit_peak",
+      "predicted_obs": [
+        5635.482396297174
+      ],
+      "result": {
+        "center": 5602.832,
+        "center_err": 1.1631,
+        "amplitude": 0.336977,
+        "amplitude_err": 0.339724,
+        "sigma": 1.0,
+        "fwhm": 2.355,
+        "fwhm_km_s": 126.0,
+        "delta_chi2_per_n": 0.004,
+        "local_rms": 0.377085,
+        "local_snr": 0.89,
+        "n_points": 451,
+        "flags": [],
+        "message": "Fit OK. center=5602.83±1.163 Å, amp=0.3370, FWHM=2.4 Å (126 km/s), S/N=0.9, Δχ²/n=0.0"
+      },
+      "status": "ok"
+    },
+    {
+      "target": "Hε_abs",
+      "method": "fit_peak",
+      "predicted_obs": [
+        4601.030016562694
+      ],
+      "result": {
+        "center": 4601.668,
+        "center_err": 0.7291,
+        "amplitude": -1.691912,
+        "amplitude_err": 0.21124,
+        "sigma": 5.077,
+        "fwhm": 11.956,
+        "fwhm_km_s": 778.9,
+        "delta_chi2_per_n": 0.226,
+        "local_rms": 0.534312,
+        "local_snr": 3.17,
+        "n_points": 500,
+        "flags": [],
+        "message": "Fit OK. center=4601.67±0.729 Å, amp=-1.6919, FWHM=12.0 Å (779 km/s), S/N=3.2, Δχ²/n=0.2"
+      },
+      "status": "ok"
+    },
+    {
+      "target": "Hδ_abs",
+      "method": "fit_peak",
+      "predicted_obs": [
+        4754.934650249383
+      ],
+      "result": {
+        "center": 4755.292,
+        "center_err": 0.8348,
+        "amplitude": -0.913403,
+        "amplitude_err": 0.334127,
+        "sigma": 1.979,
+        "fwhm": 4.661,
+        "fwhm_km_s": 293.8,
+        "delta_chi2_per_n": 0.032,
+        "local_rms": 0.478922,
+        "local_snr": 1.91,
+        "n_points": 500,
+        "flags": [],
+        "message": "Fit OK. center=4755.29±0.835 Å, amp=-0.9134, FWHM=4.7 Å (294 km/s), S/N=1.9, Δχ²/n=0.0"
+      },
+      "status": "ok"
+    },
+    {
+      "target": "G-band_abs",
+      "method": "fit_peak",
+      "predicted_obs": [
+        4989.8478222997755
+      ],
+      "result": {
+        "center": 4989.488,
+        "center_err": 0.8565,
+        "amplitude": -1.128303,
+        "amplitude_err": 0.111426,
+        "sigma": 7.555,
+        "fwhm": 17.791,
+        "fwhm_km_s": 1069.0,
+        "delta_chi2_per_n": 0.305,
+        "local_rms": 0.374079,
+        "local_snr": 3.02,
+        "n_points": 500,
+        "flags": [],
+        "message": "Fit OK. center=4989.49±0.857 Å, amp=-1.1283, FWHM=17.8 Å (1069 km/s), S/N=3.0, Δχ²/n=0.3"
+      },
+      "status": "ok"
+    },
+    {
+      "target": "Hγ_abs",
+      "method": "fit_peak",
+      "predicted_obs": [
+        5031.684849981171
+      ],
+      "result": {
+        "center": 5033.451,
+        "center_err": 1.2498,
+        "amplitude": -0.603048,
+        "amplitude_err": 0.17565,
+        "sigma": 3.727,
+        "fwhm": 8.775,
+        "fwhm_km_s": 522.7,
+        "delta_chi2_per_n": 0.038,
+        "local_rms": 0.39928,
+        "local_snr": 1.51,
+        "n_points": 500,
+        "flags": [],
+        "message": "Fit OK. center=5033.45±1.250 Å, amp=-0.6030, FWHM=8.8 Å (523 km/s), S/N=1.5, Δχ²/n=0.0"
+      },
+      "status": "ok"
+    },
+    {
+      "target": "Hβ_abs",
+      "method": "fit_peak",
+      "predicted_obs": [
+        5635.482396297174
+      ],
+      "result": {
+        "center": 5648.609,
+        "center_err": 1.2203,
+        "amplitude": -0.714975,
+        "amplitude_err": 0.142241,
+        "sigma": 5.338,
+        "fwhm": 12.571,
+        "fwhm_km_s": 667.2,
+        "delta_chi2_per_n": 0.11,
+        "local_rms": 0.349282,
+        "local_snr": 2.05,
+        "n_points": 451,
+        "flags": [],
+        "message": "Fit OK. center=5648.61±1.220 Å, amp=-0.7150, FWHM=12.6 Å (667 km/s), S/N=2.0, Δχ²/n=0.1"
+      },
+      "status": "ok"
+    },
+    {
+      "target": "Mg I_abs",
+      "method": "fit_peak",
+      "predicted_obs": [
+        5999.383412694919
+      ],
+      "result": {
+        "center": 6001.204,
+        "center_err": 3.1637,
+        "amplitude": -0.596059,
+        "amplitude_err": 0.069973,
+        "sigma": 23.715,
+        "fwhm": 55.845,
+        "fwhm_km_s": 2789.7,
+        "delta_chi2_per_n": 0.312,
+        "local_rms": 0.345791,
+        "local_snr": 1.72,
+        "n_points": 501,
+        "flags": [],
+        "message": "Fit OK. center=6001.20±3.164 Å, amp=-0.5961, FWHM=55.8 Å (2790 km/s), S/N=1.7, Δχ²/n=0.3"
+      },
+      "status": "ok"
+    }
+  ],
+  "masked_regions": [],
+  "spectrum_npz_path": "/mnt/linux_share/code/FORMA/example/basic/output/20261019T110542Z-e9a5abd8/BGS_2/spectrum.npz",
+  "spectrum_npz_sha256": "3e616b59ba72db0f409cf99ab4949c091d26a9c46fc6fcc5218a83f96096f0c7"
+}

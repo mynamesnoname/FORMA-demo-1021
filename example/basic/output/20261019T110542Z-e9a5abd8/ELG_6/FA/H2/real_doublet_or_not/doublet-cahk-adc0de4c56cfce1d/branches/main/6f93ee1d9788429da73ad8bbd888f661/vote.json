@@ -1,0 +1,13 @@
+{
+  "answer": "no",
+  "reason": "Ca K window (4355 Å) is a low-ivar noisy stretch with no clean absorption trough (FA=signal_absent, pairing rejected), and the Ca H window (4393.5 Å) shows continuum-level flux (0.6–2.6) with no absorption at the predicted position. No credible two-component doublet is visible in the usable pixels.",
+  "execution": {
+    "schema_version": "forma-agentic-node-execution-v1",
+    "run_id": "graph-fe0d30030bcc4939b88103e27753b2c1",
+    "branch_id": "main",
+    "node_key": "fa.real_doublet_or_not/graph-fe0d30030bcc4939b88103e27753b2c1/H2/doublet%3Acahk",
+    "node_execution_id": "6f93ee1d9788429da73ad8bbd888f661",
+    "attempt_id": "40dae05f513843e8a698562236dfca88",
+    "relative_dir": "FA/H2/real_doublet_or_not/doublet-cahk-adc0de4c56cfce1d/branches/main/6f93ee1d9788429da73ad8bbd888f661"
+  }
+}

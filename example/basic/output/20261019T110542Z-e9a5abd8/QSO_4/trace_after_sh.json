@@ -1,0 +1,3477 @@
+{
+  "schema_version": "forma-agentic-reasoning-tree-v1",
+  "run_id": "graph-853b617a68f04c36bd82f06bdb770ac4",
+  "selected_branch_id": "main",
+  "artifacts": {
+    "sh/H1/catalog": {
+      "path": "/mnt/linux_share/code/FORMA/example/basic/output/20261019T110542Z-e9a5abd8/QSO_4/VI/measurements/hypothesis_000_measurement_catalog.json",
+      "sha256": "95c13ee95b422950e1fbcd50752719d5fa60c4670b909db9a96e1704b8e8a4fd",
+      "kind": "vi_catalog"
+    },
+    "sh/H1/csv": {
+      "path": "/mnt/linux_share/code/FORMA/example/basic/output/20261019T110542Z-e9a5abd8/QSO_4/SH/H1/pre_analysis/branches/main/94b9060e5061491faf6d294e090d69d8/lines.csv",
+      "sha256": "f4b5b8c1d50f583ac167bfe6f47f6d2cf80021655614b25fa30e931c6b68e328",
+      "kind": "sh_csv"
+    },
+    "sh/H1/fit_attempts": {
+      "path": "/mnt/linux_share/code/FORMA/example/basic/output/20261019T110542Z-e9a5abd8/QSO_4/VI/measurements/hypothesis_000_fit_attempts.json",
+      "sha256": "d584730702e743841edf9c67ddfd9f2dca8be66fa2e2b40953f84a6a770b2606",
+      "kind": "vi_fit_attempts"
+    },
+    "sh/H1/judgments": {
+      "path": "/mnt/linux_share/code/FORMA/example/basic/output/20261019T110542Z-e9a5abd8/QSO_4/SH/H1/pre_analysis/branches/main/94b9060e5061491faf6d294e090d69d8/lines_judgments.json",
+      "sha256": "3193e70ef8f60c430d44665abb13830559c39f0e6f354164735955569ce1da03",
+      "kind": "sh_judgments"
+    },
+    "sh/H1/node": {
+      "path": "/mnt/linux_share/code/FORMA/example/basic/output/20261019T110542Z-e9a5abd8/QSO_4/SH/H1/pre_analysis/branches/main/94b9060e5061491faf6d294e090d69d8/node.json",
+      "sha256": "281e10ac9cf0da090e43b6d8dcebd20a0b4326c3378004bd15b5a1002f0d925e",
+      "kind": "sh_node"
+    },
+    "sh/H1/stage1_session": {
+      "path": "/mnt/linux_share/code/FORMA/example/basic/output/20261019T110542Z-e9a5abd8/QSO_4/SH/H1/pre_analysis/branches/main/94b9060e5061491faf6d294e090d69d8/stage1_session.md",
+      "sha256": "d3a41857ec0f6d5cd9b5496e307b283a50535c724920ec59fb1a3acd1c915190",
+      "kind": "sh_session"
+    },
+    "sh/H2/catalog": {
+      "path": "/mnt/linux_share/code/FORMA/example/basic/output/20261019T110542Z-e9a5abd8/QSO_4/VI/measurements/hypothesis_001_measurement_catalog.json",
+      "sha256": "11681d85dba9d30a6f46bcea610677cf2af493f7dd5c4ff0eec1ae0cefb783db",
+      "kind": "vi_catalog"
+    },
+    "sh/H2/csv": {
+      "path": "/mnt/linux_share/code/FORMA/example/basic/output/20261019T110542Z-e9a5abd8/QSO_4/SH/H2/pre_analysis/branches/main/6a3c37c19110494595eddd41e08b7b49/lines.csv",
+      "sha256": "21c75e48a3640859e0ed285be786348ac9ec8969f47a0da454d77dcc8ea64c94",
+      "kind": "sh_csv"
+    },
+    "sh/H2/fit_attempts": {
+      "path": "/mnt/linux_share/code/FORMA/example/basic/output/20261019T110542Z-e9a5abd8/QSO_4/VI/measurements/hypothesis_001_fit_attempts.json",
+      "sha256": "246bb6e4c6f92b0e5a7a0b4ab4c163ce7ebca47720f69d25885ec0c2de7238f2",
+      "kind": "vi_fit_attempts"
+    },
+    "sh/H2/judgments": {
+      "path": "/mnt/linux_share/code/FORMA/example/basic/output/20261019T110542Z-e9a5abd8/QSO_4/SH/H2/pre_analysis/branches/main/6a3c37c19110494595eddd41e08b7b49/lines_judgments.json",
+      "sha256": "db190fab38bd614e13800883ed4d326fb6a016ddd54e8429cfbfbed87921b17a",
+      "kind": "sh_judgments"
+    },
+    "sh/H2/node": {
+      "path": "/mnt/linux_share/code/FORMA/example/basic/output/20261019T110542Z-e9a5abd8/QSO_4/SH/H2/pre_analysis/branches/main/6a3c37c19110494595eddd41e08b7b49/node.json",
+      "sha256": "daf9a12527cbc591980767da83d3955b5fc4d6a9c2fd4ab4defc2d2c4250e94b",
+      "kind": "sh_node"
+    },
+    "sh/H2/stage1_session": {
+      "path": "/mnt/linux_share/code/FORMA/example/basic/output/20261019T110542Z-e9a5abd8/QSO_4/SH/H2/pre_analysis/branches/main/6a3c37c19110494595eddd41e08b7b49/stage1_session.md",
+      "sha256": "683b84b438aaef3c9fc7a6e71905f3ce9bd9238388e9a55247fb4caae0ddab10",
+      "kind": "sh_session"
+    },
+    "sh/H3/catalog": {
+      "path": "/mnt/linux_share/code/FORMA/example/basic/output/20261019T110542Z-e9a5abd8/QSO_4/VI/measurements/hypothesis_002_measurement_catalog.json",
+      "sha256": "2521ddf95723741dcb53fb93d1a5bbddc4abecab07cf7363257650b479d90b6f",
+      "kind": "vi_catalog"
+    },
+    "sh/H3/csv": {
+      "path": "/mnt/linux_share/code/FORMA/example/basic/output/20261019T110542Z-e9a5abd8/QSO_4/SH/H3/pre_analysis/branches/main/a17b8ffe679648b098725b050663ea61/lines.csv",
+      "sha256": "7ea6bb1a987965bf5b1dc9efe3dc66d3fedef6a7732957224c17d9705c2e134c",
+      "kind": "sh_csv"
+    },
+    "sh/H3/fit_attempts": {
+      "path": "/mnt/linux_share/code/FORMA/example/basic/output/20261019T110542Z-e9a5abd8/QSO_4/VI/measurements/hypothesis_002_fit_attempts.json",
+      "sha256": "42847b9f97c369434374a77328ddda2d8af47b9103e3ba9825f97953559a3e8b",
+      "kind": "vi_fit_attempts"
+    },
+    "sh/H3/judgments": {
+      "path": "/mnt/linux_share/code/FORMA/example/basic/output/20261019T110542Z-e9a5abd8/QSO_4/SH/H3/pre_analysis/branches/main/a17b8ffe679648b098725b050663ea61/lines_judgments.json",
+      "sha256": "ca93b3309e928fb79c44c621583aea4f19ac79461496e5757c66fc0a9133ace8",
+      "kind": "sh_judgments"
+    },
+    "sh/H3/node": {
+      "path": "/mnt/linux_share/code/FORMA/example/basic/output/20261019T110542Z-e9a5abd8/QSO_4/SH/H3/pre_analysis/branches/main/a17b8ffe679648b098725b050663ea61/node.json",
+      "sha256": "56f98a31d54669715e2c8b421ca7395721d7f8a6b3dd182b30dd0ce47bc5c19c",
+      "kind": "sh_node"
+    },
+    "sh/H3/stage1_session": {
+      "path": "/mnt/linux_share/code/FORMA/example/basic/output/20261019T110542Z-e9a5abd8/QSO_4/SH/H3/pre_analysis/branches/main/a17b8ffe679648b098725b050663ea61/stage1_session.md",
+      "sha256": "35a8442173ec04e4c87babb31dfb1bd57ead8a8f899ff297e2aa8a78bdd16c36",
+      "kind": "sh_session"
+    },
+    "sh/H4/catalog": {
+      "path": "/mnt/linux_share/code/FORMA/example/basic/output/20261019T110542Z-e9a5abd8/QSO_4/VI/measurements/hypothesis_003_measurement_catalog.json",
+      "sha256": "658436aa67b00500096757b92088133cfd7ded1722d14df1ce7bbd6e8cb3710a",
+      "kind": "vi_catalog"
+    },
+    "sh/H4/csv": {
+      "path": "/mnt/linux_share/code/FORMA/example/basic/output/20261019T110542Z-e9a5abd8/QSO_4/SH/H4/pre_analysis/branches/main/e3df65bb01e943f9871ebe0e4d525d99/lines.csv",
+      "sha256": "31b3cdd8cb183ee3ace4bf5f50c83e2db3e21293114b56cbf7b057ecddc6f943",
+      "kind": "sh_csv"
+    },
+    "sh/H4/fit_attempts": {
+      "path": "/mnt/linux_share/code/FORMA/example/basic/output/20261019T110542Z-e9a5abd8/QSO_4/VI/measurements/hypothesis_003_fit_attempts.json",
+      "sha256": "c661edabd3fcee4d400bf7e1a09c2b33fb4e895ebd99101eee09e0e57949a5a3",
+      "kind": "vi_fit_attempts"
+    },
+    "sh/H4/judgments": {
+      "path": "/mnt/linux_share/code/FORMA/example/basic/output/20261019T110542Z-e9a5abd8/QSO_4/SH/H4/pre_analysis/branches/main/e3df65bb01e943f9871ebe0e4d525d99/lines_judgments.json",
+      "sha256": "b96700ba82a052b72f54cded36fbacb579d9729e6c0f5d43fb6056efa387590d",
+      "kind": "sh_judgments"
+    },
+    "sh/H4/node": {
+      "path": "/mnt/linux_share/code/FORMA/example/basic/output/20261019T110542Z-e9a5abd8/QSO_4/SH/H4/pre_analysis/branches/main/e3df65bb01e943f9871ebe0e4d525d99/node.json",
+      "sha256": "ec86fd89eae82637d8dfa24f161930665f808e2c817580622dd288dc351e1472",
+      "kind": "sh_node"
+    },
+    "sh/H4/stage1_session": {
+      "path": "/mnt/linux_share/code/FORMA/example/basic/output/20261019T110542Z-e9a5abd8/QSO_4/SH/H4/pre_analysis/branches/main/e3df65bb01e943f9871ebe0e4d525d99/stage1_session.md",
+      "sha256": "6076018412693abe1ec2f1cbedcf2a1c6d3a4292ae7f8004ff5bcf9974dfb8d5",
+      "kind": "sh_session"
+    },
+    "sh/H5/catalog": {
+      "path": "/mnt/linux_share/code/FORMA/example/basic/output/20261019T110542Z-e9a5abd8/QSO_4/VI/measurements/hypothesis_004_measurement_catalog.json",
+      "sha256": "5e38942d8d0e74b009bbdbe28bcdf0734c8925ce4a974bdc5149c5ceb02dda1e",
+      "kind": "vi_catalog"
+    },
+    "sh/H5/csv": {
+      "path": "/mnt/linux_share/code/FORMA/example/basic/output/20261019T110542Z-e9a5abd8/QSO_4/SH/H5/pre_analysis/branches/main/2b1deea90fe642bc808eae1624cf912f/lines.csv",
+      "sha256": "bf1618fb3699483d9f112c87c3824d3eb255d0bca529ac0b812aed4cd0dd4d99",
+      "kind": "sh_csv"
+    },
+    "sh/H5/fit_attempts": {
+      "path": "/mnt/linux_share/code/FORMA/example/basic/output/20261019T110542Z-e9a5abd8/QSO_4/VI/measurements/hypothesis_004_fit_attempts.json",
+      "sha256": "bc0b6413a3390de4102908b1596ce94849b7ae05a242bfeb0d117798a636594c",
+      "kind": "vi_fit_attempts"
+    },
+    "sh/H5/judgments": {
+      "path": "/mnt/linux_share/code/FORMA/example/basic/output/20261019T110542Z-e9a5abd8/QSO_4/SH/H5/pre_analysis/branches/main/2b1deea90fe642bc808eae1624cf912f/lines_judgments.json",
+      "sha256": "d69488c85a0ae38224703fae66253ed43a46e63a7889de5ddea35c936b270d90",
+      "kind": "sh_judgments"
+    },
+    "sh/H5/node": {
+      "path": "/mnt/linux_share/code/FORMA/example/basic/output/20261019T110542Z-e9a5abd8/QSO_4/SH/H5/pre_analysis/branches/main/2b1deea90fe642bc808eae1624cf912f/node.json",
+      "sha256": "61b6524e48711f5b7d31dc47170f5f410fbd02fd3be883d06ad75ba74a3c088a",
+      "kind": "sh_node"
+    },
+    "sh/H5/stage1_session": {
+      "path": "/mnt/linux_share/code/FORMA/example/basic/output/20261019T110542Z-e9a5abd8/QSO_4/SH/H5/pre_analysis/branches/main/2b1deea90fe642bc808eae1624cf912f/stage1_session.md",
+      "sha256": "914e8eb65ed7eee0980a65b258f8682c51f7943a43e28769bb5e033532492ca0",
+      "kind": "sh_session"
+    },
+    "sh/H6/catalog": {
+      "path": "/mnt/linux_share/code/FORMA/example/basic/output/20261019T110542Z-e9a5abd8/QSO_4/VI/measurements/hypothesis_005_measurement_catalog.json",
+      "sha256": "aa36872d2c1d0a6ccec38c3545949b5110755cdf16a6b82c7c0aa822f715bf39",
+      "kind": "vi_catalog"
+    },
+    "sh/H6/csv": {
+      "path": "/mnt/linux_share/code/FORMA/example/basic/output/20261019T110542Z-e9a5abd8/QSO_4/SH/H6/pre_analysis/branches/main/3477d7d134a449bab694da82c3be7888/lines.csv",
+      "sha256": "8d6390a23f137b6f34ed8be03be3a2780bdda7c0a7b2015269e7d1a4ee7513c6",
+      "kind": "sh_csv"
+    },
+    "sh/H6/fit_attempts": {
+      "path": "/mnt/linux_share/code/FORMA/example/basic/output/20261019T110542Z-e9a5abd8/QSO_4/VI/measurements/hypothesis_005_fit_attempts.json",
+      "sha256": "75571fcfd523d26c7814fd59f2f062083815f61e07d04b545c7d425c341964d5",
+      "kind": "vi_fit_attempts"
+    },
+    "sh/H6/judgments": {
+      "path": "/mnt/linux_share/code/FORMA/example/basic/output/20261019T110542Z-e9a5abd8/QSO_4/SH/H6/pre_analysis/branches/main/3477d7d134a449bab694da82c3be7888/lines_judgments.json",
+      "sha256": "a3983758d3eead35e8b29efe9a2f529b88a9cba89d18cb9b08f277a2cf893997",
+      "kind": "sh_judgments"
+    },
+    "sh/H6/node": {
+      "path": "/mnt/linux_share/code/FORMA/example/basic/output/20261019T110542Z-e9a5abd8/QSO_4/SH/H6/pre_analysis/branches/main/3477d7d134a449bab694da82c3be7888/node.json",
+      "sha256": "c77b2d7caaf03ff1d3c2afd368f464c91484d952ac5e3ca269c81c527701315f",
+      "kind": "sh_node"
+    },
+    "sh/H6/stage1_session": {
+      "path": "/mnt/linux_share/code/FORMA/example/basic/output/20261019T110542Z-e9a5abd8/QSO_4/SH/H6/pre_analysis/branches/main/3477d7d134a449bab694da82c3be7888/stage1_session.md",
+      "sha256": "3cc18efffe015c72ddddca1b90c4fff968881dd87a9d36b9e6cee0085c78e066",
+      "kind": "sh_session"
+    },
+    "spectrum_npz": {
+      "path": "/mnt/linux_share/code/FORMA/example/basic/output/20261019T110542Z-e9a5abd8/QSO_4/spectrum.npz",
+      "sha256": "8e4d4d0fd1f95a8036df7a95c4b9f1848d95060ef440e9231db2d156c1e354ce",
+      "kind": "spectrum_input"
+    },
+    "vi_cwt_features": {
+      "path": "/mnt/linux_share/code/FORMA/example/basic/output/20261019T110542Z-e9a5abd8/QSO_4/VI/measurements/cwt_features.json",
+      "sha256": "a7f28af9ac8e7aca13586d9d8f61cc31e56e578369ef28bf00d6cbb70c6b9621",
+      "kind": "vi_cwt_features"
+    },
+    "vi_manifest": {
+      "path": "/mnt/linux_share/code/FORMA/example/basic/output/20261019T110542Z-e9a5abd8/QSO_4/VI/measurements/manifest.json",
+      "sha256": "4091d6459688f466e53a140dda49c48a2fe8d5552c9d4833ab4f227f450336d6",
+      "kind": "vi_manifest"
+    }
+  },
+  "executions": {},
+  "branches": {
+    "main": {
+      "branch_id": "main",
+      "parent_branch_id": null,
+      "fork_event_id": null,
+      "purpose": "primary",
+      "base_state": {
+        "registry": {
+          "schema_version": "forma-agentic-feature-registry-v1",
+          "run_id": "graph-853b617a68f04c36bd82f06bdb770ac4",
+          "spectrum_npz_sha256": "8e4d4d0fd1f95a8036df7a95c4b9f1848d95060ef440e9231db2d156c1e354ce",
+          "hypotheses": {
+            "H1": {
+              "classification": null,
+              "pre_analysis_status": "complete",
+              "redshift": 0.23787248591105023,
+              "node_artifact": "sh/H1/node"
+            },
+            "H2": {
+              "classification": null,
+              "pre_analysis_status": "complete",
+              "redshift": 0.6713696831689161,
+              "node_artifact": "sh/H2/node"
+            },
+            "H4": {
+              "classification": null,
+              "pre_analysis_status": "complete",
+              "redshift": -0.0018443601090383488,
+              "node_artifact": "sh/H4/node"
+            },
+            "H6": {
+              "classification": null,
+              "pre_analysis_status": "complete",
+              "redshift": 1.902738756933621,
+              "node_artifact": "sh/H6/node"
+            },
+            "H3": {
+              "classification": null,
+              "pre_analysis_status": "complete",
+              "redshift": 0.23805248503053472,
+              "node_artifact": "sh/H3/node"
+            },
+            "H5": {
+              "classification": null,
+              "pre_analysis_status": "complete",
+              "redshift": -0.0016077994367870048,
+              "node_artifact": "sh/H5/node"
+            }
+          },
+          "features": {
+            "cwt:abs:0006": {
+              "feature_id": "cwt:abs:0006",
+              "scope": "run",
+              "hypothesis_ref": null,
+              "source": "CWT",
+              "kind": "absorption",
+              "center_angstrom": 4868.000000000288,
+              "references": [
+                {
+                  "hypothesis_ref": "H1",
+                  "line_id": "line:cak-3934-abs",
+                  "sh_status": "MARGINAL"
+                },
+                {
+                  "hypothesis_ref": "H3",
+                  "line_id": "line:cak-3934-abs",
+                  "sh_status": "MARGINAL"
+                }
+              ],
+              "skyline_risk": {
+                "status": "no_registered_risk",
+                "nearest_line": {
+                  "id": "desi-sky:0001",
+                  "wavelength_angstrom": 5199.27,
+                  "offset_angstrom": 331.2699999997121
+                },
+                "within_proximity_threshold": false,
+                "oh_band_ids": [],
+                "threshold_angstrom": 10.0,
+                "threshold_source": "registry",
+                "threshold_source_path": null,
+                "threshold_payload_sha256": "b06941d9d371bd8792640873665004016437f947477142bdeae1f9622298d97e",
+                "catalog_sha256": "de68ccc73fea5c40387b3fa7c819e5e95b8409c8e637f8d61cb976e03c566910",
+                "catalog_source": "desispec 0.70.0 get_sky_lines()"
+              },
+              "votes": [],
+              "required_votes": 3,
+              "observed_signal_state": "pending",
+              "vote_summary": null,
+              "review_blocker": null
+            },
+            "cwt:abs:0007": {
+              "feature_id": "cwt:abs:0007",
+              "scope": "run",
+              "hypothesis_ref": null,
+              "source": "CWT",
+              "kind": "absorption",
+              "center_angstrom": 5075.200000000335,
+              "references": [
+                {
+                  "hypothesis_ref": "H1",
+                  "line_id": "line:hdel-4102-abs",
+                  "sh_status": "MARGINAL"
+                },
+                {
+                  "hypothesis_ref": "H3",
+                  "line_id": "line:hdel-4102-abs",
+                  "sh_status": "MARGINAL"
+                }
+              ],
+              "skyline_risk": {
+                "status": "no_registered_risk",
+                "nearest_line": {
+                  "id": "desi-sky:0001",
+                  "wavelength_angstrom": 5199.27,
+                  "offset_angstrom": 124.06999999966501
+                },
+                "within_proximity_threshold": false,
+                "oh_band_ids": [],
+                "threshold_angstrom": 10.0,
+                "threshold_source": "registry",
+                "threshold_source_path": null,
+                "threshold_payload_sha256": "b06941d9d371bd8792640873665004016437f947477142bdeae1f9622298d97e",
+                "catalog_sha256": "de68ccc73fea5c40387b3fa7c819e5e95b8409c8e637f8d61cb976e03c566910",
+                "catalog_source": "desispec 0.70.0 get_sky_lines()"
+              },
+              "votes": [],
+              "required_votes": 3,
+              "observed_signal_state": "pending",
+              "vote_summary": null,
+              "review_blocker": null
+            },
+            "cwt:abs:0008": {
+              "feature_id": "cwt:abs:0008",
+              "scope": "run",
+              "hypothesis_ref": null,
+              "source": "CWT",
+              "kind": "absorption",
+              "center_angstrom": 5333.600000000394,
+              "references": [
+                {
+                  "hypothesis_ref": "H1",
+                  "line_id": "line:gband-4305-abs",
+                  "sh_status": "MARGINAL"
+                },
+                {
+                  "hypothesis_ref": "H3",
+                  "line_id": "line:gband-4305-abs",
+                  "sh_status": "MARGINAL"
+                }
+              ],
+              "skyline_risk": {
+                "status": "no_registered_risk",
+                "nearest_line": {
+                  "id": "desi-sky:0002",
+                  "wavelength_angstrom": 5462.38,
+                  "offset_angstrom": 128.77999999960593
+                },
+                "within_proximity_threshold": false,
+                "oh_band_ids": [],
+                "threshold_angstrom": 10.0,
+                "threshold_source": "registry",
+                "threshold_source_path": null,
+                "threshold_payload_sha256": "b06941d9d371bd8792640873665004016437f947477142bdeae1f9622298d97e",
+                "catalog_sha256": "de68ccc73fea5c40387b3fa7c819e5e95b8409c8e637f8d61cb976e03c566910",
+                "catalog_source": "desispec 0.70.0 get_sky_lines()"
+              },
+              "votes": [],
+              "required_votes": 3,
+              "observed_signal_state": "pending",
+              "vote_summary": null,
+              "review_blocker": null
+            },
+            "cwt:abs:0010": {
+              "feature_id": "cwt:abs:0010",
+              "scope": "run",
+              "hypothesis_ref": null,
+              "source": "CWT",
+              "kind": "absorption",
+              "center_angstrom": 6010.400000000057,
+              "references": [
+                {
+                  "hypothesis_ref": "H1",
+                  "line_id": "line:hbet-4862-abs",
+                  "sh_status": "MARGINAL"
+                },
+                {
+                  "hypothesis_ref": "H3",
+                  "line_id": "line:hbet-4862-abs",
+                  "sh_status": "MARGINAL"
+                }
+              ],
+              "skyline_risk": {
+                "status": "no_registered_risk",
+                "nearest_line": {
+                  "id": "desi-sky:0009",
+                  "wavelength_angstrom": 5978.8,
+                  "offset_angstrom": 31.600000000056752
+                },
+                "within_proximity_threshold": false,
+                "oh_band_ids": [],
+                "threshold_angstrom": 10.0,
+                "threshold_source": "registry",
+                "threshold_source_path": null,
+                "threshold_payload_sha256": "b06941d9d371bd8792640873665004016437f947477142bdeae1f9622298d97e",
+                "catalog_sha256": "de68ccc73fea5c40387b3fa7c819e5e95b8409c8e637f8d61cb976e03c566910",
+                "catalog_source": "desispec 0.70.0 get_sky_lines()"
+              },
+              "votes": [],
+              "required_votes": 3,
+              "observed_signal_state": "pending",
+              "vote_summary": null,
+              "review_blocker": null
+            },
+            "cwt:abs:0021": {
+              "feature_id": "cwt:abs:0021",
+              "scope": "run",
+              "hypothesis_ref": null,
+              "source": "CWT",
+              "kind": "absorption",
+              "center_angstrom": 8120.000000000136,
+              "references": [
+                {
+                  "hypothesis_ref": "H1",
+                  "line_id": "line:half-6564-abs",
+                  "sh_status": "MARGINAL"
+                },
+                {
+                  "hypothesis_ref": "H3",
+                  "line_id": "line:half-6564-abs",
+                  "sh_status": "MARGINAL"
+                },
+                {
+                  "hypothesis_ref": "H6",
+                  "line_id": "line:mgii-2800-abs",
+                  "sh_status": "MARGINAL"
+                }
+              ],
+              "skyline_risk": {
+                "status": "oh_band_only",
+                "nearest_line": {
+                  "id": "desi-sky:0131",
+                  "wavelength_angstrom": 8104.77,
+                  "offset_angstrom": 15.230000000135988
+                },
+                "within_proximity_threshold": false,
+                "oh_band_ids": [
+                  "skyline:oh-band-7800"
+                ],
+                "threshold_angstrom": 10.0,
+                "threshold_source": "registry",
+                "threshold_source_path": null,
+                "threshold_payload_sha256": "b06941d9d371bd8792640873665004016437f947477142bdeae1f9622298d97e",
+                "catalog_sha256": "de68ccc73fea5c40387b3fa7c819e5e95b8409c8e637f8d61cb976e03c566910",
+                "catalog_source": "desispec 0.70.0 get_sky_lines()"
+              },
+              "votes": [],
+              "required_votes": 3,
+              "observed_signal_state": "pending",
+              "vote_summary": null,
+              "review_blocker": null
+            },
+            "cwt:em:0001": {
+              "feature_id": "cwt:em:0001",
+              "scope": "run",
+              "hypothesis_ref": null,
+              "source": "CWT",
+              "kind": "emission",
+              "center_angstrom": 4242.400000000146,
+              "references": [
+                {
+                  "hypothesis_ref": "H1",
+                  "line_id": "line:nev-3426",
+                  "sh_status": "LIKELY"
+                },
+                {
+                  "hypothesis_ref": "H3",
+                  "line_id": "line:nev-3426",
+                  "sh_status": "LIKELY"
+                }
+              ],
+              "skyline_risk": {
+                "status": "no_registered_risk",
+                "nearest_line": {
+                  "id": "desi-sky:0000",
+                  "wavelength_angstrom": 4359.55,
+                  "offset_angstrom": 117.14999999985412
+                },
+                "within_proximity_threshold": false,
+                "oh_band_ids": [],
+                "threshold_angstrom": 10.0,
+                "threshold_source": "registry",
+                "threshold_source_path": null,
+                "threshold_payload_sha256": "b06941d9d371bd8792640873665004016437f947477142bdeae1f9622298d97e",
+                "catalog_sha256": "de68ccc73fea5c40387b3fa7c819e5e95b8409c8e637f8d61cb976e03c566910",
+                "catalog_source": "desispec 0.70.0 get_sky_lines()"
+              },
+              "votes": [],
+              "required_votes": 3,
+              "observed_signal_state": "pending",
+              "vote_summary": null,
+              "review_blocker": null
+            },
+            "cwt:em:0002": {
+              "feature_id": "cwt:em:0002",
+              "scope": "run",
+              "hypothesis_ref": null,
+              "source": "CWT",
+              "kind": "emission",
+              "center_angstrom": 4616.800000000231,
+              "references": [
+                {
+                  "hypothesis_ref": "H1",
+                  "line_id": "line:oii-3727",
+                  "sh_status": "LIKELY"
+                },
+                {
+                  "hypothesis_ref": "H3",
+                  "line_id": "line:oii-3727",
+                  "sh_status": "LIKELY"
+                }
+              ],
+              "skyline_risk": {
+                "status": "no_registered_risk",
+                "nearest_line": {
+                  "id": "desi-sky:0000",
+                  "wavelength_angstrom": 4359.55,
+                  "offset_angstrom": 257.250000000231
+                },
+                "within_proximity_threshold": false,
+                "oh_band_ids": [],
+                "threshold_angstrom": 10.0,
+                "threshold_source": "registry",
+                "threshold_source_path": null,
+                "threshold_payload_sha256": "b06941d9d371bd8792640873665004016437f947477142bdeae1f9622298d97e",
+                "catalog_sha256": "de68ccc73fea5c40387b3fa7c819e5e95b8409c8e637f8d61cb976e03c566910",
+                "catalog_source": "desispec 0.70.0 get_sky_lines()"
+              },
+              "votes": [],
+              "required_votes": 3,
+              "observed_signal_state": "pending",
+              "vote_summary": null,
+              "review_blocker": null
+            },
+            "cwt:em:0004": {
+              "feature_id": "cwt:em:0004",
+              "scope": "run",
+              "hypothesis_ref": null,
+              "source": "CWT",
+              "kind": "emission",
+              "center_angstrom": 4912.8000000002985,
+              "references": [
+                {
+                  "hypothesis_ref": "H1",
+                  "line_id": "line:heps-3970",
+                  "sh_status": "MARGINAL"
+                },
+                {
+                  "hypothesis_ref": "H3",
+                  "line_id": "line:heps-3970",
+                  "sh_status": "MARGINAL"
+                }
+              ],
+              "skyline_risk": {
+                "status": "no_registered_risk",
+                "nearest_line": {
+                  "id": "desi-sky:0001",
+                  "wavelength_angstrom": 5199.27,
+                  "offset_angstrom": 286.46999999970194
+                },
+                "within_proximity_threshold": false,
+                "oh_band_ids": [],
+                "threshold_angstrom": 10.0,
+                "threshold_source": "registry",
+                "threshold_source_path": null,
+                "threshold_payload_sha256": "b06941d9d371bd8792640873665004016437f947477142bdeae1f9622298d97e",
+                "catalog_sha256": "de68ccc73fea5c40387b3fa7c819e5e95b8409c8e637f8d61cb976e03c566910",
+                "catalog_source": "desispec 0.70.0 get_sky_lines()"
+              },
+              "votes": [],
+              "required_votes": 3,
+              "observed_signal_state": "pending",
+              "vote_summary": null,
+              "review_blocker": null
+            },
+            "cwt:em:0005": {
+              "feature_id": "cwt:em:0005",
+              "scope": "run",
+              "hypothesis_ref": null,
+              "source": "CWT",
+              "kind": "emission",
+              "center_angstrom": 5079.200000000336,
+              "references": [
+                {
+                  "hypothesis_ref": "H1",
+                  "line_id": "line:hdel-4102",
+                  "sh_status": "LIKELY"
+                },
+                {
+                  "hypothesis_ref": "H3",
+                  "line_id": "line:hdel-4102",
+                  "sh_status": "LIKELY"
+                }
+              ],
+              "skyline_risk": {
+                "status": "no_registered_risk",
+                "nearest_line": {
+                  "id": "desi-sky:0001",
+                  "wavelength_angstrom": 5199.27,
+                  "offset_angstrom": 120.0699999996641
+                },
+                "within_proximity_threshold": false,
+                "oh_band_ids": [],
+                "threshold_angstrom": 10.0,
+                "threshold_source": "registry",
+                "threshold_source_path": null,
+                "threshold_payload_sha256": "b06941d9d371bd8792640873665004016437f947477142bdeae1f9622298d97e",
+                "catalog_sha256": "de68ccc73fea5c40387b3fa7c819e5e95b8409c8e637f8d61cb976e03c566910",
+                "catalog_source": "desispec 0.70.0 get_sky_lines()"
+              },
+              "votes": [],
+              "required_votes": 3,
+              "observed_signal_state": "pending",
+              "vote_summary": null,
+              "review_blocker": null
+            },
+            "cwt:em:0006": {
+              "feature_id": "cwt:em:0006",
+              "scope": "run",
+              "hypothesis_ref": null,
+              "source": "CWT",
+              "kind": "emission",
+              "center_angstrom": 5387.200000000406,
+              "references": [
+                {
+                  "hypothesis_ref": "H1",
+                  "line_id": "line:hgam-4341",
+                  "sh_status": "MARGINAL"
+                },
+                {
+                  "hypothesis_ref": "H3",
+                  "line_id": "line:hgam-4341",
+                  "sh_status": "MARGINAL"
+                }
+              ],
+              "skyline_risk": {
+                "status": "no_registered_risk",
+                "nearest_line": {
+                  "id": "desi-sky:0002",
+                  "wavelength_angstrom": 5462.38,
+                  "offset_angstrom": 75.17999999959375
+                },
+                "within_proximity_threshold": false,
+                "oh_band_ids": [],
+                "threshold_angstrom": 10.0,
+                "threshold_source": "registry",
+                "threshold_source_path": null,
+                "threshold_payload_sha256": "b06941d9d371bd8792640873665004016437f947477142bdeae1f9622298d97e",
+                "catalog_sha256": "de68ccc73fea5c40387b3fa7c819e5e95b8409c8e637f8d61cb976e03c566910",
+                "catalog_source": "desispec 0.70.0 get_sky_lines()"
+              },
+              "votes": [],
+              "required_votes": 3,
+              "observed_signal_state": "pending",
+              "vote_summary": null,
+              "review_blocker": null
+            },
+            "cwt:em:0008": {
+              "feature_id": "cwt:em:0008",
+              "scope": "run",
+              "hypothesis_ref": null,
+              "source": "CWT",
+              "kind": "emission",
+              "center_angstrom": 6020.000000000059,
+              "references": [
+                {
+                  "hypothesis_ref": "H1",
+                  "line_id": "line:hbet-4862",
+                  "sh_status": "LIKELY"
+                },
+                {
+                  "hypothesis_ref": "H3",
+                  "line_id": "line:hbet-4862",
+                  "sh_status": "LIKELY"
+                }
+              ],
+              "skyline_risk": {
+                "status": "no_registered_risk",
+                "nearest_line": {
+                  "id": "desi-sky:0009",
+                  "wavelength_angstrom": 5978.8,
+                  "offset_angstrom": 41.200000000058935
+                },
+                "within_proximity_threshold": false,
+                "oh_band_ids": [],
+                "threshold_angstrom": 10.0,
+                "threshold_source": "registry",
+                "threshold_source_path": null,
+                "threshold_payload_sha256": "b06941d9d371bd8792640873665004016437f947477142bdeae1f9622298d97e",
+                "catalog_sha256": "de68ccc73fea5c40387b3fa7c819e5e95b8409c8e637f8d61cb976e03c566910",
+                "catalog_source": "desispec 0.70.0 get_sky_lines()"
+              },
+              "votes": [],
+              "required_votes": 3,
+              "observed_signal_state": "pending",
+              "vote_summary": null,
+              "review_blocker": null
+            },
+            "cwt:em:0009": {
+              "feature_id": "cwt:em:0009",
+              "scope": "run",
+              "hypothesis_ref": null,
+              "source": "CWT",
+              "kind": "emission",
+              "center_angstrom": 6140.800000000087,
+              "references": [
+                {
+                  "hypothesis_ref": "H1",
+                  "line_id": "line:oiii-4960",
+                  "sh_status": "LIKELY"
+                },
+                {
+                  "hypothesis_ref": "H3",
+                  "line_id": "line:oiii-4960",
+                  "sh_status": "LIKELY"
+                }
+              ],
+              "skyline_risk": {
+                "status": "no_registered_risk",
+                "nearest_line": {
+                  "id": "desi-sky:0010",
+                  "wavelength_angstrom": 6172.39,
+                  "offset_angstrom": 31.589999999913744
+                },
+                "within_proximity_threshold": false,
+                "oh_band_ids": [],
+                "threshold_angstrom": 10.0,
+                "threshold_source": "registry",
+                "threshold_source_path": null,
+                "threshold_payload_sha256": "b06941d9d371bd8792640873665004016437f947477142bdeae1f9622298d97e",
+                "catalog_sha256": "de68ccc73fea5c40387b3fa7c819e5e95b8409c8e637f8d61cb976e03c566910",
+                "catalog_source": "desispec 0.70.0 get_sky_lines()"
+              },
+              "votes": [],
+              "required_votes": 3,
+              "observed_signal_state": "pending",
+              "vote_summary": null,
+              "review_blocker": null
+            },
+            "cwt:em:0010": {
+              "feature_id": "cwt:em:0010",
+              "scope": "run",
+              "hypothesis_ref": null,
+              "source": "CWT",
+              "kind": "emission",
+              "center_angstrom": 6200.0000000001,
+              "references": [
+                {
+                  "hypothesis_ref": "H1",
+                  "line_id": "line:oiii-5008",
+                  "sh_status": "LIKELY"
+                },
+                {
+                  "hypothesis_ref": "H3",
+                  "line_id": "line:oiii-5008",
+                  "sh_status": "LIKELY"
+                }
+              ],
+              "skyline_risk": {
+                "status": "near_discrete_skyline",
+                "nearest_line": {
+                  "id": "desi-sky:0011",
+                  "wavelength_angstrom": 6204.48,
+                  "offset_angstrom": 4.479999999899519
+                },
+                "within_proximity_threshold": true,
+                "oh_band_ids": [],
+                "threshold_angstrom": 10.0,
+                "threshold_source": "registry",
+                "threshold_source_path": null,
+                "threshold_payload_sha256": "b06941d9d371bd8792640873665004016437f947477142bdeae1f9622298d97e",
+                "catalog_sha256": "de68ccc73fea5c40387b3fa7c819e5e95b8409c8e637f8d61cb976e03c566910",
+                "catalog_source": "desispec 0.70.0 get_sky_lines()"
+              },
+              "votes": [],
+              "required_votes": 3,
+              "observed_signal_state": "pending",
+              "vote_summary": null,
+              "review_blocker": null
+            },
+            "cwt:em:0012": {
+              "feature_id": "cwt:em:0012",
+              "scope": "run",
+              "hypothesis_ref": null,
+              "source": "CWT",
+              "kind": "emission",
+              "center_angstrom": 8127.200000000138,
+              "references": [
+                {
+                  "hypothesis_ref": "H1",
+                  "line_id": "line:half-6564",
+                  "sh_status": "LIKELY"
+                },
+                {
+                  "hypothesis_ref": "H2",
+                  "line_id": "line:hbet-4862",
+                  "sh_status": "LIKELY"
+                },
+                {
+                  "hypothesis_ref": "H3",
+                  "line_id": "line:half-6564",
+                  "sh_status": "LIKELY"
+                },
+                {
+                  "hypothesis_ref": "H3",
+                  "line_id": "line:nii-6549",
+                  "sh_status": "MARGINAL"
+                },
+                {
+                  "hypothesis_ref": "H3",
+                  "line_id": "line:nii-6585",
+                  "sh_status": "MARGINAL"
+                },
+                {
+                  "hypothesis_ref": "H6",
+                  "line_id": "line:mgii-2800",
+                  "sh_status": "LIKELY"
+                }
+              ],
+              "skyline_risk": {
+                "status": "oh_band_only",
+                "nearest_line": {
+                  "id": "desi-sky:0132",
+                  "wavelength_angstrom": 8141.35,
+                  "offset_angstrom": 14.149999999862303
+                },
+                "within_proximity_threshold": false,
+                "oh_band_ids": [
+                  "skyline:oh-band-7800"
+                ],
+                "threshold_angstrom": 10.0,
+                "threshold_source": "registry",
+                "threshold_source_path": null,
+                "threshold_payload_sha256": "b06941d9d371bd8792640873665004016437f947477142bdeae1f9622298d97e",
+                "catalog_sha256": "de68ccc73fea5c40387b3fa7c819e5e95b8409c8e637f8d61cb976e03c566910",
+                "catalog_source": "desispec 0.70.0 get_sky_lines()"
+              },
+              "votes": [],
+              "required_votes": 3,
+              "observed_signal_state": "pending",
+              "vote_summary": null,
+              "review_blocker": null
+            },
+            "cwt:em:0013": {
+              "feature_id": "cwt:em:0013",
+              "scope": "run",
+              "hypothesis_ref": null,
+              "source": "CWT",
+              "kind": "emission",
+              "center_angstrom": 8318.400000000182,
+              "references": [
+                {
+                  "hypothesis_ref": "H1",
+                  "line_id": "line:sii-6718",
+                  "sh_status": "LIKELY"
+                },
+                {
+                  "hypothesis_ref": "H3",
+                  "line_id": "line:sii-6718",
+                  "sh_status": "LIKELY"
+                }
+              ],
+              "skyline_risk": {
+                "status": "near_discrete_skyline",
+                "nearest_line": {
+                  "id": "desi-sky:0143",
+                  "wavelength_angstrom": 8320.68,
+                  "offset_angstrom": 2.279999999818756
+                },
+                "within_proximity_threshold": true,
+                "oh_band_ids": [
+                  "skyline:oh-band-7800"
+                ],
+                "threshold_angstrom": 10.0,
+                "threshold_source": "registry",
+                "threshold_source_path": null,
+                "threshold_payload_sha256": "b06941d9d371bd8792640873665004016437f947477142bdeae1f9622298d97e",
+                "catalog_sha256": "de68ccc73fea5c40387b3fa7c819e5e95b8409c8e637f8d61cb976e03c566910",
+                "catalog_source": "desispec 0.70.0 get_sky_lines()"
+              },
+              "votes": [],
+              "required_votes": 3,
+              "observed_signal_state": "pending",
+              "vote_summary": null,
+              "review_blocker": null
+            },
+            "cwt:em:0014": {
+              "feature_id": "cwt:em:0014",
+              "scope": "run",
+              "hypothesis_ref": null,
+              "source": "CWT",
+              "kind": "emission",
+              "center_angstrom": 8336.000000000186,
+              "references": [
+                {
+                  "hypothesis_ref": "H1",
+                  "line_id": "line:sii-6732",
+                  "sh_status": "LIKELY"
+                },
+                {
+                  "hypothesis_ref": "H3",
+                  "line_id": "line:sii-6732",
+                  "sh_status": "LIKELY"
+                }
+              ],
+              "skyline_risk": {
+                "status": "oh_band_only",
+                "nearest_line": {
+                  "id": "desi-sky:0144",
+                  "wavelength_angstrom": 8346.77,
+                  "offset_angstrom": 10.7699999998149
+                },
+                "within_proximity_threshold": false,
+                "oh_band_ids": [
+                  "skyline:oh-band-7800"
+                ],
+                "threshold_angstrom": 10.0,
+                "threshold_source": "registry",
+                "threshold_source_path": null,
+                "threshold_payload_sha256": "b06941d9d371bd8792640873665004016437f947477142bdeae1f9622298d97e",
+                "catalog_sha256": "de68ccc73fea5c40387b3fa7c819e5e95b8409c8e637f8d61cb976e03c566910",
+                "catalog_source": "desispec 0.70.0 get_sky_lines()"
+              },
+              "votes": [],
+              "required_votes": 3,
+              "observed_signal_state": "pending",
+              "vote_summary": null,
+              "review_blocker": null
+            },
+            "fit:H1:0002": {
+              "feature_id": "fit:H1:0002",
+              "scope": "hypothesis",
+              "hypothesis_ref": "H1",
+              "source": "fit_doublet",
+              "kind": "absorption",
+              "center_angstrom": 7298.536,
+              "references": [
+                {
+                  "hypothesis_ref": "H1",
+                  "line_id": "line:nad1-5891-abs",
+                  "sh_status": "MARGINAL"
+                }
+              ],
+              "skyline_risk": {
+                "status": "near_discrete_skyline",
+                "nearest_line": {
+                  "id": "desi-sky:0059",
+                  "wavelength_angstrom": 7298.03,
+                  "offset_angstrom": 0.5060000000003129
+                },
+                "within_proximity_threshold": true,
+                "oh_band_ids": [
+                  "skyline:oh-band-7000"
+                ],
+                "threshold_angstrom": 10.0,
+                "threshold_source": "registry",
+                "threshold_source_path": null,
+                "threshold_payload_sha256": "b06941d9d371bd8792640873665004016437f947477142bdeae1f9622298d97e",
+                "catalog_sha256": "de68ccc73fea5c40387b3fa7c819e5e95b8409c8e637f8d61cb976e03c566910",
+                "catalog_source": "desispec 0.70.0 get_sky_lines()"
+              },
+              "votes": [],
+              "required_votes": 3,
+              "observed_signal_state": "pending",
+              "vote_summary": null,
+              "review_blocker": null
+            },
+            "fit:H1:0003": {
+              "feature_id": "fit:H1:0003",
+              "scope": "hypothesis",
+              "hypothesis_ref": "H1",
+              "source": "fit_doublet",
+              "kind": "absorption",
+              "center_angstrom": 7306.344,
+              "references": [
+                {
+                  "hypothesis_ref": "H1",
+                  "line_id": "line:nad2-5897-abs",
+                  "sh_status": "MARGINAL"
+                }
+              ],
+              "skyline_risk": {
+                "status": "near_discrete_skyline",
+                "nearest_line": {
+                  "id": "desi-sky:0060",
+                  "wavelength_angstrom": 7305.76,
+                  "offset_angstrom": 0.5839999999998327
+                },
+                "within_proximity_threshold": true,
+                "oh_band_ids": [
+                  "skyline:oh-band-7000"
+                ],
+                "threshold_angstrom": 10.0,
+                "threshold_source": "registry",
+                "threshold_source_path": null,
+                "threshold_payload_sha256": "b06941d9d371bd8792640873665004016437f947477142bdeae1f9622298d97e",
+                "catalog_sha256": "de68ccc73fea5c40387b3fa7c819e5e95b8409c8e637f8d61cb976e03c566910",
+                "catalog_source": "desispec 0.70.0 get_sky_lines()"
+              },
+              "votes": [],
+              "required_votes": 3,
+              "observed_signal_state": "pending",
+              "vote_summary": null,
+              "review_blocker": null
+            },
+            "fit:H2:0006": {
+              "feature_id": "fit:H2:0006",
+              "scope": "hypothesis",
+              "hypothesis_ref": "H2",
+              "source": "fit_peak",
+              "kind": "emission",
+              "center_angstrom": 7276.105,
+              "references": [
+                {
+                  "hypothesis_ref": "H2",
+                  "line_id": "line:hgam-4341",
+                  "sh_status": "MARGINAL"
+                }
+              ],
+              "skyline_risk": {
+                "status": "near_discrete_skyline",
+                "nearest_line": {
+                  "id": "desi-sky:0057",
+                  "wavelength_angstrom": 7278.23,
+                  "offset_angstrom": 2.125
+                },
+                "within_proximity_threshold": true,
+                "oh_band_ids": [
+                  "skyline:oh-band-7000"
+                ],
+                "threshold_angstrom": 10.0,
+                "threshold_source": "registry",
+                "threshold_source_path": null,
+                "threshold_payload_sha256": "b06941d9d371bd8792640873665004016437f947477142bdeae1f9622298d97e",
+                "catalog_sha256": "de68ccc73fea5c40387b3fa7c819e5e95b8409c8e637f8d61cb976e03c566910",
+                "catalog_source": "desispec 0.70.0 get_sky_lines()"
+              },
+              "votes": [],
+              "required_votes": 3,
+              "observed_signal_state": "pending",
+              "vote_summary": null,
+              "review_blocker": null
+            },
+            "fit:H3:0002": {
+              "feature_id": "fit:H3:0002",
+              "scope": "hypothesis",
+              "hypothesis_ref": "H3",
+              "source": "fit_doublet",
+              "kind": "absorption",
+              "center_angstrom": 7326.206,
+              "references": [
+                {
+                  "hypothesis_ref": "H3",
+                  "line_id": "line:nad1-5891-abs",
+                  "sh_status": "MARGINAL"
+                }
+              ],
+              "skyline_risk": {
+                "status": "near_discrete_skyline",
+                "nearest_line": {
+                  "id": "desi-sky:0062",
+                  "wavelength_angstrom": 7331.26,
+                  "offset_angstrom": 5.054000000000087
+                },
+                "within_proximity_threshold": true,
+                "oh_band_ids": [
+                  "skyline:oh-band-7000"
+                ],
+                "threshold_angstrom": 10.0,
+                "threshold_source": "registry",
+                "threshold_source_path": null,
+                "threshold_payload_sha256": "b06941d9d371bd8792640873665004016437f947477142bdeae1f9622298d97e",
+                "catalog_sha256": "de68ccc73fea5c40387b3fa7c819e5e95b8409c8e637f8d61cb976e03c566910",
+                "catalog_source": "desispec 0.70.0 get_sky_lines()"
+              },
+              "votes": [],
+              "required_votes": 3,
+              "observed_signal_state": "pending",
+              "vote_summary": null,
+              "review_blocker": null
+            },
+            "fit:H3:0003": {
+              "feature_id": "fit:H3:0003",
+              "scope": "hypothesis",
+              "hypothesis_ref": "H3",
+              "source": "fit_doublet",
+              "kind": "absorption",
+              "center_angstrom": 7299.47,
+              "references": [
+                {
+                  "hypothesis_ref": "H3",
+                  "line_id": "line:nad2-5897-abs",
+                  "sh_status": "MARGINAL"
+                }
+              ],
+              "skyline_risk": {
+                "status": "near_discrete_skyline",
+                "nearest_line": {
+                  "id": "desi-sky:0059",
+                  "wavelength_angstrom": 7298.03,
+                  "offset_angstrom": 1.4400000000005093
+                },
+                "within_proximity_threshold": true,
+                "oh_band_ids": [
+                  "skyline:oh-band-7000"
+                ],
+                "threshold_angstrom": 10.0,
+                "threshold_source": "registry",
+                "threshold_source_path": null,
+                "threshold_payload_sha256": "b06941d9d371bd8792640873665004016437f947477142bdeae1f9622298d97e",
+                "catalog_sha256": "de68ccc73fea5c40387b3fa7c819e5e95b8409c8e637f8d61cb976e03c566910",
+                "catalog_source": "desispec 0.70.0 get_sky_lines()"
+              },
+              "votes": [],
+              "required_votes": 3,
+              "observed_signal_state": "pending",
+              "vote_summary": null,
+              "review_blocker": null
+            },
+            "fit:H4:0002": {
+              "feature_id": "fit:H4:0002",
+              "scope": "hypothesis",
+              "hypothesis_ref": "H4",
+              "source": "fit_doublet",
+              "kind": "emission",
+              "center_angstrom": 6713.925,
+              "references": [
+                {
+                  "hypothesis_ref": "H4",
+                  "line_id": "line:sii-6718",
+                  "sh_status": "MARGINAL"
+                }
+              ],
+              "skyline_risk": {
+                "status": "no_registered_risk",
+                "nearest_line": {
+                  "id": "desi-sky:0036",
+                  "wavelength_angstrom": 6606.02,
+                  "offset_angstrom": 107.90499999999975
+                },
+                "within_proximity_threshold": false,
+                "oh_band_ids": [],
+                "threshold_angstrom": 10.0,
+                "threshold_source": "registry",
+                "threshold_source_path": null,
+                "threshold_payload_sha256": "b06941d9d371bd8792640873665004016437f947477142bdeae1f9622298d97e",
+                "catalog_sha256": "de68ccc73fea5c40387b3fa7c819e5e95b8409c8e637f8d61cb976e03c566910",
+                "catalog_source": "desispec 0.70.0 get_sky_lines()"
+              },
+              "votes": [],
+              "required_votes": 3,
+              "observed_signal_state": "pending",
+              "vote_summary": null,
+              "review_blocker": null
+            },
+            "fit:H4:0004": {
+              "feature_id": "fit:H4:0004",
+              "scope": "hypothesis",
+              "hypothesis_ref": "H4",
+              "source": "fit_doublet",
+              "kind": "emission",
+              "center_angstrom": 6536.312,
+              "references": [
+                {
+                  "hypothesis_ref": "H4",
+                  "line_id": "line:nii-6549",
+                  "sh_status": "MARGINAL"
+                }
+              ],
+              "skyline_risk": {
+                "status": "near_discrete_skyline",
+                "nearest_line": {
+                  "id": "desi-sky:0030",
+                  "wavelength_angstrom": 6534.88,
+                  "offset_angstrom": 1.431999999999789
+                },
+                "within_proximity_threshold": true,
+                "oh_band_ids": [],
+                "threshold_angstrom": 10.0,
+                "threshold_source": "registry",
+                "threshold_source_path": null,
+                "threshold_payload_sha256": "b06941d9d371bd8792640873665004016437f947477142bdeae1f9622298d97e",
+                "catalog_sha256": "de68ccc73fea5c40387b3fa7c819e5e95b8409c8e637f8d61cb976e03c566910",
+                "catalog_source": "desispec 0.70.0 get_sky_lines()"
+              },
+              "votes": [],
+              "required_votes": 3,
+              "observed_signal_state": "pending",
+              "vote_summary": null,
+              "review_blocker": null
+            },
+            "fit:H4:0005": {
+              "feature_id": "fit:H4:0005",
+              "scope": "hypothesis",
+              "hypothesis_ref": "H4",
+              "source": "fit_doublet",
+              "kind": "emission",
+              "center_angstrom": 6565.897,
+              "references": [
+                {
+                  "hypothesis_ref": "H4",
+                  "line_id": "line:nii-6585",
+                  "sh_status": "MARGINAL"
+                }
+              ],
+              "skyline_risk": {
+                "status": "near_discrete_skyline",
+                "nearest_line": {
+                  "id": "desi-sky:0033",
+                  "wavelength_angstrom": 6564.59,
+                  "offset_angstrom": 1.306999999999789
+                },
+                "within_proximity_threshold": true,
+                "oh_band_ids": [],
+                "threshold_angstrom": 10.0,
+                "threshold_source": "registry",
+                "threshold_source_path": null,
+                "threshold_payload_sha256": "b06941d9d371bd8792640873665004016437f947477142bdeae1f9622298d97e",
+                "catalog_sha256": "de68ccc73fea5c40387b3fa7c819e5e95b8409c8e637f8d61cb976e03c566910",
+                "catalog_source": "desispec 0.70.0 get_sky_lines()"
+              },
+              "votes": [],
+              "required_votes": 3,
+              "observed_signal_state": "pending",
+              "vote_summary": null,
+              "review_blocker": null
+            },
+            "fit:H4:0009": {
+              "feature_id": "fit:H4:0009",
+              "scope": "hypothesis",
+              "hypothesis_ref": "H4",
+              "source": "fit_doublet",
+              "kind": "absorption",
+              "center_angstrom": 5890.505,
+              "references": [
+                {
+                  "hypothesis_ref": "H4",
+                  "line_id": "line:nad2-5897-abs",
+                  "sh_status": "MARGINAL"
+                }
+              ],
+              "skyline_risk": {
+                "status": "near_discrete_skyline",
+                "nearest_line": {
+                  "id": "desi-sky:0004",
+                  "wavelength_angstrom": 5891.47,
+                  "offset_angstrom": 0.9650000000001455
+                },
+                "within_proximity_threshold": true,
+                "oh_band_ids": [],
+                "threshold_angstrom": 10.0,
+                "threshold_source": "registry",
+                "threshold_source_path": null,
+                "threshold_payload_sha256": "b06941d9d371bd8792640873665004016437f947477142bdeae1f9622298d97e",
+                "catalog_sha256": "de68ccc73fea5c40387b3fa7c819e5e95b8409c8e637f8d61cb976e03c566910",
+                "catalog_source": "desispec 0.70.0 get_sky_lines()"
+              },
+              "votes": [],
+              "required_votes": 3,
+              "observed_signal_state": "pending",
+              "vote_summary": null,
+              "review_blocker": null
+            },
+            "fit:H4:0011": {
+              "feature_id": "fit:H4:0011",
+              "scope": "hypothesis",
+              "hypothesis_ref": "H4",
+              "source": "fit_peak",
+              "kind": "emission",
+              "center_angstrom": 3966.537,
+              "references": [
+                {
+                  "hypothesis_ref": "H4",
+                  "line_id": "line:heps-3970",
+                  "sh_status": "MARGINAL"
+                }
+              ],
+              "skyline_risk": {
+                "status": "no_registered_risk",
+                "nearest_line": {
+                  "id": "desi-sky:0000",
+                  "wavelength_angstrom": 4359.55,
+                  "offset_angstrom": 393.0130000000004
+                },
+                "within_proximity_threshold": false,
+                "oh_band_ids": [],
+                "threshold_angstrom": 10.0,
+                "threshold_source": "registry",
+                "threshold_source_path": null,
+                "threshold_payload_sha256": "b06941d9d371bd8792640873665004016437f947477142bdeae1f9622298d97e",
+                "catalog_sha256": "de68ccc73fea5c40387b3fa7c819e5e95b8409c8e637f8d61cb976e03c566910",
+                "catalog_source": "desispec 0.70.0 get_sky_lines()"
+              },
+              "votes": [],
+              "required_votes": 3,
+              "observed_signal_state": "pending",
+              "vote_summary": null,
+              "review_blocker": null
+            },
+            "fit:H4:0015": {
+              "feature_id": "fit:H4:0015",
+              "scope": "hypothesis",
+              "hypothesis_ref": "H4",
+              "source": "fit_peak",
+              "kind": "emission",
+              "center_angstrom": 6564.209,
+              "references": [
+                {
+                  "hypothesis_ref": "H4",
+                  "line_id": "line:half-6564",
+                  "sh_status": "MARGINAL"
+                }
+              ],
+              "skyline_risk": {
+                "status": "near_discrete_skyline",
+                "nearest_line": {
+                  "id": "desi-sky:0033",
+                  "wavelength_angstrom": 6564.59,
+                  "offset_angstrom": 0.38100000000031287
+                },
+                "within_proximity_threshold": true,
+                "oh_band_ids": [],
+                "threshold_angstrom": 10.0,
+                "threshold_source": "registry",
+                "threshold_source_path": null,
+                "threshold_payload_sha256": "b06941d9d371bd8792640873665004016437f947477142bdeae1f9622298d97e",
+                "catalog_sha256": "de68ccc73fea5c40387b3fa7c819e5e95b8409c8e637f8d61cb976e03c566910",
+                "catalog_source": "desispec 0.70.0 get_sky_lines()"
+              },
+              "votes": [],
+              "required_votes": 3,
+              "observed_signal_state": "pending",
+              "vote_summary": null,
+              "review_blocker": null
+            },
+            "fit:H4:0018": {
+              "feature_id": "fit:H4:0018",
+              "scope": "hypothesis",
+              "hypothesis_ref": "H4",
+              "source": "fit_peak",
+              "kind": "absorption",
+              "center_angstrom": 4335.706,
+              "references": [
+                {
+                  "hypothesis_ref": "H4",
+                  "line_id": "line:hgam-4341-abs",
+                  "sh_status": "MARGINAL"
+                }
+              ],
+              "skyline_risk": {
+                "status": "no_registered_risk",
+                "nearest_line": {
+                  "id": "desi-sky:0000",
+                  "wavelength_angstrom": 4359.55,
+                  "offset_angstrom": 23.84400000000005
+                },
+                "within_proximity_threshold": false,
+                "oh_band_ids": [],
+                "threshold_angstrom": 10.0,
+                "threshold_source": "registry",
+                "threshold_source_path": null,
+                "threshold_payload_sha256": "b06941d9d371bd8792640873665004016437f947477142bdeae1f9622298d97e",
+                "catalog_sha256": "de68ccc73fea5c40387b3fa7c819e5e95b8409c8e637f8d61cb976e03c566910",
+                "catalog_source": "desispec 0.70.0 get_sky_lines()"
+              },
+              "votes": [],
+              "required_votes": 3,
+              "observed_signal_state": "pending",
+              "vote_summary": null,
+              "review_blocker": null
+            },
+            "fit:H4:0019": {
+              "feature_id": "fit:H4:0019",
+              "scope": "hypothesis",
+              "hypothesis_ref": "H4",
+              "source": "fit_peak",
+              "kind": "absorption",
+              "center_angstrom": 5163.934,
+              "references": [
+                {
+                  "hypothesis_ref": "H4",
+                  "line_id": "line:mgi-5176-abs",
+                  "sh_status": "MARGINAL"
+                }
+              ],
+              "skyline_risk": {
+                "status": "no_registered_risk",
+                "nearest_line": {
+                  "id": "desi-sky:0001",
+                  "wavelength_angstrom": 5199.27,
+                  "offset_angstrom": 35.33600000000024
+                },
+                "within_proximity_threshold": false,
+                "oh_band_ids": [],
+                "threshold_angstrom": 10.0,
+                "threshold_source": "registry",
+                "threshold_source_path": null,
+                "threshold_payload_sha256": "b06941d9d371bd8792640873665004016437f947477142bdeae1f9622298d97e",
+                "catalog_sha256": "de68ccc73fea5c40387b3fa7c819e5e95b8409c8e637f8d61cb976e03c566910",
+                "catalog_source": "desispec 0.70.0 get_sky_lines()"
+              },
+              "votes": [],
+              "required_votes": 3,
+              "observed_signal_state": "pending",
+              "vote_summary": null,
+              "review_blocker": null
+            },
+            "fit:H5:0011": {
+              "feature_id": "fit:H5:0011",
+              "scope": "hypothesis",
+              "hypothesis_ref": "H5",
+              "source": "fit_peak",
+              "kind": "emission",
+              "center_angstrom": 3966.532,
+              "references": [
+                {
+                  "hypothesis_ref": "H5",
+                  "line_id": "line:heps-3970",
+                  "sh_status": "MARGINAL"
+                }
+              ],
+              "skyline_risk": {
+                "status": "no_registered_risk",
+                "nearest_line": {
+                  "id": "desi-sky:0000",
+                  "wavelength_angstrom": 4359.55,
+                  "offset_angstrom": 393.01800000000003
+                },
+                "within_proximity_threshold": false,
+                "oh_band_ids": [],
+                "threshold_angstrom": 10.0,
+                "threshold_source": "registry",
+                "threshold_source_path": null,
+                "threshold_payload_sha256": "b06941d9d371bd8792640873665004016437f947477142bdeae1f9622298d97e",
+                "catalog_sha256": "de68ccc73fea5c40387b3fa7c819e5e95b8409c8e637f8d61cb976e03c566910",
+                "catalog_source": "desispec 0.70.0 get_sky_lines()"
+              },
+              "votes": [],
+              "required_votes": 3,
+              "observed_signal_state": "pending",
+              "vote_summary": null,
+              "review_blocker": null
+            },
+            "fit:H5:0015": {
+              "feature_id": "fit:H5:0015",
+              "scope": "hypothesis",
+              "hypothesis_ref": "H5",
+              "source": "fit_peak",
+              "kind": "emission",
+              "center_angstrom": 6564.217,
+              "references": [
+                {
+                  "hypothesis_ref": "H5",
+                  "line_id": "line:half-6564",
+                  "sh_status": "MARGINAL"
+                }
+              ],
+              "skyline_risk": {
+                "status": "near_discrete_skyline",
+                "nearest_line": {
+                  "id": "desi-sky:0033",
+                  "wavelength_angstrom": 6564.59,
+                  "offset_angstrom": 0.37300000000050204
+                },
+                "within_proximity_threshold": true,
+                "oh_band_ids": [],
+                "threshold_angstrom": 10.0,
+                "threshold_source": "registry",
+                "threshold_source_path": null,
+                "threshold_payload_sha256": "b06941d9d371bd8792640873665004016437f947477142bdeae1f9622298d97e",
+                "catalog_sha256": "de68ccc73fea5c40387b3fa7c819e5e95b8409c8e637f8d61cb976e03c566910",
+                "catalog_source": "desispec 0.70.0 get_sky_lines()"
+              },
+              "votes": [],
+              "required_votes": 3,
+              "observed_signal_state": "pending",
+              "vote_summary": null,
+              "review_blocker": null
+            },
+            "fit:H5:0018": {
+              "feature_id": "fit:H5:0018",
+              "scope": "hypothesis",
+              "hypothesis_ref": "H5",
+              "source": "fit_peak",
+              "kind": "absorption",
+              "center_angstrom": 4335.711,
+              "references": [
+                {
+                  "hypothesis_ref": "H5",
+                  "line_id": "line:hgam-4341-abs",
+                  "sh_status": "MARGINAL"
+                }
+              ],
+              "skyline_risk": {
+                "status": "no_registered_risk",
+                "nearest_line": {
+                  "id": "desi-sky:0000",
+                  "wavelength_angstrom": 4359.55,
+                  "offset_angstrom": 23.838999999999942
+                },
+                "within_proximity_threshold": false,
+                "oh_band_ids": [],
+                "threshold_angstrom": 10.0,
+                "threshold_source": "registry",
+                "threshold_source_path": null,
+                "threshold_payload_sha256": "b06941d9d371bd8792640873665004016437f947477142bdeae1f9622298d97e",
+                "catalog_sha256": "de68ccc73fea5c40387b3fa7c819e5e95b8409c8e637f8d61cb976e03c566910",
+                "catalog_source": "desispec 0.70.0 get_sky_lines()"
+              },
+              "votes": [],
+              "required_votes": 3,
+              "observed_signal_state": "pending",
+              "vote_summary": null,
+              "review_blocker": null
+            },
+            "fit:H5:0019": {
+              "feature_id": "fit:H5:0019",
+              "scope": "hypothesis",
+              "hypothesis_ref": "H5",
+              "source": "fit_peak",
+              "kind": "absorption",
+              "center_angstrom": 5167.161,
+              "references": [
+                {
+                  "hypothesis_ref": "H5",
+                  "line_id": "line:mgi-5176-abs",
+                  "sh_status": "MARGINAL"
+                }
+              ],
+              "skyline_risk": {
+                "status": "no_registered_risk",
+                "nearest_line": {
+                  "id": "desi-sky:0001",
+                  "wavelength_angstrom": 5199.27,
+                  "offset_angstrom": 32.10900000000038
+                },
+                "within_proximity_threshold": false,
+                "oh_band_ids": [],
+                "threshold_angstrom": 10.0,
+                "threshold_source": "registry",
+                "threshold_source_path": null,
+                "threshold_payload_sha256": "b06941d9d371bd8792640873665004016437f947477142bdeae1f9622298d97e",
+                "catalog_sha256": "de68ccc73fea5c40387b3fa7c819e5e95b8409c8e637f8d61cb976e03c566910",
+                "catalog_source": "desispec 0.70.0 get_sky_lines()"
+              },
+              "votes": [],
+              "required_votes": 3,
+              "observed_signal_state": "pending",
+              "vote_summary": null,
+              "review_blocker": null
+            },
+            "fit:H5:0023": {
+              "feature_id": "fit:H5:0023",
+              "scope": "hypothesis",
+              "hypothesis_ref": "H5",
+              "source": "fit_peak",
+              "kind": "absorption",
+              "center_angstrom": 8659.516,
+              "references": [
+                {
+                  "hypothesis_ref": "H5",
+                  "line_id": "line:cat3-8662-abs",
+                  "sh_status": "MARGINAL"
+                }
+              ],
+              "skyline_risk": {
+                "status": "near_discrete_skyline",
+                "nearest_line": {
+                  "id": "desi-sky:0175",
+                  "wavelength_angstrom": 8657.7,
+                  "offset_angstrom": 1.815999999998894
+                },
+                "within_proximity_threshold": true,
+                "oh_band_ids": [
+                  "skyline:oh-band-7800"
+                ],
+                "threshold_angstrom": 10.0,
+                "threshold_source": "registry",
+                "threshold_source_path": null,
+                "threshold_payload_sha256": "b06941d9d371bd8792640873665004016437f947477142bdeae1f9622298d97e",
+                "catalog_sha256": "de68ccc73fea5c40387b3fa7c819e5e95b8409c8e637f8d61cb976e03c566910",
+                "catalog_source": "desispec 0.70.0 get_sky_lines()"
+              },
+              "votes": [],
+              "required_votes": 3,
+              "observed_signal_state": "pending",
+              "vote_summary": null,
+              "review_blocker": null
+            }
+          },
+          "artifacts": {
+            "sh/H1/catalog": {
+              "path": "/mnt/linux_share/code/FORMA/example/basic/output/20261019T110542Z-e9a5abd8/QSO_4/VI/measurements/hypothesis_000_measurement_catalog.json",
+              "sha256": "95c13ee95b422950e1fbcd50752719d5fa60c4670b909db9a96e1704b8e8a4fd",
+              "kind": "vi_catalog"
+            },
+            "sh/H1/csv": {
+              "path": "/mnt/linux_share/code/FORMA/example/basic/output/20261019T110542Z-e9a5abd8/QSO_4/SH/H1/pre_analysis/branches/main/94b9060e5061491faf6d294e090d69d8/lines.csv",
+              "sha256": "f4b5b8c1d50f583ac167bfe6f47f6d2cf80021655614b25fa30e931c6b68e328",
+              "kind": "sh_csv"
+            },
+            "sh/H1/fit_attempts": {
+              "path": "/mnt/linux_share/code/FORMA/example/basic/output/20261019T110542Z-e9a5abd8/QSO_4/VI/measurements/hypothesis_000_fit_attempts.json",
+              "sha256": "d584730702e743841edf9c67ddfd9f2dca8be66fa2e2b40953f84a6a770b2606",
+              "kind": "vi_fit_attempts"
+            },
+            "sh/H1/judgments": {
+              "path": "/mnt/linux_share/code/FORMA/example/basic/output/20261019T110542Z-e9a5abd8/QSO_4/SH/H1/pre_analysis/branches/main/94b9060e5061491faf6d294e090d69d8/lines_judgments.json",
+              "sha256": "3193e70ef8f60c430d44665abb13830559c39f0e6f354164735955569ce1da03",
+              "kind": "sh_judgments"
+            },
+            "sh/H1/node": {
+              "path": "/mnt/linux_share/code/FORMA/example/basic/output/20261019T110542Z-e9a5abd8/QSO_4/SH/H1/pre_analysis/branches/main/94b9060e5061491faf6d294e090d69d8/node.json",
+              "sha256": "281e10ac9cf0da090e43b6d8dcebd20a0b4326c3378004bd15b5a1002f0d925e",
+              "kind": "sh_node"
+            },
+            "sh/H1/stage1_session": {
+              "path": "/mnt/linux_share/code/FORMA/example/basic/output/20261019T110542Z-e9a5abd8/QSO_4/SH/H1/pre_analysis/branches/main/94b9060e5061491faf6d294e090d69d8/stage1_session.md",
+              "sha256": "d3a41857ec0f6d5cd9b5496e307b283a50535c724920ec59fb1a3acd1c915190",
+              "kind": "sh_session"
+            },
+            "sh/H2/catalog": {
+              "path": "/mnt/linux_share/code/FORMA/example/basic/output/20261019T110542Z-e9a5abd8/QSO_4/VI/measurements/hypothesis_001_measurement_catalog.json",
+              "sha256": "11681d85dba9d30a6f46bcea610677cf2af493f7dd5c4ff0eec1ae0cefb783db",
+              "kind": "vi_catalog"
+            },
+            "sh/H2/csv": {
+              "path": "/mnt/linux_share/code/FORMA/example/basic/output/20261019T110542Z-e9a5abd8/QSO_4/SH/H2/pre_analysis/branches/main/6a3c37c19110494595eddd41e08b7b49/lines.csv",
+              "sha256": "21c75e48a3640859e0ed285be786348ac9ec8969f47a0da454d77dcc8ea64c94",
+              "kind": "sh_csv"
+            },
+            "sh/H2/fit_attempts": {
+              "path": "/mnt/linux_share/code/FORMA/example/basic/output/20261019T110542Z-e9a5abd8/QSO_4/VI/measurements/hypothesis_001_fit_attempts.json",
+              "sha256": "246bb6e4c6f92b0e5a7a0b4ab4c163ce7ebca47720f69d25885ec0c2de7238f2",
+              "kind": "vi_fit_attempts"
+            },
+            "sh/H2/judgments": {
+              "path": "/mnt/linux_share/code/FORMA/example/basic/output/20261019T110542Z-e9a5abd8/QSO_4/SH/H2/pre_analysis/branches/main/6a3c37c19110494595eddd41e08b7b49/lines_judgments.json",
+              "sha256": "db190fab38bd614e13800883ed4d326fb6a016ddd54e8429cfbfbed87921b17a",
+              "kind": "sh_judgments"
+            },
+            "sh/H2/node": {
+              "path": "/mnt/linux_share/code/FORMA/example/basic/output/20261019T110542Z-e9a5abd8/QSO_4/SH/H2/pre_analysis/branches/main/6a3c37c19110494595eddd41e08b7b49/node.json",
+              "sha256": "daf9a12527cbc591980767da83d3955b5fc4d6a9c2fd4ab4defc2d2c4250e94b",
+              "kind": "sh_node"
+            },
+            "sh/H2/stage1_session": {
+              "path": "/mnt/linux_share/code/FORMA/example/basic/output/20261019T110542Z-e9a5abd8/QSO_4/SH/H2/pre_analysis/branches/main/6a3c37c19110494595eddd41e08b7b49/stage1_session.md",
+              "sha256": "683b84b438aaef3c9fc7a6e71905f3ce9bd9238388e9a55247fb4caae0ddab10",
+              "kind": "sh_session"
+            },
+            "sh/H3/catalog": {
+              "path": "/mnt/linux_share/code/FORMA/example/basic/output/20261019T110542Z-e9a5abd8/QSO_4/VI/measurements/hypothesis_002_measurement_catalog.json",
+              "sha256": "2521ddf95723741dcb53fb93d1a5bbddc4abecab07cf7363257650b479d90b6f",
+              "kind": "vi_catalog"
+            },
+            "sh/H3/csv": {
+              "path": "/mnt/linux_share/code/FORMA/example/basic/output/20261019T110542Z-e9a5abd8/QSO_4/SH/H3/pre_analysis/branches/main/a17b8ffe679648b098725b050663ea61/lines.csv",
+              "sha256": "7ea6bb1a987965bf5b1dc9efe3dc66d3fedef6a7732957224c17d9705c2e134c",
+              "kind": "sh_csv"
+            },
+            "sh/H3/fit_attempts": {
+              "path": "/mnt/linux_share/code/FORMA/example/basic/output/20261019T110542Z-e9a5abd8/QSO_4/VI/measurements/hypothesis_002_fit_attempts.json",
+              "sha256": "42847b9f97c369434374a77328ddda2d8af47b9103e3ba9825f97953559a3e8b",
+              "kind": "vi_fit_attempts"
+            },
+            "sh/H3/judgments": {
+              "path": "/mnt/linux_share/code/FORMA/example/basic/output/20261019T110542Z-e9a5abd8/QSO_4/SH/H3/pre_analysis/branches/main/a17b8ffe679648b098725b050663ea61/lines_judgments.json",
+              "sha256": "ca93b3309e928fb79c44c621583aea4f19ac79461496e5757c66fc0a9133ace8",
+              "kind": "sh_judgments"
+            },
+            "sh/H3/node": {
+              "path": "/mnt/linux_share/code/FORMA/example/basic/output/20261019T110542Z-e9a5abd8/QSO_4/SH/H3/pre_analysis/branches/main/a17b8ffe679648b098725b050663ea61/node.json",
+              "sha256": "56f98a31d54669715e2c8b421ca7395721d7f8a6b3dd182b30dd0ce47bc5c19c",
+              "kind": "sh_node"
+            },
+            "sh/H3/stage1_session": {
+              "path": "/mnt/linux_share/code/FORMA/example/basic/output/20261019T110542Z-e9a5abd8/QSO_4/SH/H3/pre_analysis/branches/main/a17b8ffe679648b098725b050663ea61/stage1_session.md",
+              "sha256": "35a8442173ec04e4c87babb31dfb1bd57ead8a8f899ff297e2aa8a78bdd16c36",
+              "kind": "sh_session"
+            },
+            "sh/H4/catalog": {
+              "path": "/mnt/linux_share/code/FORMA/example/basic/output/20261019T110542Z-e9a5abd8/QSO_4/VI/measurements/hypothesis_003_measurement_catalog.json",
+              "sha256": "658436aa67b00500096757b92088133cfd7ded1722d14df1ce7bbd6e8cb3710a",
+              "kind": "vi_catalog"
+            },
+            "sh/H4/csv": {
+              "path": "/mnt/linux_share/code/FORMA/example/basic/output/20261019T110542Z-e9a5abd8/QSO_4/SH/H4/pre_analysis/branches/main/e3df65bb01e943f9871ebe0e4d525d99/lines.csv",
+              "sha256": "31b3cdd8cb183ee3ace4bf5f50c83e2db3e21293114b56cbf7b057ecddc6f943",
+              "kind": "sh_csv"
+            },
+            "sh/H4/fit_attempts": {
+              "path": "/mnt/linux_share/code/FORMA/example/basic/output/20261019T110542Z-e9a5abd8/QSO_4/VI/measurements/hypothesis_003_fit_attempts.json",
+              "sha256": "c661edabd3fcee4d400bf7e1a09c2b33fb4e895ebd99101eee09e0e57949a5a3",
+              "kind": "vi_fit_attempts"
+            },
+            "sh/H4/judgments": {
+              "path": "/mnt/linux_share/code/FORMA/example/basic/output/20261019T110542Z-e9a5abd8/QSO_4/SH/H4/pre_analysis/branches/main/e3df65bb01e943f9871ebe0e4d525d99/lines_judgments.json",
+              "sha256": "b96700ba82a052b72f54cded36fbacb579d9729e6c0f5d43fb6056efa387590d",
+              "kind": "sh_judgments"
+            },
+            "sh/H4/node": {
+              "path": "/mnt/linux_share/code/FORMA/example/basic/output/20261019T110542Z-e9a5abd8/QSO_4/SH/H4/pre_analysis/branches/main/e3df65bb01e943f9871ebe0e4d525d99/node.json",
+              "sha256": "ec86fd89eae82637d8dfa24f161930665f808e2c817580622dd288dc351e1472",
+              "kind": "sh_node"
+            },
+            "sh/H4/stage1_session": {
+              "path": "/mnt/linux_share/code/FORMA/example/basic/output/20261019T110542Z-e9a5abd8/QSO_4/SH/H4/pre_analysis/branches/main/e3df65bb01e943f9871ebe0e4d525d99/stage1_session.md",
+              "sha256": "6076018412693abe1ec2f1cbedcf2a1c6d3a4292ae7f8004ff5bcf9974dfb8d5",
+              "kind": "sh_session"
+            },
+            "sh/H5/catalog": {
+              "path": "/mnt/linux_share/code/FORMA/example/basic/output/20261019T110542Z-e9a5abd8/QSO_4/VI/measurements/hypothesis_004_measurement_catalog.json",
+              "sha256": "5e38942d8d0e74b009bbdbe28bcdf0734c8925ce4a974bdc5149c5ceb02dda1e",
+              "kind": "vi_catalog"
+            },
+            "sh/H5/csv": {
+              "path": "/mnt/linux_share/code/FORMA/example/basic/output/20261019T110542Z-e9a5abd8/QSO_4/SH/H5/pre_analysis/branches/main/2b1deea90fe642bc808eae1624cf912f/lines.csv",
+              "sha256": "bf1618fb3699483d9f112c87c3824d3eb255d0bca529ac0b812aed4cd0dd4d99",
+              "kind": "sh_csv"
+            },
+            "sh/H5/fit_attempts": {
+              "path": "/mnt/linux_share/code/FORMA/example/basic/output/20261019T110542Z-e9a5abd8/QSO_4/VI/measurements/hypothesis_004_fit_attempts.json",
+              "sha256": "bc0b6413a3390de4102908b1596ce94849b7ae05a242bfeb0d117798a636594c",
+              "kind": "vi_fit_attempts"
+            },
+            "sh/H5/judgments": {
+              "path": "/mnt/linux_share/code/FORMA/example/basic/output/20261019T110542Z-e9a5abd8/QSO_4/SH/H5/pre_analysis/branches/main/2b1deea90fe642bc808eae1624cf912f/lines_judgments.json",
+              "sha256": "d69488c85a0ae38224703fae66253ed43a46e63a7889de5ddea35c936b270d90",
+              "kind": "sh_judgments"
+            },
+            "sh/H5/node": {
+              "path": "/mnt/linux_share/code/FORMA/example/basic/output/20261019T110542Z-e9a5abd8/QSO_4/SH/H5/pre_analysis/branches/main/2b1deea90fe642bc808eae1624cf912f/node.json",
+              "sha256": "61b6524e48711f5b7d31dc47170f5f410fbd02fd3be883d06ad75ba74a3c088a",
+              "kind": "sh_node"
+            },
+            "sh/H5/stage1_session": {
+              "path": "/mnt/linux_share/code/FORMA/example/basic/output/20261019T110542Z-e9a5abd8/QSO_4/SH/H5/pre_analysis/branches/main/2b1deea90fe642bc808eae1624cf912f/stage1_session.md",
+              "sha256": "914e8eb65ed7eee0980a65b258f8682c51f7943a43e28769bb5e033532492ca0",
+              "kind": "sh_session"
+            },
+            "sh/H6/catalog": {
+              "path": "/mnt/linux_share/code/FORMA/example/basic/output/20261019T110542Z-e9a5abd8/QSO_4/VI/measurements/hypothesis_005_measurement_catalog.json",
+              "sha256": "aa36872d2c1d0a6ccec38c3545949b5110755cdf16a6b82c7c0aa822f715bf39",
+              "kind": "vi_catalog"
+            },
+            "sh/H6/csv": {
+              "path": "/mnt/linux_share/code/FORMA/example/basic/output/20261019T110542Z-e9a5abd8/QSO_4/SH/H6/pre_analysis/branches/main/3477d7d134a449bab694da82c3be7888/lines.csv",
+              "sha256": "8d6390a23f137b6f34ed8be03be3a2780bdda7c0a7b2015269e7d1a4ee7513c6",
+              "kind": "sh_csv"
+            },
+            "sh/H6/fit_attempts": {
+              "path": "/mnt/linux_share/code/FORMA/example/basic/output/20261019T110542Z-e9a5abd8/QSO_4/VI/measurements/hypothesis_005_fit_attempts.json",
+              "sha256": "75571fcfd523d26c7814fd59f2f062083815f61e07d04b545c7d425c341964d5",
+              "kind": "vi_fit_attempts"
+            },
+            "sh/H6/judgments": {
+              "path": "/mnt/linux_share/code/FORMA/example/basic/output/20261019T110542Z-e9a5abd8/QSO_4/SH/H6/pre_analysis/branches/main/3477d7d134a449bab694da82c3be7888/lines_judgments.json",
+              "sha256": "a3983758d3eead35e8b29efe9a2f529b88a9cba89d18cb9b08f277a2cf893997",
+              "kind": "sh_judgments"
+            },
+            "sh/H6/node": {
+              "path": "/mnt/linux_share/code/FORMA/example/basic/output/20261019T110542Z-e9a5abd8/QSO_4/SH/H6/pre_analysis/branches/main/3477d7d134a449bab694da82c3be7888/node.json",
+              "sha256": "c77b2d7caaf03ff1d3c2afd368f464c91484d952ac5e3ca269c81c527701315f",
+              "kind": "sh_node"
+            },
+            "sh/H6/stage1_session": {
+              "path": "/mnt/linux_share/code/FORMA/example/basic/output/20261019T110542Z-e9a5abd8/QSO_4/SH/H6/pre_analysis/branches/main/3477d7d134a449bab694da82c3be7888/stage1_session.md",
+              "sha256": "3cc18efffe015c72ddddca1b90c4fff968881dd87a9d36b9e6cee0085c78e066",
+              "kind": "sh_session"
+            },
+            "spectrum_npz": {
+              "path": "/mnt/linux_share/code/FORMA/example/basic/output/20261019T110542Z-e9a5abd8/QSO_4/spectrum.npz",
+              "sha256": "8e4d4d0fd1f95a8036df7a95c4b9f1848d95060ef440e9231db2d156c1e354ce",
+              "kind": "spectrum_input"
+            },
+            "vi_cwt_features": {
+              "path": "/mnt/linux_share/code/FORMA/example/basic/output/20261019T110542Z-e9a5abd8/QSO_4/VI/measurements/cwt_features.json",
+              "sha256": "a7f28af9ac8e7aca13586d9d8f61cc31e56e578369ef28bf00d6cbb70c6b9621",
+              "kind": "vi_cwt_features"
+            },
+            "vi_manifest": {
+              "path": "/mnt/linux_share/code/FORMA/example/basic/output/20261019T110542Z-e9a5abd8/QSO_4/VI/measurements/manifest.json",
+              "sha256": "4091d6459688f466e53a140dda49c48a2fe8d5552c9d4833ab4f227f450336d6",
+              "kind": "vi_manifest"
+            }
+          }
+        },
+        "active_pre_analysis": [],
+        "analysis_results": []
+      },
+      "state": {
+        "registry": {
+          "schema_version": "forma-agentic-feature-registry-v1",
+          "run_id": "graph-853b617a68f04c36bd82f06bdb770ac4",
+          "spectrum_npz_sha256": "8e4d4d0fd1f95a8036df7a95c4b9f1848d95060ef440e9231db2d156c1e354ce",
+          "hypotheses": {
+            "H1": {
+              "classification": null,
+              "pre_analysis_status": "complete",
+              "redshift": 0.23787248591105023,
+              "node_artifact": "sh/H1/node"
+            },
+            "H2": {
+              "classification": null,
+              "pre_analysis_status": "complete",
+              "redshift": 0.6713696831689161,
+              "node_artifact": "sh/H2/node"
+            },
+            "H4": {
+              "classification": null,
+              "pre_analysis_status": "complete",
+              "redshift": -0.0018443601090383488,
+              "node_artifact": "sh/H4/node"
+            },
+            "H6": {
+              "classification": null,
+              "pre_analysis_status": "complete",
+              "redshift": 1.902738756933621,
+              "node_artifact": "sh/H6/node"
+            },
+            "H3": {
+              "classification": null,
+              "pre_analysis_status": "complete",
+              "redshift": 0.23805248503053472,
+              "node_artifact": "sh/H3/node"
+            },
+            "H5": {
+              "classification": null,
+              "pre_analysis_status": "complete",
+              "redshift": -0.0016077994367870048,
+              "node_artifact": "sh/H5/node"
+            }
+          },
+          "features": {
+            "cwt:abs:0006": {
+              "feature_id": "cwt:abs:0006",
+              "scope": "run",
+              "hypothesis_ref": null,
+              "source": "CWT",
+              "kind": "absorption",
+              "center_angstrom": 4868.000000000288,
+              "references": [
+                {
+                  "hypothesis_ref": "H1",
+                  "line_id": "line:cak-3934-abs",
+                  "sh_status": "MARGINAL"
+                },
+                {
+                  "hypothesis_ref": "H3",
+                  "line_id": "line:cak-3934-abs",
+                  "sh_status": "MARGINAL"
+                }
+              ],
+              "skyline_risk": {
+                "status": "no_registered_risk",
+                "nearest_line": {
+                  "id": "desi-sky:0001",
+                  "wavelength_angstrom": 5199.27,
+                  "offset_angstrom": 331.2699999997121
+                },
+                "within_proximity_threshold": false,
+                "oh_band_ids": [],
+                "threshold_angstrom": 10.0,
+                "threshold_source": "registry",
+                "threshold_source_path": null,
+                "threshold_payload_sha256": "b06941d9d371bd8792640873665004016437f947477142bdeae1f9622298d97e",
+                "catalog_sha256": "de68ccc73fea5c40387b3fa7c819e5e95b8409c8e637f8d61cb976e03c566910",
+                "catalog_source": "desispec 0.70.0 get_sky_lines()"
+              },
+              "votes": [],
+              "required_votes": 3,
+              "observed_signal_state": "pending",
+              "vote_summary": null,
+              "review_blocker": null
+            },
+            "cwt:abs:0007": {
+              "feature_id": "cwt:abs:0007",
+              "scope": "run",
+              "hypothesis_ref": null,
+              "source": "CWT",
+              "kind": "absorption",
+              "center_angstrom": 5075.200000000335,
+              "references": [
+                {
+                  "hypothesis_ref": "H1",
+                  "line_id": "line:hdel-4102-abs",
+                  "sh_status": "MARGINAL"
+                },
+                {
+                  "hypothesis_ref": "H3",
+                  "line_id": "line:hdel-4102-abs",
+                  "sh_status": "MARGINAL"
+                }
+              ],
+              "skyline_risk": {
+                "status": "no_registered_risk",
+                "nearest_line": {
+                  "id": "desi-sky:0001",
+                  "wavelength_angstrom": 5199.27,
+                  "offset_angstrom": 124.06999999966501
+                },
+                "within_proximity_threshold": false,
+                "oh_band_ids": [],
+                "threshold_angstrom": 10.0,
+                "threshold_source": "registry",
+                "threshold_source_path": null,
+                "threshold_payload_sha256": "b06941d9d371bd8792640873665004016437f947477142bdeae1f9622298d97e",
+                "catalog_sha256": "de68ccc73fea5c40387b3fa7c819e5e95b8409c8e637f8d61cb976e03c566910",
+                "catalog_source": "desispec 0.70.0 get_sky_lines()"
+              },
+              "votes": [],
+              "required_votes": 3,
+              "observed_signal_state": "pending",
+              "vote_summary": null,
+              "review_blocker": null
+            },
+            "cwt:abs:0008": {
+              "feature_id": "cwt:abs:0008",
+              "scope": "run",
+              "hypothesis_ref": null,
+              "source": "CWT",
+              "kind": "absorption",
+              "center_angstrom": 5333.600000000394,
+              "references": [
+                {
+                  "hypothesis_ref": "H1",
+                  "line_id": "line:gband-4305-abs",
+                  "sh_status": "MARGINAL"
+                },
+                {
+                  "hypothesis_ref": "H3",
+                  "line_id": "line:gband-4305-abs",
+                  "sh_status": "MARGINAL"
+                }
+              ],
+              "skyline_risk": {
+                "status": "no_registered_risk",
+                "nearest_line": {
+                  "id": "desi-sky:0002",
+                  "wavelength_angstrom": 5462.38,
+                  "offset_angstrom": 128.77999999960593
+                },
+                "within_proximity_threshold": false,
+                "oh_band_ids": [],
+                "threshold_angstrom": 10.0,
+                "threshold_source": "registry",
+                "threshold_source_path": null,
+                "threshold_payload_sha256": "b06941d9d371bd8792640873665004016437f947477142bdeae1f9622298d97e",
+                "catalog_sha256": "de68ccc73fea5c40387b3fa7c819e5e95b8409c8e637f8d61cb976e03c566910",
+                "catalog_source": "desispec 0.70.0 get_sky_lines()"
+              },
+              "votes": [],
+              "required_votes": 3,
+              "observed_signal_state": "pending",
+              "vote_summary": null,
+              "review_blocker": null
+            },
+            "cwt:abs:0010": {
+              "feature_id": "cwt:abs:0010",
+              "scope": "run",
+              "hypothesis_ref": null,
+              "source": "CWT",
+              "kind": "absorption",
+              "center_angstrom": 6010.400000000057,
+              "references": [
+                {
+                  "hypothesis_ref": "H1",
+                  "line_id": "line:hbet-4862-abs",
+                  "sh_status": "MARGINAL"
+                },
+                {
+                  "hypothesis_ref": "H3",
+                  "line_id": "line:hbet-4862-abs",
+                  "sh_status": "MARGINAL"
+                }
+              ],
+              "skyline_risk": {
+                "status": "no_registered_risk",
+                "nearest_line": {
+                  "id": "desi-sky:0009",
+                  "wavelength_angstrom": 5978.8,
+                  "offset_angstrom": 31.600000000056752
+                },
+                "within_proximity_threshold": false,
+                "oh_band_ids": [],
+                "threshold_angstrom": 10.0,
+                "threshold_source": "registry",
+                "threshold_source_path": null,
+                "threshold_payload_sha256": "b06941d9d371bd8792640873665004016437f947477142bdeae1f9622298d97e",
+                "catalog_sha256": "de68ccc73fea5c40387b3fa7c819e5e95b8409c8e637f8d61cb976e03c566910",
+                "catalog_source": "desispec 0.70.0 get_sky_lines()"
+              },
+              "votes": [],
+              "required_votes": 3,
+              "observed_signal_state": "pending",
+              "vote_summary": null,
+              "review_blocker": null
+            },
+            "cwt:abs:0021": {
+              "feature_id": "cwt:abs:0021",
+              "scope": "run",
+              "hypothesis_ref": null,
+              "source": "CWT",
+              "kind": "absorption",
+              "center_angstrom": 8120.000000000136,
+              "references": [
+                {
+                  "hypothesis_ref": "H1",
+                  "line_id": "line:half-6564-abs",
+                  "sh_status": "MARGINAL"
+                },
+                {
+                  "hypothesis_ref": "H3",
+                  "line_id": "line:half-6564-abs",
+                  "sh_status": "MARGINAL"
+                },
+                {
+                  "hypothesis_ref": "H6",
+                  "line_id": "line:mgii-2800-abs",
+                  "sh_status": "MARGINAL"
+                }
+              ],
+              "skyline_risk": {
+                "status": "oh_band_only",
+                "nearest_line": {
+                  "id": "desi-sky:0131",
+                  "wavelength_angstrom": 8104.77,
+                  "offset_angstrom": 15.230000000135988
+                },
+                "within_proximity_threshold": false,
+                "oh_band_ids": [
+                  "skyline:oh-band-7800"
+                ],
+                "threshold_angstrom": 10.0,
+                "threshold_source": "registry",
+                "threshold_source_path": null,
+                "threshold_payload_sha256": "b06941d9d371bd8792640873665004016437f947477142bdeae1f9622298d97e",
+                "catalog_sha256": "de68ccc73fea5c40387b3fa7c819e5e95b8409c8e637f8d61cb976e03c566910",
+                "catalog_source": "desispec 0.70.0 get_sky_lines()"
+              },
+              "votes": [],
+              "required_votes": 3,
+              "observed_signal_state": "pending",
+              "vote_summary": null,
+              "review_blocker": null
+            },
+            "cwt:em:0001": {
+              "feature_id": "cwt:em:0001",
+              "scope": "run",
+              "hypothesis_ref": null,
+              "source": "CWT",
+              "kind": "emission",
+              "center_angstrom": 4242.400000000146,
+              "references": [
+                {
+                  "hypothesis_ref": "H1",
+                  "line_id": "line:nev-3426",
+                  "sh_status": "LIKELY"
+                },
+                {
+                  "hypothesis_ref": "H3",
+                  "line_id": "line:nev-3426",
+                  "sh_status": "LIKELY"
+                }
+              ],
+              "skyline_risk": {
+                "status": "no_registered_risk",
+                "nearest_line": {
+                  "id": "desi-sky:0000",
+                  "wavelength_angstrom": 4359.55,
+                  "offset_angstrom": 117.14999999985412
+                },
+                "within_proximity_threshold": false,
+                "oh_band_ids": [],
+                "threshold_angstrom": 10.0,
+                "threshold_source": "registry",
+                "threshold_source_path": null,
+                "threshold_payload_sha256": "b06941d9d371bd8792640873665004016437f947477142bdeae1f9622298d97e",
+                "catalog_sha256": "de68ccc73fea5c40387b3fa7c819e5e95b8409c8e637f8d61cb976e03c566910",
+                "catalog_source": "desispec 0.70.0 get_sky_lines()"
+              },
+              "votes": [],
+              "required_votes": 3,
+              "observed_signal_state": "pending",
+              "vote_summary": null,
+              "review_blocker": null
+            },
+            "cwt:em:0002": {
+              "feature_id": "cwt:em:0002",
+              "scope": "run",
+              "hypothesis_ref": null,
+              "source": "CWT",
+              "kind": "emission",
+              "center_angstrom": 4616.800000000231,
+              "references": [
+                {
+                  "hypothesis_ref": "H1",
+                  "line_id": "line:oii-3727",
+                  "sh_status": "LIKELY"
+                },
+                {
+                  "hypothesis_ref": "H3",
+                  "line_id": "line:oii-3727",
+                  "sh_status": "LIKELY"
+                }
+              ],
+              "skyline_risk": {
+                "status": "no_registered_risk",
+                "nearest_line": {
+                  "id": "desi-sky:0000",
+                  "wavelength_angstrom": 4359.55,
+                  "offset_angstrom": 257.250000000231
+                },
+                "within_proximity_threshold": false,
+                "oh_band_ids": [],
+                "threshold_angstrom": 10.0,
+                "threshold_source": "registry",
+                "threshold_source_path": null,
+                "threshold_payload_sha256": "b06941d9d371bd8792640873665004016437f947477142bdeae1f9622298d97e",
+                "catalog_sha256": "de68ccc73fea5c40387b3fa7c819e5e95b8409c8e637f8d61cb976e03c566910",
+                "catalog_source": "desispec 0.70.0 get_sky_lines()"
+              },
+              "votes": [],
+              "required_votes": 3,
+              "observed_signal_state": "pending",
+              "vote_summary": null,
+              "review_blocker": null
+            },
+            "cwt:em:0004": {
+              "feature_id": "cwt:em:0004",
+              "scope": "run",
+              "hypothesis_ref": null,
+              "source": "CWT",
+              "kind": "emission",
+              "center_angstrom": 4912.8000000002985,
+              "references": [
+                {
+                  "hypothesis_ref": "H1",
+                  "line_id": "line:heps-3970",
+                  "sh_status": "MARGINAL"
+                },
+                {
+                  "hypothesis_ref": "H3",
+                  "line_id": "line:heps-3970",
+                  "sh_status": "MARGINAL"
+                }
+              ],
+              "skyline_risk": {
+                "status": "no_registered_risk",
+                "nearest_line": {
+                  "id": "desi-sky:0001",
+                  "wavelength_angstrom": 5199.27,
+                  "offset_angstrom": 286.46999999970194
+                },
+                "within_proximity_threshold": false,
+                "oh_band_ids": [],
+                "threshold_angstrom": 10.0,
+                "threshold_source": "registry",
+                "threshold_source_path": null,
+                "threshold_payload_sha256": "b06941d9d371bd8792640873665004016437f947477142bdeae1f9622298d97e",
+                "catalog_sha256": "de68ccc73fea5c40387b3fa7c819e5e95b8409c8e637f8d61cb976e03c566910",
+                "catalog_source": "desispec 0.70.0 get_sky_lines()"
+              },
+              "votes": [],
+              "required_votes": 3,
+              "observed_signal_state": "pending",
+              "vote_summary": null,
+              "review_blocker": null
+            },
+            "cwt:em:0005": {
+              "feature_id": "cwt:em:0005",
+              "scope": "run",
+              "hypothesis_ref": null,
+              "source": "CWT",
+              "kind": "emission",
+              "center_angstrom": 5079.200000000336,
+              "references": [
+                {
+                  "hypothesis_ref": "H1",
+                  "line_id": "line:hdel-4102",
+                  "sh_status": "LIKELY"
+                },
+                {
+                  "hypothesis_ref": "H3",
+                  "line_id": "line:hdel-4102",
+                  "sh_status": "LIKELY"
+                }
+              ],
+              "skyline_risk": {
+                "status": "no_registered_risk",
+                "nearest_line": {
+                  "id": "desi-sky:0001",
+                  "wavelength_angstrom": 5199.27,
+                  "offset_angstrom": 120.0699999996641
+                },
+                "within_proximity_threshold": false,
+                "oh_band_ids": [],
+                "threshold_angstrom": 10.0,
+                "threshold_source": "registry",
+                "threshold_source_path": null,
+                "threshold_payload_sha256": "b06941d9d371bd8792640873665004016437f947477142bdeae1f9622298d97e",
+                "catalog_sha256": "de68ccc73fea5c40387b3fa7c819e5e95b8409c8e637f8d61cb976e03c566910",
+                "catalog_source": "desispec 0.70.0 get_sky_lines()"
+              },
+              "votes": [],
+              "required_votes": 3,
+              "observed_signal_state": "pending",
+              "vote_summary": null,
+              "review_blocker": null
+            },
+            "cwt:em:0006": {
+              "feature_id": "cwt:em:0006",
+              "scope": "run",
+              "hypothesis_ref": null,
+              "source": "CWT",
+              "kind": "emission",
+              "center_angstrom": 5387.200000000406,
+              "references": [
+                {
+                  "hypothesis_ref": "H1",
+                  "line_id": "line:hgam-4341",
+                  "sh_status": "MARGINAL"
+                },
+                {
+                  "hypothesis_ref": "H3",
+                  "line_id": "line:hgam-4341",
+                  "sh_status": "MARGINAL"
+                }
+              ],
+              "skyline_risk": {
+                "status": "no_registered_risk",
+                "nearest_line": {
+                  "id": "desi-sky:0002",
+                  "wavelength_angstrom": 5462.38,
+                  "offset_angstrom": 75.17999999959375
+                },
+                "within_proximity_threshold": false,
+                "oh_band_ids": [],
+                "threshold_angstrom": 10.0,
+                "threshold_source": "registry",
+                "threshold_source_path": null,
+                "threshold_payload_sha256": "b06941d9d371bd8792640873665004016437f947477142bdeae1f9622298d97e",
+                "catalog_sha256": "de68ccc73fea5c40387b3fa7c819e5e95b8409c8e637f8d61cb976e03c566910",
+                "catalog_source": "desispec 0.70.0 get_sky_lines()"
+              },
+              "votes": [],
+              "required_votes": 3,
+              "observed_signal_state": "pending",
+              "vote_summary": null,
+              "review_blocker": null
+            },
+            "cwt:em:0008": {
+              "feature_id": "cwt:em:0008",
+              "scope": "run",
+              "hypothesis_ref": null,
+              "source": "CWT",
+              "kind": "emission",
+              "center_angstrom": 6020.000000000059,
+              "references": [
+                {
+                  "hypothesis_ref": "H1",
+                  "line_id": "line:hbet-4862",
+                  "sh_status": "LIKELY"
+                },
+                {
+                  "hypothesis_ref": "H3",
+                  "line_id": "line:hbet-4862",
+                  "sh_status": "LIKELY"
+                }
+              ],
+              "skyline_risk": {
+                "status": "no_registered_risk",
+                "nearest_line": {
+                  "id": "desi-sky:0009",
+                  "wavelength_angstrom": 5978.8,
+                  "offset_angstrom": 41.200000000058935
+                },
+                "within_proximity_threshold": false,
+                "oh_band_ids": [],
+                "threshold_angstrom": 10.0,
+                "threshold_source": "registry",
+                "threshold_source_path": null,
+                "threshold_payload_sha256": "b06941d9d371bd8792640873665004016437f947477142bdeae1f9622298d97e",
+                "catalog_sha256": "de68ccc73fea5c40387b3fa7c819e5e95b8409c8e637f8d61cb976e03c566910",
+                "catalog_source": "desispec 0.70.0 get_sky_lines()"
+              },
+              "votes": [],
+              "required_votes": 3,
+              "observed_signal_state": "pending",
+              "vote_summary": null,
+              "review_blocker": null
+            },
+            "cwt:em:0009": {
+              "feature_id": "cwt:em:0009",
+              "scope": "run",
+              "hypothesis_ref": null,
+              "source": "CWT",
+              "kind": "emission",
+              "center_angstrom": 6140.800000000087,
+              "references": [
+                {
+                  "hypothesis_ref": "H1",
+                  "line_id": "line:oiii-4960",
+                  "sh_status": "LIKELY"
+                },
+                {
+                  "hypothesis_ref": "H3",
+                  "line_id": "line:oiii-4960",
+                  "sh_status": "LIKELY"
+                }
+              ],
+              "skyline_risk": {
+                "status": "no_registered_risk",
+                "nearest_line": {
+                  "id": "desi-sky:0010",
+                  "wavelength_angstrom": 6172.39,
+                  "offset_angstrom": 31.589999999913744
+                },
+                "within_proximity_threshold": false,
+                "oh_band_ids": [],
+                "threshold_angstrom": 10.0,
+                "threshold_source": "registry",
+                "threshold_source_path": null,
+                "threshold_payload_sha256": "b06941d9d371bd8792640873665004016437f947477142bdeae1f9622298d97e",
+                "catalog_sha256": "de68ccc73fea5c40387b3fa7c819e5e95b8409c8e637f8d61cb976e03c566910",
+                "catalog_source": "desispec 0.70.0 get_sky_lines()"
+              },
+              "votes": [],
+              "required_votes": 3,
+              "observed_signal_state": "pending",
+              "vote_summary": null,
+              "review_blocker": null
+            },
+            "cwt:em:0010": {
+              "feature_id": "cwt:em:0010",
+              "scope": "run",
+              "hypothesis_ref": null,
+              "source": "CWT",
+              "kind": "emission",
+              "center_angstrom": 6200.0000000001,
+              "references": [
+                {
+                  "hypothesis_ref": "H1",
+                  "line_id": "line:oiii-5008",
+                  "sh_status": "LIKELY"
+                },
+                {
+                  "hypothesis_ref": "H3",
+                  "line_id": "line:oiii-5008",
+                  "sh_status": "LIKELY"
+                }
+              ],
+              "skyline_risk": {
+                "status": "near_discrete_skyline",
+                "nearest_line": {
+                  "id": "desi-sky:0011",
+                  "wavelength_angstrom": 6204.48,
+                  "offset_angstrom": 4.479999999899519
+                },
+                "within_proximity_threshold": true,
+                "oh_band_ids": [],
+                "threshold_angstrom": 10.0,
+                "threshold_source": "registry",
+                "threshold_source_path": null,
+                "threshold_payload_sha256": "b06941d9d371bd8792640873665004016437f947477142bdeae1f9622298d97e",
+                "catalog_sha256": "de68ccc73fea5c40387b3fa7c819e5e95b8409c8e637f8d61cb976e03c566910",
+                "catalog_source": "desispec 0.70.0 get_sky_lines()"
+              },
+              "votes": [],
+              "required_votes": 3,
+              "observed_signal_state": "pending",
+              "vote_summary": null,
+              "review_blocker": null
+            },
+            "cwt:em:0012": {
+              "feature_id": "cwt:em:0012",
+              "scope": "run",
+              "hypothesis_ref": null,
+              "source": "CWT",
+              "kind": "emission",
+              "center_angstrom": 8127.200000000138,
+              "references": [
+                {
+                  "hypothesis_ref": "H1",
+                  "line_id": "line:half-6564",
+                  "sh_status": "LIKELY"
+                },
+                {
+                  "hypothesis_ref": "H2",
+                  "line_id": "line:hbet-4862",
+                  "sh_status": "LIKELY"
+                },
+                {
+                  "hypothesis_ref": "H3",
+                  "line_id": "line:half-6564",
+                  "sh_status": "LIKELY"
+                },
+                {
+                  "hypothesis_ref": "H3",
+                  "line_id": "line:nii-6549",
+                  "sh_status": "MARGINAL"
+                },
+                {
+                  "hypothesis_ref": "H3",
+                  "line_id": "line:nii-6585",
+                  "sh_status": "MARGINAL"
+                },
+                {
+                  "hypothesis_ref": "H6",
+                  "line_id": "line:mgii-2800",
+                  "sh_status": "LIKELY"
+                }
+              ],
+              "skyline_risk": {
+                "status": "oh_band_only",
+                "nearest_line": {
+                  "id": "desi-sky:0132",
+                  "wavelength_angstrom": 8141.35,
+                  "offset_angstrom": 14.149999999862303
+                },
+                "within_proximity_threshold": false,
+                "oh_band_ids": [
+                  "skyline:oh-band-7800"
+                ],
+                "threshold_angstrom": 10.0,
+                "threshold_source": "registry",
+                "threshold_source_path": null,
+                "threshold_payload_sha256": "b06941d9d371bd8792640873665004016437f947477142bdeae1f9622298d97e",
+                "catalog_sha256": "de68ccc73fea5c40387b3fa7c819e5e95b8409c8e637f8d61cb976e03c566910",
+                "catalog_source": "desispec 0.70.0 get_sky_lines()"
+              },
+              "votes": [],
+              "required_votes": 3,
+              "observed_signal_state": "pending",
+              "vote_summary": null,
+              "review_blocker": null
+            },
+            "cwt:em:0013": {
+              "feature_id": "cwt:em:0013",
+              "scope": "run",
+              "hypothesis_ref": null,
+              "source": "CWT",
+              "kind": "emission",
+              "center_angstrom": 8318.400000000182,
+              "references": [
+                {
+                  "hypothesis_ref": "H1",
+                  "line_id": "line:sii-6718",
+                  "sh_status": "LIKELY"
+                },
+                {
+                  "hypothesis_ref": "H3",
+                  "line_id": "line:sii-6718",
+                  "sh_status": "LIKELY"
+                }
+              ],
+              "skyline_risk": {
+                "status": "near_discrete_skyline",
+                "nearest_line": {
+                  "id": "desi-sky:0143",
+                  "wavelength_angstrom": 8320.68,
+                  "offset_angstrom": 2.279999999818756
+                },
+                "within_proximity_threshold": true,
+                "oh_band_ids": [
+                  "skyline:oh-band-7800"
+                ],
+                "threshold_angstrom": 10.0,
+                "threshold_source": "registry",
+                "threshold_source_path": null,
+                "threshold_payload_sha256": "b06941d9d371bd8792640873665004016437f947477142bdeae1f9622298d97e",
+                "catalog_sha256": "de68ccc73fea5c40387b3fa7c819e5e95b8409c8e637f8d61cb976e03c566910",
+                "catalog_source": "desispec 0.70.0 get_sky_lines()"
+              },
+              "votes": [],
+              "required_votes": 3,
+              "observed_signal_state": "pending",
+              "vote_summary": null,
+              "review_blocker": null
+            },
+            "cwt:em:0014": {
+              "feature_id": "cwt:em:0014",
+              "scope": "run",
+              "hypothesis_ref": null,
+              "source": "CWT",
+              "kind": "emission",
+              "center_angstrom": 8336.000000000186,
+              "references": [
+                {
+                  "hypothesis_ref": "H1",
+                  "line_id": "line:sii-6732",
+                  "sh_status": "LIKELY"
+                },
+                {
+                  "hypothesis_ref": "H3",
+                  "line_id": "line:sii-6732",
+                  "sh_status": "LIKELY"
+                }
+              ],
+              "skyline_risk": {
+                "status": "oh_band_only",
+                "nearest_line": {
+                  "id": "desi-sky:0144",
+                  "wavelength_angstrom": 8346.77,
+                  "offset_angstrom": 10.7699999998149
+                },
+                "within_proximity_threshold": false,
+                "oh_band_ids": [
+                  "skyline:oh-band-7800"
+                ],
+                "threshold_angstrom": 10.0,
+                "threshold_source": "registry",
+                "threshold_source_path": null,
+                "threshold_payload_sha256": "b06941d9d371bd8792640873665004016437f947477142bdeae1f9622298d97e",
+                "catalog_sha256": "de68ccc73fea5c40387b3fa7c819e5e95b8409c8e637f8d61cb976e03c566910",
+                "catalog_source": "desispec 0.70.0 get_sky_lines()"
+              },
+              "votes": [],
+              "required_votes": 3,
+              "observed_signal_state": "pending",
+              "vote_summary": null,
+              "review_blocker": null
+            },
+            "fit:H1:0002": {
+              "feature_id": "fit:H1:0002",
+              "scope": "hypothesis",
+              "hypothesis_ref": "H1",
+              "source": "fit_doublet",
+              "kind": "absorption",
+              "center_angstrom": 7298.536,
+              "references": [
+                {
+                  "hypothesis_ref": "H1",
+                  "line_id": "line:nad1-5891-abs",
+                  "sh_status": "MARGINAL"
+                }
+              ],
+              "skyline_risk": {
+                "status": "near_discrete_skyline",
+                "nearest_line": {
+                  "id": "desi-sky:0059",
+                  "wavelength_angstrom": 7298.03,
+                  "offset_angstrom": 0.5060000000003129
+                },
+                "within_proximity_threshold": true,
+                "oh_band_ids": [
+                  "skyline:oh-band-7000"
+                ],
+                "threshold_angstrom": 10.0,
+                "threshold_source": "registry",
+                "threshold_source_path": null,
+                "threshold_payload_sha256": "b06941d9d371bd8792640873665004016437f947477142bdeae1f9622298d97e",
+                "catalog_sha256": "de68ccc73fea5c40387b3fa7c819e5e95b8409c8e637f8d61cb976e03c566910",
+                "catalog_source": "desispec 0.70.0 get_sky_lines()"
+              },
+              "votes": [],
+              "required_votes": 3,
+              "observed_signal_state": "pending",
+              "vote_summary": null,
+              "review_blocker": null
+            },
+            "fit:H1:0003": {
+              "feature_id": "fit:H1:0003",
+              "scope": "hypothesis",
+              "hypothesis_ref": "H1",
+              "source": "fit_doublet",
+              "kind": "absorption",
+              "center_angstrom": 7306.344,
+              "references": [
+                {
+                  "hypothesis_ref": "H1",
+                  "line_id": "line:nad2-5897-abs",
+                  "sh_status": "MARGINAL"
+                }
+              ],
+              "skyline_risk": {
+                "status": "near_discrete_skyline",
+                "nearest_line": {
+                  "id": "desi-sky:0060",
+                  "wavelength_angstrom": 7305.76,
+                  "offset_angstrom": 0.5839999999998327
+                },
+                "within_proximity_threshold": true,
+                "oh_band_ids": [
+                  "skyline:oh-band-7000"
+                ],
+                "threshold_angstrom": 10.0,
+                "threshold_source": "registry",
+                "threshold_source_path": null,
+                "threshold_payload_sha256": "b06941d9d371bd8792640873665004016437f947477142bdeae1f9622298d97e",
+                "catalog_sha256": "de68ccc73fea5c40387b3fa7c819e5e95b8409c8e637f8d61cb976e03c566910",
+                "catalog_source": "desispec 0.70.0 get_sky_lines()"
+              },
+              "votes": [],
+              "required_votes": 3,
+              "observed_signal_state": "pending",
+              "vote_summary": null,
+              "review_blocker": null
+            },
+            "fit:H2:0006": {
+              "feature_id": "fit:H2:0006",
+              "scope": "hypothesis",
+              "hypothesis_ref": "H2",
+              "source": "fit_peak",
+              "kind": "emission",
+              "center_angstrom": 7276.105,
+              "references": [
+                {
+                  "hypothesis_ref": "H2",
+                  "line_id": "line:hgam-4341",
+                  "sh_status": "MARGINAL"
+                }
+              ],
+              "skyline_risk": {
+                "status": "near_discrete_skyline",
+                "nearest_line": {
+                  "id": "desi-sky:0057",
+                  "wavelength_angstrom": 7278.23,
+                  "offset_angstrom": 2.125
+                },
+                "within_proximity_threshold": true,
+                "oh_band_ids": [
+                  "skyline:oh-band-7000"
+                ],
+                "threshold_angstrom": 10.0,
+                "threshold_source": "registry",
+                "threshold_source_path": null,
+                "threshold_payload_sha256": "b06941d9d371bd8792640873665004016437f947477142bdeae1f9622298d97e",
+                "catalog_sha256": "de68ccc73fea5c40387b3fa7c819e5e95b8409c8e637f8d61cb976e03c566910",
+                "catalog_source": "desispec 0.70.0 get_sky_lines()"
+              },
+              "votes": [],
+              "required_votes": 3,
+              "observed_signal_state": "pending",
+              "vote_summary": null,
+              "review_blocker": null
+            },
+            "fit:H3:0002": {
+              "feature_id": "fit:H3:0002",
+              "scope": "hypothesis",
+              "hypothesis_ref": "H3",
+              "source": "fit_doublet",
+              "kind": "absorption",
+              "center_angstrom": 7326.206,
+              "references": [
+                {
+                  "hypothesis_ref": "H3",
+                  "line_id": "line:nad1-5891-abs",
+                  "sh_status": "MARGINAL"
+                }
+              ],
+              "skyline_risk": {
+                "status": "near_discrete_skyline",
+                "nearest_line": {
+                  "id": "desi-sky:0062",
+                  "wavelength_angstrom": 7331.26,
+                  "offset_angstrom": 5.054000000000087
+                },
+                "within_proximity_threshold": true,
+                "oh_band_ids": [
+                  "skyline:oh-band-7000"
+                ],
+                "threshold_angstrom": 10.0,
+                "threshold_source": "registry",
+                "threshold_source_path": null,
+                "threshold_payload_sha256": "b06941d9d371bd8792640873665004016437f947477142bdeae1f9622298d97e",
+                "catalog_sha256": "de68ccc73fea5c40387b3fa7c819e5e95b8409c8e637f8d61cb976e03c566910",
+                "catalog_source": "desispec 0.70.0 get_sky_lines()"
+              },
+              "votes": [],
+              "required_votes": 3,
+              "observed_signal_state": "pending",
+              "vote_summary": null,
+              "review_blocker": null
+            },
+            "fit:H3:0003": {
+              "feature_id": "fit:H3:0003",
+              "scope": "hypothesis",
+              "hypothesis_ref": "H3",
+              "source": "fit_doublet",
+              "kind": "absorption",
+              "center_angstrom": 7299.47,
+              "references": [
+                {
+                  "hypothesis_ref": "H3",
+                  "line_id": "line:nad2-5897-abs",
+                  "sh_status": "MARGINAL"
+                }
+              ],
+              "skyline_risk": {
+                "status": "near_discrete_skyline",
+                "nearest_line": {
+                  "id": "desi-sky:0059",
+                  "wavelength_angstrom": 7298.03,
+                  "offset_angstrom": 1.4400000000005093
+                },
+                "within_proximity_threshold": true,
+                "oh_band_ids": [
+                  "skyline:oh-band-7000"
+                ],
+                "threshold_angstrom": 10.0,
+                "threshold_source": "registry",
+                "threshold_source_path": null,
+                "threshold_payload_sha256": "b06941d9d371bd8792640873665004016437f947477142bdeae1f9622298d97e",
+                "catalog_sha256": "de68ccc73fea5c40387b3fa7c819e5e95b8409c8e637f8d61cb976e03c566910",
+                "catalog_source": "desispec 0.70.0 get_sky_lines()"
+              },
+              "votes": [],
+              "required_votes": 3,
+              "observed_signal_state": "pending",
+              "vote_summary": null,
+              "review_blocker": null
+            },
+            "fit:H4:0002": {
+              "feature_id": "fit:H4:0002",
+              "scope": "hypothesis",
+              "hypothesis_ref": "H4",
+              "source": "fit_doublet",
+              "kind": "emission",
+              "center_angstrom": 6713.925,
+              "references": [
+                {
+                  "hypothesis_ref": "H4",
+                  "line_id": "line:sii-6718",
+                  "sh_status": "MARGINAL"
+                }
+              ],
+              "skyline_risk": {
+                "status": "no_registered_risk",
+                "nearest_line": {
+                  "id": "desi-sky:0036",
+                  "wavelength_angstrom": 6606.02,
+                  "offset_angstrom": 107.90499999999975
+                },
+                "within_proximity_threshold": false,
+                "oh_band_ids": [],
+                "threshold_angstrom": 10.0,
+                "threshold_source": "registry",
+                "threshold_source_path": null,
+                "threshold_payload_sha256": "b06941d9d371bd8792640873665004016437f947477142bdeae1f9622298d97e",
+                "catalog_sha256": "de68ccc73fea5c40387b3fa7c819e5e95b8409c8e637f8d61cb976e03c566910",
+                "catalog_source": "desispec 0.70.0 get_sky_lines()"
+              },
+              "votes": [],
+              "required_votes": 3,
+              "observed_signal_state": "pending",
+              "vote_summary": null,
+              "review_blocker": null
+            },
+            "fit:H4:0004": {
+              "feature_id": "fit:H4:0004",
+              "scope": "hypothesis",
+              "hypothesis_ref": "H4",
+              "source": "fit_doublet",
+              "kind": "emission",
+              "center_angstrom": 6536.312,
+              "references": [
+                {
+                  "hypothesis_ref": "H4",
+                  "line_id": "line:nii-6549",
+                  "sh_status": "MARGINAL"
+                }
+              ],
+              "skyline_risk": {
+                "status": "near_discrete_skyline",
+                "nearest_line": {
+                  "id": "desi-sky:0030",
+                  "wavelength_angstrom": 6534.88,
+                  "offset_angstrom": 1.431999999999789
+                },
+                "within_proximity_threshold": true,
+                "oh_band_ids": [],
+                "threshold_angstrom": 10.0,
+                "threshold_source": "registry",
+                "threshold_source_path": null,
+                "threshold_payload_sha256": "b06941d9d371bd8792640873665004016437f947477142bdeae1f9622298d97e",
+                "catalog_sha256": "de68ccc73fea5c40387b3fa7c819e5e95b8409c8e637f8d61cb976e03c566910",
+                "catalog_source": "desispec 0.70.0 get_sky_lines()"
+              },
+              "votes": [],
+              "required_votes": 3,
+              "observed_signal_state": "pending",
+              "vote_summary": null,
+              "review_blocker": null
+            },
+            "fit:H4:0005": {
+              "feature_id": "fit:H4:0005",
+              "scope": "hypothesis",
+              "hypothesis_ref": "H4",
+              "source": "fit_doublet",
+              "kind": "emission",
+              "center_angstrom": 6565.897,
+              "references": [
+                {
+                  "hypothesis_ref": "H4",
+                  "line_id": "line:nii-6585",
+                  "sh_status": "MARGINAL"
+                }
+              ],
+              "skyline_risk": {
+                "status": "near_discrete_skyline",
+                "nearest_line": {
+                  "id": "desi-sky:0033",
+                  "wavelength_angstrom": 6564.59,
+                  "offset_angstrom": 1.306999999999789
+                },
+                "within_proximity_threshold": true,
+                "oh_band_ids": [],
+                "threshold_angstrom": 10.0,
+                "threshold_source": "registry",
+                "threshold_source_path": null,
+                "threshold_payload_sha256": "b06941d9d371bd8792640873665004016437f947477142bdeae1f9622298d97e",
+                "catalog_sha256": "de68ccc73fea5c40387b3fa7c819e5e95b8409c8e637f8d61cb976e03c566910",
+                "catalog_source": "desispec 0.70.0 get_sky_lines()"
+              },
+              "votes": [],
+              "required_votes": 3,
+              "observed_signal_state": "pending",
+              "vote_summary": null,
+              "review_blocker": null
+            },
+            "fit:H4:0009": {
+              "feature_id": "fit:H4:0009",
+              "scope": "hypothesis",
+              "hypothesis_ref": "H4",
+              "source": "fit_doublet",
+              "kind": "absorption",
+              "center_angstrom": 5890.505,
+              "references": [
+                {
+                  "hypothesis_ref": "H4",
+                  "line_id": "line:nad2-5897-abs",
+                  "sh_status": "MARGINAL"
+                }
+              ],
+              "skyline_risk": {
+                "status": "near_discrete_skyline",
+                "nearest_line": {
+                  "id": "desi-sky:0004",
+                  "wavelength_angstrom": 5891.47,
+                  "offset_angstrom": 0.9650000000001455
+                },
+                "within_proximity_threshold": true,
+                "oh_band_ids": [],
+                "threshold_angstrom": 10.0,
+                "threshold_source": "registry",
+                "threshold_source_path": null,
+                "threshold_payload_sha256": "b06941d9d371bd8792640873665004016437f947477142bdeae1f9622298d97e",
+                "catalog_sha256": "de68ccc73fea5c40387b3fa7c819e5e95b8409c8e637f8d61cb976e03c566910",
+                "catalog_source": "desispec 0.70.0 get_sky_lines()"
+              },
+              "votes": [],
+              "required_votes": 3,
+              "observed_signal_state": "pending",
+              "vote_summary": null,
+              "review_blocker": null
+            },
+            "fit:H4:0011": {
+              "feature_id": "fit:H4:0011",
+              "scope": "hypothesis",
+              "hypothesis_ref": "H4",
+              "source": "fit_peak",
+              "kind": "emission",
+              "center_angstrom": 3966.537,
+              "references": [
+                {
+                  "hypothesis_ref": "H4",
+                  "line_id": "line:heps-3970",
+                  "sh_status": "MARGINAL"
+                }
+              ],
+              "skyline_risk": {
+                "status": "no_registered_risk",
+                "nearest_line": {
+                  "id": "desi-sky:0000",
+                  "wavelength_angstrom": 4359.55,
+                  "offset_angstrom": 393.0130000000004
+                },
+                "within_proximity_threshold": false,
+                "oh_band_ids": [],
+                "threshold_angstrom": 10.0,
+                "threshold_source": "registry",
+                "threshold_source_path": null,
+                "threshold_payload_sha256": "b06941d9d371bd8792640873665004016437f947477142bdeae1f9622298d97e",
+                "catalog_sha256": "de68ccc73fea5c40387b3fa7c819e5e95b8409c8e637f8d61cb976e03c566910",
+                "catalog_source": "desispec 0.70.0 get_sky_lines()"
+              },
+              "votes": [],
+              "required_votes": 3,
+              "observed_signal_state": "pending",
+              "vote_summary": null,
+              "review_blocker": null
+            },
+            "fit:H4:0015": {
+              "feature_id": "fit:H4:0015",
+              "scope": "hypothesis",
+              "hypothesis_ref": "H4",
+              "source": "fit_peak",
+              "kind": "emission",
+              "center_angstrom": 6564.209,
+              "references": [
+                {
+                  "hypothesis_ref": "H4",
+                  "line_id": "line:half-6564",
+                  "sh_status": "MARGINAL"
+                }
+              ],
+              "skyline_risk": {
+                "status": "near_discrete_skyline",
+                "nearest_line": {
+                  "id": "desi-sky:0033",
+                  "wavelength_angstrom": 6564.59,
+                  "offset_angstrom": 0.38100000000031287
+                },
+                "within_proximity_threshold": true,
+                "oh_band_ids": [],
+                "threshold_angstrom": 10.0,
+                "threshold_source": "registry",
+                "threshold_source_path": null,
+                "threshold_payload_sha256": "b06941d9d371bd8792640873665004016437f947477142bdeae1f9622298d97e",
+                "catalog_sha256": "de68ccc73fea5c40387b3fa7c819e5e95b8409c8e637f8d61cb976e03c566910",
+                "catalog_source": "desispec 0.70.0 get_sky_lines()"
+              },
+              "votes": [],
+              "required_votes": 3,
+              "observed_signal_state": "pending",
+              "vote_summary": null,
+              "review_blocker": null
+            },
+            "fit:H4:0018": {
+              "feature_id": "fit:H4:0018",
+              "scope": "hypothesis",
+              "hypothesis_ref": "H4",
+              "source": "fit_peak",
+              "kind": "absorption",
+              "center_angstrom": 4335.706,
+              "references": [
+                {
+                  "hypothesis_ref": "H4",
+                  "line_id": "line:hgam-4341-abs",
+                  "sh_status": "MARGINAL"
+                }
+              ],
+              "skyline_risk": {
+                "status": "no_registered_risk",
+                "nearest_line": {
+                  "id": "desi-sky:0000",
+                  "wavelength_angstrom": 4359.55,
+                  "offset_angstrom": 23.84400000000005
+                },
+                "within_proximity_threshold": false,
+                "oh_band_ids": [],
+                "threshold_angstrom": 10.0,
+                "threshold_source": "registry",
+                "threshold_source_path": null,
+                "threshold_payload_sha256": "b06941d9d371bd8792640873665004016437f947477142bdeae1f9622298d97e",
+                "catalog_sha256": "de68ccc73fea5c40387b3fa7c819e5e95b8409c8e637f8d61cb976e03c566910",
+                "catalog_source": "desispec 0.70.0 get_sky_lines()"
+              },
+              "votes": [],
+              "required_votes": 3,
+              "observed_signal_state": "pending",
+              "vote_summary": null,
+              "review_blocker": null
+            },
+            "fit:H4:0019": {
+              "feature_id": "fit:H4:0019",
+              "scope": "hypothesis",
+              "hypothesis_ref": "H4",
+              "source": "fit_peak",
+              "kind": "absorption",
+              "center_angstrom": 5163.934,
+              "references": [
+                {
+                  "hypothesis_ref": "H4",
+                  "line_id": "line:mgi-5176-abs",
+                  "sh_status": "MARGINAL"
+                }
+              ],
+              "skyline_risk": {
+                "status": "no_registered_risk",
+                "nearest_line": {
+                  "id": "desi-sky:0001",
+                  "wavelength_angstrom": 5199.27,
+                  "offset_angstrom": 35.33600000000024
+                },
+                "within_proximity_threshold": false,
+                "oh_band_ids": [],
+                "threshold_angstrom": 10.0,
+                "threshold_source": "registry",
+                "threshold_source_path": null,
+                "threshold_payload_sha256": "b06941d9d371bd8792640873665004016437f947477142bdeae1f9622298d97e",
+                "catalog_sha256": "de68ccc73fea5c40387b3fa7c819e5e95b8409c8e637f8d61cb976e03c566910",
+                "catalog_source": "desispec 0.70.0 get_sky_lines()"
+              },
+              "votes": [],
+              "required_votes": 3,
+              "observed_signal_state": "pending",
+              "vote_summary": null,
+              "review_blocker": null
+            },
+            "fit:H5:0011": {
+              "feature_id": "fit:H5:0011",
+              "scope": "hypothesis",
+              "hypothesis_ref": "H5",
+              "source": "fit_peak",
+              "kind": "emission",
+              "center_angstrom": 3966.532,
+              "references": [
+                {
+                  "hypothesis_ref": "H5",
+                  "line_id": "line:heps-3970",
+                  "sh_status": "MARGINAL"
+                }
+              ],
+              "skyline_risk": {
+                "status": "no_registered_risk",
+                "nearest_line": {
+                  "id": "desi-sky:0000",
+                  "wavelength_angstrom": 4359.55,
+                  "offset_angstrom": 393.01800000000003
+                },
+                "within_proximity_threshold": false,
+                "oh_band_ids": [],
+                "threshold_angstrom": 10.0,
+                "threshold_source": "registry",
+                "threshold_source_path": null,
+                "threshold_payload_sha256": "b06941d9d371bd8792640873665004016437f947477142bdeae1f9622298d97e",
+                "catalog_sha256": "de68ccc73fea5c40387b3fa7c819e5e95b8409c8e637f8d61cb976e03c566910",
+                "catalog_source": "desispec 0.70.0 get_sky_lines()"
+              },
+              "votes": [],
+              "required_votes": 3,
+              "observed_signal_state": "pending",
+              "vote_summary": null,
+              "review_blocker": null
+            },
+            "fit:H5:0015": {
+              "feature_id": "fit:H5:0015",
+              "scope": "hypothesis",
+              "hypothesis_ref": "H5",
+              "source": "fit_peak",
+              "kind": "emission",
+              "center_angstrom": 6564.217,
+              "references": [
+                {
+                  "hypothesis_ref": "H5",
+                  "line_id": "line:half-6564",
+                  "sh_status": "MARGINAL"
+                }
+              ],
+              "skyline_risk": {
+                "status": "near_discrete_skyline",
+                "nearest_line": {
+                  "id": "desi-sky:0033",
+                  "wavelength_angstrom": 6564.59,
+                  "offset_angstrom": 0.37300000000050204
+                },
+                "within_proximity_threshold": true,
+                "oh_band_ids": [],
+                "threshold_angstrom": 10.0,
+                "threshold_source": "registry",
+                "threshold_source_path": null,
+                "threshold_payload_sha256": "b06941d9d371bd8792640873665004016437f947477142bdeae1f9622298d97e",
+                "catalog_sha256": "de68ccc73fea5c40387b3fa7c819e5e95b8409c8e637f8d61cb976e03c566910",
+                "catalog_source": "desispec 0.70.0 get_sky_lines()"
+              },
+              "votes": [],
+              "required_votes": 3,
+              "observed_signal_state": "pending",
+              "vote_summary": null,
+              "review_blocker": null
+            },
+            "fit:H5:0018": {
+              "feature_id": "fit:H5:0018",
+              "scope": "hypothesis",
+              "hypothesis_ref": "H5",
+              "source": "fit_peak",
+              "kind": "absorption",
+              "center_angstrom": 4335.711,
+              "references": [
+                {
+                  "hypothesis_ref": "H5",
+                  "line_id": "line:hgam-4341-abs",
+                  "sh_status": "MARGINAL"
+                }
+              ],
+              "skyline_risk": {
+                "status": "no_registered_risk",
+                "nearest_line": {
+                  "id": "desi-sky:0000",
+                  "wavelength_angstrom": 4359.55,
+                  "offset_angstrom": 23.838999999999942
+                },
+                "within_proximity_threshold": false,
+                "oh_band_ids": [],
+                "threshold_angstrom": 10.0,
+                "threshold_source": "registry",
+                "threshold_source_path": null,
+                "threshold_payload_sha256": "b06941d9d371bd8792640873665004016437f947477142bdeae1f9622298d97e",
+                "catalog_sha256": "de68ccc73fea5c40387b3fa7c819e5e95b8409c8e637f8d61cb976e03c566910",
+                "catalog_source": "desispec 0.70.0 get_sky_lines()"
+              },
+              "votes": [],
+              "required_votes": 3,
+              "observed_signal_state": "pending",
+              "vote_summary": null,
+              "review_blocker": null
+            },
+            "fit:H5:0019": {
+              "feature_id": "fit:H5:0019",
+              "scope": "hypothesis",
+              "hypothesis_ref": "H5",
+              "source": "fit_peak",
+              "kind": "absorption",
+              "center_angstrom": 5167.161,
+              "references": [
+                {
+                  "hypothesis_ref": "H5",
+                  "line_id": "line:mgi-5176-abs",
+                  "sh_status": "MARGINAL"
+                }
+              ],
+              "skyline_risk": {
+                "status": "no_registered_risk",
+                "nearest_line": {
+                  "id": "desi-sky:0001",
+                  "wavelength_angstrom": 5199.27,
+                  "offset_angstrom": 32.10900000000038
+                },
+                "within_proximity_threshold": false,
+                "oh_band_ids": [],
+                "threshold_angstrom": 10.0,
+                "threshold_source": "registry",
+                "threshold_source_path": null,
+                "threshold_payload_sha256": "b06941d9d371bd8792640873665004016437f947477142bdeae1f9622298d97e",
+                "catalog_sha256": "de68ccc73fea5c40387b3fa7c819e5e95b8409c8e637f8d61cb976e03c566910",
+                "catalog_source": "desispec 0.70.0 get_sky_lines()"
+              },
+              "votes": [],
+              "required_votes": 3,
+              "observed_signal_state": "pending",
+              "vote_summary": null,
+              "review_blocker": null
+            },
+            "fit:H5:0023": {
+              "feature_id": "fit:H5:0023",
+              "scope": "hypothesis",
+              "hypothesis_ref": "H5",
+              "source": "fit_peak",
+              "kind": "absorption",
+              "center_angstrom": 8659.516,
+              "references": [
+                {
+                  "hypothesis_ref": "H5",
+                  "line_id": "line:cat3-8662-abs",
+                  "sh_status": "MARGINAL"
+                }
+              ],
+              "skyline_risk": {
+                "status": "near_discrete_skyline",
+                "nearest_line": {
+                  "id": "desi-sky:0175",
+                  "wavelength_angstrom": 8657.7,
+                  "offset_angstrom": 1.815999999998894
+                },
+                "within_proximity_threshold": true,
+                "oh_band_ids": [
+                  "skyline:oh-band-7800"
+                ],
+                "threshold_angstrom": 10.0,
+                "threshold_source": "registry",
+                "threshold_source_path": null,
+                "threshold_payload_sha256": "b06941d9d371bd8792640873665004016437f947477142bdeae1f9622298d97e",
+                "catalog_sha256": "de68ccc73fea5c40387b3fa7c819e5e95b8409c8e637f8d61cb976e03c566910",
+                "catalog_source": "desispec 0.70.0 get_sky_lines()"
+              },
+              "votes": [],
+              "required_votes": 3,
+              "observed_signal_state": "pending",
+              "vote_summary": null,
+              "review_blocker": null
+            }
+          },
+          "artifacts": {
+            "sh/H1/catalog": {
+              "path": "/mnt/linux_share/code/FORMA/example/basic/output/20261019T110542Z-e9a5abd8/QSO_4/VI/measurements/hypothesis_000_measurement_catalog.json",
+              "sha256": "95c13ee95b422950e1fbcd50752719d5fa60c4670b909db9a96e1704b8e8a4fd",
+              "kind": "vi_catalog"
+            },
+            "sh/H1/csv": {
+              "path": "/mnt/linux_share/code/FORMA/example/basic/output/20261019T110542Z-e9a5abd8/QSO_4/SH/H1/pre_analysis/branches/main/94b9060e5061491faf6d294e090d69d8/lines.csv",
+              "sha256": "f4b5b8c1d50f583ac167bfe6f47f6d2cf80021655614b25fa30e931c6b68e328",
+              "kind": "sh_csv"
+            },
+            "sh/H1/fit_attempts": {
+              "path": "/mnt/linux_share/code/FORMA/example/basic/output/20261019T110542Z-e9a5abd8/QSO_4/VI/measurements/hypothesis_000_fit_attempts.json",
+              "sha256": "d584730702e743841edf9c67ddfd9f2dca8be66fa2e2b40953f84a6a770b2606",
+              "kind": "vi_fit_attempts"
+            },
+            "sh/H1/judgments": {
+              "path": "/mnt/linux_share/code/FORMA/example/basic/output/20261019T110542Z-e9a5abd8/QSO_4/SH/H1/pre_analysis/branches/main/94b9060e5061491faf6d294e090d69d8/lines_judgments.json",
+              "sha256": "3193e70ef8f60c430d44665abb13830559c39f0e6f354164735955569ce1da03",
+              "kind": "sh_judgments"
+            },
+            "sh/H1/node": {
+              "path": "/mnt/linux_share/code/FORMA/example/basic/output/20261019T110542Z-e9a5abd8/QSO_4/SH/H1/pre_analysis/branches/main/94b9060e5061491faf6d294e090d69d8/node.json",
+              "sha256": "281e10ac9cf0da090e43b6d8dcebd20a0b4326c3378004bd15b5a1002f0d925e",
+              "kind": "sh_node"
+            },
+            "sh/H1/stage1_session": {
+              "path": "/mnt/linux_share/code/FORMA/example/basic/output/20261019T110542Z-e9a5abd8/QSO_4/SH/H1/pre_analysis/branches/main/94b9060e5061491faf6d294e090d69d8/stage1_session.md",
+              "sha256": "d3a41857ec0f6d5cd9b5496e307b283a50535c724920ec59fb1a3acd1c915190",
+              "kind": "sh_session"
+            },
+            "sh/H2/catalog": {
+              "path": "/mnt/linux_share/code/FORMA/example/basic/output/20261019T110542Z-e9a5abd8/QSO_4/VI/measurements/hypothesis_001_measurement_catalog.json",
+              "sha256": "11681d85dba9d30a6f46bcea610677cf2af493f7dd5c4ff0eec1ae0cefb783db",
+              "kind": "vi_catalog"
+            },
+            "sh/H2/csv": {
+              "path": "/mnt/linux_share/code/FORMA/example/basic/output/20261019T110542Z-e9a5abd8/QSO_4/SH/H2/pre_analysis/branches/main/6a3c37c19110494595eddd41e08b7b49/lines.csv",
+              "sha256": "21c75e48a3640859e0ed285be786348ac9ec8969f47a0da454d77dcc8ea64c94",
+              "kind": "sh_csv"
+            },
+            "sh/H2/fit_attempts": {
+              "path": "/mnt/linux_share/code/FORMA/example/basic/output/20261019T110542Z-e9a5abd8/QSO_4/VI/measurements/hypothesis_001_fit_attempts.json",
+              "sha256": "246bb6e4c6f92b0e5a7a0b4ab4c163ce7ebca47720f69d25885ec0c2de7238f2",
+              "kind": "vi_fit_attempts"
+            },
+            "sh/H2/judgments": {
+              "path": "/mnt/linux_share/code/FORMA/example/basic/output/20261019T110542Z-e9a5abd8/QSO_4/SH/H2/pre_analysis/branches/main/6a3c37c19110494595eddd41e08b7b49/lines_judgments.json",
+              "sha256": "db190fab38bd614e13800883ed4d326fb6a016ddd54e8429cfbfbed87921b17a",
+              "kind": "sh_judgments"
+            },
+            "sh/H2/node": {
+              "path": "/mnt/linux_share/code/FORMA/example/basic/output/20261019T110542Z-e9a5abd8/QSO_4/SH/H2/pre_analysis/branches/main/6a3c37c19110494595eddd41e08b7b49/node.json",
+              "sha256": "daf9a12527cbc591980767da83d3955b5fc4d6a9c2fd4ab4defc2d2c4250e94b",
+              "kind": "sh_node"
+            },
+            "sh/H2/stage1_session": {
+              "path": "/mnt/linux_share/code/FORMA/example/basic/output/20261019T110542Z-e9a5abd8/QSO_4/SH/H2/pre_analysis/branches/main/6a3c37c19110494595eddd41e08b7b49/stage1_session.md",
+              "sha256": "683b84b438aaef3c9fc7a6e71905f3ce9bd9238388e9a55247fb4caae0ddab10",
+              "kind": "sh_session"
+            },
+            "sh/H3/catalog": {
+              "path": "/mnt/linux_share/code/FORMA/example/basic/output/20261019T110542Z-e9a5abd8/QSO_4/VI/measurements/hypothesis_002_measurement_catalog.json",
+              "sha256": "2521ddf95723741dcb53fb93d1a5bbddc4abecab07cf7363257650b479d90b6f",
+              "kind": "vi_catalog"
+            },
+            "sh/H3/csv": {
+              "path": "/mnt/linux_share/code/FORMA/example/basic/output/20261019T110542Z-e9a5abd8/QSO_4/SH/H3/pre_analysis/branches/main/a17b8ffe679648b098725b050663ea61/lines.csv",
+              "sha256": "7ea6bb1a987965bf5b1dc9efe3dc66d3fedef6a7732957224c17d9705c2e134c",
+              "kind": "sh_csv"
+            },
+            "sh/H3/fit_attempts": {
+              "path": "/mnt/linux_share/code/FORMA/example/basic/output/20261019T110542Z-e9a5abd8/QSO_4/VI/measurements/hypothesis_002_fit_attempts.json",
+              "sha256": "42847b9f97c369434374a77328ddda2d8af47b9103e3ba9825f97953559a3e8b",
+              "kind": "vi_fit_attempts"
+            },
+            "sh/H3/judgments": {
+              "path": "/mnt/linux_share/code/FORMA/example/basic/output/20261019T110542Z-e9a5abd8/QSO_4/SH/H3/pre_analysis/branches/main/a17b8ffe679648b098725b050663ea61/lines_judgments.json",
+              "sha256": "ca93b3309e928fb79c44c621583aea4f19ac79461496e5757c66fc0a9133ace8",
+              "kind": "sh_judgments"
+            },
+            "sh/H3/node": {
+              "path": "/mnt/linux_share/code/FORMA/example/basic/output/20261019T110542Z-e9a5abd8/QSO_4/SH/H3/pre_analysis/branches/main/a17b8ffe679648b098725b050663ea61/node.json",
+              "sha256": "56f98a31d54669715e2c8b421ca7395721d7f8a6b3dd182b30dd0ce47bc5c19c",
+              "kind": "sh_node"
+            },
+            "sh/H3/stage1_session": {
+              "path": "/mnt/linux_share/code/FORMA/example/basic/output/20261019T110542Z-e9a5abd8/QSO_4/SH/H3/pre_analysis/branches/main/a17b8ffe679648b098725b050663ea61/stage1_session.md",
+              "sha256": "35a8442173ec04e4c87babb31dfb1bd57ead8a8f899ff297e2aa8a78bdd16c36",
+              "kind": "sh_session"
+            },
+            "sh/H4/catalog": {
+              "path": "/mnt/linux_share/code/FORMA/example/basic/output/20261019T110542Z-e9a5abd8/QSO_4/VI/measurements/hypothesis_003_measurement_catalog.json",
+              "sha256": "658436aa67b00500096757b92088133cfd7ded1722d14df1ce7bbd6e8cb3710a",
+              "kind": "vi_catalog"
+            },
+            "sh/H4/csv": {
+              "path": "/mnt/linux_share/code/FORMA/example/basic/output/20261019T110542Z-e9a5abd8/QSO_4/SH/H4/pre_analysis/branches/main/e3df65bb01e943f9871ebe0e4d525d99/lines.csv",
+              "sha256": "31b3cdd8cb183ee3ace4bf5f50c83e2db3e21293114b56cbf7b057ecddc6f943",
+              "kind": "sh_csv"
+            },
+            "sh/H4/fit_attempts": {
+              "path": "/mnt/linux_share/code/FORMA/example/basic/output/20261019T110542Z-e9a5abd8/QSO_4/VI/measurements/hypothesis_003_fit_attempts.json",
+              "sha256": "c661edabd3fcee4d400bf7e1a09c2b33fb4e895ebd99101eee09e0e57949a5a3",
+              "kind": "vi_fit_attempts"
+            },
+            "sh/H4/judgments": {
+              "path": "/mnt/linux_share/code/FORMA/example/basic/output/20261019T110542Z-e9a5abd8/QSO_4/SH/H4/pre_analysis/branches/main/e3df65bb01e943f9871ebe0e4d525d99/lines_judgments.json",
+              "sha256": "b96700ba82a052b72f54cded36fbacb579d9729e6c0f5d43fb6056efa387590d",
+              "kind": "sh_judgments"
+            },
+            "sh/H4/node": {
+              "path": "/mnt/linux_share/code/FORMA/example/basic/output/20261019T110542Z-e9a5abd8/QSO_4/SH/H4/pre_analysis/branches/main/e3df65bb01e943f9871ebe0e4d525d99/node.json",
+              "sha256": "ec86fd89eae82637d8dfa24f161930665f808e2c817580622dd288dc351e1472",
+              "kind": "sh_node"
+            },
+            "sh/H4/stage1_session": {
+              "path": "/mnt/linux_share/code/FORMA/example/basic/output/20261019T110542Z-e9a5abd8/QSO_4/SH/H4/pre_analysis/branches/main/e3df65bb01e943f9871ebe0e4d525d99/stage1_session.md",
+              "sha256": "6076018412693abe1ec2f1cbedcf2a1c6d3a4292ae7f8004ff5bcf9974dfb8d5",
+              "kind": "sh_session"
+            },
+            "sh/H5/catalog": {
+              "path": "/mnt/linux_share/code/FORMA/example/basic/output/20261019T110542Z-e9a5abd8/QSO_4/VI/measurements/hypothesis_004_measurement_catalog.json",
+              "sha256": "5e38942d8d0e74b009bbdbe28bcdf0734c8925ce4a974bdc5149c5ceb02dda1e",
+              "kind": "vi_catalog"
+            },
+            "sh/H5/csv": {
+              "path": "/mnt/linux_share/code/FORMA/example/basic/output/20261019T110542Z-e9a5abd8/QSO_4/SH/H5/pre_analysis/branches/main/2b1deea90fe642bc808eae1624cf912f/lines.csv",
+              "sha256": "bf1618fb3699483d9f112c87c3824d3eb255d0bca529ac0b812aed4cd0dd4d99",
+              "kind": "sh_csv"
+            },
+            "sh/H5/fit_attempts": {
+              "path": "/mnt/linux_share/code/FORMA/example/basic/output/20261019T110542Z-e9a5abd8/QSO_4/VI/measurements/hypothesis_004_fit_attempts.json",
+              "sha256": "bc0b6413a3390de4102908b1596ce94849b7ae05a242bfeb0d117798a636594c",
+              "kind": "vi_fit_attempts"
+            },
+            "sh/H5/judgments": {
+              "path": "/mnt/linux_share/code/FORMA/example/basic/output/20261019T110542Z-e9a5abd8/QSO_4/SH/H5/pre_analysis/branches/main/2b1deea90fe642bc808eae1624cf912f/lines_judgments.json",
+              "sha256": "d69488c85a0ae38224703fae66253ed43a46e63a7889de5ddea35c936b270d90",
+              "kind": "sh_judgments"
+            },
+            "sh/H5/node": {
+              "path": "/mnt/linux_share/code/FORMA/example/basic/output/20261019T110542Z-e9a5abd8/QSO_4/SH/H5/pre_analysis/branches/main/2b1deea90fe642bc808eae1624cf912f/node.json",
+              "sha256": "61b6524e48711f5b7d31dc47170f5f410fbd02fd3be883d06ad75ba74a3c088a",
+              "kind": "sh_node"
+            },
+            "sh/H5/stage1_session": {
+              "path": "/mnt/linux_share/code/FORMA/example/basic/output/20261019T110542Z-e9a5abd8/QSO_4/SH/H5/pre_analysis/branches/main/2b1deea90fe642bc808eae1624cf912f/stage1_session.md",
+              "sha256": "914e8eb65ed7eee0980a65b258f8682c51f7943a43e28769bb5e033532492ca0",
+              "kind": "sh_session"
+            },
+            "sh/H6/catalog": {
+              "path": "/mnt/linux_share/code/FORMA/example/basic/output/20261019T110542Z-e9a5abd8/QSO_4/VI/measurements/hypothesis_005_measurement_catalog.json",
+              "sha256": "aa36872d2c1d0a6ccec38c3545949b5110755cdf16a6b82c7c0aa822f715bf39",
+              "kind": "vi_catalog"
+            },
+            "sh/H6/csv": {
+              "path": "/mnt/linux_share/code/FORMA/example/basic/output/20261019T110542Z-e9a5abd8/QSO_4/SH/H6/pre_analysis/branches/main/3477d7d134a449bab694da82c3be7888/lines.csv",
+              "sha256": "8d6390a23f137b6f34ed8be03be3a2780bdda7c0a7b2015269e7d1a4ee7513c6",
+              "kind": "sh_csv"
+            },
+            "sh/H6/fit_attempts": {
+              "path": "/mnt/linux_share/code/FORMA/example/basic/output/20261019T110542Z-e9a5abd8/QSO_4/VI/measurements/hypothesis_005_fit_attempts.json",
+              "sha256": "75571fcfd523d26c7814fd59f2f062083815f61e07d04b545c7d425c341964d5",
+              "kind": "vi_fit_attempts"
+            },
+            "sh/H6/judgments": {
+              "path": "/mnt/linux_share/code/FORMA/example/basic/output/20261019T110542Z-e9a5abd8/QSO_4/SH/H6/pre_analysis/branches/main/3477d7d134a449bab694da82c3be7888/lines_judgments.json",
+              "sha256": "a3983758d3eead35e8b29efe9a2f529b88a9cba89d18cb9b08f277a2cf893997",
+              "kind": "sh_judgments"
+            },
+            "sh/H6/node": {
+              "path": "/mnt/linux_share/code/FORMA/example/basic/output/20261019T110542Z-e9a5abd8/QSO_4/SH/H6/pre_analysis/branches/main/3477d7d134a449bab694da82c3be7888/node.json",
+              "sha256": "c77b2d7caaf03ff1d3c2afd368f464c91484d952ac5e3ca269c81c527701315f",
+              "kind": "sh_node"
+            },
+            "sh/H6/stage1_session": {
+              "path": "/mnt/linux_share/code/FORMA/example/basic/output/20261019T110542Z-e9a5abd8/QSO_4/SH/H6/pre_analysis/branches/main/3477d7d134a449bab694da82c3be7888/stage1_session.md",
+              "sha256": "3cc18efffe015c72ddddca1b90c4fff968881dd87a9d36b9e6cee0085c78e066",
+              "kind": "sh_session"
+            },
+            "spectrum_npz": {
+              "path": "/mnt/linux_share/code/FORMA/example/basic/output/20261019T110542Z-e9a5abd8/QSO_4/spectrum.npz",
+              "sha256": "8e4d4d0fd1f95a8036df7a95c4b9f1848d95060ef440e9231db2d156c1e354ce",
+              "kind": "spectrum_input"
+            },
+            "vi_cwt_features": {
+              "path": "/mnt/linux_share/code/FORMA/example/basic/output/20261019T110542Z-e9a5abd8/QSO_4/VI/measurements/cwt_features.json",
+              "sha256": "a7f28af9ac8e7aca13586d9d8f61cc31e56e578369ef28bf00d6cbb70c6b9621",
+              "kind": "vi_cwt_features"
+            },
+            "vi_manifest": {
+              "path": "/mnt/linux_share/code/FORMA/example/basic/output/20261019T110542Z-e9a5abd8/QSO_4/VI/measurements/manifest.json",
+              "sha256": "4091d6459688f466e53a140dda49c48a2fe8d5552c9d4833ab4f227f450336d6",
+              "kind": "vi_manifest"
+            }
+          }
+        },
+        "active_pre_analysis": [
+          "H1",
+          "H2",
+          "H4",
+          "H6",
+          "H3",
+          "H5"
+        ],
+        "analysis_results": []
+      },
+      "events": [
+        {
+          "event_id": "main:e0000",
+          "kind": "sh_pre_analysis_import",
+          "payload": {
+            "analysis_ref": "H1"
+          },
+          "artifact_refs": [
+            "sh/H1/node"
+          ],
+          "state_sha256_after": "96ad9b4af101c3baee6279b3f6f6d2487fc7ba5bb669697d78ec38cf4dccc3b7"
+        },
+        {
+          "event_id": "main:e0001",
+          "kind": "sh_pre_analysis_import",
+          "payload": {
+            "analysis_ref": "H2"
+          },
+          "artifact_refs": [
+            "sh/H2/node"
+          ],
+          "state_sha256_after": "02b4edfb723b169dd9d1f390679dad2d199a72f085f2525f490c8c48464f318f"
+        },
+        {
+          "event_id": "main:e0002",
+          "kind": "sh_pre_analysis_import",
+          "payload": {
+            "analysis_ref": "H4"
+          },
+          "artifact_refs": [
+            "sh/H4/node"
+          ],
+          "state_sha256_after": "09bf05834928afe0f925b08b8ea0c3f0c47959aed8571cce9154224cc075d24b"
+        },
+        {
+          "event_id": "main:e0003",
+          "kind": "sh_pre_analysis_import",
+          "payload": {
+            "analysis_ref": "H6"
+          },
+          "artifact_refs": [
+            "sh/H6/node"
+          ],
+          "state_sha256_after": "7657e7b02a7cf64e06797f63b72dded546b48a7923e795eca23b088dd72fc48e"
+        },
+        {
+          "event_id": "main:e0004",
+          "kind": "sh_pre_analysis_import",
+          "payload": {
+            "analysis_ref": "H3"
+          },
+          "artifact_refs": [
+            "sh/H3/node"
+          ],
+          "state_sha256_after": "11b5003a009134e3bfa1c102f788e8774a34b66ebdfcbcf2f298194c94e28733"
+        },
+        {
+          "event_id": "main:e0005",
+          "kind": "sh_pre_analysis_import",
+          "payload": {
+            "analysis_ref": "H5"
+          },
+          "artifact_refs": [
+            "sh/H5/node"
+          ],
+          "state_sha256_after": "48aa3193f14b73097ebcb2072b22b69678cc9278c819c2262f5c913c1be5b27a"
+        }
+      ]
+    }
+  },
+  "artifact_root": "/mnt/linux_share/code/FORMA/example/basic/output/20261019T110542Z-e9a5abd8/QSO_4"
+}

@@ -1,0 +1,13 @@
+{
+  "answer": "yes",
+  "reason": "Both windows show real absorption: Ca K dip at ~4561 Å (flux ~0.05–1.1 vs continuum ~2) and Ca H trough at ~4601–4602 Å (flux ~0.4–1.4 vs continuum ~2.5–3). Measured separation 40.59 Å matches expected 40.33 Å closely. The weaker partner is clearly visible; the mildly inverted K/H ratio is advisory only and does not undermine the pairing.",
+  "execution": {
+    "schema_version": "forma-agentic-node-execution-v1",
+    "run_id": "graph-df7434d5533647e999870708120307b0",
+    "branch_id": "main",
+    "node_key": "fa.real_doublet_or_not/graph-df7434d5533647e999870708120307b0/H6/doublet%3Acahk",
+    "node_execution_id": "3af277da99c946f88c6899aa6c71545e",
+    "attempt_id": "e5dff75c80cd41eba35a76e7ef1a021a",
+    "relative_dir": "FA/H6/real_doublet_or_not/doublet-cahk-adc0de4c56cfce1d/branches/main/3af277da99c946f88c6899aa6c71545e"
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "answer": "yes",
+  "reason": "Both windows show distinct absorption troughs: Ca K dips to ~1.0-1.3 near 5005-5008 and Ca H dips to ~1.2-1.7 near 5043-5052, separated by a real continuum rise. Measured separation 42.4 Å is close to the 44.3 Å expectation; modest blueward offsets stay within each trough. The ~0.98 amplitude ratio fails only the advisory K-deeper-than-H hint, which is not a veto given the broad shallow profiles.",
+  "execution": {
+    "schema_version": "forma-agentic-node-execution-v1",
+    "run_id": "graph-6f4e6510cc5d45df9da3b7be0c8597cc",
+    "branch_id": "main",
+    "node_key": "fa.real_doublet_or_not/graph-6f4e6510cc5d45df9da3b7be0c8597cc/H3/doublet%3Acahk",
+    "node_execution_id": "806834abc5b140e78ae6e3e50adcdf3d",
+    "attempt_id": "f9f0ba64545344b6a7f9d5ae84feb752",
+    "relative_dir": "FA/H3/real_doublet_or_not/doublet-cahk-adc0de4c56cfce1d/branches/main/806834abc5b140e78ae6e3e50adcdf3d"
+  }
+}

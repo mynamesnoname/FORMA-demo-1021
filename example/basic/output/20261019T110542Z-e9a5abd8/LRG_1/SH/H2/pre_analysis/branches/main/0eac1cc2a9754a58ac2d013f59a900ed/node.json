@@ -1,0 +1,26 @@
+{
+  "schema_version": "forma-sh-line-review-v1",
+  "key": "sh.pre_analysis/graph-6f4e6510cc5d45df9da3b7be0c8597cc/H2",
+  "hypothesis_ref": "H2",
+  "hypothesis_redshift": -0.0002616156273229071,
+  "status": "complete",
+  "csv_path": "/mnt/linux_share/code/FORMA/example/basic/output/20261019T110542Z-e9a5abd8/LRG_1/SH/H2/pre_analysis/branches/main/0eac1cc2a9754a58ac2d013f59a900ed/lines.csv",
+  "csv_sha256": "e0e307ef0fb85748a873460de564b3326fe6eba6cd8a90cb1c931475d8f67e24",
+  "measurement_catalog_path": "/mnt/linux_share/code/FORMA/example/basic/output/20261019T110542Z-e9a5abd8/LRG_1/VI/measurements/hypothesis_001_measurement_catalog.json",
+  "measurement_catalog_sha256": "9185a35329cc4899d80f5eee2443c25f94e0e938a70d9ec627f5bd4efe037109",
+  "judgment_path": "/mnt/linux_share/code/FORMA/example/basic/output/20261019T110542Z-e9a5abd8/LRG_1/SH/H2/pre_analysis/branches/main/0eac1cc2a9754a58ac2d013f59a900ed/lines_judgments.json",
+  "judgment_sha256": "a93587dee4021346db098eac70b3a9af39ce8b1a6de33f8787caa49526def554",
+  "session_stage1_path": "/mnt/linux_share/code/FORMA/example/basic/output/20261019T110542Z-e9a5abd8/LRG_1/SH/H2/pre_analysis/branches/main/0eac1cc2a9754a58ac2d013f59a900ed/stage1_session.md",
+  "session_stage1_sha256": "ba257385b7835b93e8b0e16bdcdfd73dfb40de711a17048c3e64e3956bac9fb5",
+  "adopted_lines_plot_path": "/mnt/linux_share/code/FORMA/example/basic/output/20261019T110542Z-e9a5abd8/LRG_1/SH/H2/pre_analysis/branches/main/0eac1cc2a9754a58ac2d013f59a900ed/adopted_lines.png",
+  "adopted_lines_plot_sha256": "a6560c74ca7ddc946985c0462ec13192677bed7a84363d140541106147239765",
+  "execution": {
+    "schema_version": "forma-agentic-node-execution-v1",
+    "run_id": "graph-6f4e6510cc5d45df9da3b7be0c8597cc",
+    "branch_id": "main",
+    "node_key": "sh.pre_analysis/graph-6f4e6510cc5d45df9da3b7be0c8597cc/H2",
+    "node_execution_id": "0eac1cc2a9754a58ac2d013f59a900ed",
+    "attempt_id": "3b703f54b9c44c15bb832c95a5891d07",
+    "relative_dir": "SH/H2/pre_analysis/branches/main/0eac1cc2a9754a58ac2d013f59a900ed"
+  }
+}

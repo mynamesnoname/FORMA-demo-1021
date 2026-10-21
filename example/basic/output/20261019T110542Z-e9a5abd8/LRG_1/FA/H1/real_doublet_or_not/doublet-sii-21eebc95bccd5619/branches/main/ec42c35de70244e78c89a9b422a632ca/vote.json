@@ -1,0 +1,13 @@
+{
+  "answer": "no",
+  "reason": "Neither predicted window shows a real line: at ~8408.4 Å (a) and ~8426.4 Å (b) the flux is flat continuum. Both claimed centers collapse to the same low-ivar noise spike at 8430.4 Å (measured separation 0.0 Å vs expected ~18 Å), and component a's center is ~22 Å off prediction. No credible two-component pair is present in the usable pixels.",
+  "execution": {
+    "schema_version": "forma-agentic-node-execution-v1",
+    "run_id": "graph-6f4e6510cc5d45df9da3b7be0c8597cc",
+    "branch_id": "main",
+    "node_key": "fa.real_doublet_or_not/graph-6f4e6510cc5d45df9da3b7be0c8597cc/H1/doublet%3Asii",
+    "node_execution_id": "ec42c35de70244e78c89a9b422a632ca",
+    "attempt_id": "b6840a5224ed4ce0b8916d9bb74d3f73",
+    "relative_dir": "FA/H1/real_doublet_or_not/doublet-sii-21eebc95bccd5619/branches/main/ec42c35de70244e78c89a9b422a632ca"
+  }
+}

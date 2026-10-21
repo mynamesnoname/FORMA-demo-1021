@@ -1,0 +1,32 @@
+{
+  "schema_version": "forma-lrg-bgs-node-v1",
+  "graph_version": "forma-lrg-bgs-type-graph-v2",
+  "run_id": "graph-df7434d5533647e999870708120307b0",
+  "branch_id": "main",
+  "hypothesis_ref": "H1",
+  "node_key": "sh2.lrg_bgs/H1/lrg_bgs.nev_guard",
+  "node_type": "lrg_bgs.nev_guard",
+  "status": "completed",
+  "input_refs": [
+    "sh2/bcab7466272c4a30920133f4f35a3ec7/node"
+  ],
+  "evidence_refs": [
+    "sh2/bcab7466272c4a30920133f4f35a3ec7/node"
+  ],
+  "output": {
+    "line": {
+      "line_id": "line:nev-3426",
+      "measurement_id": null,
+      "sh_status": "NOT_FOUND",
+      "fa_state": null,
+      "cleaned_pairing": "no_pairing",
+      "fa_vote_artifact_refs": []
+    },
+    "adopted": false,
+    "next_node": "lrg_bgs.qso_type1_guard"
+  },
+  "unresolved_reasons": [],
+  "created_by": "code",
+  "node_execution_id": "06a7ac3db0f444b4a7805f4137c24c37",
+  "attempt_id": "ee36d4f7a74f43369513e3fcc02f623e"
+}

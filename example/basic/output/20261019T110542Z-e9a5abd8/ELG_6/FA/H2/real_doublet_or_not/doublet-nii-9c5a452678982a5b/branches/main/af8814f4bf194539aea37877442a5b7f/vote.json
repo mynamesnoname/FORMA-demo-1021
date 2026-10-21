@@ -1,0 +1,13 @@
+{
+  "answer": "no",
+  "reason": "Component b at 7288.8 Å is a clear real peak (flux 1.35→2.28→2.35→1.45), but the orphan partner a at the predicted 7249.3 Å shows no coherent emission in its window—only low-level scatter. The nearest strong feature (~7265.5 Å, flux ~39) is displaced ~16 Å from prediction and is not the expected weak [N II]a partner. The two-component interpretation is not corroborated.",
+  "execution": {
+    "schema_version": "forma-agentic-node-execution-v1",
+    "run_id": "graph-fe0d30030bcc4939b88103e27753b2c1",
+    "branch_id": "main",
+    "node_key": "fa.real_doublet_or_not/graph-fe0d30030bcc4939b88103e27753b2c1/H2/doublet%3Anii",
+    "node_execution_id": "af8814f4bf194539aea37877442a5b7f",
+    "attempt_id": "fe1ec94d501b4f26bc0690908c6b1666",
+    "relative_dir": "FA/H2/real_doublet_or_not/doublet-nii-9c5a452678982a5b/branches/main/af8814f4bf194539aea37877442a5b7f"
+  }
+}

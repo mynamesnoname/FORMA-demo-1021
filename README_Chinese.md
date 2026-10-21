@@ -40,7 +40,7 @@ python demo.py --samples QSO_116     # 单条光谱
 python demo.py                       # 五条：BGS_2、ELG_6、LRG_1、QSO_4、QSO_116
 ```
 
-`--samples` 可选择上述任意子集；`--output-root DIR` 可指定输出父目录；`--sh-concurrency`、`--fa-concurrency`、`--fa-max-attempts` 控制执行量。完整运行会调用 Redrock 和配置的 LLM 服务，可能耗时并产生费用。预检只需要 FITS 读取依赖。每次完整运行都会新建带时间戳的目录，不会续跑或覆盖旧目录。
+`--samples` 可选择上述任意子集；`--output-root DIR` 可指定输出父目录；`--sh-concurrency`、`--fa-concurrency`、`--fa-max-attempts` 控制执行量。完整运行会调用 Redrock 和配置的 LLM 服务，可能耗时并产生费用：**五条示例完整跑一遍通常需要 30–50 分钟**，具体取决于机器和模型服务；只想确认环境是否正常时，先用 `--samples` 跑单条。预检只需要 FITS 读取依赖。每次完整运行都会新建带时间戳的目录，不会续跑或覆盖旧目录。
 
 ## 理解产物
 
@@ -75,6 +75,8 @@ python scripts/build_demo_node_gallery.py .data/output_/demo/<运行目录>
 ```
 
 画廊展示阶段路径、节点判断、票数及光谱定位，支持中英文切换。它由本次运行产物生成，`demo.py` 不会自动创建。运行结果与画廊均被 Git 忽略；新克隆的仓库需要先运行 demo 才有这些文件。
+
+如果只想先看看完整运行结果长什么样，可以直接打开仓库中预先跑好的五条示例画廊：`example/basic/output/20261019T110542Z-e9a5abd8/ui/index.html`。
 
 ## 配置与边界
 

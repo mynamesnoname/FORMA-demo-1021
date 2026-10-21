@@ -1,0 +1,32 @@
+{
+  "schema_version": "forma-elg-node-v1",
+  "graph_version": "forma-elg-type-graph-v1",
+  "run_id": "graph-fe0d30030bcc4939b88103e27753b2c1",
+  "branch_id": "main",
+  "hypothesis_ref": "H1",
+  "node_key": "sh2.elg/H1/elg.entry",
+  "node_type": "elg.entry",
+  "status": "completed",
+  "input_refs": [
+    "sh/H1/node",
+    "sh2/6ec5dea47e884da4893d4563d9357fe1/node",
+    "entry_route/27d8b14372084ee1980d8640ee44f3ac/node"
+  ],
+  "evidence_refs": [
+    "sh/H1/node",
+    "sh2/6ec5dea47e884da4893d4563d9357fe1/node",
+    "entry_route/27d8b14372084ee1980d8640ee44f3ac/node"
+  ],
+  "output": {
+    "preliminary_classification": "LRG/BGS",
+    "fixed_redshift": 0.1068183112742081,
+    "pre_analysis_ref": "sh/H1/node",
+    "entry_mode": "fallback",
+    "current_graph": "ELG",
+    "fallback_route_ref": "sh2/6ec5dea47e884da4893d4563d9357fe1/node"
+  },
+  "unresolved_reasons": [],
+  "created_by": "code",
+  "node_execution_id": "e80e36aa0d304ac9bb254d5046ea36a8",
+  "attempt_id": "b72d97d192334f9280a2f49b335354eb"
+}

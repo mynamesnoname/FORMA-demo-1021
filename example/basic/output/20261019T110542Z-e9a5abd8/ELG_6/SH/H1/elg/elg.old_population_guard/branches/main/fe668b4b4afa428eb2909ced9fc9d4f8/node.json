@@ -1,0 +1,89 @@
+{
+  "schema_version": "forma-elg-node-v1",
+  "graph_version": "forma-elg-type-graph-v1",
+  "run_id": "graph-fe0d30030bcc4939b88103e27753b2c1",
+  "branch_id": "main",
+  "hypothesis_ref": "H1",
+  "node_key": "sh2.elg/H1/elg.old_population_guard",
+  "node_type": "elg.old_population_guard",
+  "status": "completed",
+  "input_refs": [
+    "sh2/8114f6f899d84b6db552b925542a37b7/node",
+    "sh/H1/catalog",
+    "spectrum_npz"
+  ],
+  "evidence_refs": [
+    "sh2/8114f6f899d84b6db552b925542a37b7/node",
+    "sh/H1/catalog",
+    "spectrum_npz"
+  ],
+  "output": {
+    "ca_lines": [
+      {
+        "line_id": "line:cak-3934-abs",
+        "measurement_id": "fit:H1:0000",
+        "sh_status": "MARGINAL",
+        "fa_state": "signal_present",
+        "cleaned_pairing": "adopted",
+        "fa_vote_artifact_refs": [
+          "fa/7190757d20bb48fd86730d6053ad9f00/node",
+          "fa/407e12e07a1949cba2f031eb426177db/node",
+          "fa/39c4785a02a14d62a53ec2dd0fe5b8a3/node"
+        ]
+      },
+      {
+        "line_id": "line:cah-3969-abs",
+        "measurement_id": null,
+        "sh_status": "NOT_FOUND",
+        "fa_state": null,
+        "cleaned_pairing": "no_pairing",
+        "fa_vote_artifact_refs": []
+      }
+    ],
+    "adopted_ca_line_ids": [
+      "line:cak-3934-abs"
+    ],
+    "dn4000": {
+      "index_id": "index:dn4000",
+      "rule_id": "rule:formal-dn4000-interpretation",
+      "reference_bands": {
+        "strong": 1.6,
+        "moderate_low": 1.3,
+        "moderate_high": 1.6
+      },
+      "minimum_valid_samples_per_band": 3,
+      "windows": {
+        "blue": {
+          "window_angstrom": [
+            4261.250498405701,
+            4371.932329533121
+          ],
+          "fully_covered": true,
+          "sample_count": 138,
+          "usable_sample_count": 138,
+          "mean_flux": 1.0290884621765302
+        },
+        "red": {
+          "window_angstrom": [
+            4427.273245096832,
+            4537.955076224253
+          ],
+          "fully_covered": true,
+          "sample_count": 138,
+          "usable_sample_count": 138,
+          "mean_flux": 0.8936100503618735
+        }
+      },
+      "value": 0.8683510535837524,
+      "reference_strength": "not_strong",
+      "consultative_only": true,
+      "unresolved_reason": null
+    },
+    "old_population_hint": true,
+    "classification_gate": false
+  },
+  "unresolved_reasons": [],
+  "created_by": "code",
+  "node_execution_id": "fe668b4b4afa428eb2909ced9fc9d4f8",
+  "attempt_id": "730e18ecd7ac4796bc198d381ceb9888"
+}

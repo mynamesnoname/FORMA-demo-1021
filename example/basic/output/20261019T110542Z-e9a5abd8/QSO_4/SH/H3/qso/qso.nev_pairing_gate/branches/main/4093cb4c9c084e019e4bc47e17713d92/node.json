@@ -1,0 +1,36 @@
+{
+  "schema_version": "forma-qso-node-v1",
+  "graph_version": "forma-qso-entry-v1",
+  "run_id": "graph-853b617a68f04c36bd82f06bdb770ac4",
+  "branch_id": "main",
+  "hypothesis_ref": "H3",
+  "node_key": "sh2.qso/H3/qso.nev_pairing_gate",
+  "node_type": "qso.nev_pairing_gate",
+  "status": "completed",
+  "input_refs": [
+    "sh2/9909f3c5968f4908ab173c27be488094/node",
+    "fa/0628ed7115fa40ecb81133fae0bb6921/node",
+    "fa/5dec4e7e7e7348679c6f7d92253b1f16/node",
+    "fa/4a07b8bf0293415fa4ae041c50dc6e30/node"
+  ],
+  "output": {
+    "line_id": "line:nev-3426",
+    "measurement_id": "cwt:em:0001",
+    "sh_status": "LIKELY",
+    "fa_state": "signal_present",
+    "pairing_state": "adopted",
+    "candidate_type": "Type 2 QSO",
+    "path_status": "survive",
+    "next_node": "qso.analysis_report"
+  },
+  "evidence_refs": [
+    "sh2/9909f3c5968f4908ab173c27be488094/node",
+    "fa/0628ed7115fa40ecb81133fae0bb6921/node",
+    "fa/5dec4e7e7e7348679c6f7d92253b1f16/node",
+    "fa/4a07b8bf0293415fa4ae041c50dc6e30/node"
+  ],
+  "unresolved_reasons": [],
+  "created_by": "code",
+  "node_execution_id": "4093cb4c9c084e019e4bc47e17713d92",
+  "attempt_id": "5c3b5383c0244bcabde75e9e775915c5"
+}

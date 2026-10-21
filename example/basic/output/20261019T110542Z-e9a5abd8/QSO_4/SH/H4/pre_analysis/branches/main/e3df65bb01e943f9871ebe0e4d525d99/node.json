@@ -1,0 +1,26 @@
+{
+  "schema_version": "forma-sh-line-review-v1",
+  "key": "sh.pre_analysis/graph-853b617a68f04c36bd82f06bdb770ac4/H4",
+  "hypothesis_ref": "H4",
+  "hypothesis_redshift": -0.0018443601090383488,
+  "status": "complete",
+  "csv_path": "/mnt/linux_share/code/FORMA/example/basic/output/20261019T110542Z-e9a5abd8/QSO_4/SH/H4/pre_analysis/branches/main/e3df65bb01e943f9871ebe0e4d525d99/lines.csv",
+  "csv_sha256": "31b3cdd8cb183ee3ace4bf5f50c83e2db3e21293114b56cbf7b057ecddc6f943",
+  "measurement_catalog_path": "/mnt/linux_share/code/FORMA/example/basic/output/20261019T110542Z-e9a5abd8/QSO_4/VI/measurements/hypothesis_003_measurement_catalog.json",
+  "measurement_catalog_sha256": "658436aa67b00500096757b92088133cfd7ded1722d14df1ce7bbd6e8cb3710a",
+  "judgment_path": "/mnt/linux_share/code/FORMA/example/basic/output/20261019T110542Z-e9a5abd8/QSO_4/SH/H4/pre_analysis/branches/main/e3df65bb01e943f9871ebe0e4d525d99/lines_judgments.json",
+  "judgment_sha256": "b96700ba82a052b72f54cded36fbacb579d9729e6c0f5d43fb6056efa387590d",
+  "session_stage1_path": "/mnt/linux_share/code/FORMA/example/basic/output/20261019T110542Z-e9a5abd8/QSO_4/SH/H4/pre_analysis/branches/main/e3df65bb01e943f9871ebe0e4d525d99/stage1_session.md",
+  "session_stage1_sha256": "6076018412693abe1ec2f1cbedcf2a1c6d3a4292ae7f8004ff5bcf9974dfb8d5",
+  "adopted_lines_plot_path": "/mnt/linux_share/code/FORMA/example/basic/output/20261019T110542Z-e9a5abd8/QSO_4/SH/H4/pre_analysis/branches/main/e3df65bb01e943f9871ebe0e4d525d99/adopted_lines.png",
+  "adopted_lines_plot_sha256": "4323f113e2558da475ad9f3b9770fd0202565ce0de4dcfba54a262b10b8ecf96",
+  "execution": {
+    "schema_version": "forma-agentic-node-execution-v1",
+    "run_id": "graph-853b617a68f04c36bd82f06bdb770ac4",
+    "branch_id": "main",
+    "node_key": "sh.pre_analysis/graph-853b617a68f04c36bd82f06bdb770ac4/H4",
+    "node_execution_id": "e3df65bb01e943f9871ebe0e4d525d99",
+    "attempt_id": "6a2e9fe87210433781f03036d2931078",
+    "relative_dir": "SH/H4/pre_analysis/branches/main/e3df65bb01e943f9871ebe0e4d525d99"
+  }
+}

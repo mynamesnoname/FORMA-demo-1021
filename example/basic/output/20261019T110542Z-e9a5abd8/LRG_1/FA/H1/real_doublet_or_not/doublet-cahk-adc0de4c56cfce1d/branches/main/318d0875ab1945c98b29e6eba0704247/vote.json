@@ -1,0 +1,13 @@
+{
+  "answer": "no",
+  "reason": "Ca K window shows only a single low sample (1.67 at 4926.4) amid ~2.1-2.3 neighbors, offset ~1.4 Å from prediction, consistent with FA signal_absent. Ca H window has no dip at all—flux rises from 2.82 at 4968 to 3.19 at 4972. Neither component is a credible absorption feature, so the two-component interpretation is not corroborated.",
+  "execution": {
+    "schema_version": "forma-agentic-node-execution-v1",
+    "run_id": "graph-6f4e6510cc5d45df9da3b7be0c8597cc",
+    "branch_id": "main",
+    "node_key": "fa.real_doublet_or_not/graph-6f4e6510cc5d45df9da3b7be0c8597cc/H1/doublet%3Acahk",
+    "node_execution_id": "318d0875ab1945c98b29e6eba0704247",
+    "attempt_id": "cee87576277a455fa301487516276d27",
+    "relative_dir": "FA/H1/real_doublet_or_not/doublet-cahk-adc0de4c56cfce1d/branches/main/318d0875ab1945c98b29e6eba0704247"
+  }
+}

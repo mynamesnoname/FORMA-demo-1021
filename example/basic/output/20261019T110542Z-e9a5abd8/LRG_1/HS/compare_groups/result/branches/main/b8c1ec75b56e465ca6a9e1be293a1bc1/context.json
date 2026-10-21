@@ -1,0 +1,1364 @@
+{
+  "schema_version": "forma-hs-group-comparison-v3",
+  "run_id": "graph-6f4e6510cc5d45df9da3b7be0c8597cc",
+  "branch_id": "main",
+  "merge_ref": "hs/e313f23388e649c692835d61ed0b7380/node",
+  "source_refs": [
+    "alignment/4a7d7426e07241cf85e10d1039168e74/node",
+    "alignment/6ac1875c54b24816a1e7461a23fa4641/node",
+    "alignment/7f83b3a73ada48cc9e6f395eb9ff9459/node",
+    "fa/01d1f19d1d984255bdb110fb80797557/node",
+    "fa/08b5d410051c4e8f8885e383223731b2/node",
+    "fa/167b814ae8bc4c009a3042fd68c70559/node",
+    "fa/1b275869f8a0463690c97bd53ee0c64f/node",
+    "fa/20844675904a442191ec85390aced33a/node",
+    "fa/3ebee97e0f4d40648c1588df75be4108/node",
+    "fa/49bfda3674b44e619cb175860e1788fc/node",
+    "fa/5d95a96470a3428eaf63249b01346711/node",
+    "fa/6466cf48fac94a5e9c907a59790e301b/node",
+    "fa/69590ed7544e47238d1e8dc0c1e00dc2/node",
+    "fa/6c80e65040c340979517bbe9f11188fa/node",
+    "fa/6f98d49a757f42728636b6bb6d0dbe0e/node",
+    "fa/7372676709b24704b2aa079622e52603/node",
+    "fa/73cd1a2ca21642d78c106e1fb4feffc3/node",
+    "fa/8590771bc6f44c879cc94d8347935086/node",
+    "fa/986400e6f1cd4bdfb94cb5d4d651834c/node",
+    "fa/9eacd4b79fe84695aef17fa9e5a68b86/node",
+    "fa/9f796699a781428fa73ea06cc5a9af3e/node",
+    "fa/ab1b4345ca97424e80ee06d0bb2a320c/node",
+    "fa/bed4b4cd4bea4ef9b4b3c0516b8a8475/node",
+    "fa/c84a8d71a945487eb605977212408e36/node",
+    "fa/d35b67e588d541d3b5d346e08963240d/node",
+    "fa/d39260163b6e454aa5d9ddc0b2c6da35/node",
+    "fa/d621fa38eb28462db3bf2620f4d6d5ae/node",
+    "fa/e1cc752b73f0458b8d7554b18b4d80ea/node",
+    "fa/f2c6970827394ee5ac3ad0f86e13874f/node",
+    "fa/ffeb89d7bc694b8487b8a1847479c3ee/node",
+    "fa_doublet/0fbae353b2fc4b70a399242e01dbb175/node",
+    "fa_doublet/12e250b86f284cc58b81c279bc95eda0/node",
+    "fa_doublet/14d2511dfab84c9b95d7a7ec8e3bcf38/node",
+    "fa_doublet/1c3a5f155bee46cdbcc65cfb760499c3/node",
+    "fa_doublet/33791b888b1f4ba68995a067ed5eb240/node",
+    "fa_doublet/4fbb2a4e0745431e93d516b63c12f3c5/node",
+    "fa_doublet/5a1d1be716924061b12bd60095289a6a/node",
+    "fa_doublet/6db0df6a7a5047509f796e2d60c48c0e/node",
+    "fa_doublet/70628ea7694a4fd2bb87d61742368bec/node",
+    "fa_doublet/7ec8f710ef65445ebc0606455950f382/node",
+    "fa_doublet/7fd36ba0e8f54e28a759758c8dfe9c3a/node",
+    "fa_doublet/931e9d29a3f945e4a84ac6699339e15d/node",
+    "fa_doublet/f460405dfba84d4ebdf7513f493d9342/node",
+    "hs/e313f23388e649c692835d61ed0b7380/node",
+    "sh/H1/catalog",
+    "sh/H1/judgments",
+    "sh/H1/node",
+    "sh/H3/catalog",
+    "sh/H3/judgments",
+    "sh/H3/node",
+    "sh/H5/catalog",
+    "sh/H5/judgments",
+    "sh/H5/node",
+    "sh2/2159015256aa4569816bf93c8d318958/report",
+    "sh2/5a3ec895a98543f68f8026657bfc233e/node",
+    "sh2/60c57a3137a14aa3a459edef37b7d01f/node",
+    "sh2/886f022fce5a4aafae53135b491618c7/report",
+    "sh2/a940cdba1c3d4538927fded4b53b45b2/report",
+    "sh2/bab26334530a460ba6dfc9382d1482e2/node"
+  ],
+  "groups": [
+    {
+      "group_id": "hs.merge/H1",
+      "candidate_type": "LRG/BGS",
+      "member_hypotheses": [
+        "H1"
+      ],
+      "original_redshifts": {
+        "H1": 0.2515625506820086
+      },
+      "merged_anchor_redshift": 0.2515625506820086,
+      "merge_status": "singleton",
+      "comparison_status": "type_recheck_required",
+      "type_recheck_required": true,
+      "selected_pairs": [
+        {
+          "line_id": "line:hgam-4341",
+          "feature_id": "cwt:em:0004",
+          "wavelength_angstrom": 5400.000000000409,
+          "measurement_source": "CWT",
+          "assignment_status": "non_tbd",
+          "provenance": [
+            {
+              "hypothesis_ref": "H1",
+              "assignment_status": "non_tbd",
+              "fa_state": "signal_present",
+              "fa_review_status": "original_measurement",
+              "measurement_source": "CWT",
+              "prior_measurement_id": null,
+              "prior_measurement_fa_state": null,
+              "source_refs": [
+                "sh/H1/judgments"
+              ]
+            }
+          ]
+        },
+        {
+          "line_id": "line:hgam-4341-abs",
+          "feature_id": "cwt:abs:0003",
+          "wavelength_angstrom": 5472.000000000426,
+          "measurement_source": "CWT",
+          "assignment_status": "non_tbd",
+          "provenance": [
+            {
+              "hypothesis_ref": "H1",
+              "assignment_status": "non_tbd",
+              "fa_state": "signal_present",
+              "fa_review_status": "original_measurement",
+              "measurement_source": "CWT",
+              "prior_measurement_id": null,
+              "prior_measurement_fa_state": null,
+              "source_refs": [
+                "sh/H1/judgments"
+              ]
+            }
+          ]
+        }
+      ],
+      "excluded_pairs": [],
+      "lost_shared_key_pairs": [],
+      "lost_type_support_line_ids": [],
+      "advisory_reviews": [
+        {
+          "hypothesis_ref": "H1",
+          "lya_forest": null,
+          "doublets": [
+            {
+              "node_ref": "fa_doublet/70628ea7694a4fd2bb87d61742368bec/node",
+              "doublet_id": "doublet:oiii",
+              "status": "complete",
+              "pair_supported": false,
+              "claim_mode": "complete_pair",
+              "component_line_ids": [
+                "line:oiii-4960",
+                "line:oiii-5008"
+              ],
+              "vote_summary": {
+                "yes": 0,
+                "no": 3,
+                "yes_fraction": 0.0,
+                "assurance": "assured"
+              },
+              "coverage": {
+                "requested_window_angstrom": [
+                  6128.125720147968,
+                  6348.075566325636
+                ],
+                "actual_window_angstrom": [
+                  6128.800000000084,
+                  6348.000000000134
+                ],
+                "spectrum_bounds_angstrom": [
+                  3600.0,
+                  9824.000000000524
+                ],
+                "component_cores": [
+                  {
+                    "line_id": "line:oiii-4960",
+                    "predicted_obs_angstrom": 6208.125720147968,
+                    "center_within_spectrum_bounds": true,
+                    "samples": 37,
+                    "valid_samples": 37,
+                    "masked_samples": 0,
+                    "assessable": true
+                  },
+                  {
+                    "line_id": "line:oiii-5008",
+                    "predicted_obs_angstrom": 6268.075566325636,
+                    "center_within_spectrum_bounds": true,
+                    "samples": 37,
+                    "valid_samples": 37,
+                    "masked_samples": 0,
+                    "assessable": true
+                  }
+                ],
+                "assessable": true,
+                "unreviewable_reason": null
+              },
+              "metrics": {
+                "expected_separation_angstrom": 59.949846177667496,
+                "registry_rest_separation_angstrom": 47.9,
+                "measured_separation_angstrom": 55.928000000120846,
+                "separation_difference_angstrom": -4.021846177546649,
+                "amplitude_ratio_a_over_b": 0.7467440876099782,
+                "reference_ratio_window_a_over_b": [
+                  0.25,
+                  0.5
+                ],
+                "reference_ratio_note": "b:a ≈ 3:1",
+                "reference_ratio_within_window": false,
+                "reference_ratio_is_advisory": true
+              }
+            },
+            {
+              "node_ref": "fa_doublet/12e250b86f284cc58b81c279bc95eda0/node",
+              "doublet_id": "doublet:sii",
+              "status": "complete",
+              "pair_supported": false,
+              "claim_mode": "complete_pair",
+              "component_line_ids": [
+                "line:sii-6718",
+                "line:sii-6732"
+              ],
+              "vote_summary": {
+                "yes": 0,
+                "no": 3,
+                "yes_fraction": 0.0,
+                "assurance": "assured"
+              },
+              "coverage": {
+                "requested_window_angstrom": [
+                  8328.372684246939,
+                  8506.39518497676
+                ],
+                "actual_window_angstrom": [
+                  8328.800000000185,
+                  8505.600000000224
+                ],
+                "spectrum_bounds_angstrom": [
+                  3600.0,
+                  9824.000000000524
+                ],
+                "component_cores": [
+                  {
+                    "line_id": "line:sii-6718",
+                    "predicted_obs_angstrom": 8408.372684246939,
+                    "center_within_spectrum_bounds": true,
+                    "samples": 38,
+                    "valid_samples": 38,
+                    "masked_samples": 0,
+                    "assessable": true
+                  },
+                  {
+                    "line_id": "line:sii-6732",
+                    "predicted_obs_angstrom": 8426.39518497676,
+                    "center_within_spectrum_bounds": true,
+                    "samples": 37,
+                    "valid_samples": 37,
+                    "masked_samples": 0,
+                    "assessable": true
+                  }
+                ],
+                "assessable": true,
+                "unreviewable_reason": null
+              },
+              "metrics": {
+                "expected_separation_angstrom": 18.02250072982133,
+                "registry_rest_separation_angstrom": 14.4,
+                "measured_separation_angstrom": 0.0,
+                "separation_difference_angstrom": -18.02250072982133,
+                "amplitude_ratio_a_over_b": 1.0,
+                "reference_ratio_window_a_over_b": [
+                  0.7,
+                  1.4
+                ],
+                "reference_ratio_note": "a ≈ b",
+                "reference_ratio_within_window": true,
+                "reference_ratio_is_advisory": true
+              }
+            },
+            {
+              "node_ref": "fa_doublet/33791b888b1f4ba68995a067ed5eb240/node",
+              "doublet_id": "doublet:nii",
+              "status": "complete",
+              "pair_supported": false,
+              "claim_mode": "orphan",
+              "component_line_ids": [
+                "line:nii-6549",
+                "line:nii-6585"
+              ],
+              "vote_summary": {
+                "yes": 0,
+                "no": 3,
+                "yes_fraction": 0.0,
+                "assurance": "assured"
+              },
+              "coverage": {
+                "requested_window_angstrom": [
+                  8117.48439445702,
+                  8321.914865006233
+                ],
+                "actual_window_angstrom": [
+                  8117.600000000136,
+                  8321.600000000182
+                ],
+                "spectrum_bounds_angstrom": [
+                  3600.0,
+                  9824.000000000524
+                ],
+                "component_cores": [
+                  {
+                    "line_id": "line:nii-6549",
+                    "predicted_obs_angstrom": 8197.48439445702,
+                    "center_within_spectrum_bounds": true,
+                    "samples": 37,
+                    "valid_samples": 37,
+                    "masked_samples": 0,
+                    "assessable": true
+                  },
+                  {
+                    "line_id": "line:nii-6585",
+                    "predicted_obs_angstrom": 8241.914865006233,
+                    "center_within_spectrum_bounds": true,
+                    "samples": 38,
+                    "valid_samples": 38,
+                    "masked_samples": 0,
+                    "assessable": true
+                  }
+                ],
+                "assessable": true,
+                "unreviewable_reason": null
+              },
+              "metrics": {
+                "expected_separation_angstrom": 44.43047054921226,
+                "registry_rest_separation_angstrom": 35.5,
+                "measured_separation_angstrom": null,
+                "separation_difference_angstrom": null,
+                "amplitude_ratio_a_over_b": null,
+                "reference_ratio_window_a_over_b": [
+                  0.2,
+                  0.45
+                ],
+                "reference_ratio_note": "a:b ≈ 1:3",
+                "reference_ratio_within_window": null,
+                "reference_ratio_is_advisory": true
+              }
+            },
+            {
+              "node_ref": "fa_doublet/0fbae353b2fc4b70a399242e01dbb175/node",
+              "doublet_id": "doublet:cahk",
+              "status": "complete",
+              "pair_supported": false,
+              "claim_mode": "orphan",
+              "component_line_ids": [
+                "line:cak-3934-abs",
+                "line:cah-3969-abs"
+              ],
+              "vote_summary": {
+                "yes": 0,
+                "no": 3,
+                "yes_fraction": 0.0,
+                "assurance": "assured"
+              },
+              "coverage": {
+                "requested_window_angstrom": [
+                  4844.648324423568,
+                  5048.2027011873015
+                ],
+                "actual_window_angstrom": [
+                  4844.800000000283,
+                  5048.000000000329
+                ],
+                "spectrum_bounds_angstrom": [
+                  3600.0,
+                  9824.000000000524
+                ],
+                "component_cores": [
+                  {
+                    "line_id": "line:cak-3934-abs",
+                    "predicted_obs_angstrom": 4924.648324423568,
+                    "center_within_spectrum_bounds": true,
+                    "samples": 37,
+                    "valid_samples": 37,
+                    "masked_samples": 0,
+                    "assessable": true
+                  },
+                  {
+                    "line_id": "line:cah-3969-abs",
+                    "predicted_obs_angstrom": 4968.2027011873015,
+                    "center_within_spectrum_bounds": true,
+                    "samples": 38,
+                    "valid_samples": 38,
+                    "masked_samples": 0,
+                    "assessable": true
+                  }
+                ],
+                "assessable": true,
+                "unreviewable_reason": null
+              },
+              "metrics": {
+                "expected_separation_angstrom": 43.55437676373367,
+                "registry_rest_separation_angstrom": 34.8,
+                "measured_separation_angstrom": null,
+                "separation_difference_angstrom": null,
+                "amplitude_ratio_a_over_b": null,
+                "reference_ratio_window_a_over_b": null,
+                "reference_ratio_note": "Ca K must be deeper than Ca H",
+                "reference_ratio_within_window": null,
+                "reference_ratio_is_advisory": true
+              }
+            }
+          ]
+        }
+      ],
+      "source_reports": [
+        {
+          "hypothesis_ref": "H1",
+          "source_ref": "sh2/2159015256aa4569816bf93c8d318958/report",
+          "text": "# LRG/BGS hypothesis graph report\n\n- Hypothesis: `H1`\n- Tested redshift: `0.2515625506820086`\n- Graph path: `survive`\n- Candidate type: `LRG/BGS`\n- Route rule: `project:lrg-bgs-dn4000-or-cahk-v2`\n\n## Recorded evidence\n\n- [Ne V] pairing: `no_pairing`; measurement: `none`\n- Type 1 transfer pairs: `[]`\n- Retained diagnostic pairs: `[]`\n- Galaxy retained by Mg II emission/absorption pair: `False`\n- Dn4000: `1.6185921886895378`; reference strength: `strong`\n- Adopted Ca H/K components: `[]`\n- Ca H/K inventory status: `assessed`\n- Targeted Ca H/K advice: `complete`\n\n- Targeted Ca H/K sampled candidates: `[]`\n\n## Route\n\n- Reason: `dn4000_strong`\n- Transfer target: `none`\n\n## Open items\n\n- None recorded.\n"
+        }
+      ]
+    },
+    {
+      "group_id": "hs.merge/H3",
+      "candidate_type": "LRG/BGS",
+      "member_hypotheses": [
+        "H3"
+      ],
+      "original_redshifts": {
+        "H3": 0.2725121403358714
+      },
+      "merged_anchor_redshift": 0.2725121403358714,
+      "merge_status": "singleton",
+      "comparison_status": "merged",
+      "type_recheck_required": false,
+      "selected_pairs": [
+        {
+          "line_id": "line:cak-3934-abs",
+          "feature_id": "fit:H3:0006",
+          "wavelength_angstrom": 5004.88,
+          "measurement_source": "fit_doublet",
+          "assignment_status": "non_tbd",
+          "provenance": [
+            {
+              "hypothesis_ref": "H3",
+              "assignment_status": "non_tbd",
+              "fa_state": "signal_present",
+              "fa_review_status": "original_measurement",
+              "measurement_source": "fit_doublet",
+              "prior_measurement_id": null,
+              "prior_measurement_fa_state": null,
+              "source_refs": [
+                "sh/H3/judgments"
+              ]
+            }
+          ]
+        },
+        {
+          "line_id": "line:cah-3969-abs",
+          "feature_id": "fit:H3:0007",
+          "wavelength_angstrom": 5047.321,
+          "measurement_source": "fit_doublet",
+          "assignment_status": "non_tbd",
+          "provenance": [
+            {
+              "hypothesis_ref": "H3",
+              "assignment_status": "non_tbd",
+              "fa_state": "signal_present",
+              "fa_review_status": "original_measurement",
+              "measurement_source": "fit_doublet",
+              "prior_measurement_id": null,
+              "prior_measurement_fa_state": null,
+              "source_refs": [
+                "sh/H3/judgments"
+              ]
+            }
+          ]
+        },
+        {
+          "line_id": "line:gband-4305-abs",
+          "feature_id": "cwt:abs:0003",
+          "wavelength_angstrom": 5472.000000000426,
+          "measurement_source": "CWT",
+          "assignment_status": "non_tbd",
+          "provenance": [
+            {
+              "hypothesis_ref": "H3",
+              "assignment_status": "non_tbd",
+              "fa_state": "signal_present",
+              "fa_review_status": "original_measurement",
+              "measurement_source": "CWT",
+              "prior_measurement_id": null,
+              "prior_measurement_fa_state": null,
+              "source_refs": [
+                "sh/H3/judgments"
+              ]
+            }
+          ]
+        },
+        {
+          "line_id": "line:hbet-4862-abs",
+          "feature_id": "cwt:abs:0005",
+          "wavelength_angstrom": 6188.8000000000975,
+          "measurement_source": "CWT",
+          "assignment_status": "non_tbd",
+          "provenance": [
+            {
+              "hypothesis_ref": "H3",
+              "assignment_status": "non_tbd",
+              "fa_state": "signal_present",
+              "fa_review_status": "original_measurement",
+              "measurement_source": "CWT",
+              "prior_measurement_id": null,
+              "prior_measurement_fa_state": null,
+              "source_refs": [
+                "sh/H3/judgments"
+              ]
+            }
+          ]
+        },
+        {
+          "line_id": "line:mgi-5176-abs",
+          "feature_id": "cwt:abs:0007",
+          "wavelength_angstrom": 6583.200000000187,
+          "measurement_source": "CWT",
+          "assignment_status": "non_tbd",
+          "provenance": [
+            {
+              "hypothesis_ref": "H3",
+              "assignment_status": "non_tbd",
+              "fa_state": "signal_present",
+              "fa_review_status": "original_measurement",
+              "measurement_source": "CWT",
+              "prior_measurement_id": null,
+              "prior_measurement_fa_state": null,
+              "source_refs": [
+                "sh/H3/judgments"
+              ]
+            }
+          ]
+        },
+        {
+          "line_id": "line:nad1-5891-abs",
+          "feature_id": "cwt:abs:0009",
+          "wavelength_angstrom": 7496.800000000395,
+          "measurement_source": "CWT",
+          "assignment_status": "tbd",
+          "provenance": [
+            {
+              "hypothesis_ref": "H3",
+              "assignment_status": "tbd",
+              "fa_state": "signal_present",
+              "fa_review_status": "original_measurement",
+              "measurement_source": "CWT",
+              "prior_measurement_id": null,
+              "prior_measurement_fa_state": null,
+              "source_refs": [
+                "sh/H3/judgments"
+              ]
+            }
+          ]
+        }
+      ],
+      "excluded_pairs": [
+        {
+          "line_id": "line:nad2-5897-abs",
+          "feature_id": "cwt:abs:0009",
+          "had_fa_confirmation": true,
+          "reason": "feature_selected_for_another_line"
+        }
+      ],
+      "lost_shared_key_pairs": [],
+      "lost_type_support_line_ids": [],
+      "advisory_reviews": [
+        {
+          "hypothesis_ref": "H3",
+          "lya_forest": null,
+          "doublets": [
+            {
+              "node_ref": "fa_doublet/f460405dfba84d4ebdf7513f493d9342/node",
+              "doublet_id": "doublet:oiii",
+              "status": "complete",
+              "pair_supported": false,
+              "claim_mode": "complete_pair",
+              "component_line_ids": [
+                "line:oiii-4960",
+                "line:oiii-5008"
+              ],
+              "vote_summary": {
+                "yes": 0,
+                "no": 3,
+                "yes_fraction": 0.0,
+                "assurance": "assured"
+              },
+              "coverage": {
+                "requested_window_angstrom": [
+                  6232.041969708023,
+                  6452.995301230111
+                ],
+                "actual_window_angstrom": [
+                  6232.8000000001075,
+                  6452.8000000001575
+                ],
+                "spectrum_bounds_angstrom": [
+                  3600.0,
+                  9824.000000000524
+                ],
+                "component_cores": [
+                  {
+                    "line_id": "line:oiii-4960",
+                    "predicted_obs_angstrom": 6312.041969708023,
+                    "center_within_spectrum_bounds": true,
+                    "samples": 37,
+                    "valid_samples": 37,
+                    "masked_samples": 0,
+                    "assessable": true
+                  },
+                  {
+                    "line_id": "line:oiii-5008",
+                    "predicted_obs_angstrom": 6372.995301230111,
+                    "center_within_spectrum_bounds": true,
+                    "samples": 37,
+                    "valid_samples": 37,
+                    "masked_samples": 0,
+                    "assessable": true
+                  }
+                ],
+                "assessable": true,
+                "unreviewable_reason": null
+              },
+              "metrics": {
+                "expected_separation_angstrom": 60.953331522087865,
+                "registry_rest_separation_angstrom": 47.9,
+                "measured_separation_angstrom": 131.00900000000001,
+                "separation_difference_angstrom": 70.05566847791215,
+                "amplitude_ratio_a_over_b": 3.0955818436070905,
+                "reference_ratio_window_a_over_b": [
+                  0.25,
+                  0.5
+                ],
+                "reference_ratio_note": "b:a ≈ 3:1",
+                "reference_ratio_within_window": false,
+                "reference_ratio_is_advisory": true
+              }
+            },
+            {
+              "node_ref": "fa_doublet/6db0df6a7a5047509f796e2d60c48c0e/node",
+              "doublet_id": "doublet:nii",
+              "status": "complete",
+              "pair_supported": false,
+              "claim_mode": "complete_pair",
+              "component_line_ids": [
+                "line:nii-6549",
+                "line:nii-6585"
+              ],
+              "vote_summary": {
+                "yes": 0,
+                "no": 3,
+                "yes_fraction": 0.0,
+                "assurance": "assured"
+              },
+              "coverage": {
+                "requested_window_angstrom": [
+                  8254.70001677189,
+                  8459.874197753814
+                ],
+                "actual_window_angstrom": [
+                  8255.200000000168,
+                  8459.200000000214
+                ],
+                "spectrum_bounds_angstrom": [
+                  3600.0,
+                  9824.000000000524
+                ],
+                "component_cores": [
+                  {
+                    "line_id": "line:nii-6549",
+                    "predicted_obs_angstrom": 8334.70001677189,
+                    "center_within_spectrum_bounds": true,
+                    "samples": 38,
+                    "valid_samples": 38,
+                    "masked_samples": 0,
+                    "assessable": true
+                  },
+                  {
+                    "line_id": "line:nii-6585",
+                    "predicted_obs_angstrom": 8379.874197753814,
+                    "center_within_spectrum_bounds": true,
+                    "samples": 37,
+                    "valid_samples": 37,
+                    "masked_samples": 0,
+                    "assessable": true
+                  }
+                ],
+                "assessable": true,
+                "unreviewable_reason": null
+              },
+              "metrics": {
+                "expected_separation_angstrom": 45.1741809819232,
+                "registry_rest_separation_angstrom": 35.5,
+                "measured_separation_angstrom": 112.93499999999949,
+                "separation_difference_angstrom": 67.76081901807629,
+                "amplitude_ratio_a_over_b": 1.3862111412328075,
+                "reference_ratio_window_a_over_b": [
+                  0.2,
+                  0.45
+                ],
+                "reference_ratio_note": "a:b ≈ 1:3",
+                "reference_ratio_within_window": false,
+                "reference_ratio_is_advisory": true
+              }
+            },
+            {
+              "node_ref": "fa_doublet/14d2511dfab84c9b95d7a7ec8e3bcf38/node",
+              "doublet_id": "doublet:cahk",
+              "status": "complete",
+              "pair_supported": true,
+              "claim_mode": "complete_pair",
+              "component_line_ids": [
+                "line:cak-3934-abs",
+                "line:cah-3969-abs"
+              ],
+              "vote_summary": {
+                "yes": 3,
+                "no": 0,
+                "yes_fraction": 1.0,
+                "assurance": "assured"
+              },
+              "coverage": {
+                "requested_window_angstrom": [
+                  4927.080769793587,
+                  5131.364192277275
+                ],
+                "actual_window_angstrom": [
+                  4927.200000000302,
+                  5131.200000000348
+                ],
+                "spectrum_bounds_angstrom": [
+                  3600.0,
+                  9824.000000000524
+                ],
+                "component_cores": [
+                  {
+                    "line_id": "line:cak-3934-abs",
+                    "predicted_obs_angstrom": 5007.080769793587,
+                    "center_within_spectrum_bounds": true,
+                    "samples": 37,
+                    "valid_samples": 37,
+                    "masked_samples": 0,
+                    "assessable": true
+                  },
+                  {
+                    "line_id": "line:cah-3969-abs",
+                    "predicted_obs_angstrom": 5051.364192277275,
+                    "center_within_spectrum_bounds": true,
+                    "samples": 37,
+                    "valid_samples": 37,
+                    "masked_samples": 0,
+                    "assessable": true
+                  }
+                ],
+                "assessable": true,
+                "unreviewable_reason": null
+              },
+              "metrics": {
+                "expected_separation_angstrom": 44.2834224836879,
+                "registry_rest_separation_angstrom": 34.8,
+                "measured_separation_angstrom": 42.4409999999998,
+                "separation_difference_angstrom": -1.8424224836880967,
+                "amplitude_ratio_a_over_b": 0.9839606777907127,
+                "reference_ratio_window_a_over_b": null,
+                "reference_ratio_note": "Ca K must be deeper than Ca H",
+                "reference_ratio_within_window": false,
+                "reference_ratio_is_advisory": true
+              }
+            },
+            {
+              "node_ref": "fa_doublet/5a1d1be716924061b12bd60095289a6a/node",
+              "doublet_id": "doublet:na-d",
+              "status": "complete",
+              "pair_supported": false,
+              "claim_mode": "complete_pair",
+              "component_line_ids": [
+                "line:nad1-5891-abs",
+                "line:nad2-5897-abs"
+              ],
+              "vote_summary": {
+                "yes": 0,
+                "no": 3,
+                "yes_fraction": 0.0,
+                "assurance": "assured"
+              },
+              "coverage": {
+                "requested_window_angstrom": [
+                  7417.132526002821,
+                  7584.767598844836
+                ],
+                "actual_window_angstrom": [
+                  7417.600000000377,
+                  7519.2000000004
+                ],
+                "spectrum_bounds_angstrom": [
+                  3600.0,
+                  9824.000000000524
+                ],
+                "component_cores": [
+                  {
+                    "line_id": "line:nad1-5891-abs",
+                    "predicted_obs_angstrom": 7497.132526002821,
+                    "center_within_spectrum_bounds": true,
+                    "samples": 38,
+                    "valid_samples": 38,
+                    "masked_samples": 0,
+                    "assessable": true
+                  },
+                  {
+                    "line_id": "line:nad2-5897-abs",
+                    "predicted_obs_angstrom": 7504.767598844836,
+                    "center_within_spectrum_bounds": true,
+                    "samples": 37,
+                    "valid_samples": 37,
+                    "masked_samples": 0,
+                    "assessable": true
+                  }
+                ],
+                "assessable": true,
+                "unreviewable_reason": null
+              },
+              "metrics": {
+                "expected_separation_angstrom": 7.635072842015688,
+                "registry_rest_separation_angstrom": 6.0,
+                "measured_separation_angstrom": 0.0,
+                "separation_difference_angstrom": -7.635072842015688,
+                "amplitude_ratio_a_over_b": 1.0,
+                "reference_ratio_window_a_over_b": [
+                  1.4,
+                  2.8
+                ],
+                "reference_ratio_note": "a:b ≈ 2:1 (fitting hint)",
+                "reference_ratio_within_window": false,
+                "reference_ratio_is_advisory": true
+              }
+            }
+          ]
+        }
+      ],
+      "source_reports": [
+        {
+          "hypothesis_ref": "H3",
+          "source_ref": "sh2/886f022fce5a4aafae53135b491618c7/report",
+          "text": "# LRG/BGS hypothesis graph report\n\n- Hypothesis: `H3`\n- Tested redshift: `0.2725121403358714`\n- Graph path: `survive`\n- Candidate type: `LRG/BGS`\n- Route rule: `project:lrg-bgs-dn4000-or-cahk-v2`\n\n## Recorded evidence\n\n- [Ne V] pairing: `rejected_measurement`; measurement: `fit:H3:0008`\n- Type 1 transfer pairs: `[]`\n- Retained diagnostic pairs: `[]`\n- Galaxy retained by Mg II emission/absorption pair: `False`\n- Dn4000: `1.8153721801064386`; reference strength: `strong`\n- Adopted Ca H/K components: `['line:cak-3934-abs', 'line:cah-3969-abs']`\n- Ca H/K inventory status: `assessed`\n- Targeted Ca H/K advice: `not_evaluated`\n\n- Targeted Ca H/K sampled candidates: `[]`\n\n## Route\n\n- Reason: `dn4000_strong`\n- Transfer target: `none`\n\n## Open items\n\n- None recorded.\n\n## Shared-feature alignment\n\nOriginal SH/FA pairings remain archived. A null slot means no separately defensible feature, not proof that the line is absent.\n\n- Alignment source: `alignment/6ac1875c54b24816a1e7461a23fa4641/node`\n\n- Shared feature(s) `['cwt:abs:0009']`: `tbd`; affected claims `['line:nad1-5891-abs', 'line:nad2-5897-abs']`.\n"
+        }
+      ]
+    },
+    {
+      "group_id": "hs.merge/H5",
+      "candidate_type": "LRG/BGS",
+      "member_hypotheses": [
+        "H5"
+      ],
+      "original_redshifts": {
+        "H5": 0.2717824860918102
+      },
+      "merged_anchor_redshift": 0.2717824860918102,
+      "merge_status": "singleton",
+      "comparison_status": "merged",
+      "type_recheck_required": false,
+      "selected_pairs": [
+        {
+          "line_id": "line:cak-3934-abs",
+          "feature_id": "fit:H5:0006",
+          "wavelength_angstrom": 5004.88,
+          "measurement_source": "fit_doublet",
+          "assignment_status": "non_tbd",
+          "provenance": [
+            {
+              "hypothesis_ref": "H5",
+              "assignment_status": "non_tbd",
+              "fa_state": "signal_present",
+              "fa_review_status": "original_measurement",
+              "measurement_source": "fit_doublet",
+              "prior_measurement_id": null,
+              "prior_measurement_fa_state": null,
+              "source_refs": [
+                "sh/H5/judgments"
+              ]
+            }
+          ]
+        },
+        {
+          "line_id": "line:cah-3969-abs",
+          "feature_id": "fit:H5:0007",
+          "wavelength_angstrom": 5047.321,
+          "measurement_source": "fit_doublet",
+          "assignment_status": "non_tbd",
+          "provenance": [
+            {
+              "hypothesis_ref": "H5",
+              "assignment_status": "non_tbd",
+              "fa_state": "signal_present",
+              "fa_review_status": "original_measurement",
+              "measurement_source": "fit_doublet",
+              "prior_measurement_id": null,
+              "prior_measurement_fa_state": null,
+              "source_refs": [
+                "sh/H5/judgments"
+              ]
+            }
+          ]
+        },
+        {
+          "line_id": "line:gband-4305-abs",
+          "feature_id": "cwt:abs:0003",
+          "wavelength_angstrom": 5472.000000000426,
+          "measurement_source": "CWT",
+          "assignment_status": "non_tbd",
+          "provenance": [
+            {
+              "hypothesis_ref": "H5",
+              "assignment_status": "non_tbd",
+              "fa_state": "signal_present",
+              "fa_review_status": "original_measurement",
+              "measurement_source": "CWT",
+              "prior_measurement_id": null,
+              "prior_measurement_fa_state": null,
+              "source_refs": [
+                "sh/H5/judgments"
+              ]
+            }
+          ]
+        },
+        {
+          "line_id": "line:hbet-4862-abs",
+          "feature_id": "cwt:abs:0005",
+          "wavelength_angstrom": 6188.8000000000975,
+          "measurement_source": "CWT",
+          "assignment_status": "non_tbd",
+          "provenance": [
+            {
+              "hypothesis_ref": "H5",
+              "assignment_status": "non_tbd",
+              "fa_state": "signal_present",
+              "fa_review_status": "original_measurement",
+              "measurement_source": "CWT",
+              "prior_measurement_id": null,
+              "prior_measurement_fa_state": null,
+              "source_refs": [
+                "sh/H5/judgments"
+              ]
+            }
+          ]
+        },
+        {
+          "line_id": "line:mgi-5176-abs",
+          "feature_id": "cwt:abs:0007",
+          "wavelength_angstrom": 6583.200000000187,
+          "measurement_source": "CWT",
+          "assignment_status": "non_tbd",
+          "provenance": [
+            {
+              "hypothesis_ref": "H5",
+              "assignment_status": "non_tbd",
+              "fa_state": "signal_present",
+              "fa_review_status": "original_measurement",
+              "measurement_source": "CWT",
+              "prior_measurement_id": null,
+              "prior_measurement_fa_state": null,
+              "source_refs": [
+                "sh/H5/judgments"
+              ]
+            }
+          ]
+        },
+        {
+          "line_id": "line:nad1-5891-abs",
+          "feature_id": "cwt:abs:0009",
+          "wavelength_angstrom": 7496.800000000395,
+          "measurement_source": "CWT",
+          "assignment_status": "tbd",
+          "provenance": [
+            {
+              "hypothesis_ref": "H5",
+              "assignment_status": "tbd",
+              "fa_state": "signal_present",
+              "fa_review_status": "original_measurement",
+              "measurement_source": "CWT",
+              "prior_measurement_id": null,
+              "prior_measurement_fa_state": null,
+              "source_refs": [
+                "sh/H5/judgments"
+              ]
+            }
+          ]
+        }
+      ],
+      "excluded_pairs": [
+        {
+          "line_id": "line:nad2-5897-abs",
+          "feature_id": "cwt:abs:0009",
+          "had_fa_confirmation": true,
+          "reason": "feature_selected_for_another_line"
+        }
+      ],
+      "lost_shared_key_pairs": [],
+      "lost_type_support_line_ids": [],
+      "advisory_reviews": [
+        {
+          "hypothesis_ref": "H5",
+          "lya_forest": null,
+          "doublets": [
+            {
+              "node_ref": "fa_doublet/7ec8f710ef65445ebc0606455950f382/node",
+              "doublet_id": "doublet:oiii",
+              "status": "complete",
+              "pair_supported": false,
+              "claim_mode": "orphan",
+              "component_line_ids": [
+                "line:oiii-4960",
+                "line:oiii-5008"
+              ],
+              "vote_summary": {
+                "yes": 0,
+                "no": 3,
+                "yes_fraction": 0.0,
+                "assurance": "assured"
+              },
+              "coverage": {
+                "requested_window_angstrom": [
+                  6228.422665761207,
+                  6449.341046845004
+                ],
+                "actual_window_angstrom": [
+                  6228.800000000107,
+                  6448.800000000157
+                ],
+                "spectrum_bounds_angstrom": [
+                  3600.0,
+                  9824.000000000524
+                ],
+                "component_cores": [
+                  {
+                    "line_id": "line:oiii-4960",
+                    "predicted_obs_angstrom": 6308.422665761207,
+                    "center_within_spectrum_bounds": true,
+                    "samples": 38,
+                    "valid_samples": 38,
+                    "masked_samples": 0,
+                    "assessable": true
+                  },
+                  {
+                    "line_id": "line:oiii-5008",
+                    "predicted_obs_angstrom": 6369.341046845004,
+                    "center_within_spectrum_bounds": true,
+                    "samples": 38,
+                    "valid_samples": 38,
+                    "masked_samples": 0,
+                    "assessable": true
+                  }
+                ],
+                "assessable": true,
+                "unreviewable_reason": null
+              },
+              "metrics": {
+                "expected_separation_angstrom": 60.9183810837967,
+                "registry_rest_separation_angstrom": 47.9,
+                "measured_separation_angstrom": null,
+                "separation_difference_angstrom": null,
+                "amplitude_ratio_a_over_b": null,
+                "reference_ratio_window_a_over_b": [
+                  0.25,
+                  0.5
+                ],
+                "reference_ratio_note": "b:a ≈ 3:1",
+                "reference_ratio_within_window": null,
+                "reference_ratio_is_advisory": true
+              }
+            },
+            {
+              "node_ref": "fa_doublet/1c3a5f155bee46cdbcc65cfb760499c3/node",
+              "doublet_id": "doublet:sii",
+              "status": "complete",
+              "pair_supported": false,
+              "claim_mode": "orphan",
+              "component_line_ids": [
+                "line:sii-6718",
+                "line:sii-6732"
+              ],
+              "vote_summary": {
+                "yes": 0,
+                "no": 3,
+                "yes_fraction": 0.0,
+                "assurance": "assured"
+              },
+              "coverage": {
+                "requested_window_angstrom": [
+                  8464.21627631061,
+                  8642.52994411033
+                ],
+                "actual_window_angstrom": [
+                  8464.800000000214,
+                  8642.400000000256
+                ],
+                "spectrum_bounds_angstrom": [
+                  3600.0,
+                  9824.000000000524
+                ],
+                "component_cores": [
+                  {
+                    "line_id": "line:sii-6718",
+                    "predicted_obs_angstrom": 8544.21627631061,
+                    "center_within_spectrum_bounds": true,
+                    "samples": 38,
+                    "valid_samples": 38,
+                    "masked_samples": 0,
+                    "assessable": true
+                  },
+                  {
+                    "line_id": "line:sii-6732",
+                    "predicted_obs_angstrom": 8562.52994411033,
+                    "center_within_spectrum_bounds": true,
+                    "samples": 37,
+                    "valid_samples": 37,
+                    "masked_samples": 0,
+                    "assessable": true
+                  }
+                ],
+                "assessable": true,
+                "unreviewable_reason": null
+              },
+              "metrics": {
+                "expected_separation_angstrom": 18.31366779972086,
+                "registry_rest_separation_angstrom": 14.4,
+                "measured_separation_angstrom": null,
+                "separation_difference_angstrom": null,
+                "amplitude_ratio_a_over_b": null,
+                "reference_ratio_window_a_over_b": [
+                  0.7,
+                  1.4
+                ],
+                "reference_ratio_note": "a ≈ b",
+                "reference_ratio_within_window": null,
+                "reference_ratio_is_advisory": true
+              }
+            },
+            {
+              "node_ref": "fa_doublet/4fbb2a4e0745431e93d516b63c12f3c5/node",
+              "doublet_id": "doublet:nii",
+              "status": "complete",
+              "pair_supported": false,
+              "claim_mode": "complete_pair",
+              "component_line_ids": [
+                "line:nii-6549",
+                "line:nii-6585"
+              ],
+              "vote_summary": {
+                "yes": 0,
+                "no": 3,
+                "yes_fraction": 0.0,
+                "assurance": "assured"
+              },
+              "coverage": {
+                "requested_window_angstrom": [
+                  8249.920927404139,
+                  8455.069205660398
+                ],
+                "actual_window_angstrom": [
+                  8250.400000000165,
+                  8454.400000000212
+                ],
+                "spectrum_bounds_angstrom": [
+                  3600.0,
+                  9824.000000000524
+                ],
+                "component_cores": [
+                  {
+                    "line_id": "line:nii-6549",
+                    "predicted_obs_angstrom": 8329.920927404139,
+                    "center_within_spectrum_bounds": true,
+                    "samples": 38,
+                    "valid_samples": 38,
+                    "masked_samples": 0,
+                    "assessable": true
+                  },
+                  {
+                    "line_id": "line:nii-6585",
+                    "predicted_obs_angstrom": 8375.069205660398,
+                    "center_within_spectrum_bounds": true,
+                    "samples": 37,
+                    "valid_samples": 37,
+                    "masked_samples": 0,
+                    "assessable": true
+                  }
+                ],
+                "assessable": true,
+                "unreviewable_reason": null
+              },
+              "metrics": {
+                "expected_separation_angstrom": 45.1482782562598,
+                "registry_rest_separation_angstrom": 35.5,
+                "measured_separation_angstrom": 125.95100000020648,
+                "separation_difference_angstrom": 80.80272174394668,
+                "amplitude_ratio_a_over_b": 1.6964151017934324,
+                "reference_ratio_window_a_over_b": [
+                  0.2,
+                  0.45
+                ],
+                "reference_ratio_note": "a:b ≈ 1:3",
+                "reference_ratio_within_window": false,
+                "reference_ratio_is_advisory": true
+              }
+            },
+            {
+              "node_ref": "fa_doublet/931e9d29a3f945e4a84ac6699339e15d/node",
+              "doublet_id": "doublet:cahk",
+              "status": "complete",
+              "pair_supported": true,
+              "claim_mode": "complete_pair",
+              "component_line_ids": [
+                "line:cak-3934-abs",
+                "line:cah-3969-abs"
+              ],
+              "vote_summary": {
+                "yes": 3,
+                "no": 0,
+                "yes_fraction": 1.0,
+                "assurance": "assured"
+              },
+              "coverage": {
+                "requested_window_angstrom": [
+                  4924.209726274055,
+                  5128.46775679005
+                ],
+                "actual_window_angstrom": [
+                  4924.800000000301,
+                  5128.000000000347
+                ],
+                "spectrum_bounds_angstrom": [
+                  3600.0,
+                  9824.000000000524
+                ],
+                "component_cores": [
+                  {
+                    "line_id": "line:cak-3934-abs",
+                    "predicted_obs_angstrom": 5004.209726274055,
+                    "center_within_spectrum_bounds": true,
+                    "samples": 38,
+                    "valid_samples": 38,
+                    "masked_samples": 0,
+                    "assessable": true
+                  },
+                  {
+                    "line_id": "line:cah-3969-abs",
+                    "predicted_obs_angstrom": 5048.46775679005,
+                    "center_within_spectrum_bounds": true,
+                    "samples": 38,
+                    "valid_samples": 38,
+                    "masked_samples": 0,
+                    "assessable": true
+                  }
+                ],
+                "assessable": true,
+                "unreviewable_reason": null
+              },
+              "metrics": {
+                "expected_separation_angstrom": 44.258030515994506,
+                "registry_rest_separation_angstrom": 34.8,
+                "measured_separation_angstrom": 42.4409999999998,
+                "separation_difference_angstrom": -1.817030515994702,
+                "amplitude_ratio_a_over_b": 0.9838371046417588,
+                "reference_ratio_window_a_over_b": null,
+                "reference_ratio_note": "Ca K must be deeper than Ca H",
+                "reference_ratio_within_window": false,
+                "reference_ratio_is_advisory": true
+              }
+            },
+            {
+              "node_ref": "fa_doublet/7fd36ba0e8f54e28a759758c8dfe9c3a/node",
+              "doublet_id": "doublet:na-d",
+              "status": "complete",
+              "pair_supported": false,
+              "claim_mode": "complete_pair",
+              "component_line_ids": [
+                "line:nad1-5891-abs",
+                "line:nad2-5897-abs"
+              ],
+              "vote_summary": {
+                "yes": 0,
+                "no": 3,
+                "yes_fraction": 0.0,
+                "assurance": "assured"
+              },
+              "coverage": {
+                "requested_window_angstrom": [
+                  7412.83369505851,
+                  7580.464389975061
+                ],
+                "actual_window_angstrom": [
+                  7413.600000000376,
+                  7519.2000000004
+                ],
+                "spectrum_bounds_angstrom": [
+                  3600.0,
+                  9824.000000000524
+                ],
+                "component_cores": [
+                  {
+                    "line_id": "line:nad1-5891-abs",
+                    "predicted_obs_angstrom": 7492.83369505851,
+                    "center_within_spectrum_bounds": true,
+                    "samples": 37,
+                    "valid_samples": 37,
+                    "masked_samples": 0,
+                    "assessable": true
+                  },
+                  {
+                    "line_id": "line:nad2-5897-abs",
+                    "predicted_obs_angstrom": 7500.464389975061,
+                    "center_within_spectrum_bounds": true,
+                    "samples": 38,
+                    "valid_samples": 38,
+                    "masked_samples": 0,
+                    "assessable": true
+                  }
+                ],
+                "assessable": true,
+                "unreviewable_reason": null
+              },
+              "metrics": {
+                "expected_separation_angstrom": 7.630694916550965,
+                "registry_rest_separation_angstrom": 6.0,
+                "measured_separation_angstrom": 0.0,
+                "separation_difference_angstrom": -7.630694916550965,
+                "amplitude_ratio_a_over_b": 1.0,
+                "reference_ratio_window_a_over_b": [
+                  1.4,
+                  2.8
+                ],
+                "reference_ratio_note": "a:b ≈ 2:1 (fitting hint)",
+                "reference_ratio_within_window": false,
+                "reference_ratio_is_advisory": true
+              }
+            }
+          ]
+        }
+      ],
+      "source_reports": [
+        {
+          "hypothesis_ref": "H5",
+          "source_ref": "sh2/a940cdba1c3d4538927fded4b53b45b2/report",
+          "text": "# LRG/BGS hypothesis graph report\n\n- Hypothesis: `H5`\n- Tested redshift: `0.2717824860918102`\n- Graph path: `survive`\n- Candidate type: `LRG/BGS`\n- Route rule: `project:lrg-bgs-dn4000-or-cahk-v2`\n\n## Recorded evidence\n\n- [Ne V] pairing: `rejected_measurement`; measurement: `fit:H5:0008`\n- Type 1 transfer pairs: `[]`\n- Retained diagnostic pairs: `[]`\n- Galaxy retained by Mg II emission/absorption pair: `False`\n- Dn4000: `1.837904764731628`; reference strength: `strong`\n- Adopted Ca H/K components: `['line:cak-3934-abs', 'line:cah-3969-abs']`\n- Ca H/K inventory status: `assessed`\n- Targeted Ca H/K advice: `not_evaluated`\n\n- Targeted Ca H/K sampled candidates: `[]`\n\n## Route\n\n- Reason: `dn4000_strong`\n- Transfer target: `none`\n\n## Open items\n\n- None recorded.\n\n## Shared-feature alignment\n\nOriginal SH/FA pairings remain archived. A null slot means no separately defensible feature, not proof that the line is absent.\n\n- Alignment source: `alignment/4a7d7426e07241cf85e10d1039168e74/node`\n\n- Shared feature(s) `['cwt:abs:0009']`: `tbd`; affected claims `['line:nad1-5891-abs', 'line:nad2-5897-abs']`.\n"
+        }
+      ]
+    }
+  ],
+  "observed_feature_competitions": [
+    {
+      "feature_id": "cwt:abs:0003",
+      "observed_wavelength_angstrom": 5472.000000000426,
+      "interpretations": [
+        {
+          "group_id": "hs.merge/H1",
+          "candidate_type": "LRG/BGS",
+          "line_id": "line:hgam-4341-abs"
+        },
+        {
+          "group_id": "hs.merge/H3",
+          "candidate_type": "LRG/BGS",
+          "line_id": "line:gband-4305-abs"
+        },
+        {
+          "group_id": "hs.merge/H5",
+          "candidate_type": "LRG/BGS",
+          "line_id": "line:gband-4305-abs"
+        }
+      ]
+    }
+  ]
+}

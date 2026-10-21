@@ -1,0 +1,13 @@
+{
+  "answer": "no",
+  "reason": "Neither component window shows a credible absorption dip: Ca K region (~3936-3941 Å) is noisy continuum with no trough at 3940.08 Å and its measured center is offset ~2.8 Å; Ca H region (~3973-3976 Å) likewise shows no resolved feature. Both FA states are signal_absent, pairing rejected, and separation (37.4 Å) exceeds expected 34.85 Å. Joint doublet not corroborated.",
+  "execution": {
+    "schema_version": "forma-agentic-node-execution-v1",
+    "run_id": "graph-6f4e6510cc5d45df9da3b7be0c8597cc",
+    "branch_id": "main",
+    "node_key": "fa.real_doublet_or_not/graph-6f4e6510cc5d45df9da3b7be0c8597cc/H6/doublet%3Acahk",
+    "node_execution_id": "49c2fb0cf94f4867b9f5d512e7f3ece8",
+    "attempt_id": "c66629152fc34c2ab2616d022b3ce23e",
+    "relative_dir": "FA/H6/real_doublet_or_not/doublet-cahk-adc0de4c56cfce1d/branches/main/49c2fb0cf94f4867b9f5d512e7f3ece8"
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "answer": "yes",
+  "reason": "Both windows show clear, independent emission peaks: a at ~6140.8 Å (peak ~27 over continuum ~6) and the stronger b at ~6200.8 Å (peak ~68). Measured separation 59.2 Å matches the predicted 59.3 Å, centers are within ~0.5 Å of prediction, and the a/b amplitude ratio ~0.36 lies in the expected 0.25-0.5 window. Joint two-component interpretation is corroborated.",
+  "execution": {
+    "schema_version": "forma-agentic-node-execution-v1",
+    "run_id": "graph-853b617a68f04c36bd82f06bdb770ac4",
+    "branch_id": "main",
+    "node_key": "fa.real_doublet_or_not/graph-853b617a68f04c36bd82f06bdb770ac4/H1/doublet%3Aoiii",
+    "node_execution_id": "8c9127d5ecff417e958a7708aa5366d7",
+    "attempt_id": "3745ea31cd814ad98dd42b750808cfe3",
+    "relative_dir": "FA/H1/real_doublet_or_not/doublet-oiii-15250b3aa7a2fbdb/branches/main/8c9127d5ecff417e958a7708aa5366d7"
+  }
+}

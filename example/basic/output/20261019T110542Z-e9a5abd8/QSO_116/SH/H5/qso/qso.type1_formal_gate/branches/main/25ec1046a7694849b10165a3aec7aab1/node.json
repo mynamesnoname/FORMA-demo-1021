@@ -1,0 +1,64 @@
+{
+  "schema_version": "forma-qso-node-v1",
+  "graph_version": "forma-qso-entry-v1",
+  "run_id": "graph-325ff74c7f444efdb17e3f3b69698eea",
+  "branch_id": "main",
+  "hypothesis_ref": "H5",
+  "node_key": "sh2.qso/H5/qso.type1_formal_gate",
+  "node_type": "qso.type1_formal_gate",
+  "status": "completed",
+  "input_refs": [
+    "sh2/35c41779be6743279bad3e2776467892/node",
+    "sh2/4ae027ef899141a39d74ec4d1314c624/node",
+    "sh2/7c2f26573577439997525b4056d2b5ed/node",
+    "sh2/8f5d69708c29420b809e8089f0bd2127/node"
+  ],
+  "output": {
+    "selected_line_ids": [
+      "line:lya-1216",
+      "line:civ-1549"
+    ],
+    "gate_status": "type1_supported",
+    "effective_line_states": [
+      [
+        "line:lya-1216",
+        "paired"
+      ],
+      [
+        "line:civ-1549",
+        "paired"
+      ]
+    ],
+    "raw_line_states": {
+      "line:lya-1216": "paired",
+      "line:civ-1549": "paired"
+    },
+    "coverage": {
+      "line:lya-1216": "usable",
+      "line:civ-1549": "usable",
+      "line:ciii-1909": "usable",
+      "line:mgii-2800": "outside_range"
+    },
+    "state_source_refs": {
+      "line:lya-1216": [
+        "sh2/35c41779be6743279bad3e2776467892/node",
+        "sh2/7c2f26573577439997525b4056d2b5ed/node"
+      ],
+      "line:civ-1549": [
+        "sh2/8f5d69708c29420b809e8089f0bd2127/node",
+        "sh2/7c2f26573577439997525b4056d2b5ed/node"
+      ]
+    },
+    "reason_codes": []
+  },
+  "evidence_refs": [
+    "sh2/35c41779be6743279bad3e2776467892/node",
+    "sh2/4ae027ef899141a39d74ec4d1314c624/node",
+    "sh2/7c2f26573577439997525b4056d2b5ed/node",
+    "sh2/8f5d69708c29420b809e8089f0bd2127/node"
+  ],
+  "unresolved_reasons": [],
+  "created_by": "code",
+  "node_execution_id": "25ec1046a7694849b10165a3aec7aab1",
+  "attempt_id": "9d9d6b99be694badba9c3ad7479c6152"
+}

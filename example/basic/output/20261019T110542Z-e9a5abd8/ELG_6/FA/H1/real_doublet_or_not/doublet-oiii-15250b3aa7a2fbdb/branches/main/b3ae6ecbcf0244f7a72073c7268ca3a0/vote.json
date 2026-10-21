@@ -1,0 +1,13 @@
+{
+  "answer": "yes",
+  "reason": "Both windows show clear, isolated emission peaks at the predicted positions: a at ~5489.6-5490.4 Å (peak ~13, flanked by continuum ~0.7) and the stronger b at ~5543.2 Å (peak ~44). Centers match predictions within ~0.6 Å, separation 53.6 Å vs expected 53.0 Å, and the a/b amplitude ratio ~0.28 sits in the advisory 0.25-0.5 window. No blending or masking issues; joint two-component interpretation is corroborated.",
+  "execution": {
+    "schema_version": "forma-agentic-node-execution-v1",
+    "run_id": "graph-fe0d30030bcc4939b88103e27753b2c1",
+    "branch_id": "main",
+    "node_key": "fa.real_doublet_or_not/graph-fe0d30030bcc4939b88103e27753b2c1/H1/doublet%3Aoiii",
+    "node_execution_id": "b3ae6ecbcf0244f7a72073c7268ca3a0",
+    "attempt_id": "48cb6e80c0c04c8fa4c1732384ca3975",
+    "relative_dir": "FA/H1/real_doublet_or_not/doublet-oiii-15250b3aa7a2fbdb/branches/main/b3ae6ecbcf0244f7a72073c7268ca3a0"
+  }
+}

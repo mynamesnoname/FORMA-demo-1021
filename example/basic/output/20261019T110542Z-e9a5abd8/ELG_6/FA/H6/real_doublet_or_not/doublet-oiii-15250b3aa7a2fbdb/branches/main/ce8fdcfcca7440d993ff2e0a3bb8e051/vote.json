@@ -1,0 +1,13 @@
+{
+  "answer": "no",
+  "reason": "Component b at 7265.6 Å is a clear real peak (flux ~38.8, matches prediction to 0.06 Å). But the a-window near 7196 Å shows only flat noise (flux ~0.26–0.66, no local maximum or excess above continuum), so the weaker partner is absent. The two-component interpretation is not corroborated.",
+  "execution": {
+    "schema_version": "forma-agentic-node-execution-v1",
+    "run_id": "graph-fe0d30030bcc4939b88103e27753b2c1",
+    "branch_id": "main",
+    "node_key": "fa.real_doublet_or_not/graph-fe0d30030bcc4939b88103e27753b2c1/H6/doublet%3Aoiii",
+    "node_execution_id": "ce8fdcfcca7440d993ff2e0a3bb8e051",
+    "attempt_id": "0ddb20a7c6ef45b48d7d3e1f42382b66",
+    "relative_dir": "FA/H6/real_doublet_or_not/doublet-oiii-15250b3aa7a2fbdb/branches/main/ce8fdcfcca7440d993ff2e0a3bb8e051"
+  }
+}

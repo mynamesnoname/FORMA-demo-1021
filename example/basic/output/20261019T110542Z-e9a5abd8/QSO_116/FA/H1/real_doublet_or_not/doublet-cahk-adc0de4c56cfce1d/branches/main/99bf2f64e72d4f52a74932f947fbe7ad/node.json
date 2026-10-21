@@ -1,0 +1,175 @@
+{
+  "schema_version": "forma-fa-doublet-review-v1",
+  "node_type": "fa.doublet_review",
+  "node_key": "fa.real_doublet_or_not/graph-325ff74c7f444efdb17e3f3b69698eea/H1/doublet%3Acahk",
+  "run_id": "graph-325ff74c7f444efdb17e3f3b69698eea",
+  "branch_id": "main",
+  "hypothesis_ref": "H1",
+  "doublet_id": "doublet:cahk",
+  "claim_mode": "complete_pair",
+  "components": [
+    {
+      "line_id": "line:cak-3934-abs",
+      "line_name": "Ca K_abs",
+      "rest_angstrom": 3934.8,
+      "expected_obs_angstrom": 3930.778528916549,
+      "sh_status": "MARGINAL",
+      "measurement_id": "fit:H1:0006",
+      "measurement_source": "fit_doublet",
+      "measured_center_angstrom": 3931.745,
+      "amplitude": -0.442645,
+      "measured_offset_from_expected_angstrom": 0.9664710834508696,
+      "fa_state": "signal_absent",
+      "cleaned_pairing": "rejected_measurement",
+      "fa_vote_artifact_refs": [
+        "fa/61842a1146af4b1997bca7e1661fa3d2/node",
+        "fa/0a096a55f2df4aa3b70f203aae4adaa3/node",
+        "fa/020652115b57451f9b9f681d3b5e03e3/node"
+      ]
+    },
+    {
+      "line_id": "line:cah-3969-abs",
+      "line_name": "Ca H_abs",
+      "rest_angstrom": 3969.6,
+      "expected_obs_angstrom": 3965.542962383636,
+      "sh_status": "MARGINAL",
+      "measurement_id": "fit:H1:0007",
+      "measurement_source": "fit_doublet",
+      "measured_center_angstrom": 3977.4,
+      "amplitude": -0.634655,
+      "measured_offset_from_expected_angstrom": 11.857037616363868,
+      "fa_state": "signal_absent",
+      "cleaned_pairing": "rejected_measurement",
+      "fa_vote_artifact_refs": [
+        "fa/a9990f1cf9cc4f2883f38f5a0c6939bf/node",
+        "fa/2f6611e8a47149f39f87a37cf7800081/node",
+        "fa/b27ef183b56b4b6ab712a391cce6e571/node"
+      ]
+    }
+  ],
+  "metrics": {
+    "expected_separation_angstrom": 34.7644334670872,
+    "registry_rest_separation_angstrom": 34.8,
+    "measured_separation_angstrom": 45.6550000000002,
+    "separation_difference_angstrom": 10.890566532912999,
+    "amplitude_ratio_a_over_b": 0.6974576738542988,
+    "reference_ratio_window_a_over_b": null,
+    "reference_ratio_note": "Ca K must be deeper than Ca H",
+    "reference_ratio_within_window": false,
+    "reference_ratio_is_advisory": true
+  },
+  "coverage": {
+    "requested_window_angstrom": [
+      3850.778528916549,
+      4045.542962383636
+    ],
+    "actual_window_angstrom": [
+      3851.200000000057,
+      4044.800000000101
+    ],
+    "spectrum_bounds_angstrom": [
+      3600.0,
+      9824.000000000524
+    ],
+    "component_cores": [
+      {
+        "line_id": "line:cak-3934-abs",
+        "predicted_obs_angstrom": 3930.778528916549,
+        "center_within_spectrum_bounds": true,
+        "samples": 38,
+        "valid_samples": 38,
+        "masked_samples": 0,
+        "assessable": true
+      },
+      {
+        "line_id": "line:cah-3969-abs",
+        "predicted_obs_angstrom": 3965.542962383636,
+        "center_within_spectrum_bounds": true,
+        "samples": 37,
+        "valid_samples": 37,
+        "masked_samples": 0,
+        "assessable": true
+      }
+    ],
+    "assessable": true,
+    "unreviewable_reason": null
+  },
+  "status": "complete",
+  "pair_supported": false,
+  "consultative_only": true,
+  "method_snapshot": {
+    "context_margin_angstrom": 80.0,
+    "component_check_half_angstrom": 15.0,
+    "cahk_outer_reference_sigma": 3.0,
+    "min_valid_component_samples": 5,
+    "vote_quorum": 3,
+    "max_attempts_per_vote_seat": 2
+  },
+  "vote_summary": {
+    "yes": 0,
+    "no": 3,
+    "yes_fraction": 0.0,
+    "assurance": "assured"
+  },
+  "ballots": [
+    {
+      "seat": 0,
+      "answer": "no",
+      "reason": "Neither window shows a credible absorption trough: Ca K (3928-3934 Å) and Ca H (3964-3972 Å) pixels are flat/positive noise with no dip at prediction. Ca H measured center 3977.4 Å is ~12 Å off prediction (pairing mismatch), separation 45.7 Å vs expected 34.8 Å, and K is shallower than H, opposite the required ordering. Both single-feature FA states are signal_absent; joint doublet not corroborated.",
+      "vote_ref": "fa_doublet/a371172ea4574459a013e0b639c2578b/vote.json"
+    },
+    {
+      "seat": 1,
+      "answer": "no",
+      "reason": "Neither component window shows a credible absorption trough: Ca K near 3930.8 Å (samples 410-418) is flat noise with no dip at the claimed 3931.7 Å center, and Ca H near 3965.5 Å (samples 455-462) is likewise featureless, with the claimed center 3977.4 Å displaced ~12 Å from prediction. Measured separation 45.7 Å vs expected 34.8 Å, K shallower than H, and both single-feature states signal_absent. The two-component interpretation is not corroborated.",
+      "vote_ref": "fa_doublet/f1b490d224a44f93a643ca2aefedd295/vote.json"
+    },
+    {
+      "seat": 2,
+      "answer": "no",
+      "reason": "Neither component window shows an absorption dip: Ca K (3930.8 Å) is flat noise with no negative excursion, and Ca H (3965.5 Å) is likewise flat, with its claimed center 3977.4 Å ~12 Å off prediction. Separation (45.7 Å vs 34.8 Å expected) and inverted amplitude ratio further contradict the pair; both FA states are signal_absent.",
+      "vote_ref": "fa_doublet/15f6a7fa3e1b42469d5ca336909abd9b/vote.json"
+    }
+  ],
+  "successful_votes": 3,
+  "required_votes": 3,
+  "failed_seats": 0,
+  "model_usage": {
+    "calls": 3,
+    "input_tokens": 26190,
+    "output_tokens": 1442,
+    "cache_hit_tokens": 25728,
+    "cache_hit_reported_calls": 3,
+    "cache_hit_unreported_calls": 0
+  },
+  "prompt_identity": {
+    "system_sha256": "92cc96d1542cdf1088b68d4688ccd8de256ac572ab050c2a5e087060f5955e1b",
+    "user_sha256": "aae90838e2518f5ba7e4292c41aab8c5bc8ced2043525e310ca83b11a953397c",
+    "tool_name": "submit_doublet_vote",
+    "prompt_text_sha256": "f004a4087e28ef8ab67a0115c72b7ad06b19202a7bc039e7bcb259b10af52585"
+  },
+  "source_refs": [
+    "sh/H1/node",
+    "sh/H1/catalog",
+    "sh/H1/judgments",
+    "spectrum_npz",
+    "fa/61842a1146af4b1997bca7e1661fa3d2/node",
+    "fa/0a096a55f2df4aa3b70f203aae4adaa3/node",
+    "fa/020652115b57451f9b9f681d3b5e03e3/node",
+    "fa/a9990f1cf9cc4f2883f38f5a0c6939bf/node",
+    "fa/2f6611e8a47149f39f87a37cf7800081/node",
+    "fa/b27ef183b56b4b6ab712a391cce6e571/node"
+  ],
+  "attempt_refs": [
+    "fa_doublet/a371172ea4574459a013e0b639c2578b/vote.json",
+    "fa_doublet/a371172ea4574459a013e0b639c2578b/session.md",
+    "fa_doublet/a371172ea4574459a013e0b639c2578b/model_usage.json",
+    "fa_doublet/f1b490d224a44f93a643ca2aefedd295/vote.json",
+    "fa_doublet/f1b490d224a44f93a643ca2aefedd295/session.md",
+    "fa_doublet/f1b490d224a44f93a643ca2aefedd295/model_usage.json",
+    "fa_doublet/15f6a7fa3e1b42469d5ca336909abd9b/vote.json",
+    "fa_doublet/15f6a7fa3e1b42469d5ca336909abd9b/session.md",
+    "fa_doublet/15f6a7fa3e1b42469d5ca336909abd9b/model_usage.json"
+  ],
+  "node_execution_id": "99bf2f64e72d4f52a74932f947fbe7ad"
+}

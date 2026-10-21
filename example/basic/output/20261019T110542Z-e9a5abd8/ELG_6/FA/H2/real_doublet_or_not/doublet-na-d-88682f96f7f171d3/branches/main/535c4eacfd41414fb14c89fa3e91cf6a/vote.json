@@ -1,0 +1,13 @@
+{
+  "answer": "no",
+  "reason": "Neither component window shows an absorption dip: at predicted 6520.8 Å and 6527.4 Å the flux stays at continuum (~0.47–0.62) with no trough. The claimed centers (6527.3 and 6576.1 Å) are far from prediction and also show no feature. Both single-feature states are signal_absent and the 48.8 Å separation is not a real doublet.",
+  "execution": {
+    "schema_version": "forma-agentic-node-execution-v1",
+    "run_id": "graph-fe0d30030bcc4939b88103e27753b2c1",
+    "branch_id": "main",
+    "node_key": "fa.real_doublet_or_not/graph-fe0d30030bcc4939b88103e27753b2c1/H2/doublet%3Ana-d",
+    "node_execution_id": "535c4eacfd41414fb14c89fa3e91cf6a",
+    "attempt_id": "8c3d88388f724ffc81df6ed974956522",
+    "relative_dir": "FA/H2/real_doublet_or_not/doublet-na-d-88682f96f7f171d3/branches/main/535c4eacfd41414fb14c89fa3e91cf6a"
+  }
+}

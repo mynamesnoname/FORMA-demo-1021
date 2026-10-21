@@ -1,0 +1,13 @@
+{
+  "answer": "no",
+  "reason": "Both windows show flat continuum with no emission: at ~8544 Å flux stays ~7.2-7.6 with no peak, and the claimed center 8495.6 Å is ~48.6 Å off prediction (pairing mismatch, also flat there). The b window ~8562.5 Å is likewise featureless continuum. No credible two-component (or orphan partner) signal is present in usable pixels.",
+  "execution": {
+    "schema_version": "forma-agentic-node-execution-v1",
+    "run_id": "graph-6f4e6510cc5d45df9da3b7be0c8597cc",
+    "branch_id": "main",
+    "node_key": "fa.real_doublet_or_not/graph-6f4e6510cc5d45df9da3b7be0c8597cc/H5/doublet%3Asii",
+    "node_execution_id": "38ea56ac9d0c4f159469dca7b420c80e",
+    "attempt_id": "38517c5b87d5465b88d72a8334086ad4",
+    "relative_dir": "FA/H5/real_doublet_or_not/doublet-sii-21eebc95bccd5619/branches/main/38ea56ac9d0c4f159469dca7b420c80e"
+  }
+}

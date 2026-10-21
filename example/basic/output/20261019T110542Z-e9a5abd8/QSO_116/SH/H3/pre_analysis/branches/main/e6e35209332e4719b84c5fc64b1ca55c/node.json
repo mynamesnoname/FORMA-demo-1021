@@ -1,0 +1,26 @@
+{
+  "schema_version": "forma-sh-line-review-v1",
+  "key": "sh.pre_analysis/graph-325ff74c7f444efdb17e3f3b69698eea/H3",
+  "hypothesis_ref": "H3",
+  "hypothesis_redshift": -0.0005607447321606066,
+  "status": "complete",
+  "csv_path": "/mnt/linux_share/code/FORMA/example/basic/output/20261019T110542Z-e9a5abd8/QSO_116/SH/H3/pre_analysis/branches/main/e6e35209332e4719b84c5fc64b1ca55c/lines.csv",
+  "csv_sha256": "3f310c544df245f346f5469b66e43502aa019a084fbfe2c491e46c43d8105dbf",
+  "measurement_catalog_path": "/mnt/linux_share/code/FORMA/example/basic/output/20261019T110542Z-e9a5abd8/QSO_116/VI/measurements/hypothesis_002_measurement_catalog.json",
+  "measurement_catalog_sha256": "957451084a7912c6aa0c3412d510fda48b05379b70f040a21d7c82f11bda4ccc",
+  "judgment_path": "/mnt/linux_share/code/FORMA/example/basic/output/20261019T110542Z-e9a5abd8/QSO_116/SH/H3/pre_analysis/branches/main/e6e35209332e4719b84c5fc64b1ca55c/lines_judgments.json",
+  "judgment_sha256": "845ba45a1a62fd0bb2d05285c5d7e4821c5099b81b9736e7b702e601bf57138c",
+  "session_stage1_path": "/mnt/linux_share/code/FORMA/example/basic/output/20261019T110542Z-e9a5abd8/QSO_116/SH/H3/pre_analysis/branches/main/e6e35209332e4719b84c5fc64b1ca55c/stage1_session.md",
+  "session_stage1_sha256": "685a7189c2ce55bd2aeab6795635544af9110a5e20110b2a80c1c614e4b7ef37",
+  "adopted_lines_plot_path": "/mnt/linux_share/code/FORMA/example/basic/output/20261019T110542Z-e9a5abd8/QSO_116/SH/H3/pre_analysis/branches/main/e6e35209332e4719b84c5fc64b1ca55c/adopted_lines.png",
+  "adopted_lines_plot_sha256": "555545113e0b141e0df749dd6c291379b1121b63578cd875bd23642d0e8c1b17",
+  "execution": {
+    "schema_version": "forma-agentic-node-execution-v1",
+    "run_id": "graph-325ff74c7f444efdb17e3f3b69698eea",
+    "branch_id": "main",
+    "node_key": "sh.pre_analysis/graph-325ff74c7f444efdb17e3f3b69698eea/H3",
+    "node_execution_id": "e6e35209332e4719b84c5fc64b1ca55c",
+    "attempt_id": "0be306f624fb43a08fca895760f87852",
+    "relative_dir": "SH/H3/pre_analysis/branches/main/e6e35209332e4719b84c5fc64b1ca55c"
+  }
+}

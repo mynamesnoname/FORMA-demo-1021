@@ -1,0 +1,132 @@
+{
+  "schema_version": "forma-fa-doublet-review-v1",
+  "node_type": "fa.doublet_review",
+  "node_key": "fa.real_doublet_or_not/graph-df7434d5533647e999870708120307b0/H6/doublet%3Anii",
+  "run_id": "graph-df7434d5533647e999870708120307b0",
+  "branch_id": "main",
+  "hypothesis_ref": "H6",
+  "doublet_id": "doublet:nii",
+  "claim_mode": "orphan",
+  "components": [
+    {
+      "line_id": "line:nii-6549",
+      "line_name": "[N II]a",
+      "rest_angstrom": 6549.8,
+      "expected_obs_angstrom": 7590.6970611527,
+      "sh_status": "NOT_FOUND",
+      "measurement_id": null,
+      "measurement_source": null,
+      "measured_center_angstrom": null,
+      "amplitude": null,
+      "measured_offset_from_expected_angstrom": null,
+      "fa_state": null,
+      "cleaned_pairing": "no_pairing",
+      "fa_vote_artifact_refs": []
+    },
+    {
+      "line_id": "line:nii-6585",
+      "line_name": "[N II]b",
+      "rest_angstrom": 6585.3,
+      "expected_obs_angstrom": 7631.838736573464,
+      "sh_status": "LIKELY",
+      "measurement_id": "cwt:em:0002",
+      "measurement_source": "CWT",
+      "measured_center_angstrom": 7632.0000000000255,
+      "amplitude": 2.884467601776123,
+      "measured_offset_from_expected_angstrom": 0.16126342656116321,
+      "fa_state": "signal_present",
+      "cleaned_pairing": "adopted",
+      "fa_vote_artifact_refs": [
+        "fa/dddad1ada492430d93f5843c389fe282/node",
+        "fa/85e53d03059b45c0ab6f157ed2563724/node",
+        "fa/1b999b1ee32941a0b3cce7bf11ccb2ef/node"
+      ]
+    }
+  ],
+  "metrics": {
+    "expected_separation_angstrom": 41.14167542076393,
+    "registry_rest_separation_angstrom": 35.5,
+    "measured_separation_angstrom": null,
+    "separation_difference_angstrom": null,
+    "amplitude_ratio_a_over_b": null,
+    "reference_ratio_window_a_over_b": [
+      0.2,
+      0.45
+    ],
+    "reference_ratio_note": "a:b ≈ 1:3",
+    "reference_ratio_within_window": null,
+    "reference_ratio_is_advisory": true
+  },
+  "coverage": {
+    "requested_window_angstrom": [
+      7510.6970611527,
+      7711.838736573464
+    ],
+    "actual_window_angstrom": [
+      7511.200000000398,
+      7711.2000000000435
+    ],
+    "spectrum_bounds_angstrom": [
+      3600.0,
+      9824.000000000524
+    ],
+    "component_cores": [
+      {
+        "line_id": "line:nii-6549",
+        "predicted_obs_angstrom": 7590.6970611527,
+        "center_within_spectrum_bounds": true,
+        "samples": 0,
+        "valid_samples": 0,
+        "masked_samples": 0,
+        "assessable": false
+      },
+      {
+        "line_id": "line:nii-6585",
+        "predicted_obs_angstrom": 7631.838736573464,
+        "center_within_spectrum_bounds": true,
+        "samples": 35,
+        "valid_samples": 35,
+        "masked_samples": 0,
+        "assessable": true
+      }
+    ],
+    "assessable": false,
+    "unreviewable_reason": "insufficient_valid_component_samples"
+  },
+  "status": "unreviewable",
+  "pair_supported": null,
+  "consultative_only": true,
+  "method_snapshot": {
+    "context_margin_angstrom": 80.0,
+    "component_check_half_angstrom": 15.0,
+    "cahk_outer_reference_sigma": 3.0,
+    "min_valid_component_samples": 5,
+    "vote_quorum": 3,
+    "max_attempts_per_vote_seat": 2
+  },
+  "vote_summary": null,
+  "ballots": [],
+  "successful_votes": 0,
+  "required_votes": 3,
+  "failed_seats": 0,
+  "model_usage": {
+    "calls": 0,
+    "input_tokens": 0,
+    "output_tokens": 0,
+    "cache_hit_tokens": 0,
+    "cache_hit_reported_calls": 0,
+    "cache_hit_unreported_calls": 0
+  },
+  "prompt_identity": null,
+  "source_refs": [
+    "sh/H6/node",
+    "sh/H6/catalog",
+    "sh/H6/judgments",
+    "spectrum_npz",
+    "fa/dddad1ada492430d93f5843c389fe282/node",
+    "fa/85e53d03059b45c0ab6f157ed2563724/node",
+    "fa/1b999b1ee32941a0b3cce7bf11ccb2ef/node"
+  ],
+  "attempt_refs": [],
+  "node_execution_id": "7339f49fc03242689a28ec1dfc6ef4c2"
+}

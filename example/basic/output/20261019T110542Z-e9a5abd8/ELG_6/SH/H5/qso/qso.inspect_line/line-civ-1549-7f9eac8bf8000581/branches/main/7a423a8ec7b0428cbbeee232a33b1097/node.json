@@ -1,0 +1,52 @@
+{
+  "schema_version": "forma-qso-node-v1",
+  "graph_version": "forma-qso-entry-v1",
+  "run_id": "graph-fe0d30030bcc4939b88103e27753b2c1",
+  "branch_id": "main",
+  "hypothesis_ref": "H5",
+  "node_key": "sh2.qso/H5/qso.inspect_line/line:civ-1549",
+  "node_type": "qso.inspect_line/line:civ-1549",
+  "status": "completed",
+  "input_refs": [
+    "sh2/380964c8d02f4f599dab8e585a84f9ef/node",
+    "spectrum_npz"
+  ],
+  "output": {
+    "line_id": "line:civ-1549",
+    "finding": "plausible_uncatalogued_signal",
+    "broad_envelope": true,
+    "absorption_fragmentation": false,
+    "reason": "A strong, coherent broad emission feature is present near the predicted CIV wavelength (~4122 A), rising from ~1 to a peak of ~20 at 4128 A and decaying over ~4124-4131 A, well above the surrounding continuum. The envelope is contiguous and not split by narrow absorption troughs, and both sides plus the peak are sampled with usable data.",
+    "model_usage": [
+      {
+        "input_tokens": 22746,
+        "output_tokens": 111,
+        "total_tokens": 22857,
+        "cache_hit_tokens": 22528,
+        "cache_miss_tokens": 218,
+        "provider_usage": {
+          "completion_tokens": 111,
+          "prompt_tokens": 22746,
+          "total_tokens": 22857,
+          "completion_tokens_details": null,
+          "prompt_tokens_details": {
+            "audio_tokens": null,
+            "cached_tokens": 22528
+          },
+          "prompt_cache_hit_tokens": 22528,
+          "prompt_cache_miss_tokens": 218
+        }
+      }
+    ],
+    "window_ref": "sh2/7a423a8ec7b0428cbbeee232a33b1097/window",
+    "session_ref": "sh2/7a423a8ec7b0428cbbeee232a33b1097/session"
+  },
+  "evidence_refs": [
+    "sh2/380964c8d02f4f599dab8e585a84f9ef/node",
+    "spectrum_npz"
+  ],
+  "unresolved_reasons": [],
+  "created_by": "mixed",
+  "node_execution_id": "7a423a8ec7b0428cbbeee232a33b1097",
+  "attempt_id": "48330b7d853649ec9def74a1adafd133"
+}

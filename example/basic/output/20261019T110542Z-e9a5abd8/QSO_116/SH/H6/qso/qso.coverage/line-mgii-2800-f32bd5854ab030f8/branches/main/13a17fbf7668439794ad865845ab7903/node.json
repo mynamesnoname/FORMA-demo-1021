@@ -1,0 +1,40 @@
+{
+  "schema_version": "forma-qso-node-v1",
+  "graph_version": "forma-qso-entry-v1",
+  "run_id": "graph-325ff74c7f444efdb17e3f3b69698eea",
+  "branch_id": "main",
+  "hypothesis_ref": "H6",
+  "node_key": "sh2.qso/H6/qso.coverage/line:mgii-2800",
+  "node_type": "qso.coverage/line:mgii-2800",
+  "status": "completed",
+  "input_refs": [
+    "sh2/6919df0e16a14a81af29d6323e4ce413/node",
+    "spectrum_npz",
+    "sh/H6/catalog"
+  ],
+  "output": {
+    "center_angstrom": 4782.169217080488,
+    "requested_window_angstrom": [
+      4632.169217080488,
+      4932.169217080488
+    ],
+    "actual_window_angstrom": [
+      4632.800000000235,
+      4932.000000000303
+    ],
+    "coverage": "usable",
+    "total_samples": 375,
+    "usable_samples": 375,
+    "explicit_masked_samples": 0,
+    "full_window_explicit_mask_proof": false
+  },
+  "evidence_refs": [
+    "sh2/6919df0e16a14a81af29d6323e4ce413/node",
+    "spectrum_npz",
+    "sh/H6/catalog"
+  ],
+  "unresolved_reasons": [],
+  "created_by": "code",
+  "node_execution_id": "13a17fbf7668439794ad865845ab7903",
+  "attempt_id": "3f6b45a06de346a9882317fc5cfdd2e4"
+}

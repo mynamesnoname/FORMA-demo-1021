@@ -1,0 +1,13 @@
+{
+  "answer": "yes",
+  "reason": "Both windows show distinct absorption troughs: Ca K dips to ~1.0-1.3 near 5005-5007 and Ca H dips to ~1.2-1.5 near 5046-5052, each against higher continuum. Measured separation 42.4 Å is close to expected 44.3 Å. The near-unity amplitude ratio is only an advisory hint and the broad/noisy profiles do not refute the pair.",
+  "execution": {
+    "schema_version": "forma-agentic-node-execution-v1",
+    "run_id": "graph-6f4e6510cc5d45df9da3b7be0c8597cc",
+    "branch_id": "main",
+    "node_key": "fa.real_doublet_or_not/graph-6f4e6510cc5d45df9da3b7be0c8597cc/H3/doublet%3Acahk",
+    "node_execution_id": "dfdb275374c14d4ca926099bde65c9f2",
+    "attempt_id": "378c30fc2cb847e8b3ecdf87e7578559",
+    "relative_dir": "FA/H3/real_doublet_or_not/doublet-cahk-adc0de4c56cfce1d/branches/main/dfdb275374c14d4ca926099bde65c9f2"
+  }
+}

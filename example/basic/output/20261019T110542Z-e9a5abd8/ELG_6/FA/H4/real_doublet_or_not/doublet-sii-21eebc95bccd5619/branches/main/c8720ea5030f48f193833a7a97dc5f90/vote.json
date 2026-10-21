@@ -1,0 +1,13 @@
+{
+  "answer": "no",
+  "reason": "Neither component window shows a real line: at ~6719.8 Å the flux is noise-level with no peak (amplitude 0.0), and at ~6734.2 Å the pixels are flat continuum (0.53–0.54) with no local maximum at the claimed 6735.08 Å center. Measured separation 16.28 Å vs expected 14.40 Å and opposite-sign center offsets further argue against a coherent S II pair; both FA states are signal_absent.",
+  "execution": {
+    "schema_version": "forma-agentic-node-execution-v1",
+    "run_id": "graph-fe0d30030bcc4939b88103e27753b2c1",
+    "branch_id": "main",
+    "node_key": "fa.real_doublet_or_not/graph-fe0d30030bcc4939b88103e27753b2c1/H4/doublet%3Asii",
+    "node_execution_id": "c8720ea5030f48f193833a7a97dc5f90",
+    "attempt_id": "c5db8665983848268830c102b888b958",
+    "relative_dir": "FA/H4/real_doublet_or_not/doublet-sii-21eebc95bccd5619/branches/main/c8720ea5030f48f193833a7a97dc5f90"
+  }
+}

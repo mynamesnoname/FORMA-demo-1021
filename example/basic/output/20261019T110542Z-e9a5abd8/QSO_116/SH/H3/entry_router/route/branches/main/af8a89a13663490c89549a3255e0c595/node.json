@@ -1,0 +1,127 @@
+{
+  "schema_version": "forma-type-entry-route-v1",
+  "run_id": "graph-325ff74c7f444efdb17e3f3b69698eea",
+  "branch_id": "main",
+  "hypothesis_ref": "H3",
+  "node_key": "sh2.entry_router/H3",
+  "input_refs": [
+    "fa/02628b5613a0402c9637a1599f923eec/node",
+    "fa/03dc585373394801b627e00c539748a4/node",
+    "fa/0c5467002bf7411caf37fb3ab1d1c79c/node",
+    "fa/13f0a446219c4096a8c96838ea067f36/node",
+    "fa/165591a013bb410b9ab2a4a5aec54799/node",
+    "fa/16be742d6e094c0ab32d292d30479414/node",
+    "fa/17826f5300df452296971fb22033e2e3/node",
+    "fa/19ec17c0e34a4afaba5105e47066a882/node",
+    "fa/1e28bb8311a14c9ebcb9071d002c9299/node",
+    "fa/2571b8a53f024e2491f579fa7ed651b6/node",
+    "fa/297eaf0dd51444b984788147dc8eee8b/node",
+    "fa/2eb221c11ea54444aa068114a8d05253/node",
+    "fa/34018bc01faa4e56a109b2c6ade6a21c/node",
+    "fa/346021e53c12426c8aefc6b71fcce91e/node",
+    "fa/496c3321920c410c893dee6048852354/node",
+    "fa/50b71b74378a4441817c099ec155fdec/node",
+    "fa/5a90dfaa32194f9f83c1a076cbd8721d/node",
+    "fa/5c6797da312d4838a426b305587a3ede/node",
+    "fa/5c980f3484e5403d8271da7576905677/node",
+    "fa/5ffba6cdf6154cf998f4eb1e9ce16952/node",
+    "fa/61fe1d9e7210463da7342e618513f2ba/node",
+    "fa/6bbdcdb665d74fd2a5a084fe79dcac6b/node",
+    "fa/798c4a1319ff4b51b3247224194ce291/node",
+    "fa/8029f12fda964949b6707e550cbf9d4a/node",
+    "fa/82c7493f05cb4fd48a955d06c505622a/node",
+    "fa/8afe9359baf0499eaf65020cbb68efff/node",
+    "fa/9356c202a57c4c33824d0b5ff263ba5b/node",
+    "fa/9bc9375fbec84b5ab0188f5e51aaf578/node",
+    "fa/a581df5065c243be964b05e914a4d41c/node",
+    "fa/a6c27ebcd24d48d78b2cba5227800500/node",
+    "fa/a6cce59b0ef14f559b99c6eb7e51de34/node",
+    "fa/ad62c0bf6ddd4df5ac025c4a71ab77d7/node",
+    "fa/b35fa014a02345418b02b276ef52a6b9/node",
+    "fa/c6ea3fe814df4a1596334ac230f4539d/node",
+    "fa/d1ca5dc490ee486f9a37dc15f244745c/node",
+    "fa/d255d879c899437c980b4c7f21c2f0fa/node",
+    "fa/d2b9913f4d8a44ef932a838cfc09566e/node",
+    "fa/d492e0bf99fc4cbaa206033961d60888/node",
+    "fa/df0818bec8f04c308d4b2caa772500f1/node",
+    "fa/dfa5a15511e0452992fea5c699e7d3a3/node",
+    "fa/e085000c975e41e19f28d0a5f0b7e726/node",
+    "fa/e48f23bac95b498bbf678fa970df265e/node",
+    "fa/e534c8515b0e40bb9abc1ff7be866d0c/node",
+    "fa/e9ade06ea7904c348dbd33b9ecb70051/node",
+    "fa/ea36963647fc46c48c04bde2305c3721/node",
+    "fa/ed042c79b849453caac398ac22e4343d/node",
+    "fa/f0462d38a7cf4211b5c63b19bc522d28/node",
+    "fa/f6714ffd55334a3380cc9d0820bc1de0/node",
+    "sh/H3/catalog",
+    "sh/H3/judgments",
+    "sh/H3/node",
+    "spectrum_npz"
+  ],
+  "output": {
+    "checks": [
+      {
+        "name": "nev",
+        "positive": false,
+        "pairs": []
+      },
+      {
+        "name": "qso_type1",
+        "positive": false,
+        "pairs": [],
+        "mgii_pair_retains_galaxy": false
+      },
+      {
+        "name": "old_population",
+        "positive": false,
+        "pairs": [],
+        "dn4000": {
+          "index_id": "index:dn4000",
+          "rule_id": "rule:formal-dn4000-interpretation",
+          "reference_bands": {
+            "strong": 1.6,
+            "moderate_low": 1.3,
+            "moderate_high": 1.6
+          },
+          "minimum_valid_samples_per_band": 3,
+          "windows": {
+            "blue": {
+              "window_angstrom": [
+                3847.841132781182,
+                3947.7850583079658
+              ],
+              "fully_covered": true,
+              "sample_count": 125,
+              "usable_sample_count": 125,
+              "mean_flux": 0.6199118008427322
+            },
+            "red": {
+              "window_angstrom": [
+                3997.7570210713575,
+                4097.700946598142
+              ],
+              "fully_covered": true,
+              "sample_count": 125,
+              "usable_sample_count": 125,
+              "mean_flux": 0.9001472815424204
+            }
+          },
+          "value": 1.4520570189480586,
+          "reference_strength": "moderate",
+          "consultative_only": true,
+          "unresolved_reason": null
+        }
+      },
+      {
+        "name": "emission_galaxy",
+        "positive": false,
+        "oii_pair": null,
+        "oiii_pairs": [],
+        "oiii_distinct_pair": false
+      }
+    ],
+    "selected_initial_graph": null,
+    "selected_reason": "no_adopted_entry_evidence",
+    "eligible_graphs": []
+  }
+}

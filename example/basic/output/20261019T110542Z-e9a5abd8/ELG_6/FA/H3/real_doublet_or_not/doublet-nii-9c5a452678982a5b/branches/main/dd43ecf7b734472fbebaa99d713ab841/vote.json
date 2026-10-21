@@ -1,0 +1,13 @@
+{
+  "answer": "no",
+  "reason": "Component a's claimed center (6504.9 Å) is ~46 Å from the predicted 6550.9 Å, a pairing mismatch; the 6548–6553 Å window is flat noisy continuum with no peak at prediction. Component b's window (6584–6589 Å) shows no emission feature at all (SH NOT_FOUND, FA none). Neither component is corroborated at its predicted position, so the doublet is unsupported.",
+  "execution": {
+    "schema_version": "forma-agentic-node-execution-v1",
+    "run_id": "graph-fe0d30030bcc4939b88103e27753b2c1",
+    "branch_id": "main",
+    "node_key": "fa.real_doublet_or_not/graph-fe0d30030bcc4939b88103e27753b2c1/H3/doublet%3Anii",
+    "node_execution_id": "dd43ecf7b734472fbebaa99d713ab841",
+    "attempt_id": "a6c096e6989149428d530d2933fa96fb",
+    "relative_dir": "FA/H3/real_doublet_or_not/doublet-nii-9c5a452678982a5b/branches/main/dd43ecf7b734472fbebaa99d713ab841"
+  }
+}

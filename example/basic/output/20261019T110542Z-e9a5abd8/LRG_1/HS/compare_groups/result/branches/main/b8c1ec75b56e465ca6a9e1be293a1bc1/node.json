@@ -1,0 +1,788 @@
+{
+  "schema_version": "forma-hs-group-comparison-v3",
+  "run_id": "graph-6f4e6510cc5d45df9da3b7be0c8597cc",
+  "branch_id": "main",
+  "node_key": "hs.compare_groups",
+  "node_execution_id": "b8c1ec75b56e465ca6a9e1be293a1bc1",
+  "attempt_id": "9f72374b2106480593250ca6e2b2451f",
+  "input_refs": [
+    "alignment/4a7d7426e07241cf85e10d1039168e74/node",
+    "alignment/6ac1875c54b24816a1e7461a23fa4641/node",
+    "alignment/7f83b3a73ada48cc9e6f395eb9ff9459/node",
+    "fa/01d1f19d1d984255bdb110fb80797557/node",
+    "fa/08b5d410051c4e8f8885e383223731b2/node",
+    "fa/167b814ae8bc4c009a3042fd68c70559/node",
+    "fa/1b275869f8a0463690c97bd53ee0c64f/node",
+    "fa/20844675904a442191ec85390aced33a/node",
+    "fa/3ebee97e0f4d40648c1588df75be4108/node",
+    "fa/49bfda3674b44e619cb175860e1788fc/node",
+    "fa/5d95a96470a3428eaf63249b01346711/node",
+    "fa/6466cf48fac94a5e9c907a59790e301b/node",
+    "fa/69590ed7544e47238d1e8dc0c1e00dc2/node",
+    "fa/6c80e65040c340979517bbe9f11188fa/node",
+    "fa/6f98d49a757f42728636b6bb6d0dbe0e/node",
+    "fa/7372676709b24704b2aa079622e52603/node",
+    "fa/73cd1a2ca21642d78c106e1fb4feffc3/node",
+    "fa/8590771bc6f44c879cc94d8347935086/node",
+    "fa/986400e6f1cd4bdfb94cb5d4d651834c/node",
+    "fa/9eacd4b79fe84695aef17fa9e5a68b86/node",
+    "fa/9f796699a781428fa73ea06cc5a9af3e/node",
+    "fa/ab1b4345ca97424e80ee06d0bb2a320c/node",
+    "fa/bed4b4cd4bea4ef9b4b3c0516b8a8475/node",
+    "fa/c84a8d71a945487eb605977212408e36/node",
+    "fa/d35b67e588d541d3b5d346e08963240d/node",
+    "fa/d39260163b6e454aa5d9ddc0b2c6da35/node",
+    "fa/d621fa38eb28462db3bf2620f4d6d5ae/node",
+    "fa/e1cc752b73f0458b8d7554b18b4d80ea/node",
+    "fa/f2c6970827394ee5ac3ad0f86e13874f/node",
+    "fa/ffeb89d7bc694b8487b8a1847479c3ee/node",
+    "fa_doublet/0fbae353b2fc4b70a399242e01dbb175/node",
+    "fa_doublet/12e250b86f284cc58b81c279bc95eda0/node",
+    "fa_doublet/14d2511dfab84c9b95d7a7ec8e3bcf38/node",
+    "fa_doublet/1c3a5f155bee46cdbcc65cfb760499c3/node",
+    "fa_doublet/33791b888b1f4ba68995a067ed5eb240/node",
+    "fa_doublet/4fbb2a4e0745431e93d516b63c12f3c5/node",
+    "fa_doublet/5a1d1be716924061b12bd60095289a6a/node",
+    "fa_doublet/6db0df6a7a5047509f796e2d60c48c0e/node",
+    "fa_doublet/70628ea7694a4fd2bb87d61742368bec/node",
+    "fa_doublet/7ec8f710ef65445ebc0606455950f382/node",
+    "fa_doublet/7fd36ba0e8f54e28a759758c8dfe9c3a/node",
+    "fa_doublet/931e9d29a3f945e4a84ac6699339e15d/node",
+    "fa_doublet/f460405dfba84d4ebdf7513f493d9342/node",
+    "hs/e313f23388e649c692835d61ed0b7380/node",
+    "sh/H1/catalog",
+    "sh/H1/judgments",
+    "sh/H1/node",
+    "sh/H3/catalog",
+    "sh/H3/judgments",
+    "sh/H3/node",
+    "sh/H5/catalog",
+    "sh/H5/judgments",
+    "sh/H5/node",
+    "sh2/2159015256aa4569816bf93c8d318958/report",
+    "sh2/5a3ec895a98543f68f8026657bfc233e/node",
+    "sh2/60c57a3137a14aa3a459edef37b7d01f/node",
+    "sh2/886f022fce5a4aafae53135b491618c7/report",
+    "sh2/a940cdba1c3d4538927fded4b53b45b2/report",
+    "sh2/bab26334530a460ba6dfc9382d1482e2/node"
+  ],
+  "mode": "model",
+  "output": {
+    "winner_group_id": "hs.cross/H3+H5",
+    "reason": "hs.cross/H3+H5 is the only eligible group (merged, no type recheck) and has a coherent, FA-supported LRG/BGS absorption pattern: a doublet-supported Ca H/K pair (3/3 yes for both H3 and H5) plus several distinct FA signal_present absorption features (Mg I, H-beta, Na D, and the shared cwt:abs:0003). hs.merge/H1 is type_recheck_required and cannot win; its Ca H/K doublet review returned 0/3 and its only selected pairs are the shared cwt:abs:0003 (identified as H-gamma absorption) and an emission feature at cwt:em:0004, with no corroborating doublet support. The shared feature cwt:abs:0003 is a single observed signal whose line identity is contested (H-gamma-abs vs g-band-4305-abs), so it does not independently favour either group; the decisive advantage is the additional distinct, FA-confirmed Ca H/K doublet and other absorption features supporting H3+H5.",
+    "assessments": [
+      {
+        "group_id": "hs.merge/H1",
+        "support_pairs": [
+          {
+            "line_id": "line:hgam-4341-abs",
+            "feature_id": "cwt:abs:0003"
+          },
+          {
+            "line_id": "line:hgam-4341",
+            "feature_id": "cwt:em:0004"
+          }
+        ],
+        "conflict_pairs": [],
+        "comparative_evidence": {
+          "advantages": [
+            "cwt:abs:0003 is FA signal_present and is assigned to H-gamma absorption at a small descriptive offset (+38.09 A).",
+            "cwt:em:0004 is FA signal_present and assigned to H-gamma emission."
+          ],
+          "disadvantages": [
+            "Group is type_recheck_required and therefore ineligible to win this pass.",
+            "Ca H/K doublet review returned 0/3 yes (orphan mode), and OIII, SII, NII doublet reviews also returned 0/3, giving no doublet corroboration.",
+            "The only absorption support is the shared cwt:abs:0003, which the rival group identifies as g-band-4305-abs; no distinct FA-confirmed absorption feature supports this interpretation."
+          ],
+          "limitations": [
+            "The H-gamma emission/absorption pair at cwt:em:0004 and cwt:abs:0003 are not an independently confirmed doublet; the emission feature has no corroborating partner.",
+            "No uncertainty model is supplied, so the +38.09 A offset cannot be judged statistically."
+          ]
+        },
+        "unresolved": [
+          "Whether cwt:abs:0003 is physically H-gamma absorption or g-band-4305 absorption cannot be settled from the dossier alone.",
+          "Whether the type recheck would retain the LRG/BGS classification is unknown."
+        ],
+        "comparison_note": "Shares cwt:abs:0003 with hs.cross/H3+H5 under a competing line identity; the shared feature is one observed signal and does not count twice. H1 lacks the distinct Ca H/K doublet support that the rival group has."
+      },
+      {
+        "group_id": "hs.cross/H3+H5",
+        "support_pairs": [
+          {
+            "line_id": "line:cak-3934-abs",
+            "feature_id": "fit:H3:0006"
+          },
+          {
+            "line_id": "line:cah-3969-abs",
+            "feature_id": "fit:H3:0007"
+          },
+          {
+            "line_id": "line:gband-4305-abs",
+            "feature_id": "cwt:abs:0003"
+          },
+          {
+            "line_id": "line:hbet-4862-abs",
+            "feature_id": "cwt:abs:0005"
+          },
+          {
+            "line_id": "line:mgi-5176-abs",
+            "feature_id": "cwt:abs:0007"
+          },
+          {
+            "line_id": "line:nad1-5891-abs",
+            "feature_id": "cwt:abs:0009"
+          }
+        ],
+        "conflict_pairs": [
+          {
+            "line_id": "line:cak-3934-abs",
+            "feature_id": "fit:H5:0006"
+          },
+          {
+            "line_id": "line:cah-3969-abs",
+            "feature_id": "fit:H5:0007"
+          },
+          {
+            "line_id": "line:nad2-5897-abs",
+            "feature_id": "cwt:abs:0009"
+          }
+        ],
+        "comparative_evidence": {
+          "advantages": [
+            "Ca H/K doublet review is pair-supported 3/3 yes for both H3 and H5, with measured separation 42.44 A close to the expected ~44.3 A.",
+            "Multiple distinct FA signal_present absorption features (cwt:abs:0005 H-beta, cwt:abs:0007 Mg I, cwt:abs:0009 Na D) provide separate observational support beyond the shared cwt:abs:0003.",
+            "Group is merged with no type recheck required, making it eligible."
+          ],
+          "disadvantages": [
+            "Na D doublet review returned 0/3 yes (measured separation 0.0 A), and OIII and NII doublet reviews also returned 0/3, so those doublets are not corroborated.",
+            "Ca K/Ca H amplitude ratio is ~0.98, whereas the advisory note expects Ca K deeper than Ca H; this is advisory only."
+          ],
+          "limitations": [
+            "The Na D pair cwt:abs:0009 is assignment tbd and its doublet review was negative; it should be weighted weakly.",
+            "The shared cwt:abs:0003 identity as g-band-4305-abs is a working interpretation, not independent proof.",
+            "No uncertainty model is supplied for the small offsets."
+          ]
+        },
+        "unresolved": [
+          "Whether cwt:abs:0003 is g-band-4305 absorption or H-gamma absorption remains contested.",
+          "Whether the Na D feature cwt:abs:0009 is a real doublet or a single blended line is unresolved given the 0/3 doublet vote."
+        ],
+        "comparison_note": "The Ca H/K doublet is the strongest distinct discriminator: it is FA pair-supported for both H3 and H5, whereas H1's Ca H/K review was 0/3. The shared cwt:abs:0003 is a single contested signal and is not counted as independent support for either side."
+      }
+    ],
+    "merge_review": {
+      "proposals": [
+        {
+          "group_ids": [
+            "hs.merge/H3",
+            "hs.merge/H5"
+          ],
+          "reason": "H3 and H5 are nearly identical redshift solutions (0.27251 vs 0.27178) that share the same coherent LRG/BGS absorption structure: both have Ca K and Ca H fit_doublet detections at essentially the same observed wavelengths (Ca K ~5004.88 Å, Ca H ~5047.32 Å), both have FA-supported Ca H/K doublets (3/3 yes), and both assign the same shared CWT features (cwt:abs:0003 G band, cwt:abs:0005 H-beta, cwt:abs:0007 Mg I, cwt:abs:0009 Na D) with small offsets. The Ca K/Ca H diagnostics are the type-diagnostic lines here and agree closely in observed position, so these are plausibly one observed structure described by two nearly degenerate hypotheses rather than independent galaxies."
+        }
+      ],
+      "reason": "The only credible duplicate is H3/H5: their Ca K and Ca H type-diagnostic absorption doublets land at the same observed wavelengths and both pass FA doublet support, with the remaining shared CWT features consistent within a few Å. H1 is not merged: its Ca H/K doublet is unsupported (0/3) and its shared cwt:abs:0003 is assigned to H-gamma absorption rather than the G band, so its structure is not coherent with H3/H5 despite the shared feature."
+    },
+    "cross_merges": [
+      {
+        "status": "accepted",
+        "proposal": {
+          "group_ids": [
+            "hs.merge/H3",
+            "hs.merge/H5"
+          ],
+          "reason": "H3 and H5 are nearly identical redshift solutions (0.27251 vs 0.27178) that share the same coherent LRG/BGS absorption structure: both have Ca K and Ca H fit_doublet detections at essentially the same observed wavelengths (Ca K ~5004.88 Å, Ca H ~5047.32 Å), both have FA-supported Ca H/K doublets (3/3 yes), and both assign the same shared CWT features (cwt:abs:0003 G band, cwt:abs:0005 H-beta, cwt:abs:0007 Mg I, cwt:abs:0009 Na D) with small offsets. The Ca K/Ca H diagnostics are the type-diagnostic lines here and agree closely in observed position, so these are plausibly one observed structure described by two nearly degenerate hypotheses rather than independent galaxies."
+        },
+        "group_ids": [
+          "hs.merge/H3",
+          "hs.merge/H5"
+        ],
+        "reason": "H3 and H5 are nearly identical redshift solutions (0.27251 vs 0.27178) that share the same coherent LRG/BGS absorption structure: both have Ca K and Ca H fit_doublet detections at essentially the same observed wavelengths (Ca K ~5004.88 Å, Ca H ~5047.32 Å), both have FA-supported Ca H/K doublets (3/3 yes), and both assign the same shared CWT features (cwt:abs:0003 G band, cwt:abs:0005 H-beta, cwt:abs:0007 Mg I, cwt:abs:0009 Na D) with small offsets. The Ca K/Ca H diagnostics are the type-diagnostic lines here and agree closely in observed position, so these are plausibly one observed structure described by two nearly degenerate hypotheses rather than independent galaxies.",
+        "result_group_id": "hs.cross/H3+H5",
+        "fit_matches": [
+          {
+            "line_id": "line:cah-3969-abs",
+            "left_feature_id": "fit:H3:0007",
+            "right_feature_id": "fit:H5:0007",
+            "center_separation_angstrom": 0.0,
+            "fwhm_overlap_angstrom": 16.5035,
+            "left_fit": {
+              "center": 5047.321,
+              "center_err": 0.6398,
+              "amplitude": -1.963674,
+              "amplitude_err": 0.156254,
+              "fwhm": 16.467
+            },
+            "right_fit": {
+              "center": 5047.321,
+              "center_err": 0.6399,
+              "amplitude": -1.970934,
+              "amplitude_err": 0.156177,
+              "fwhm": 16.54
+            }
+          },
+          {
+            "line_id": "line:cak-3934-abs",
+            "left_feature_id": "fit:H3:0006",
+            "right_feature_id": "fit:H5:0006",
+            "center_separation_angstrom": 0.0,
+            "fwhm_overlap_angstrom": 19.954,
+            "left_fit": {
+              "center": 5004.88,
+              "center_err": 0.7148,
+              "amplitude": -1.932178,
+              "amplitude_err": 0.142273,
+              "fwhm": 19.901
+            },
+            "right_fit": {
+              "center": 5004.88,
+              "center_err": 0.7153,
+              "amplitude": -1.939078,
+              "amplitude_err": 0.142138,
+              "fwhm": 20.007
+            }
+          }
+        ],
+        "unresolved_identity_competitions": [],
+        "resolution": {
+          "merge_status": "merged",
+          "merged_anchor_redshift": 0.2719528311477075,
+          "anchor_source": {
+            "kind": "line",
+            "line_id": "line:cak-3934-abs",
+            "feature_id": "fit:H3:0006"
+          },
+          "all_candidate_pairs": [
+            {
+              "line_id": "line:cak-3934-abs",
+              "feature_id": "fit:H3:0006",
+              "wavelength_angstrom": 5004.88,
+              "rest_wavelength_angstrom": 3934.8,
+              "line_kind": "absorption",
+              "ionization_ev": null,
+              "measurement_source": "fit_doublet",
+              "provenance": [
+                {
+                  "hypothesis_ref": "H3",
+                  "assignment_status": "non_tbd",
+                  "fa_state": "signal_present",
+                  "fa_review_status": "original_measurement",
+                  "measurement_source": "fit_doublet",
+                  "prior_measurement_id": null,
+                  "prior_measurement_fa_state": null,
+                  "source_refs": [
+                    "sh/H3/judgments"
+                  ]
+                }
+              ],
+              "best_assignment_status": "non_tbd"
+            },
+            {
+              "line_id": "line:cak-3934-abs",
+              "feature_id": "fit:H5:0006",
+              "wavelength_angstrom": 5004.88,
+              "rest_wavelength_angstrom": 3934.8,
+              "line_kind": "absorption",
+              "ionization_ev": null,
+              "measurement_source": "fit_doublet",
+              "provenance": [
+                {
+                  "hypothesis_ref": "H5",
+                  "assignment_status": "non_tbd",
+                  "fa_state": "signal_present",
+                  "fa_review_status": "original_measurement",
+                  "measurement_source": "fit_doublet",
+                  "prior_measurement_id": null,
+                  "prior_measurement_fa_state": null,
+                  "source_refs": [
+                    "sh/H5/judgments"
+                  ]
+                }
+              ],
+              "best_assignment_status": "non_tbd"
+            },
+            {
+              "line_id": "line:cah-3969-abs",
+              "feature_id": "fit:H3:0007",
+              "wavelength_angstrom": 5047.321,
+              "rest_wavelength_angstrom": 3969.6,
+              "line_kind": "absorption",
+              "ionization_ev": null,
+              "measurement_source": "fit_doublet",
+              "provenance": [
+                {
+                  "hypothesis_ref": "H3",
+                  "assignment_status": "non_tbd",
+                  "fa_state": "signal_present",
+                  "fa_review_status": "original_measurement",
+                  "measurement_source": "fit_doublet",
+                  "prior_measurement_id": null,
+                  "prior_measurement_fa_state": null,
+                  "source_refs": [
+                    "sh/H3/judgments"
+                  ]
+                }
+              ],
+              "best_assignment_status": "non_tbd"
+            },
+            {
+              "line_id": "line:cah-3969-abs",
+              "feature_id": "fit:H5:0007",
+              "wavelength_angstrom": 5047.321,
+              "rest_wavelength_angstrom": 3969.6,
+              "line_kind": "absorption",
+              "ionization_ev": null,
+              "measurement_source": "fit_doublet",
+              "provenance": [
+                {
+                  "hypothesis_ref": "H5",
+                  "assignment_status": "non_tbd",
+                  "fa_state": "signal_present",
+                  "fa_review_status": "original_measurement",
+                  "measurement_source": "fit_doublet",
+                  "prior_measurement_id": null,
+                  "prior_measurement_fa_state": null,
+                  "source_refs": [
+                    "sh/H5/judgments"
+                  ]
+                }
+              ],
+              "best_assignment_status": "non_tbd"
+            },
+            {
+              "line_id": "line:gband-4305-abs",
+              "feature_id": "cwt:abs:0003",
+              "wavelength_angstrom": 5472.000000000426,
+              "rest_wavelength_angstrom": 4305.6,
+              "line_kind": "absorption",
+              "ionization_ev": null,
+              "measurement_source": "CWT",
+              "provenance": [
+                {
+                  "hypothesis_ref": "H3",
+                  "assignment_status": "non_tbd",
+                  "fa_state": "signal_present",
+                  "fa_review_status": "original_measurement",
+                  "measurement_source": "CWT",
+                  "prior_measurement_id": null,
+                  "prior_measurement_fa_state": null,
+                  "source_refs": [
+                    "sh/H3/judgments"
+                  ]
+                },
+                {
+                  "hypothesis_ref": "H5",
+                  "assignment_status": "non_tbd",
+                  "fa_state": "signal_present",
+                  "fa_review_status": "original_measurement",
+                  "measurement_source": "CWT",
+                  "prior_measurement_id": null,
+                  "prior_measurement_fa_state": null,
+                  "source_refs": [
+                    "sh/H5/judgments"
+                  ]
+                }
+              ],
+              "best_assignment_status": "non_tbd"
+            },
+            {
+              "line_id": "line:hbet-4862-abs",
+              "feature_id": "cwt:abs:0005",
+              "wavelength_angstrom": 6188.8000000000975,
+              "rest_wavelength_angstrom": 4862.7,
+              "line_kind": "absorption",
+              "ionization_ev": null,
+              "measurement_source": "CWT",
+              "provenance": [
+                {
+                  "hypothesis_ref": "H3",
+                  "assignment_status": "non_tbd",
+                  "fa_state": "signal_present",
+                  "fa_review_status": "original_measurement",
+                  "measurement_source": "CWT",
+                  "prior_measurement_id": null,
+                  "prior_measurement_fa_state": null,
+                  "source_refs": [
+                    "sh/H3/judgments"
+                  ]
+                },
+                {
+                  "hypothesis_ref": "H5",
+                  "assignment_status": "non_tbd",
+                  "fa_state": "signal_present",
+                  "fa_review_status": "original_measurement",
+                  "measurement_source": "CWT",
+                  "prior_measurement_id": null,
+                  "prior_measurement_fa_state": null,
+                  "source_refs": [
+                    "sh/H5/judgments"
+                  ]
+                }
+              ],
+              "best_assignment_status": "non_tbd"
+            },
+            {
+              "line_id": "line:mgi-5176-abs",
+              "feature_id": "cwt:abs:0007",
+              "wavelength_angstrom": 6583.200000000187,
+              "rest_wavelength_angstrom": 5176.7,
+              "line_kind": "absorption",
+              "ionization_ev": null,
+              "measurement_source": "CWT",
+              "provenance": [
+                {
+                  "hypothesis_ref": "H3",
+                  "assignment_status": "non_tbd",
+                  "fa_state": "signal_present",
+                  "fa_review_status": "original_measurement",
+                  "measurement_source": "CWT",
+                  "prior_measurement_id": null,
+                  "prior_measurement_fa_state": null,
+                  "source_refs": [
+                    "sh/H3/judgments"
+                  ]
+                },
+                {
+                  "hypothesis_ref": "H5",
+                  "assignment_status": "non_tbd",
+                  "fa_state": "signal_present",
+                  "fa_review_status": "original_measurement",
+                  "measurement_source": "CWT",
+                  "prior_measurement_id": null,
+                  "prior_measurement_fa_state": null,
+                  "source_refs": [
+                    "sh/H5/judgments"
+                  ]
+                }
+              ],
+              "best_assignment_status": "non_tbd"
+            },
+            {
+              "line_id": "line:nad1-5891-abs",
+              "feature_id": "cwt:abs:0009",
+              "wavelength_angstrom": 7496.800000000395,
+              "rest_wavelength_angstrom": 5891.6,
+              "line_kind": "absorption",
+              "ionization_ev": null,
+              "measurement_source": "CWT",
+              "provenance": [
+                {
+                  "hypothesis_ref": "H3",
+                  "assignment_status": "tbd",
+                  "fa_state": "signal_present",
+                  "fa_review_status": "original_measurement",
+                  "measurement_source": "CWT",
+                  "prior_measurement_id": null,
+                  "prior_measurement_fa_state": null,
+                  "source_refs": [
+                    "sh/H3/judgments"
+                  ]
+                },
+                {
+                  "hypothesis_ref": "H5",
+                  "assignment_status": "tbd",
+                  "fa_state": "signal_present",
+                  "fa_review_status": "original_measurement",
+                  "measurement_source": "CWT",
+                  "prior_measurement_id": null,
+                  "prior_measurement_fa_state": null,
+                  "source_refs": [
+                    "sh/H5/judgments"
+                  ]
+                }
+              ],
+              "best_assignment_status": "tbd"
+            },
+            {
+              "line_id": "line:nad2-5897-abs",
+              "feature_id": "cwt:abs:0009",
+              "wavelength_angstrom": 7496.800000000395,
+              "rest_wavelength_angstrom": 5897.6,
+              "line_kind": "absorption",
+              "ionization_ev": null,
+              "measurement_source": "CWT",
+              "provenance": [
+                {
+                  "hypothesis_ref": "H3",
+                  "assignment_status": "tbd",
+                  "fa_state": "signal_present",
+                  "fa_review_status": "original_measurement",
+                  "measurement_source": "CWT",
+                  "prior_measurement_id": null,
+                  "prior_measurement_fa_state": null,
+                  "source_refs": [
+                    "sh/H3/judgments"
+                  ]
+                },
+                {
+                  "hypothesis_ref": "H5",
+                  "assignment_status": "tbd",
+                  "fa_state": "signal_present",
+                  "fa_review_status": "original_measurement",
+                  "measurement_source": "CWT",
+                  "prior_measurement_id": null,
+                  "prior_measurement_fa_state": null,
+                  "source_refs": [
+                    "sh/H5/judgments"
+                  ]
+                }
+              ],
+              "best_assignment_status": "tbd"
+            }
+          ],
+          "selected_pairs": [
+            {
+              "line_id": "line:cak-3934-abs",
+              "feature_id": "fit:H3:0006",
+              "wavelength_angstrom": 5004.88,
+              "rest_wavelength_angstrom": 3934.8,
+              "line_kind": "absorption",
+              "ionization_ev": null,
+              "measurement_source": "fit_doublet",
+              "provenance": [
+                {
+                  "hypothesis_ref": "H3",
+                  "assignment_status": "non_tbd",
+                  "fa_state": "signal_present",
+                  "fa_review_status": "original_measurement",
+                  "measurement_source": "fit_doublet",
+                  "prior_measurement_id": null,
+                  "prior_measurement_fa_state": null,
+                  "source_refs": [
+                    "sh/H3/judgments"
+                  ]
+                }
+              ],
+              "best_assignment_status": "non_tbd",
+              "merge_conflict": true,
+              "final_assignment_status": "non_tbd"
+            },
+            {
+              "line_id": "line:cah-3969-abs",
+              "feature_id": "fit:H3:0007",
+              "wavelength_angstrom": 5047.321,
+              "rest_wavelength_angstrom": 3969.6,
+              "line_kind": "absorption",
+              "ionization_ev": null,
+              "measurement_source": "fit_doublet",
+              "provenance": [
+                {
+                  "hypothesis_ref": "H3",
+                  "assignment_status": "non_tbd",
+                  "fa_state": "signal_present",
+                  "fa_review_status": "original_measurement",
+                  "measurement_source": "fit_doublet",
+                  "prior_measurement_id": null,
+                  "prior_measurement_fa_state": null,
+                  "source_refs": [
+                    "sh/H3/judgments"
+                  ]
+                }
+              ],
+              "best_assignment_status": "non_tbd",
+              "merge_conflict": true,
+              "final_assignment_status": "non_tbd"
+            },
+            {
+              "line_id": "line:gband-4305-abs",
+              "feature_id": "cwt:abs:0003",
+              "wavelength_angstrom": 5472.000000000426,
+              "rest_wavelength_angstrom": 4305.6,
+              "line_kind": "absorption",
+              "ionization_ev": null,
+              "measurement_source": "CWT",
+              "provenance": [
+                {
+                  "hypothesis_ref": "H3",
+                  "assignment_status": "non_tbd",
+                  "fa_state": "signal_present",
+                  "fa_review_status": "original_measurement",
+                  "measurement_source": "CWT",
+                  "prior_measurement_id": null,
+                  "prior_measurement_fa_state": null,
+                  "source_refs": [
+                    "sh/H3/judgments"
+                  ]
+                },
+                {
+                  "hypothesis_ref": "H5",
+                  "assignment_status": "non_tbd",
+                  "fa_state": "signal_present",
+                  "fa_review_status": "original_measurement",
+                  "measurement_source": "CWT",
+                  "prior_measurement_id": null,
+                  "prior_measurement_fa_state": null,
+                  "source_refs": [
+                    "sh/H5/judgments"
+                  ]
+                }
+              ],
+              "best_assignment_status": "non_tbd",
+              "merge_conflict": false,
+              "final_assignment_status": "non_tbd"
+            },
+            {
+              "line_id": "line:hbet-4862-abs",
+              "feature_id": "cwt:abs:0005",
+              "wavelength_angstrom": 6188.8000000000975,
+              "rest_wavelength_angstrom": 4862.7,
+              "line_kind": "absorption",
+              "ionization_ev": null,
+              "measurement_source": "CWT",
+              "provenance": [
+                {
+                  "hypothesis_ref": "H3",
+                  "assignment_status": "non_tbd",
+                  "fa_state": "signal_present",
+                  "fa_review_status": "original_measurement",
+                  "measurement_source": "CWT",
+                  "prior_measurement_id": null,
+                  "prior_measurement_fa_state": null,
+                  "source_refs": [
+                    "sh/H3/judgments"
+                  ]
+                },
+                {
+                  "hypothesis_ref": "H5",
+                  "assignment_status": "non_tbd",
+                  "fa_state": "signal_present",
+                  "fa_review_status": "original_measurement",
+                  "measurement_source": "CWT",
+                  "prior_measurement_id": null,
+                  "prior_measurement_fa_state": null,
+                  "source_refs": [
+                    "sh/H5/judgments"
+                  ]
+                }
+              ],
+              "best_assignment_status": "non_tbd",
+              "merge_conflict": false,
+              "final_assignment_status": "non_tbd"
+            },
+            {
+              "line_id": "line:mgi-5176-abs",
+              "feature_id": "cwt:abs:0007",
+              "wavelength_angstrom": 6583.200000000187,
+              "rest_wavelength_angstrom": 5176.7,
+              "line_kind": "absorption",
+              "ionization_ev": null,
+              "measurement_source": "CWT",
+              "provenance": [
+                {
+                  "hypothesis_ref": "H3",
+                  "assignment_status": "non_tbd",
+                  "fa_state": "signal_present",
+                  "fa_review_status": "original_measurement",
+                  "measurement_source": "CWT",
+                  "prior_measurement_id": null,
+                  "prior_measurement_fa_state": null,
+                  "source_refs": [
+                    "sh/H3/judgments"
+                  ]
+                },
+                {
+                  "hypothesis_ref": "H5",
+                  "assignment_status": "non_tbd",
+                  "fa_state": "signal_present",
+                  "fa_review_status": "original_measurement",
+                  "measurement_source": "CWT",
+                  "prior_measurement_id": null,
+                  "prior_measurement_fa_state": null,
+                  "source_refs": [
+                    "sh/H5/judgments"
+                  ]
+                }
+              ],
+              "best_assignment_status": "non_tbd",
+              "merge_conflict": false,
+              "final_assignment_status": "non_tbd"
+            },
+            {
+              "line_id": "line:nad1-5891-abs",
+              "feature_id": "cwt:abs:0009",
+              "wavelength_angstrom": 7496.800000000395,
+              "rest_wavelength_angstrom": 5891.6,
+              "line_kind": "absorption",
+              "ionization_ev": null,
+              "measurement_source": "CWT",
+              "provenance": [
+                {
+                  "hypothesis_ref": "H3",
+                  "assignment_status": "tbd",
+                  "fa_state": "signal_present",
+                  "fa_review_status": "original_measurement",
+                  "measurement_source": "CWT",
+                  "prior_measurement_id": null,
+                  "prior_measurement_fa_state": null,
+                  "source_refs": [
+                    "sh/H3/judgments"
+                  ]
+                },
+                {
+                  "hypothesis_ref": "H5",
+                  "assignment_status": "tbd",
+                  "fa_state": "signal_present",
+                  "fa_review_status": "original_measurement",
+                  "measurement_source": "CWT",
+                  "prior_measurement_id": null,
+                  "prior_measurement_fa_state": null,
+                  "source_refs": [
+                    "sh/H5/judgments"
+                  ]
+                }
+              ],
+              "best_assignment_status": "tbd",
+              "merge_conflict": false,
+              "final_assignment_status": "tbd"
+            }
+          ],
+          "excluded_pairs": [
+            {
+              "line_id": "line:cak-3934-abs",
+              "feature_id": "fit:H5:0006",
+              "had_fa_confirmation": true,
+              "reason": "another_feature_selected_for_line"
+            },
+            {
+              "line_id": "line:cah-3969-abs",
+              "feature_id": "fit:H5:0007",
+              "had_fa_confirmation": true,
+              "reason": "another_feature_selected_for_line"
+            },
+            {
+              "line_id": "line:nad2-5897-abs",
+              "feature_id": "cwt:abs:0009",
+              "had_fa_confirmation": true,
+              "reason": "feature_selected_for_another_line"
+            }
+          ],
+          "fa_resolved_line_ids": [],
+          "merge_tbd_line_ids": [
+            "line:cah-3969-abs",
+            "line:cak-3934-abs"
+          ],
+          "lost_shared_key_pairs": [],
+          "lost_type_support_line_ids": [],
+          "type_recheck_required": false,
+          "retained_line_count": 6,
+          "relative_error_l1": 0.002376118631183477,
+          "relative_error_l2_squared": 1.3609857080473752e-06,
+          "iterations": [
+            {
+              "scoring_redshift": 0.2719528311477075,
+              "anchor_source": {
+                "kind": "line",
+                "line_id": "line:cak-3934-abs",
+                "feature_id": "fit:H3:0006"
+              },
+              "retained_line_count": 6,
+              "relative_error_l1": 0.002376118631183477,
+              "relative_error_l2_squared": 1.3609857080473752e-06
+            }
+          ]
+        }
+      }
+    ],
+    "status": "provisional_selection",
+    "ra_review_pending": true
+  }
+}

@@ -1,0 +1,175 @@
+{
+  "schema_version": "forma-fa-doublet-review-v1",
+  "node_type": "fa.doublet_review",
+  "node_key": "fa.real_doublet_or_not/graph-6f4e6510cc5d45df9da3b7be0c8597cc/H5/doublet%3Ana-d",
+  "run_id": "graph-6f4e6510cc5d45df9da3b7be0c8597cc",
+  "branch_id": "main",
+  "hypothesis_ref": "H5",
+  "doublet_id": "doublet:na-d",
+  "claim_mode": "complete_pair",
+  "components": [
+    {
+      "line_id": "line:nad1-5891-abs",
+      "line_name": "Na D1_abs",
+      "rest_angstrom": 5891.6,
+      "expected_obs_angstrom": 7492.83369505851,
+      "sh_status": "LIKELY",
+      "measurement_id": "cwt:abs:0009",
+      "measurement_source": "CWT",
+      "measured_center_angstrom": 7496.800000000395,
+      "amplitude": -1.8554353713989258,
+      "measured_offset_from_expected_angstrom": 3.966304941885028,
+      "fa_state": "signal_present",
+      "cleaned_pairing": "adopted",
+      "fa_vote_artifact_refs": [
+        "fa/9eacd4b79fe84695aef17fa9e5a68b86/node",
+        "fa/ab1b4345ca97424e80ee06d0bb2a320c/node",
+        "fa/5d95a96470a3428eaf63249b01346711/node"
+      ]
+    },
+    {
+      "line_id": "line:nad2-5897-abs",
+      "line_name": "Na D2_abs",
+      "rest_angstrom": 5897.6,
+      "expected_obs_angstrom": 7500.464389975061,
+      "sh_status": "LIKELY",
+      "measurement_id": "cwt:abs:0009",
+      "measurement_source": "CWT",
+      "measured_center_angstrom": 7496.800000000395,
+      "amplitude": -1.8554353713989258,
+      "measured_offset_from_expected_angstrom": -3.664389974665937,
+      "fa_state": "signal_present",
+      "cleaned_pairing": "adopted",
+      "fa_vote_artifact_refs": [
+        "fa/9eacd4b79fe84695aef17fa9e5a68b86/node",
+        "fa/ab1b4345ca97424e80ee06d0bb2a320c/node",
+        "fa/5d95a96470a3428eaf63249b01346711/node"
+      ]
+    }
+  ],
+  "metrics": {
+    "expected_separation_angstrom": 7.630694916550965,
+    "registry_rest_separation_angstrom": 6.0,
+    "measured_separation_angstrom": 0.0,
+    "separation_difference_angstrom": -7.630694916550965,
+    "amplitude_ratio_a_over_b": 1.0,
+    "reference_ratio_window_a_over_b": [
+      1.4,
+      2.8
+    ],
+    "reference_ratio_note": "a:b ≈ 2:1 (fitting hint)",
+    "reference_ratio_within_window": false,
+    "reference_ratio_is_advisory": true
+  },
+  "coverage": {
+    "requested_window_angstrom": [
+      7412.83369505851,
+      7580.464389975061
+    ],
+    "actual_window_angstrom": [
+      7413.600000000376,
+      7519.2000000004
+    ],
+    "spectrum_bounds_angstrom": [
+      3600.0,
+      9824.000000000524
+    ],
+    "component_cores": [
+      {
+        "line_id": "line:nad1-5891-abs",
+        "predicted_obs_angstrom": 7492.83369505851,
+        "center_within_spectrum_bounds": true,
+        "samples": 37,
+        "valid_samples": 37,
+        "masked_samples": 0,
+        "assessable": true
+      },
+      {
+        "line_id": "line:nad2-5897-abs",
+        "predicted_obs_angstrom": 7500.464389975061,
+        "center_within_spectrum_bounds": true,
+        "samples": 38,
+        "valid_samples": 38,
+        "masked_samples": 0,
+        "assessable": true
+      }
+    ],
+    "assessable": true,
+    "unreviewable_reason": null
+  },
+  "status": "complete",
+  "pair_supported": false,
+  "consultative_only": true,
+  "method_snapshot": {
+    "context_margin_angstrom": 80.0,
+    "component_check_half_angstrom": 15.0,
+    "cahk_outer_reference_sigma": 3.0,
+    "min_valid_component_samples": 5,
+    "vote_quorum": 3,
+    "max_attempts_per_vote_seat": 2
+  },
+  "vote_summary": {
+    "yes": 0,
+    "no": 3,
+    "yes_fraction": 0.0,
+    "assurance": "assured"
+  },
+  "ballots": [
+    {
+      "seat": 0,
+      "answer": "no",
+      "reason": "Both components are assigned the identical measured center (7496.8 Å) with identical amplitude, giving measured separation 0.0 Å versus the expected 7.63 Å. The spectrum shows a single broad absorption trough spanning ~7486–7502 Å with no distinct D1/D2 minima at 7492.8 and 7500.5 Å, so the two-component doublet is not corroborated.",
+      "vote_ref": "fa_doublet/7a7630f2d8aa42efb389a2253dada405/vote.json"
+    },
+    {
+      "seat": 1,
+      "answer": "no",
+      "reason": "Both components are assigned the identical measured center (7496.8 Å) with identical amplitude, giving zero measured separation versus the expected ~7.6 Å. The spectrum shows a single broad absorption trough spanning ~7488-7500 Å, not two distinct Na D components at 7492.8 and 7500.5 Å; the D2 window shows no separate dip. The pair is not corroborated.",
+      "vote_ref": "fa_doublet/ad88ebe044bf4665baadb34c6d394b06/vote.json"
+    },
+    {
+      "seat": 2,
+      "answer": "no",
+      "reason": "Both components are assigned the identical measured center (7496.8 Å) with identical amplitude, so the measured separation is 0 Å versus the expected 7.63 Å. The spectrum shows a single broad absorption trough spanning ~7486-7502 Å with no resolved two-minima structure at 7492.8 and 7500.5; the D1/D2 doublet is not corroborated.",
+      "vote_ref": "fa_doublet/89d9ba03637c404399423700c0cc3542/vote.json"
+    }
+  ],
+  "successful_votes": 3,
+  "required_votes": 3,
+  "failed_seats": 0,
+  "model_usage": {
+    "calls": 3,
+    "input_tokens": 16254,
+    "output_tokens": 419,
+    "cache_hit_tokens": 1536,
+    "cache_hit_reported_calls": 3,
+    "cache_hit_unreported_calls": 0
+  },
+  "prompt_identity": {
+    "system_sha256": "92cc96d1542cdf1088b68d4688ccd8de256ac572ab050c2a5e087060f5955e1b",
+    "user_sha256": "350adf3bd4af1c34d9b64339b56441e1ebbf19e8816683f03849ac10513f6812",
+    "tool_name": "submit_doublet_vote",
+    "prompt_text_sha256": "7b923192c671e3d3b05a31c8f98db9719afd0841dcf43b8b898c5d4c8f169825"
+  },
+  "source_refs": [
+    "sh/H5/node",
+    "sh/H5/catalog",
+    "sh/H5/judgments",
+    "spectrum_npz",
+    "fa/9eacd4b79fe84695aef17fa9e5a68b86/node",
+    "fa/ab1b4345ca97424e80ee06d0bb2a320c/node",
+    "fa/5d95a96470a3428eaf63249b01346711/node"
+  ],
+  "attempt_refs": [
+    "fa_doublet/7a7630f2d8aa42efb389a2253dada405/vote.json",
+    "fa_doublet/7a7630f2d8aa42efb389a2253dada405/session.md",
+    "fa_doublet/7a7630f2d8aa42efb389a2253dada405/model_usage.json",
+    "fa_doublet/ad88ebe044bf4665baadb34c6d394b06/vote.json",
+    "fa_doublet/ad88ebe044bf4665baadb34c6d394b06/session.md",
+    "fa_doublet/ad88ebe044bf4665baadb34c6d394b06/model_usage.json",
+    "fa_doublet/89d9ba03637c404399423700c0cc3542/vote.json",
+    "fa_doublet/89d9ba03637c404399423700c0cc3542/session.md",
+    "fa_doublet/89d9ba03637c404399423700c0cc3542/model_usage.json"
+  ],
+  "node_execution_id": "7fd36ba0e8f54e28a759758c8dfe9c3a"
+}

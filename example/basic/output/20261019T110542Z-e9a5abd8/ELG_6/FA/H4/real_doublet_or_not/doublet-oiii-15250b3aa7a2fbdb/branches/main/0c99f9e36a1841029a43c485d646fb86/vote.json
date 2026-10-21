@@ -1,0 +1,13 @@
+{
+  "answer": "no",
+  "reason": "Both windows are flat noise plateaus at the predicted positions (4961.4 and 5009.3 Å); no distinct peaks. Claimed centers (4985.7, 5025.0 Å) are 24 and 16 Å off prediction, separation is 39 vs 48 Å expected, and the ratio is inverted. No credible two-component pair.",
+  "execution": {
+    "schema_version": "forma-agentic-node-execution-v1",
+    "run_id": "graph-fe0d30030bcc4939b88103e27753b2c1",
+    "branch_id": "main",
+    "node_key": "fa.real_doublet_or_not/graph-fe0d30030bcc4939b88103e27753b2c1/H4/doublet%3Aoiii",
+    "node_execution_id": "0c99f9e36a1841029a43c485d646fb86",
+    "attempt_id": "10ff638cb36f403eb462b336c3a97ee9",
+    "relative_dir": "FA/H4/real_doublet_or_not/doublet-oiii-15250b3aa7a2fbdb/branches/main/0c99f9e36a1841029a43c485d646fb86"
+  }
+}

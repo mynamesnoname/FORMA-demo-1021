@@ -1,0 +1,13 @@
+{
+  "answer": "yes",
+  "reason": "Two distinct emission peaks are visible: one at ~8109 Å (component a) and a separate one at ~8153 Å (component b), separated by ~44 Å, matching the expected 43.95 Å separation. The trough between them returns to continuum, confirming two real components. The 0.0 measured separation and 1.0 ratio are artifacts of a shared measurement ID, not the pixel data.",
+  "execution": {
+    "schema_version": "forma-agentic-node-execution-v1",
+    "run_id": "graph-853b617a68f04c36bd82f06bdb770ac4",
+    "branch_id": "main",
+    "node_key": "fa.real_doublet_or_not/graph-853b617a68f04c36bd82f06bdb770ac4/H3/doublet%3Anii",
+    "node_execution_id": "64ce3a58e52540deb4528db23242186e",
+    "attempt_id": "1bd58f26ee5b4e60a28131f31bb15cb9",
+    "relative_dir": "FA/H3/real_doublet_or_not/doublet-nii-9c5a452678982a5b/branches/main/64ce3a58e52540deb4528db23242186e"
+  }
+}

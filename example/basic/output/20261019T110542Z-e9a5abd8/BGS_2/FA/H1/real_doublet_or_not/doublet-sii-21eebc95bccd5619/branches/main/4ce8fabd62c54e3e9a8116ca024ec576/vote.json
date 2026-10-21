@@ -1,0 +1,13 @@
+{
+  "answer": "yes",
+  "reason": "Both windows show distinct positive emission bumps above continuum: a peaks ~7786-7788 Å and b peaks ~7803-7806 Å, separated ~17.7 Å (near expected 16.7 Å). Centers are close to predictions, amplitude ratio ~1.2 within advisory window, and both FA states are signal_present. Joint two-component interpretation is corroborated.",
+  "execution": {
+    "schema_version": "forma-agentic-node-execution-v1",
+    "run_id": "graph-df7434d5533647e999870708120307b0",
+    "branch_id": "main",
+    "node_key": "fa.real_doublet_or_not/graph-df7434d5533647e999870708120307b0/H1/doublet%3Asii",
+    "node_execution_id": "4ce8fabd62c54e3e9a8116ca024ec576",
+    "attempt_id": "d52d07d764c340238c1b1dc47283987c",
+    "relative_dir": "FA/H1/real_doublet_or_not/doublet-sii-21eebc95bccd5619/branches/main/4ce8fabd62c54e3e9a8116ca024ec576"
+  }
+}

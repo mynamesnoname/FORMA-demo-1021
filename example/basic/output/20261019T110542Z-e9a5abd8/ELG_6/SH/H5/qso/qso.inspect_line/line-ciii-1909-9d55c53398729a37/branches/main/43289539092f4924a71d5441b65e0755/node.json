@@ -1,0 +1,52 @@
+{
+  "schema_version": "forma-qso-node-v1",
+  "graph_version": "forma-qso-entry-v1",
+  "run_id": "graph-fe0d30030bcc4939b88103e27753b2c1",
+  "branch_id": "main",
+  "hypothesis_ref": "H5",
+  "node_key": "sh2.qso/H5/qso.inspect_line/line:ciii-1909",
+  "node_type": "qso.inspect_line/line:ciii-1909",
+  "status": "completed",
+  "input_refs": [
+    "sh2/5ca1798fdd78492f8847b6879342a135/node",
+    "spectrum_npz"
+  ],
+  "output": {
+    "line_id": "line:ciii-1909",
+    "finding": "no_coherent_signal_seen",
+    "broad_envelope": false,
+    "absorption_fragmentation": false,
+    "reason": "The spectrum around the predicted CIII] wavelength (~5080 A) shows only low-level noise fluctuations with no coherent broad emission envelope on either side of the prediction; flux values scatter around ~0.7-0.9 with no elevated broad feature or paired lobes separated by a trough.",
+    "model_usage": [
+      {
+        "input_tokens": 23058,
+        "output_tokens": 90,
+        "total_tokens": 23148,
+        "cache_hit_tokens": 22912,
+        "cache_miss_tokens": 146,
+        "provider_usage": {
+          "completion_tokens": 90,
+          "prompt_tokens": 23058,
+          "total_tokens": 23148,
+          "completion_tokens_details": null,
+          "prompt_tokens_details": {
+            "audio_tokens": null,
+            "cached_tokens": 22912
+          },
+          "prompt_cache_hit_tokens": 22912,
+          "prompt_cache_miss_tokens": 146
+        }
+      }
+    ],
+    "window_ref": "sh2/43289539092f4924a71d5441b65e0755/window",
+    "session_ref": "sh2/43289539092f4924a71d5441b65e0755/session"
+  },
+  "evidence_refs": [
+    "sh2/5ca1798fdd78492f8847b6879342a135/node",
+    "spectrum_npz"
+  ],
+  "unresolved_reasons": [],
+  "created_by": "mixed",
+  "node_execution_id": "43289539092f4924a71d5441b65e0755",
+  "attempt_id": "7b57f504968d4b8b84ddec83a561b719"
+}

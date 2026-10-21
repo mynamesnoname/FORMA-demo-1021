@@ -1,0 +1,13 @@
+{
+  "answer": "no",
+  "reason": "Component a window (5883.2–5884.8 Å) is flat continuum with no absorption dip at the predicted 5883.92 Å. Component b shows only a shallow, broad low-S/N depression near 5891.3 Å, displaced ~1.4 Å from its 5889.91 Å prediction (pairing mismatch), already flagged signal_absent. No credible second component; the orphan partner is not corroborated in usable pixels.",
+  "execution": {
+    "schema_version": "forma-agentic-node-execution-v1",
+    "run_id": "graph-df7434d5533647e999870708120307b0",
+    "branch_id": "main",
+    "node_key": "fa.real_doublet_or_not/graph-df7434d5533647e999870708120307b0/H2/doublet%3Ana-d",
+    "node_execution_id": "69fd3e38aeea499bbd74d34d29fa9550",
+    "attempt_id": "259b41183ab544b4b255458b16234708",
+    "relative_dir": "FA/H2/real_doublet_or_not/doublet-na-d-88682f96f7f171d3/branches/main/69fd3e38aeea499bbd74d34d29fa9550"
+  }
+}

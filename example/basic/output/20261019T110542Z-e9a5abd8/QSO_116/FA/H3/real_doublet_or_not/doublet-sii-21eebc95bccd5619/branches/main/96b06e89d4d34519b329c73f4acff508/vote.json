@@ -1,0 +1,13 @@
+{
+  "answer": "no",
+  "reason": "Both component windows (6714.5 and 6728.9 Å) show only flat noise-level flux with no emission peak; the claimed measurement centers are ~50 Å blueward of prediction, and both single-feature states are signal_absent. No two-component structure is corroborated.",
+  "execution": {
+    "schema_version": "forma-agentic-node-execution-v1",
+    "run_id": "graph-325ff74c7f444efdb17e3f3b69698eea",
+    "branch_id": "main",
+    "node_key": "fa.real_doublet_or_not/graph-325ff74c7f444efdb17e3f3b69698eea/H3/doublet%3Asii",
+    "node_execution_id": "96b06e89d4d34519b329c73f4acff508",
+    "attempt_id": "55896c0835ad4dbc9e989293f6c129a3",
+    "relative_dir": "FA/H3/real_doublet_or_not/doublet-sii-21eebc95bccd5619/branches/main/96b06e89d4d34519b329c73f4acff508"
+  }
+}

@@ -1,0 +1,102 @@
+{
+  "schema_version": "forma-type-entry-route-v1",
+  "run_id": "graph-fe0d30030bcc4939b88103e27753b2c1",
+  "branch_id": "main",
+  "hypothesis_ref": "H5",
+  "node_key": "sh2.entry_router/H5",
+  "input_refs": [
+    "fa/16f6b65f79454e65b2c87ca5fd0998ec/node",
+    "fa/1e34ea100b834a04b471fc74fc6661ff/node",
+    "fa/2c50ff5c25364b928cab718eadd55f86/node",
+    "fa/3941e33df75a4c7e8d908ca2461d60a6/node",
+    "fa/5984f4b939e74d2ca12b6f216e6e053f/node",
+    "fa/7b247e5a27b649c6bf4d59a0493744ec/node",
+    "fa/84ce2500796f47308729e2acb8f7155b/node",
+    "fa/8d277314fa5e4142be3176009d6d0870/node",
+    "fa/8f8b5030d5bf4ec6811d1058ca502346/node",
+    "fa/9be9acdfdd98486eaba21433da416e2b/node",
+    "fa/d0ea9e0d4ff043fc860789505e4ce204/node",
+    "fa/e4d33edb9cc34845851b82f8e810ee25/node",
+    "sh/H5/catalog",
+    "sh/H5/judgments",
+    "sh/H5/node",
+    "spectrum_npz"
+  ],
+  "output": {
+    "checks": [
+      {
+        "name": "nev",
+        "positive": false,
+        "pairs": []
+      },
+      {
+        "name": "qso_type1",
+        "positive": true,
+        "pairs": [
+          {
+            "line_id": "line:civ-1549",
+            "measurement_id": "cwt:em:0000"
+          },
+          {
+            "line_id": "line:mgii-2800",
+            "measurement_id": "cwt:em:0015"
+          }
+        ],
+        "mgii_pair_retains_galaxy": false
+      },
+      {
+        "name": "old_population",
+        "positive": false,
+        "pairs": [],
+        "dn4000": {
+          "index_id": "index:dn4000",
+          "rule_id": "rule:formal-dn4000-interpretation",
+          "reference_bands": {
+            "strong": 1.6,
+            "moderate_low": 1.3,
+            "moderate_high": 1.6
+          },
+          "minimum_valid_samples_per_band": 3,
+          "windows": {
+            "blue": {
+              "window_angstrom": [
+                10244.920818256589,
+                10511.022657691825
+              ],
+              "fully_covered": false,
+              "sample_count": 0,
+              "usable_sample_count": 0,
+              "mean_flux": null
+            },
+            "red": {
+              "window_angstrom": [
+                10644.073577409443,
+                10910.175416844679
+              ],
+              "fully_covered": false,
+              "sample_count": 0,
+              "usable_sample_count": 0,
+              "mean_flux": null
+            }
+          },
+          "value": null,
+          "reference_strength": "unknown",
+          "consultative_only": true,
+          "unresolved_reason": "insufficient_usable_band_data"
+        }
+      },
+      {
+        "name": "emission_galaxy",
+        "positive": false,
+        "oii_pair": null,
+        "oiii_pairs": [],
+        "oiii_distinct_pair": false
+      }
+    ],
+    "selected_initial_graph": "QSO",
+    "selected_reason": "adopted_qso_diagnostic",
+    "eligible_graphs": [
+      "QSO"
+    ]
+  }
+}

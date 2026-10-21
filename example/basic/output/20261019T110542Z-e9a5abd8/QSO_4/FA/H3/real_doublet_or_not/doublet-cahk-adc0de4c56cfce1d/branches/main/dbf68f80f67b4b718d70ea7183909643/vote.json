@@ -1,0 +1,13 @@
+{
+  "answer": "no",
+  "reason": "Ca K window shows only a shallow, broad dip near 4868 Å, ~3.5 Å blueward of prediction, flagged signal_absent/rejected_measurement. Ca H window (~4914.6 Å) shows a local flux maximum (~7.4–8.0), no absorption trough, SH NOT_FOUND. Neither component is corroborated, so the two-component interpretation is unsupported.",
+  "execution": {
+    "schema_version": "forma-agentic-node-execution-v1",
+    "run_id": "graph-853b617a68f04c36bd82f06bdb770ac4",
+    "branch_id": "main",
+    "node_key": "fa.real_doublet_or_not/graph-853b617a68f04c36bd82f06bdb770ac4/H3/doublet%3Acahk",
+    "node_execution_id": "dbf68f80f67b4b718d70ea7183909643",
+    "attempt_id": "2b50d022b8834c40ba2a10e6e58279c3",
+    "relative_dir": "FA/H3/real_doublet_or_not/doublet-cahk-adc0de4c56cfce1d/branches/main/dbf68f80f67b4b718d70ea7183909643"
+  }
+}

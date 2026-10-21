@@ -1,0 +1,233 @@
+[
+  {
+    "target": "Ca K_abs/Ca H_abs",
+    "method": "fit_doublet",
+    "predicted_obs": [
+      4355.020890043408,
+      4393.537390748275
+    ],
+    "result": {
+      "component_1": {
+        "center": 4355.473,
+        "center_err": 1.0183,
+        "amplitude": -1.261802,
+        "amplitude_err": 0.907154,
+        "sigma": 1.23,
+        "fwhm": 2.896,
+        "fwhm_km_s": 199.4
+      },
+      "component_2": {
+        "center": 4343.537,
+        "center_err": 138.9852,
+        "amplitude": -0.296837,
+        "amplitude_err": 0.495222,
+        "sigma": 164.178,
+        "fwhm": 386.61,
+        "fwhm_km_s": 26683.9
+      },
+      "delta_chi2_per_n": 0.618,
+      "local_rms": 0.289543,
+      "local_snr": 4.36,
+      "separation_check": {
+        "observed_sep_A": 11.94,
+        "expected_sep_A": 38.52,
+        "match": false
+      },
+      "amp_ratio_check": null,
+      "n_points": 750,
+      "flags": [
+        "center_2_deviation_large"
+      ],
+      "message": "Fit with warnings. C1: 4355.47±1.018 Å, amp=-1.2618, FWHM=2.9 Å C2: 4343.54±138.985 Å, amp=-0.2968, FWHM=386.6 Å S/N=4.4, Δχ²/n=0.6 sep=11.9 Å ✗"
+    },
+    "status": "warning"
+  },
+  {
+    "target": "Na D1_abs/Na D2_abs",
+    "method": "fit_doublet",
+    "predicted_obs": [
+      6520.79929749409,
+      6527.440073477688
+    ],
+    "result": {
+      "component_1": {
+        "center": 6527.317,
+        "center_err": 1.3524,
+        "amplitude": -0.096473,
+        "amplitude_err": 0.082312,
+        "sigma": 1.374,
+        "fwhm": 3.235,
+        "fwhm_km_s": 148.6
+      },
+      "component_2": {
+        "center": 6576.145,
+        "center_err": 0.7724,
+        "amplitude": -0.173172,
+        "amplitude_err": 0.080294,
+        "sigma": 1.444,
+        "fwhm": 3.4,
+        "fwhm_km_s": 155.0
+      },
+      "delta_chi2_per_n": 0.019,
+      "local_rms": 0.093545,
+      "local_snr": 1.85,
+      "separation_check": {
+        "observed_sep_A": 48.83,
+        "expected_sep_A": 6.64,
+        "match": false
+      },
+      "amp_ratio_check": {
+        "observed_ratio": 1.8,
+        "expected_ratio": 2.0
+      },
+      "n_points": 750,
+      "flags": [],
+      "message": "Fit OK. C1: 6527.32±1.352 Å, amp=-0.0965, FWHM=3.2 Å C2: 6576.15±0.772 Å, amp=-0.1732, FWHM=3.4 Å S/N=1.9, Δχ²/n=0.0 sep=48.8 Å ✗"
+    },
+    "status": "warning"
+  },
+  {
+    "target": "[Ne V]",
+    "method": "fit_peak",
+    "predicted_obs": [
+      3791.8830866343187
+    ],
+    "result": {
+      "center": 3841.882,
+      "center_err": 0.0,
+      "amplitude": 0.0,
+      "amplitude_err": 0.217003,
+      "sigma": 199.994,
+      "fwhm": 470.95,
+      "fwhm_km_s": 36749.5,
+      "delta_chi2_per_n": -0.0,
+      "local_rms": 0.421497,
+      "local_snr": 0.0,
+      "n_points": 490,
+      "flags": [
+        "center_at_bound"
+      ],
+      "message": "Fit OK. center=3841.88±0.000 Å, amp=0.0000, FWHM=470.9 Å (36750 km/s), S/N=0.0, Δχ²/n=-0.0"
+    },
+    "status": "warning"
+  },
+  {
+    "target": "Hε",
+    "method": "fit_peak",
+    "predicted_obs": [
+      4394.090788746908
+    ],
+    "result": {
+      "center": 4395.27,
+      "center_err": 0.3222,
+      "amplitude": 1.210277,
+      "amplitude_err": 0.337919,
+      "sigma": 1.0,
+      "fwhm": 2.355,
+      "fwhm_km_s": 160.6,
+      "delta_chi2_per_n": 0.104,
+      "local_rms": 0.2497,
+      "local_snr": 4.85,
+      "n_points": 500,
+      "flags": [],
+      "message": "Fit OK. center=4395.27±0.322 Å, amp=1.2103, FWHM=2.4 Å (161 km/s), S/N=4.8, Δχ²/n=0.1"
+    },
+    "status": "ok"
+  },
+  {
+    "target": "Hε_abs",
+    "method": "fit_peak",
+    "predicted_obs": [
+      4394.090788746908
+    ],
+    "result": {
+      "center": 4444.089,
+      "center_err": 0.0,
+      "amplitude": -0.0,
+      "amplitude_err": 0.166218,
+      "sigma": 199.995,
+      "fwhm": 470.951,
+      "fwhm_km_s": 31769.7,
+      "delta_chi2_per_n": -0.0,
+      "local_rms": 0.247833,
+      "local_snr": 0.0,
+      "n_points": 500,
+      "flags": [
+        "center_at_bound"
+      ],
+      "message": "Fit OK. center=4444.09±0.000 Å, amp=-0.0000, FWHM=471.0 Å (31770 km/s), S/N=0.0, Δχ²/n=-0.0"
+    },
+    "status": "warning"
+  },
+  {
+    "target": "Hδ_abs",
+    "method": "fit_peak",
+    "predicted_obs": [
+      4541.073297183872
+    ],
+    "result": {
+      "center": 4558.952,
+      "center_err": 60.8629,
+      "amplitude": -0.030634,
+      "amplitude_err": 0.045429,
+      "sigma": 36.19,
+      "fwhm": 85.222,
+      "fwhm_km_s": 5604.1,
+      "delta_chi2_per_n": 0.004,
+      "local_rms": 0.199453,
+      "local_snr": 0.15,
+      "n_points": 500,
+      "flags": [],
+      "message": "Fit OK. center=4558.95±60.863 Å, amp=-0.0306, FWHM=85.2 Å (5604 km/s), S/N=0.1, Δχ²/n=0.0"
+    },
+    "status": "ok"
+  },
+  {
+    "target": "Mg I_abs",
+    "method": "fit_peak",
+    "predicted_obs": [
+      5729.5508390484165
+    ],
+    "result": {
+      "center": 5679.551,
+      "center_err": 68.5887,
+      "amplitude": -1.884127,
+      "amplitude_err": 2.253024,
+      "sigma": 117.071,
+      "fwhm": 275.682,
+      "fwhm_km_s": 14551.7,
+      "delta_chi2_per_n": 14.234,
+      "local_rms": 0.353684,
+      "local_snr": 5.33,
+      "n_points": 451,
+      "flags": [
+        "center_at_bound"
+      ],
+      "message": "Fit OK. center=5679.55±68.589 Å, amp=-1.8841, FWHM=275.7 Å (14552 km/s), S/N=5.3, Δχ²/n=14.2"
+    },
+    "status": "warning"
+  },
+  {
+    "target": "CaT3_abs",
+    "method": "fit_peak",
+    "predicted_obs": [
+      9587.066928320626
+    ],
+    "result": {
+      "center": 9597.99,
+      "center_err": 0.0,
+      "amplitude": -0.0,
+      "amplitude_err": 0.055507,
+      "sigma": 9.436,
+      "fwhm": 22.22,
+      "fwhm_km_s": 694.0,
+      "delta_chi2_per_n": -0.0,
+      "local_rms": 0.114304,
+      "local_snr": 0.0,
+      "n_points": 500,
+      "flags": [],
+      "message": "Fit OK. center=9597.99±0.000 Å, amp=-0.0000, FWHM=22.2 Å (694 km/s), S/N=0.0, Δχ²/n=-0.0"
+    },
+    "status": "ok"
+  }
+]

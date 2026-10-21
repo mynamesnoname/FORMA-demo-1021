@@ -1,0 +1,13 @@
+{
+  "answer": "no",
+  "reason": "Neither component window shows an absorption dip: at predicted 5883.5 Å (samples 2803-2810) and 5889.5 Å (2811-2816) flux stays at continuum ~4.2-5.4 with no negative excursion. Both claimed centers (5914.7, 5920.5 Å) are ~31 Å off prediction and also sit at continuum level, a pairing mismatch. Both FA states are signal_absent and amplitudes are 0.0, so the near-6 Å separation is coincidental, not a real doublet.",
+  "execution": {
+    "schema_version": "forma-agentic-node-execution-v1",
+    "run_id": "graph-df7434d5533647e999870708120307b0",
+    "branch_id": "main",
+    "node_key": "fa.real_doublet_or_not/graph-df7434d5533647e999870708120307b0/H4/doublet%3Ana-d",
+    "node_execution_id": "a8e8b42dc4f04f21a43e73abec70c97f",
+    "attempt_id": "a17e8da3ce964222b316ed608dc2f802",
+    "relative_dir": "FA/H4/real_doublet_or_not/doublet-na-d-88682f96f7f171d3/branches/main/a8e8b42dc4f04f21a43e73abec70c97f"
+  }
+}

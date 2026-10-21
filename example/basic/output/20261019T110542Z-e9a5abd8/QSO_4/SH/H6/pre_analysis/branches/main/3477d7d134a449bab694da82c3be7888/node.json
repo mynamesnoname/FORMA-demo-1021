@@ -1,0 +1,26 @@
+{
+  "schema_version": "forma-sh-line-review-v1",
+  "key": "sh.pre_analysis/graph-853b617a68f04c36bd82f06bdb770ac4/H6",
+  "hypothesis_ref": "H6",
+  "hypothesis_redshift": 1.902738756933621,
+  "status": "complete",
+  "csv_path": "/mnt/linux_share/code/FORMA/example/basic/output/20261019T110542Z-e9a5abd8/QSO_4/SH/H6/pre_analysis/branches/main/3477d7d134a449bab694da82c3be7888/lines.csv",
+  "csv_sha256": "8d6390a23f137b6f34ed8be03be3a2780bdda7c0a7b2015269e7d1a4ee7513c6",
+  "measurement_catalog_path": "/mnt/linux_share/code/FORMA/example/basic/output/20261019T110542Z-e9a5abd8/QSO_4/VI/measurements/hypothesis_005_measurement_catalog.json",
+  "measurement_catalog_sha256": "aa36872d2c1d0a6ccec38c3545949b5110755cdf16a6b82c7c0aa822f715bf39",
+  "judgment_path": "/mnt/linux_share/code/FORMA/example/basic/output/20261019T110542Z-e9a5abd8/QSO_4/SH/H6/pre_analysis/branches/main/3477d7d134a449bab694da82c3be7888/lines_judgments.json",
+  "judgment_sha256": "a3983758d3eead35e8b29efe9a2f529b88a9cba89d18cb9b08f277a2cf893997",
+  "session_stage1_path": "/mnt/linux_share/code/FORMA/example/basic/output/20261019T110542Z-e9a5abd8/QSO_4/SH/H6/pre_analysis/branches/main/3477d7d134a449bab694da82c3be7888/stage1_session.md",
+  "session_stage1_sha256": "3cc18efffe015c72ddddca1b90c4fff968881dd87a9d36b9e6cee0085c78e066",
+  "adopted_lines_plot_path": "/mnt/linux_share/code/FORMA/example/basic/output/20261019T110542Z-e9a5abd8/QSO_4/SH/H6/pre_analysis/branches/main/3477d7d134a449bab694da82c3be7888/adopted_lines.png",
+  "adopted_lines_plot_sha256": "4c52b31717853ff7fa4bb6d0a9e58215b903cabbf95393eb85d69c82e84a8b86",
+  "execution": {
+    "schema_version": "forma-agentic-node-execution-v1",
+    "run_id": "graph-853b617a68f04c36bd82f06bdb770ac4",
+    "branch_id": "main",
+    "node_key": "sh.pre_analysis/graph-853b617a68f04c36bd82f06bdb770ac4/H6",
+    "node_execution_id": "3477d7d134a449bab694da82c3be7888",
+    "attempt_id": "4780f710a6f64151b84248214cf3e682",
+    "relative_dir": "SH/H6/pre_analysis/branches/main/3477d7d134a449bab694da82c3be7888"
+  }
+}

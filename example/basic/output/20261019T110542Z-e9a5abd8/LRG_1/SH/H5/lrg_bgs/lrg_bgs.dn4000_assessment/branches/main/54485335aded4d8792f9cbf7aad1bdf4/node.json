@@ -1,0 +1,60 @@
+{
+  "schema_version": "forma-lrg-bgs-node-v1",
+  "graph_version": "forma-lrg-bgs-type-graph-v2",
+  "run_id": "graph-6f4e6510cc5d45df9da3b7be0c8597cc",
+  "branch_id": "main",
+  "hypothesis_ref": "H5",
+  "node_key": "sh2.lrg_bgs/H5/lrg_bgs.dn4000_assessment",
+  "node_type": "lrg_bgs.dn4000_assessment",
+  "status": "completed",
+  "input_refs": [
+    "sh2/3448709a8e194991850054c4d3a52da7/node",
+    "sh/H5/catalog",
+    "spectrum_npz"
+  ],
+  "evidence_refs": [
+    "sh2/3448709a8e194991850054c4d3a52da7/node",
+    "sh/H5/catalog",
+    "spectrum_npz"
+  ],
+  "output": {
+    "index_id": "index:dn4000",
+    "rule_id": "rule:formal-dn4000-interpretation",
+    "reference_bands": {
+      "strong": 1.6,
+      "moderate_low": 1.3,
+      "moderate_high": 1.6
+    },
+    "minimum_valid_samples_per_band": 3,
+    "windows": {
+      "blue": {
+        "window_angstrom": [
+          4896.36257145347,
+          5023.540820062651
+        ],
+        "fully_covered": true,
+        "sample_count": 159,
+        "usable_sample_count": 159,
+        "mean_flux": 2.391837862302672
+      },
+      "red": {
+        "window_angstrom": [
+          5087.1299443672415,
+          5214.308192976422
+        ],
+        "fully_covered": true,
+        "sample_count": 159,
+        "usable_sample_count": 159,
+        "mean_flux": 4.395970203591593
+      }
+    },
+    "value": 1.837904764731628,
+    "reference_strength": "strong",
+    "consultative_only": true,
+    "unresolved_reason": null
+  },
+  "unresolved_reasons": [],
+  "created_by": "code",
+  "node_execution_id": "54485335aded4d8792f9cbf7aad1bdf4",
+  "attempt_id": "22fdf90c5712439d94b031f7dedcfc54"
+}

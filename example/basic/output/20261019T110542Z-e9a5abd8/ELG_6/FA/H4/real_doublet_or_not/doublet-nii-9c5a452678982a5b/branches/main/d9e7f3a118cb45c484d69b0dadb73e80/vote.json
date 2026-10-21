@@ -1,0 +1,13 @@
+{
+  "answer": "no",
+  "reason": "Neither predicted window shows a real line: at 6551 Å and 6587 Å the usable pixels are flat continuum scatter (~0.5-0.6) with no peak. Both claimed centers sit ~47 Å redward of prediction (pairing mismatch), FA states are signal_absent, and the amplitude ratio is outside the advisory window. No two-component structure is corroborated.",
+  "execution": {
+    "schema_version": "forma-agentic-node-execution-v1",
+    "run_id": "graph-fe0d30030bcc4939b88103e27753b2c1",
+    "branch_id": "main",
+    "node_key": "fa.real_doublet_or_not/graph-fe0d30030bcc4939b88103e27753b2c1/H4/doublet%3Anii",
+    "node_execution_id": "d9e7f3a118cb45c484d69b0dadb73e80",
+    "attempt_id": "e62486e36ed44c20a63dcef79baba5b9",
+    "relative_dir": "FA/H4/real_doublet_or_not/doublet-nii-9c5a452678982a5b/branches/main/d9e7f3a118cb45c484d69b0dadb73e80"
+  }
+}

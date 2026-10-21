@@ -1,0 +1,196 @@
+{
+  "schema_version": "forma-qso-node-v1",
+  "graph_version": "forma-qso-entry-v1",
+  "run_id": "graph-fe0d30030bcc4939b88103e27753b2c1",
+  "branch_id": "main",
+  "hypothesis_ref": "H5",
+  "node_key": "sh2.qso/H5/qso.evidence_view",
+  "node_type": "qso.evidence_view",
+  "status": "completed",
+  "input_refs": [
+    "sh2/85981d64043047c3ba516581af0ee40b/node",
+    "sh/H5/node",
+    "sh/H5/catalog",
+    "sh/H5/judgments",
+    "fa/16f6b65f79454e65b2c87ca5fd0998ec/node",
+    "fa/1e34ea100b834a04b471fc74fc6661ff/node",
+    "fa/2c50ff5c25364b928cab718eadd55f86/node",
+    "fa/3941e33df75a4c7e8d908ca2461d60a6/node",
+    "fa/5984f4b939e74d2ca12b6f216e6e053f/node",
+    "fa/7b247e5a27b649c6bf4d59a0493744ec/node",
+    "fa/84ce2500796f47308729e2acb8f7155b/node",
+    "fa/8d277314fa5e4142be3176009d6d0870/node",
+    "fa/8f8b5030d5bf4ec6811d1058ca502346/node",
+    "fa/9be9acdfdd98486eaba21433da416e2b/node",
+    "fa/d0ea9e0d4ff043fc860789505e4ce204/node",
+    "fa/e4d33edb9cc34845851b82f8e810ee25/node"
+  ],
+  "output": {
+    "cleaned_line_view": {
+      "schema_version": "forma-cleaned-line-view-v1",
+      "run_id": "graph-fe0d30030bcc4939b88103e27753b2c1",
+      "branch_id": "main",
+      "hypothesis_ref": "H5",
+      "fixed_redshift": 1.6610183943523609,
+      "source_refs": [
+        "sh/H5/node",
+        "sh/H5/catalog",
+        "sh/H5/judgments"
+      ],
+      "lines": [
+        {
+          "line_id": "line:civ-1549",
+          "line_name": "C IV",
+          "line_kind": "emission",
+          "predicted_obs_angstrom": 4121.917492851807,
+          "sh_status": "MARGINAL",
+          "measurement_id": "cwt:em:0000",
+          "measurement_source": "CWT",
+          "measurement_flags": [],
+          "fwhm_km_s": 1229.4913422868215,
+          "fa_state": "signal_present",
+          "vote_summary": {
+            "yes": 3,
+            "no": 0,
+            "yes_fraction": 1.0,
+            "assurance": "assured",
+            "contains_offline_fixture": false
+          },
+          "cleaned_pairing": "adopted",
+          "fa_vote_artifact_refs": [
+            "fa/2c50ff5c25364b928cab718eadd55f86/node",
+            "fa/1e34ea100b834a04b471fc74fc6661ff/node",
+            "fa/8d277314fa5e4142be3176009d6d0870/node"
+          ]
+        },
+        {
+          "line_id": "line:heii-1640",
+          "line_name": "He II",
+          "line_kind": "emission",
+          "predicted_obs_angstrom": 4365.134574095613,
+          "sh_status": "NOT_FOUND",
+          "measurement_id": null,
+          "measurement_source": null,
+          "measurement_flags": [],
+          "fwhm_km_s": null,
+          "fa_state": null,
+          "vote_summary": null,
+          "cleaned_pairing": "no_pairing",
+          "fa_vote_artifact_refs": []
+        },
+        {
+          "line_id": "line:ciii-1909",
+          "line_name": "C III]",
+          "line_kind": "emission",
+          "predicted_obs_angstrom": 5079.884114818657,
+          "sh_status": "NOT_FOUND",
+          "measurement_id": null,
+          "measurement_source": null,
+          "measurement_flags": [],
+          "fwhm_km_s": null,
+          "fa_state": null,
+          "vote_summary": null,
+          "cleaned_pairing": "no_pairing",
+          "fa_vote_artifact_refs": []
+        },
+        {
+          "line_id": "line:mgii-2800",
+          "line_name": "Mg II",
+          "line_kind": "emission",
+          "predicted_obs_angstrom": 7450.85150418661,
+          "sh_status": "LIKELY",
+          "measurement_id": "cwt:em:0015",
+          "measurement_source": "CWT",
+          "measurement_flags": [],
+          "fwhm_km_s": 237.71348835277018,
+          "fa_state": "signal_present",
+          "vote_summary": {
+            "yes": 3,
+            "no": 0,
+            "yes_fraction": 1.0,
+            "assurance": "assured",
+            "contains_offline_fixture": false
+          },
+          "cleaned_pairing": "adopted",
+          "fa_vote_artifact_refs": [
+            "fa/3941e33df75a4c7e8d908ca2461d60a6/node",
+            "fa/e4d33edb9cc34845851b82f8e810ee25/node",
+            "fa/9be9acdfdd98486eaba21433da416e2b/node"
+          ]
+        },
+        {
+          "line_id": "line:mgii-2800-abs",
+          "line_name": "Mg II_abs",
+          "line_kind": "absorption",
+          "predicted_obs_angstrom": 7450.85150418661,
+          "sh_status": "MARGINAL",
+          "measurement_id": "cwt:abs:0019",
+          "measurement_source": "CWT",
+          "measurement_flags": [],
+          "fwhm_km_s": 237.86670362080292,
+          "fa_state": "signal_absent",
+          "vote_summary": {
+            "yes": 0,
+            "no": 3,
+            "yes_fraction": 0.0,
+            "assurance": "assured",
+            "contains_offline_fixture": false
+          },
+          "cleaned_pairing": "rejected_measurement",
+          "fa_vote_artifact_refs": [
+            "fa/16f6b65f79454e65b2c87ca5fd0998ec/node",
+            "fa/84ce2500796f47308729e2acb8f7155b/node",
+            "fa/5984f4b939e74d2ca12b6f216e6e053f/node"
+          ]
+        },
+        {
+          "line_id": "line:nev-3426",
+          "line_name": "[Ne V]",
+          "line_kind": "emission",
+          "predicted_obs_angstrom": 9116.649019051189,
+          "sh_status": "MARGINAL",
+          "measurement_id": "fit:H5:0002",
+          "measurement_source": "fit_peak",
+          "measurement_flags": [],
+          "fwhm_km_s": 188.2,
+          "fa_state": "signal_absent",
+          "vote_summary": {
+            "yes": 0,
+            "no": 3,
+            "yes_fraction": 0.0,
+            "assurance": "assured",
+            "contains_offline_fixture": false
+          },
+          "cleaned_pairing": "rejected_measurement",
+          "fa_vote_artifact_refs": [
+            "fa/8f8b5030d5bf4ec6811d1058ca502346/node",
+            "fa/7b247e5a27b649c6bf4d59a0493744ec/node",
+            "fa/d0ea9e0d4ff043fc860789505e4ce204/node"
+          ]
+        }
+      ]
+    }
+  },
+  "evidence_refs": [
+    "sh2/85981d64043047c3ba516581af0ee40b/node",
+    "sh/H5/node",
+    "sh/H5/catalog",
+    "sh/H5/judgments",
+    "fa/16f6b65f79454e65b2c87ca5fd0998ec/node",
+    "fa/1e34ea100b834a04b471fc74fc6661ff/node",
+    "fa/2c50ff5c25364b928cab718eadd55f86/node",
+    "fa/3941e33df75a4c7e8d908ca2461d60a6/node",
+    "fa/5984f4b939e74d2ca12b6f216e6e053f/node",
+    "fa/7b247e5a27b649c6bf4d59a0493744ec/node",
+    "fa/84ce2500796f47308729e2acb8f7155b/node",
+    "fa/8d277314fa5e4142be3176009d6d0870/node",
+    "fa/8f8b5030d5bf4ec6811d1058ca502346/node",
+    "fa/9be9acdfdd98486eaba21433da416e2b/node",
+    "fa/d0ea9e0d4ff043fc860789505e4ce204/node",
+    "fa/e4d33edb9cc34845851b82f8e810ee25/node"
+  ],
+  "unresolved_reasons": [],
+  "created_by": "code",
+  "node_execution_id": "6ee04924285140119165c2c89fca81af",
+  "attempt_id": "98fb4f15383e48779eccd30f5d57449a"
+}

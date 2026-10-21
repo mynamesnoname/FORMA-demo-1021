@@ -1,0 +1,28 @@
+{
+  "schema_version": "forma-qso-node-v1",
+  "graph_version": "forma-qso-entry-v1",
+  "run_id": "graph-325ff74c7f444efdb17e3f3b69698eea",
+  "branch_id": "main",
+  "hypothesis_ref": "H5",
+  "node_key": "sh2.initial_route/H5",
+  "node_type": "sh2.initial_route",
+  "status": "completed",
+  "input_refs": [
+    "sh/H5/node"
+  ],
+  "output": {
+    "preliminary_classification": "Type 1 QSO",
+    "fixed_redshift": 2.9196962422694117,
+    "pre_analysis_ref": "sh/H5/node",
+    "route_status": "entered",
+    "reason": null,
+    "initial_graph": "QSO"
+  },
+  "evidence_refs": [
+    "sh/H5/node"
+  ],
+  "unresolved_reasons": [],
+  "created_by": "code",
+  "node_execution_id": "4203f3e46c344963a888d3a0b6bb8692",
+  "attempt_id": "905c0f41309045a380e9104bee3ac832"
+}

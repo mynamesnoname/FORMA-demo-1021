@@ -1,0 +1,9 @@
+{
+  "schema_version": "forma-agentic-node-execution-v1",
+  "run_id": "graph-325ff74c7f444efdb17e3f3b69698eea",
+  "branch_id": "main",
+  "node_key": "sh2.qso/H5/qso.broad_line_inventory",
+  "node_execution_id": "7c2f26573577439997525b4056d2b5ed",
+  "attempt_id": "b2b2f93298b845a59d0a2b10afc4fb10",
+  "relative_dir": "SH/H5/qso/qso.broad_line_inventory/branches/main/7c2f26573577439997525b4056d2b5ed"
+}

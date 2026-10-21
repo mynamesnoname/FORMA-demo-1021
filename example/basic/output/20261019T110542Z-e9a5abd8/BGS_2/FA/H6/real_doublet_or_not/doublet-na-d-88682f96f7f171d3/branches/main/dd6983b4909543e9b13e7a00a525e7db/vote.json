@@ -1,0 +1,13 @@
+{
+  "answer": "no",
+  "reason": "Only one absorption trough is visible, near 6828-6831 Å (D1 window). The D2 window (~6834.8 Å) shows no distinct second trough, just shallow noise-level structure. Both components share the same measured center (6831.2 Å), giving zero separation vs the expected ~6.95 Å, so the two-component pairing is not corroborated in the usable pixels.",
+  "execution": {
+    "schema_version": "forma-agentic-node-execution-v1",
+    "run_id": "graph-df7434d5533647e999870708120307b0",
+    "branch_id": "main",
+    "node_key": "fa.real_doublet_or_not/graph-df7434d5533647e999870708120307b0/H6/doublet%3Ana-d",
+    "node_execution_id": "dd6983b4909543e9b13e7a00a525e7db",
+    "attempt_id": "c208b645db3d4ffe9e2f7bbf583c5202",
+    "relative_dir": "FA/H6/real_doublet_or_not/doublet-na-d-88682f96f7f171d3/branches/main/dd6983b4909543e9b13e7a00a525e7db"
+  }
+}

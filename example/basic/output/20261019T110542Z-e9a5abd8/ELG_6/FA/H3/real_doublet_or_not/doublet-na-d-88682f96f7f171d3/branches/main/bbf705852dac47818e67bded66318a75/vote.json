@@ -1,0 +1,13 @@
+{
+  "answer": "no",
+  "reason": "D1 window (5890–5894 Å) shows no coherent absorption at 5892.57 Å—only a noise spike in low-ivar samples (FA=none, NOT_FOUND). D2 window shows only a shallow, broad dip centered ~5900.4 Å, offset 1.8 Å from prediction with FA=signal_absent. Neither component is corroborated in usable pixels, so the orphan pair interpretation fails.",
+  "execution": {
+    "schema_version": "forma-agentic-node-execution-v1",
+    "run_id": "graph-fe0d30030bcc4939b88103e27753b2c1",
+    "branch_id": "main",
+    "node_key": "fa.real_doublet_or_not/graph-fe0d30030bcc4939b88103e27753b2c1/H3/doublet%3Ana-d",
+    "node_execution_id": "bbf705852dac47818e67bded66318a75",
+    "attempt_id": "1c785a015b1444f6bdd885cfe43ac0be",
+    "relative_dir": "FA/H3/real_doublet_or_not/doublet-na-d-88682f96f7f171d3/branches/main/bbf705852dac47818e67bded66318a75"
+  }
+}

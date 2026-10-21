@@ -1,0 +1,27 @@
+{
+  "schema_version": "forma-lrg-bgs-node-v1",
+  "graph_version": "forma-lrg-bgs-type-graph-v2",
+  "run_id": "graph-6f4e6510cc5d45df9da3b7be0c8597cc",
+  "branch_id": "main",
+  "hypothesis_ref": "H1",
+  "node_key": "sh2.lrg_bgs/H1/lrg_bgs.entry",
+  "node_type": "lrg_bgs.entry",
+  "status": "completed",
+  "input_refs": [
+    "sh/H1/node"
+  ],
+  "evidence_refs": [
+    "sh/H1/node"
+  ],
+  "output": {
+    "preliminary_classification": "LRG/BGS",
+    "fixed_redshift": 0.2515625506820086,
+    "pre_analysis_ref": "sh/H1/node",
+    "entry_mode": "initial",
+    "current_graph": "LRG/BGS"
+  },
+  "unresolved_reasons": [],
+  "created_by": "code",
+  "node_execution_id": "89c95b35d2a241ce80055ee23fb8cbce",
+  "attempt_id": "aca2a874c7de40d3b3477cbc7501070c"
+}

@@ -1,0 +1,411 @@
+[
+  {
+    "target": "[O III]a/[O III]b",
+    "method": "fit_doublet",
+    "predicted_obs": [
+      5748.827752482947,
+      5804.342307921918
+    ],
+    "result": {
+      "component_1": {
+        "center": 5740.137,
+        "center_err": 7.2841,
+        "amplitude": 0.137995,
+        "amplitude_err": 0.132623,
+        "sigma": 6.591,
+        "fwhm": 15.522,
+        "fwhm_km_s": 810.7
+      },
+      "component_2": {
+        "center": 5804.145,
+        "center_err": 0.4237,
+        "amplitude": 1.091457,
+        "amplitude_err": 0.286807,
+        "sigma": 1.397,
+        "fwhm": 3.289,
+        "fwhm_km_s": 169.9
+      },
+      "delta_chi2_per_n": 0.039,
+      "local_rms": 0.382823,
+      "local_snr": 2.85,
+      "separation_check": {
+        "observed_sep_A": 64.01,
+        "expected_sep_A": 55.51,
+        "match": false
+      },
+      "amp_ratio_check": {
+        "observed_ratio": 7.91,
+        "expected_ratio": 3.0
+      },
+      "n_points": 701,
+      "flags": [],
+      "message": "Fit OK. C1: 5740.14±7.284 Å, amp=0.1380, FWHM=15.5 Å C2: 5804.15±0.424 Å, amp=1.0915, FWHM=3.3 Å S/N=2.9, Δχ²/n=0.0 sep=64.0 Å ✗"
+    },
+    "status": "warning"
+  },
+  {
+    "target": "[S II]a/[S II]b",
+    "method": "fit_doublet",
+    "predicted_obs": [
+      7786.293064836034,
+      7802.98220050036
+    ],
+    "result": {
+      "component_1": {
+        "center": 7786.159,
+        "center_err": 0.8601,
+        "amplitude": 0.718526,
+        "amplitude_err": 0.194621,
+        "sigma": 2.756,
+        "fwhm": 6.489,
+        "fwhm_km_s": 249.8
+      },
+      "component_2": {
+        "center": 7803.824,
+        "center_err": 1.0866,
+        "amplitude": 0.596605,
+        "amplitude_err": 0.185555,
+        "sigma": 3.032,
+        "fwhm": 7.14,
+        "fwhm_km_s": 274.3
+      },
+      "delta_chi2_per_n": 0.242,
+      "local_rms": 0.19128,
+      "local_snr": 3.76,
+      "separation_check": {
+        "observed_sep_A": 17.66,
+        "expected_sep_A": 16.69,
+        "match": true
+      },
+      "amp_ratio_check": {
+        "observed_ratio": 0.83,
+        "expected_ratio": 1.0
+      },
+      "n_points": 626,
+      "flags": [],
+      "message": "Fit OK. C1: 7786.16±0.860 Å, amp=0.7185, FWHM=6.5 Å C2: 7803.82±1.087 Å, amp=0.5966, FWHM=7.1 Å S/N=3.8, Δχ²/n=0.2 sep=17.7 Å ✓"
+    },
+    "status": "ok"
+  },
+  {
+    "target": "Ca K_abs/Ca H_abs",
+    "method": "fit_doublet",
+    "predicted_obs": [
+      4560.306320276979,
+      4600.6383981324325
+    ],
+    "result": {
+      "component_1": {
+        "center": 4561.006,
+        "center_err": 0.8004,
+        "amplitude": -1.654652,
+        "amplitude_err": 0.184646,
+        "sigma": 6.233,
+        "fwhm": 14.678,
+        "fwhm_km_s": 964.8
+      },
+      "component_2": {
+        "center": 4601.599,
+        "center_err": 0.7006,
+        "amplitude": -1.754091,
+        "amplitude_err": 0.198909,
+        "sigma": 5.366,
+        "fwhm": 12.636,
+        "fwhm_km_s": 823.3
+      },
+      "delta_chi2_per_n": 0.397,
+      "local_rms": 0.499948,
+      "local_snr": 3.51,
+      "separation_check": {
+        "observed_sep_A": 40.59,
+        "expected_sep_A": 40.33,
+        "match": true
+      },
+      "amp_ratio_check": null,
+      "n_points": 750,
+      "flags": [],
+      "message": "Fit OK. C1: 4561.01±0.800 Å, amp=-1.6547, FWHM=14.7 Å C2: 4601.60±0.701 Å, amp=-1.7541, FWHM=12.6 Å S/N=3.5, Δχ²/n=0.4 sep=40.6 Å ✓"
+    },
+    "status": "ok"
+  },
+  {
+    "target": "[Ne V]",
+    "method": "fit_peak",
+    "predicted_obs": [
+      3970.62352680414
+    ],
+    "result": {
+      "center": 3958.779,
+      "center_err": 9.163,
+      "amplitude": 0.300063,
+      "amplitude_err": 0.16255,
+      "sigma": 14.817,
+      "fwhm": 34.892,
+      "fwhm_km_s": 2642.3,
+      "delta_chi2_per_n": 0.012,
+      "local_rms": 0.707122,
+      "local_snr": 0.42,
+      "n_points": 500,
+      "flags": [],
+      "message": "Fit OK. center=3958.78±9.163 Å, amp=0.3001, FWHM=34.9 Å (2642 km/s), S/N=0.4, Δχ²/n=0.0"
+    },
+    "status": "ok"
+  },
+  {
+    "target": "[O II]",
+    "method": "fit_peak",
+    "predicted_obs": [
+      4319.472820898724
+    ],
+    "result": {
+      "center": 4319.898,
+      "center_err": 0.3342,
+      "amplitude": 2.352743,
+      "amplitude_err": 0.347961,
+      "sigma": 1.96,
+      "fwhm": 4.615,
+      "fwhm_km_s": 320.3,
+      "delta_chi2_per_n": 0.157,
+      "local_rms": 0.553769,
+      "local_snr": 4.25,
+      "n_points": 500,
+      "flags": [],
+      "message": "Fit OK. center=4319.90±0.334 Å, amp=2.3527, FWHM=4.6 Å (320 km/s), S/N=4.2, Δχ²/n=0.2"
+    },
+    "status": "ok"
+  },
+  {
+    "target": "Hε",
+    "method": "fit_peak",
+    "predicted_obs": [
+      4601.217882009666
+    ],
+    "result": {
+      "center": 4635.567,
+      "center_err": 0.0,
+      "amplitude": 0.0,
+      "amplitude_err": 0.237812,
+      "sigma": 199.013,
+      "fwhm": 468.641,
+      "fwhm_km_s": 30308.0,
+      "delta_chi2_per_n": -0.0,
+      "local_rms": 0.58102,
+      "local_snr": 0.0,
+      "n_points": 500,
+      "flags": [],
+      "message": "Fit OK. center=4635.57±0.000 Å, amp=0.0000, FWHM=468.6 Å (30308 km/s), S/N=0.0, Δχ²/n=-0.0"
+    },
+    "status": "ok"
+  },
+  {
+    "target": "Hδ",
+    "method": "fit_peak",
+    "predicted_obs": [
+      4755.128799802891
+    ],
+    "result": {
+      "center": 4705.129,
+      "center_err": 12.4335,
+      "amplitude": 0.946502,
+      "amplitude_err": 0.198317,
+      "sigma": 88.715,
+      "fwhm": 208.908,
+      "fwhm_km_s": 13310.8,
+      "delta_chi2_per_n": 1.632,
+      "local_rms": 0.462573,
+      "local_snr": 2.05,
+      "n_points": 500,
+      "flags": [
+        "center_at_bound"
+      ],
+      "message": "Fit OK. center=4705.13±12.433 Å, amp=0.9465, FWHM=208.9 Å (13311 km/s), S/N=2.0, Δχ²/n=1.6"
+    },
+    "status": "warning"
+  },
+  {
+    "target": "Hγ",
+    "method": "fit_peak",
+    "predicted_obs": [
+      5031.890299569624
+    ],
+    "result": {
+      "center": 5081.889,
+      "center_err": 0.0,
+      "amplitude": 0.0,
+      "amplitude_err": 0.282291,
+      "sigma": 1.0,
+      "fwhm": 2.355,
+      "fwhm_km_s": 138.9,
+      "delta_chi2_per_n": -0.0,
+      "local_rms": 0.418811,
+      "local_snr": 0.0,
+      "n_points": 500,
+      "flags": [
+        "center_at_bound"
+      ],
+      "message": "Fit OK. center=5081.89±0.000 Å, amp=0.0000, FWHM=2.4 Å (139 km/s), S/N=0.0, Δχ²/n=-0.0"
+    },
+    "status": "warning"
+  },
+  {
+    "target": "Hβ",
+    "method": "fit_peak",
+    "predicted_obs": [
+      5635.712499646962
+    ],
+    "result": {
+      "center": 5586.999,
+      "center_err": 2.8876,
+      "amplitude": 0.225507,
+      "amplitude_err": 0.204678,
+      "sigma": 2.762,
+      "fwhm": 6.505,
+      "fwhm_km_s": 349.0,
+      "delta_chi2_per_n": 0.005,
+      "local_rms": 0.365927,
+      "local_snr": 0.62,
+      "n_points": 451,
+      "flags": [],
+      "message": "Fit OK. center=5587.00±2.888 Å, amp=0.2255, FWHM=6.5 Å (349 km/s), S/N=0.6, Δχ²/n=0.0"
+    },
+    "status": "ok"
+  },
+  {
+    "target": "Hε_abs",
+    "method": "fit_peak",
+    "predicted_obs": [
+      4601.217882009666
+    ],
+    "result": {
+      "center": 4601.668,
+      "center_err": 0.7291,
+      "amplitude": -1.691952,
+      "amplitude_err": 0.211245,
+      "sigma": 5.077,
+      "fwhm": 11.955,
+      "fwhm_km_s": 778.9,
+      "delta_chi2_per_n": 0.226,
+      "local_rms": 0.534312,
+      "local_snr": 3.17,
+      "n_points": 500,
+      "flags": [],
+      "message": "Fit OK. center=4601.67±0.729 Å, amp=-1.6920, FWHM=12.0 Å (779 km/s), S/N=3.2, Δχ²/n=0.2"
+    },
+    "status": "ok"
+  },
+  {
+    "target": "Hδ_abs",
+    "method": "fit_peak",
+    "predicted_obs": [
+      4755.128799802891
+    ],
+    "result": {
+      "center": 4755.292,
+      "center_err": 0.8348,
+      "amplitude": -0.913404,
+      "amplitude_err": 0.334128,
+      "sigma": 1.979,
+      "fwhm": 4.661,
+      "fwhm_km_s": 293.8,
+      "delta_chi2_per_n": 0.032,
+      "local_rms": 0.478922,
+      "local_snr": 1.91,
+      "n_points": 500,
+      "flags": [],
+      "message": "Fit OK. center=4755.29±0.835 Å, amp=-0.9134, FWHM=4.7 Å (294 km/s), S/N=1.9, Δχ²/n=0.0"
+    },
+    "status": "ok"
+  },
+  {
+    "target": "G-band_abs",
+    "method": "fit_peak",
+    "predicted_obs": [
+      4990.051563633365
+    ],
+    "result": {
+      "center": 4989.489,
+      "center_err": 0.8567,
+      "amplitude": -1.128171,
+      "amplitude_err": 0.111412,
+      "sigma": 7.557,
+      "fwhm": 17.796,
+      "fwhm_km_s": 1069.3,
+      "delta_chi2_per_n": 0.305,
+      "local_rms": 0.374075,
+      "local_snr": 3.02,
+      "n_points": 500,
+      "flags": [],
+      "message": "Fit OK. center=4989.49±0.857 Å, amp=-1.1282, FWHM=17.8 Å (1069 km/s), S/N=3.0, Δχ²/n=0.3"
+    },
+    "status": "ok"
+  },
+  {
+    "target": "Hγ_abs",
+    "method": "fit_peak",
+    "predicted_obs": [
+      5031.890299569624
+    ],
+    "result": {
+      "center": 5033.451,
+      "center_err": 1.2498,
+      "amplitude": -0.603054,
+      "amplitude_err": 0.175652,
+      "sigma": 3.726,
+      "fwhm": 8.775,
+      "fwhm_km_s": 522.7,
+      "delta_chi2_per_n": 0.038,
+      "local_rms": 0.399282,
+      "local_snr": 1.51,
+      "n_points": 500,
+      "flags": [],
+      "message": "Fit OK. center=5033.45±1.250 Å, amp=-0.6031, FWHM=8.8 Å (523 km/s), S/N=1.5, Δχ²/n=0.0"
+    },
+    "status": "ok"
+  },
+  {
+    "target": "Hβ_abs",
+    "method": "fit_peak",
+    "predicted_obs": [
+      5635.712499646962
+    ],
+    "result": {
+      "center": 5648.609,
+      "center_err": 1.2205,
+      "amplitude": -0.714928,
+      "amplitude_err": 0.142231,
+      "sigma": 5.339,
+      "fwhm": 12.573,
+      "fwhm_km_s": 667.3,
+      "delta_chi2_per_n": 0.11,
+      "local_rms": 0.349281,
+      "local_snr": 2.05,
+      "n_points": 451,
+      "flags": [],
+      "message": "Fit OK. center=5648.61±1.220 Å, amp=-0.7149, FWHM=12.6 Å (667 km/s), S/N=2.0, Δχ²/n=0.1"
+    },
+    "status": "ok"
+  },
+  {
+    "target": "Mg I_abs",
+    "method": "fit_peak",
+    "predicted_obs": [
+      5999.628374549618
+    ],
+    "result": {
+      "center": 6001.203,
+      "center_err": 3.1634,
+      "amplitude": -0.596081,
+      "amplitude_err": 0.069976,
+      "sigma": 23.713,
+      "fwhm": 55.839,
+      "fwhm_km_s": 2789.5,
+      "delta_chi2_per_n": 0.312,
+      "local_rms": 0.345794,
+      "local_snr": 1.72,
+      "n_points": 501,
+      "flags": [],
+      "message": "Fit OK. center=6001.20±3.163 Å, amp=-0.5961, FWHM=55.8 Å (2789 km/s), S/N=1.7, Δχ²/n=0.3"
+    },
+    "status": "ok"
+  }
+]

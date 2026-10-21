@@ -1,0 +1,13 @@
+{
+  "answer": "no",
+  "reason": "Component b (5008) is a clear broad emission peak near 6070 Å, but the orphan partner a (4960) at ~6012 Å shows no localized emission above the surrounding continuum (~0.9-1.3 flux, flat with noise). The expected ~58 Å partner is absent in usable pixels, so the two-component interpretation is not corroborated.",
+  "execution": {
+    "schema_version": "forma-agentic-node-execution-v1",
+    "run_id": "graph-325ff74c7f444efdb17e3f3b69698eea",
+    "branch_id": "main",
+    "node_key": "fa.real_doublet_or_not/graph-325ff74c7f444efdb17e3f3b69698eea/H2/doublet%3Aoiii",
+    "node_execution_id": "db075e74a7554368ac150ac3923df720",
+    "attempt_id": "7e310dc4aa424cc2a42f4bd2c094fa00",
+    "relative_dir": "FA/H2/real_doublet_or_not/doublet-oiii-15250b3aa7a2fbdb/branches/main/db075e74a7554368ac150ac3923df720"
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "answer": "no",
+  "reason": "Neither window shows a real line: at 6208 Å (a) and 6268 Å (b) flux is flat continuum with no peak. Claimed centers (6236, 6292 Å) fall in noisy low-ivar stretches with no coherent profile, offsets ~24–28 Å, and separation/ratio are off. No credible two-component pair.",
+  "execution": {
+    "schema_version": "forma-agentic-node-execution-v1",
+    "run_id": "graph-6f4e6510cc5d45df9da3b7be0c8597cc",
+    "branch_id": "main",
+    "node_key": "fa.real_doublet_or_not/graph-6f4e6510cc5d45df9da3b7be0c8597cc/H1/doublet%3Aoiii",
+    "node_execution_id": "7c96a637ab0b40b7b8b242cb3dbd013a",
+    "attempt_id": "0efd6ced64f144a09dca4da57487ba1e",
+    "relative_dir": "FA/H1/real_doublet_or_not/doublet-oiii-15250b3aa7a2fbdb/branches/main/7c96a637ab0b40b7b8b242cb3dbd013a"
+  }
+}

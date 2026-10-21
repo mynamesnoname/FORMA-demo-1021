@@ -1,0 +1,13 @@
+{
+  "answer": "no",
+  "reason": "No Ca K/H absorption pair is visible. At the Ca K expected position (4924.6 Å) the flux is ~2.1-2.4, on the local continuum level (~2.0-2.5), with no dip; the fit's -1.46 amplitude at 4926.1 Å is not supported by the pixels. At the Ca H expected position (4968.2 Å) flux is ~2.8, again on the continuum, and the region instead rises toward a broad emission-like hump (~3.0-3.8 at 4972-4985 Å). Neither core shows the paired absorption troughs required for a two-component Ca K/H interpretation.",
+  "execution": {
+    "schema_version": "forma-agentic-node-execution-v1",
+    "run_id": "graph-6f4e6510cc5d45df9da3b7be0c8597cc",
+    "branch_id": "main",
+    "node_key": "sh2.lrg_bgs/H1/lrg_bgs.cahk_targeted_review",
+    "node_execution_id": "66581437434542b28daf149dc6755219",
+    "attempt_id": "916c76d0119b439e9459c7baac360e7d",
+    "relative_dir": "SH/H1/lrg_bgs/lrg_bgs.cahk_targeted_review/branches/main/66581437434542b28daf149dc6755219"
+  }
+}

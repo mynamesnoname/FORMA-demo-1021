@@ -1,0 +1,168 @@
+{
+  "schema_version": "forma-fa-doublet-review-v1",
+  "node_type": "fa.doublet_review",
+  "node_key": "fa.real_doublet_or_not/graph-6f4e6510cc5d45df9da3b7be0c8597cc/H1/doublet%3Acahk",
+  "run_id": "graph-6f4e6510cc5d45df9da3b7be0c8597cc",
+  "branch_id": "main",
+  "hypothesis_ref": "H1",
+  "doublet_id": "doublet:cahk",
+  "claim_mode": "orphan",
+  "components": [
+    {
+      "line_id": "line:cak-3934-abs",
+      "line_name": "Ca K_abs",
+      "rest_angstrom": 3934.8,
+      "expected_obs_angstrom": 4924.648324423568,
+      "sh_status": "MARGINAL",
+      "measurement_id": "fit:H1:0004",
+      "measurement_source": "fit_doublet",
+      "measured_center_angstrom": 4926.077,
+      "amplitude": -1.462986,
+      "measured_offset_from_expected_angstrom": 1.428675576432397,
+      "fa_state": "signal_absent",
+      "cleaned_pairing": "rejected_measurement",
+      "fa_vote_artifact_refs": [
+        "fa/b7896dca02184f7aaae53a3f387ff0d7/node",
+        "fa/77b05cac9ae0452cb6578e58d6bcc433/node",
+        "fa/0b2e70cdf53c4ec68290f6f47f84cc15/node"
+      ]
+    },
+    {
+      "line_id": "line:cah-3969-abs",
+      "line_name": "Ca H_abs",
+      "rest_angstrom": 3969.6,
+      "expected_obs_angstrom": 4968.2027011873015,
+      "sh_status": "NOT_FOUND",
+      "measurement_id": null,
+      "measurement_source": null,
+      "measured_center_angstrom": null,
+      "amplitude": null,
+      "measured_offset_from_expected_angstrom": null,
+      "fa_state": null,
+      "cleaned_pairing": "no_pairing",
+      "fa_vote_artifact_refs": []
+    }
+  ],
+  "metrics": {
+    "expected_separation_angstrom": 43.55437676373367,
+    "registry_rest_separation_angstrom": 34.8,
+    "measured_separation_angstrom": null,
+    "separation_difference_angstrom": null,
+    "amplitude_ratio_a_over_b": null,
+    "reference_ratio_window_a_over_b": null,
+    "reference_ratio_note": "Ca K must be deeper than Ca H",
+    "reference_ratio_within_window": null,
+    "reference_ratio_is_advisory": true
+  },
+  "coverage": {
+    "requested_window_angstrom": [
+      4844.648324423568,
+      5048.2027011873015
+    ],
+    "actual_window_angstrom": [
+      4844.800000000283,
+      5048.000000000329
+    ],
+    "spectrum_bounds_angstrom": [
+      3600.0,
+      9824.000000000524
+    ],
+    "component_cores": [
+      {
+        "line_id": "line:cak-3934-abs",
+        "predicted_obs_angstrom": 4924.648324423568,
+        "center_within_spectrum_bounds": true,
+        "samples": 37,
+        "valid_samples": 37,
+        "masked_samples": 0,
+        "assessable": true
+      },
+      {
+        "line_id": "line:cah-3969-abs",
+        "predicted_obs_angstrom": 4968.2027011873015,
+        "center_within_spectrum_bounds": true,
+        "samples": 38,
+        "valid_samples": 38,
+        "masked_samples": 0,
+        "assessable": true
+      }
+    ],
+    "assessable": true,
+    "unreviewable_reason": null
+  },
+  "status": "complete",
+  "pair_supported": false,
+  "consultative_only": true,
+  "method_snapshot": {
+    "context_margin_angstrom": 80.0,
+    "component_check_half_angstrom": 15.0,
+    "cahk_outer_reference_sigma": 3.0,
+    "min_valid_component_samples": 5,
+    "vote_quorum": 3,
+    "max_attempts_per_vote_seat": 2
+  },
+  "vote_summary": {
+    "yes": 0,
+    "no": 3,
+    "yes_fraction": 0.0,
+    "assurance": "assured"
+  },
+  "ballots": [
+    {
+      "seat": 0,
+      "answer": "no",
+      "reason": "Neither window shows a real absorption component. At Ca K (~4924.6 Å) the flux is flat/noisy with only a single low sample at 4926.4 (offset ~1.4 Å from prediction), consistent with the rejected measurement and signal_absent FA state. At Ca H (~4968.2 Å) the flux actually rises through the region (~2.8–3.2) with no dip, matching NOT_FOUND/no pairing. No credible two-component structure or unpaired partner is visible in the usable pixels.",
+      "vote_ref": "fa_doublet/74cd864a674a463aa2c064cca0d686c7/vote.json"
+    },
+    {
+      "seat": 1,
+      "answer": "no",
+      "reason": "Ca K window shows only a single low sample (1.67 at 4926.4) amid ~2.1-2.3 neighbors, offset ~1.4 Å from prediction, consistent with FA signal_absent. Ca H window has no dip at all—flux rises from 2.82 at 4968 to 3.19 at 4972. Neither component is a credible absorption feature, so the two-component interpretation is not corroborated.",
+      "vote_ref": "fa_doublet/318d0875ab1945c98b29e6eba0704247/vote.json"
+    },
+    {
+      "seat": 2,
+      "answer": "no",
+      "reason": "Ca K window (~4924.6 Å) shows only scatter, with the claimed center at 4926.1 Å resting on a single low sample (1.67) between neighbors ~2.1–2.4; no absorption trough. Ca H window (~4968.2 Å) rises smoothly ~2.5→3.6 with no dip at all. Neither component is visible, so the two-component interpretation is unsupported.",
+      "vote_ref": "fa_doublet/d3dc77e225d44184a88c37138e83b865/vote.json"
+    }
+  ],
+  "successful_votes": 3,
+  "required_votes": 3,
+  "failed_seats": 0,
+  "model_usage": {
+    "calls": 3,
+    "input_tokens": 27714,
+    "output_tokens": 1264,
+    "cache_hit_tokens": 27264,
+    "cache_hit_reported_calls": 3,
+    "cache_hit_unreported_calls": 0
+  },
+  "prompt_identity": {
+    "system_sha256": "92cc96d1542cdf1088b68d4688ccd8de256ac572ab050c2a5e087060f5955e1b",
+    "user_sha256": "b47d7f943282760d6dc45e61e333488123ef4f281aa23a93cc92eed6074e7e83",
+    "tool_name": "submit_doublet_vote",
+    "prompt_text_sha256": "4f0c2dce0b2fa7a831a44e4f83b67dca0a9a17c0afbe17fe276e12c1581ecf83"
+  },
+  "source_refs": [
+    "sh/H1/node",
+    "sh/H1/catalog",
+    "sh/H1/judgments",
+    "spectrum_npz",
+    "fa/b7896dca02184f7aaae53a3f387ff0d7/node",
+    "fa/77b05cac9ae0452cb6578e58d6bcc433/node",
+    "fa/0b2e70cdf53c4ec68290f6f47f84cc15/node"
+  ],
+  "attempt_refs": [
+    "fa_doublet/74cd864a674a463aa2c064cca0d686c7/vote.json",
+    "fa_doublet/74cd864a674a463aa2c064cca0d686c7/session.md",
+    "fa_doublet/74cd864a674a463aa2c064cca0d686c7/model_usage.json",
+    "fa_doublet/318d0875ab1945c98b29e6eba0704247/vote.json",
+    "fa_doublet/318d0875ab1945c98b29e6eba0704247/session.md",
+    "fa_doublet/318d0875ab1945c98b29e6eba0704247/model_usage.json",
+    "fa_doublet/d3dc77e225d44184a88c37138e83b865/vote.json",
+    "fa_doublet/d3dc77e225d44184a88c37138e83b865/session.md",
+    "fa_doublet/d3dc77e225d44184a88c37138e83b865/model_usage.json"
+  ],
+  "node_execution_id": "0fbae353b2fc4b70a399242e01dbb175"
+}

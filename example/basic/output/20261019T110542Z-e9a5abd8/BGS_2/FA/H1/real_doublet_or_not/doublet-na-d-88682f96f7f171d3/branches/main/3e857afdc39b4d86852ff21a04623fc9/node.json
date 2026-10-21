@@ -1,0 +1,175 @@
+{
+  "schema_version": "forma-fa-doublet-review-v1",
+  "node_type": "fa.doublet_review",
+  "node_key": "fa.real_doublet_or_not/graph-df7434d5533647e999870708120307b0/H1/doublet%3Ana-d",
+  "run_id": "graph-df7434d5533647e999870708120307b0",
+  "branch_id": "main",
+  "hypothesis_ref": "H1",
+  "doublet_id": "doublet:na-d",
+  "claim_mode": "complete_pair",
+  "components": [
+    {
+      "line_id": "line:nad1-5891-abs",
+      "line_name": "Na D1_abs",
+      "rest_angstrom": 5891.6,
+      "expected_obs_angstrom": 6828.174422218118,
+      "sh_status": "MARGINAL",
+      "measurement_id": "cwt:abs:0000",
+      "measurement_source": "CWT",
+      "measured_center_angstrom": 6831.200000000244,
+      "amplitude": -0.9516310691833496,
+      "measured_offset_from_expected_angstrom": 3.0255777821257652,
+      "fa_state": "signal_present",
+      "cleaned_pairing": "adopted",
+      "fa_vote_artifact_refs": [
+        "fa/c6b7d15db6624ef09e5ddc93e23336d9/node",
+        "fa/02cc5436f04148baa749da027cf96a37/node",
+        "fa/a99c70fce8f84980924ca0c991b81826/node"
+      ]
+    },
+    {
+      "line_id": "line:nad2-5897-abs",
+      "line_name": "Na D2_abs",
+      "rest_angstrom": 5897.6,
+      "expected_obs_angstrom": 6835.12822874492,
+      "sh_status": "MARGINAL",
+      "measurement_id": "cwt:abs:0000",
+      "measurement_source": "CWT",
+      "measured_center_angstrom": 6831.200000000244,
+      "amplitude": -0.9516310691833496,
+      "measured_offset_from_expected_angstrom": -3.928228744676744,
+      "fa_state": "signal_present",
+      "cleaned_pairing": "adopted",
+      "fa_vote_artifact_refs": [
+        "fa/c6b7d15db6624ef09e5ddc93e23336d9/node",
+        "fa/02cc5436f04148baa749da027cf96a37/node",
+        "fa/a99c70fce8f84980924ca0c991b81826/node"
+      ]
+    }
+  ],
+  "metrics": {
+    "expected_separation_angstrom": 6.953806526802509,
+    "registry_rest_separation_angstrom": 6.0,
+    "measured_separation_angstrom": 0.0,
+    "separation_difference_angstrom": -6.953806526802509,
+    "amplitude_ratio_a_over_b": 1.0,
+    "reference_ratio_window_a_over_b": [
+      1.4,
+      2.8
+    ],
+    "reference_ratio_note": "a:b ≈ 2:1 (fitting hint)",
+    "reference_ratio_within_window": false,
+    "reference_ratio_is_advisory": true
+  },
+  "coverage": {
+    "requested_window_angstrom": [
+      6748.174422218118,
+      6915.12822874492
+    ],
+    "actual_window_angstrom": [
+      6748.800000000225,
+      6914.4000000002625
+    ],
+    "spectrum_bounds_angstrom": [
+      3600.0,
+      9824.000000000524
+    ],
+    "component_cores": [
+      {
+        "line_id": "line:nad1-5891-abs",
+        "predicted_obs_angstrom": 6828.174422218118,
+        "center_within_spectrum_bounds": true,
+        "samples": 37,
+        "valid_samples": 37,
+        "masked_samples": 0,
+        "assessable": true
+      },
+      {
+        "line_id": "line:nad2-5897-abs",
+        "predicted_obs_angstrom": 6835.12822874492,
+        "center_within_spectrum_bounds": true,
+        "samples": 37,
+        "valid_samples": 37,
+        "masked_samples": 0,
+        "assessable": true
+      }
+    ],
+    "assessable": true,
+    "unreviewable_reason": null
+  },
+  "status": "complete",
+  "pair_supported": false,
+  "consultative_only": true,
+  "method_snapshot": {
+    "context_margin_angstrom": 80.0,
+    "component_check_half_angstrom": 15.0,
+    "cahk_outer_reference_sigma": 3.0,
+    "min_valid_component_samples": 5,
+    "vote_quorum": 3,
+    "max_attempts_per_vote_seat": 2
+  },
+  "vote_summary": {
+    "yes": 0,
+    "no": 3,
+    "yes_fraction": 0.0,
+    "assurance": "assured"
+  },
+  "ballots": [
+    {
+      "seat": 0,
+      "answer": "no",
+      "reason": "Both components resolve to the same center (6831.2 Å, separation 0 Å vs expected ~6.95 Å). The pixels show a single broad blended trough spanning ~6826–6838 Å, with no distinct second dip at the D2 prediction (6835.1 Å); the D1 dip near 6828.5 is present but the joint two-component geometry is not corroborated.",
+      "vote_ref": "fa_doublet/db670420475b4d0fa40e5d3daee054c6/vote.json"
+    },
+    {
+      "seat": 1,
+      "answer": "no",
+      "reason": "Component a shows a clear dip near 6828.5 Å, but the weaker partner b (expected ~6835 Å) is only a shallow, broad, noisy depression (~4.2–4.6 flux, low ivar) with no distinct second trough. Reported centers are identical (separation 0.0 Å vs expected ~6.95 Å) and the amplitude ratio 1.0 is far from the ~2:1 hint, so the joint two-component interpretation is not corroborated.",
+      "vote_ref": "fa_doublet/a73a2d8ba8d64ee29604135994a82afd/vote.json"
+    },
+    {
+      "seat": 2,
+      "answer": "no",
+      "reason": "Only one blended trough is visible (~6826-6838 Å, min ~6828.8). Component b's window (6834-6838) shows no separate dip at its predicted 6835.1 Å; both centers coincide at 6831.2 (separation 0 Å vs expected 6.95 Å), so the two-component interpretation is not corroborated.",
+      "vote_ref": "fa_doublet/81e4a66051974794bc6651f7b8a7dff9/vote.json"
+    }
+  ],
+  "successful_votes": 3,
+  "required_votes": 3,
+  "failed_seats": 0,
+  "model_usage": {
+    "calls": 3,
+    "input_tokens": 23154,
+    "output_tokens": 1496,
+    "cache_hit_tokens": 22656,
+    "cache_hit_reported_calls": 3,
+    "cache_hit_unreported_calls": 0
+  },
+  "prompt_identity": {
+    "system_sha256": "92cc96d1542cdf1088b68d4688ccd8de256ac572ab050c2a5e087060f5955e1b",
+    "user_sha256": "e785bc83ae3e3de40b5f1c9c75148f679c2f0a310830cc0b20b317761b3fd8c6",
+    "tool_name": "submit_doublet_vote",
+    "prompt_text_sha256": "5ce8aedaf5c584e799cfbb69b5e79b0b9a8075a0a33a50d7dda7f67060760281"
+  },
+  "source_refs": [
+    "sh/H1/node",
+    "sh/H1/catalog",
+    "sh/H1/judgments",
+    "spectrum_npz",
+    "fa/c6b7d15db6624ef09e5ddc93e23336d9/node",
+    "fa/02cc5436f04148baa749da027cf96a37/node",
+    "fa/a99c70fce8f84980924ca0c991b81826/node"
+  ],
+  "attempt_refs": [
+    "fa_doublet/db670420475b4d0fa40e5d3daee054c6/vote.json",
+    "fa_doublet/db670420475b4d0fa40e5d3daee054c6/session.md",
+    "fa_doublet/db670420475b4d0fa40e5d3daee054c6/model_usage.json",
+    "fa_doublet/a73a2d8ba8d64ee29604135994a82afd/vote.json",
+    "fa_doublet/a73a2d8ba8d64ee29604135994a82afd/session.md",
+    "fa_doublet/a73a2d8ba8d64ee29604135994a82afd/model_usage.json",
+    "fa_doublet/81e4a66051974794bc6651f7b8a7dff9/vote.json",
+    "fa_doublet/81e4a66051974794bc6651f7b8a7dff9/session.md",
+    "fa_doublet/81e4a66051974794bc6651f7b8a7dff9/model_usage.json"
+  ],
+  "node_execution_id": "3e857afdc39b4d86852ff21a04623fc9"
+}

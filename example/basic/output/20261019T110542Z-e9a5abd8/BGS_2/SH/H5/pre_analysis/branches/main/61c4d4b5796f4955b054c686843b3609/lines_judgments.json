@@ -1,0 +1,120 @@
+[
+  {
+    "line_id": "line:civ-1549",
+    "measurement_id": null,
+    "status": "NOT_FOUND",
+    "reason_codes": [
+      "no_cwt_feature",
+      "fit_center_at_bound",
+      "low_snr"
+    ],
+    "comment": "No CWT feature near 3746.8; targeted fit center_at_bound (3796.8, err 92.6, SNR 0.1) is unselectable and not credible."
+  },
+  {
+    "line_id": "line:heii-1640",
+    "measurement_id": "fit:H5:0003",
+    "status": "MARGINAL",
+    "reason_codes": [
+      "weak_snr",
+      "no_cwt_feature",
+      "broad_width"
+    ],
+    "comment": "Fit converged at 3958.9 (offset ~9 A, within window) but local SNR 0.43 and no CWT support; weak marginal emission candidate."
+  },
+  {
+    "line_id": "line:ciii-1909",
+    "measurement_id": null,
+    "status": "NOT_FOUND",
+    "reason_codes": [
+      "cwt_outside_window",
+      "fit_outside_window",
+      "weak_snr"
+    ],
+    "comment": "CWT peak 4660.0 (z=1.4406) and fit 4665.7 both imply redshifts outside the verification window; no in-window credible measurement adopted."
+  },
+  {
+    "line_id": "line:mgii-2800",
+    "measurement_id": "cwt:em:0001",
+    "status": "MARGINAL",
+    "reason_codes": [
+      "offset_weak",
+      "low_amplitude",
+      "blend_ambiguity"
+    ],
+    "comment": "CWT peak 6760.8 (z=1.4146) vs pred 6772.8, offset ~12 A; low amplitude 0.2, SNR 12.8, broad. Weak marginal; possible blend with Mg II_abs region."
+  },
+  {
+    "line_id": "line:mgii-2800-abs",
+    "measurement_id": null,
+    "status": "NOT_FOUND",
+    "reason_codes": [
+      "cwt_outside_window",
+      "fit_center_at_bound",
+      "blend_ambiguity"
+    ],
+    "comment": "CWT trough 6831.2 implies z=1.4397, outside window, not adoptable; fit 6822.8 center_at_bound unselectable. No credible in-window absorption measurement."
+  },
+  {
+    "line_id": "line:nev-3426",
+    "measurement_id": null,
+    "status": "NOT_FOUND",
+    "reason_codes": [
+      "zero_amplitude_fit",
+      "no_cwt_feature"
+    ],
+    "comment": "No CWT feature near 8287; fit at 8248.8 has zero amplitude and SNR 0.0, not a real signal."
+  },
+  {
+    "line_id": "line:oii-3727",
+    "measurement_id": null,
+    "status": "NOT_FOUND",
+    "reason_codes": [
+      "fit_center_at_bound",
+      "no_cwt_feature"
+    ],
+    "comment": "No CWT feature near 9015; fit center_at_bound at 9065.1 (SNR 1.14) unselectable and not credible."
+  },
+  {
+    "line_id": "line:cak-3934-abs",
+    "measurement_id": "fit:H5:0000",
+    "status": "MARGINAL",
+    "reason_codes": [
+      "doublet_separation_fail",
+      "weak_snr",
+      "edge_red"
+    ],
+    "comment": "Doublet fit gives Ca K at 9505.3 (offset ~12 A) with depth -0.76, but separation check failed and Ca H component degenerate (FWHM 6118, amp 0). Plausible weak Ca K component preserved as marginal; red edge."
+  },
+  {
+    "line_id": "line:cah-3969-abs",
+    "measurement_id": "fit:H5:0001",
+    "status": "MARGINAL",
+    "reason_codes": [
+      "degenerate_fit",
+      "zero_amplitude",
+      "edge_red"
+    ],
+    "comment": "Ca H fit at 9599.7 but amplitude 0.0 and error 0.0 (degenerate); depth ordering vs Ca K uncertain. Preserve as plausible weak component, marginal; red edge."
+  },
+  {
+    "line_id": "line:heps-3970",
+    "measurement_id": "fit:H5:0007",
+    "status": "MARGINAL",
+    "reason_codes": [
+      "weak_snr",
+      "no_cwt_feature",
+      "edge_red"
+    ],
+    "comment": "Fit at 9570.2 (offset ~33 A) with SNR 0.6, no CWT support; weak marginal emission candidate near red edge, blended with Ca H region."
+  },
+  {
+    "line_id": "line:heps-3970-abs",
+    "measurement_id": null,
+    "status": "NOT_FOUND",
+    "reason_codes": [
+      "fit_center_at_bound",
+      "zero_amplitude"
+    ],
+    "comment": "Fit center_at_bound at 9653.1 with zero amplitude and SNR 0.0; no credible absorption measurement."
+  }
+]

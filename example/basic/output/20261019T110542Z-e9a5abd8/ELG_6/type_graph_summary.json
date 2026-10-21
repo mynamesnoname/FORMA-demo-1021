@@ -1,0 +1,255 @@
+{
+  "schema_version": "forma-agentic-graph-summary-v2",
+  "run_id": "graph-fe0d30030bcc4939b88103e27753b2c1",
+  "status": "hs_comparison_complete",
+  "final_classification_available": false,
+  "active_branch_id": "main",
+  "hypotheses": {
+    "H4": {
+      "preliminary_classification": null,
+      "entry_route_ref": "entry_route/008638d1850847c5bc970bf4f14ed354/node",
+      "path_status": "unresolved",
+      "candidate_type": null,
+      "report_ref": null,
+      "eligible_graphs": []
+    },
+    "H3": {
+      "preliminary_classification": null,
+      "entry_route_ref": "entry_route/746e93523842404ea9ab33e96935a05d/node",
+      "path_status": "unresolved",
+      "candidate_type": null,
+      "report_ref": null,
+      "eligible_graphs": []
+    },
+    "H5": {
+      "preliminary_classification": "Type 1 QSO",
+      "path_status": "dead",
+      "candidate_type": null,
+      "report_ref": "sh2/3b0da0d74e9244ffa10cdfb3c9df902a/report",
+      "entry_route_ref": "entry_route/f114709c712c43f582b471790f07b475/node",
+      "eligible_graphs": [
+        "QSO"
+      ]
+    },
+    "H2": {
+      "preliminary_classification": "ELG",
+      "path_status": "survive",
+      "source_path_status": "survive",
+      "candidate_type": "ELG",
+      "report_ref": "sh2/9dcfc6dba61f4e3aa1516cd09c189975/report",
+      "qso_report_ref": null,
+      "entry_route_ref": "entry_route/a38dab01820948dba6896580ae7a5105/node",
+      "eligible_graphs": [
+        "ELG"
+      ]
+    },
+    "H1": {
+      "preliminary_classification": "LRG/BGS",
+      "path_status": "survive",
+      "source_path_status": "survive",
+      "candidate_type": "ELG",
+      "report_ref": "sh2/4e4e3afcfcf74d49a514832ed06b088e/report",
+      "qso_report_ref": null,
+      "initial_graph_status": "dead",
+      "initial_graph_report_ref": "sh2/b1b8a0d1ffa24f6aa4c605915ca91d6d/report",
+      "fallback_from_graph": "LRG/BGS",
+      "fallback_to_graph": "ELG",
+      "fallback_source_route_ref": "sh2/6ec5dea47e884da4893d4563d9357fe1/node",
+      "entry_route_ref": "entry_route/27d8b14372084ee1980d8640ee44f3ac/node",
+      "eligible_graphs": [
+        "LRG/BGS",
+        "ELG"
+      ]
+    },
+    "H6": {
+      "preliminary_classification": null,
+      "entry_route_ref": "entry_route/968748933af84efb8bd5ce1ac9292a19/node",
+      "path_status": "unresolved",
+      "candidate_type": null,
+      "report_ref": null,
+      "eligible_graphs": []
+    }
+  },
+  "surviving_hypotheses": [
+    "H2",
+    "H1"
+  ],
+  "hs_merge_ref": "hs/62519df42c414eb689ce3053d3f04db3/node",
+  "hs_comparison_ref": "hs/1a56c96eea394c5fb8a0bee2cd255c56/node",
+  "hs_comparison": {
+    "winner_group_id": "hs.merge/H1+H2",
+    "reason": "Only surviving group; provisional pending RA.",
+    "assessments": [
+      {
+        "group_id": "hs.merge/H1+H2",
+        "support_pairs": [
+          {
+            "line_id": "line:oii-3727",
+            "feature_id": "cwt:em:0000"
+          },
+          {
+            "line_id": "line:cak-3934-abs",
+            "feature_id": "fit:H1:0000"
+          },
+          {
+            "line_id": "line:heps-3970",
+            "feature_id": "fit:H1:0005"
+          },
+          {
+            "line_id": "line:hdel-4102",
+            "feature_id": "cwt:em:0003"
+          },
+          {
+            "line_id": "line:hgam-4341",
+            "feature_id": "cwt:em:0005"
+          },
+          {
+            "line_id": "line:hbet-4862",
+            "feature_id": "cwt:em:0006"
+          },
+          {
+            "line_id": "line:oiii-4960",
+            "feature_id": "cwt:em:0007"
+          },
+          {
+            "line_id": "line:oiii-5008",
+            "feature_id": "cwt:em:0008"
+          },
+          {
+            "line_id": "line:half-6564",
+            "feature_id": "cwt:em:0012"
+          },
+          {
+            "line_id": "line:nii-6585",
+            "feature_id": "cwt:em:0013"
+          },
+          {
+            "line_id": "line:sii-6718",
+            "feature_id": "cwt:em:0014"
+          },
+          {
+            "line_id": "line:sii-6732",
+            "feature_id": "cwt:em:0015"
+          }
+        ],
+        "conflict_pairs": [],
+        "comparative_evidence": {
+          "advantages": [],
+          "disadvantages": [],
+          "limitations": [
+            "Only one group survived; no cross-group comparison was made."
+          ]
+        },
+        "unresolved": [],
+        "comparison_note": "No other surviving group to compare."
+      }
+    ],
+    "merge_review": null,
+    "cross_merges": [],
+    "status": "provisional_selection",
+    "ra_review_pending": true
+  },
+  "hs_groups": [
+    {
+      "group_id": "hs.merge/H1+H2",
+      "candidate_type": "ELG",
+      "member_hypotheses": [
+        "H1",
+        "H2"
+      ],
+      "merge_status": "merged",
+      "merged_anchor_redshift": 0.10737858867725247
+    }
+  ],
+  "hs_initial_groups": [
+    {
+      "group_id": "hs.merge/H1+H2",
+      "member_hypotheses": [
+        "H1",
+        "H2"
+      ]
+    }
+  ],
+  "fa_summary": {
+    "run_id": "graph-fe0d30030bcc4939b88103e27753b2c1",
+    "branch_id": "main",
+    "requested_features": 61,
+    "scheduled_vote_seats": 183,
+    "successful_votes": 183,
+    "failed_seats": [],
+    "blocked_features": [],
+    "signal_present": [
+      "cwt:em:0000",
+      "cwt:em:0003",
+      "cwt:em:0005",
+      "cwt:em:0006",
+      "cwt:em:0007",
+      "cwt:em:0008",
+      "cwt:em:0010",
+      "cwt:em:0012",
+      "cwt:em:0013",
+      "cwt:em:0014",
+      "cwt:em:0015",
+      "fit:H1:0000",
+      "fit:H1:0005",
+      "fit:H3:0004"
+    ],
+    "signal_absent": [
+      "cwt:abs:0003",
+      "cwt:abs:0004",
+      "cwt:abs:0017",
+      "cwt:abs:0019",
+      "cwt:abs:0024",
+      "fit:H1:0002",
+      "fit:H1:0003",
+      "fit:H1:0007",
+      "fit:H2:0000",
+      "fit:H2:0002",
+      "fit:H2:0003",
+      "fit:H2:0005",
+      "fit:H2:0007",
+      "fit:H2:0009",
+      "fit:H3:0003",
+      "fit:H3:0006",
+      "fit:H3:0007",
+      "fit:H3:0009",
+      "fit:H3:0010",
+      "fit:H3:0016",
+      "fit:H3:0018",
+      "fit:H3:0019",
+      "fit:H3:0020",
+      "fit:H4:0000",
+      "fit:H4:0001",
+      "fit:H4:0002",
+      "fit:H4:0003",
+      "fit:H4:0004",
+      "fit:H4:0005",
+      "fit:H4:0006",
+      "fit:H4:0007",
+      "fit:H4:0008",
+      "fit:H4:0009",
+      "fit:H4:0010",
+      "fit:H4:0016",
+      "fit:H4:0018",
+      "fit:H4:0019",
+      "fit:H4:0020",
+      "fit:H4:0021",
+      "fit:H5:0002",
+      "fit:H6:0011",
+      "fit:H6:0013",
+      "fit:H6:0014",
+      "fit:H6:0016",
+      "fit:H6:0018",
+      "fit:H6:0019",
+      "fit:H6:0021"
+    ],
+    "pending_features": [],
+    "model_call_count": 183,
+    "input_tokens": 905592,
+    "output_tokens": 47907,
+    "cache_hit_tokens": 536320,
+    "cache_hit_reported_calls": 183,
+    "cache_hit_unreported_calls": 0
+  },
+  "reasoning_tree_path": "/mnt/linux_share/code/FORMA/example/basic/output/20261019T110542Z-e9a5abd8/ELG_6/reasoning_tree.json"
+}

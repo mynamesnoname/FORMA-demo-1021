@@ -1,0 +1,178 @@
+{
+  "schema_version": "forma-fa-doublet-review-v1",
+  "node_type": "fa.doublet_review",
+  "node_key": "fa.real_doublet_or_not/graph-325ff74c7f444efdb17e3f3b69698eea/H1/doublet%3Ana-d",
+  "run_id": "graph-325ff74c7f444efdb17e3f3b69698eea",
+  "branch_id": "main",
+  "hypothesis_ref": "H1",
+  "doublet_id": "doublet:na-d",
+  "claim_mode": "complete_pair",
+  "components": [
+    {
+      "line_id": "line:nad1-5891-abs",
+      "line_name": "Na D1_abs",
+      "rest_angstrom": 5891.6,
+      "expected_obs_angstrom": 5885.578626858986,
+      "sh_status": "MARGINAL",
+      "measurement_id": "fit:H1:0008",
+      "measurement_source": "fit_doublet",
+      "measured_center_angstrom": 5870.095,
+      "amplitude": -0.242123,
+      "measured_offset_from_expected_angstrom": -15.4836268589861,
+      "fa_state": "signal_absent",
+      "cleaned_pairing": "rejected_measurement",
+      "fa_vote_artifact_refs": [
+        "fa/ecd4ac51da1549eabf0c26bfd4f3f7f0/node",
+        "fa/8a4e4a94642f4bf1a68f17d5c50c2a89/node",
+        "fa/b07cfbc9b14e41afa74f051e01b599c4/node"
+      ]
+    },
+    {
+      "line_id": "line:nad2-5897-abs",
+      "line_name": "Na D2_abs",
+      "rest_angstrom": 5897.6,
+      "expected_obs_angstrom": 5891.572494698139,
+      "sh_status": "MARGINAL",
+      "measurement_id": "fit:H1:0009",
+      "measurement_source": "fit_doublet",
+      "measured_center_angstrom": 5918.54,
+      "amplitude": -0.428304,
+      "measured_offset_from_expected_angstrom": 26.96750530186091,
+      "fa_state": "signal_absent",
+      "cleaned_pairing": "rejected_measurement",
+      "fa_vote_artifact_refs": [
+        "fa/2b268e12617f47ffb869a5e58cf5f9c3/node",
+        "fa/710ef1dabd3d47cdb33cdbc2dd524eff/node",
+        "fa/ff232ecf86ee4333a781b7b7b44ff3e3/node"
+      ]
+    }
+  ],
+  "metrics": {
+    "expected_separation_angstrom": 5.993867839152699,
+    "registry_rest_separation_angstrom": 6.0,
+    "measured_separation_angstrom": 48.44499999999971,
+    "separation_difference_angstrom": 42.45113216084701,
+    "amplitude_ratio_a_over_b": 0.5653064178714184,
+    "reference_ratio_window_a_over_b": [
+      1.4,
+      2.8
+    ],
+    "reference_ratio_note": "a:b ≈ 2:1 (fitting hint)",
+    "reference_ratio_within_window": false,
+    "reference_ratio_is_advisory": true
+  },
+  "coverage": {
+    "requested_window_angstrom": [
+      5805.578626858986,
+      5971.572494698139
+    ],
+    "actual_window_angstrom": [
+      5805.60000000001,
+      5971.200000000048
+    ],
+    "spectrum_bounds_angstrom": [
+      3600.0,
+      9824.000000000524
+    ],
+    "component_cores": [
+      {
+        "line_id": "line:nad1-5891-abs",
+        "predicted_obs_angstrom": 5885.578626858986,
+        "center_within_spectrum_bounds": true,
+        "samples": 37,
+        "valid_samples": 37,
+        "masked_samples": 0,
+        "assessable": true
+      },
+      {
+        "line_id": "line:nad2-5897-abs",
+        "predicted_obs_angstrom": 5891.572494698139,
+        "center_within_spectrum_bounds": true,
+        "samples": 38,
+        "valid_samples": 38,
+        "masked_samples": 0,
+        "assessable": true
+      }
+    ],
+    "assessable": true,
+    "unreviewable_reason": null
+  },
+  "status": "complete",
+  "pair_supported": false,
+  "consultative_only": true,
+  "method_snapshot": {
+    "context_margin_angstrom": 80.0,
+    "component_check_half_angstrom": 15.0,
+    "cahk_outer_reference_sigma": 3.0,
+    "min_valid_component_samples": 5,
+    "vote_quorum": 3,
+    "max_attempts_per_vote_seat": 2
+  },
+  "vote_summary": {
+    "yes": 0,
+    "no": 3,
+    "yes_fraction": 0.0,
+    "assurance": "assured"
+  },
+  "ballots": [
+    {
+      "seat": 0,
+      "answer": "no",
+      "reason": "Neither predicted core shows absorption: at 5885.6 Å (a) flux stays at continuum ~0.5-0.8 with no dip; at 5891.6 Å (b) there is an emission bump (1.17) in a low-ivar noisy region. Claimed centers (5870, 5918.5 Å) are 15-27 Å off prediction, separation 48 Å vs 6 Å expected. No credible two-component Na I D pair.",
+      "vote_ref": "fa_doublet/b2c9482a7a20495f87551ce162ec211a/vote.json"
+    },
+    {
+      "seat": 1,
+      "answer": "no",
+      "reason": "Neither predicted window shows absorption: D1 (~5885.6 Å, samples 2806-2810) is flat continuum, and D2 (~5891.6 Å, samples 2814-2818) shows only a low-ivar bump, not a dip. Claimed centers (5870.1, 5918.5 Å) are 15-27 Å off prediction with no feature there; measured separation ~48 Å vs expected ~6 Å. No corroborated two-component pair.",
+      "vote_ref": "fa_doublet/b7d7ab04dc8a494a9bcdea656a40e401/vote.json"
+    },
+    {
+      "seat": 2,
+      "answer": "no",
+      "reason": "Neither predicted core shows absorption: D1 window (5884-5887 Å) is flat continuum, D2 window (5890-5894 Å) shows a low-ivar emission bump, not a dip. Measured centers (5870, 5918.5 Å) are 15-27 Å off prediction, giving a 48 Å separation vs 6 Å expected. Both FA states signal_absent; no credible paired doublet.",
+      "vote_ref": "fa_doublet/e85249967c564a109b716f05a8a6e13c/vote.json"
+    }
+  ],
+  "successful_votes": 3,
+  "required_votes": 3,
+  "failed_seats": 0,
+  "model_usage": {
+    "calls": 3,
+    "input_tokens": 23622,
+    "output_tokens": 1466,
+    "cache_hit_tokens": 23040,
+    "cache_hit_reported_calls": 3,
+    "cache_hit_unreported_calls": 0
+  },
+  "prompt_identity": {
+    "system_sha256": "92cc96d1542cdf1088b68d4688ccd8de256ac572ab050c2a5e087060f5955e1b",
+    "user_sha256": "47919c2c9b464f9fd35e62d2d652c4e647c297160eec196a517c597a635c95d2",
+    "tool_name": "submit_doublet_vote",
+    "prompt_text_sha256": "d61e07fcd567f603eb0288590b875f3f5e59b95d693bc793fbe9bd9f1dde0dc9"
+  },
+  "source_refs": [
+    "sh/H1/node",
+    "sh/H1/catalog",
+    "sh/H1/judgments",
+    "spectrum_npz",
+    "fa/ecd4ac51da1549eabf0c26bfd4f3f7f0/node",
+    "fa/8a4e4a94642f4bf1a68f17d5c50c2a89/node",
+    "fa/b07cfbc9b14e41afa74f051e01b599c4/node",
+    "fa/2b268e12617f47ffb869a5e58cf5f9c3/node",
+    "fa/710ef1dabd3d47cdb33cdbc2dd524eff/node",
+    "fa/ff232ecf86ee4333a781b7b7b44ff3e3/node"
+  ],
+  "attempt_refs": [
+    "fa_doublet/b2c9482a7a20495f87551ce162ec211a/vote.json",
+    "fa_doublet/b2c9482a7a20495f87551ce162ec211a/session.md",
+    "fa_doublet/b2c9482a7a20495f87551ce162ec211a/model_usage.json",
+    "fa_doublet/b7d7ab04dc8a494a9bcdea656a40e401/vote.json",
+    "fa_doublet/b7d7ab04dc8a494a9bcdea656a40e401/session.md",
+    "fa_doublet/b7d7ab04dc8a494a9bcdea656a40e401/model_usage.json",
+    "fa_doublet/e85249967c564a109b716f05a8a6e13c/vote.json",
+    "fa_doublet/e85249967c564a109b716f05a8a6e13c/session.md",
+    "fa_doublet/e85249967c564a109b716f05a8a6e13c/model_usage.json"
+  ],
+  "node_execution_id": "af7ffa91f6984159b0f03be2d173c4c9"
+}

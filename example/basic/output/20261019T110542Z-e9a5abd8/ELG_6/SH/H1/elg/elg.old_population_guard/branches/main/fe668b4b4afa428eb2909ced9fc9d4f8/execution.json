@@ -1,0 +1,9 @@
+{
+  "schema_version": "forma-agentic-node-execution-v1",
+  "run_id": "graph-fe0d30030bcc4939b88103e27753b2c1",
+  "branch_id": "main",
+  "node_key": "sh2.elg/H1/elg.old_population_guard",
+  "node_execution_id": "fe668b4b4afa428eb2909ced9fc9d4f8",
+  "attempt_id": "730e18ecd7ac4796bc198d381ceb9888",
+  "relative_dir": "SH/H1/elg/elg.old_population_guard/branches/main/fe668b4b4afa428eb2909ced9fc9d4f8"
+}

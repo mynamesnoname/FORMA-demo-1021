@@ -1,0 +1,70 @@
+{
+  "schema_version": "forma-hs-hypothesis-merge-v1",
+  "run_id": "graph-325ff74c7f444efdb17e3f3b69698eea",
+  "branch_id": "main",
+  "node_key": "hs.merge_groups",
+  "node_execution_id": "5551d6a1a1b74f8ba4112435e10705c2",
+  "attempt_id": "6a1c7c84fc17466bbd3d0a139d4aac29",
+  "input_refs": [
+    "alignment/06f7bfce442546da93261a370f8f40bc/node",
+    "alignment/819f69b6304740ccbeeb94b46b97eef1/node",
+    "fa/06040e9d917f447593c101027922db93/node",
+    "fa/3baea011731b426a8284740aea8d37b4/node",
+    "fa/4e0f417adf0e425cba15d6e83d45fe62/node",
+    "fa/7b4b3f4bde5f416da3f0e9566fdb2e12/node",
+    "fa/87467cd2df07435ca7001b702d655bee/node",
+    "fa/d5c716d30b8244b192eeac8f030ae74c/node",
+    "sh/H5/catalog",
+    "sh/H5/judgments",
+    "sh/H5/node",
+    "sh/H6/catalog",
+    "sh/H6/judgments",
+    "sh/H6/node",
+    "sh2/04f62a129ba54bf783de1b76c1866a5e/report",
+    "sh2/3ee7584874ff49f9862661771dbfaf44/node",
+    "sh2/63a2e13eca9e41bb9a3008c6f87d114a/node",
+    "sh2/7206227723c9467abe875ea1760ec8fa/report"
+  ],
+  "output": {
+    "schema_version": "forma-hs-hypothesis-merge-v1",
+    "groups": [
+      {
+        "group_id": "hs.merge/H5",
+        "candidate_type": "Type 1 QSO",
+        "member_hypotheses": [
+          "H5"
+        ],
+        "original_redshifts": {
+          "H5": 2.9196962422694117
+        },
+        "unregistered_claims": {
+          "H5": []
+        },
+        "shared_key_edges": [],
+        "merge_steps": [],
+        "merge_status": "singleton",
+        "merged_anchor_redshift": 2.9196962422694117,
+        "resolution": null
+      },
+      {
+        "group_id": "hs.merge/H6",
+        "candidate_type": "Type 1 QSO",
+        "member_hypotheses": [
+          "H6"
+        ],
+        "original_redshifts": {
+          "H6": 0.7079175775287458
+        },
+        "unregistered_claims": {
+          "H6": []
+        },
+        "shared_key_edges": [],
+        "merge_steps": [],
+        "merge_status": "singleton",
+        "merged_anchor_redshift": 0.7079175775287458,
+        "resolution": null
+      }
+    ],
+    "shared_key_edges": []
+  }
+}

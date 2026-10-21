@@ -1,0 +1,26 @@
+{
+  "schema_version": "forma-sh-line-review-v1",
+  "key": "sh.pre_analysis/graph-853b617a68f04c36bd82f06bdb770ac4/H5",
+  "hypothesis_ref": "H5",
+  "hypothesis_redshift": -0.0016077994367870048,
+  "status": "complete",
+  "csv_path": "/mnt/linux_share/code/FORMA/example/basic/output/20261019T110542Z-e9a5abd8/QSO_4/SH/H5/pre_analysis/branches/main/2b1deea90fe642bc808eae1624cf912f/lines.csv",
+  "csv_sha256": "bf1618fb3699483d9f112c87c3824d3eb255d0bca529ac0b812aed4cd0dd4d99",
+  "measurement_catalog_path": "/mnt/linux_share/code/FORMA/example/basic/output/20261019T110542Z-e9a5abd8/QSO_4/VI/measurements/hypothesis_004_measurement_catalog.json",
+  "measurement_catalog_sha256": "5e38942d8d0e74b009bbdbe28bcdf0734c8925ce4a974bdc5149c5ceb02dda1e",
+  "judgment_path": "/mnt/linux_share/code/FORMA/example/basic/output/20261019T110542Z-e9a5abd8/QSO_4/SH/H5/pre_analysis/branches/main/2b1deea90fe642bc808eae1624cf912f/lines_judgments.json",
+  "judgment_sha256": "d69488c85a0ae38224703fae66253ed43a46e63a7889de5ddea35c936b270d90",
+  "session_stage1_path": "/mnt/linux_share/code/FORMA/example/basic/output/20261019T110542Z-e9a5abd8/QSO_4/SH/H5/pre_analysis/branches/main/2b1deea90fe642bc808eae1624cf912f/stage1_session.md",
+  "session_stage1_sha256": "914e8eb65ed7eee0980a65b258f8682c51f7943a43e28769bb5e033532492ca0",
+  "adopted_lines_plot_path": "/mnt/linux_share/code/FORMA/example/basic/output/20261019T110542Z-e9a5abd8/QSO_4/SH/H5/pre_analysis/branches/main/2b1deea90fe642bc808eae1624cf912f/adopted_lines.png",
+  "adopted_lines_plot_sha256": "47dd62e9c57d72ba9ea941376f493324bdb0562ee1a08a3d70e447e05eb72806",
+  "execution": {
+    "schema_version": "forma-agentic-node-execution-v1",
+    "run_id": "graph-853b617a68f04c36bd82f06bdb770ac4",
+    "branch_id": "main",
+    "node_key": "sh.pre_analysis/graph-853b617a68f04c36bd82f06bdb770ac4/H5",
+    "node_execution_id": "2b1deea90fe642bc808eae1624cf912f",
+    "attempt_id": "b0630c4894b546e09f14f16478ff1c77",
+    "relative_dir": "SH/H5/pre_analysis/branches/main/2b1deea90fe642bc808eae1624cf912f"
+  }
+}

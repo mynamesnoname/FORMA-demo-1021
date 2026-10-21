@@ -1,0 +1,13 @@
+{
+  "answer": "no",
+  "reason": "Neither component window shows an absorption feature at its predicted position: near 5888.3 Å and 5894.3 Å the flux stays at continuum (~0.4–0.6) with no dip. The claimed centers (5852.3 and 5921.0 Å) are 36 and 27 Å off prediction, giving a 68.7 Å separation versus the expected 6.0 Å. Both single-feature FA states are signal_absent, so the pair is not corroborated.",
+  "execution": {
+    "schema_version": "forma-agentic-node-execution-v1",
+    "run_id": "graph-325ff74c7f444efdb17e3f3b69698eea",
+    "branch_id": "main",
+    "node_key": "fa.real_doublet_or_not/graph-325ff74c7f444efdb17e3f3b69698eea/H3/doublet%3Ana-d",
+    "node_execution_id": "95a22d5db3c44b49b2433b8390794182",
+    "attempt_id": "eedc844cb75745cdb809101f74a08955",
+    "relative_dir": "FA/H3/real_doublet_or_not/doublet-na-d-88682f96f7f171d3/branches/main/95a22d5db3c44b49b2433b8390794182"
+  }
+}

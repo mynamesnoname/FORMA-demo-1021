@@ -1,0 +1,279 @@
+[
+  {
+    "line_id": "line:mgii-2800",
+    "measurement_id": null,
+    "status": "NOT_FOUND",
+    "reason_codes": [
+      "center_at_bound",
+      "no_cwt_match"
+    ],
+    "comment": "Only fit is center_at_bound (4112.1, unselectable); no CWT peak near 4062.1. No credible measurement."
+  },
+  {
+    "line_id": "line:mgii-2800-abs",
+    "measurement_id": "fit:H6:0016",
+    "status": "MARGINAL",
+    "reason_codes": [
+      "weak_snr",
+      "offset_weak"
+    ],
+    "comment": "Fit at 4057.7 (offset ~4 A) but very broad FWHM ~3956 km/s and low SNR; weak marginal absorption."
+  },
+  {
+    "line_id": "line:nev-3426",
+    "measurement_id": "fit:H6:0011",
+    "status": "MARGINAL",
+    "reason_codes": [
+      "weak_snr",
+      "no_cwt_match"
+    ],
+    "comment": "Fit at 4990.2, offset ~20 A, low local SNR 1.43; no CWT peak. Weak marginal."
+  },
+  {
+    "line_id": "line:oii-3727",
+    "measurement_id": null,
+    "status": "NOT_FOUND",
+    "reason_codes": [
+      "offset_reject",
+      "no_fit"
+    ],
+    "comment": "Nearest CWT peak 5381.6 implies z=0.4439, ~25 A blueward of 5407; no targeted fit. Not adopted."
+  },
+  {
+    "line_id": "line:cak-3934-abs",
+    "measurement_id": null,
+    "status": "NOT_FOUND",
+    "reason_codes": [
+      "separation_fail",
+      "center_deviation_large",
+      "no_cwt_match"
+    ],
+    "comment": "Doublet fit center 5658.4 deviates ~50 A from 5708.4 and separation fails; no CWT trough. Not adopted."
+  },
+  {
+    "line_id": "line:cah-3969-abs",
+    "measurement_id": null,
+    "status": "NOT_FOUND",
+    "reason_codes": [
+      "separation_fail",
+      "center_deviation_large",
+      "no_cwt_match"
+    ],
+    "comment": "Fit center 5808.8 deviates ~50 A from 5758.9, huge FWHM, separation fails; no CWT trough. Not adopted."
+  },
+  {
+    "line_id": "line:heps-3970",
+    "measurement_id": null,
+    "status": "NOT_FOUND",
+    "reason_codes": [
+      "outside_window",
+      "no_cwt_match"
+    ],
+    "comment": "Only fit at 5805.4 lies outside the line's redshift window; no CWT peak near 5759.6. Not adopted."
+  },
+  {
+    "line_id": "line:heps-3970-abs",
+    "measurement_id": null,
+    "status": "NOT_FOUND",
+    "reason_codes": [
+      "outside_window",
+      "no_cwt_match"
+    ],
+    "comment": "Only fit at 5800.3 lies outside the line's redshift window; no CWT trough near 5759.6. Not adopted."
+  },
+  {
+    "line_id": "line:hdel-4102",
+    "measurement_id": "fit:H6:0013",
+    "status": "MARGINAL",
+    "reason_codes": [
+      "weak_snr",
+      "broad_width"
+    ],
+    "comment": "Fit at 5958.4, offset ~6 A, but FWHM ~314 km/s and low SNR 1.04; marginal."
+  },
+  {
+    "line_id": "line:hdel-4102-abs",
+    "measurement_id": "fit:H6:0018",
+    "status": "MARGINAL",
+    "reason_codes": [
+      "weak_snr"
+    ],
+    "comment": "Fit at 5946.7, offset ~6 A, low SNR 1.93; weak marginal absorption."
+  },
+  {
+    "line_id": "line:gband-4305-abs",
+    "measurement_id": "fit:H6:0019",
+    "status": "MARGINAL",
+    "reason_codes": [
+      "weak_snr",
+      "broad_width"
+    ],
+    "comment": "Fit at 6245.8, offset ~1 A, but FWHM ~296 km/s and low SNR 1.26; marginal."
+  },
+  {
+    "line_id": "line:hgam-4341",
+    "measurement_id": "fit:H6:0014",
+    "status": "MARGINAL",
+    "reason_codes": [
+      "weak_snr"
+    ],
+    "comment": "Fit at 6304.7, offset ~6 A, low SNR 1.8; weak marginal emission."
+  },
+  {
+    "line_id": "line:hgam-4341-abs",
+    "measurement_id": null,
+    "status": "NOT_FOUND",
+    "reason_codes": [
+      "center_at_bound",
+      "no_cwt_match"
+    ],
+    "comment": "Only fit is center_at_bound (6248.7, unselectable); no CWT trough near 6298.7. Not adopted."
+  },
+  {
+    "line_id": "line:hbet-4862",
+    "measurement_id": null,
+    "status": "NOT_FOUND",
+    "reason_codes": [
+      "center_at_bound",
+      "no_cwt_match"
+    ],
+    "comment": "Only fit is center_at_bound with zero amplitude (7004.6, unselectable); no CWT peak near 7054.6. Not adopted."
+  },
+  {
+    "line_id": "line:hbet-4862-abs",
+    "measurement_id": "fit:H6:0021",
+    "status": "MARGINAL",
+    "reason_codes": [
+      "weak_snr",
+      "offset_weak"
+    ],
+    "comment": "Fit at 7066.7, offset ~12 A, low SNR 0.76; weak marginal absorption."
+  },
+  {
+    "line_id": "line:oiii-4960",
+    "measurement_id": null,
+    "status": "NOT_FOUND",
+    "reason_codes": [
+      "separation_fail",
+      "component_ratio_fail",
+      "no_cwt_match"
+    ],
+    "comment": "Doublet fit component 1 at 7204.7 with tiny amplitude 0.086 vs 32.5, ratio 377, separation fails; no CWT peak at 7196. Not adopted."
+  },
+  {
+    "line_id": "line:oiii-5008",
+    "measurement_id": "cwt:em:0012",
+    "status": "LIKELY",
+    "reason_codes": [
+      "strong_snr",
+      "ridge_persistent"
+    ],
+    "comment": "CWT peak 7265.6 (z=0.4507) matches predicted 7265.7 within 0.1 A; SNR 327, ridge 24. Strong detection."
+  },
+  {
+    "line_id": "line:mgi-5176-abs",
+    "measurement_id": null,
+    "status": "NOT_FOUND",
+    "reason_codes": [
+      "offset_reject",
+      "no_fit"
+    ],
+    "comment": "Nearest CWT troughs 7492.0 (z=0.4473) and 7463.2 (z=0.4417) are 18-47 A blueward of 7510.1; no targeted fit. Not adopted."
+  },
+  {
+    "line_id": "line:nad1-5891-abs",
+    "measurement_id": null,
+    "status": "NOT_FOUND",
+    "reason_codes": [
+      "separation_fail",
+      "center_deviation_large",
+      "no_cwt_match"
+    ],
+    "comment": "Doublet fit center 8539.6 deviates ~8 A and separation fails; no CWT trough near 8547. Not adopted."
+  },
+  {
+    "line_id": "line:nad-5895-abs",
+    "measurement_id": null,
+    "status": "NOT_FOUND",
+    "reason_codes": [
+      "no_cwt_match",
+      "no_fit"
+    ],
+    "comment": "No CWT trough and no targeted fit at 8553.1; not adopted."
+  },
+  {
+    "line_id": "line:nad2-5897-abs",
+    "measurement_id": null,
+    "status": "NOT_FOUND",
+    "reason_codes": [
+      "separation_fail",
+      "center_deviation_large",
+      "no_cwt_match"
+    ],
+    "comment": "Doublet fit center 8563.2 deviates ~7 A and separation fails; no CWT trough near 8556. Not adopted."
+  },
+  {
+    "line_id": "line:nii-6549",
+    "measurement_id": null,
+    "status": "NOT_FOUND",
+    "reason_codes": [
+      "separation_fail",
+      "component_ratio_fail",
+      "no_cwt_match"
+    ],
+    "comment": "Doublet fit component 1 at 9507.3, ratio 0.12, separation fails; CWT peaks 9440.8/9477.6 are 24-61 A blueward. Not adopted."
+  },
+  {
+    "line_id": "line:half-6564",
+    "measurement_id": null,
+    "status": "NOT_FOUND",
+    "reason_codes": [
+      "offset_reject",
+      "no_fit"
+    ],
+    "comment": "Nearest CWT peak 9477.6 implies z=0.4437, ~46 A blueward of 9523.6; no targeted fit. Not adopted."
+  },
+  {
+    "line_id": "line:half-6564-abs",
+    "measurement_id": null,
+    "status": "NOT_FOUND",
+    "reason_codes": [
+      "offset_reject",
+      "no_fit"
+    ],
+    "comment": "CWT troughs 9480.8/9462.4 are 43-61 A blueward of 9523.6; no targeted fit. Not adopted."
+  },
+  {
+    "line_id": "line:nii-6585",
+    "measurement_id": null,
+    "status": "NOT_FOUND",
+    "reason_codes": [
+      "separation_fail",
+      "center_deviation_large",
+      "no_cwt_match"
+    ],
+    "comment": "Doublet fit component 2 at 9582.0 deviates ~28 A with huge FWHM, separation fails; no CWT peak near 9553.6. Not adopted."
+  },
+  {
+    "line_id": "line:sii-6718",
+    "measurement_id": null,
+    "status": "NOT_FOUND",
+    "reason_codes": [
+      "center_deviation_large",
+      "separation_fail",
+      "no_cwt_match"
+    ],
+    "comment": "Doublet fit component 1 at 9696.6 with enormous error/FWHM, separation fails; no CWT peak near 9746.6. Not adopted."
+  },
+  {
+    "line_id": "line:sii-6732",
+    "measurement_id": null,
+    "status": "NOT_FOUND",
+    "reason_codes": [
+      "center_deviation_large",
+      "separation_fail",
+      "no_cwt_match"
+    ],
+    "comment": "Doublet fit component 2 at 9733.0 deviates ~35 A, separation fails; no CWT peak near 9767.5. Not adopted."
+  }
+]

@@ -1,0 +1,280 @@
+[
+  {
+    "comment": "Peak 4242.4 (z=0.2383) within 0.8 A of prediction; SNR 21.3, ridge 19, FWHM 1917 km/s broad for narrow guide but credible detection.",
+    "line_id": "line:nev-3426",
+    "measurement_id": "cwt:em:0001",
+    "reason_codes": [
+      "offset_ok",
+      "snr_strong",
+      "ridge_persistent"
+    ],
+    "status": "LIKELY"
+  },
+  {
+    "comment": "Peak 4616.8 (z=0.2387) 2.6 A from prediction; SNR 76.2, ridge 24, strong credible detection.",
+    "line_id": "line:oii-3727",
+    "measurement_id": "cwt:em:0002",
+    "reason_codes": [
+      "offset_ok",
+      "snr_strong",
+      "ridge_persistent"
+    ],
+    "status": "LIKELY"
+  },
+  {
+    "comment": "Trough 4868.0 (z=0.2372) 3.5 A from prediction; doublet fit separation failed and Ca H landed at 4964.6, so Ca K depth ordering is unreliable. Preserve as plausible weak component.",
+    "line_id": "line:cak-3934-abs",
+    "measurement_id": "cwt:abs:0006",
+    "reason_codes": [
+      "blend",
+      "doublet_separation_fail",
+      "weak_depth"
+    ],
+    "status": "MARGINAL"
+  },
+  {
+    "comment": "No CWT trough at 4914.6; targeted doublet fit centre 4964.6 is ~50 A redward (outside z-window) with large error and separation fail. No credible Ca H measurement adopted.",
+    "line_id": "line:cah-3969-abs",
+    "measurement_id": null,
+    "reason_codes": [
+      "cwt_missed",
+      "doublet_separation_fail",
+      "offset_reject",
+      "no_credible_measurement"
+    ],
+    "status": "NOT_FOUND"
+  },
+  {
+    "comment": "Peak 4912.8 (z=0.2374) 2.4 A from prediction but amp 1.3, SNR 10.7; blended with Ca H absorption region, weak.",
+    "line_id": "line:heps-3970",
+    "measurement_id": "cwt:em:0004",
+    "reason_codes": [
+      "offset_ok",
+      "weak_amplitude",
+      "blend"
+    ],
+    "status": "MARGINAL"
+  },
+  {
+    "comment": "Only fit centre 4869.0 implies z=0.2264, outside the verification window; likely the same broad trough as Ca K, not a distinct H-epsilon absorption. No credible measurement.",
+    "line_id": "line:heps-3970-abs",
+    "measurement_id": null,
+    "reason_codes": [
+      "cwt_missed",
+      "offset_reject",
+      "blend",
+      "no_credible_measurement"
+    ],
+    "status": "NOT_FOUND"
+  },
+  {
+    "comment": "Peak 5079.2 (z=0.2380) 0.4 A from prediction; SNR 16.2, ridge 24, credible.",
+    "line_id": "line:hdel-4102",
+    "measurement_id": "cwt:em:0005",
+    "reason_codes": [
+      "offset_ok",
+      "snr_strong",
+      "ridge_persistent"
+    ],
+    "status": "LIKELY"
+  },
+  {
+    "comment": "Trough 5075.2 (z=0.2370) 4.4 A from prediction, amp -0.2, SNR 8.8; weak and adjacent to H-delta emission.",
+    "line_id": "line:hdel-4102-abs",
+    "measurement_id": "cwt:abs:0007",
+    "reason_codes": [
+      "offset_ok",
+      "weak_amplitude",
+      "blend"
+    ],
+    "status": "MARGINAL"
+  },
+  {
+    "comment": "Trough 5333.6 (z=0.2388) 3.0 A from prediction but FWHM 3268 km/s and amp -0.5; broad, possibly blended.",
+    "line_id": "line:gband-4305-abs",
+    "measurement_id": "cwt:abs:0008",
+    "reason_codes": [
+      "offset_ok",
+      "broad_width",
+      "weak_amplitude"
+    ],
+    "status": "MARGINAL"
+  },
+  {
+    "comment": "Peak 5387.2 (z=0.2408) 11.9 A redward, FWHM 4736 km/s, ridge 7; weak broad feature, offset in weaker band.",
+    "line_id": "line:hgam-4341",
+    "measurement_id": "cwt:em:0006",
+    "reason_codes": [
+      "offset_weak",
+      "broad_width",
+      "low_ridge"
+    ],
+    "status": "MARGINAL"
+  },
+  {
+    "comment": "Only nearby trough 5333.6 implies z=0.2285, ~42 A blueward of prediction; no credible H-gamma absorption adopted.",
+    "line_id": "line:hgam-4341-abs",
+    "measurement_id": null,
+    "reason_codes": [
+      "no_credible_measurement",
+      "offset_reject"
+    ],
+    "status": "NOT_FOUND"
+  },
+  {
+    "comment": "Peak 6020.0 (z=0.2380) 0.3 A from prediction; SNR 36.2, ridge 21, credible.",
+    "line_id": "line:hbet-4862",
+    "measurement_id": "cwt:em:0008",
+    "reason_codes": [
+      "offset_ok",
+      "snr_strong",
+      "ridge_persistent"
+    ],
+    "status": "LIKELY"
+  },
+  {
+    "comment": "Trough 6010.4 (z=0.2360) 9.9 A blueward, amp -0.8; adjacent trough 6031.2 also present, blended with H-beta emission.",
+    "line_id": "line:hbet-4862-abs",
+    "measurement_id": "cwt:abs:0010",
+    "reason_codes": [
+      "offset_ok",
+      "blend",
+      "weak_amplitude"
+    ],
+    "status": "MARGINAL"
+  },
+  {
+    "comment": "Peak 6140.8 (z=0.2380) 0.3 A from prediction; SNR 66.3, ridge 19, credible.",
+    "line_id": "line:oiii-4960",
+    "measurement_id": "cwt:em:0009",
+    "reason_codes": [
+      "offset_ok",
+      "snr_strong",
+      "ridge_persistent"
+    ],
+    "status": "LIKELY"
+  },
+  {
+    "comment": "Peak 6200.0 (z=0.2380) 0.4 A from prediction; SNR 133.7, ridge 24; separation 59.2 A matches doublet, ratio consistent with 3:1.",
+    "line_id": "line:oiii-5008",
+    "measurement_id": "cwt:em:0010",
+    "reason_codes": [
+      "offset_ok",
+      "snr_strong",
+      "ridge_persistent",
+      "doublet_ratio_ok"
+    ],
+    "status": "LIKELY"
+  },
+  {
+    "comment": "Only targeted fit centre 6359.0 hit the window bound with FWHM 13133 km/s; not selectable, no credible Mg I absorption.",
+    "line_id": "line:mgi-5176-abs",
+    "measurement_id": null,
+    "reason_codes": [
+      "center_at_bound",
+      "no_credible_measurement"
+    ],
+    "status": "NOT_FOUND"
+  },
+  {
+    "comment": "No CWT trough at 7294.1; doublet fit centre 7326.2 is ~32 A redward with separation fail and ratio 2.87. Ambiguous Na D blend.",
+    "line_id": "line:nad1-5891-abs",
+    "measurement_id": "fit:H3:0002",
+    "reason_codes": [
+      "cwt_missed",
+      "doublet_separation_fail",
+      "offset_weak",
+      "blend"
+    ],
+    "status": "MARGINAL"
+  },
+  {
+    "comment": "No CWT trough near 7299.1 and no targeted fit for this component; unresolved within Na D blend.",
+    "line_id": "line:nad-5895-abs",
+    "measurement_id": null,
+    "reason_codes": [
+      "no_credible_measurement",
+      "blend"
+    ],
+    "status": "NOT_FOUND"
+  },
+  {
+    "comment": "Doublet fit centre 7299.5 is 2.0 A from prediction but separation failed against Na D1; weak blended Na D component.",
+    "line_id": "line:nad2-5897-abs",
+    "measurement_id": "fit:H3:0003",
+    "reason_codes": [
+      "cwt_missed",
+      "doublet_separation_fail",
+      "blend"
+    ],
+    "status": "MARGINAL"
+  },
+  {
+    "comment": "Only peak 8127.2 (z=0.2408) available, 18.2 A redward; shared with H-alpha, so [N II]a identity is ambiguous.",
+    "line_id": "line:nii-6549",
+    "measurement_id": "cwt:em:0012",
+    "reason_codes": [
+      "offset_weak",
+      "blend",
+      "doublet_ratio_caveat"
+    ],
+    "status": "MARGINAL"
+  },
+  {
+    "comment": "Peak 8127.2 (z=0.2380) 0.1 A from prediction; SNR 22.7, ridge 22, credible; blended with [N II].",
+    "line_id": "line:half-6564",
+    "measurement_id": "cwt:em:0012",
+    "reason_codes": [
+      "offset_ok",
+      "snr_strong",
+      "ridge_persistent"
+    ],
+    "status": "LIKELY"
+  },
+  {
+    "comment": "Trough 8120.0 (z=0.2369) 7.3 A blueward, amp -3.5 but SNR 9.5 and ridge 5; blended with H-alpha emission.",
+    "line_id": "line:half-6564-abs",
+    "measurement_id": "cwt:abs:0021",
+    "reason_codes": [
+      "offset_ok",
+      "weak_amplitude",
+      "blend"
+    ],
+    "status": "MARGINAL"
+  },
+  {
+    "comment": "Only peak 8127.2 (z=0.2341) available, 25.9 A blueward; shared with H-alpha, [N II]b identity ambiguous.",
+    "line_id": "line:nii-6585",
+    "measurement_id": "cwt:em:0012",
+    "reason_codes": [
+      "offset_weak",
+      "blend",
+      "doublet_ratio_caveat"
+    ],
+    "status": "MARGINAL"
+  },
+  {
+    "comment": "Peak 8318.4 (z=0.2382) 0.8 A from prediction; SNR 31.8, ridge 23; separation 17.6 A matches doublet.",
+    "line_id": "line:sii-6718",
+    "measurement_id": "cwt:em:0013",
+    "reason_codes": [
+      "offset_ok",
+      "snr_strong",
+      "ridge_persistent",
+      "doublet_ratio_ok"
+    ],
+    "status": "LIKELY"
+  },
+  {
+    "comment": "Peak 8336.0 (z=0.2381) 0.6 A from prediction; SNR 27.2, ridge 12; separation consistent with [S II] doublet.",
+    "line_id": "line:sii-6732",
+    "measurement_id": "cwt:em:0014",
+    "reason_codes": [
+      "offset_ok",
+      "snr_strong",
+      "ridge_persistent",
+      "doublet_ratio_ok"
+    ],
+    "status": "LIKELY"
+  }
+]

@@ -1,0 +1,13 @@
+{
+  "answer": "yes",
+  "reason": "Both windows show clear, independent emission peaks: a at ~5489.6-5490.4 (peak ~13) and b at ~5543.2 (peak ~44), each well above the local continuum and consistent with the predicted positions (offsets <0.5 Å). Measured separation ~53.6 Å matches the expected 53.0 Å, and the a/b amplitude ratio ~0.28 lies within the advisory 0.25-0.5 window. The weaker partner is a genuine, resolved feature, not noise.",
+  "execution": {
+    "schema_version": "forma-agentic-node-execution-v1",
+    "run_id": "graph-fe0d30030bcc4939b88103e27753b2c1",
+    "branch_id": "main",
+    "node_key": "fa.real_doublet_or_not/graph-fe0d30030bcc4939b88103e27753b2c1/H2/doublet%3Aoiii",
+    "node_execution_id": "0ebe954bdee941448250ceb9a6d27a4f",
+    "attempt_id": "3dc5917153fe4980a7371e2cf2a9bb21",
+    "relative_dir": "FA/H2/real_doublet_or_not/doublet-oiii-15250b3aa7a2fbdb/branches/main/0ebe954bdee941448250ceb9a6d27a4f"
+  }
+}

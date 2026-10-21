@@ -1,0 +1,106 @@
+{
+  "schema_version": "forma-type-entry-route-v1",
+  "run_id": "graph-6f4e6510cc5d45df9da3b7be0c8597cc",
+  "branch_id": "main",
+  "hypothesis_ref": "H2",
+  "node_key": "sh2.entry_router/H2",
+  "input_refs": [
+    "fa/14b96aedc12a461b9014f8b438ad6cbe/node",
+    "fa/1a49cbe476fc4f7681b262220a7d69e6/node",
+    "fa/1c90474a7e4344b6b8193f562a0f8aee/node",
+    "fa/1d1bec4db1e44ab9bb11b5704c7ee3fd/node",
+    "fa/33a5e8efae6d4ef3b87b938de05349be/node",
+    "fa/36dddc3dcfcb44449f5ab55c3ae4e437/node",
+    "fa/417768a7098149d9820a1b3fb572ee65/node",
+    "fa/4677ed1d51a646f8a9346b7e834481f4/node",
+    "fa/4c41c1f23e1f43bfadb6104f58ee8731/node",
+    "fa/4f666dda2ae7458090d991f057665344/node",
+    "fa/4fd692504a674f349441f5bde9787887/node",
+    "fa/5542f8cd1762415a8169cb919d7b05fc/node",
+    "fa/5770fd9efbac438a963d8ef4046a3d7d/node",
+    "fa/5824f7b7f2fc42c1a05f5a0d20a09217/node",
+    "fa/605c5fe41e8941a0943db0d975aff0f0/node",
+    "fa/7818c422ab4c4cac8f2515878635f430/node",
+    "fa/783214d1c42341cbb05ba39b0f3521e9/node",
+    "fa/81cce301c4254ce18bc9c9e08bd5503a/node",
+    "fa/8657d2d495614978b8a65af5f48839a4/node",
+    "fa/8a22bc31540d45e48d0fb016f80de2ac/node",
+    "fa/a0508ca5240947129ad57e8d2dd122fe/node",
+    "fa/aa54a584769243d580d3b728b3d4e5a9/node",
+    "fa/b6696103664f45db938f74b6870dd5d3/node",
+    "fa/c094776b26a0495c8dcba2feb0effc51/node",
+    "fa/c1bdc3624d90469fa566a289fa63afe4/node",
+    "fa/d6ef54855e6d42e29b8f72bed6a7df53/node",
+    "fa/fd6a4d06a5b540cc97afda3c0a674ae1/node",
+    "sh/H2/catalog",
+    "sh/H2/judgments",
+    "sh/H2/node",
+    "spectrum_npz"
+  ],
+  "output": {
+    "checks": [
+      {
+        "name": "nev",
+        "positive": false,
+        "pairs": []
+      },
+      {
+        "name": "qso_type1",
+        "positive": false,
+        "pairs": [],
+        "mgii_pair_retains_galaxy": false
+      },
+      {
+        "name": "old_population",
+        "positive": false,
+        "pairs": [],
+        "dn4000": {
+          "index_id": "index:dn4000",
+          "rule_id": "rule:formal-dn4000-interpretation",
+          "reference_bands": {
+            "strong": 1.6,
+            "moderate_low": 1.3,
+            "moderate_high": 1.6
+          },
+          "minimum_valid_samples_per_band": 3,
+          "windows": {
+            "blue": {
+              "window_angstrom": [
+                3848.992779834807,
+                3948.966618272075
+              ],
+              "fully_covered": true,
+              "sample_count": 125,
+              "usable_sample_count": 125,
+              "mean_flux": 1.1185782680511474
+            },
+            "red": {
+              "window_angstrom": [
+                3998.9535374907086,
+                4098.927375927977
+              ],
+              "fully_covered": true,
+              "sample_count": 125,
+              "usable_sample_count": 125,
+              "mean_flux": 1.3834771878123284
+            }
+          },
+          "value": 1.2368175096255924,
+          "reference_strength": "not_strong",
+          "consultative_only": true,
+          "unresolved_reason": null
+        }
+      },
+      {
+        "name": "emission_galaxy",
+        "positive": false,
+        "oii_pair": null,
+        "oiii_pairs": [],
+        "oiii_distinct_pair": false
+      }
+    ],
+    "selected_initial_graph": null,
+    "selected_reason": "no_adopted_entry_evidence",
+    "eligible_graphs": []
+  }
+}

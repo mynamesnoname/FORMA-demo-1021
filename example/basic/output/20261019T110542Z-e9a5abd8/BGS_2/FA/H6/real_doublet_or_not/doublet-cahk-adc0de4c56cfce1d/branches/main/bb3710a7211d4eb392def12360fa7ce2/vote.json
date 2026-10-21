@@ -1,0 +1,13 @@
+{
+  "answer": "yes",
+  "reason": "Both windows show clear, coherent absorption troughs: Ca K dips to ~0.05-0.75 near 4560-4563 Å and Ca H to ~0.44-1.25 near 4600-4603 Å, each centered within ~1 Å of prediction. Measured separation 40.59 Å matches predicted 40.33 Å. Near-equal depths (ratio 0.94) is only a mild advisory mismatch, not a veto; the two-component interpretation is visually corroborated.",
+  "execution": {
+    "schema_version": "forma-agentic-node-execution-v1",
+    "run_id": "graph-df7434d5533647e999870708120307b0",
+    "branch_id": "main",
+    "node_key": "fa.real_doublet_or_not/graph-df7434d5533647e999870708120307b0/H6/doublet%3Acahk",
+    "node_execution_id": "bb3710a7211d4eb392def12360fa7ce2",
+    "attempt_id": "2fa5a7b644354938b0d6387a72820eaa",
+    "relative_dir": "FA/H6/real_doublet_or_not/doublet-cahk-adc0de4c56cfce1d/branches/main/bb3710a7211d4eb392def12360fa7ce2"
+  }
+}

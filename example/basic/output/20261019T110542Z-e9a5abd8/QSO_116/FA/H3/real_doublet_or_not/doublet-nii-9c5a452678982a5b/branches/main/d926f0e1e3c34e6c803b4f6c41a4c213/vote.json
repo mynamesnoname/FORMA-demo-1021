@@ -1,0 +1,13 @@
+{
+  "answer": "no",
+  "reason": "Neither component window shows a credible line: around 6546 Å (and the claimed 6526.8 Å center) the flux is flat noise with no peak, and around 6581.6 Å the flux is continuum-level with amplitude 0.0. Measured separation 53 Å vs expected 35.5 Å is a large pairing mismatch, and both single-feature states are signal_absent. The two-component interpretation is not visually supported.",
+  "execution": {
+    "schema_version": "forma-agentic-node-execution-v1",
+    "run_id": "graph-325ff74c7f444efdb17e3f3b69698eea",
+    "branch_id": "main",
+    "node_key": "fa.real_doublet_or_not/graph-325ff74c7f444efdb17e3f3b69698eea/H3/doublet%3Anii",
+    "node_execution_id": "d926f0e1e3c34e6c803b4f6c41a4c213",
+    "attempt_id": "7ee4fba66de0443ca22bd5e8bfb0a908",
+    "relative_dir": "FA/H3/real_doublet_or_not/doublet-nii-9c5a452678982a5b/branches/main/d926f0e1e3c34e6c803b4f6c41a4c213"
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "answer": "no",
+  "reason": "Neither component window shows a coherent absorption feature: Ca K region (~3934 Å) and Ca H region (~3969 Å) are noisy continuum with no dip at prediction. Both measured centers are offset far from prediction (3.8 Å and 8.5 Å), a pairing mismatch, and both single-feature states are signal_absent. The two-component interpretation is not visually supported.",
+  "execution": {
+    "schema_version": "forma-agentic-node-execution-v1",
+    "run_id": "graph-6f4e6510cc5d45df9da3b7be0c8597cc",
+    "branch_id": "main",
+    "node_key": "fa.real_doublet_or_not/graph-6f4e6510cc5d45df9da3b7be0c8597cc/H2/doublet%3Acahk",
+    "node_execution_id": "e645961c04564978a0e4a96349107d26",
+    "attempt_id": "f9cebc569a794734a92f1504b9d44eb5",
+    "relative_dir": "FA/H2/real_doublet_or_not/doublet-cahk-adc0de4c56cfce1d/branches/main/e645961c04564978a0e4a96349107d26"
+  }
+}

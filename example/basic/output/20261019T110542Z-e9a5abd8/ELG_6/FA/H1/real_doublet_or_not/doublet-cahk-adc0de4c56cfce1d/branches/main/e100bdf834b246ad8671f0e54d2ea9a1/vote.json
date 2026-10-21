@@ -1,0 +1,13 @@
+{
+  "answer": "no",
+  "reason": "Neither window shows a credible absorption trough. Ca K (4355 Å) sits in low-ivar noise (ivar ~1.4–4.7) with no coherent dip; the marginal fit center is not visually supported. Ca H (4393.6 Å) shows no absorption at all (SH=NOT_FOUND, FA=none). The orphan pair is not corroborated in usable pixels.",
+  "execution": {
+    "schema_version": "forma-agentic-node-execution-v1",
+    "run_id": "graph-fe0d30030bcc4939b88103e27753b2c1",
+    "branch_id": "main",
+    "node_key": "fa.real_doublet_or_not/graph-fe0d30030bcc4939b88103e27753b2c1/H1/doublet%3Acahk",
+    "node_execution_id": "e100bdf834b246ad8671f0e54d2ea9a1",
+    "attempt_id": "17fcd6183d7c4f9fa50cd6c668878a10",
+    "relative_dir": "FA/H1/real_doublet_or_not/doublet-cahk-adc0de4c56cfce1d/branches/main/e100bdf834b246ad8671f0e54d2ea9a1"
+  }
+}

@@ -1,0 +1,292 @@
+[
+  {
+    "line_id": "line:oii-3727",
+    "measurement_id": "fit:H4:0008",
+    "status": "MARGINAL",
+    "reason_codes": [
+      "weak_snr",
+      "offset_7A",
+      "blue_edge"
+    ],
+    "comment": "Fit centre 3714.4 vs pred 3721.9 (offset ~7.5 A, within strong window); local SNR 2.6 weak, blue edge <4000 A; no CWT support. Weak candidate only."
+  },
+  {
+    "line_id": "line:cak-3934-abs",
+    "measurement_id": "fit:H4:0004",
+    "status": "MARGINAL",
+    "reason_codes": [
+      "doublet_separation_fail",
+      "huge_center_error",
+      "blend_cah",
+      "blue_edge"
+    ],
+    "comment": "Doublet fit centre 3933.5 near pred 3929.4 but error 660 A and separation fail; blended with Ca H. Plausible weak Ca K component preserved as marginal."
+  },
+  {
+    "line_id": "line:cah-3969-abs",
+    "measurement_id": null,
+    "status": "NOT_FOUND",
+    "reason_codes": [
+      "outside_redshift_window",
+      "doublet_separation_fail",
+      "blend_cak",
+      "blue_edge"
+    ],
+    "comment": "Only fit (fit:H4:0005) centre 3917.9 implies z outside this line's window; separation fail and depth ordering inverted. No selectable measurement adopted."
+  },
+  {
+    "line_id": "line:heps-3970",
+    "measurement_id": "fit:H4:0009",
+    "status": "MARGINAL",
+    "reason_codes": [
+      "weak_snr",
+      "broad_width",
+      "blend_cah"
+    ],
+    "comment": "Fit centre 3959.4 vs pred 3964.7 (offset ~5 A); SNR 0.4, FWHM 2598 km/s implausibly broad; blended with Ca H region. Weak marginal."
+  },
+  {
+    "line_id": "line:heps-3970-abs",
+    "measurement_id": "fit:H4:0014",
+    "status": "MARGINAL",
+    "reason_codes": [
+      "offset_29A",
+      "blend_cah",
+      "blue_edge"
+    ],
+    "comment": "Fit centre 3993.3 vs pred 3964.7 (offset ~29 A, weaker window); SNR 2.2; likely blended with Ca H absorption. Marginal."
+  },
+  {
+    "line_id": "line:hdel-4102",
+    "measurement_id": "fit:H4:0010",
+    "status": "MARGINAL",
+    "reason_codes": [
+      "offset_11A",
+      "weak_snr"
+    ],
+    "comment": "Fit centre 4108.7 vs pred 4097.3 (offset ~11 A); SNR 1.1, FWHM 699 km/s. Weak marginal emission."
+  },
+  {
+    "line_id": "line:hdel-4102-abs",
+    "measurement_id": "fit:H4:0015",
+    "status": "MARGINAL",
+    "reason_codes": [
+      "offset_32A",
+      "weak_snr"
+    ],
+    "comment": "Fit centre 4065.3 vs pred 4097.3 (offset ~32 A, weaker window); SNR 0.6. Weak marginal absorption."
+  },
+  {
+    "line_id": "line:gband-4305-abs",
+    "measurement_id": "fit:H4:0016",
+    "status": "LIKELY",
+    "reason_codes": [
+      "good_offset",
+      "moderate_snr"
+    ],
+    "comment": "Fit centre 4297.1 vs pred 4299.7 (offset ~2.6 A, strong window); SNR 1.8, FWHM 164 km/s consistent with G-band absorption."
+  },
+  {
+    "line_id": "line:hgam-4341",
+    "measurement_id": "fit:H4:0011",
+    "status": "MARGINAL",
+    "reason_codes": [
+      "offset_16A",
+      "blend_hgam_abs"
+    ],
+    "comment": "Fit centre 4319.9 vs pred 4335.8 (offset ~16 A, strong window); SNR 4.3, FWHM 320 km/s; adjacent to Hgamma absorption. Marginal."
+  },
+  {
+    "line_id": "line:hgam-4341-abs",
+    "measurement_id": "fit:H4:0017",
+    "status": "MARGINAL",
+    "reason_codes": [
+      "offset_10A",
+      "blend_hgam_em",
+      "weak_snr"
+    ],
+    "comment": "Fit centre 4346.0 vs pred 4335.8 (offset ~10 A); SNR 1.2, FWHM 413 km/s; blended with Hgamma emission. Marginal."
+  },
+  {
+    "line_id": "line:hbet-4862",
+    "measurement_id": "fit:H4:0012",
+    "status": "MARGINAL",
+    "reason_codes": [
+      "offset_32A",
+      "very_broad_width",
+      "weak_snr"
+    ],
+    "comment": "Fit centre 4888.2 vs pred 4856.1 (offset ~32 A, weaker window); SNR 0.4, FWHM 6172 km/s implausible. Weak marginal."
+  },
+  {
+    "line_id": "line:hbet-4862-abs",
+    "measurement_id": null,
+    "status": "NOT_FOUND",
+    "reason_codes": [
+      "center_at_bound",
+      "fit_rejected"
+    ],
+    "comment": "Only fit (fit:H4:0018) has center_at_bound at 4806 A, offset ~50 A; not selectable. No credible absorption measurement adopted."
+  },
+  {
+    "line_id": "line:oiii-4960",
+    "measurement_id": null,
+    "status": "NOT_FOUND",
+    "reason_codes": [
+      "outside_redshift_window",
+      "doublet_separation_fail",
+      "weak_snr"
+    ],
+    "comment": "Only fit (fit:H4:0000) centre 5003.5 implies z outside this line's window; separation fail, component ratio 0, SNR 0.7. No selectable measurement adopted."
+  },
+  {
+    "line_id": "line:oiii-5008",
+    "measurement_id": "fit:H4:0001",
+    "status": "MARGINAL",
+    "reason_codes": [
+      "doublet_separation_fail",
+      "zero_amplitude",
+      "weak_snr"
+    ],
+    "comment": "Doublet fit centre 5018.7 vs pred 5001.4 (offset ~17 A) but amplitude 0.0 and separation fail; degenerate component. Marginal."
+  },
+  {
+    "line_id": "line:mgi-5176-abs",
+    "measurement_id": "fit:H4:0019",
+    "status": "MARGINAL",
+    "reason_codes": [
+      "weak_snr",
+      "broad_width"
+    ],
+    "comment": "Fit centre 5168.7 vs pred 5169.6 (offset ~0.9 A, strong window); SNR 0.3, FWHM 453 km/s. Position good but very weak; marginal."
+  },
+  {
+    "line_id": "line:nad1-5891-abs",
+    "measurement_id": "fit:H4:0006",
+    "status": "MARGINAL",
+    "reason_codes": [
+      "zero_amplitude",
+      "offset_31A",
+      "doublet_degenerate"
+    ],
+    "comment": "Doublet fit centre 5914.7 vs pred 5883.5 (offset ~31 A); amplitude 0.0, zero error, degenerate. Weak marginal."
+  },
+  {
+    "line_id": "line:nad-5895-abs",
+    "measurement_id": null,
+    "status": "NOT_FOUND",
+    "reason_codes": [
+      "no_measurement",
+      "blend_nad"
+    ],
+    "comment": "No dedicated fit for Na D composite; Na D1/D2 doublet fits are degenerate with zero amplitude. No credible measurement adopted."
+  },
+  {
+    "line_id": "line:nad2-5897-abs",
+    "measurement_id": "fit:H4:0007",
+    "status": "MARGINAL",
+    "reason_codes": [
+      "zero_amplitude",
+      "offset_31A",
+      "doublet_degenerate"
+    ],
+    "comment": "Doublet fit centre 5920.5 vs pred 5889.5 (offset ~31 A); amplitude 0.0, degenerate. Weak marginal."
+  },
+  {
+    "line_id": "line:nii-6549",
+    "measurement_id": "fit:H4:0002",
+    "status": "MARGINAL",
+    "reason_codes": [
+      "doublet_separation_fail",
+      "offset_35A",
+      "blend_halpha"
+    ],
+    "comment": "Doublet fit centre 6506.1 vs pred 6540.8 (offset ~35 A, weaker window); separation fail, ratio 0.37; blended with Halpha/[N II]b region. Marginal."
+  },
+  {
+    "line_id": "line:half-6564",
+    "measurement_id": "fit:H4:0013",
+    "status": "MARGINAL",
+    "reason_codes": [
+      "offset_18A",
+      "weak_snr",
+      "blend_nii"
+    ],
+    "comment": "Fit centre 6573.3 vs pred 6555.6 (offset ~18 A, strong window); SNR 0.5, FWHM 732 km/s; blended with [N II]. Marginal."
+  },
+  {
+    "line_id": "line:half-6564-abs",
+    "measurement_id": "fit:H4:0020",
+    "status": "MARGINAL",
+    "reason_codes": [
+      "offset_5A",
+      "blend_halpha_em"
+    ],
+    "comment": "Fit centre 6560.4 vs pred 6555.6 (offset ~4.8 A, strong window); SNR 2.4, FWHM 140 km/s; blended with Halpha emission. Marginal."
+  },
+  {
+    "line_id": "line:nii-6585",
+    "measurement_id": "fit:H4:0003",
+    "status": "MARGINAL",
+    "reason_codes": [
+      "doublet_separation_fail",
+      "broad_width",
+      "blend_halpha"
+    ],
+    "comment": "Doublet fit centre 6574.3 vs pred 6576.3 (offset ~2 A) but separation fail and FWHM 950 km/s; blended with Halpha. Marginal."
+  },
+  {
+    "line_id": "line:sii-6718",
+    "measurement_id": null,
+    "status": "NOT_FOUND",
+    "reason_codes": [
+      "no_measurement",
+      "cwt_offset",
+      "blend"
+    ],
+    "comment": "No targeted fit; nearest CWT peak 6760.8 implies z=0.0063, offset ~52 A from pred 6709.1. No credible measurement adopted."
+  },
+  {
+    "line_id": "line:sii-6732",
+    "measurement_id": null,
+    "status": "NOT_FOUND",
+    "reason_codes": [
+      "no_measurement",
+      "cwt_offset",
+      "blend"
+    ],
+    "comment": "No targeted fit; CWT peak 6760.8 implies z=0.0042, offset ~37 A from pred 6723.5. No credible measurement adopted."
+  },
+  {
+    "line_id": "line:cat1-8498-abs",
+    "measurement_id": null,
+    "status": "NOT_FOUND",
+    "reason_codes": [
+      "center_at_bound",
+      "fit_rejected",
+      "red_edge"
+    ],
+    "comment": "Only fit (fit:H4:0021) has center_at_bound at 8436 A with zero amplitude; not selectable. No credible measurement adopted."
+  },
+  {
+    "line_id": "line:cat2-8542-abs",
+    "measurement_id": "fit:H4:0022",
+    "status": "MARGINAL",
+    "reason_codes": [
+      "weak_snr",
+      "red_edge"
+    ],
+    "comment": "Fit centre 8531.5 vs pred 8530.3 (offset ~1.2 A, strong window); SNR 1.0, FWHM 149 km/s; red edge. Weak marginal."
+  },
+  {
+    "line_id": "line:cat3-8662-abs",
+    "measurement_id": "fit:H4:0023",
+    "status": "MARGINAL",
+    "reason_codes": [
+      "offset_49A",
+      "weak_snr",
+      "red_edge"
+    ],
+    "comment": "Fit centre 8600.9 vs pred 8650.2 (offset ~49 A, weaker window); SNR 1.0, FWHM 82 km/s; red edge. Weak marginal."
+  }
+]

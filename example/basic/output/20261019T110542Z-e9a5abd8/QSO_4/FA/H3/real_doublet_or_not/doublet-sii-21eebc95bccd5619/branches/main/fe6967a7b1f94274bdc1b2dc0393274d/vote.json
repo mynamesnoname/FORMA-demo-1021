@@ -1,0 +1,13 @@
+{
+  "answer": "yes",
+  "reason": "Both windows show distinct, isolated emission peaks at the predicted positions: a peaks at 8317.6 Å (flux 9.96, offset 0.79 Å) and b peaks at 8336.0 Å (flux 8.61, offset 0.56 Å), separated by a clear trough. Measured separation 17.6 Å matches expected 17.83 Å, and amplitude ratio 1.16 is within the advisory window. Two-component interpretation is visually supported.",
+  "execution": {
+    "schema_version": "forma-agentic-node-execution-v1",
+    "run_id": "graph-853b617a68f04c36bd82f06bdb770ac4",
+    "branch_id": "main",
+    "node_key": "fa.real_doublet_or_not/graph-853b617a68f04c36bd82f06bdb770ac4/H3/doublet%3Asii",
+    "node_execution_id": "fe6967a7b1f94274bdc1b2dc0393274d",
+    "attempt_id": "098f1f9d5a1a4278996875b337ee2130",
+    "relative_dir": "FA/H3/real_doublet_or_not/doublet-sii-21eebc95bccd5619/branches/main/fe6967a7b1f94274bdc1b2dc0393274d"
+  }
+}

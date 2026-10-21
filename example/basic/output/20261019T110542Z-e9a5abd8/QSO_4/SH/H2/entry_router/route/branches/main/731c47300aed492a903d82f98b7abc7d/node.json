@@ -1,0 +1,85 @@
+{
+  "schema_version": "forma-type-entry-route-v1",
+  "run_id": "graph-853b617a68f04c36bd82f06bdb770ac4",
+  "branch_id": "main",
+  "hypothesis_ref": "H2",
+  "node_key": "sh2.entry_router/H2",
+  "input_refs": [
+    "fa/159051370c8741a58adb5b7865ecc758/node",
+    "fa/4b7a2a6c11cd4ec2803a8360125c9483/node",
+    "fa/596c150b381d46fc930ee27fe7ae5fac/node",
+    "fa/5ba837f76eae42f48125966c6906f739/node",
+    "fa/6932069dfd0f406bb2f0cda9a22ba443/node",
+    "fa/8ee1ba799bba4706a048ca447d949829/node",
+    "sh/H2/catalog",
+    "sh/H2/judgments",
+    "sh/H2/node",
+    "spectrum_npz"
+  ],
+  "output": {
+    "checks": [
+      {
+        "name": "nev",
+        "positive": false,
+        "pairs": []
+      },
+      {
+        "name": "qso_type1",
+        "positive": false,
+        "pairs": [],
+        "mgii_pair_retains_galaxy": false
+      },
+      {
+        "name": "old_population",
+        "positive": false,
+        "pairs": [],
+        "dn4000": {
+          "index_id": "index:dn4000",
+          "rule_id": "rule:formal-dn4000-interpretation",
+          "reference_bands": {
+            "strong": 1.6,
+            "moderate_low": 1.3,
+            "moderate_high": 1.6
+          },
+          "minimum_valid_samples_per_band": 3,
+          "windows": {
+            "blue": {
+              "window_angstrom": [
+                6434.773280200327,
+                6601.910248517218
+              ],
+              "fully_covered": true,
+              "sample_count": 209,
+              "usable_sample_count": 209,
+              "mean_flux": 4.9177360192440345
+            },
+            "red": {
+              "window_angstrom": [
+                6685.478732675664,
+                6852.6157009925555
+              ],
+              "fully_covered": true,
+              "sample_count": 209,
+              "usable_sample_count": 209,
+              "mean_flux": 4.6137762160962845
+            }
+          },
+          "value": 0.9381911103080163,
+          "reference_strength": "not_strong",
+          "consultative_only": true,
+          "unresolved_reason": null
+        }
+      },
+      {
+        "name": "emission_galaxy",
+        "positive": false,
+        "oii_pair": null,
+        "oiii_pairs": [],
+        "oiii_distinct_pair": false
+      }
+    ],
+    "selected_initial_graph": null,
+    "selected_reason": "no_adopted_entry_evidence",
+    "eligible_graphs": []
+  }
+}

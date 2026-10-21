@@ -1,0 +1,23 @@
+{
+  "model_calls": [
+    {
+      "input_tokens": 5264,
+      "output_tokens": 138,
+      "total_tokens": 5402,
+      "cache_hit_tokens": 5120,
+      "cache_miss_tokens": 144,
+      "provider_usage": {
+        "completion_tokens": 138,
+        "prompt_tokens": 5264,
+        "total_tokens": 5402,
+        "completion_tokens_details": null,
+        "prompt_tokens_details": {
+          "audio_tokens": null,
+          "cached_tokens": 5120
+        },
+        "prompt_cache_hit_tokens": 5120,
+        "prompt_cache_miss_tokens": 144
+      }
+    }
+  ]
+}

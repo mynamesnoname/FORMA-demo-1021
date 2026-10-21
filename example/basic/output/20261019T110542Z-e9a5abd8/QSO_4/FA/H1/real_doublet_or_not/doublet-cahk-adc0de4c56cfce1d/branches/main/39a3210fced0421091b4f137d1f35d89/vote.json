@@ -1,0 +1,13 @@
+{
+  "answer": "no",
+  "reason": "Ca K window (4868–4872 Å) shows only a shallow, broad dip offset ~2.8 Å blueward of prediction with FA=signal_absent; Ca H window (4912–4917 Å) shows a local peak, not absorption, with SH=NOT_FOUND. No credible second component and no convincing K feature, so the pair is not corroborated.",
+  "execution": {
+    "schema_version": "forma-agentic-node-execution-v1",
+    "run_id": "graph-853b617a68f04c36bd82f06bdb770ac4",
+    "branch_id": "main",
+    "node_key": "fa.real_doublet_or_not/graph-853b617a68f04c36bd82f06bdb770ac4/H1/doublet%3Acahk",
+    "node_execution_id": "39a3210fced0421091b4f137d1f35d89",
+    "attempt_id": "d556e3e1286a4f3594693f7c20b3233c",
+    "relative_dir": "FA/H1/real_doublet_or_not/doublet-cahk-adc0de4c56cfce1d/branches/main/39a3210fced0421091b4f137d1f35d89"
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "answer": "no",
+  "reason": "Ca K window (~4355 Å) shows only a shallow, noise-dominated dip in a low-ivar stretch (flux ~0.19/−0.43, ivar ~2–4), consistent with FA signal_absent. Ca H window (~4393.5 Å) shows no absorption at all—flux is ~1.7, 0.6, 1.4, 2.6 (emission-like bumps). No credible second component, so the doublet is not corroborated.",
+  "execution": {
+    "schema_version": "forma-agentic-node-execution-v1",
+    "run_id": "graph-fe0d30030bcc4939b88103e27753b2c1",
+    "branch_id": "main",
+    "node_key": "fa.real_doublet_or_not/graph-fe0d30030bcc4939b88103e27753b2c1/H2/doublet%3Acahk",
+    "node_execution_id": "61e2d887743248fca4304a930b073375",
+    "attempt_id": "5daef8a21aee44c7a55f36f50d096942",
+    "relative_dir": "FA/H2/real_doublet_or_not/doublet-cahk-adc0de4c56cfce1d/branches/main/61e2d887743248fca4304a930b073375"
+  }
+}

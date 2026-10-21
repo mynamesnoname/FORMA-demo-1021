@@ -1,0 +1,9 @@
+{
+  "schema_version": "forma-agentic-node-execution-v1",
+  "run_id": "graph-6f4e6510cc5d45df9da3b7be0c8597cc",
+  "branch_id": "main",
+  "node_key": "sh2.lrg_bgs/H3/lrg_bgs.qso_type1_guard",
+  "node_execution_id": "965d62a8514a476381e10e2f8312df38",
+  "attempt_id": "94a03680cff04ad8ab88867574ed2d03",
+  "relative_dir": "SH/H3/lrg_bgs/lrg_bgs.qso_type1_guard/branches/main/965d62a8514a476381e10e2f8312df38"
+}

@@ -1,0 +1,13 @@
+{
+  "answer": "no",
+  "reason": "Neither window shows a credible Na D absorption pair: at 5888.3 Å and 5894.3 Å the flux stays near continuum with no distinct dips (region is low-ivar/noisy), and both claimed centers (5852.3, 5921.0 Å) are 27–36 Å from prediction with no feature there. Measured separation 68.7 Å vs expected 6.0 Å is a gross pairing mismatch; both single-feature states are signal_absent.",
+  "execution": {
+    "schema_version": "forma-agentic-node-execution-v1",
+    "run_id": "graph-325ff74c7f444efdb17e3f3b69698eea",
+    "branch_id": "main",
+    "node_key": "fa.real_doublet_or_not/graph-325ff74c7f444efdb17e3f3b69698eea/H3/doublet%3Ana-d",
+    "node_execution_id": "6f6b919170b94de2aa0f18faf70adfa2",
+    "attempt_id": "b9932f88ba9c4106bbad9eaa82e475a4",
+    "relative_dir": "FA/H3/real_doublet_or_not/doublet-na-d-88682f96f7f171d3/branches/main/6f6b919170b94de2aa0f18faf70adfa2"
+  }
+}

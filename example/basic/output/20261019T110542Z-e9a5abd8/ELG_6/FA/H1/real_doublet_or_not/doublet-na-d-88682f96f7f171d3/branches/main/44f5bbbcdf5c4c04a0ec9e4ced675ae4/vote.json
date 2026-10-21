@@ -1,0 +1,13 @@
+{
+  "answer": "no",
+  "reason": "Neither component window shows an absorption doublet: around 6521 Å (D1) and 6527.6 Å (D2) the flux stays at continuum with no paired dips, and the claimed centers (6527.3, 6573.8) are offset by 6.4 and 46 Å from prediction, giving a measured separation of 46.5 Å versus the expected 6.6 Å. The two features are not a credible Na I D pair.",
+  "execution": {
+    "schema_version": "forma-agentic-node-execution-v1",
+    "run_id": "graph-fe0d30030bcc4939b88103e27753b2c1",
+    "branch_id": "main",
+    "node_key": "fa.real_doublet_or_not/graph-fe0d30030bcc4939b88103e27753b2c1/H1/doublet%3Ana-d",
+    "node_execution_id": "44f5bbbcdf5c4c04a0ec9e4ced675ae4",
+    "attempt_id": "44a033f557504ed9aeb1842cf1c1d5e8",
+    "relative_dir": "FA/H1/real_doublet_or_not/doublet-na-d-88682f96f7f171d3/branches/main/44f5bbbcdf5c4c04a0ec9e4ced675ae4"
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "answer": "no",
+  "reason": "Neither component window shows a clean absorption trough at its predicted position: both sit in low-ivar noisy stretches (ivar ~10-35) with centers offset ~2 Å (a) and ~1.5 Å (b). Measured separation 9.53 Å vs expected 6.00 Å, and amplitude ratio 0.87 vs ~2:1 hint. No corroborated paired Na D doublet in usable pixels.",
+  "execution": {
+    "schema_version": "forma-agentic-node-execution-v1",
+    "run_id": "graph-fe0d30030bcc4939b88103e27753b2c1",
+    "branch_id": "main",
+    "node_key": "fa.real_doublet_or_not/graph-fe0d30030bcc4939b88103e27753b2c1/H4/doublet%3Ana-d",
+    "node_execution_id": "d6de9953a49c45e7b1baf8cfe6ff88ed",
+    "attempt_id": "29322e77c1924bf9aa4ba8ae77f0761c",
+    "relative_dir": "FA/H4/real_doublet_or_not/doublet-na-d-88682f96f7f171d3/branches/main/d6de9953a49c45e7b1baf8cfe6ff88ed"
+  }
+}

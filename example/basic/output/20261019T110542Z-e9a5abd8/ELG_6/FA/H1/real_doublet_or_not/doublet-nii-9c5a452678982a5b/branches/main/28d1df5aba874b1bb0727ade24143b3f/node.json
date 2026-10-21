@@ -1,0 +1,171 @@
+{
+  "schema_version": "forma-fa-doublet-review-v1",
+  "node_type": "fa.doublet_review",
+  "node_key": "fa.real_doublet_or_not/graph-fe0d30030bcc4939b88103e27753b2c1/H1/doublet%3Anii",
+  "run_id": "graph-fe0d30030bcc4939b88103e27753b2c1",
+  "branch_id": "main",
+  "hypothesis_ref": "H1",
+  "doublet_id": "doublet:nii",
+  "claim_mode": "orphan",
+  "components": [
+    {
+      "line_id": "line:nii-6549",
+      "line_name": "[N II]a",
+      "rest_angstrom": 6549.8,
+      "expected_obs_angstrom": 7249.438575183808,
+      "sh_status": "NOT_FOUND",
+      "measurement_id": null,
+      "measurement_source": null,
+      "measured_center_angstrom": null,
+      "amplitude": null,
+      "measured_offset_from_expected_angstrom": null,
+      "fa_state": null,
+      "cleaned_pairing": "no_pairing",
+      "fa_vote_artifact_refs": []
+    },
+    {
+      "line_id": "line:nii-6585",
+      "line_name": "[N II]b",
+      "rest_angstrom": 6585.3,
+      "expected_obs_angstrom": 7288.730625234042,
+      "sh_status": "LIKELY",
+      "measurement_id": "cwt:em:0013",
+      "measurement_source": "CWT",
+      "measured_center_angstrom": 7288.800000000348,
+      "amplitude": 1.8631991147994995,
+      "measured_offset_from_expected_angstrom": 0.06937476630537276,
+      "fa_state": "signal_present",
+      "cleaned_pairing": "adopted",
+      "fa_vote_artifact_refs": [
+        "fa/721484c7716c4157a93745e78e792c0d/node",
+        "fa/46f4e7e76bb54c548fef914ec5c37389/node",
+        "fa/78b3aac56efa44e4bfd6c059a4564179/node"
+      ]
+    }
+  ],
+  "metrics": {
+    "expected_separation_angstrom": 39.29205005023414,
+    "registry_rest_separation_angstrom": 35.5,
+    "measured_separation_angstrom": null,
+    "separation_difference_angstrom": null,
+    "amplitude_ratio_a_over_b": null,
+    "reference_ratio_window_a_over_b": [
+      0.2,
+      0.45
+    ],
+    "reference_ratio_note": "a:b ≈ 1:3",
+    "reference_ratio_within_window": null,
+    "reference_ratio_is_advisory": true
+  },
+  "coverage": {
+    "requested_window_angstrom": [
+      7169.438575183808,
+      7368.730625234042
+    ],
+    "actual_window_angstrom": [
+      7169.6000000003205,
+      7368.000000000366
+    ],
+    "spectrum_bounds_angstrom": [
+      3600.0,
+      9824.000000000524
+    ],
+    "component_cores": [
+      {
+        "line_id": "line:nii-6549",
+        "predicted_obs_angstrom": 7249.438575183808,
+        "center_within_spectrum_bounds": true,
+        "samples": 37,
+        "valid_samples": 37,
+        "masked_samples": 0,
+        "assessable": true
+      },
+      {
+        "line_id": "line:nii-6585",
+        "predicted_obs_angstrom": 7288.730625234042,
+        "center_within_spectrum_bounds": true,
+        "samples": 37,
+        "valid_samples": 37,
+        "masked_samples": 0,
+        "assessable": true
+      }
+    ],
+    "assessable": true,
+    "unreviewable_reason": null
+  },
+  "status": "complete",
+  "pair_supported": false,
+  "consultative_only": true,
+  "method_snapshot": {
+    "context_margin_angstrom": 80.0,
+    "component_check_half_angstrom": 15.0,
+    "cahk_outer_reference_sigma": 3.0,
+    "min_valid_component_samples": 5,
+    "vote_quorum": 3,
+    "max_attempts_per_vote_seat": 2
+  },
+  "vote_summary": {
+    "yes": 0,
+    "no": 3,
+    "yes_fraction": 0.0,
+    "assurance": "assured"
+  },
+  "ballots": [
+    {
+      "seat": 0,
+      "answer": "no",
+      "reason": "b (7288.8 Å) is a clean, coherent peak matching prediction, but the orphan partner a at 7249.4 Å shows only low-S/N noisy elevated flux with no coherent peak at the predicted center; the dominant nearby feature sits ~16 Å away (~7265 Å). The two-component doublet is not corroborated.",
+      "vote_ref": "fa_doublet/8d496eff29f74ed985931ed9b1e507b8/vote.json"
+    },
+    {
+      "seat": 1,
+      "answer": "no",
+      "reason": "b at 7288.8 Å is a clean, well-centered peak, but the orphan partner a at 7249.4 Å shows only a weak, noisy bump (ivar ~18-70) adjacent to a much stronger unrelated line at ~7265.6 Å; no distinct credible emission at the predicted a position, so the two-component pairing is not corroborated.",
+      "vote_ref": "fa_doublet/7991b87b74244b86b3697a4e2c5d4a80/vote.json"
+    },
+    {
+      "seat": 2,
+      "answer": "no",
+      "reason": "Component b at 7288.8 Å is a clean, well-centered narrow peak (2.3 flux vs ~0.4 continuum), but the claimed partner a near 7249.4 Å shows only noise-level fluctuations in a low-ivar stretch (ivar ~18-70) adjacent to the strong 7265 Å feature; no discrete line profile is visible at the predicted position, so the orphan partner is not corroborated.",
+      "vote_ref": "fa_doublet/1a2d428526c1433a819c061833d96c51/vote.json"
+    }
+  ],
+  "successful_votes": 3,
+  "required_votes": 3,
+  "failed_seats": 0,
+  "model_usage": {
+    "calls": 3,
+    "input_tokens": 27312,
+    "output_tokens": 1463,
+    "cache_hit_tokens": 26880,
+    "cache_hit_reported_calls": 3,
+    "cache_hit_unreported_calls": 0
+  },
+  "prompt_identity": {
+    "system_sha256": "92cc96d1542cdf1088b68d4688ccd8de256ac572ab050c2a5e087060f5955e1b",
+    "user_sha256": "fec43ef76f404315b9a70d92cb4ab80e186d52543c461b9433025bbc99624632",
+    "tool_name": "submit_doublet_vote",
+    "prompt_text_sha256": "153f1da50784d72bd7b734a102fcd6504bfbf771974c6a393ebd3cdc0dd7620a"
+  },
+  "source_refs": [
+    "sh/H1/node",
+    "sh/H1/catalog",
+    "sh/H1/judgments",
+    "spectrum_npz",
+    "fa/721484c7716c4157a93745e78e792c0d/node",
+    "fa/46f4e7e76bb54c548fef914ec5c37389/node",
+    "fa/78b3aac56efa44e4bfd6c059a4564179/node"
+  ],
+  "attempt_refs": [
+    "fa_doublet/8d496eff29f74ed985931ed9b1e507b8/vote.json",
+    "fa_doublet/8d496eff29f74ed985931ed9b1e507b8/session.md",
+    "fa_doublet/8d496eff29f74ed985931ed9b1e507b8/model_usage.json",
+    "fa_doublet/7991b87b74244b86b3697a4e2c5d4a80/vote.json",
+    "fa_doublet/7991b87b74244b86b3697a4e2c5d4a80/session.md",
+    "fa_doublet/7991b87b74244b86b3697a4e2c5d4a80/model_usage.json",
+    "fa_doublet/1a2d428526c1433a819c061833d96c51/vote.json",
+    "fa_doublet/1a2d428526c1433a819c061833d96c51/session.md",
+    "fa_doublet/1a2d428526c1433a819c061833d96c51/model_usage.json"
+  ],
+  "node_execution_id": "28d1df5aba874b1bb0727ade24143b3f"
+}

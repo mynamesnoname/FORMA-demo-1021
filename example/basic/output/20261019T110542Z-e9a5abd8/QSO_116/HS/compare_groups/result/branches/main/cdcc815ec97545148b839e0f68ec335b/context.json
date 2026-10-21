@@ -1,0 +1,276 @@
+{
+  "schema_version": "forma-hs-group-comparison-v3",
+  "run_id": "graph-325ff74c7f444efdb17e3f3b69698eea",
+  "branch_id": "main",
+  "merge_ref": "hs/5551d6a1a1b74f8ba4112435e10705c2/node",
+  "source_refs": [
+    "alignment/06f7bfce442546da93261a370f8f40bc/node",
+    "alignment/819f69b6304740ccbeeb94b46b97eef1/node",
+    "fa/06040e9d917f447593c101027922db93/node",
+    "fa/3baea011731b426a8284740aea8d37b4/node",
+    "fa/4e0f417adf0e425cba15d6e83d45fe62/node",
+    "fa/7b4b3f4bde5f416da3f0e9566fdb2e12/node",
+    "fa/87467cd2df07435ca7001b702d655bee/node",
+    "fa/d5c716d30b8244b192eeac8f030ae74c/node",
+    "fa_doublet/928863c4694b40d1b879f14ce8d3cdfe/node",
+    "fa_forest/2e9744fbcab4444e93bc8532c742376f/node",
+    "hs/5551d6a1a1b74f8ba4112435e10705c2/node",
+    "sh/H5/catalog",
+    "sh/H5/judgments",
+    "sh/H5/node",
+    "sh/H6/catalog",
+    "sh/H6/judgments",
+    "sh/H6/node",
+    "sh2/04f62a129ba54bf783de1b76c1866a5e/report",
+    "sh2/3ee7584874ff49f9862661771dbfaf44/node",
+    "sh2/63a2e13eca9e41bb9a3008c6f87d114a/node",
+    "sh2/7206227723c9467abe875ea1760ec8fa/report"
+  ],
+  "groups": [
+    {
+      "group_id": "hs.merge/H5",
+      "candidate_type": "Type 1 QSO",
+      "member_hypotheses": [
+        "H5"
+      ],
+      "original_redshifts": {
+        "H5": 2.9196962422694117
+      },
+      "merged_anchor_redshift": 2.9196962422694117,
+      "merge_status": "singleton",
+      "comparison_status": "merged",
+      "type_recheck_required": false,
+      "selected_pairs": [
+        {
+          "line_id": "line:lya-1216",
+          "feature_id": "cwt:em:0000",
+          "wavelength_angstrom": 4768.000000000266,
+          "measurement_source": "CWT",
+          "assignment_status": "non_tbd",
+          "provenance": [
+            {
+              "hypothesis_ref": "H5",
+              "assignment_status": "non_tbd",
+              "fa_state": "signal_present",
+              "fa_review_status": "original_measurement",
+              "measurement_source": "CWT",
+              "prior_measurement_id": null,
+              "prior_measurement_fa_state": null,
+              "source_refs": [
+                "sh/H5/judgments"
+              ]
+            }
+          ]
+        },
+        {
+          "line_id": "line:civ-1549",
+          "feature_id": "cwt:em:0002",
+          "wavelength_angstrom": 6072.000000000071,
+          "measurement_source": "CWT",
+          "assignment_status": "non_tbd",
+          "provenance": [
+            {
+              "hypothesis_ref": "H5",
+              "assignment_status": "non_tbd",
+              "fa_state": "signal_present",
+              "fa_review_status": "original_measurement",
+              "measurement_source": "CWT",
+              "prior_measurement_id": null,
+              "prior_measurement_fa_state": null,
+              "source_refs": [
+                "sh/H5/judgments"
+              ]
+            }
+          ]
+        }
+      ],
+      "excluded_pairs": [],
+      "lost_shared_key_pairs": [],
+      "lost_type_support_line_ids": [],
+      "advisory_reviews": [
+        {
+          "hypothesis_ref": "H5",
+          "lya_forest": {
+            "node_ref": "fa_forest/2e9744fbcab4444e93bc8532c742376f/node",
+            "status": "complete",
+            "visibility": "not_seen",
+            "vote_summary": {
+              "yes": 0,
+              "no": 3,
+              "yes_fraction": 0.0,
+              "assurance": "assured"
+            },
+            "coverage": {
+              "blue_requested_angstrom": [
+                4565.057130839656,
+                4765.057130839656
+              ],
+              "red_requested_angstrom": [
+                4765.057130839656,
+                4845.057130839656
+              ],
+              "actual_window_angstrom": [
+                4565.60000000022,
+                4844.800000000283
+              ],
+              "blue_samples": 250,
+              "blue_valid_samples": 250,
+              "red_valid_samples": 100,
+              "blue_masked_samples": 0,
+              "blue_invalid_ivar_or_flux_samples": 0,
+              "requested_blue_interval_within_spectrum_bounds": true,
+              "assessable": true,
+              "unreviewable_reason": null,
+              "median_blue_pixel_noise": 0.18192725595352832
+            }
+          },
+          "doublets": []
+        }
+      ],
+      "source_reports": [
+        {
+          "hypothesis_ref": "H5",
+          "source_ref": "sh2/7206227723c9467abe875ea1760ec8fa/report",
+          "text": "### 3a. Spectrum Summary\n\nHypothesis redshift: 2.9196962422694117\n\n- Hypothesis reference: H5\n- Branch: main\n- Reported wavelength coverage: 3600.0–9824.000000000524 Å\n- Masked regions: none supplied\n- Measurement catalog reference: sh/H5/catalog\n\n### 3b. Recorded Graph Outcome\n\nGraph path status: survive\nCandidate type: Type 1 QSO\n\nThe terminal code node is `sh2/63a2e13eca9e41bb9a3008c6f87d114a/node` (qso.route_result), applying rule `project:qso-type1-formal-gate` version `forma-qso-entry-v1`. It recorded `path_status: survive` with `candidate_type: Type 1 QSO` and no reason codes. This outcome is supported upstream by the Q10 formal gate node `sh2/25ec1046a7694849b10165a3aec7aab1/node`, which recorded `gate_status: type1_supported` for the selected lines `line:lya-1216` and `line:civ-1549`, both in effective state `paired`, with usable coverage for both.\n\n### 3c. Per-Line Results\n\n**adopted**\n\n| Line / ID | λ_pred (Å) | Measurement / λ (Å) | Source / FWHM (km/s) | SH | FA | Graph gate | Flags |\n|---|---:|---|---|---|---|---|---|\n| Lyα (`line:lya-1216`) | 4765.057130839656 | `cwt:em:0000` / 4768.000000000266 | CWT / 2497.013289890503 | LIKELY | signal_present (3/3 yes) | paired | — |\n| C IV (`line:civ-1549`) | 6071.609479275318 | `cwt:em:0002` / 6072.000000000071 | CWT / 3472.5976450486037 | LIKELY | signal_present (2/3 yes) | paired | — |\n\n**rejected_measurement**\n\n| Line / ID | λ_pred (Å) | Measurement / λ (Å) | Source / FWHM (km/s) | SH | FA | Graph gate | Flags |\n|---|---:|---|---|---|---|---|---|\n| C III] (`line:ciii-1909`) | 7482.700126492307 | `cwt:em:0003` / 7474.40000000039 | CWT / 3413.130835109371 | MARGINAL | signal_absent (0/3 yes) | not_evaluated | — |\n\n**no_pairing**\n\n| Line / ID | λ_pred (Å) | Measurement / λ (Å) | Source / FWHM (km/s) | SH | FA | Graph gate | Flags |\n|---|---:|---|---|---|---|---|---|\n| He II (`line:heii-1640`) | 6429.869715818743 | — | — | NOT_FOUND | — | not_evaluated | — |\n\n### 3d. Key Findings and Graph Actions\n\n- Broad-line inventory (`sh2/7c2f26573577439997525b4056d2b5ed/node`): Lyα (`line:lya-1216`, FWHM 2497.013289890503 km/s) and C IV (`line:civ-1549`, FWHM 3472.5976450486037 km/s) were recorded as broadness `supported` against the strict broad threshold of 2000.0 km/s (`config:rule:formal-width-class-match.width_consistency_score`). C III] (`line:ciii-1909`) was `unresolved` with a rejected measurement, and Mg II (`line:mgii-2800`) was `outside_range`. `any_supported_broad_line: true`.\n- Missing broad-line queue (`sh2/4ae027ef899141a39d74ec4d1314c624/node`): selected `line:lya-1216` and `line:civ-1549` for local reads; queue empty; coverage preview usable for Lyα, C IV, and C III], outside range for Mg II.\n- Coverage reads: Lyα (`sh2/35c41779be6743279bad3e2776467892/node`) and C IV (`sh2/8f5d69708c29420b809e8089f0bd2127/node`) each returned `usable` coverage with 375/375 usable samples, 0 explicit masked samples, and `full_window_explicit_mask_proof: false`.\n- Q10 formal gate (`sh2/25ec1046a7694849b10165a3aec7aab1/node`): effective line states `paired` for both Lyα and C IV; `gate_status: type1_supported`; no reason codes.\n- Line alignment (`alignment/819f69b6304740ccbeeb94b46b97eef1/node`): no collisions. Lyα and C IV retained as `original_claim`; C III] and He II recorded as `unassigned`. No model calls were made.\n- SH/FA layers: Lyα SH `LIKELY`, FA `signal_present`, vote 3 yes / 0 no (assured). C IV SH `LIKELY`, FA `signal_present`, vote 2 yes / 1 no (contested). C III] SH `MARGINAL`, FA `signal_absent`, vote 0 yes / 3 no (assured), pairing `rejected_measurement`. He II SH `NOT_FOUND`, no FA state, `no_pairing`, gate `not_evaluated`.\n- No targeted Q8 measurements were supplied (`targeted_measurements` empty). No skipped nodes were recorded.\n\n### 3e. Recorded Classification\n\nPreliminary classification: Type 1 QSO\nRecorded classification: Type 1 QSO\n\nThe preliminary classification (Type 1 QSO) was carried through the Q10 formal gate node `sh2/25ec1046a7694849b10165a3aec7aab1/node`, which recorded `type1_supported` on the paired Lyα and C IV lines with usable coverage, and then to the terminal route node `sh2/63a2e13eca9e41bb9a3008c6f87d114a/node`, which recorded `survive` with `candidate_type: Type 1 QSO` under rule `project:qso-type1-formal-gate` (forma-qso-entry-v1). This is the graph's rule result for this single hypothesis, not an independent classification or a final choice among Redrock hypotheses.\n\n### 3f. Caveats and Open Items\n\n- C IV vote is `contested` (2 yes / 1 no); its FA `signal_present` confirms a signal at the measurement, not independently the line identity.\n- C III] measurement was rejected (`rejected_measurement`, FA `signal_absent`, 0/3); a rejected measurement does not prove the line is absent, and its gate state is `not_evaluated`.\n- He II is SH `NOT_FOUND` with `no_pairing` and gate `not_evaluated`; this is an SH label, not a type-graph negative result.\n- Mg II (`line:mgii-2800`) is `outside_range` and was not evaluated on this path.\n- Coverage reads show `full_window_explicit_mask_proof: false`; no window is described as fully masked.\n- No Q8 targeted measurements were supplied, so no envelope proxies or strength votes are reported.\n- No conflicts or unresolved items were recorded in the canonical context.\n"
+        }
+      ]
+    },
+    {
+      "group_id": "hs.merge/H6",
+      "candidate_type": "Type 1 QSO",
+      "member_hypotheses": [
+        "H6"
+      ],
+      "original_redshifts": {
+        "H6": 0.7079175775287458
+      },
+      "merged_anchor_redshift": 0.7079175775287458,
+      "merge_status": "singleton",
+      "comparison_status": "merged",
+      "type_recheck_required": false,
+      "selected_pairs": [
+        {
+          "line_id": "line:mgii-2800",
+          "feature_id": "cwt:em:0000",
+          "wavelength_angstrom": 4768.000000000266,
+          "measurement_source": "CWT",
+          "assignment_status": "non_tbd",
+          "provenance": [
+            {
+              "hypothesis_ref": "H6",
+              "assignment_status": "non_tbd",
+              "fa_state": "signal_present",
+              "fa_review_status": "original_measurement",
+              "measurement_source": "CWT",
+              "prior_measurement_id": null,
+              "prior_measurement_fa_state": null,
+              "source_refs": [
+                "sh/H6/judgments"
+              ]
+            }
+          ]
+        }
+      ],
+      "excluded_pairs": [],
+      "lost_shared_key_pairs": [],
+      "lost_type_support_line_ids": [],
+      "advisory_reviews": [
+        {
+          "hypothesis_ref": "H6",
+          "lya_forest": null,
+          "doublets": [
+            {
+              "node_ref": "fa_doublet/928863c4694b40d1b879f14ce8d3cdfe/node",
+              "doublet_id": "doublet:cahk",
+              "status": "complete",
+              "pair_supported": false,
+              "claim_mode": "orphan",
+              "component_line_ids": [
+                "line:cak-3934-abs",
+                "line:cah-3969-abs"
+              ],
+              "vote_summary": {
+                "yes": 0,
+                "no": 3,
+                "yes_fraction": 0.0,
+                "assurance": "assured"
+              },
+              "coverage": {
+                "requested_window_angstrom": [
+                  6640.314084060109,
+                  6859.749615758109
+                ],
+                "actual_window_angstrom": [
+                  6640.8000000002,
+                  6859.20000000025
+                ],
+                "spectrum_bounds_angstrom": [
+                  3600.0,
+                  9824.000000000524
+                ],
+                "component_cores": [
+                  {
+                    "line_id": "line:cak-3934-abs",
+                    "predicted_obs_angstrom": 6720.314084060109,
+                    "center_within_spectrum_bounds": true,
+                    "samples": 38,
+                    "valid_samples": 38,
+                    "masked_samples": 0,
+                    "assessable": true
+                  },
+                  {
+                    "line_id": "line:cah-3969-abs",
+                    "predicted_obs_angstrom": 6779.749615758109,
+                    "center_within_spectrum_bounds": true,
+                    "samples": 38,
+                    "valid_samples": 38,
+                    "masked_samples": 0,
+                    "assessable": true
+                  }
+                ],
+                "assessable": true,
+                "unreviewable_reason": null
+              },
+              "metrics": {
+                "expected_separation_angstrom": 59.43553169799998,
+                "registry_rest_separation_angstrom": 34.8,
+                "measured_separation_angstrom": null,
+                "separation_difference_angstrom": null,
+                "amplitude_ratio_a_over_b": null,
+                "reference_ratio_window_a_over_b": null,
+                "reference_ratio_note": "Ca K must be deeper than Ca H",
+                "reference_ratio_within_window": null,
+                "reference_ratio_is_advisory": true
+              }
+            }
+          ]
+        }
+      ],
+      "source_reports": [
+        {
+          "hypothesis_ref": "H6",
+          "source_ref": "sh2/04f62a129ba54bf783de1b76c1866a5e/report",
+          "text": "### 3a. Spectrum Summary\n\nHypothesis redshift: 0.7079175775287458\n\nHypothesis reference: H6 (branch `main`, run `graph-325ff74c7f444efdb17e3f3b69698eea`). Reported wavelength coverage: 3600.0–9824.000000000524 Å. No masked regions were supplied in the spectrum summary. Measurement catalog reference: `sh/H6/catalog`.\n\n### 3b. Recorded Graph Outcome\n\nGraph path status: survive\nCandidate type: Type 1 QSO\n\nThe terminal code node is `sh2/3ee7584874ff49f9862661771dbfaf44/node` (`qso.route_result`), applying rule `project:qso-type1-formal-gate` version `forma-qso-entry-v1`, with no reason codes recorded. The route was driven by the formal Type 1 gate at `sh2/348a2821d578400ebf6fd189a8951e0d/node`, which recorded `gate_status: type1_supported` for the selected line `line:mgii-2800` with effective state `paired`, drawing on the coverage node `sh2/13a17fbf7668439794ad865845ab7903/node` and the broad-line inventory `sh2/5b72c414f0cf456ca43df96d8bed97ad/node`. The broad-line inventory recorded `any_supported_broad_line: true` with Mg II broadness `supported` (FWHM 2497.013289890503 km/s against the strict broad threshold of 2000.0 km/s), and the missing-broad-line queue `sh2/6919df0e16a14a81af29d6323e4ce413/node` selected only `line:mgii-2800` for local read.\n\n### 3c. Per-Line Results\n\n**adopted**\n\n| Line / ID | λ_pred (Å) | Measurement / λ (Å) | Source / FWHM (km/s) | SH | FA | Graph gate | Flags |\n|---|---:|---|---|---|---|---|---|\n| Mg II (`line:mgii-2800`) | 4782.169217080488 | `cwt:em:0000` / 4768.000000000266 | CWT / 2497.013289890503 | MARGINAL | signal_present (3/3 yes) | paired | — |\n\n**rejected_measurement**\n\n| Line / ID | λ_pred (Å) | Measurement / λ (Å) | Source / FWHM (km/s) | SH | FA | Graph gate | Flags |\n|---|---:|---|---|---|---|---|---|\n| Ca H_abs (`line:cah-3969-abs`) | 6779.749615758109 | `fit:H6:0003` / 6784.746 | fit_doublet / 2403.0 | MARGINAL | signal_absent (0/3 yes) | not_evaluated | — |\n| Hε (`line:heps-3970`) | 6780.6035745468735 | `fit:H6:0006` / 6798.722 | fit_peak / 1201.4 | MARGINAL | signal_absent (0/3 yes) | not_evaluated | — |\n| Hδ (`line:hdel-4102`) | 7007.415028842691 | `fit:H6:0007` / 7026.638 | fit_peak / 309.0 | MARGINAL | signal_absent (0/3 yes) | not_evaluated | — |\n| Hδ_abs (`line:hdel-4102-abs`) | 7007.415028842691 | `fit:H6:0012` / 7010.401 | fit_peak / 7889.4 | MARGINAL | signal_absent (0/3 yes) | not_evaluated | — |\n| G-band_abs (`line:gband-4305-abs`) | 7353.609921807769 | `fit:H6:0013` / 7358.995 | fit_peak / 3573.9 | MARGINAL | signal_absent (0/3 yes) | not_evaluated | — |\n| Hβ (`line:hbet-4862`) | 8305.090804249032 | `fit:H6:0009` / 8323.558 | fit_peak / 84.8 | MARGINAL | signal_absent (0/3 yes) | not_evaluated | — |\n| Hβ_abs (`line:hbet-4862-abs`) | 8305.090804249032 | `fit:H6:0015` / 8295.764 | fit_peak / 813.9 | MARGINAL | signal_absent (0/3 yes) | not_evaluated | — |\n| Mg I_abs (`line:mgi-5176-abs`) | 8841.376923593058 | `cwt:abs:0003` / 8831.200000000299 | CWT / 125.14598650991758 | MARGINAL | signal_absent (0/3 yes) | not_evaluated | — |\n\n**no_pairing**\n\n| Line / ID | λ_pred (Å) | Measurement / λ (Å) | Source / FWHM (km/s) | SH | FA | Graph gate | Flags |\n|---|---:|---|---|---|---|---|---|\n| Mg II_abs (`line:mgii-2800-abs`) | 4782.169217080488 | — | — | NOT_FOUND | — | not_evaluated | — |\n| [Ne V] (`line:nev-3426`) | 5851.325620613483 | — | — | NOT_FOUND | — | not_evaluated | — |\n| [O II] (`line:oii-3727`) | 6365.408811449635 | — | — | NOT_FOUND | — | not_evaluated | — |\n| Ca K_abs (`line:cak-3934-abs`) | 6720.314084060109 | — | — | NOT_FOUND | — | not_evaluated | — |\n| Hε_abs (`line:heps-3970-abs`) | 6780.6035745468735 | — | — | NOT_FOUND | — | not_evaluated | — |\n| Hγ (`line:hgam-4341`) | 7415.265746356556 | — | — | NOT_FOUND | — | not_evaluated | — |\n| Hγ_abs (`line:hgam-4341-abs`) | 7415.265746356556 | — | — | NOT_FOUND | — | not_evaluated | — |\n| [O III]a (`line:oiii-4960`) | 8471.783559815838 | — | — | NOT_FOUND | — | not_evaluated | — |\n| [O III]b (`line:oiii-5008`) | 8553.592811779465 | — | — | NOT_FOUND | — | not_evaluated | — |\n\n### 3d. Key Findings and Graph Actions\n\nThe only line carried into the Type 1 gate was Mg II (`line:mgii-2800`, measurement `cwt:em:0000`): SH status `MARGINAL`, FA state `signal_present`, vote summary 3 yes / 0 no (`assured`), cleaned pairing `adopted`, graph gate state `paired`. Its coverage node (`sh2/13a17fbf7668439794ad865845ab7903/node`) recorded `usable` coverage over the requested window [4632.169217080488, 4932.169217080488] Å (actual [4632.800000000235, 4932.000000000303] Å), 375/375 usable samples, 0 explicitly masked samples, and `full_window_explicit_mask_proof: false` — so the window is not described as fully masked.\n\nThe broad-line inventory (`sh2/5b72c414f0cf456ca43df96d8bed97ad/node`) placed Lyα, C IV, and C III outside the reported wavelength range (`outside_range`, `out_of_scope`), so those lines were not evaluated on this path. The missing-broad-line queue (`sh2/6919df0e16a14a81af29d6323e4ce413/node`) recorded an empty queue and selected only Mg II for local read.\n\nAll other supplied line records carry SH `NOT_FOUND` with `no_pairing` and `not_evaluated` gate states (Mg II_abs, [Ne V], [O II], Ca K_abs, Hε_abs, Hγ, Hγ_abs, [O III]a, [O III]b), or carry `MARGINAL` SH status with FA `signal_absent`, 0 yes / 3 no (`assured`) votes, and `rejected_measurement` cleaned pairing (Ca H_abs, Hε, Hδ, Hδ_abs, G-band_abs, Hβ, Hβ_abs, Mg I_abs). These rejected measurements were not promoted to the gate; a rejected measurement does not by itself prove the line absent. No Q8 targeted measurements were supplied (`targeted_measurements` empty), and no Q5–Q8 local reads beyond the Mg II coverage node were executed on this path. No conflicts or unresolved items were recorded, and no nodes were listed as skipped.\n\nThe line-alignment record (`alignment/06f7bfce442546da93261a370f8f40bc/node`) shows no collisions; Mg II is the sole `original_claim` (effective feature `cwt:em:0000`), and all other entries are `unassigned` with null effective features. These alignment votes did not modify the original SH/FA rows or the route.\n\n### 3e. Recorded Classification\n\nPreliminary classification: Type 1 QSO\nRecorded classification: Type 1 QSO\n\nThe preliminary classification (Type 1 QSO) was carried through the formal Type 1 gate at `sh2/348a2821d578400ebf6fd189a8951e0d/node`, which recorded `type1_supported` on the strength of the paired, broad Mg II line, and the route result at `sh2/3ee7584874ff49f9862661771dbfaf44/node` returned `survive` with candidate type Type 1 QSO under rule `project:qso-type1-formal-gate` (v `forma-qso-entry-v1`). This is the graph's rule-based result for hypothesis H6 only, not a final choice among Redrock hypotheses.\n\n### 3f. Caveats and Open Items\n\n- Mg II coverage is `usable` but `full_window_explicit_mask_proof` is `false` (`sh2/13a17fbf7668439794ad865845ab7903/node`); the window is not proven fully masked, and no masked regions were supplied.\n- Mg II SH status is `MARGINAL` (not a clean detection label), though FA recorded `signal_present` with an assured 3/0 vote; FA signal presence confirms a signal at the measurement, not independently the line identity.\n- Lyα, C IV, and C III fall outside the reported wavelength range and were not evaluated on this path (`sh2/5b72c414f0cf456ca43df96d8bed97ad/node`).\n- The many `MARGINAL`/`signal_absent`/`rejected_measurement` lines (Ca H_abs, Hε, Hδ, Hδ_abs, G-band_abs, Hβ, Hβ_abs, Mg I_abs) were not evaluated by the type gate; rejection does not establish absence. For the Ca H-region observations, Hε is not separately resolved.\n- No Q8 targeted envelope proxies were supplied, so no model-selected amplitude/width proxies are reported.\n- Line-alignment entries other than Mg II are `unassigned` with null effective features; an unassigned slot does not prove line absence.\n- No conflicts, unresolved items, or skipped nodes were recorded in the canonical context.\n"
+        }
+      ]
+    }
+  ],
+  "observed_feature_competitions": [
+    {
+      "feature_id": "cwt:em:0000",
+      "observed_wavelength_angstrom": 4768.000000000266,
+      "interpretations": [
+        {
+          "group_id": "hs.merge/H5",
+          "candidate_type": "Type 1 QSO",
+          "line_id": "line:lya-1216"
+        },
+        {
+          "group_id": "hs.merge/H6",
+          "candidate_type": "Type 1 QSO",
+          "line_id": "line:mgii-2800"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,36 @@
+{
+  "requested_window_angstrom": [
+    4844.648324423568,
+    5048.2027011873015
+  ],
+  "actual_window_angstrom": [
+    4844.800000000283,
+    5048.000000000329
+  ],
+  "spectrum_bounds_angstrom": [
+    3600.0,
+    9824.000000000524
+  ],
+  "component_cores": [
+    {
+      "line_id": "line:cak-3934-abs",
+      "predicted_obs_angstrom": 4924.648324423568,
+      "center_within_spectrum_bounds": true,
+      "samples": 37,
+      "valid_samples": 37,
+      "masked_samples": 0,
+      "assessable": true
+    },
+    {
+      "line_id": "line:cah-3969-abs",
+      "predicted_obs_angstrom": 4968.2027011873015,
+      "center_within_spectrum_bounds": true,
+      "samples": 38,
+      "valid_samples": 38,
+      "masked_samples": 0,
+      "assessable": true
+    }
+  ],
+  "assessable": true,
+  "unreviewable_reason": null
+}

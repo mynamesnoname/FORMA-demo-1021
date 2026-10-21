@@ -1,0 +1,42 @@
+{
+  "schema_version": "forma-lrg-bgs-node-v1",
+  "graph_version": "forma-lrg-bgs-type-graph-v2",
+  "run_id": "graph-6f4e6510cc5d45df9da3b7be0c8597cc",
+  "branch_id": "main",
+  "hypothesis_ref": "H3",
+  "node_key": "sh2.lrg_bgs/H3/lrg_bgs.nev_guard",
+  "node_type": "lrg_bgs.nev_guard",
+  "status": "completed",
+  "input_refs": [
+    "sh2/237d61af2e574d98a53f980125b4852a/node",
+    "fa/24fb1a65df1d4283bb864969d8146676/node",
+    "fa/e9e6bc9f8d1c46a088bba82372771e28/node",
+    "fa/88c34bce1b314ff7af22990a2b9f3cdc/node"
+  ],
+  "evidence_refs": [
+    "sh2/237d61af2e574d98a53f980125b4852a/node",
+    "fa/24fb1a65df1d4283bb864969d8146676/node",
+    "fa/e9e6bc9f8d1c46a088bba82372771e28/node",
+    "fa/88c34bce1b314ff7af22990a2b9f3cdc/node"
+  ],
+  "output": {
+    "line": {
+      "line_id": "line:nev-3426",
+      "measurement_id": "fit:H3:0008",
+      "sh_status": "MARGINAL",
+      "fa_state": "signal_absent",
+      "cleaned_pairing": "rejected_measurement",
+      "fa_vote_artifact_refs": [
+        "fa/24fb1a65df1d4283bb864969d8146676/node",
+        "fa/e9e6bc9f8d1c46a088bba82372771e28/node",
+        "fa/88c34bce1b314ff7af22990a2b9f3cdc/node"
+      ]
+    },
+    "adopted": false,
+    "next_node": "lrg_bgs.qso_type1_guard"
+  },
+  "unresolved_reasons": [],
+  "created_by": "code",
+  "node_execution_id": "1911d81a88c041b4a12dbef579b63fb4",
+  "attempt_id": "9c7d092b77874da2b63a8f66234ad7fd"
+}

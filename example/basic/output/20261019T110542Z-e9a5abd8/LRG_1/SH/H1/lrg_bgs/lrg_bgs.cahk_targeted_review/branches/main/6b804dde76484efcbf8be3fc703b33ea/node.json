@@ -1,0 +1,129 @@
+{
+  "schema_version": "forma-lrg-bgs-node-v1",
+  "graph_version": "forma-lrg-bgs-type-graph-v2",
+  "run_id": "graph-6f4e6510cc5d45df9da3b7be0c8597cc",
+  "branch_id": "main",
+  "hypothesis_ref": "H1",
+  "node_key": "sh2.lrg_bgs/H1/lrg_bgs.cahk_targeted_review",
+  "node_type": "lrg_bgs.cahk_targeted_review",
+  "status": "completed",
+  "input_refs": [
+    "sh2/e425b041768c497ba9b85d41c18f9d2a/node",
+    "sh/H1/catalog",
+    "spectrum_npz",
+    "lrg_bgs_cahk_vote/76db244347a643b6a45894ce9cc25d18/vote.json",
+    "lrg_bgs_cahk_vote/76db244347a643b6a45894ce9cc25d18/session.md",
+    "lrg_bgs_cahk_vote/76db244347a643b6a45894ce9cc25d18/model_usage.json",
+    "lrg_bgs_cahk_vote/66581437434542b28daf149dc6755219/vote.json",
+    "lrg_bgs_cahk_vote/66581437434542b28daf149dc6755219/session.md",
+    "lrg_bgs_cahk_vote/66581437434542b28daf149dc6755219/model_usage.json",
+    "lrg_bgs_cahk_vote/0696f4704f14475b95cf7c81f663c826/vote.json",
+    "lrg_bgs_cahk_vote/0696f4704f14475b95cf7c81f663c826/session.md",
+    "lrg_bgs_cahk_vote/0696f4704f14475b95cf7c81f663c826/model_usage.json"
+  ],
+  "evidence_refs": [
+    "sh2/e425b041768c497ba9b85d41c18f9d2a/node",
+    "sh/H1/catalog",
+    "spectrum_npz",
+    "lrg_bgs_cahk_vote/76db244347a643b6a45894ce9cc25d18/vote.json",
+    "lrg_bgs_cahk_vote/76db244347a643b6a45894ce9cc25d18/session.md",
+    "lrg_bgs_cahk_vote/76db244347a643b6a45894ce9cc25d18/model_usage.json",
+    "lrg_bgs_cahk_vote/66581437434542b28daf149dc6755219/vote.json",
+    "lrg_bgs_cahk_vote/66581437434542b28daf149dc6755219/session.md",
+    "lrg_bgs_cahk_vote/66581437434542b28daf149dc6755219/model_usage.json",
+    "lrg_bgs_cahk_vote/0696f4704f14475b95cf7c81f663c826/vote.json",
+    "lrg_bgs_cahk_vote/0696f4704f14475b95cf7c81f663c826/session.md",
+    "lrg_bgs_cahk_vote/0696f4704f14475b95cf7c81f663c826/model_usage.json"
+  ],
+  "output": {
+    "status": "complete",
+    "source": "targeted_window",
+    "pair_supported": false,
+    "vote_summary": {
+      "yes": 0,
+      "no": 3,
+      "yes_fraction": 0.0,
+      "assurance": "assured"
+    },
+    "consultative_only": true,
+    "coverage": {
+      "requested_window_angstrom": [
+        4844.648324423568,
+        5048.2027011873015
+      ],
+      "actual_window_angstrom": [
+        4844.800000000283,
+        5048.000000000329
+      ],
+      "spectrum_bounds_angstrom": [
+        3600.0,
+        9824.000000000524
+      ],
+      "component_cores": [
+        {
+          "line_id": "line:cak-3934-abs",
+          "predicted_obs_angstrom": 4924.648324423568,
+          "center_within_spectrum_bounds": true,
+          "samples": 37,
+          "valid_samples": 37,
+          "masked_samples": 0,
+          "assessable": true
+        },
+        {
+          "line_id": "line:cah-3969-abs",
+          "predicted_obs_angstrom": 4968.2027011873015,
+          "center_within_spectrum_bounds": true,
+          "samples": 38,
+          "valid_samples": 38,
+          "masked_samples": 0,
+          "assessable": true
+        }
+      ],
+      "assessable": true,
+      "unreviewable_reason": null
+    },
+    "model_usage": {
+      "calls": 4,
+      "input_tokens": 36876,
+      "output_tokens": 792,
+      "cache_hit_tokens": 10368,
+      "cache_hit_reported_calls": 4,
+      "cache_hit_unreported_calls": 0
+    },
+    "ballots": [
+      {
+        "seat": 0,
+        "answer": "no",
+        "reason": "No Ca K/H absorption pair is visible. At the expected Ca K (4924.6 Å) the flux is ~2.1-2.4, on the local continuum level (~2.0-2.5), with no dip; the fit's -1.46 amplitude at 4926.1 Å is not supported by the pixels. At the expected Ca H (4968.2 Å) flux is ~2.8, again continuum, and the region instead rises toward a broad emission-like hump near 4975-4985 Å. Neither core shows the paired absorption troughs required for a two-component Ca K/H interpretation.",
+        "vote_ref": "lrg_bgs_cahk_vote/76db244347a643b6a45894ce9cc25d18/vote.json"
+      },
+      {
+        "seat": 1,
+        "answer": "no",
+        "reason": "No Ca K/H absorption pair is visible. At the Ca K expected position (4924.6 Å) the flux is ~2.1-2.4, on the local continuum level (~2.0-2.5), with no dip; the fit's -1.46 amplitude at 4926.1 Å is not supported by the pixels. At the Ca H expected position (4968.2 Å) flux is ~2.8, again on the continuum, and the region instead rises toward a broad emission-like hump (~3.0-3.8 at 4972-4985 Å). Neither core shows the paired absorption troughs required for a two-component Ca K/H interpretation.",
+        "vote_ref": "lrg_bgs_cahk_vote/66581437434542b28daf149dc6755219/vote.json"
+      },
+      {
+        "seat": 2,
+        "answer": "no",
+        "reason": "No Ca K/H pair visible. At Ca K (4924.6 Å) flux ~2.1-2.4 sits on the local continuum (~2.0-2.5) with no dip; the fit's -1.46 amplitude at 4926.1 Å is unsupported. At Ca H (4968.2 Å) flux ~2.8 is also continuum, and 4950-4990 Å rises smoothly rather than showing a trough. The only dip is a broad shallow decline near 4860-4880 Å, far blueward of both centers and inconsistent with the fixed-redshift doublet spacing.",
+        "vote_ref": "lrg_bgs_cahk_vote/0696f4704f14475b95cf7c81f663c826/vote.json"
+      }
+    ],
+    "prompt_identity": {
+      "system_sha256": "c7319c122c261f28422d8edc735773b66703735f52f5f0263aaa015fa60771d7",
+      "user_sha256": "aef396a9e7664586ac8a6e58270a88948bd34628cbd9f81bdf09a5c1729ebaa9",
+      "tool_name": "submit_cahk_vote",
+      "prompt_text_sha256": "7605bde09564ef8770c8532408dacf8214c9a233cb7c3ef8f935c1f21d2dd8bc"
+    },
+    "unresolved_reasons": [],
+    "sampled_observation": {
+      "status": "not_required",
+      "candidates": []
+    }
+  },
+  "unresolved_reasons": [],
+  "created_by": "code",
+  "node_execution_id": "6b804dde76484efcbf8be3fc703b33ea",
+  "attempt_id": "f0214edcce77455c81ebd5e0e6da0e67"
+}

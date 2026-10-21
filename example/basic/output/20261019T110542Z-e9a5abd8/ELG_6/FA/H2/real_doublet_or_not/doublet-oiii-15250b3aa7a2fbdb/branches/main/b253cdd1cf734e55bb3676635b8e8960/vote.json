@@ -1,0 +1,13 @@
+{
+  "answer": "yes",
+  "reason": "Both windows show clear, independent emission peaks at the predicted positions: a narrow peak near 5489.6-5490.4 Å (flux ~12-13 over continuum ~0.7) and a stronger peak near 5543.2 Å (flux ~44). Centers match predictions within ~0.4 Å, separation 53.6 Å vs expected 53.0 Å, and the a/b amplitude ratio ~0.28 sits in the expected 0.25-0.5 window. No blending or masking issues; joint doublet interpretation is corroborated.",
+  "execution": {
+    "schema_version": "forma-agentic-node-execution-v1",
+    "run_id": "graph-fe0d30030bcc4939b88103e27753b2c1",
+    "branch_id": "main",
+    "node_key": "fa.real_doublet_or_not/graph-fe0d30030bcc4939b88103e27753b2c1/H2/doublet%3Aoiii",
+    "node_execution_id": "b253cdd1cf734e55bb3676635b8e8960",
+    "attempt_id": "4ee6fdbaac374832a992d5626d9853a1",
+    "relative_dir": "FA/H2/real_doublet_or_not/doublet-oiii-15250b3aa7a2fbdb/branches/main/b253cdd1cf734e55bb3676635b8e8960"
+  }
+}

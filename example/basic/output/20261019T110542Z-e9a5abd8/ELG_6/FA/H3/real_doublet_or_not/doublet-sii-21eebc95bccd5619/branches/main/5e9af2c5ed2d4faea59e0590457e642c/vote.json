@@ -1,0 +1,13 @@
+{
+  "answer": "no",
+  "reason": "Neither window shows a credible line: at 6719.4 Å (component a) flux fluctuates at noise level with no peak, matching NOT_FOUND. Component b's claimed center 6737.2 Å is offset 3.4 Å from prediction with FA=signal_absent, and no distinct feature appears near 6733.8 Å. No two-component structure is visible in usable pixels.",
+  "execution": {
+    "schema_version": "forma-agentic-node-execution-v1",
+    "run_id": "graph-fe0d30030bcc4939b88103e27753b2c1",
+    "branch_id": "main",
+    "node_key": "fa.real_doublet_or_not/graph-fe0d30030bcc4939b88103e27753b2c1/H3/doublet%3Asii",
+    "node_execution_id": "5e9af2c5ed2d4faea59e0590457e642c",
+    "attempt_id": "947100cdbe05414e955ae34cef00faa7",
+    "relative_dir": "FA/H3/real_doublet_or_not/doublet-sii-21eebc95bccd5619/branches/main/5e9af2c5ed2d4faea59e0590457e642c"
+  }
+}

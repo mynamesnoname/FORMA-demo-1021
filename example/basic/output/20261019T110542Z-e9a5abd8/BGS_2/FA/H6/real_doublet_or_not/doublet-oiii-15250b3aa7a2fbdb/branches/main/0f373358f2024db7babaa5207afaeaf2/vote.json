@@ -1,0 +1,13 @@
+{
+  "answer": "no",
+  "reason": "Component a window (5740-5760 Å) is flat continuum with no peak at 5748.6 Å (SH NOT_FOUND, FA none). Component b window (5800-5810 Å) is low-ivar noise with no credible emission above scatter (FA signal_absent, pairing rejected). Neither component is corroborated, so the doublet is unsupported.",
+  "execution": {
+    "schema_version": "forma-agentic-node-execution-v1",
+    "run_id": "graph-df7434d5533647e999870708120307b0",
+    "branch_id": "main",
+    "node_key": "fa.real_doublet_or_not/graph-df7434d5533647e999870708120307b0/H6/doublet%3Aoiii",
+    "node_execution_id": "0f373358f2024db7babaa5207afaeaf2",
+    "attempt_id": "7d3a606e388f475cb5ba0e2ec3827bf0",
+    "relative_dir": "FA/H6/real_doublet_or_not/doublet-oiii-15250b3aa7a2fbdb/branches/main/0f373358f2024db7babaa5207afaeaf2"
+  }
+}

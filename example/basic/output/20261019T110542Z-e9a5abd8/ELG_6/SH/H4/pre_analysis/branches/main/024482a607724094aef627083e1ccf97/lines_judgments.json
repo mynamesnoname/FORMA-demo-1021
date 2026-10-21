@@ -1,0 +1,285 @@
+[
+  {
+    "line_id": "line:oii-3727",
+    "measurement_id": "fit:H4:0010",
+    "status": "MARGINAL",
+    "reason_codes": [
+      "offset_weak",
+      "low_snr",
+      "blue_edge"
+    ],
+    "comment": "Fit centre 3716.7 vs 3727.8, offset ~11 A within strong window but low local SNR 1.6 and blue edge; weak candidate only."
+  },
+  {
+    "line_id": "line:cak-3934-abs",
+    "measurement_id": "fit:H4:0006",
+    "status": "MARGINAL",
+    "reason_codes": [
+      "separation_fail",
+      "broad_width",
+      "low_snr"
+    ],
+    "comment": "Doublet fit centre 3942.8 offset ~7 A, but separation fail and very broad width; plausible weak Ca K component retained as marginal."
+  },
+  {
+    "line_id": "line:cah-3969-abs",
+    "measurement_id": "fit:H4:0007",
+    "status": "MARGINAL",
+    "reason_codes": [
+      "separation_fail",
+      "very_broad_width",
+      "depth_ordering_uncertain"
+    ],
+    "comment": "Fit centre 3988.4 offset ~18 A, separation fail, FWHM ~9580 km/s; depth ordering (H deeper than K) uncertain, retained as plausible weak component."
+  },
+  {
+    "line_id": "line:heps-3970",
+    "measurement_id": null,
+    "status": "NOT_FOUND",
+    "reason_codes": [
+      "center_at_bound",
+      "no_cwt_feature"
+    ],
+    "comment": "Only fit is center_at_bound with zero amplitude; no credible CWT emission near 3971 A."
+  },
+  {
+    "line_id": "line:heps-3970-abs",
+    "measurement_id": null,
+    "status": "NOT_FOUND",
+    "reason_codes": [
+      "offset_reject",
+      "no_cwt_trough"
+    ],
+    "comment": "Only fit centre 4017 A is outside the line window and very broad; no credible CWT trough near 3971 A."
+  },
+  {
+    "line_id": "line:hdel-4102",
+    "measurement_id": null,
+    "status": "NOT_FOUND",
+    "reason_codes": [
+      "offset_reject",
+      "no_matching_feature"
+    ],
+    "comment": "Nearest peak 4127.2 A implies z=0.0059, offset ~23 A and no fit; no credible H-delta emission."
+  },
+  {
+    "line_id": "line:hdel-4102-abs",
+    "measurement_id": null,
+    "status": "NOT_FOUND",
+    "reason_codes": [
+      "offset_reject",
+      "no_fit"
+    ],
+    "comment": "Troughs at 4119.2/4139.2 A are offset ~15-35 A and no targeted fit; not adopted."
+  },
+  {
+    "line_id": "line:gband-4305-abs",
+    "measurement_id": null,
+    "status": "NOT_FOUND",
+    "reason_codes": [
+      "center_at_bound",
+      "no_cwt_trough"
+    ],
+    "comment": "Only fit is center_at_bound at 4256.5 A with huge width; no credible G-band absorption."
+  },
+  {
+    "line_id": "line:hgam-4341",
+    "measurement_id": null,
+    "status": "NOT_FOUND",
+    "reason_codes": [
+      "offset_reject",
+      "no_fit"
+    ],
+    "comment": "Peak 4305.6 A implies z=-0.0083, offset ~37 A; no targeted fit; not adopted."
+  },
+  {
+    "line_id": "line:hgam-4341-abs",
+    "measurement_id": null,
+    "status": "NOT_FOUND",
+    "reason_codes": [
+      "zero_amplitude",
+      "no_cwt_trough"
+    ],
+    "comment": "Fit at 4392.4 A has zero amplitude and no CWT trough near 4343 A."
+  },
+  {
+    "line_id": "line:hbet-4862",
+    "measurement_id": null,
+    "status": "NOT_FOUND",
+    "reason_codes": [
+      "center_at_bound",
+      "no_cwt_peak"
+    ],
+    "comment": "Only fit is center_at_bound at 4813.8 A with huge width; no credible H-beta emission."
+  },
+  {
+    "line_id": "line:hbet-4862-abs",
+    "measurement_id": "fit:H4:0016",
+    "status": "MARGINAL",
+    "reason_codes": [
+      "offset_weak",
+      "low_snr"
+    ],
+    "comment": "Fit centre 4854.4 A offset ~9 A, narrow, low SNR 1.2; weak marginal absorption."
+  },
+  {
+    "line_id": "line:oiii-4960",
+    "measurement_id": "fit:H4:0000",
+    "status": "MARGINAL",
+    "reason_codes": [
+      "separation_fail",
+      "low_snr",
+      "blend"
+    ],
+    "comment": "Doublet fit centre 4985.7 A offset ~24 A, separation fail, ratio 0.59; weak blended marginal."
+  },
+  {
+    "line_id": "line:oiii-5008",
+    "measurement_id": "fit:H4:0001",
+    "status": "MARGINAL",
+    "reason_codes": [
+      "separation_fail",
+      "low_snr",
+      "blend"
+    ],
+    "comment": "Fit centre 5025.0 A offset ~16 A, separation fail, ratio inconsistent with 3:1; weak blended marginal."
+  },
+  {
+    "line_id": "line:mgi-5176-abs",
+    "measurement_id": null,
+    "status": "NOT_FOUND",
+    "reason_codes": [
+      "zero_amplitude",
+      "no_cwt_trough"
+    ],
+    "comment": "Fit at 5191.1 A has zero amplitude; no CWT trough near 5178 A."
+  },
+  {
+    "line_id": "line:nad1-5891-abs",
+    "measurement_id": "fit:H4:0008",
+    "status": "MARGINAL",
+    "reason_codes": [
+      "offset_weak",
+      "low_snr",
+      "blend"
+    ],
+    "comment": "Doublet fit centre 5890.9 A offset ~2 A, separation pass but ratio 1.15 vs 2:1; blended weak marginal."
+  },
+  {
+    "line_id": "line:nad-5895-abs",
+    "measurement_id": null,
+    "status": "NOT_FOUND",
+    "reason_codes": [
+      "blend",
+      "no_separate_measurement"
+    ],
+    "comment": "Blended Na D label; no independent measurement, region covered by D1/D2 doublet fits; not separately adopted."
+  },
+  {
+    "line_id": "line:nad2-5897-abs",
+    "measurement_id": "fit:H4:0009",
+    "status": "MARGINAL",
+    "reason_codes": [
+      "offset_weak",
+      "low_snr",
+      "blend"
+    ],
+    "comment": "Fit centre 5900.4 A offset ~1.5 A, separation pass but ratio 1.15 vs 2:1; blended weak marginal."
+  },
+  {
+    "line_id": "line:nii-6549",
+    "measurement_id": "fit:H4:0004",
+    "status": "MARGINAL",
+    "reason_codes": [
+      "offset_reject",
+      "separation_pass",
+      "low_snr"
+    ],
+    "comment": "Fit centre 6598.2 A offset ~47 A from 6551.2; weak and offset, marginal at best."
+  },
+  {
+    "line_id": "line:half-6564",
+    "measurement_id": null,
+    "status": "NOT_FOUND",
+    "reason_codes": [
+      "offset_reject",
+      "no_fit"
+    ],
+    "comment": "Peak 6504.8 A implies z=-0.0091, offset ~61 A; no targeted fit; not adopted."
+  },
+  {
+    "line_id": "line:half-6564-abs",
+    "measurement_id": "fit:H4:0018",
+    "status": "MARGINAL",
+    "reason_codes": [
+      "offset_weak",
+      "low_snr"
+    ],
+    "comment": "Fit centre 6573.7 A offset ~8 A, low SNR 1.0; weak marginal absorption."
+  },
+  {
+    "line_id": "line:nii-6585",
+    "measurement_id": "fit:H4:0005",
+    "status": "MARGINAL",
+    "reason_codes": [
+      "offset_reject",
+      "separation_pass",
+      "low_snr"
+    ],
+    "comment": "Fit centre 6634.1 A offset ~47 A from 6586.7; weak and offset, marginal at best."
+  },
+  {
+    "line_id": "line:sii-6718",
+    "measurement_id": "fit:H4:0002",
+    "status": "MARGINAL",
+    "reason_codes": [
+      "zero_amplitude",
+      "low_snr"
+    ],
+    "comment": "Fit centre 6718.8 A matches but amplitude 0.0 and SNR 0.29; essentially no signal, weak marginal."
+  },
+  {
+    "line_id": "line:sii-6732",
+    "measurement_id": "fit:H4:0003",
+    "status": "MARGINAL",
+    "reason_codes": [
+      "offset_weak",
+      "low_snr",
+      "blend"
+    ],
+    "comment": "Fit centre 6735.1 A offset ~1 A, low SNR 0.29; weak blended marginal."
+  },
+  {
+    "line_id": "line:cat1-8498-abs",
+    "measurement_id": "fit:H4:0019",
+    "status": "MARGINAL",
+    "reason_codes": [
+      "offset_weak",
+      "low_snr",
+      "red_edge"
+    ],
+    "comment": "Fit centre 8484.0 A offset ~16 A, low SNR 0.76, red edge; weak marginal."
+  },
+  {
+    "line_id": "line:cat2-8542-abs",
+    "measurement_id": "fit:H4:0020",
+    "status": "MARGINAL",
+    "reason_codes": [
+      "offset_weak",
+      "low_snr",
+      "red_edge"
+    ],
+    "comment": "Fit centre 8539.6 A offset ~4 A, low SNR 1.3, red edge; weak marginal."
+  },
+  {
+    "line_id": "line:cat3-8662-abs",
+    "measurement_id": "fit:H4:0021",
+    "status": "MARGINAL",
+    "reason_codes": [
+      "offset_reject",
+      "low_snr",
+      "red_edge"
+    ],
+    "comment": "Fit centre 8700.1 A offset ~36 A, low SNR 1.4, red edge; weak marginal."
+  }
+]

@@ -1,0 +1,289 @@
+[
+  {
+    "line_id": "line:oii-3727",
+    "measurement_id": null,
+    "status": "NOT_FOUND",
+    "reason_codes": [
+      "fit_center_at_bound",
+      "no_cwt_feature",
+      "blue_edge"
+    ],
+    "comment": "No CWT peak near 3721 A; fit_peak center at bound (3671.0) with zero amplitude, unselectable. Blue edge region."
+  },
+  {
+    "line_id": "line:cak-3934-abs",
+    "measurement_id": null,
+    "status": "NOT_FOUND",
+    "reason_codes": [
+      "no_cwt_feature",
+      "doublet_separation_fail",
+      "center_deviation_large",
+      "blue_edge"
+    ],
+    "comment": "No CWT trough near 3928.5 A. Doublet fit gave 3912.5 (16 A off) with separation fail and huge width; not credible."
+  },
+  {
+    "line_id": "line:cah-3969-abs",
+    "measurement_id": null,
+    "status": "NOT_FOUND",
+    "reason_codes": [
+      "no_cwt_feature",
+      "doublet_separation_fail",
+      "center_deviation_large",
+      "blue_edge"
+    ],
+    "comment": "No CWT trough near 3963.2 A. Doublet component 2 landed at 4013.2 with 52772 km/s width; unphysical, rejected."
+  },
+  {
+    "line_id": "line:heps-3970",
+    "measurement_id": "fit:H5:0011",
+    "status": "MARGINAL",
+    "reason_codes": [
+      "weak_snr",
+      "blue_edge",
+      "blend_cah"
+    ],
+    "comment": "Fit center 3966.5 A, offset ~3 A from prediction, low local SNR 1.8; near Ca H position, possible blend. Weak but plausible."
+  },
+  {
+    "line_id": "line:heps-3970-abs",
+    "measurement_id": null,
+    "status": "NOT_FOUND",
+    "reason_codes": [
+      "no_cwt_feature",
+      "broad_unphysical_width",
+      "blue_edge"
+    ],
+    "comment": "No CWT trough at 3963.7 A; fit gave 4013.5 with 34035 km/s width, unphysical. Not adopted."
+  },
+  {
+    "line_id": "line:hdel-4102",
+    "measurement_id": null,
+    "status": "NOT_FOUND",
+    "reason_codes": [
+      "offset_reject",
+      "no_matching_feature"
+    ],
+    "comment": "No CWT peak near 4096.3 A; nearest peak cwt:em:0000 at 4143.2 A is ~47 A redward (outside window). Fit at 4142.4 A also outside window. Not adopted."
+  },
+  {
+    "line_id": "line:hdel-4102-abs",
+    "measurement_id": null,
+    "status": "NOT_FOUND",
+    "reason_codes": [
+      "no_cwt_feature",
+      "broad_unphysical_width",
+      "blue_edge"
+    ],
+    "comment": "No CWT trough near 4096 A; fit gave 4050.9 with 15264 km/s width, unphysical. Not adopted."
+  },
+  {
+    "line_id": "line:gband-4305-abs",
+    "measurement_id": null,
+    "status": "NOT_FOUND",
+    "reason_codes": [
+      "offset_reject",
+      "no_matching_feature"
+    ],
+    "comment": "Nearest trough cwt:abs:0002 at 4274.4 A is ~24 A blueward (z=-0.0072); no credible G-band trough at 4298.7 A."
+  },
+  {
+    "line_id": "line:hgam-4341",
+    "measurement_id": null,
+    "status": "NOT_FOUND",
+    "reason_codes": [
+      "zero_amplitude_fit",
+      "no_cwt_feature"
+    ],
+    "comment": "No CWT peak near 4334.7 A; fit returned zero amplitude with 32538 km/s width. Not credible."
+  },
+  {
+    "line_id": "line:hgam-4341-abs",
+    "measurement_id": "fit:H5:0018",
+    "status": "MARGINAL",
+    "reason_codes": [
+      "weak_snr",
+      "broad_width"
+    ],
+    "comment": "Fit center 4335.7 A, ~1 A from prediction, but low SNR 0.7 and 1796 km/s width; weak marginal absorption."
+  },
+  {
+    "line_id": "line:hbet-4862",
+    "measurement_id": null,
+    "status": "NOT_FOUND",
+    "reason_codes": [
+      "fit_center_at_bound",
+      "no_cwt_feature"
+    ],
+    "comment": "No CWT peak near 4854.9 A; fit center at bound (4804.9) with 3040 km/s width, unselectable."
+  },
+  {
+    "line_id": "line:hbet-4862-abs",
+    "measurement_id": null,
+    "status": "NOT_FOUND",
+    "reason_codes": [
+      "offset_reject",
+      "blend"
+    ],
+    "comment": "Nearest trough cwt:abs:0006 at 4868.0 A is ~13 A redward with broad 4331 km/s width; not a clean Hbeta absorption match."
+  },
+  {
+    "line_id": "line:oiii-4960",
+    "measurement_id": null,
+    "status": "NOT_FOUND",
+    "reason_codes": [
+      "doublet_separation_fail",
+      "center_deviation_large",
+      "zero_amplitude_component"
+    ],
+    "comment": "Doublet fit gave 4902.3 (50 A off) with component 2 zero amplitude and separation fail; CWT peak cwt:em:0004 at 4912.8 is ~40 A blueward. Not credible."
+  },
+  {
+    "line_id": "line:oiii-5008",
+    "measurement_id": null,
+    "status": "NOT_FOUND",
+    "reason_codes": [
+      "doublet_separation_fail",
+      "zero_amplitude_component",
+      "no_cwt_feature"
+    ],
+    "comment": "No CWT peak near 5000 A; doublet component 2 had zero amplitude. Not adopted."
+  },
+  {
+    "line_id": "line:mgi-5176-abs",
+    "measurement_id": "fit:H5:0019",
+    "status": "MARGINAL",
+    "reason_codes": [
+      "weak_snr",
+      "broad_width"
+    ],
+    "comment": "Fit center 5167.2 A, ~1 A from prediction, but low SNR 1.1 and 5433 km/s width; weak marginal absorption."
+  },
+  {
+    "line_id": "line:nad1-5891-abs",
+    "measurement_id": null,
+    "status": "NOT_FOUND",
+    "reason_codes": [
+      "doublet_separation_fail",
+      "center_deviation_large",
+      "unphysical_width"
+    ],
+    "comment": "Na D doublet fit gave 5924.0 with 35751 km/s width and separation fail; no credible D1 trough at 5882 A."
+  },
+  {
+    "line_id": "line:nad-5895-abs",
+    "measurement_id": null,
+    "status": "NOT_FOUND",
+    "reason_codes": [
+      "doublet_separation_fail",
+      "no_cwt_feature"
+    ],
+    "comment": "No CWT trough near 5886 A; Na D doublet fit failed separation and widths. Not adopted."
+  },
+  {
+    "line_id": "line:nad2-5897-abs",
+    "measurement_id": null,
+    "status": "NOT_FOUND",
+    "reason_codes": [
+      "doublet_separation_fail",
+      "center_deviation_large"
+    ],
+    "comment": "Doublet component 2 at 5854.5 A, ~34 A blueward with 723 km/s width; separation fail, not credible."
+  },
+  {
+    "line_id": "line:nii-6549",
+    "measurement_id": null,
+    "status": "NOT_FOUND",
+    "reason_codes": [
+      "doublet_separation_fail",
+      "weak_snr",
+      "blend_halpha"
+    ],
+    "comment": "N II doublet fit gave 6536.3 A with separation fail and low SNR 2.2; blended with Halpha region, not credible."
+  },
+  {
+    "line_id": "line:half-6564",
+    "measurement_id": "fit:H5:0015",
+    "status": "MARGINAL",
+    "reason_codes": [
+      "weak_snr",
+      "broad_width",
+      "blend_nii"
+    ],
+    "comment": "Fit center 6564.2 A, ~10 A redward of prediction, low SNR 2.0 and 1544 km/s width; blended with N II. Marginal."
+  },
+  {
+    "line_id": "line:half-6564-abs",
+    "measurement_id": null,
+    "status": "NOT_FOUND",
+    "reason_codes": [
+      "zero_amplitude_fit",
+      "no_cwt_feature"
+    ],
+    "comment": "No CWT trough near 6554 A; fit returned zero amplitude at 6515.0. Not credible."
+  },
+  {
+    "line_id": "line:nii-6585",
+    "measurement_id": null,
+    "status": "NOT_FOUND",
+    "reason_codes": [
+      "doublet_separation_fail",
+      "weak_snr",
+      "blend_halpha"
+    ],
+    "comment": "N II doublet component 2 at 6565.9 A with 1283 km/s width and separation fail; blended with Halpha, not credible."
+  },
+  {
+    "line_id": "line:sii-6718",
+    "measurement_id": null,
+    "status": "NOT_FOUND",
+    "reason_codes": [
+      "doublet_separation_fail",
+      "center_deviation_large",
+      "weak_snr"
+    ],
+    "comment": "S II doublet fit gave 6657.5 A (~50 A off) with separation fail and low SNR 1.2; not credible."
+  },
+  {
+    "line_id": "line:sii-6732",
+    "measurement_id": null,
+    "status": "NOT_FOUND",
+    "reason_codes": [
+      "doublet_separation_fail",
+      "broad_width",
+      "weak_snr"
+    ],
+    "comment": "S II component 2 at 6711.2 A with 539 km/s width and separation fail; low SNR. Not adopted."
+  },
+  {
+    "line_id": "line:cat1-8498-abs",
+    "measurement_id": null,
+    "status": "NOT_FOUND",
+    "reason_codes": [
+      "fit_center_at_bound",
+      "red_edge"
+    ],
+    "comment": "Fit center at bound (8434.3) with 8239 km/s width; unselectable. Red edge region."
+  },
+  {
+    "line_id": "line:cat2-8542-abs",
+    "measurement_id": null,
+    "status": "NOT_FOUND",
+    "reason_codes": [
+      "fit_center_at_bound",
+      "red_edge"
+    ],
+    "comment": "Fit center at bound (8478.3) with 9630 km/s width; unselectable. Red edge region."
+  },
+  {
+    "line_id": "line:cat3-8662-abs",
+    "measurement_id": "fit:H5:0023",
+    "status": "MARGINAL",
+    "reason_codes": [
+      "weak_snr",
+      "red_edge",
+      "offset_weak"
+    ],
+    "comment": "Fit center 8659.5 A, ~11 A from prediction, but low SNR 1.3 and 128 km/s width; weak marginal absorption near red edge."
+  }
+]

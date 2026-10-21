@@ -1,0 +1,291 @@
+[
+  {
+    "line_id": "line:oii-3727",
+    "measurement_id": null,
+    "status": "NOT_FOUND",
+    "reason_codes": [
+      "no_cwt_feature",
+      "fit_zero_amp",
+      "blue_edge"
+    ],
+    "comment": "No CWT peak near 3723 A; fit_peak returned zero amplitude at 3673 A (50 A off, blue edge). No credible measurement."
+  },
+  {
+    "line_id": "line:cak-3934-abs",
+    "measurement_id": "fit:H1:0006",
+    "status": "MARGINAL",
+    "reason_codes": [
+      "doublet_separation_fail",
+      "weak_snr",
+      "blend_cah"
+    ],
+    "comment": "Doublet fit centre 3931.7 A within ~1 A of prediction, negative amplitude -0.44; separation failed and Ca H component landed at 3977 A, so depth ordering unreliable. Weak but plausible Ca K trough."
+  },
+  {
+    "line_id": "line:cah-3969-abs",
+    "measurement_id": "fit:H1:0007",
+    "status": "MARGINAL",
+    "reason_codes": [
+      "doublet_separation_fail",
+      "weak_snr",
+      "blend_cak"
+    ],
+    "comment": "Ca H fit centre 3977.4 A, ~12 A red of prediction, amplitude -0.63; separation from Ca K failed (45.7 A vs 34.8 expected). Plausible weak component but blended/uncertain."
+  },
+  {
+    "line_id": "line:heps-3970",
+    "measurement_id": null,
+    "status": "NOT_FOUND",
+    "reason_codes": [
+      "fit_outside_window",
+      "no_cwt_feature"
+    ],
+    "comment": "Only fit centre 4015 A implies z outside the verification window; no CWT peak near 3966 A. No adoptable measurement."
+  },
+  {
+    "line_id": "line:heps-3970-abs",
+    "measurement_id": "fit:H1:0016",
+    "status": "MARGINAL",
+    "reason_codes": [
+      "weak_snr",
+      "large_offset",
+      "broad_width"
+    ],
+    "comment": "Fit centre 3949.6 A, ~16 A blue of prediction, amplitude -0.23, SNR 0.5, FWHM ~4880 km/s. Very weak, broad; marginal at best."
+  },
+  {
+    "line_id": "line:hdel-4102",
+    "measurement_id": "fit:H1:0012",
+    "status": "MARGINAL",
+    "reason_codes": [
+      "weak_snr",
+      "offset_weak",
+      "broad_width"
+    ],
+    "comment": "Fit centre 4057.8 A, ~41 A blue of prediction, amplitude 0.65, SNR 1.8, FWHM ~3400 km/s. Weak offset emission; marginal."
+  },
+  {
+    "line_id": "line:hdel-4102-abs",
+    "measurement_id": null,
+    "status": "NOT_FOUND",
+    "reason_codes": [
+      "zero_amplitude",
+      "no_signal"
+    ],
+    "comment": "Fit returned zero amplitude at 4102.8 A; no credible absorption trough detected."
+  },
+  {
+    "line_id": "line:gband-4305-abs",
+    "measurement_id": "fit:H1:0018",
+    "status": "MARGINAL",
+    "reason_codes": [
+      "weak_snr",
+      "shallow"
+    ],
+    "comment": "Fit centre 4299.4 A, ~2 A from prediction, amplitude -0.33, SNR 0.97. Shallow but positionally consistent; marginal."
+  },
+  {
+    "line_id": "line:hgam-4341",
+    "measurement_id": "fit:H1:0013",
+    "status": "MARGINAL",
+    "reason_codes": [
+      "weak_snr",
+      "offset_weak"
+    ],
+    "comment": "Fit centre 4327.3 A, ~10 A blue of prediction, amplitude 0.54, SNR 1.6. Weak emission; marginal."
+  },
+  {
+    "line_id": "line:hgam-4341-abs",
+    "measurement_id": "fit:H1:0019",
+    "status": "MARGINAL",
+    "reason_codes": [
+      "weak_snr",
+      "offset_weak",
+      "broad_width"
+    ],
+    "comment": "Fit centre 4347.3 A, ~10 A red of prediction, amplitude -0.36, SNR 1.1, FWHM ~925 km/s. Weak; marginal."
+  },
+  {
+    "line_id": "line:hbet-4862",
+    "measurement_id": null,
+    "status": "NOT_FOUND",
+    "reason_codes": [
+      "center_at_bound",
+      "fit_rejected",
+      "blend_cwt_4768"
+    ],
+    "comment": "Only fit (fit:H1:0014) hit center_at_bound and is not selectable. Nearest CWT peak 4768 A is ~90 A blue, beyond offset tolerance. No adoptable measurement."
+  },
+  {
+    "line_id": "line:hbet-4862-abs",
+    "measurement_id": null,
+    "status": "NOT_FOUND",
+    "reason_codes": [
+      "center_at_bound",
+      "fit_rejected"
+    ],
+    "comment": "Fit (fit:H1:0020) hit center_at_bound at 4907.7 A and is not selectable. No credible absorption measurement."
+  },
+  {
+    "line_id": "line:oiii-4960",
+    "measurement_id": null,
+    "status": "NOT_FOUND",
+    "reason_codes": [
+      "doublet_fit_fail",
+      "zero_amplitude",
+      "separation_fail"
+    ],
+    "comment": "Doublet fit gave zero amplitudes at 4905/5053 A with separation failure; no credible [O III]a signal."
+  },
+  {
+    "line_id": "line:oiii-5008",
+    "measurement_id": null,
+    "status": "NOT_FOUND",
+    "reason_codes": [
+      "doublet_fit_fail",
+      "zero_amplitude",
+      "separation_fail"
+    ],
+    "comment": "Doublet fit zero amplitude at 5053 A, separation failed; no credible [O III]b signal."
+  },
+  {
+    "line_id": "line:mgi-5176-abs",
+    "measurement_id": "fit:H1:0021",
+    "status": "MARGINAL",
+    "reason_codes": [
+      "weak_snr",
+      "offset_weak",
+      "broad_width"
+    ],
+    "comment": "Fit centre 5193.6 A, ~22 A red of prediction, amplitude -0.06, SNR 0.5, FWHM ~1710 km/s. Very shallow; marginal."
+  },
+  {
+    "line_id": "line:nad1-5891-abs",
+    "measurement_id": "fit:H1:0008",
+    "status": "MARGINAL",
+    "reason_codes": [
+      "doublet_separation_fail",
+      "offset_weak",
+      "blend_nad"
+    ],
+    "comment": "Na D doublet fit centre 5870.1 A, ~15 A blue of prediction, amplitude -0.24; separation failed (48 A vs 6 expected). Blended Na D complex; marginal."
+  },
+  {
+    "line_id": "line:nad-5895-abs",
+    "measurement_id": null,
+    "status": "NOT_FOUND",
+    "reason_codes": [
+      "no_dedicated_fit",
+      "blend_nad"
+    ],
+    "comment": "No dedicated measurement for the intermediate Na D line; only the D1/D2 doublet fit exists and it failed separation. No adoptable measurement."
+  },
+  {
+    "line_id": "line:nad2-5897-abs",
+    "measurement_id": "fit:H1:0009",
+    "status": "MARGINAL",
+    "reason_codes": [
+      "doublet_separation_fail",
+      "broad_width",
+      "blend_nad"
+    ],
+    "comment": "Fit centre 5918.5 A, ~27 A red of prediction, amplitude -0.43, FWHM ~5760 km/s; separation failed. Blended Na D complex; marginal."
+  },
+  {
+    "line_id": "line:nii-6549",
+    "measurement_id": "fit:H1:0004",
+    "status": "MARGINAL",
+    "reason_codes": [
+      "weak_snr",
+      "offset_weak",
+      "broad_width",
+      "blend_ha"
+    ],
+    "comment": "Doublet fit centre 6525.6 A, ~17 A blue of prediction, amplitude 0.10, SNR 1.1, FWHM ~2140 km/s. Separation passed but very weak; blended with Halpha region; marginal."
+  },
+  {
+    "line_id": "line:half-6564",
+    "measurement_id": "fit:H1:0015",
+    "status": "MARGINAL",
+    "reason_codes": [
+      "weak_snr",
+      "offset_weak",
+      "blend_nii"
+    ],
+    "comment": "Fit centre 6530.4 A, ~27 A blue of prediction, amplitude 0.10, SNR 0.95, FWHM ~2250 km/s. Weak; blended with [N II]; marginal."
+  },
+  {
+    "line_id": "line:half-6564-abs",
+    "measurement_id": "fit:H1:0022",
+    "status": "MARGINAL",
+    "reason_codes": [
+      "weak_snr",
+      "offset_weak"
+    ],
+    "comment": "Fit centre 6574.2 A, ~16 A red of prediction, amplitude -0.09, SNR 0.8. Very shallow; marginal."
+  },
+  {
+    "line_id": "line:nii-6585",
+    "measurement_id": "fit:H1:0005",
+    "status": "MARGINAL",
+    "reason_codes": [
+      "weak_snr",
+      "blend_ha",
+      "ratio_advisory"
+    ],
+    "comment": "Doublet fit centre 6564.7 A, ~14 A blue of prediction, amplitude 0.13, SNR 1.1. Separation passed; blended with Halpha; marginal."
+  },
+  {
+    "line_id": "line:sii-6718",
+    "measurement_id": "fit:H1:0002",
+    "status": "MARGINAL",
+    "reason_codes": [
+      "doublet_separation_fail",
+      "offset_weak",
+      "weak_snr"
+    ],
+    "comment": "Fit centre 6761.4 A, ~50 A red of prediction, amplitude 0.05, SNR 0.48; separation failed. Weak, marginal."
+  },
+  {
+    "line_id": "line:sii-6732",
+    "measurement_id": null,
+    "status": "NOT_FOUND",
+    "reason_codes": [
+      "doublet_fit_fail",
+      "zero_amplitude",
+      "separation_fail"
+    ],
+    "comment": "Second [S II] component fit zero amplitude at 6736 A with separation failure; no credible measurement."
+  },
+  {
+    "line_id": "line:cat1-8498-abs",
+    "measurement_id": null,
+    "status": "NOT_FOUND",
+    "reason_codes": [
+      "offset_reject",
+      "no_dedicated_fit"
+    ],
+    "comment": "Nearest CWT trough 8468 A implies z=-0.0035, ~21 A blue of prediction; no dedicated fit. No adoptable measurement."
+  },
+  {
+    "line_id": "line:cat2-8542-abs",
+    "measurement_id": null,
+    "status": "NOT_FOUND",
+    "reason_codes": [
+      "offset_reject",
+      "no_dedicated_fit"
+    ],
+    "comment": "Nearest CWT trough 8468 A implies z=-0.0087, ~65 A blue of prediction; no dedicated fit. No adoptable measurement."
+  },
+  {
+    "line_id": "line:cat3-8662-abs",
+    "measurement_id": "fit:H1:0023",
+    "status": "MARGINAL",
+    "reason_codes": [
+      "weak_snr",
+      "offset_weak",
+      "broad_width"
+    ],
+    "comment": "Fit centre 8632.3 A, ~21 A blue of prediction, amplitude -0.07, SNR 0.76, FWHM ~980 km/s. Very shallow; marginal."
+  }
+]

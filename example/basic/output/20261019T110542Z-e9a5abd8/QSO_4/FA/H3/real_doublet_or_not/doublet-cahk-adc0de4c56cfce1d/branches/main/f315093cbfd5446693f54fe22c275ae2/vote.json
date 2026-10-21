@@ -1,0 +1,13 @@
+{
+  "answer": "no",
+  "reason": "Ca K window (~4868-4872 Å) is flat continuum with no distinct absorption dip and its claimed center is ~3.5 Å off prediction (FA signal_absent, pairing rejected). Ca H window (~4914.6 Å) shows a positive bump (~7.4-8.0) rather than absorption, with no measurement. Neither component is corroborated, so the two-component interpretation fails.",
+  "execution": {
+    "schema_version": "forma-agentic-node-execution-v1",
+    "run_id": "graph-853b617a68f04c36bd82f06bdb770ac4",
+    "branch_id": "main",
+    "node_key": "fa.real_doublet_or_not/graph-853b617a68f04c36bd82f06bdb770ac4/H3/doublet%3Acahk",
+    "node_execution_id": "f315093cbfd5446693f54fe22c275ae2",
+    "attempt_id": "3930360993354381844653eec767933b",
+    "relative_dir": "FA/H3/real_doublet_or_not/doublet-cahk-adc0de4c56cfce1d/branches/main/f315093cbfd5446693f54fe22c275ae2"
+  }
+}

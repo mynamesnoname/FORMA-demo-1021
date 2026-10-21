@@ -1,0 +1,13 @@
+{
+  "answer": "no",
+  "reason": "D1 window (5883.9 Å) shows flat continuum with no absorption dip, matching NOT_FOUND. D2 window shows only a shallow, noise-consistent dip displaced ~1.4 Å from prediction (5891.3 vs 5889.9) in a lower-ivar region. Neither component is visually corroborated, so the two-component interpretation fails.",
+  "execution": {
+    "schema_version": "forma-agentic-node-execution-v1",
+    "run_id": "graph-df7434d5533647e999870708120307b0",
+    "branch_id": "main",
+    "node_key": "fa.real_doublet_or_not/graph-df7434d5533647e999870708120307b0/H2/doublet%3Ana-d",
+    "node_execution_id": "08655c02ad8a4fd9af55af84ae663aae",
+    "attempt_id": "0053f98f66e84ee4bd4d4cd8e914f15d",
+    "relative_dir": "FA/H2/real_doublet_or_not/doublet-na-d-88682f96f7f171d3/branches/main/08655c02ad8a4fd9af55af84ae663aae"
+  }
+}

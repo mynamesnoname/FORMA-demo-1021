@@ -1,0 +1,171 @@
+{
+  "schema_version": "forma-fa-doublet-review-v1",
+  "node_type": "fa.doublet_review",
+  "node_key": "fa.real_doublet_or_not/graph-df7434d5533647e999870708120307b0/H4/doublet%3Aoiii",
+  "run_id": "graph-df7434d5533647e999870708120307b0",
+  "branch_id": "main",
+  "hypothesis_ref": "H4",
+  "doublet_id": "doublet:oiii",
+  "claim_mode": "orphan",
+  "components": [
+    {
+      "line_id": "line:oiii-4960",
+      "line_name": "[O III]a",
+      "rest_angstrom": 4960.3,
+      "expected_obs_angstrom": 4953.51752731866,
+      "sh_status": "NOT_FOUND",
+      "measurement_id": null,
+      "measurement_source": null,
+      "measured_center_angstrom": null,
+      "amplitude": null,
+      "measured_offset_from_expected_angstrom": null,
+      "fa_state": null,
+      "cleaned_pairing": "no_pairing",
+      "fa_vote_artifact_refs": []
+    },
+    {
+      "line_id": "line:oiii-5008",
+      "line_name": "[O III]b",
+      "rest_angstrom": 5008.2,
+      "expected_obs_angstrom": 5001.352031191119,
+      "sh_status": "MARGINAL",
+      "measurement_id": "fit:H4:0001",
+      "measurement_source": "fit_doublet",
+      "measured_center_angstrom": 5018.718,
+      "amplitude": 0.0,
+      "measured_offset_from_expected_angstrom": 17.365968808881007,
+      "fa_state": "signal_absent",
+      "cleaned_pairing": "rejected_measurement",
+      "fa_vote_artifact_refs": [
+        "fa/03899db0cdd74451b666d7be12d483a5/node",
+        "fa/522f0e6fd4804aeb8a6add7f8941f348/node",
+        "fa/38fff71079e6423e865e9bb5958da294/node"
+      ]
+    }
+  ],
+  "metrics": {
+    "expected_separation_angstrom": 47.83450387245921,
+    "registry_rest_separation_angstrom": 47.9,
+    "measured_separation_angstrom": null,
+    "separation_difference_angstrom": null,
+    "amplitude_ratio_a_over_b": null,
+    "reference_ratio_window_a_over_b": [
+      0.25,
+      0.5
+    ],
+    "reference_ratio_note": "b:a ≈ 3:1",
+    "reference_ratio_within_window": null,
+    "reference_ratio_is_advisory": true
+  },
+  "coverage": {
+    "requested_window_angstrom": [
+      4873.51752731866,
+      5081.352031191119
+    ],
+    "actual_window_angstrom": [
+      4873.60000000029,
+      5080.800000000337
+    ],
+    "spectrum_bounds_angstrom": [
+      3600.0,
+      9824.000000000524
+    ],
+    "component_cores": [
+      {
+        "line_id": "line:oiii-4960",
+        "predicted_obs_angstrom": 4953.51752731866,
+        "center_within_spectrum_bounds": true,
+        "samples": 37,
+        "valid_samples": 37,
+        "masked_samples": 0,
+        "assessable": true
+      },
+      {
+        "line_id": "line:oiii-5008",
+        "predicted_obs_angstrom": 5001.352031191119,
+        "center_within_spectrum_bounds": true,
+        "samples": 38,
+        "valid_samples": 38,
+        "masked_samples": 0,
+        "assessable": true
+      }
+    ],
+    "assessable": true,
+    "unreviewable_reason": null
+  },
+  "status": "complete",
+  "pair_supported": false,
+  "consultative_only": true,
+  "method_snapshot": {
+    "context_margin_angstrom": 80.0,
+    "component_check_half_angstrom": 15.0,
+    "cahk_outer_reference_sigma": 3.0,
+    "min_valid_component_samples": 5,
+    "vote_quorum": 3,
+    "max_attempts_per_vote_seat": 2
+  },
+  "vote_summary": {
+    "yes": 0,
+    "no": 3,
+    "yes_fraction": 0.0,
+    "assurance": "assured"
+  },
+  "ballots": [
+    {
+      "seat": 0,
+      "answer": "no",
+      "reason": "Component a window (~4953.5 Å) shows no emission feature, consistent with NOT_FOUND. Component b's claimed center (5018.7 Å) is ~17 Å off prediction and that location shows only a modest bump amid comparable scatter; no credible line at 5001.4 Å either. No measured separation or ratio supports the pair.",
+      "vote_ref": "fa_doublet/994f71f95ea146c886338eb93005a4b3/vote.json"
+    },
+    {
+      "seat": 1,
+      "answer": "no",
+      "reason": "Component a window (~4953.5 Å) shows only noise-level fluctuations with no emission feature (consistent with NOT_FOUND). Component b window (~5001 Å) shows only a broad low-contrast undulation, and its claimed center (5018.7 Å) is 17.4 Å off prediction — a pairing mismatch. No credible two-component doublet is corroborated in the usable pixels.",
+      "vote_ref": "fa_doublet/f29d24e36c534428806d8786f1f79a62/vote.json"
+    },
+    {
+      "seat": 2,
+      "answer": "no",
+      "reason": "Neither window shows a credible line: at 4953.5 Å the flux (~2.6–3.7) is indistinguishable from continuum scatter, and at 5001.4 Å the modest bump (~4.0) is matched by surrounding values, with the claimed center 17.4 Å off prediction and amplitude 0.0. No paired partner is supported.",
+      "vote_ref": "fa_doublet/7cce10cedb09465bbc657f3c89676886/vote.json"
+    }
+  ],
+  "successful_votes": 3,
+  "required_votes": 3,
+  "failed_seats": 0,
+  "model_usage": {
+    "calls": 3,
+    "input_tokens": 28092,
+    "output_tokens": 1382,
+    "cache_hit_tokens": 1920,
+    "cache_hit_reported_calls": 3,
+    "cache_hit_unreported_calls": 0
+  },
+  "prompt_identity": {
+    "system_sha256": "92cc96d1542cdf1088b68d4688ccd8de256ac572ab050c2a5e087060f5955e1b",
+    "user_sha256": "fcf28a5e1fecf3217064f92faeda9580ac3a13e73ce6c4afa74de4ce9ba4308f",
+    "tool_name": "submit_doublet_vote",
+    "prompt_text_sha256": "5d6f89afdddf60bbd54a956d2e0e82e01b48f9aaaaf8b4b69db7859bd406d77e"
+  },
+  "source_refs": [
+    "sh/H4/node",
+    "sh/H4/catalog",
+    "sh/H4/judgments",
+    "spectrum_npz",
+    "fa/03899db0cdd74451b666d7be12d483a5/node",
+    "fa/522f0e6fd4804aeb8a6add7f8941f348/node",
+    "fa/38fff71079e6423e865e9bb5958da294/node"
+  ],
+  "attempt_refs": [
+    "fa_doublet/994f71f95ea146c886338eb93005a4b3/vote.json",
+    "fa_doublet/994f71f95ea146c886338eb93005a4b3/session.md",
+    "fa_doublet/994f71f95ea146c886338eb93005a4b3/model_usage.json",
+    "fa_doublet/f29d24e36c534428806d8786f1f79a62/vote.json",
+    "fa_doublet/f29d24e36c534428806d8786f1f79a62/session.md",
+    "fa_doublet/f29d24e36c534428806d8786f1f79a62/model_usage.json",
+    "fa_doublet/7cce10cedb09465bbc657f3c89676886/vote.json",
+    "fa_doublet/7cce10cedb09465bbc657f3c89676886/session.md",
+    "fa_doublet/7cce10cedb09465bbc657f3c89676886/model_usage.json"
+  ],
+  "node_execution_id": "445ee996950b48b0a45aa3eff783e6fc"
+}

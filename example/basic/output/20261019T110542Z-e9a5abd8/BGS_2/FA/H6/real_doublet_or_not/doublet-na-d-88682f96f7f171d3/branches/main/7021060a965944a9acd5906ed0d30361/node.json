@@ -1,0 +1,175 @@
+{
+  "schema_version": "forma-fa-doublet-review-v1",
+  "node_type": "fa.doublet_review",
+  "node_key": "fa.real_doublet_or_not/graph-df7434d5533647e999870708120307b0/H6/doublet%3Ana-d",
+  "run_id": "graph-df7434d5533647e999870708120307b0",
+  "branch_id": "main",
+  "hypothesis_ref": "H6",
+  "doublet_id": "doublet:na-d",
+  "claim_mode": "complete_pair",
+  "components": [
+    {
+      "line_id": "line:nad1-5891-abs",
+      "line_name": "Na D1_abs",
+      "rest_angstrom": 5891.6,
+      "expected_obs_angstrom": 6827.895631238702,
+      "sh_status": "MARGINAL",
+      "measurement_id": "cwt:abs:0000",
+      "measurement_source": "CWT",
+      "measured_center_angstrom": 6831.200000000244,
+      "amplitude": -0.9516310691833496,
+      "measured_offset_from_expected_angstrom": 3.3043687615418094,
+      "fa_state": "signal_present",
+      "cleaned_pairing": "adopted",
+      "fa_vote_artifact_refs": [
+        "fa/c6b7d15db6624ef09e5ddc93e23336d9/node",
+        "fa/02cc5436f04148baa749da027cf96a37/node",
+        "fa/a99c70fce8f84980924ca0c991b81826/node"
+      ]
+    },
+    {
+      "line_id": "line:nad2-5897-abs",
+      "line_name": "Na D2_abs",
+      "rest_angstrom": 5897.6,
+      "expected_obs_angstrom": 6834.849153845028,
+      "sh_status": "MARGINAL",
+      "measurement_id": "cwt:abs:0000",
+      "measurement_source": "CWT",
+      "measured_center_angstrom": 6831.200000000244,
+      "amplitude": -0.9516310691833496,
+      "measured_offset_from_expected_angstrom": -3.6491538447844505,
+      "fa_state": "signal_present",
+      "cleaned_pairing": "adopted",
+      "fa_vote_artifact_refs": [
+        "fa/c6b7d15db6624ef09e5ddc93e23336d9/node",
+        "fa/02cc5436f04148baa749da027cf96a37/node",
+        "fa/a99c70fce8f84980924ca0c991b81826/node"
+      ]
+    }
+  ],
+  "metrics": {
+    "expected_separation_angstrom": 6.95352260632626,
+    "registry_rest_separation_angstrom": 6.0,
+    "measured_separation_angstrom": 0.0,
+    "separation_difference_angstrom": -6.95352260632626,
+    "amplitude_ratio_a_over_b": 1.0,
+    "reference_ratio_window_a_over_b": [
+      1.4,
+      2.8
+    ],
+    "reference_ratio_note": "a:b ≈ 2:1 (fitting hint)",
+    "reference_ratio_within_window": false,
+    "reference_ratio_is_advisory": true
+  },
+  "coverage": {
+    "requested_window_angstrom": [
+      6747.895631238702,
+      6914.849153845028
+    ],
+    "actual_window_angstrom": [
+      6748.000000000225,
+      6914.4000000002625
+    ],
+    "spectrum_bounds_angstrom": [
+      3600.0,
+      9824.000000000524
+    ],
+    "component_cores": [
+      {
+        "line_id": "line:nad1-5891-abs",
+        "predicted_obs_angstrom": 6827.895631238702,
+        "center_within_spectrum_bounds": true,
+        "samples": 37,
+        "valid_samples": 37,
+        "masked_samples": 0,
+        "assessable": true
+      },
+      {
+        "line_id": "line:nad2-5897-abs",
+        "predicted_obs_angstrom": 6834.849153845028,
+        "center_within_spectrum_bounds": true,
+        "samples": 38,
+        "valid_samples": 38,
+        "masked_samples": 0,
+        "assessable": true
+      }
+    ],
+    "assessable": true,
+    "unreviewable_reason": null
+  },
+  "status": "complete",
+  "pair_supported": false,
+  "consultative_only": true,
+  "method_snapshot": {
+    "context_margin_angstrom": 80.0,
+    "component_check_half_angstrom": 15.0,
+    "cahk_outer_reference_sigma": 3.0,
+    "min_valid_component_samples": 5,
+    "vote_quorum": 3,
+    "max_attempts_per_vote_seat": 2
+  },
+  "vote_summary": {
+    "yes": 1,
+    "no": 2,
+    "yes_fraction": 0.3333333333333333,
+    "assurance": "contested"
+  },
+  "ballots": [
+    {
+      "seat": 0,
+      "answer": "no",
+      "reason": "Only one absorption trough is visible, near 6828-6831 Å (D1 window). The D2 window (~6834.8 Å) shows no distinct second trough, just shallow noise-level structure. Both components share the same measured center (6831.2 Å), giving zero separation vs the expected ~6.95 Å, so the two-component pairing is not corroborated in the usable pixels.",
+      "vote_ref": "fa_doublet/dd6983b4909543e9b13e7a00a525e7db/vote.json"
+    },
+    {
+      "seat": 1,
+      "answer": "yes",
+      "reason": "Two distinct absorption minima are visible in the usable pixels: a clear dip near 6828.5 Å (component a, close to 6827.9 prediction) and a weaker but present dip near 6834.5 Å (component b, near 6834.8 prediction), separated by ~6-7 Å as expected. The reported zero separation/identical centers come from a blended single fit, not the actual profile; the ratio hint is advisory and distorted by blending/noise in the weaker partner.",
+      "vote_ref": "fa_doublet/a4dd897087e746d5a357193e1dd174b9/vote.json"
+    },
+    {
+      "seat": 2,
+      "answer": "no",
+      "reason": "Only one blended absorption trough is visible (~6828-6838 Å); component a shows a dip near 6828.5 but component b's predicted 6834.8 Å position shows no separate minimum, and both measured centers coincide at 6831.2 Å (separation 0.0 Å vs expected 6.95 Å). The weaker partner is not independently resolved, so the two-component interpretation is not corroborated.",
+      "vote_ref": "fa_doublet/115dc4a3d2c4405f95c208fc84bd9b3d/vote.json"
+    }
+  ],
+  "successful_votes": 3,
+  "required_votes": 3,
+  "failed_seats": 0,
+  "model_usage": {
+    "calls": 3,
+    "input_tokens": 23244,
+    "output_tokens": 1548,
+    "cache_hit_tokens": 22656,
+    "cache_hit_reported_calls": 3,
+    "cache_hit_unreported_calls": 0
+  },
+  "prompt_identity": {
+    "system_sha256": "92cc96d1542cdf1088b68d4688ccd8de256ac572ab050c2a5e087060f5955e1b",
+    "user_sha256": "8bb3e13fafa3cd65649202926e14b695d92e7416e33713c42e126d8123408fad",
+    "tool_name": "submit_doublet_vote",
+    "prompt_text_sha256": "40bdd2ba3a73609de71625503d7c9e7da92052a2801375781cc72bb02be1e773"
+  },
+  "source_refs": [
+    "sh/H6/node",
+    "sh/H6/catalog",
+    "sh/H6/judgments",
+    "spectrum_npz",
+    "fa/c6b7d15db6624ef09e5ddc93e23336d9/node",
+    "fa/02cc5436f04148baa749da027cf96a37/node",
+    "fa/a99c70fce8f84980924ca0c991b81826/node"
+  ],
+  "attempt_refs": [
+    "fa_doublet/dd6983b4909543e9b13e7a00a525e7db/vote.json",
+    "fa_doublet/dd6983b4909543e9b13e7a00a525e7db/session.md",
+    "fa_doublet/dd6983b4909543e9b13e7a00a525e7db/model_usage.json",
+    "fa_doublet/a4dd897087e746d5a357193e1dd174b9/vote.json",
+    "fa_doublet/a4dd897087e746d5a357193e1dd174b9/session.md",
+    "fa_doublet/a4dd897087e746d5a357193e1dd174b9/model_usage.json",
+    "fa_doublet/115dc4a3d2c4405f95c208fc84bd9b3d/vote.json",
+    "fa_doublet/115dc4a3d2c4405f95c208fc84bd9b3d/session.md",
+    "fa_doublet/115dc4a3d2c4405f95c208fc84bd9b3d/model_usage.json"
+  ],
+  "node_execution_id": "7021060a965944a9acd5906ed0d30361"
+}

@@ -1,0 +1,13 @@
+{
+  "answer": "no",
+  "reason": "Both claimed centers are offset ~5.5–5.9 Å redward of the predicted D1/D2 positions (7293.0/7300.5 Å). The D1 window shows only a shallow, misaligned dip near 7298.4, and the D2 window (FA signal_absent, pairing rejected) shows only a marginal dip near 7306.4, far from prediction. No correctly-placed two-component absorption is visible; the ratio hint cannot override the positional mismatch.",
+  "execution": {
+    "schema_version": "forma-agentic-node-execution-v1",
+    "run_id": "graph-853b617a68f04c36bd82f06bdb770ac4",
+    "branch_id": "main",
+    "node_key": "fa.real_doublet_or_not/graph-853b617a68f04c36bd82f06bdb770ac4/H1/doublet%3Ana-d",
+    "node_execution_id": "f53268eb9b894e09b0012763114ff720",
+    "attempt_id": "1be8d49dd31a4eaab874299ef2abdc6e",
+    "relative_dir": "FA/H1/real_doublet_or_not/doublet-na-d-88682f96f7f171d3/branches/main/f53268eb9b894e09b0012763114ff720"
+  }
+}

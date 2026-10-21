@@ -1,0 +1,28 @@
+{
+  "schema_version": "forma-lrg-bgs-node-v1",
+  "graph_version": "forma-lrg-bgs-type-graph-v2",
+  "run_id": "graph-df7434d5533647e999870708120307b0",
+  "branch_id": "main",
+  "hypothesis_ref": "H6",
+  "node_key": "sh2.lrg_bgs/H6/lrg_bgs.analysis_report",
+  "node_type": "lrg_bgs.analysis_report",
+  "status": "completed",
+  "input_refs": [
+    "sh2/7c19e19089b24bd2872f88fe9a561bd4/node",
+    "alignment/9a66c64194db4b86bb593e8fffe29864/node"
+  ],
+  "evidence_refs": [
+    "sh2/7c19e19089b24bd2872f88fe9a561bd4/node",
+    "alignment/9a66c64194db4b86bb593e8fffe29864/node"
+  ],
+  "output": {
+    "path_status": "survive",
+    "candidate_type": "LRG/BGS",
+    "route_ref": "sh2/7c19e19089b24bd2872f88fe9a561bd4/node",
+    "alignment_ref": "alignment/9a66c64194db4b86bb593e8fffe29864/node"
+  },
+  "unresolved_reasons": [],
+  "created_by": "code",
+  "node_execution_id": "cffbf9539ff04227a435a428fecc7d14",
+  "attempt_id": "b53eb7678a544d90a5a84201a7e40844"
+}

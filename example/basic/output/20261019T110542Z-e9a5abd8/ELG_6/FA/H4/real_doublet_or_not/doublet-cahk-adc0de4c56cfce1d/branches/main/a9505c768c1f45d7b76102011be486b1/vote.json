@@ -1,0 +1,13 @@
+{
+  "answer": "no",
+  "reason": "Neither component window shows an absorption dip at its predicted position: around 3935.7 Å the flux stays at continuum (~0.5-1.2) with no K-like trough, and around 3970.5 Å the flux is likewise continuum-level (~0.2-1.0) with no H-like trough. The claimed centers (3942.8, 3988.4) are offset by 7-18 Å and show no coherent pair; the measured separation (45.6 Å) far exceeds the expected 34.8 Å, and the K/H depth ordering is inverted. The two-component interpretation is not corroborated.",
+  "execution": {
+    "schema_version": "forma-agentic-node-execution-v1",
+    "run_id": "graph-fe0d30030bcc4939b88103e27753b2c1",
+    "branch_id": "main",
+    "node_key": "fa.real_doublet_or_not/graph-fe0d30030bcc4939b88103e27753b2c1/H4/doublet%3Acahk",
+    "node_execution_id": "a9505c768c1f45d7b76102011be486b1",
+    "attempt_id": "188142567e1d44ab8344bab80a8cafbd",
+    "relative_dir": "FA/H4/real_doublet_or_not/doublet-cahk-adc0de4c56cfce1d/branches/main/a9505c768c1f45d7b76102011be486b1"
+  }
+}

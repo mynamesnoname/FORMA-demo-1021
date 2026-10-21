@@ -1,0 +1,9 @@
+{
+  "schema_version": "forma-agentic-node-execution-v1",
+  "run_id": "graph-853b617a68f04c36bd82f06bdb770ac4",
+  "branch_id": "main",
+  "node_key": "sh2.qso/H6/qso.entry",
+  "node_execution_id": "b62f6f3ca41c437186c8b323d62de33a",
+  "attempt_id": "d7412eab70834c57b7829134ce3ffb7b",
+  "relative_dir": "SH/H6/qso/qso.entry/branches/main/b62f6f3ca41c437186c8b323d62de33a"
+}

@@ -1,0 +1,266 @@
+[
+  {
+    "line_id": "line:nev-3426",
+    "measurement_id": "fit:H3:0008",
+    "status": "MARGINAL",
+    "reason_codes": [
+      "weak_snr",
+      "broad_width",
+      "no_cwt_peak"
+    ],
+    "comment": "Fit centre 4360.6 A matches prediction (offset ~1 A, z in window) but local SNR 1.75 and FWHM ~976 km/s; no CWT peak at this position. Weak, broad, low-significance candidate."
+  },
+  {
+    "line_id": "line:oii-3727",
+    "measurement_id": null,
+    "status": "NOT_FOUND",
+    "reason_codes": [
+      "center_at_bound",
+      "rejected_fit",
+      "no_cwt_peak"
+    ],
+    "comment": "Only fit is center_at_bound (4692.7 A, 50 A blueward, FWHM 15800 km/s) and unselectable; no CWT peak near 4742.7 A. No credible measurement adopted."
+  },
+  {
+    "line_id": "line:cak-3934-abs",
+    "measurement_id": "fit:H3:0006",
+    "status": "LIKELY",
+    "reason_codes": [
+      "doublet_separation_pass",
+      "depth_ordering_uncertain"
+    ],
+    "comment": "Doublet fit centre 5004.9 A vs 5007.1 predicted (offset ~2 A, z in window), separation passes. Depth ordering (K vs H) nearly equal and uncertain, but plausible Ca K component retained."
+  },
+  {
+    "line_id": "line:cah-3969-abs",
+    "measurement_id": "fit:H3:0007",
+    "status": "LIKELY",
+    "reason_codes": [
+      "doublet_separation_pass",
+      "depth_ordering_uncertain",
+      "cwt_trough_support"
+    ],
+    "comment": "Fit centre 5047.3 A vs 5051.4 predicted (offset ~4 A, z in window); CWT trough at 5049.6 A supports. Depth ordering vs Ca K uncertain but plausible weak component retained."
+  },
+  {
+    "line_id": "line:heps-3970",
+    "measurement_id": null,
+    "status": "NOT_FOUND",
+    "reason_codes": [
+      "center_at_bound",
+      "rejected_fit",
+      "blend_with_cah"
+    ],
+    "comment": "Only fit is center_at_bound (5102.0 A) and unselectable; region blends with Ca H absorption. No credible emission measurement adopted."
+  },
+  {
+    "line_id": "line:heps-3970-abs",
+    "measurement_id": "cwt:abs:0002",
+    "status": "MARGINAL",
+    "reason_codes": [
+      "blend_with_cah",
+      "weak_depth"
+    ],
+    "comment": "CWT trough at 5049.6 A (z=0.2719, in window) is the same feature as Ca H; ambiguous blend between H-epsilon absorption and Ca H. Weak, marginal adoption."
+  },
+  {
+    "line_id": "line:hdel-4102",
+    "measurement_id": null,
+    "status": "NOT_FOUND",
+    "reason_codes": [
+      "center_at_bound",
+      "rejected_fit",
+      "no_cwt_peak"
+    ],
+    "comment": "Only fit is center_at_bound (5171.0 A, FWHM 9700 km/s) and unselectable; no CWT peak near 5221 A. No credible measurement adopted."
+  },
+  {
+    "line_id": "line:hdel-4102-abs",
+    "measurement_id": "fit:H3:0014",
+    "status": "MARGINAL",
+    "reason_codes": [
+      "weak_amplitude",
+      "low_snr"
+    ],
+    "comment": "Fit centre 5218.0 A vs 5221.0 predicted (offset ~3 A, z in window) but amplitude -0.19 and local SNR 0.43; very weak trough. Marginal."
+  },
+  {
+    "line_id": "line:gband-4305-abs",
+    "measurement_id": "cwt:abs:0003",
+    "status": "MARGINAL",
+    "reason_codes": [
+      "offset_weak",
+      "broad_width"
+    ],
+    "comment": "CWT trough at 5472.0 A (z=0.2709, in window) vs 5478.9 predicted, offset ~7 A; broad FWHM ~2900 km/s. Plausible but weak G-band candidate."
+  },
+  {
+    "line_id": "line:hgam-4341",
+    "measurement_id": "cwt:em:0005",
+    "status": "MARGINAL",
+    "reason_codes": [
+      "offset_weak",
+      "low_amplitude",
+      "broad_width"
+    ],
+    "comment": "CWT peak at 5532.8 A (z=0.2743, in window) vs 5524.9 predicted, offset ~8 A; amplitude ~0.0 and broad FWHM ~4200 km/s. Weak marginal emission candidate."
+  },
+  {
+    "line_id": "line:hgam-4341-abs",
+    "measurement_id": "fit:H3:0015",
+    "status": "MARGINAL",
+    "reason_codes": [
+      "weak_amplitude",
+      "low_snr"
+    ],
+    "comment": "Fit centre 5522.3 A vs 5524.9 predicted (offset ~3 A, z in window) but amplitude -0.50 and local SNR 1.36; weak trough. Marginal."
+  },
+  {
+    "line_id": "line:hbet-4862",
+    "measurement_id": "fit:H3:0012",
+    "status": "MARGINAL",
+    "reason_codes": [
+      "offset_weak",
+      "low_snr",
+      "no_cwt_peak"
+    ],
+    "comment": "Fit centre 6236.3 A vs 6187.8 predicted (offset ~48 A, weaker range), local SNR 1.33, no CWT peak. Weak marginal emission candidate."
+  },
+  {
+    "line_id": "line:hbet-4862-abs",
+    "measurement_id": "cwt:abs:0005",
+    "status": "MARGINAL",
+    "reason_codes": [
+      "blend_with_hbeta",
+      "broad_width"
+    ],
+    "comment": "CWT trough at 6188.8 A (z=0.2727, in window) matches prediction closely; broad FWHM ~3400 km/s and coincides with H-beta emission region. Marginal absorption candidate."
+  },
+  {
+    "line_id": "line:oiii-4960",
+    "measurement_id": "fit:H3:0000",
+    "status": "MARGINAL",
+    "reason_codes": [
+      "doublet_separation_fail",
+      "ratio_mismatch",
+      "blend"
+    ],
+    "comment": "Fit centre 6292.0 A vs 6312.0 predicted (offset ~20 A, weaker range); CWT peak at 6292.0 A. Doublet separation fails and component ratio 0.32 far from 3:1; blended/ambiguous. Marginal."
+  },
+  {
+    "line_id": "line:oiii-5008",
+    "measurement_id": "fit:H3:0001",
+    "status": "MARGINAL",
+    "reason_codes": [
+      "doublet_separation_fail",
+      "offset_weak",
+      "blend"
+    ],
+    "comment": "Fit centre 6423.0 A vs 6373.0 predicted (offset ~50 A, weaker range); doublet separation fails and ratio inconsistent. Ambiguous blend with [O III]a. Marginal."
+  },
+  {
+    "line_id": "line:mgi-5176-abs",
+    "measurement_id": "cwt:abs:0007",
+    "status": "MARGINAL",
+    "reason_codes": [
+      "offset_weak",
+      "broad_width"
+    ],
+    "comment": "CWT trough at 6583.2 A (z=0.2717, in window) vs 6587.4 predicted, offset ~4 A; broad FWHM ~2900 km/s. Plausible weak Mg I candidate."
+  },
+  {
+    "line_id": "line:nad1-5891-abs",
+    "measurement_id": "cwt:abs:0009",
+    "status": "MARGINAL",
+    "reason_codes": [
+      "doublet_blend",
+      "shared_feature"
+    ],
+    "comment": "CWT trough at 7496.8 A (z=0.2725, in window) matches Na D1 prediction; shared with Na D/D2 components (unresolved blend). Marginal."
+  },
+  {
+    "line_id": "line:nad-5895-abs",
+    "measurement_id": null,
+    "status": "NOT_FOUND",
+    "reason_codes": [
+      "blend_with_nad1_nad2",
+      "no_separate_measurement"
+    ],
+    "comment": "Na D middle component has no separate measurement; the single CWT trough at 7496.8 A is adopted for D1 and D2. No independent measurement adopted here."
+  },
+  {
+    "line_id": "line:nad2-5897-abs",
+    "measurement_id": "cwt:abs:0009",
+    "status": "MARGINAL",
+    "reason_codes": [
+      "doublet_blend",
+      "shared_feature"
+    ],
+    "comment": "Same CWT trough at 7496.8 A (z=0.2712) serves Na D2; unresolved blend with D1/D. Marginal."
+  },
+  {
+    "line_id": "line:nii-6549",
+    "measurement_id": "fit:H3:0004",
+    "status": "MARGINAL",
+    "reason_codes": [
+      "doublet_separation_fail",
+      "offset_weak",
+      "blend"
+    ],
+    "comment": "Fit centre 8304.5 A vs 8334.7 predicted (offset ~30 A, weaker range); doublet separation fails, ratio 0.72 inconsistent with 1:3. Blended with H-alpha/[N II]b. Marginal."
+  },
+  {
+    "line_id": "line:half-6564",
+    "measurement_id": "fit:H3:0013",
+    "status": "MARGINAL",
+    "reason_codes": [
+      "huge_uncertainty",
+      "broad_width",
+      "blend"
+    ],
+    "comment": "Fit centre 8403.3 A vs 8353.5 predicted (offset ~50 A) with error ±201 A and FWHM 15500 km/s; blended with [N II]. Weak, highly uncertain. Marginal."
+  },
+  {
+    "line_id": "line:half-6564-abs",
+    "measurement_id": "cwt:abs:0011",
+    "status": "MARGINAL",
+    "reason_codes": [
+      "blend_with_halpha",
+      "weak_amplitude"
+    ],
+    "comment": "CWT trough at 8348.8 A (z=0.2718, in window) vs 8353.5 predicted, offset ~5 A; weak amplitude and coincides with H-alpha emission region. Marginal."
+  },
+  {
+    "line_id": "line:nii-6585",
+    "measurement_id": "fit:H3:0005",
+    "status": "MARGINAL",
+    "reason_codes": [
+      "doublet_separation_fail",
+      "offset_weak",
+      "blend"
+    ],
+    "comment": "Fit centre 8417.4 A vs 8379.9 predicted (offset ~37 A, weaker range); CWT peak at 8430.4 A (z=0.2802, near window edge). Doublet separation fails; blended. Marginal."
+  },
+  {
+    "line_id": "line:sii-6718",
+    "measurement_id": null,
+    "status": "NOT_FOUND",
+    "reason_codes": [
+      "zero_amplitude_fit",
+      "separation_fail",
+      "no_cwt_peak"
+    ],
+    "comment": "Doublet fit returned zero amplitude with separation fail and no CWT peak near 8549 A. No credible measurement adopted."
+  },
+  {
+    "line_id": "line:sii-6732",
+    "measurement_id": null,
+    "status": "NOT_FOUND",
+    "reason_codes": [
+      "zero_amplitude_fit",
+      "separation_fail",
+      "no_cwt_peak"
+    ],
+    "comment": "Doublet fit returned zero amplitude with separation fail and no CWT peak near 8567 A. No credible measurement adopted."
+  }
+]

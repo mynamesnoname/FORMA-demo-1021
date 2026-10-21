@@ -1,0 +1,82 @@
+{
+  "schema_version": "forma-sh-line-alignment-v1",
+  "run_id": "graph-fe0d30030bcc4939b88103e27753b2c1",
+  "branch_id": "main",
+  "hypothesis_ref": "H5",
+  "graph": "QSO",
+  "node_key": "sh2.alignment/H5/QSO",
+  "node_execution_id": "5b8edf0f01b6403691289f16f7df3d01",
+  "input_refs": [
+    "sh/H5/node",
+    "sh/H5/catalog",
+    "sh/H5/judgments",
+    "spectrum_npz",
+    "fa/16f6b65f79454e65b2c87ca5fd0998ec/node",
+    "fa/1e34ea100b834a04b471fc74fc6661ff/node",
+    "fa/2c50ff5c25364b928cab718eadd55f86/node",
+    "fa/3941e33df75a4c7e8d908ca2461d60a6/node",
+    "fa/5984f4b939e74d2ca12b6f216e6e053f/node",
+    "fa/7b247e5a27b649c6bf4d59a0493744ec/node",
+    "fa/84ce2500796f47308729e2acb8f7155b/node",
+    "fa/8d277314fa5e4142be3176009d6d0870/node",
+    "fa/8f8b5030d5bf4ec6811d1058ca502346/node",
+    "fa/9be9acdfdd98486eaba21433da416e2b/node",
+    "fa/d0ea9e0d4ff043fc860789505e4ce204/node",
+    "fa/e4d33edb9cc34845851b82f8e810ee25/node"
+  ],
+  "vote_refs": [],
+  "output": {
+    "collisions": [],
+    "aligned_claims": [
+      {
+        "line_id": "line:ciii-1909",
+        "original_measurement_id": null,
+        "status": "unassigned",
+        "effective_feature_id": null
+      },
+      {
+        "line_id": "line:civ-1549",
+        "original_measurement_id": "cwt:em:0000",
+        "status": "original_claim",
+        "effective_feature_id": "cwt:em:0000"
+      },
+      {
+        "line_id": "line:heii-1640",
+        "original_measurement_id": null,
+        "status": "unassigned",
+        "effective_feature_id": null
+      },
+      {
+        "line_id": "line:mgii-2800",
+        "original_measurement_id": "cwt:em:0015",
+        "status": "original_claim",
+        "effective_feature_id": "cwt:em:0015"
+      },
+      {
+        "line_id": "line:mgii-2800-abs",
+        "original_measurement_id": "cwt:abs:0019",
+        "status": "unassigned",
+        "effective_feature_id": null
+      },
+      {
+        "line_id": "line:nev-3426",
+        "original_measurement_id": "fit:H5:0002",
+        "status": "unassigned",
+        "effective_feature_id": null
+      }
+    ],
+    "model_usage": {
+      "calls": 0,
+      "input_tokens": 0,
+      "output_tokens": 0,
+      "cache_hit_tokens": 0,
+      "cache_hit_reported_calls": 0,
+      "cache_hit_unreported_calls": 0
+    },
+    "window_half_angstrom": 100.0,
+    "vote_quorum": 3,
+    "max_attempts_per_vote_seat": 2,
+    "outer_reference_sigma": 3.0,
+    "concurrency": 3
+  }
+}

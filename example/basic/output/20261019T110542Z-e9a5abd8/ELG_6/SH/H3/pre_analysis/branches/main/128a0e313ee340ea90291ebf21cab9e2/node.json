@@ -1,0 +1,26 @@
+{
+  "schema_version": "forma-sh-line-review-v1",
+  "key": "sh.pre_analysis/graph-fe0d30030bcc4939b88103e27753b2c1/H3",
+  "hypothesis_ref": "H3",
+  "hypothesis_redshift": 0.00016506965303596808,
+  "status": "complete",
+  "csv_path": "/mnt/linux_share/code/FORMA/example/basic/output/20261019T110542Z-e9a5abd8/ELG_6/SH/H3/pre_analysis/branches/main/128a0e313ee340ea90291ebf21cab9e2/lines.csv",
+  "csv_sha256": "05df364e8d52020de857eca4a66c6bb253b2270f0c73289cb44f6de6c6eaf714",
+  "measurement_catalog_path": "/mnt/linux_share/code/FORMA/example/basic/output/20261019T110542Z-e9a5abd8/ELG_6/VI/measurements/hypothesis_002_measurement_catalog.json",
+  "measurement_catalog_sha256": "0987981e596bcb5a19538f0024eadd82b744699d47c74b28fbb11f4a23213a1c",
+  "judgment_path": "/mnt/linux_share/code/FORMA/example/basic/output/20261019T110542Z-e9a5abd8/ELG_6/SH/H3/pre_analysis/branches/main/128a0e313ee340ea90291ebf21cab9e2/lines_judgments.json",
+  "judgment_sha256": "da0f1433876a0aa0ef315b3af6179854a4eceb3e169a2e52b775ec5f45d19323",
+  "session_stage1_path": "/mnt/linux_share/code/FORMA/example/basic/output/20261019T110542Z-e9a5abd8/ELG_6/SH/H3/pre_analysis/branches/main/128a0e313ee340ea90291ebf21cab9e2/stage1_session.md",
+  "session_stage1_sha256": "857bc22dfeba466e9e9715ce9b47a154b471fe57a885f605a10f2b027de529cd",
+  "adopted_lines_plot_path": "/mnt/linux_share/code/FORMA/example/basic/output/20261019T110542Z-e9a5abd8/ELG_6/SH/H3/pre_analysis/branches/main/128a0e313ee340ea90291ebf21cab9e2/adopted_lines.png",
+  "adopted_lines_plot_sha256": "dbefcefc5d836db7b48aff2e87811fc8c957e4bb4082ec90c923bf93bdcabd99",
+  "execution": {
+    "schema_version": "forma-agentic-node-execution-v1",
+    "run_id": "graph-fe0d30030bcc4939b88103e27753b2c1",
+    "branch_id": "main",
+    "node_key": "sh.pre_analysis/graph-fe0d30030bcc4939b88103e27753b2c1/H3",
+    "node_execution_id": "128a0e313ee340ea90291ebf21cab9e2",
+    "attempt_id": "a1b4ca3a5ac04d46bc5bd3f6259f82a7",
+    "relative_dir": "SH/H3/pre_analysis/branches/main/128a0e313ee340ea90291ebf21cab9e2"
+  }
+}

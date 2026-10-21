@@ -1,0 +1,3018 @@
+{
+  "center_angstrom": 4121.917492851807,
+  "requested_window_angstrom": [
+    3971.917492851807,
+    4271.917492851807
+  ],
+  "actual_window_angstrom": [
+    3972.0000000000846,
+    4271.200000000153
+  ],
+  "coverage": "usable",
+  "total_samples": 375,
+  "usable_samples": 375,
+  "explicit_masked_samples": 0,
+  "full_window_explicit_mask_proof": false,
+  "samples": [
+    {
+      "sample_id": 465,
+      "wavelength_angstrom": 3972.0000000000846,
+      "flux": 1.010081171989441,
+      "ivar": 15.112109184265137,
+      "explicit_mask": false,
+      "valid": true
+    },
+    {
+      "sample_id": 466,
+      "wavelength_angstrom": 3972.8000000000848,
+      "flux": 1.003881573677063,
+      "ivar": 14.980820655822754,
+      "explicit_mask": false,
+      "valid": true
+    },
+    {
+      "sample_id": 467,
+      "wavelength_angstrom": 3973.600000000085,
+      "flux": 0.43791288137435913,
+      "ivar": 14.855629920959473,
+      "explicit_mask": false,
+      "valid": true
+    },
+    {
+      "sample_id": 468,
+      "wavelength_angstrom": 3974.400000000085,
+      "flux": 0.26051709055900574,
+      "ivar": 14.447956085205078,
+      "explicit_mask": false,
+      "valid": true
+    },
+    {
+      "sample_id": 469,
+      "wavelength_angstrom": 3975.2000000000853,
+      "flux": 1.2274298667907715,
+      "ivar": 14.173675537109375,
+      "explicit_mask": false,
+      "valid": true
+    },
+    {
+      "sample_id": 470,
+      "wavelength_angstrom": 3976.0000000000855,
+      "flux": 1.3254343271255493,
+      "ivar": 13.805595397949219,
+      "explicit_mask": false,
+      "valid": true
+    },
+    {
+      "sample_id": 471,
+      "wavelength_angstrom": 3976.8000000000857,
+      "flux": 0.4023120105266571,
+      "ivar": 13.989850997924805,
+      "explicit_mask": false,
+      "valid": true
+    },
+    {
+      "sample_id": 472,
+      "wavelength_angstrom": 3977.600000000086,
+      "flux": 0.695318877696991,
+      "ivar": 13.566609382629395,
+      "explicit_mask": false,
+      "valid": true
+    },
+    {
+      "sample_id": 473,
+      "wavelength_angstrom": 3978.400000000086,
+      "flux": 0.9954790472984314,
+      "ivar": 13.884734153747559,
+      "explicit_mask": false,
+      "valid": true
+    },
+    {
+      "sample_id": 474,
+      "wavelength_angstrom": 3979.200000000086,
+      "flux": 0.9356201887130737,
+      "ivar": 13.277188301086426,
+      "explicit_mask": false,
+      "valid": true
+    },
+    {
+      "sample_id": 475,
+      "wavelength_angstrom": 3980.0000000000864,
+      "flux": 0.8855016231536865,
+      "ivar": 13.163795471191406,
+      "explicit_mask": false,
+      "valid": true
+    },
+    {
+      "sample_id": 476,
+      "wavelength_angstrom": 3980.8000000000866,
+      "flux": 0.8696540594100952,
+      "ivar": 13.250393867492676,
+      "explicit_mask": false,
+      "valid": true
+    },
+    {
+      "sample_id": 477,
+      "wavelength_angstrom": 3981.6000000000868,
+      "flux": 0.6327736973762512,
+      "ivar": 13.104811668395996,
+      "explicit_mask": false,
+      "valid": true
+    },
+    {
+      "sample_id": 478,
+      "wavelength_angstrom": 3982.400000000087,
+      "flux": 0.2984926998615265,
+      "ivar": 12.761861801147461,
+      "explicit_mask": false,
+      "valid": true
+    },
+    {
+      "sample_id": 479,
+      "wavelength_angstrom": 3983.200000000087,
+      "flux": 0.7878947257995605,
+      "ivar": 13.706353187561035,
+      "explicit_mask": false,
+      "valid": true
+    },
+    {
+      "sample_id": 480,
+      "wavelength_angstrom": 3984.0000000000873,
+      "flux": 1.1415070295333862,
+      "ivar": 13.944525718688965,
+      "explicit_mask": false,
+      "valid": true
+    },
+    {
+      "sample_id": 481,
+      "wavelength_angstrom": 3984.8000000000875,
+      "flux": 0.7818955183029175,
+      "ivar": 13.726431846618652,
+      "explicit_mask": false,
+      "valid": true
+    },
+    {
+      "sample_id": 482,
+      "wavelength_angstrom": 3985.6000000000877,
+      "flux": 0.10916516184806824,
+      "ivar": 13.419116020202637,
+      "explicit_mask": false,
+      "valid": true
+    },
+    {
+      "sample_id": 483,
+      "wavelength_angstrom": 3986.400000000088,
+      "flux": 1.248840570449829,
+      "ivar": 13.650137901306152,
+      "explicit_mask": false,
+      "valid": true
+    },
+    {
+      "sample_id": 484,
+      "wavelength_angstrom": 3987.200000000088,
+      "flux": 0.8386272192001343,
+      "ivar": 14.090316772460938,
+      "explicit_mask": false,
+      "valid": true
+    },
+    {
+      "sample_id": 485,
+      "wavelength_angstrom": 3988.000000000088,
+      "flux": 0.741194486618042,
+      "ivar": 14.246367454528809,
+      "explicit_mask": false,
+      "valid": true
+    },
+    {
+      "sample_id": 486,
+      "wavelength_angstrom": 3988.8000000000884,
+      "flux": 0.6024505496025085,
+      "ivar": 14.185342788696289,
+      "explicit_mask": false,
+      "valid": true
+    },
+    {
+      "sample_id": 487,
+      "wavelength_angstrom": 3989.6000000000886,
+      "flux": 0.7488673329353333,
+      "ivar": 13.17346477508545,
+      "explicit_mask": false,
+      "valid": true
+    },
+    {
+      "sample_id": 488,
+      "wavelength_angstrom": 3990.4000000000888,
+      "flux": 1.121634840965271,
+      "ivar": 13.100967407226562,
+      "explicit_mask": false,
+      "valid": true
+    },
+    {
+      "sample_id": 489,
+      "wavelength_angstrom": 3991.200000000089,
+      "flux": 0.5697066187858582,
+      "ivar": 13.491401672363281,
+      "explicit_mask": false,
+      "valid": true
+    },
+    {
+      "sample_id": 490,
+      "wavelength_angstrom": 3992.000000000089,
+      "flux": 0.3078201413154602,
+      "ivar": 13.995901107788086,
+      "explicit_mask": false,
+      "valid": true
+    },
+    {
+      "sample_id": 491,
+      "wavelength_angstrom": 3992.8000000000893,
+      "flux": 0.6109274625778198,
+      "ivar": 14.002338409423828,
+      "explicit_mask": false,
+      "valid": true
+    },
+    {
+      "sample_id": 492,
+      "wavelength_angstrom": 3993.6000000000895,
+      "flux": 0.6043678522109985,
+      "ivar": 13.997103691101074,
+      "explicit_mask": false,
+      "valid": true
+    },
+    {
+      "sample_id": 493,
+      "wavelength_angstrom": 3994.4000000000897,
+      "flux": 0.7239202260971069,
+      "ivar": 13.97130298614502,
+      "explicit_mask": false,
+      "valid": true
+    },
+    {
+      "sample_id": 494,
+      "wavelength_angstrom": 3995.20000000009,
+      "flux": 0.8157994747161865,
+      "ivar": 13.923913955688477,
+      "explicit_mask": false,
+      "valid": true
+    },
+    {
+      "sample_id": 495,
+      "wavelength_angstrom": 3996.00000000009,
+      "flux": 0.8618680834770203,
+      "ivar": 14.756282806396484,
+      "explicit_mask": false,
+      "valid": true
+    },
+    {
+      "sample_id": 496,
+      "wavelength_angstrom": 3996.80000000009,
+      "flux": 1.415368914604187,
+      "ivar": 14.87730598449707,
+      "explicit_mask": false,
+      "valid": true
+    },
+    {
+      "sample_id": 497,
+      "wavelength_angstrom": 3997.6000000000904,
+      "flux": 0.4949014484882355,
+      "ivar": 14.772320747375488,
+      "explicit_mask": false,
+      "valid": true
+    },
+    {
+      "sample_id": 498,
+      "wavelength_angstrom": 3998.4000000000906,
+      "flux": 0.49594181776046753,
+      "ivar": 14.422998428344727,
+      "explicit_mask": false,
+      "valid": true
+    },
+    {
+      "sample_id": 499,
+      "wavelength_angstrom": 3999.2000000000908,
+      "flux": 0.7460981607437134,
+      "ivar": 14.391708374023438,
+      "explicit_mask": false,
+      "valid": true
+    },
+    {
+      "sample_id": 500,
+      "wavelength_angstrom": 4000.000000000091,
+      "flux": 0.613963782787323,
+      "ivar": 13.999953269958496,
+      "explicit_mask": false,
+      "valid": true
+    },
+    {
+      "sample_id": 501,
+      "wavelength_angstrom": 4000.800000000091,
+      "flux": 0.4889616072177887,
+      "ivar": 14.043845176696777,
+      "explicit_mask": false,
+      "valid": true
+    },
+    {
+      "sample_id": 502,
+      "wavelength_angstrom": 4001.6000000000913,
+      "flux": 0.9802756309509277,
+      "ivar": 14.221573829650879,
+      "explicit_mask": false,
+      "valid": true
+    },
+    {
+      "sample_id": 503,
+      "wavelength_angstrom": 4002.4000000000915,
+      "flux": 0.573755145072937,
+      "ivar": 14.486241340637207,
+      "explicit_mask": false,
+      "valid": true
+    },
+    {
+      "sample_id": 504,
+      "wavelength_angstrom": 4003.2000000000917,
+      "flux": 0.8885367512702942,
+      "ivar": 14.339106559753418,
+      "explicit_mask": false,
+      "valid": true
+    },
+    {
+      "sample_id": 505,
+      "wavelength_angstrom": 4004.000000000092,
+      "flux": 0.9353706240653992,
+      "ivar": 14.61986255645752,
+      "explicit_mask": false,
+      "valid": true
+    },
+    {
+      "sample_id": 506,
+      "wavelength_angstrom": 4004.800000000092,
+      "flux": 1.2272037267684937,
+      "ivar": 14.572792053222656,
+      "explicit_mask": false,
+      "valid": true
+    },
+    {
+      "sample_id": 507,
+      "wavelength_angstrom": 4005.600000000092,
+      "flux": 0.581339955329895,
+      "ivar": 14.226948738098145,
+      "explicit_mask": false,
+      "valid": true
+    },
+    {
+      "sample_id": 508,
+      "wavelength_angstrom": 4006.4000000000924,
+      "flux": 0.8787022233009338,
+      "ivar": 14.502503395080566,
+      "explicit_mask": false,
+      "valid": true
+    },
+    {
+      "sample_id": 509,
+      "wavelength_angstrom": 4007.2000000000926,
+      "flux": 0.7083194255828857,
+      "ivar": 14.655871391296387,
+      "explicit_mask": false,
+      "valid": true
+    },
+    {
+      "sample_id": 510,
+      "wavelength_angstrom": 4008.0000000000928,
+      "flux": 0.8517009019851685,
+      "ivar": 13.662972450256348,
+      "explicit_mask": false,
+      "valid": true
+    },
+    {
+      "sample_id": 511,
+      "wavelength_angstrom": 4008.800000000093,
+      "flux": 1.1115827560424805,
+      "ivar": 13.728694915771484,
+      "explicit_mask": false,
+      "valid": true
+    },
+    {
+      "sample_id": 512,
+      "wavelength_angstrom": 4009.600000000093,
+      "flux": 1.3069202899932861,
+      "ivar": 13.506767272949219,
+      "explicit_mask": false,
+      "valid": true
+    },
+    {
+      "sample_id": 513,
+      "wavelength_angstrom": 4010.4000000000933,
+      "flux": 1.5481128692626953,
+      "ivar": 13.435297012329102,
+      "explicit_mask": false,
+      "valid": true
+    },
+    {
+      "sample_id": 514,
+      "wavelength_angstrom": 4011.2000000000935,
+      "flux": 0.8901451230049133,
+      "ivar": 13.601424217224121,
+      "explicit_mask": false,
+      "valid": true
+    },
+    {
+      "sample_id": 515,
+      "wavelength_angstrom": 4012.0000000000937,
+      "flux": 0.8442909121513367,
+      "ivar": 14.10029125213623,
+      "explicit_mask": false,
+      "valid": true
+    },
+    {
+      "sample_id": 516,
+      "wavelength_angstrom": 4012.800000000094,
+      "flux": 0.47111648321151733,
+      "ivar": 13.784037590026855,
+      "explicit_mask": false,
+      "valid": true
+    },
+    {
+      "sample_id": 517,
+      "wavelength_angstrom": 4013.600000000094,
+      "flux": 0.8154270648956299,
+      "ivar": 13.480668067932129,
+      "explicit_mask": false,
+      "valid": true
+    },
+    {
+      "sample_id": 518,
+      "wavelength_angstrom": 4014.400000000094,
+      "flux": 0.9845987558364868,
+      "ivar": 14.157818794250488,
+      "explicit_mask": false,
+      "valid": true
+    },
+    {
+      "sample_id": 519,
+      "wavelength_angstrom": 4015.2000000000944,
+      "flux": 1.3143501281738281,
+      "ivar": 14.11459732055664,
+      "explicit_mask": false,
+      "valid": true
+    },
+    {
+      "sample_id": 520,
+      "wavelength_angstrom": 4016.0000000000946,
+      "flux": 0.4222422242164612,
+      "ivar": 14.163921356201172,
+      "explicit_mask": false,
+      "valid": true
+    },
+    {
+      "sample_id": 521,
+      "wavelength_angstrom": 4016.8000000000948,
+      "flux": 0.40664148330688477,
+      "ivar": 14.522101402282715,
+      "explicit_mask": false,
+      "valid": true
+    },
+    {
+      "sample_id": 522,
+      "wavelength_angstrom": 4017.600000000095,
+      "flux": 0.9542520642280579,
+      "ivar": 14.745683670043945,
+      "explicit_mask": false,
+      "valid": true
+    },
+    {
+      "sample_id": 523,
+      "wavelength_angstrom": 4018.400000000095,
+      "flux": 1.343498945236206,
+      "ivar": 14.705789566040039,
+      "explicit_mask": false,
+      "valid": true
+    },
+    {
+      "sample_id": 524,
+      "wavelength_angstrom": 4019.2000000000953,
+      "flux": 0.9384169578552246,
+      "ivar": 14.674385070800781,
+      "explicit_mask": false,
+      "valid": true
+    },
+    {
+      "sample_id": 525,
+      "wavelength_angstrom": 4020.0000000000955,
+      "flux": 0.9817596077919006,
+      "ivar": 14.257678031921387,
+      "explicit_mask": false,
+      "valid": true
+    },
+    {
+      "sample_id": 526,
+      "wavelength_angstrom": 4020.8000000000957,
+      "flux": 1.1956740617752075,
+      "ivar": 14.892935752868652,
+      "explicit_mask": false,
+      "valid": true
+    },
+    {
+      "sample_id": 527,
+      "wavelength_angstrom": 4021.600000000096,
+      "flux": 0.7955974340438843,
+      "ivar": 14.710888862609863,
+      "explicit_mask": false,
+      "valid": true
+    },
+    {
+      "sample_id": 528,
+      "wavelength_angstrom": 4022.400000000096,
+      "flux": 0.8552446961402893,
+      "ivar": 14.89975357055664,
+      "explicit_mask": false,
+      "valid": true
+    },
+    {
+      "sample_id": 529,
+      "wavelength_angstrom": 4023.200000000096,
+      "flux": 0.8647825121879578,
+      "ivar": 15.077055931091309,
+      "explicit_mask": false,
+      "valid": true
+    },
+    {
+      "sample_id": 530,
+      "wavelength_angstrom": 4024.0000000000964,
+      "flux": 0.8426764607429504,
+      "ivar": 14.819449424743652,
+      "explicit_mask": false,
+      "valid": true
+    },
+    {
+      "sample_id": 531,
+      "wavelength_angstrom": 4024.8000000000966,
+      "flux": 0.6163305640220642,
+      "ivar": 15.0912446975708,
+      "explicit_mask": false,
+      "valid": true
+    },
+    {
+      "sample_id": 532,
+      "wavelength_angstrom": 4025.6000000000968,
+      "flux": 1.0005285739898682,
+      "ivar": 15.635719299316406,
+      "explicit_mask": false,
+      "valid": true
+    },
+    {
+      "sample_id": 533,
+      "wavelength_angstrom": 4026.400000000097,
+      "flux": 0.8528059720993042,
+      "ivar": 15.710179328918457,
+      "explicit_mask": false,
+      "valid": true
+    },
+    {
+      "sample_id": 534,
+      "wavelength_angstrom": 4027.200000000097,
+      "flux": 0.7769538760185242,
+      "ivar": 15.597344398498535,
+      "explicit_mask": false,
+      "valid": true
+    },
+    {
+      "sample_id": 535,
+      "wavelength_angstrom": 4028.0000000000973,
+      "flux": 1.1614586114883423,
+      "ivar": 15.461851119995117,
+      "explicit_mask": false,
+      "valid": true
+    },
+    {
+      "sample_id": 536,
+      "wavelength_angstrom": 4028.8000000000975,
+      "flux": 0.6602554321289062,
+      "ivar": 15.494051933288574,
+      "explicit_mask": false,
+      "valid": true
+    },
+    {
+      "sample_id": 537,
+      "wavelength_angstrom": 4029.6000000000977,
+      "flux": 0.9309270977973938,
+      "ivar": 15.593327522277832,
+      "explicit_mask": false,
+      "valid": true
+    },
+    {
+      "sample_id": 538,
+      "wavelength_angstrom": 4030.400000000098,
+      "flux": 1.157120943069458,
+      "ivar": 15.351372718811035,
+      "explicit_mask": false,
+      "valid": true
+    },
+    {
+      "sample_id": 539,
+      "wavelength_angstrom": 4031.200000000098,
+      "flux": 1.0355474948883057,
+      "ivar": 16.205480575561523,
+      "explicit_mask": false,
+      "valid": true
+    },
+    {
+      "sample_id": 540,
+      "wavelength_angstrom": 4032.000000000098,
+      "flux": 0.8745524883270264,
+      "ivar": 15.864425659179688,
+      "explicit_mask": false,
+      "valid": true
+    },
+    {
+      "sample_id": 541,
+      "wavelength_angstrom": 4032.8000000000984,
+      "flux": 0.622818648815155,
+      "ivar": 15.586771011352539,
+      "explicit_mask": false,
+      "valid": true
+    },
+    {
+      "sample_id": 542,
+      "wavelength_angstrom": 4033.6000000000986,
+      "flux": 1.0452831983566284,
+      "ivar": 15.990476608276367,
+      "explicit_mask": false,
+      "valid": true
+    },
+    {
+      "sample_id": 543,
+      "wavelength_angstrom": 4034.4000000000988,
+      "flux": 0.9415613412857056,
+      "ivar": 16.75473403930664,
+      "explicit_mask": false,
+      "valid": true
+    },
+    {
+      "sample_id": 544,
+      "wavelength_angstrom": 4035.200000000099,
+      "flux": 0.686208188533783,
+      "ivar": 16.167142868041992,
+      "explicit_mask": false,
+      "valid": true
+    },
+    {
+      "sample_id": 545,
+      "wavelength_angstrom": 4036.000000000099,
+      "flux": 0.5032168030738831,
+      "ivar": 16.28208351135254,
+      "explicit_mask": false,
+      "valid": true
+    },
+    {
+      "sample_id": 546,
+      "wavelength_angstrom": 4036.8000000000993,
+      "flux": 1.423681616783142,
+      "ivar": 15.436439514160156,
+      "explicit_mask": false,
+      "valid": true
+    },
+    {
+      "sample_id": 547,
+      "wavelength_angstrom": 4037.6000000000995,
+      "flux": 0.42692428827285767,
+      "ivar": 15.468043327331543,
+      "explicit_mask": false,
+      "valid": true
+    },
+    {
+      "sample_id": 548,
+      "wavelength_angstrom": 4038.4000000000997,
+      "flux": 0.7137632369995117,
+      "ivar": 15.552059173583984,
+      "explicit_mask": false,
+      "valid": true
+    },
+    {
+      "sample_id": 549,
+      "wavelength_angstrom": 4039.2000000001,
+      "flux": 0.9345089793205261,
+      "ivar": 15.448647499084473,
+      "explicit_mask": false,
+      "valid": true
+    },
+    {
+      "sample_id": 550,
+      "wavelength_angstrom": 4040.0000000001,
+      "flux": 0.3522709608078003,
+      "ivar": 15.708734512329102,
+      "explicit_mask": false,
+      "valid": true
+    },
+    {
+      "sample_id": 551,
+      "wavelength_angstrom": 4040.8000000001,
+      "flux": 0.8259615898132324,
+      "ivar": 15.767072677612305,
+      "explicit_mask": false,
+      "valid": true
+    },
+    {
+      "sample_id": 552,
+      "wavelength_angstrom": 4041.6000000001004,
+      "flux": 0.9253440499305725,
+      "ivar": 15.769023895263672,
+      "explicit_mask": false,
+      "valid": true
+    },
+    {
+      "sample_id": 553,
+      "wavelength_angstrom": 4042.4000000001006,
+      "flux": 0.4890369176864624,
+      "ivar": 14.73392391204834,
+      "explicit_mask": false,
+      "valid": true
+    },
+    {
+      "sample_id": 554,
+      "wavelength_angstrom": 4043.2000000001008,
+      "flux": 0.5256028175354004,
+      "ivar": 15.054818153381348,
+      "explicit_mask": false,
+      "valid": true
+    },
+    {
+      "sample_id": 555,
+      "wavelength_angstrom": 4044.000000000101,
+      "flux": 0.8244205117225647,
+      "ivar": 15.096466064453125,
+      "explicit_mask": false,
+      "valid": true
+    },
+    {
+      "sample_id": 556,
+      "wavelength_angstrom": 4044.800000000101,
+      "flux": 0.5633040070533752,
+      "ivar": 14.912498474121094,
+      "explicit_mask": false,
+      "valid": true
+    },
+    {
+      "sample_id": 557,
+      "wavelength_angstrom": 4045.6000000001013,
+      "flux": 0.7680730223655701,
+      "ivar": 15.125018119812012,
+      "explicit_mask": false,
+      "valid": true
+    },
+    {
+      "sample_id": 558,
+      "wavelength_angstrom": 4046.4000000001015,
+      "flux": 0.9648034572601318,
+      "ivar": 15.519794464111328,
+      "explicit_mask": false,
+      "valid": true
+    },
+    {
+      "sample_id": 559,
+      "wavelength_angstrom": 4047.2000000001017,
+      "flux": 0.8664957284927368,
+      "ivar": 14.457808494567871,
+      "explicit_mask": false,
+      "valid": true
+    },
+    {
+      "sample_id": 560,
+      "wavelength_angstrom": 4048.000000000102,
+      "flux": 0.3979990482330322,
+      "ivar": 13.22880744934082,
+      "explicit_mask": false,
+      "valid": true
+    },
+    {
+      "sample_id": 561,
+      "wavelength_angstrom": 4048.800000000102,
+      "flux": 0.7829877734184265,
+      "ivar": 13.644004821777344,
+      "explicit_mask": false,
+      "valid": true
+    },
+    {
+      "sample_id": 562,
+      "wavelength_angstrom": 4049.600000000102,
+      "flux": 0.7989711761474609,
+      "ivar": 15.063743591308594,
+      "explicit_mask": false,
+      "valid": true
+    },
+    {
+      "sample_id": 563,
+      "wavelength_angstrom": 4050.4000000001024,
+      "flux": 0.586532711982727,
+      "ivar": 15.535419464111328,
+      "explicit_mask": false,
+      "valid": true
+    },
+    {
+      "sample_id": 564,
+      "wavelength_angstrom": 4051.2000000001026,
+      "flux": 0.5172022581100464,
+      "ivar": 15.705892562866211,
+      "explicit_mask": false,
+      "valid": true
+    },
+    {
+      "sample_id": 565,
+      "wavelength_angstrom": 4052.000000000103,
+      "flux": 0.7584491968154907,
+      "ivar": 15.436039924621582,
+      "explicit_mask": false,
+      "valid": true
+    },
+    {
+      "sample_id": 566,
+      "wavelength_angstrom": 4052.800000000103,
+      "flux": 0.9894828796386719,
+      "ivar": 15.74898624420166,
+      "explicit_mask": false,
+      "valid": true
+    },
+    {
+      "sample_id": 567,
+      "wavelength_angstrom": 4053.600000000103,
+      "flux": 0.6085107922554016,
+      "ivar": 16.161020278930664,
+      "explicit_mask": false,
+      "valid": true
+    },
+    {
+      "sample_id": 568,
+      "wavelength_angstrom": 4054.4000000001033,
+      "flux": 0.48247426748275757,
+      "ivar": 16.33961296081543,
+      "explicit_mask": false,
+      "valid": true
+    },
+    {
+      "sample_id": 569,
+      "wavelength_angstrom": 4055.2000000001035,
+      "flux": 0.631958544254303,
+      "ivar": 15.821199417114258,
+      "explicit_mask": false,
+      "valid": true
+    },
+    {
+      "sample_id": 570,
+      "wavelength_angstrom": 4056.0000000001037,
+      "flux": 0.21986393630504608,
+      "ivar": 15.199617385864258,
+      "explicit_mask": false,
+      "valid": true
+    },
+    {
+      "sample_id": 571,
+      "wavelength_angstrom": 4056.800000000104,
+      "flux": 0.6420618295669556,
+      "ivar": 16.15091323852539,
+      "explicit_mask": false,
+      "valid": true
+    },
+    {
+      "sample_id": 572,
+      "wavelength_angstrom": 4057.600000000104,
+      "flux": 0.45123907923698425,
+      "ivar": 16.6295108795166,
+      "explicit_mask": false,
+      "valid": true
+    },
+    {
+      "sample_id": 573,
+      "wavelength_angstrom": 4058.4000000001042,
+      "flux": 0.9889708161354065,
+      "ivar": 17.041244506835938,
+      "explicit_mask": false,
+      "valid": true
+    },
+    {
+      "sample_id": 574,
+      "wavelength_angstrom": 4059.2000000001044,
+      "flux": 0.8340043425559998,
+      "ivar": 16.794754028320312,
+      "explicit_mask": false,
+      "valid": true
+    },
+    {
+      "sample_id": 575,
+      "wavelength_angstrom": 4060.0000000001046,
+      "flux": 1.1694362163543701,
+      "ivar": 16.39762306213379,
+      "explicit_mask": false,
+      "valid": true
+    },
+    {
+      "sample_id": 576,
+      "wavelength_angstrom": 4060.800000000105,
+      "flux": 0.9431748986244202,
+      "ivar": 16.43810272216797,
+      "explicit_mask": false,
+      "valid": true
+    },
+    {
+      "sample_id": 577,
+      "wavelength_angstrom": 4061.600000000105,
+      "flux": 0.3894978165626526,
+      "ivar": 16.018020629882812,
+      "explicit_mask": false,
+      "valid": true
+    },
+    {
+      "sample_id": 578,
+      "wavelength_angstrom": 4062.400000000105,
+      "flux": 1.0841801166534424,
+      "ivar": 16.402116775512695,
+      "explicit_mask": false,
+      "valid": true
+    },
+    {
+      "sample_id": 579,
+      "wavelength_angstrom": 4063.2000000001053,
+      "flux": 0.6221091747283936,
+      "ivar": 16.610610961914062,
+      "explicit_mask": false,
+      "valid": true
+    },
+    {
+      "sample_id": 580,
+      "wavelength_angstrom": 4064.0000000001055,
+      "flux": 0.8694247603416443,
+      "ivar": 17.06546974182129,
+      "explicit_mask": false,
+      "valid": true
+    },
+    {
+      "sample_id": 581,
+      "wavelength_angstrom": 4064.8000000001057,
+      "flux": 0.9983537793159485,
+      "ivar": 16.13937759399414,
+      "explicit_mask": false,
+      "valid": true
+    },
+    {
+      "sample_id": 582,
+      "wavelength_angstrom": 4065.600000000106,
+      "flux": 0.44092613458633423,
+      "ivar": 15.900103569030762,
+      "explicit_mask": false,
+      "valid": true
+    },
+    {
+      "sample_id": 583,
+      "wavelength_angstrom": 4066.400000000106,
+      "flux": 1.2876466512680054,
+      "ivar": 15.172804832458496,
+      "explicit_mask": false,
+      "valid": true
+    },
+    {
+      "sample_id": 584,
+      "wavelength_angstrom": 4067.2000000001062,
+      "flux": 0.7653965353965759,
+      "ivar": 16.028587341308594,
+      "explicit_mask": false,
+      "valid": true
+    },
+    {
+      "sample_id": 585,
+      "wavelength_angstrom": 4068.0000000001064,
+      "flux": 0.6136489510536194,
+      "ivar": 15.558300971984863,
+      "explicit_mask": false,
+      "valid": true
+    },
+    {
+      "sample_id": 586,
+      "wavelength_angstrom": 4068.8000000001066,
+      "flux": 0.7105746269226074,
+      "ivar": 16.288360595703125,
+      "explicit_mask": false,
+      "valid": true
+    },
+    {
+      "sample_id": 587,
+      "wavelength_angstrom": 4069.600000000107,
+      "flux": 0.6174975633621216,
+      "ivar": 16.01168441772461,
+      "explicit_mask": false,
+      "valid": true
+    },
+    {
+      "sample_id": 588,
+      "wavelength_angstrom": 4070.400000000107,
+      "flux": 0.8714721202850342,
+      "ivar": 16.139747619628906,
+      "explicit_mask": false,
+      "valid": true
+    },
+    {
+      "sample_id": 589,
+      "wavelength_angstrom": 4071.200000000107,
+      "flux": 0.347384512424469,
+      "ivar": 16.45703125,
+      "explicit_mask": false,
+      "valid": true
+    },
+    {
+      "sample_id": 590,
+      "wavelength_angstrom": 4072.0000000001073,
+      "flux": 0.6358534097671509,
+      "ivar": 17.002439498901367,
+      "explicit_mask": false,
+      "valid": true
+    },
+    {
+      "sample_id": 591,
+      "wavelength_angstrom": 4072.8000000001075,
+      "flux": 0.7730631232261658,
+      "ivar": 16.629695892333984,
+      "explicit_mask": false,
+      "valid": true
+    },
+    {
+      "sample_id": 592,
+      "wavelength_angstrom": 4073.6000000001077,
+      "flux": 1.1318399906158447,
+      "ivar": 17.112089157104492,
+      "explicit_mask": false,
+      "valid": true
+    },
+    {
+      "sample_id": 593,
+      "wavelength_angstrom": 4074.400000000108,
+      "flux": 0.8798211216926575,
+      "ivar": 17.07666015625,
+      "explicit_mask": false,
+      "valid": true
+    },
+    {
+      "sample_id": 594,
+      "wavelength_angstrom": 4075.200000000108,
+      "flux": 0.9575194716453552,
+      "ivar": 17.200119018554688,
+      "explicit_mask": false,
+      "valid": true
+    },
+    {
+      "sample_id": 595,
+      "wavelength_angstrom": 4076.0000000001082,
+      "flux": 0.9574108123779297,
+      "ivar": 16.56157875061035,
+      "explicit_mask": false,
+      "valid": true
+    },
+    {
+      "sample_id": 596,
+      "wavelength_angstrom": 4076.8000000001084,
+      "flux": 0.7097465991973877,
+      "ivar": 15.716998100280762,
+      "explicit_mask": false,
+      "valid": true
+    },
+    {
+      "sample_id": 597,
+      "wavelength_angstrom": 4077.6000000001086,
+      "flux": 0.9406222105026245,
+      "ivar": 15.62913990020752,
+      "explicit_mask": false,
+      "valid": true
+    },
+    {
+      "sample_id": 598,
+      "wavelength_angstrom": 4078.400000000109,
+      "flux": 0.7121418714523315,
+      "ivar": 16.31956672668457,
+      "explicit_mask": false,
+      "valid": true
+    },
+    {
+      "sample_id": 599,
+      "wavelength_angstrom": 4079.200000000109,
+      "flux": 0.7594609260559082,
+      "ivar": 16.35806655883789,
+      "explicit_mask": false,
+      "valid": true
+    },
+    {
+      "sample_id": 600,
+      "wavelength_angstrom": 4080.000000000109,
+      "flux": 0.7871360778808594,
+      "ivar": 16.672740936279297,
+      "explicit_mask": false,
+      "valid": true
+    },
+    {
+      "sample_id": 601,
+      "wavelength_angstrom": 4080.8000000001093,
+      "flux": 0.7867960929870605,
+      "ivar": 16.465444564819336,
+      "explicit_mask": false,
+      "valid": true
+    },
+    {
+      "sample_id": 602,
+      "wavelength_angstrom": 4081.6000000001095,
+      "flux": 1.0710686445236206,
+      "ivar": 16.291397094726562,
+      "explicit_mask": false,
+      "valid": true
+    },
+    {
+      "sample_id": 603,
+      "wavelength_angstrom": 4082.4000000001097,
+      "flux": 0.7892017364501953,
+      "ivar": 16.499284744262695,
+      "explicit_mask": false,
+      "valid": true
+    },
+    {
+      "sample_id": 604,
+      "wavelength_angstrom": 4083.20000000011,
+      "flux": 0.7245000004768372,
+      "ivar": 16.888174057006836,
+      "explicit_mask": false,
+      "valid": true
+    },
+    {
+      "sample_id": 605,
+      "wavelength_angstrom": 4084.00000000011,
+      "flux": 0.8183752298355103,
+      "ivar": 16.833715438842773,
+      "explicit_mask": false,
+      "valid": true
+    },
+    {
+      "sample_id": 606,
+      "wavelength_angstrom": 4084.8000000001102,
+      "flux": 0.7255591750144958,
+      "ivar": 16.85512351989746,
+      "explicit_mask": false,
+      "valid": true
+    },
+    {
+      "sample_id": 607,
+      "wavelength_angstrom": 4085.6000000001104,
+      "flux": 0.8477162718772888,
+      "ivar": 17.559106826782227,
+      "explicit_mask": false,
+      "valid": true
+    },
+    {
+      "sample_id": 608,
+      "wavelength_angstrom": 4086.4000000001106,
+      "flux": 1.0596388578414917,
+      "ivar": 17.153656005859375,
+      "explicit_mask": false,
+      "valid": true
+    },
+    {
+      "sample_id": 609,
+      "wavelength_angstrom": 4087.200000000111,
+      "flux": 0.45445263385772705,
+      "ivar": 16.386688232421875,
+      "explicit_mask": false,
+      "valid": true
+    },
+    {
+      "sample_id": 610,
+      "wavelength_angstrom": 4088.000000000111,
+      "flux": 0.1439979076385498,
+      "ivar": 16.413063049316406,
+      "explicit_mask": false,
+      "valid": true
+    },
+    {
+      "sample_id": 611,
+      "wavelength_angstrom": 4088.800000000111,
+      "flux": 0.4753766655921936,
+      "ivar": 16.50263786315918,
+      "explicit_mask": false,
+      "valid": true
+    },
+    {
+      "sample_id": 612,
+      "wavelength_angstrom": 4089.6000000001113,
+      "flux": 0.955133318901062,
+      "ivar": 17.182109832763672,
+      "explicit_mask": false,
+      "valid": true
+    },
+    {
+      "sample_id": 613,
+      "wavelength_angstrom": 4090.4000000001115,
+      "flux": 0.875288724899292,
+      "ivar": 17.378646850585938,
+      "explicit_mask": false,
+      "valid": true
+    },
+    {
+      "sample_id": 614,
+      "wavelength_angstrom": 4091.2000000001117,
+      "flux": 0.6609131693840027,
+      "ivar": 17.411867141723633,
+      "explicit_mask": false,
+      "valid": true
+    },
+    {
+      "sample_id": 615,
+      "wavelength_angstrom": 4092.000000000112,
+      "flux": 1.0267590284347534,
+      "ivar": 17.50348663330078,
+      "explicit_mask": false,
+      "valid": true
+    },
+    {
+      "sample_id": 616,
+      "wavelength_angstrom": 4092.800000000112,
+      "flux": 0.7558335065841675,
+      "ivar": 17.22046661376953,
+      "explicit_mask": false,
+      "valid": true
+    },
+    {
+      "sample_id": 617,
+      "wavelength_angstrom": 4093.6000000001122,
+      "flux": 0.7417157888412476,
+      "ivar": 17.768903732299805,
+      "explicit_mask": false,
+      "valid": true
+    },
+    {
+      "sample_id": 618,
+      "wavelength_angstrom": 4094.4000000001124,
+      "flux": 0.7772034406661987,
+      "ivar": 17.156251907348633,
+      "explicit_mask": false,
+      "valid": true
+    },
+    {
+      "sample_id": 619,
+      "wavelength_angstrom": 4095.2000000001126,
+      "flux": 1.0172325372695923,
+      "ivar": 17.79713249206543,
+      "explicit_mask": false,
+      "valid": true
+    },
+    {
+      "sample_id": 620,
+      "wavelength_angstrom": 4096.000000000113,
+      "flux": 0.8728291988372803,
+      "ivar": 18.215513229370117,
+      "explicit_mask": false,
+      "valid": true
+    },
+    {
+      "sample_id": 621,
+      "wavelength_angstrom": 4096.800000000113,
+      "flux": 0.9107069969177246,
+      "ivar": 17.644264221191406,
+      "explicit_mask": false,
+      "valid": true
+    },
+    {
+      "sample_id": 622,
+      "wavelength_angstrom": 4097.600000000113,
+      "flux": 0.9101980328559875,
+      "ivar": 17.803970336914062,
+      "explicit_mask": false,
+      "valid": true
+    },
+    {
+      "sample_id": 623,
+      "wavelength_angstrom": 4098.400000000113,
+      "flux": 0.5407279133796692,
+      "ivar": 17.260953903198242,
+      "explicit_mask": false,
+      "valid": true
+    },
+    {
+      "sample_id": 624,
+      "wavelength_angstrom": 4099.2000000001135,
+      "flux": 0.6806185245513916,
+      "ivar": 17.64773178100586,
+      "explicit_mask": false,
+      "valid": true
+    },
+    {
+      "sample_id": 625,
+      "wavelength_angstrom": 4100.000000000114,
+      "flux": 0.8547695875167847,
+      "ivar": 17.995758056640625,
+      "explicit_mask": false,
+      "valid": true
+    },
+    {
+      "sample_id": 626,
+      "wavelength_angstrom": 4100.800000000114,
+      "flux": 0.4066873788833618,
+      "ivar": 17.344621658325195,
+      "explicit_mask": false,
+      "valid": true
+    },
+    {
+      "sample_id": 627,
+      "wavelength_angstrom": 4101.600000000114,
+      "flux": 0.7246305346488953,
+      "ivar": 18.401264190673828,
+      "explicit_mask": false,
+      "valid": true
+    },
+    {
+      "sample_id": 628,
+      "wavelength_angstrom": 4102.400000000114,
+      "flux": 0.24497418105602264,
+      "ivar": 18.533546447753906,
+      "explicit_mask": false,
+      "valid": true
+    },
+    {
+      "sample_id": 629,
+      "wavelength_angstrom": 4103.200000000114,
+      "flux": 0.972087025642395,
+      "ivar": 19.396718978881836,
+      "explicit_mask": false,
+      "valid": true
+    },
+    {
+      "sample_id": 630,
+      "wavelength_angstrom": 4104.000000000115,
+      "flux": 0.7400761246681213,
+      "ivar": 18.75874137878418,
+      "explicit_mask": false,
+      "valid": true
+    },
+    {
+      "sample_id": 631,
+      "wavelength_angstrom": 4104.800000000115,
+      "flux": 0.8072617650032043,
+      "ivar": 18.543447494506836,
+      "explicit_mask": false,
+      "valid": true
+    },
+    {
+      "sample_id": 632,
+      "wavelength_angstrom": 4105.600000000115,
+      "flux": 0.888861894607544,
+      "ivar": 19.29245376586914,
+      "explicit_mask": false,
+      "valid": true
+    },
+    {
+      "sample_id": 633,
+      "wavelength_angstrom": 4106.400000000115,
+      "flux": 0.5226098299026489,
+      "ivar": 17.994586944580078,
+      "explicit_mask": false,
+      "valid": true
+    },
+    {
+      "sample_id": 634,
+      "wavelength_angstrom": 4107.200000000115,
+      "flux": 0.9164361357688904,
+      "ivar": 17.872312545776367,
+      "explicit_mask": false,
+      "valid": true
+    },
+    {
+      "sample_id": 635,
+      "wavelength_angstrom": 4108.0000000001155,
+      "flux": 0.6511659622192383,
+      "ivar": 17.544715881347656,
+      "explicit_mask": false,
+      "valid": true
+    },
+    {
+      "sample_id": 636,
+      "wavelength_angstrom": 4108.800000000116,
+      "flux": 0.49548837542533875,
+      "ivar": 17.251174926757812,
+      "explicit_mask": false,
+      "valid": true
+    },
+    {
+      "sample_id": 637,
+      "wavelength_angstrom": 4109.600000000116,
+      "flux": 0.3889063596725464,
+      "ivar": 17.058982849121094,
+      "explicit_mask": false,
+      "valid": true
+    },
+    {
+      "sample_id": 638,
+      "wavelength_angstrom": 4110.400000000116,
+      "flux": 0.727188229560852,
+      "ivar": 17.07488441467285,
+      "explicit_mask": false,
+      "valid": true
+    },
+    {
+      "sample_id": 639,
+      "wavelength_angstrom": 4111.200000000116,
+      "flux": 0.7415646314620972,
+      "ivar": 17.3648681640625,
+      "explicit_mask": false,
+      "valid": true
+    },
+    {
+      "sample_id": 640,
+      "wavelength_angstrom": 4112.000000000116,
+      "flux": 0.6701682806015015,
+      "ivar": 17.460573196411133,
+      "explicit_mask": false,
+      "valid": true
+    },
+    {
+      "sample_id": 641,
+      "wavelength_angstrom": 4112.800000000117,
+      "flux": 0.7391032576560974,
+      "ivar": 17.100460052490234,
+      "explicit_mask": false,
+      "valid": true
+    },
+    {
+      "sample_id": 642,
+      "wavelength_angstrom": 4113.600000000117,
+      "flux": 0.6150646805763245,
+      "ivar": 16.944419860839844,
+      "explicit_mask": false,
+      "valid": true
+    },
+    {
+      "sample_id": 643,
+      "wavelength_angstrom": 4114.400000000117,
+      "flux": 0.6773669123649597,
+      "ivar": 16.659730911254883,
+      "explicit_mask": false,
+      "valid": true
+    },
+    {
+      "sample_id": 644,
+      "wavelength_angstrom": 4115.200000000117,
+      "flux": 0.7947038412094116,
+      "ivar": 15.951029777526855,
+      "explicit_mask": false,
+      "valid": true
+    },
+    {
+      "sample_id": 645,
+      "wavelength_angstrom": 4116.000000000117,
+      "flux": 0.7635511755943298,
+      "ivar": 15.7940673828125,
+      "explicit_mask": false,
+      "valid": true
+    },
+    {
+      "sample_id": 646,
+      "wavelength_angstrom": 4116.8000000001175,
+      "flux": 0.9613418579101562,
+      "ivar": 16.195329666137695,
+      "explicit_mask": false,
+      "valid": true
+    },
+    {
+      "sample_id": 647,
+      "wavelength_angstrom": 4117.600000000118,
+      "flux": 0.9737672209739685,
+      "ivar": 16.264888763427734,
+      "explicit_mask": false,
+      "valid": true
+    },
+    {
+      "sample_id": 648,
+      "wavelength_angstrom": 4118.400000000118,
+      "flux": 0.698601245880127,
+      "ivar": 16.229942321777344,
+      "explicit_mask": false,
+      "valid": true
+    },
+    {
+      "sample_id": 649,
+      "wavelength_angstrom": 4119.200000000118,
+      "flux": 1.0695232152938843,
+      "ivar": 16.495582580566406,
+      "explicit_mask": false,
+      "valid": true
+    },
+    {
+      "sample_id": 650,
+      "wavelength_angstrom": 4120.000000000118,
+      "flux": 0.9991278648376465,
+      "ivar": 16.12843894958496,
+      "explicit_mask": false,
+      "valid": true
+    },
+    {
+      "sample_id": 651,
+      "wavelength_angstrom": 4120.800000000118,
+      "flux": 1.3960580825805664,
+      "ivar": 16.426578521728516,
+      "explicit_mask": false,
+      "valid": true
+    },
+    {
+      "sample_id": 652,
+      "wavelength_angstrom": 4121.600000000119,
+      "flux": 0.9870233535766602,
+      "ivar": 16.493885040283203,
+      "explicit_mask": false,
+      "valid": true
+    },
+    {
+      "sample_id": 653,
+      "wavelength_angstrom": 4122.400000000119,
+      "flux": 0.4489191174507141,
+      "ivar": 16.035259246826172,
+      "explicit_mask": false,
+      "valid": true
+    },
+    {
+      "sample_id": 654,
+      "wavelength_angstrom": 4123.200000000119,
+      "flux": 1.0465068817138672,
+      "ivar": 15.947179794311523,
+      "explicit_mask": false,
+      "valid": true
+    },
+    {
+      "sample_id": 655,
+      "wavelength_angstrom": 4124.000000000119,
+      "flux": 4.551476001739502,
+      "ivar": 13.684903144836426,
+      "explicit_mask": false,
+      "valid": true
+    },
+    {
+      "sample_id": 656,
+      "wavelength_angstrom": 4124.800000000119,
+      "flux": 13.99244213104248,
+      "ivar": 8.590564727783203,
+      "explicit_mask": false,
+      "valid": true
+    },
+    {
+      "sample_id": 657,
+      "wavelength_angstrom": 4125.6000000001195,
+      "flux": 12.77271842956543,
+      "ivar": 10.291316032409668,
+      "explicit_mask": false,
+      "valid": true
+    },
+    {
+      "sample_id": 658,
+      "wavelength_angstrom": 4126.40000000012,
+      "flux": 6.279837131500244,
+      "ivar": 12.183370590209961,
+      "explicit_mask": false,
+      "valid": true
+    },
+    {
+      "sample_id": 659,
+      "wavelength_angstrom": 4127.20000000012,
+      "flux": 9.2736234664917,
+      "ivar": 11.139322280883789,
+      "explicit_mask": false,
+      "valid": true
+    },
+    {
+      "sample_id": 660,
+      "wavelength_angstrom": 4128.00000000012,
+      "flux": 20.595842361450195,
+      "ivar": 6.913618564605713,
+      "explicit_mask": false,
+      "valid": true
+    },
+    {
+      "sample_id": 661,
+      "wavelength_angstrom": 4128.80000000012,
+      "flux": 15.125947952270508,
+      "ivar": 8.712014198303223,
+      "explicit_mask": false,
+      "valid": true
+    },
+    {
+      "sample_id": 662,
+      "wavelength_angstrom": 4129.60000000012,
+      "flux": 5.188177585601807,
+      "ivar": 11.918126106262207,
+      "explicit_mask": false,
+      "valid": true
+    },
+    {
+      "sample_id": 663,
+      "wavelength_angstrom": 4130.400000000121,
+      "flux": 1.5130189657211304,
+      "ivar": 16.111474990844727,
+      "explicit_mask": false,
+      "valid": true
+    },
+    {
+      "sample_id": 664,
+      "wavelength_angstrom": 4131.200000000121,
+      "flux": 1.4067424535751343,
+      "ivar": 16.468748092651367,
+      "explicit_mask": false,
+      "valid": true
+    },
+    {
+      "sample_id": 665,
+      "wavelength_angstrom": 4132.000000000121,
+      "flux": 0.7578914761543274,
+      "ivar": 16.280168533325195,
+      "explicit_mask": false,
+      "valid": true
+    },
+    {
+      "sample_id": 666,
+      "wavelength_angstrom": 4132.800000000121,
+      "flux": 1.2628825902938843,
+      "ivar": 16.688161849975586,
+      "explicit_mask": false,
+      "valid": true
+    },
+    {
+      "sample_id": 667,
+      "wavelength_angstrom": 4133.600000000121,
+      "flux": 1.3736107349395752,
+      "ivar": 16.90769386291504,
+      "explicit_mask": false,
+      "valid": true
+    },
+    {
+      "sample_id": 668,
+      "wavelength_angstrom": 4134.4000000001215,
+      "flux": 1.3471753597259521,
+      "ivar": 16.800411224365234,
+      "explicit_mask": false,
+      "valid": true
+    },
+    {
+      "sample_id": 669,
+      "wavelength_angstrom": 4135.200000000122,
+      "flux": 0.7324992418289185,
+      "ivar": 16.53818702697754,
+      "explicit_mask": false,
+      "valid": true
+    },
+    {
+      "sample_id": 670,
+      "wavelength_angstrom": 4136.000000000122,
+      "flux": 0.5856612920761108,
+      "ivar": 16.727581024169922,
+      "explicit_mask": false,
+      "valid": true
+    },
+    {
+      "sample_id": 671,
+      "wavelength_angstrom": 4136.800000000122,
+      "flux": 1.0281071662902832,
+      "ivar": 16.72234344482422,
+      "explicit_mask": false,
+      "valid": true
+    },
+    {
+      "sample_id": 672,
+      "wavelength_angstrom": 4137.600000000122,
+      "flux": 0.5928303599357605,
+      "ivar": 17.16254997253418,
+      "explicit_mask": false,
+      "valid": true
+    },
+    {
+      "sample_id": 673,
+      "wavelength_angstrom": 4138.400000000122,
+      "flux": 0.8644710779190063,
+      "ivar": 17.259525299072266,
+      "explicit_mask": false,
+      "valid": true
+    },
+    {
+      "sample_id": 674,
+      "wavelength_angstrom": 4139.200000000123,
+      "flux": 0.45038318634033203,
+      "ivar": 17.441774368286133,
+      "explicit_mask": false,
+      "valid": true
+    },
+    {
+      "sample_id": 675,
+      "wavelength_angstrom": 4140.000000000123,
+      "flux": 1.1074069738388062,
+      "ivar": 17.615514755249023,
+      "explicit_mask": false,
+      "valid": true
+    },
+    {
+      "sample_id": 676,
+      "wavelength_angstrom": 4140.800000000123,
+      "flux": 1.0245699882507324,
+      "ivar": 17.55198860168457,
+      "explicit_mask": false,
+      "valid": true
+    },
+    {
+      "sample_id": 677,
+      "wavelength_angstrom": 4141.600000000123,
+      "flux": 1.0327035188674927,
+      "ivar": 17.977792739868164,
+      "explicit_mask": false,
+      "valid": true
+    },
+    {
+      "sample_id": 678,
+      "wavelength_angstrom": 4142.400000000123,
+      "flux": 0.8128035068511963,
+      "ivar": 18.833330154418945,
+      "explicit_mask": false,
+      "valid": true
+    },
+    {
+      "sample_id": 679,
+      "wavelength_angstrom": 4143.2000000001235,
+      "flux": 1.0059125423431396,
+      "ivar": 19.362958908081055,
+      "explicit_mask": false,
+      "valid": true
+    },
+    {
+      "sample_id": 680,
+      "wavelength_angstrom": 4144.000000000124,
+      "flux": 0.7438707947731018,
+      "ivar": 19.946264266967773,
+      "explicit_mask": false,
+      "valid": true
+    },
+    {
+      "sample_id": 681,
+      "wavelength_angstrom": 4144.800000000124,
+      "flux": 0.9374940991401672,
+      "ivar": 20.176671981811523,
+      "explicit_mask": false,
+      "valid": true
+    },
+    {
+      "sample_id": 682,
+      "wavelength_angstrom": 4145.600000000124,
+      "flux": 1.0523699522018433,
+      "ivar": 20.260356903076172,
+      "explicit_mask": false,
+      "valid": true
+    },
+    {
+      "sample_id": 683,
+      "wavelength_angstrom": 4146.400000000124,
+      "flux": 0.843866765499115,
+      "ivar": 19.476587295532227,
+      "explicit_mask": false,
+      "valid": true
+    },
+    {
+      "sample_id": 684,
+      "wavelength_angstrom": 4147.200000000124,
+      "flux": 0.6956765055656433,
+      "ivar": 19.556310653686523,
+      "explicit_mask": false,
+      "valid": true
+    },
+    {
+      "sample_id": 685,
+      "wavelength_angstrom": 4148.000000000125,
+      "flux": 0.830105721950531,
+      "ivar": 19.020315170288086,
+      "explicit_mask": false,
+      "valid": true
+    },
+    {
+      "sample_id": 686,
+      "wavelength_angstrom": 4148.800000000125,
+      "flux": 0.20457910001277924,
+      "ivar": 19.27066993713379,
+      "explicit_mask": false,
+      "valid": true
+    },
+    {
+      "sample_id": 687,
+      "wavelength_angstrom": 4149.600000000125,
+      "flux": 0.8369529247283936,
+      "ivar": 19.840682983398438,
+      "explicit_mask": false,
+      "valid": true
+    },
+    {
+      "sample_id": 688,
+      "wavelength_angstrom": 4150.400000000125,
+      "flux": 0.7769208550453186,
+      "ivar": 20.574176788330078,
+      "explicit_mask": false,
+      "valid": true
+    },
+    {
+      "sample_id": 689,
+      "wavelength_angstrom": 4151.200000000125,
+      "flux": 1.1801186800003052,
+      "ivar": 20.567819595336914,
+      "explicit_mask": false,
+      "valid": true
+    },
+    {
+      "sample_id": 690,
+      "wavelength_angstrom": 4152.0000000001255,
+      "flux": 0.8155504465103149,
+      "ivar": 20.4030818939209,
+      "explicit_mask": false,
+      "valid": true
+    },
+    {
+      "sample_id": 691,
+      "wavelength_angstrom": 4152.800000000126,
+      "flux": 0.6890752911567688,
+      "ivar": 20.62694549560547,
+      "explicit_mask": false,
+      "valid": true
+    },
+    {
+      "sample_id": 692,
+      "wavelength_angstrom": 4153.600000000126,
+      "flux": 0.5811233520507812,
+      "ivar": 19.650554656982422,
+      "explicit_mask": false,
+      "valid": true
+    },
+    {
+      "sample_id": 693,
+      "wavelength_angstrom": 4154.400000000126,
+      "flux": 0.5200681090354919,
+      "ivar": 20.305463790893555,
+      "explicit_mask": false,
+      "valid": true
+    },
+    {
+      "sample_id": 694,
+      "wavelength_angstrom": 4155.200000000126,
+      "flux": 0.348835289478302,
+      "ivar": 19.981727600097656,
+      "explicit_mask": false,
+      "valid": true
+    },
+    {
+      "sample_id": 695,
+      "wavelength_angstrom": 4156.000000000126,
+      "flux": 0.490524560213089,
+      "ivar": 20.112564086914062,
+      "explicit_mask": false,
+      "valid": true
+    },
+    {
+      "sample_id": 696,
+      "wavelength_angstrom": 4156.800000000127,
+      "flux": 1.2066692113876343,
+      "ivar": 19.383014678955078,
+      "explicit_mask": false,
+      "valid": true
+    },
+    {
+      "sample_id": 697,
+      "wavelength_angstrom": 4157.600000000127,
+      "flux": 1.1806076765060425,
+      "ivar": 19.810075759887695,
+      "explicit_mask": false,
+      "valid": true
+    },
+    {
+      "sample_id": 698,
+      "wavelength_angstrom": 4158.400000000127,
+      "flux": 0.7500507831573486,
+      "ivar": 20.195602416992188,
+      "explicit_mask": false,
+      "valid": true
+    },
+    {
+      "sample_id": 699,
+      "wavelength_angstrom": 4159.200000000127,
+      "flux": 0.9727370738983154,
+      "ivar": 20.168827056884766,
+      "explicit_mask": false,
+      "valid": true
+    },
+    {
+      "sample_id": 700,
+      "wavelength_angstrom": 4160.000000000127,
+      "flux": 0.9516421556472778,
+      "ivar": 20.027006149291992,
+      "explicit_mask": false,
+      "valid": true
+    },
+    {
+      "sample_id": 701,
+      "wavelength_angstrom": 4160.8000000001275,
+      "flux": 0.6005193591117859,
+      "ivar": 19.06760597229004,
+      "explicit_mask": false,
+      "valid": true
+    },
+    {
+      "sample_id": 702,
+      "wavelength_angstrom": 4161.600000000128,
+      "flux": 1.1516823768615723,
+      "ivar": 19.495040893554688,
+      "explicit_mask": false,
+      "valid": true
+    },
+    {
+      "sample_id": 703,
+      "wavelength_angstrom": 4162.400000000128,
+      "flux": 1.059259057044983,
+      "ivar": 19.431482315063477,
+      "explicit_mask": false,
+      "valid": true
+    },
+    {
+      "sample_id": 704,
+      "wavelength_angstrom": 4163.200000000128,
+      "flux": 1.0951919555664062,
+      "ivar": 19.582683563232422,
+      "explicit_mask": false,
+      "valid": true
+    },
+    {
+      "sample_id": 705,
+      "wavelength_angstrom": 4164.000000000128,
+      "flux": 0.7366088032722473,
+      "ivar": 19.521568298339844,
+      "explicit_mask": false,
+      "valid": true
+    },
+    {
+      "sample_id": 706,
+      "wavelength_angstrom": 4164.800000000128,
+      "flux": 1.083547830581665,
+      "ivar": 19.129776000976562,
+      "explicit_mask": false,
+      "valid": true
+    },
+    {
+      "sample_id": 707,
+      "wavelength_angstrom": 4165.600000000129,
+      "flux": 0.9030609726905823,
+      "ivar": 18.437191009521484,
+      "explicit_mask": false,
+      "valid": true
+    },
+    {
+      "sample_id": 708,
+      "wavelength_angstrom": 4166.400000000129,
+      "flux": 1.032278299331665,
+      "ivar": 18.679946899414062,
+      "explicit_mask": false,
+      "valid": true
+    },
+    {
+      "sample_id": 709,
+      "wavelength_angstrom": 4167.200000000129,
+      "flux": 0.7749819159507751,
+      "ivar": 19.549209594726562,
+      "explicit_mask": false,
+      "valid": true
+    },
+    {
+      "sample_id": 710,
+      "wavelength_angstrom": 4168.000000000129,
+      "flux": 0.8381076455116272,
+      "ivar": 19.690750122070312,
+      "explicit_mask": false,
+      "valid": true
+    },
+    {
+      "sample_id": 711,
+      "wavelength_angstrom": 4168.800000000129,
+      "flux": 0.5190014839172363,
+      "ivar": 19.510540008544922,
+      "explicit_mask": false,
+      "valid": true
+    },
+    {
+      "sample_id": 712,
+      "wavelength_angstrom": 4169.6000000001295,
+      "flux": 0.7288034558296204,
+      "ivar": 18.787071228027344,
+      "explicit_mask": false,
+      "valid": true
+    },
+    {
+      "sample_id": 713,
+      "wavelength_angstrom": 4170.40000000013,
+      "flux": 0.5243960618972778,
+      "ivar": 19.341190338134766,
+      "explicit_mask": false,
+      "valid": true
+    },
+    {
+      "sample_id": 714,
+      "wavelength_angstrom": 4171.20000000013,
+      "flux": 0.86671382188797,
+      "ivar": 19.736183166503906,
+      "explicit_mask": false,
+      "valid": true
+    },
+    {
+      "sample_id": 715,
+      "wavelength_angstrom": 4172.00000000013,
+      "flux": 0.4882417619228363,
+      "ivar": 19.27223777770996,
+      "explicit_mask": false,
+      "valid": true
+    },
+    {
+      "sample_id": 716,
+      "wavelength_angstrom": 4172.80000000013,
+      "flux": 0.8735087513923645,
+      "ivar": 19.242963790893555,
+      "explicit_mask": false,
+      "valid": true
+    },
+    {
+      "sample_id": 717,
+      "wavelength_angstrom": 4173.60000000013,
+      "flux": 0.811775803565979,
+      "ivar": 19.71333885192871,
+      "explicit_mask": false,
+      "valid": true
+    },
+    {
+      "sample_id": 718,
+      "wavelength_angstrom": 4174.400000000131,
+      "flux": 1.3996877670288086,
+      "ivar": 19.987621307373047,
+      "explicit_mask": false,
+      "valid": true
+    },
+    {
+      "sample_id": 719,
+      "wavelength_angstrom": 4175.200000000131,
+      "flux": 0.6427094340324402,
+      "ivar": 20.185882568359375,
+      "explicit_mask": false,
+      "valid": true
+    },
+    {
+      "sample_id": 720,
+      "wavelength_angstrom": 4176.000000000131,
+      "flux": 0.2882082164287567,
+      "ivar": 19.791404724121094,
+      "explicit_mask": false,
+      "valid": true
+    },
+    {
+      "sample_id": 721,
+      "wavelength_angstrom": 4176.800000000131,
+      "flux": 0.3497631251811981,
+      "ivar": 20.32672119140625,
+      "explicit_mask": false,
+      "valid": true
+    },
+    {
+      "sample_id": 722,
+      "wavelength_angstrom": 4177.600000000131,
+      "flux": 0.8940763473510742,
+      "ivar": 21.078346252441406,
+      "explicit_mask": false,
+      "valid": true
+    },
+    {
+      "sample_id": 723,
+      "wavelength_angstrom": 4178.4000000001315,
+      "flux": 0.5192424654960632,
+      "ivar": 20.715496063232422,
+      "explicit_mask": false,
+      "valid": true
+    },
+    {
+      "sample_id": 724,
+      "wavelength_angstrom": 4179.200000000132,
+      "flux": 0.8007113933563232,
+      "ivar": 20.002561569213867,
+      "explicit_mask": false,
+      "valid": true
+    },
+    {
+      "sample_id": 725,
+      "wavelength_angstrom": 4180.000000000132,
+      "flux": 0.1846207082271576,
+      "ivar": 19.400562286376953,
+      "explicit_mask": false,
+      "valid": true
+    },
+    {
+      "sample_id": 726,
+      "wavelength_angstrom": 4180.800000000132,
+      "flux": 0.3314646780490875,
+      "ivar": 19.68413543701172,
+      "explicit_mask": false,
+      "valid": true
+    },
+    {
+      "sample_id": 727,
+      "wavelength_angstrom": 4181.600000000132,
+      "flux": 1.3201154470443726,
+      "ivar": 20.381214141845703,
+      "explicit_mask": false,
+      "valid": true
+    },
+    {
+      "sample_id": 728,
+      "wavelength_angstrom": 4182.400000000132,
+      "flux": 1.1703976392745972,
+      "ivar": 21.0881290435791,
+      "explicit_mask": false,
+      "valid": true
+    },
+    {
+      "sample_id": 729,
+      "wavelength_angstrom": 4183.200000000133,
+      "flux": 0.5619598031044006,
+      "ivar": 20.794343948364258,
+      "explicit_mask": false,
+      "valid": true
+    },
+    {
+      "sample_id": 730,
+      "wavelength_angstrom": 4184.000000000133,
+      "flux": 0.8653613924980164,
+      "ivar": 21.150293350219727,
+      "explicit_mask": false,
+      "valid": true
+    },
+    {
+      "sample_id": 731,
+      "wavelength_angstrom": 4184.800000000133,
+      "flux": 1.0759485960006714,
+      "ivar": 20.480789184570312,
+      "explicit_mask": false,
+      "valid": true
+    },
+    {
+      "sample_id": 732,
+      "wavelength_angstrom": 4185.600000000133,
+      "flux": 1.0421613454818726,
+      "ivar": 20.830442428588867,
+      "explicit_mask": false,
+      "valid": true
+    },
+    {
+      "sample_id": 733,
+      "wavelength_angstrom": 4186.400000000133,
+      "flux": 1.2243624925613403,
+      "ivar": 21.499601364135742,
+      "explicit_mask": false,
+      "valid": true
+    },
+    {
+      "sample_id": 734,
+      "wavelength_angstrom": 4187.2000000001335,
+      "flux": 1.2315675020217896,
+      "ivar": 21.16345977783203,
+      "explicit_mask": false,
+      "valid": true
+    },
+    {
+      "sample_id": 735,
+      "wavelength_angstrom": 4188.000000000134,
+      "flux": 0.8149692416191101,
+      "ivar": 22.330217361450195,
+      "explicit_mask": false,
+      "valid": true
+    },
+    {
+      "sample_id": 736,
+      "wavelength_angstrom": 4188.800000000134,
+      "flux": 0.66587895154953,
+      "ivar": 22.42544174194336,
+      "explicit_mask": false,
+      "valid": true
+    },
+    {
+      "sample_id": 737,
+      "wavelength_angstrom": 4189.600000000134,
+      "flux": 0.7319555878639221,
+      "ivar": 22.42805290222168,
+      "explicit_mask": false,
+      "valid": true
+    },
+    {
+      "sample_id": 738,
+      "wavelength_angstrom": 4190.400000000134,
+      "flux": 1.057206630706787,
+      "ivar": 21.619306564331055,
+      "explicit_mask": false,
+      "valid": true
+    },
+    {
+      "sample_id": 739,
+      "wavelength_angstrom": 4191.200000000134,
+      "flux": 0.6808828115463257,
+      "ivar": 21.808208465576172,
+      "explicit_mask": false,
+      "valid": true
+    },
+    {
+      "sample_id": 740,
+      "wavelength_angstrom": 4192.000000000135,
+      "flux": 0.9864048361778259,
+      "ivar": 21.990234375,
+      "explicit_mask": false,
+      "valid": true
+    },
+    {
+      "sample_id": 741,
+      "wavelength_angstrom": 4192.800000000135,
+      "flux": 1.0043970346450806,
+      "ivar": 21.79987144470215,
+      "explicit_mask": false,
+      "valid": true
+    },
+    {
+      "sample_id": 742,
+      "wavelength_angstrom": 4193.600000000135,
+      "flux": 1.1160763502120972,
+      "ivar": 21.335548400878906,
+      "explicit_mask": false,
+      "valid": true
+    },
+    {
+      "sample_id": 743,
+      "wavelength_angstrom": 4194.400000000135,
+      "flux": 0.9770501852035522,
+      "ivar": 21.551000595092773,
+      "explicit_mask": false,
+      "valid": true
+    },
+    {
+      "sample_id": 744,
+      "wavelength_angstrom": 4195.200000000135,
+      "flux": 0.8393487930297852,
+      "ivar": 22.011220932006836,
+      "explicit_mask": false,
+      "valid": true
+    },
+    {
+      "sample_id": 745,
+      "wavelength_angstrom": 4196.0000000001355,
+      "flux": 1.0878257751464844,
+      "ivar": 22.11221694946289,
+      "explicit_mask": false,
+      "valid": true
+    },
+    {
+      "sample_id": 746,
+      "wavelength_angstrom": 4196.800000000136,
+      "flux": 1.1975250244140625,
+      "ivar": 22.75720977783203,
+      "explicit_mask": false,
+      "valid": true
+    },
+    {
+      "sample_id": 747,
+      "wavelength_angstrom": 4197.600000000136,
+      "flux": 1.1112961769104004,
+      "ivar": 22.158245086669922,
+      "explicit_mask": false,
+      "valid": true
+    },
+    {
+      "sample_id": 748,
+      "wavelength_angstrom": 4198.400000000136,
+      "flux": 0.9500402212142944,
+      "ivar": 21.81502914428711,
+      "explicit_mask": false,
+      "valid": true
+    },
+    {
+      "sample_id": 749,
+      "wavelength_angstrom": 4199.200000000136,
+      "flux": 0.7410489320755005,
+      "ivar": 22.497695922851562,
+      "explicit_mask": false,
+      "valid": true
+    },
+    {
+      "sample_id": 750,
+      "wavelength_angstrom": 4200.000000000136,
+      "flux": 0.7799994349479675,
+      "ivar": 23.59419822692871,
+      "explicit_mask": false,
+      "valid": true
+    },
+    {
+      "sample_id": 751,
+      "wavelength_angstrom": 4200.800000000137,
+      "flux": 0.48926201462745667,
+      "ivar": 23.042266845703125,
+      "explicit_mask": false,
+      "valid": true
+    },
+    {
+      "sample_id": 752,
+      "wavelength_angstrom": 4201.600000000137,
+      "flux": 0.3716602027416229,
+      "ivar": 22.273906707763672,
+      "explicit_mask": false,
+      "valid": true
+    },
+    {
+      "sample_id": 753,
+      "wavelength_angstrom": 4202.400000000137,
+      "flux": 0.6744605302810669,
+      "ivar": 22.968788146972656,
+      "explicit_mask": false,
+      "valid": true
+    },
+    {
+      "sample_id": 754,
+      "wavelength_angstrom": 4203.200000000137,
+      "flux": 1.123305320739746,
+      "ivar": 22.851943969726562,
+      "explicit_mask": false,
+      "valid": true
+    },
+    {
+      "sample_id": 755,
+      "wavelength_angstrom": 4204.000000000137,
+      "flux": 1.461076021194458,
+      "ivar": 24.07686996459961,
+      "explicit_mask": false,
+      "valid": true
+    },
+    {
+      "sample_id": 756,
+      "wavelength_angstrom": 4204.8000000001375,
+      "flux": 1.3766366243362427,
+      "ivar": 23.30390167236328,
+      "explicit_mask": false,
+      "valid": true
+    },
+    {
+      "sample_id": 757,
+      "wavelength_angstrom": 4205.600000000138,
+      "flux": 1.0525363683700562,
+      "ivar": 23.570592880249023,
+      "explicit_mask": false,
+      "valid": true
+    },
+    {
+      "sample_id": 758,
+      "wavelength_angstrom": 4206.400000000138,
+      "flux": 0.38913628458976746,
+      "ivar": 22.573429107666016,
+      "explicit_mask": false,
+      "valid": true
+    },
+    {
+      "sample_id": 759,
+      "wavelength_angstrom": 4207.200000000138,
+      "flux": 0.3850836753845215,
+      "ivar": 22.20990562438965,
+      "explicit_mask": false,
+      "valid": true
+    },
+    {
+      "sample_id": 760,
+      "wavelength_angstrom": 4208.000000000138,
+      "flux": 0.6729510426521301,
+      "ivar": 21.76336669921875,
+      "explicit_mask": false,
+      "valid": true
+    },
+    {
+      "sample_id": 761,
+      "wavelength_angstrom": 4208.800000000138,
+      "flux": 0.7577586770057678,
+      "ivar": 21.287019729614258,
+      "explicit_mask": false,
+      "valid": true
+    },
+    {
+      "sample_id": 762,
+      "wavelength_angstrom": 4209.600000000139,
+      "flux": 0.9381905794143677,
+      "ivar": 21.233070373535156,
+      "explicit_mask": false,
+      "valid": true
+    },
+    {
+      "sample_id": 763,
+      "wavelength_angstrom": 4210.400000000139,
+      "flux": 0.8402308225631714,
+      "ivar": 22.425613403320312,
+      "explicit_mask": false,
+      "valid": true
+    },
+    {
+      "sample_id": 764,
+      "wavelength_angstrom": 4211.200000000139,
+      "flux": 1.0360082387924194,
+      "ivar": 22.632247924804688,
+      "explicit_mask": false,
+      "valid": true
+    },
+    {
+      "sample_id": 765,
+      "wavelength_angstrom": 4212.000000000139,
+      "flux": 0.7095563411712646,
+      "ivar": 22.91356658935547,
+      "explicit_mask": false,
+      "valid": true
+    },
+    {
+      "sample_id": 766,
+      "wavelength_angstrom": 4212.800000000139,
+      "flux": 0.787083089351654,
+      "ivar": 23.065885543823242,
+      "explicit_mask": false,
+      "valid": true
+    },
+    {
+      "sample_id": 767,
+      "wavelength_angstrom": 4213.6000000001395,
+      "flux": 1.0989514589309692,
+      "ivar": 23.618053436279297,
+      "explicit_mask": false,
+      "valid": true
+    },
+    {
+      "sample_id": 768,
+      "wavelength_angstrom": 4214.40000000014,
+      "flux": 1.4065543413162231,
+      "ivar": 23.475257873535156,
+      "explicit_mask": false,
+      "valid": true
+    },
+    {
+      "sample_id": 769,
+      "wavelength_angstrom": 4215.20000000014,
+      "flux": 0.6402913331985474,
+      "ivar": 22.82607650756836,
+      "explicit_mask": false,
+      "valid": true
+    },
+    {
+      "sample_id": 770,
+      "wavelength_angstrom": 4216.00000000014,
+      "flux": 1.1308872699737549,
+      "ivar": 22.8187313079834,
+      "explicit_mask": false,
+      "valid": true
+    },
+    {
+      "sample_id": 771,
+      "wavelength_angstrom": 4216.80000000014,
+      "flux": 0.8450759053230286,
+      "ivar": 23.259424209594727,
+      "explicit_mask": false,
+      "valid": true
+    },
+    {
+      "sample_id": 772,
+      "wavelength_angstrom": 4217.60000000014,
+      "flux": 1.018536925315857,
+      "ivar": 22.799867630004883,
+      "explicit_mask": false,
+      "valid": true
+    },
+    {
+      "sample_id": 773,
+      "wavelength_angstrom": 4218.400000000141,
+      "flux": 0.6423248648643494,
+      "ivar": 22.01302719116211,
+      "explicit_mask": false,
+      "valid": true
+    },
+    {
+      "sample_id": 774,
+      "wavelength_angstrom": 4219.200000000141,
+      "flux": 1.1950138807296753,
+      "ivar": 23.263565063476562,
+      "explicit_mask": false,
+      "valid": true
+    },
+    {
+      "sample_id": 775,
+      "wavelength_angstrom": 4220.000000000141,
+      "flux": 1.30185866355896,
+      "ivar": 23.179372787475586,
+      "explicit_mask": false,
+      "valid": true
+    },
+    {
+      "sample_id": 776,
+      "wavelength_angstrom": 4220.800000000141,
+      "flux": 1.04841947555542,
+      "ivar": 23.753408432006836,
+      "explicit_mask": false,
+      "valid": true
+    },
+    {
+      "sample_id": 777,
+      "wavelength_angstrom": 4221.600000000141,
+      "flux": 1.2492363452911377,
+      "ivar": 22.84576416015625,
+      "explicit_mask": false,
+      "valid": true
+    },
+    {
+      "sample_id": 778,
+      "wavelength_angstrom": 4222.4000000001415,
+      "flux": 0.9010029435157776,
+      "ivar": 22.928361892700195,
+      "explicit_mask": false,
+      "valid": true
+    },
+    {
+      "sample_id": 779,
+      "wavelength_angstrom": 4223.200000000142,
+      "flux": 0.6977781653404236,
+      "ivar": 23.008119583129883,
+      "explicit_mask": false,
+      "valid": true
+    },
+    {
+      "sample_id": 780,
+      "wavelength_angstrom": 4224.000000000142,
+      "flux": 0.9211362600326538,
+      "ivar": 23.467435836791992,
+      "explicit_mask": false,
+      "valid": true
+    },
+    {
+      "sample_id": 781,
+      "wavelength_angstrom": 4224.800000000142,
+      "flux": 0.7195889353752136,
+      "ivar": 23.426023483276367,
+      "explicit_mask": false,
+      "valid": true
+    },
+    {
+      "sample_id": 782,
+      "wavelength_angstrom": 4225.600000000142,
+      "flux": 0.6536411643028259,
+      "ivar": 23.770160675048828,
+      "explicit_mask": false,
+      "valid": true
+    },
+    {
+      "sample_id": 783,
+      "wavelength_angstrom": 4226.400000000142,
+      "flux": 1.1109440326690674,
+      "ivar": 23.382091522216797,
+      "explicit_mask": false,
+      "valid": true
+    },
+    {
+      "sample_id": 784,
+      "wavelength_angstrom": 4227.200000000143,
+      "flux": 0.5671195983886719,
+      "ivar": 24.447511672973633,
+      "explicit_mask": false,
+      "valid": true
+    },
+    {
+      "sample_id": 785,
+      "wavelength_angstrom": 4228.000000000143,
+      "flux": 1.0389995574951172,
+      "ivar": 25.984201431274414,
+      "explicit_mask": false,
+      "valid": true
+    },
+    {
+      "sample_id": 786,
+      "wavelength_angstrom": 4228.800000000143,
+      "flux": 1.3396899700164795,
+      "ivar": 26.163942337036133,
+      "explicit_mask": false,
+      "valid": true
+    },
+    {
+      "sample_id": 787,
+      "wavelength_angstrom": 4229.600000000143,
+      "flux": 0.8022815585136414,
+      "ivar": 25.335166931152344,
+      "explicit_mask": false,
+      "valid": true
+    },
+    {
+      "sample_id": 788,
+      "wavelength_angstrom": 4230.400000000143,
+      "flux": 0.9617959260940552,
+      "ivar": 24.722867965698242,
+      "explicit_mask": false,
+      "valid": true
+    },
+    {
+      "sample_id": 789,
+      "wavelength_angstrom": 4231.2000000001435,
+      "flux": 0.8202465772628784,
+      "ivar": 24.021677017211914,
+      "explicit_mask": false,
+      "valid": true
+    },
+    {
+      "sample_id": 790,
+      "wavelength_angstrom": 4232.000000000144,
+      "flux": 0.9127162098884583,
+      "ivar": 23.498624801635742,
+      "explicit_mask": false,
+      "valid": true
+    },
+    {
+      "sample_id": 791,
+      "wavelength_angstrom": 4232.800000000144,
+      "flux": 0.8031796216964722,
+      "ivar": 23.676959991455078,
+      "explicit_mask": false,
+      "valid": true
+    },
+    {
+      "sample_id": 792,
+      "wavelength_angstrom": 4233.600000000144,
+      "flux": 0.6214244961738586,
+      "ivar": 23.945846557617188,
+      "explicit_mask": false,
+      "valid": true
+    },
+    {
+      "sample_id": 793,
+      "wavelength_angstrom": 4234.400000000144,
+      "flux": 0.9837356805801392,
+      "ivar": 24.41585922241211,
+      "explicit_mask": false,
+      "valid": true
+    },
+    {
+      "sample_id": 794,
+      "wavelength_angstrom": 4235.200000000144,
+      "flux": 0.8794851303100586,
+      "ivar": 23.822389602661133,
+      "explicit_mask": false,
+      "valid": true
+    },
+    {
+      "sample_id": 795,
+      "wavelength_angstrom": 4236.000000000145,
+      "flux": 1.1771799325942993,
+      "ivar": 23.631967544555664,
+      "explicit_mask": false,
+      "valid": true
+    },
+    {
+      "sample_id": 796,
+      "wavelength_angstrom": 4236.800000000145,
+      "flux": 0.9457648396492004,
+      "ivar": 23.947370529174805,
+      "explicit_mask": false,
+      "valid": true
+    },
+    {
+      "sample_id": 797,
+      "wavelength_angstrom": 4237.600000000145,
+      "flux": 0.7181524038314819,
+      "ivar": 24.87091064453125,
+      "explicit_mask": false,
+      "valid": true
+    },
+    {
+      "sample_id": 798,
+      "wavelength_angstrom": 4238.400000000145,
+      "flux": 1.2090808153152466,
+      "ivar": 24.831174850463867,
+      "explicit_mask": false,
+      "valid": true
+    },
+    {
+      "sample_id": 799,
+      "wavelength_angstrom": 4239.200000000145,
+      "flux": 0.8980043530464172,
+      "ivar": 23.680461883544922,
+      "explicit_mask": false,
+      "valid": true
+    },
+    {
+      "sample_id": 800,
+      "wavelength_angstrom": 4240.0000000001455,
+      "flux": 0.1955200880765915,
+      "ivar": 23.975528717041016,
+      "explicit_mask": false,
+      "valid": true
+    },
+    {
+      "sample_id": 801,
+      "wavelength_angstrom": 4240.800000000146,
+      "flux": 0.27714547514915466,
+      "ivar": 24.315509796142578,
+      "explicit_mask": false,
+      "valid": true
+    },
+    {
+      "sample_id": 802,
+      "wavelength_angstrom": 4241.600000000146,
+      "flux": 0.5895815491676331,
+      "ivar": 23.744413375854492,
+      "explicit_mask": false,
+      "valid": true
+    },
+    {
+      "sample_id": 803,
+      "wavelength_angstrom": 4242.400000000146,
+      "flux": 0.33745115995407104,
+      "ivar": 24.233970642089844,
+      "explicit_mask": false,
+      "valid": true
+    },
+    {
+      "sample_id": 804,
+      "wavelength_angstrom": 4243.200000000146,
+      "flux": 0.594717264175415,
+      "ivar": 24.420230865478516,
+      "explicit_mask": false,
+      "valid": true
+    },
+    {
+      "sample_id": 805,
+      "wavelength_angstrom": 4244.000000000146,
+      "flux": 0.6206623315811157,
+      "ivar": 24.3607177734375,
+      "explicit_mask": false,
+      "valid": true
+    },
+    {
+      "sample_id": 806,
+      "wavelength_angstrom": 4244.800000000147,
+      "flux": 1.1805012226104736,
+      "ivar": 24.927888870239258,
+      "explicit_mask": false,
+      "valid": true
+    },
+    {
+      "sample_id": 807,
+      "wavelength_angstrom": 4245.600000000147,
+      "flux": 1.448319673538208,
+      "ivar": 24.818126678466797,
+      "explicit_mask": false,
+      "valid": true
+    },
+    {
+      "sample_id": 808,
+      "wavelength_angstrom": 4246.400000000147,
+      "flux": 1.6060258150100708,
+      "ivar": 23.483997344970703,
+      "explicit_mask": false,
+      "valid": true
+    },
+    {
+      "sample_id": 809,
+      "wavelength_angstrom": 4247.200000000147,
+      "flux": 1.2736947536468506,
+      "ivar": 23.151508331298828,
+      "explicit_mask": false,
+      "valid": true
+    },
+    {
+      "sample_id": 810,
+      "wavelength_angstrom": 4248.000000000147,
+      "flux": 0.5767378211021423,
+      "ivar": 22.33098602294922,
+      "explicit_mask": false,
+      "valid": true
+    },
+    {
+      "sample_id": 811,
+      "wavelength_angstrom": 4248.8000000001475,
+      "flux": 0.8698616027832031,
+      "ivar": 23.675518035888672,
+      "explicit_mask": false,
+      "valid": true
+    },
+    {
+      "sample_id": 812,
+      "wavelength_angstrom": 4249.600000000148,
+      "flux": 0.7894648313522339,
+      "ivar": 24.004165649414062,
+      "explicit_mask": false,
+      "valid": true
+    },
+    {
+      "sample_id": 813,
+      "wavelength_angstrom": 4250.400000000148,
+      "flux": 0.2684614956378937,
+      "ivar": 24.013233184814453,
+      "explicit_mask": false,
+      "valid": true
+    },
+    {
+      "sample_id": 814,
+      "wavelength_angstrom": 4251.200000000148,
+      "flux": 0.7697532773017883,
+      "ivar": 24.716934204101562,
+      "explicit_mask": false,
+      "valid": true
+    },
+    {
+      "sample_id": 815,
+      "wavelength_angstrom": 4252.000000000148,
+      "flux": 0.8185421824455261,
+      "ivar": 24.722209930419922,
+      "explicit_mask": false,
+      "valid": true
+    },
+    {
+      "sample_id": 816,
+      "wavelength_angstrom": 4252.800000000148,
+      "flux": 0.8767795562744141,
+      "ivar": 24.765213012695312,
+      "explicit_mask": false,
+      "valid": true
+    },
+    {
+      "sample_id": 817,
+      "wavelength_angstrom": 4253.600000000149,
+      "flux": 1.2924543619155884,
+      "ivar": 24.05508804321289,
+      "explicit_mask": false,
+      "valid": true
+    },
+    {
+      "sample_id": 818,
+      "wavelength_angstrom": 4254.400000000149,
+      "flux": 0.668718695640564,
+      "ivar": 23.622343063354492,
+      "explicit_mask": false,
+      "valid": true
+    },
+    {
+      "sample_id": 819,
+      "wavelength_angstrom": 4255.200000000149,
+      "flux": 0.8283236622810364,
+      "ivar": 24.273725509643555,
+      "explicit_mask": false,
+      "valid": true
+    },
+    {
+      "sample_id": 820,
+      "wavelength_angstrom": 4256.000000000149,
+      "flux": 0.6848475933074951,
+      "ivar": 24.97102928161621,
+      "explicit_mask": false,
+      "valid": true
+    },
+    {
+      "sample_id": 821,
+      "wavelength_angstrom": 4256.800000000149,
+      "flux": 0.7945314049720764,
+      "ivar": 24.341293334960938,
+      "explicit_mask": false,
+      "valid": true
+    },
+    {
+      "sample_id": 822,
+      "wavelength_angstrom": 4257.6000000001495,
+      "flux": 0.8038268089294434,
+      "ivar": 23.98040008544922,
+      "explicit_mask": false,
+      "valid": true
+    },
+    {
+      "sample_id": 823,
+      "wavelength_angstrom": 4258.40000000015,
+      "flux": 0.7476012110710144,
+      "ivar": 23.518245697021484,
+      "explicit_mask": false,
+      "valid": true
+    },
+    {
+      "sample_id": 824,
+      "wavelength_angstrom": 4259.20000000015,
+      "flux": 0.7079999446868896,
+      "ivar": 23.32120132446289,
+      "explicit_mask": false,
+      "valid": true
+    },
+    {
+      "sample_id": 825,
+      "wavelength_angstrom": 4260.00000000015,
+      "flux": 0.6240803599357605,
+      "ivar": 23.475021362304688,
+      "explicit_mask": false,
+      "valid": true
+    },
+    {
+      "sample_id": 826,
+      "wavelength_angstrom": 4260.80000000015,
+      "flux": 0.889358401298523,
+      "ivar": 24.48666000366211,
+      "explicit_mask": false,
+      "valid": true
+    },
+    {
+      "sample_id": 827,
+      "wavelength_angstrom": 4261.60000000015,
+      "flux": 0.9165988564491272,
+      "ivar": 25.103199005126953,
+      "explicit_mask": false,
+      "valid": true
+    },
+    {
+      "sample_id": 828,
+      "wavelength_angstrom": 4262.400000000151,
+      "flux": 0.8286389708518982,
+      "ivar": 25.01737403869629,
+      "explicit_mask": false,
+      "valid": true
+    },
+    {
+      "sample_id": 829,
+      "wavelength_angstrom": 4263.200000000151,
+      "flux": 0.9349655508995056,
+      "ivar": 23.87116050720215,
+      "explicit_mask": false,
+      "valid": true
+    },
+    {
+      "sample_id": 830,
+      "wavelength_angstrom": 4264.000000000151,
+      "flux": 1.2561370134353638,
+      "ivar": 24.67584228515625,
+      "explicit_mask": false,
+      "valid": true
+    },
+    {
+      "sample_id": 831,
+      "wavelength_angstrom": 4264.800000000151,
+      "flux": 1.032943606376648,
+      "ivar": 24.0007381439209,
+      "explicit_mask": false,
+      "valid": true
+    },
+    {
+      "sample_id": 832,
+      "wavelength_angstrom": 4265.600000000151,
+      "flux": 0.47263622283935547,
+      "ivar": 24.157594680786133,
+      "explicit_mask": false,
+      "valid": true
+    },
+    {
+      "sample_id": 833,
+      "wavelength_angstrom": 4266.4000000001515,
+      "flux": 1.0568346977233887,
+      "ivar": 23.819883346557617,
+      "explicit_mask": false,
+      "valid": true
+    },
+    {
+      "sample_id": 834,
+      "wavelength_angstrom": 4267.200000000152,
+      "flux": 1.2088220119476318,
+      "ivar": 23.87162208557129,
+      "explicit_mask": false,
+      "valid": true
+    },
+    {
+      "sample_id": 835,
+      "wavelength_angstrom": 4268.000000000152,
+      "flux": 0.8753477931022644,
+      "ivar": 23.597457885742188,
+      "explicit_mask": false,
+      "valid": true
+    },
+    {
+      "sample_id": 836,
+      "wavelength_angstrom": 4268.800000000152,
+      "flux": 1.0240737199783325,
+      "ivar": 23.669157028198242,
+      "explicit_mask": false,
+      "valid": true
+    },
+    {
+      "sample_id": 837,
+      "wavelength_angstrom": 4269.600000000152,
+      "flux": 1.1249028444290161,
+      "ivar": 24.29648208618164,
+      "explicit_mask": false,
+      "valid": true
+    },
+    {
+      "sample_id": 838,
+      "wavelength_angstrom": 4270.400000000152,
+      "flux": 0.8994817137718201,
+      "ivar": 23.78548812866211,
+      "explicit_mask": false,
+      "valid": true
+    },
+    {
+      "sample_id": 839,
+      "wavelength_angstrom": 4271.200000000153,
+      "flux": 1.287650465965271,
+      "ivar": 23.932188034057617,
+      "explicit_mask": false,
+      "valid": true
+    }
+  ]
+}

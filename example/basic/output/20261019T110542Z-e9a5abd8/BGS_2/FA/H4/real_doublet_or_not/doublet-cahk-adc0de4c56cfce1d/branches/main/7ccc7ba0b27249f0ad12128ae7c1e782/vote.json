@@ -1,0 +1,13 @@
+{
+  "answer": "no",
+  "reason": "Neither component window shows an absorption dip: Ca K region (3929–3934 Å) is flat scatter with no trough and its claimed center is ~4 Å off prediction (signal_absent); Ca H region (3964 Å) is likewise flat with no feature (NOT_FOUND). No credible two-component pair is corroborated in the usable pixels.",
+  "execution": {
+    "schema_version": "forma-agentic-node-execution-v1",
+    "run_id": "graph-df7434d5533647e999870708120307b0",
+    "branch_id": "main",
+    "node_key": "fa.real_doublet_or_not/graph-df7434d5533647e999870708120307b0/H4/doublet%3Acahk",
+    "node_execution_id": "7ccc7ba0b27249f0ad12128ae7c1e782",
+    "attempt_id": "1246492ff6e444898bc3ac2ee84a64bc",
+    "relative_dir": "FA/H4/real_doublet_or_not/doublet-cahk-adc0de4c56cfce1d/branches/main/7ccc7ba0b27249f0ad12128ae7c1e782"
+  }
+}

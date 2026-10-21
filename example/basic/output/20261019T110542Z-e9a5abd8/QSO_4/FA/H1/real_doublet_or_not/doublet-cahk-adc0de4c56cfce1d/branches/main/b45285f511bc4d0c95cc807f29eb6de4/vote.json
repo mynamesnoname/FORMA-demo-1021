@@ -1,0 +1,13 @@
+{
+  "answer": "no",
+  "reason": "Ca K window (~4870.8 Å) is flat continuum with only a noise-level dip near 4868, no credible absorption; Ca H window (~4913.9 Å) shows a positive bump (~7.6-8.0) rather than absorption, and no partner measurement exists. Neither component is corroborated in the usable pixels, so the two-component interpretation fails.",
+  "execution": {
+    "schema_version": "forma-agentic-node-execution-v1",
+    "run_id": "graph-853b617a68f04c36bd82f06bdb770ac4",
+    "branch_id": "main",
+    "node_key": "fa.real_doublet_or_not/graph-853b617a68f04c36bd82f06bdb770ac4/H1/doublet%3Acahk",
+    "node_execution_id": "b45285f511bc4d0c95cc807f29eb6de4",
+    "attempt_id": "d914dc838b5e4d93be312bb4d5bcf527",
+    "relative_dir": "FA/H1/real_doublet_or_not/doublet-cahk-adc0de4c56cfce1d/branches/main/b45285f511bc4d0c95cc807f29eb6de4"
+  }
+}

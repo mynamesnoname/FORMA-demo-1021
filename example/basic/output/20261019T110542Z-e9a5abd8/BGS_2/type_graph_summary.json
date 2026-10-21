@@ -1,0 +1,1112 @@
+{
+  "schema_version": "forma-agentic-graph-summary-v2",
+  "run_id": "graph-df7434d5533647e999870708120307b0",
+  "status": "hs_comparison_complete",
+  "final_classification_available": false,
+  "active_branch_id": "main",
+  "hypotheses": {
+    "H3": {
+      "preliminary_classification": null,
+      "entry_route_ref": "entry_route/b18630ee708e49019d1a47f274f414f9/node",
+      "path_status": "unresolved",
+      "candidate_type": null,
+      "report_ref": null,
+      "eligible_graphs": []
+    },
+    "H1": {
+      "preliminary_classification": "LRG/BGS",
+      "path_status": "survive",
+      "source_path_status": "survive",
+      "candidate_type": "LRG/BGS",
+      "report_ref": "sh2/21eab61dbd944be68074f44d8265df02/report",
+      "qso_report_ref": null,
+      "entry_route_ref": "entry_route/8166ab3af6d14f69ab4a5020740ceed4/node",
+      "eligible_graphs": [
+        "LRG/BGS"
+      ]
+    },
+    "H2": {
+      "preliminary_classification": null,
+      "entry_route_ref": "entry_route/b4e6c9f7209d486eae456eeeb891ad93/node",
+      "path_status": "unresolved",
+      "candidate_type": null,
+      "report_ref": null,
+      "eligible_graphs": []
+    },
+    "H4": {
+      "preliminary_classification": null,
+      "entry_route_ref": "entry_route/a3954071cdb84a4884b3e2f9277cb923/node",
+      "path_status": "unresolved",
+      "candidate_type": null,
+      "report_ref": null,
+      "eligible_graphs": []
+    },
+    "H5": {
+      "preliminary_classification": null,
+      "entry_route_ref": "entry_route/4fddd250cd1f45428dcec87c75fbaff4/node",
+      "path_status": "unresolved",
+      "candidate_type": null,
+      "report_ref": null,
+      "eligible_graphs": []
+    },
+    "H6": {
+      "preliminary_classification": "LRG/BGS",
+      "path_status": "survive",
+      "source_path_status": "survive",
+      "candidate_type": "LRG/BGS",
+      "report_ref": "sh2/cffbf9539ff04227a435a428fecc7d14/report",
+      "qso_report_ref": null,
+      "entry_route_ref": "entry_route/0fa7e4341c664812b324488375a2b595/node",
+      "eligible_graphs": [
+        "LRG/BGS"
+      ]
+    }
+  },
+  "surviving_hypotheses": [
+    "H1",
+    "H6"
+  ],
+  "hs_merge_ref": "hs/010534cdef804a84bcfa63c66be6af6a/node",
+  "hs_comparison_ref": "hs/46fcab826ee34023a2783bfc982bee9b/node",
+  "hs_comparison": {
+    "winner_group_id": "hs.cross/H1+H6",
+    "reason": "Cross-merge accepted after source-bound checks; sole resolved group pending RA.",
+    "assessments": [
+      {
+        "group_id": "hs.cross/H1+H6",
+        "support_pairs": [
+          {
+            "line_id": "line:cak-3934-abs",
+            "feature_id": "fit:H1:0004"
+          },
+          {
+            "line_id": "line:cah-3969-abs",
+            "feature_id": "fit:H1:0005"
+          },
+          {
+            "line_id": "line:heps-3970-abs",
+            "feature_id": "fit:H6:0012"
+          },
+          {
+            "line_id": "line:gband-4305-abs",
+            "feature_id": "fit:H1:0014"
+          },
+          {
+            "line_id": "line:hbet-4862-abs",
+            "feature_id": "fit:H6:0016"
+          },
+          {
+            "line_id": "line:mgi-5176-abs",
+            "feature_id": "fit:H1:0017"
+          },
+          {
+            "line_id": "line:nad1-5891-abs",
+            "feature_id": "cwt:abs:0000"
+          },
+          {
+            "line_id": "line:nii-6585",
+            "feature_id": "cwt:em:0002"
+          },
+          {
+            "line_id": "line:sii-6718",
+            "feature_id": "fit:H1:0002"
+          },
+          {
+            "line_id": "line:sii-6732",
+            "feature_id": "fit:H1:0003"
+          }
+        ],
+        "conflict_pairs": [],
+        "comparative_evidence": {
+          "advantages": [],
+          "disadvantages": [],
+          "limitations": [
+            "Only one group survived; no cross-group comparison was made."
+          ]
+        },
+        "unresolved": [],
+        "comparison_note": "No other surviving group to compare."
+      }
+    ],
+    "merge_review": {
+      "proposals": [
+        {
+          "group_ids": [
+            "hs.merge/H1",
+            "hs.merge/H6"
+          ],
+          "reason": "The two groups describe the same coherent LRG/BGS absorption structure at essentially identical redshift (0.15896775 vs 0.15892043, Δz≈4.7e-5). The type-diagnostic Ca K and Ca H lines are matched to the same observed features: Ca K at 4561.006 Å and Ca H at 4601.599 Å in both groups, with the same measured Ca H/K separation (~40.59 Å) and the same Ca K/Ca H amplitude ratio (~0.943). Both have adopted Ca H/K pairs with FA doublet support (3/3 yes) and identical Dn4000 (1.53098). The G band, Mg I, Na D CWT feature, N II, and Si II pairs also coincide at the same observed wavelengths, and the shared cwt:abs:0000 TBD identity is common to both. The only differences are hypothesis-local fit IDs and sub-Å predicted offsets, which do not indicate independent observations. This is a single observed structure represented by two nearly identical hypotheses."
+        }
+      ],
+      "reason": "H1 and H6 are credible duplicates: they share the same Ca K/Ca H diagnostic absorption doublet at the same observed wavelengths and separation, the same Dn4000, and the same set of supporting features (G band, Mg I, Na D CWT, N II, Si II). The redshift difference is tiny and the line identities are consistent, so they plausibly describe one coherent observed LRG/BGS structure rather than two independent ones."
+    },
+    "cross_merges": [
+      {
+        "status": "accepted",
+        "proposal": {
+          "group_ids": [
+            "hs.merge/H1",
+            "hs.merge/H6"
+          ],
+          "reason": "The two groups describe the same coherent LRG/BGS absorption structure at essentially identical redshift (0.15896775 vs 0.15892043, Δz≈4.7e-5). The type-diagnostic Ca K and Ca H lines are matched to the same observed features: Ca K at 4561.006 Å and Ca H at 4601.599 Å in both groups, with the same measured Ca H/K separation (~40.59 Å) and the same Ca K/Ca H amplitude ratio (~0.943). Both have adopted Ca H/K pairs with FA doublet support (3/3 yes) and identical Dn4000 (1.53098). The G band, Mg I, Na D CWT feature, N II, and Si II pairs also coincide at the same observed wavelengths, and the shared cwt:abs:0000 TBD identity is common to both. The only differences are hypothesis-local fit IDs and sub-Å predicted offsets, which do not indicate independent observations. This is a single observed structure represented by two nearly identical hypotheses."
+        },
+        "group_ids": [
+          "hs.merge/H1",
+          "hs.merge/H6"
+        ],
+        "reason": "The two groups describe the same coherent LRG/BGS absorption structure at essentially identical redshift (0.15896775 vs 0.15892043, Δz≈4.7e-5). The type-diagnostic Ca K and Ca H lines are matched to the same observed features: Ca K at 4561.006 Å and Ca H at 4601.599 Å in both groups, with the same measured Ca H/K separation (~40.59 Å) and the same Ca K/Ca H amplitude ratio (~0.943). Both have adopted Ca H/K pairs with FA doublet support (3/3 yes) and identical Dn4000 (1.53098). The G band, Mg I, Na D CWT feature, N II, and Si II pairs also coincide at the same observed wavelengths, and the shared cwt:abs:0000 TBD identity is common to both. The only differences are hypothesis-local fit IDs and sub-Å predicted offsets, which do not indicate independent observations. This is a single observed structure represented by two nearly identical hypotheses.",
+        "result_group_id": "hs.cross/H1+H6",
+        "fit_matches": [
+          {
+            "line_id": "line:cah-3969-abs",
+            "left_feature_id": "fit:H1:0005",
+            "right_feature_id": "fit:H6:0005",
+            "center_separation_angstrom": 0.0,
+            "fwhm_overlap_angstrom": 12.636,
+            "left_fit": {
+              "center": 4601.599,
+              "center_err": 0.7006,
+              "amplitude": -1.754091,
+              "amplitude_err": 0.198909,
+              "fwhm": 12.636
+            },
+            "right_fit": {
+              "center": 4601.599,
+              "center_err": 0.7006,
+              "amplitude": -1.754092,
+              "amplitude_err": 0.198909,
+              "fwhm": 12.636
+            }
+          },
+          {
+            "line_id": "line:cak-3934-abs",
+            "left_feature_id": "fit:H1:0004",
+            "right_feature_id": "fit:H6:0004",
+            "center_separation_angstrom": 0.0,
+            "fwhm_overlap_angstrom": 14.678,
+            "left_fit": {
+              "center": 4561.006,
+              "center_err": 0.8004,
+              "amplitude": -1.654652,
+              "amplitude_err": 0.184646,
+              "fwhm": 14.678
+            },
+            "right_fit": {
+              "center": 4561.006,
+              "center_err": 0.8004,
+              "amplitude": -1.654647,
+              "amplitude_err": 0.184645,
+              "fwhm": 14.678
+            }
+          }
+        ],
+        "unresolved_identity_competitions": [],
+        "resolution": {
+          "merge_status": "merged",
+          "merged_anchor_redshift": 0.15914557283724706,
+          "anchor_source": {
+            "kind": "line",
+            "line_id": "line:cak-3934-abs",
+            "feature_id": "fit:H1:0004"
+          },
+          "all_candidate_pairs": [
+            {
+              "line_id": "line:cak-3934-abs",
+              "feature_id": "fit:H1:0004",
+              "wavelength_angstrom": 4561.006,
+              "rest_wavelength_angstrom": 3934.8,
+              "line_kind": "absorption",
+              "ionization_ev": null,
+              "measurement_source": "fit_doublet",
+              "provenance": [
+                {
+                  "hypothesis_ref": "H1",
+                  "assignment_status": "non_tbd",
+                  "fa_state": "signal_present",
+                  "fa_review_status": "original_measurement",
+                  "measurement_source": "fit_doublet",
+                  "prior_measurement_id": null,
+                  "prior_measurement_fa_state": null,
+                  "source_refs": [
+                    "sh/H1/judgments"
+                  ]
+                }
+              ],
+              "best_assignment_status": "non_tbd"
+            },
+            {
+              "line_id": "line:cak-3934-abs",
+              "feature_id": "fit:H6:0004",
+              "wavelength_angstrom": 4561.006,
+              "rest_wavelength_angstrom": 3934.8,
+              "line_kind": "absorption",
+              "ionization_ev": null,
+              "measurement_source": "fit_doublet",
+              "provenance": [
+                {
+                  "hypothesis_ref": "H6",
+                  "assignment_status": "non_tbd",
+                  "fa_state": "signal_present",
+                  "fa_review_status": "original_measurement",
+                  "measurement_source": "fit_doublet",
+                  "prior_measurement_id": null,
+                  "prior_measurement_fa_state": null,
+                  "source_refs": [
+                    "sh/H6/judgments"
+                  ]
+                }
+              ],
+              "best_assignment_status": "non_tbd"
+            },
+            {
+              "line_id": "line:cah-3969-abs",
+              "feature_id": "fit:H1:0005",
+              "wavelength_angstrom": 4601.599,
+              "rest_wavelength_angstrom": 3969.6,
+              "line_kind": "absorption",
+              "ionization_ev": null,
+              "measurement_source": "fit_doublet",
+              "provenance": [
+                {
+                  "hypothesis_ref": "H1",
+                  "assignment_status": "non_tbd",
+                  "fa_state": "signal_present",
+                  "fa_review_status": "original_measurement",
+                  "measurement_source": "fit_doublet",
+                  "prior_measurement_id": null,
+                  "prior_measurement_fa_state": null,
+                  "source_refs": [
+                    "sh/H1/judgments"
+                  ]
+                }
+              ],
+              "best_assignment_status": "non_tbd"
+            },
+            {
+              "line_id": "line:cah-3969-abs",
+              "feature_id": "fit:H6:0005",
+              "wavelength_angstrom": 4601.599,
+              "rest_wavelength_angstrom": 3969.6,
+              "line_kind": "absorption",
+              "ionization_ev": null,
+              "measurement_source": "fit_doublet",
+              "provenance": [
+                {
+                  "hypothesis_ref": "H6",
+                  "assignment_status": "non_tbd",
+                  "fa_state": "signal_present",
+                  "fa_review_status": "original_measurement",
+                  "measurement_source": "fit_doublet",
+                  "prior_measurement_id": null,
+                  "prior_measurement_fa_state": null,
+                  "source_refs": [
+                    "sh/H6/judgments"
+                  ]
+                }
+              ],
+              "best_assignment_status": "non_tbd"
+            },
+            {
+              "line_id": "line:heps-3970-abs",
+              "feature_id": "fit:H6:0012",
+              "wavelength_angstrom": 4601.668,
+              "rest_wavelength_angstrom": 3970.1,
+              "line_kind": "absorption",
+              "ionization_ev": null,
+              "measurement_source": "fit_peak",
+              "provenance": [
+                {
+                  "hypothesis_ref": "H6",
+                  "assignment_status": "non_tbd",
+                  "fa_state": "signal_present",
+                  "fa_review_status": "original_measurement",
+                  "measurement_source": "fit_peak",
+                  "prior_measurement_id": null,
+                  "prior_measurement_fa_state": null,
+                  "source_refs": [
+                    "sh/H6/judgments"
+                  ]
+                }
+              ],
+              "best_assignment_status": "non_tbd"
+            },
+            {
+              "line_id": "line:gband-4305-abs",
+              "feature_id": "fit:H1:0014",
+              "wavelength_angstrom": 4989.489,
+              "rest_wavelength_angstrom": 4305.6,
+              "line_kind": "absorption",
+              "ionization_ev": null,
+              "measurement_source": "fit_peak",
+              "provenance": [
+                {
+                  "hypothesis_ref": "H1",
+                  "assignment_status": "non_tbd",
+                  "fa_state": "signal_present",
+                  "fa_review_status": "original_measurement",
+                  "measurement_source": "fit_peak",
+                  "prior_measurement_id": null,
+                  "prior_measurement_fa_state": null,
+                  "source_refs": [
+                    "sh/H1/judgments"
+                  ]
+                }
+              ],
+              "best_assignment_status": "non_tbd"
+            },
+            {
+              "line_id": "line:gband-4305-abs",
+              "feature_id": "fit:H6:0014",
+              "wavelength_angstrom": 4989.488,
+              "rest_wavelength_angstrom": 4305.6,
+              "line_kind": "absorption",
+              "ionization_ev": null,
+              "measurement_source": "fit_peak",
+              "provenance": [
+                {
+                  "hypothesis_ref": "H6",
+                  "assignment_status": "non_tbd",
+                  "fa_state": "signal_present",
+                  "fa_review_status": "original_measurement",
+                  "measurement_source": "fit_peak",
+                  "prior_measurement_id": null,
+                  "prior_measurement_fa_state": null,
+                  "source_refs": [
+                    "sh/H6/judgments"
+                  ]
+                }
+              ],
+              "best_assignment_status": "non_tbd"
+            },
+            {
+              "line_id": "line:hbet-4862-abs",
+              "feature_id": "fit:H6:0016",
+              "wavelength_angstrom": 5648.609,
+              "rest_wavelength_angstrom": 4862.7,
+              "line_kind": "absorption",
+              "ionization_ev": null,
+              "measurement_source": "fit_peak",
+              "provenance": [
+                {
+                  "hypothesis_ref": "H6",
+                  "assignment_status": "non_tbd",
+                  "fa_state": "signal_present",
+                  "fa_review_status": "original_measurement",
+                  "measurement_source": "fit_peak",
+                  "prior_measurement_id": null,
+                  "prior_measurement_fa_state": null,
+                  "source_refs": [
+                    "sh/H6/judgments"
+                  ]
+                }
+              ],
+              "best_assignment_status": "non_tbd"
+            },
+            {
+              "line_id": "line:mgi-5176-abs",
+              "feature_id": "fit:H1:0017",
+              "wavelength_angstrom": 6001.203,
+              "rest_wavelength_angstrom": 5176.7,
+              "line_kind": "absorption",
+              "ionization_ev": null,
+              "measurement_source": "fit_peak",
+              "provenance": [
+                {
+                  "hypothesis_ref": "H1",
+                  "assignment_status": "non_tbd",
+                  "fa_state": "signal_present",
+                  "fa_review_status": "original_measurement",
+                  "measurement_source": "fit_peak",
+                  "prior_measurement_id": null,
+                  "prior_measurement_fa_state": null,
+                  "source_refs": [
+                    "sh/H1/judgments"
+                  ]
+                }
+              ],
+              "best_assignment_status": "non_tbd"
+            },
+            {
+              "line_id": "line:nad1-5891-abs",
+              "feature_id": "cwt:abs:0000",
+              "wavelength_angstrom": 6831.200000000244,
+              "rest_wavelength_angstrom": 5891.6,
+              "line_kind": "absorption",
+              "ionization_ev": null,
+              "measurement_source": "CWT",
+              "provenance": [
+                {
+                  "hypothesis_ref": "H1",
+                  "assignment_status": "tbd",
+                  "fa_state": "signal_present",
+                  "fa_review_status": "original_measurement",
+                  "measurement_source": "CWT",
+                  "prior_measurement_id": null,
+                  "prior_measurement_fa_state": null,
+                  "source_refs": [
+                    "sh/H1/judgments"
+                  ]
+                },
+                {
+                  "hypothesis_ref": "H6",
+                  "assignment_status": "tbd",
+                  "fa_state": "signal_present",
+                  "fa_review_status": "original_measurement",
+                  "measurement_source": "CWT",
+                  "prior_measurement_id": null,
+                  "prior_measurement_fa_state": null,
+                  "source_refs": [
+                    "sh/H6/judgments"
+                  ]
+                }
+              ],
+              "best_assignment_status": "tbd"
+            },
+            {
+              "line_id": "line:nad2-5897-abs",
+              "feature_id": "cwt:abs:0000",
+              "wavelength_angstrom": 6831.200000000244,
+              "rest_wavelength_angstrom": 5897.6,
+              "line_kind": "absorption",
+              "ionization_ev": null,
+              "measurement_source": "CWT",
+              "provenance": [
+                {
+                  "hypothesis_ref": "H1",
+                  "assignment_status": "tbd",
+                  "fa_state": "signal_present",
+                  "fa_review_status": "original_measurement",
+                  "measurement_source": "CWT",
+                  "prior_measurement_id": null,
+                  "prior_measurement_fa_state": null,
+                  "source_refs": [
+                    "sh/H1/judgments"
+                  ]
+                },
+                {
+                  "hypothesis_ref": "H6",
+                  "assignment_status": "tbd",
+                  "fa_state": "signal_present",
+                  "fa_review_status": "original_measurement",
+                  "measurement_source": "CWT",
+                  "prior_measurement_id": null,
+                  "prior_measurement_fa_state": null,
+                  "source_refs": [
+                    "sh/H6/judgments"
+                  ]
+                }
+              ],
+              "best_assignment_status": "tbd"
+            },
+            {
+              "line_id": "line:nii-6585",
+              "feature_id": "cwt:em:0002",
+              "wavelength_angstrom": 7632.0000000000255,
+              "rest_wavelength_angstrom": 6585.3,
+              "line_kind": "emission",
+              "ionization_ev": 29.6,
+              "measurement_source": "CWT",
+              "provenance": [
+                {
+                  "hypothesis_ref": "H1",
+                  "assignment_status": "non_tbd",
+                  "fa_state": "signal_present",
+                  "fa_review_status": "original_measurement",
+                  "measurement_source": "CWT",
+                  "prior_measurement_id": null,
+                  "prior_measurement_fa_state": null,
+                  "source_refs": [
+                    "sh/H1/judgments"
+                  ]
+                },
+                {
+                  "hypothesis_ref": "H6",
+                  "assignment_status": "non_tbd",
+                  "fa_state": "signal_present",
+                  "fa_review_status": "original_measurement",
+                  "measurement_source": "CWT",
+                  "prior_measurement_id": null,
+                  "prior_measurement_fa_state": null,
+                  "source_refs": [
+                    "sh/H6/judgments"
+                  ]
+                }
+              ],
+              "best_assignment_status": "non_tbd"
+            },
+            {
+              "line_id": "line:sii-6718",
+              "feature_id": "fit:H1:0002",
+              "wavelength_angstrom": 7786.159,
+              "rest_wavelength_angstrom": 6718.3,
+              "line_kind": "emission",
+              "ionization_ev": 23.34,
+              "measurement_source": "fit_doublet",
+              "provenance": [
+                {
+                  "hypothesis_ref": "H1",
+                  "assignment_status": "non_tbd",
+                  "fa_state": "signal_present",
+                  "fa_review_status": "original_measurement",
+                  "measurement_source": "fit_doublet",
+                  "prior_measurement_id": null,
+                  "prior_measurement_fa_state": null,
+                  "source_refs": [
+                    "sh/H1/judgments"
+                  ]
+                }
+              ],
+              "best_assignment_status": "non_tbd"
+            },
+            {
+              "line_id": "line:sii-6718",
+              "feature_id": "fit:H6:0002",
+              "wavelength_angstrom": 7786.159,
+              "rest_wavelength_angstrom": 6718.3,
+              "line_kind": "emission",
+              "ionization_ev": 23.34,
+              "measurement_source": "fit_doublet",
+              "provenance": [
+                {
+                  "hypothesis_ref": "H6",
+                  "assignment_status": "non_tbd",
+                  "fa_state": "signal_present",
+                  "fa_review_status": "original_measurement",
+                  "measurement_source": "fit_doublet",
+                  "prior_measurement_id": null,
+                  "prior_measurement_fa_state": null,
+                  "source_refs": [
+                    "sh/H6/judgments"
+                  ]
+                }
+              ],
+              "best_assignment_status": "non_tbd"
+            },
+            {
+              "line_id": "line:sii-6732",
+              "feature_id": "fit:H1:0003",
+              "wavelength_angstrom": 7803.824,
+              "rest_wavelength_angstrom": 6732.7,
+              "line_kind": "emission",
+              "ionization_ev": 23.34,
+              "measurement_source": "fit_doublet",
+              "provenance": [
+                {
+                  "hypothesis_ref": "H1",
+                  "assignment_status": "non_tbd",
+                  "fa_state": "signal_present",
+                  "fa_review_status": "original_measurement",
+                  "measurement_source": "fit_doublet",
+                  "prior_measurement_id": null,
+                  "prior_measurement_fa_state": null,
+                  "source_refs": [
+                    "sh/H1/judgments"
+                  ]
+                }
+              ],
+              "best_assignment_status": "non_tbd"
+            },
+            {
+              "line_id": "line:sii-6732",
+              "feature_id": "fit:H6:0003",
+              "wavelength_angstrom": 7803.824,
+              "rest_wavelength_angstrom": 6732.7,
+              "line_kind": "emission",
+              "ionization_ev": 23.34,
+              "measurement_source": "fit_doublet",
+              "provenance": [
+                {
+                  "hypothesis_ref": "H6",
+                  "assignment_status": "non_tbd",
+                  "fa_state": "signal_present",
+                  "fa_review_status": "original_measurement",
+                  "measurement_source": "fit_doublet",
+                  "prior_measurement_id": null,
+                  "prior_measurement_fa_state": null,
+                  "source_refs": [
+                    "sh/H6/judgments"
+                  ]
+                }
+              ],
+              "best_assignment_status": "non_tbd"
+            }
+          ],
+          "selected_pairs": [
+            {
+              "line_id": "line:cak-3934-abs",
+              "feature_id": "fit:H1:0004",
+              "wavelength_angstrom": 4561.006,
+              "rest_wavelength_angstrom": 3934.8,
+              "line_kind": "absorption",
+              "ionization_ev": null,
+              "measurement_source": "fit_doublet",
+              "provenance": [
+                {
+                  "hypothesis_ref": "H1",
+                  "assignment_status": "non_tbd",
+                  "fa_state": "signal_present",
+                  "fa_review_status": "original_measurement",
+                  "measurement_source": "fit_doublet",
+                  "prior_measurement_id": null,
+                  "prior_measurement_fa_state": null,
+                  "source_refs": [
+                    "sh/H1/judgments"
+                  ]
+                }
+              ],
+              "best_assignment_status": "non_tbd",
+              "merge_conflict": true,
+              "final_assignment_status": "non_tbd"
+            },
+            {
+              "line_id": "line:cah-3969-abs",
+              "feature_id": "fit:H1:0005",
+              "wavelength_angstrom": 4601.599,
+              "rest_wavelength_angstrom": 3969.6,
+              "line_kind": "absorption",
+              "ionization_ev": null,
+              "measurement_source": "fit_doublet",
+              "provenance": [
+                {
+                  "hypothesis_ref": "H1",
+                  "assignment_status": "non_tbd",
+                  "fa_state": "signal_present",
+                  "fa_review_status": "original_measurement",
+                  "measurement_source": "fit_doublet",
+                  "prior_measurement_id": null,
+                  "prior_measurement_fa_state": null,
+                  "source_refs": [
+                    "sh/H1/judgments"
+                  ]
+                }
+              ],
+              "best_assignment_status": "non_tbd",
+              "merge_conflict": true,
+              "final_assignment_status": "non_tbd"
+            },
+            {
+              "line_id": "line:heps-3970-abs",
+              "feature_id": "fit:H6:0012",
+              "wavelength_angstrom": 4601.668,
+              "rest_wavelength_angstrom": 3970.1,
+              "line_kind": "absorption",
+              "ionization_ev": null,
+              "measurement_source": "fit_peak",
+              "provenance": [
+                {
+                  "hypothesis_ref": "H6",
+                  "assignment_status": "non_tbd",
+                  "fa_state": "signal_present",
+                  "fa_review_status": "original_measurement",
+                  "measurement_source": "fit_peak",
+                  "prior_measurement_id": null,
+                  "prior_measurement_fa_state": null,
+                  "source_refs": [
+                    "sh/H6/judgments"
+                  ]
+                }
+              ],
+              "best_assignment_status": "non_tbd",
+              "merge_conflict": false,
+              "final_assignment_status": "non_tbd"
+            },
+            {
+              "line_id": "line:gband-4305-abs",
+              "feature_id": "fit:H1:0014",
+              "wavelength_angstrom": 4989.489,
+              "rest_wavelength_angstrom": 4305.6,
+              "line_kind": "absorption",
+              "ionization_ev": null,
+              "measurement_source": "fit_peak",
+              "provenance": [
+                {
+                  "hypothesis_ref": "H1",
+                  "assignment_status": "non_tbd",
+                  "fa_state": "signal_present",
+                  "fa_review_status": "original_measurement",
+                  "measurement_source": "fit_peak",
+                  "prior_measurement_id": null,
+                  "prior_measurement_fa_state": null,
+                  "source_refs": [
+                    "sh/H1/judgments"
+                  ]
+                }
+              ],
+              "best_assignment_status": "non_tbd",
+              "merge_conflict": true,
+              "final_assignment_status": "non_tbd"
+            },
+            {
+              "line_id": "line:hbet-4862-abs",
+              "feature_id": "fit:H6:0016",
+              "wavelength_angstrom": 5648.609,
+              "rest_wavelength_angstrom": 4862.7,
+              "line_kind": "absorption",
+              "ionization_ev": null,
+              "measurement_source": "fit_peak",
+              "provenance": [
+                {
+                  "hypothesis_ref": "H6",
+                  "assignment_status": "non_tbd",
+                  "fa_state": "signal_present",
+                  "fa_review_status": "original_measurement",
+                  "measurement_source": "fit_peak",
+                  "prior_measurement_id": null,
+                  "prior_measurement_fa_state": null,
+                  "source_refs": [
+                    "sh/H6/judgments"
+                  ]
+                }
+              ],
+              "best_assignment_status": "non_tbd",
+              "merge_conflict": false,
+              "final_assignment_status": "non_tbd"
+            },
+            {
+              "line_id": "line:mgi-5176-abs",
+              "feature_id": "fit:H1:0017",
+              "wavelength_angstrom": 6001.203,
+              "rest_wavelength_angstrom": 5176.7,
+              "line_kind": "absorption",
+              "ionization_ev": null,
+              "measurement_source": "fit_peak",
+              "provenance": [
+                {
+                  "hypothesis_ref": "H1",
+                  "assignment_status": "non_tbd",
+                  "fa_state": "signal_present",
+                  "fa_review_status": "original_measurement",
+                  "measurement_source": "fit_peak",
+                  "prior_measurement_id": null,
+                  "prior_measurement_fa_state": null,
+                  "source_refs": [
+                    "sh/H1/judgments"
+                  ]
+                }
+              ],
+              "best_assignment_status": "non_tbd",
+              "merge_conflict": false,
+              "final_assignment_status": "non_tbd"
+            },
+            {
+              "line_id": "line:nad1-5891-abs",
+              "feature_id": "cwt:abs:0000",
+              "wavelength_angstrom": 6831.200000000244,
+              "rest_wavelength_angstrom": 5891.6,
+              "line_kind": "absorption",
+              "ionization_ev": null,
+              "measurement_source": "CWT",
+              "provenance": [
+                {
+                  "hypothesis_ref": "H1",
+                  "assignment_status": "tbd",
+                  "fa_state": "signal_present",
+                  "fa_review_status": "original_measurement",
+                  "measurement_source": "CWT",
+                  "prior_measurement_id": null,
+                  "prior_measurement_fa_state": null,
+                  "source_refs": [
+                    "sh/H1/judgments"
+                  ]
+                },
+                {
+                  "hypothesis_ref": "H6",
+                  "assignment_status": "tbd",
+                  "fa_state": "signal_present",
+                  "fa_review_status": "original_measurement",
+                  "measurement_source": "CWT",
+                  "prior_measurement_id": null,
+                  "prior_measurement_fa_state": null,
+                  "source_refs": [
+                    "sh/H6/judgments"
+                  ]
+                }
+              ],
+              "best_assignment_status": "tbd",
+              "merge_conflict": false,
+              "final_assignment_status": "tbd"
+            },
+            {
+              "line_id": "line:nii-6585",
+              "feature_id": "cwt:em:0002",
+              "wavelength_angstrom": 7632.0000000000255,
+              "rest_wavelength_angstrom": 6585.3,
+              "line_kind": "emission",
+              "ionization_ev": 29.6,
+              "measurement_source": "CWT",
+              "provenance": [
+                {
+                  "hypothesis_ref": "H1",
+                  "assignment_status": "non_tbd",
+                  "fa_state": "signal_present",
+                  "fa_review_status": "original_measurement",
+                  "measurement_source": "CWT",
+                  "prior_measurement_id": null,
+                  "prior_measurement_fa_state": null,
+                  "source_refs": [
+                    "sh/H1/judgments"
+                  ]
+                },
+                {
+                  "hypothesis_ref": "H6",
+                  "assignment_status": "non_tbd",
+                  "fa_state": "signal_present",
+                  "fa_review_status": "original_measurement",
+                  "measurement_source": "CWT",
+                  "prior_measurement_id": null,
+                  "prior_measurement_fa_state": null,
+                  "source_refs": [
+                    "sh/H6/judgments"
+                  ]
+                }
+              ],
+              "best_assignment_status": "non_tbd",
+              "merge_conflict": false,
+              "final_assignment_status": "non_tbd"
+            },
+            {
+              "line_id": "line:sii-6718",
+              "feature_id": "fit:H1:0002",
+              "wavelength_angstrom": 7786.159,
+              "rest_wavelength_angstrom": 6718.3,
+              "line_kind": "emission",
+              "ionization_ev": 23.34,
+              "measurement_source": "fit_doublet",
+              "provenance": [
+                {
+                  "hypothesis_ref": "H1",
+                  "assignment_status": "non_tbd",
+                  "fa_state": "signal_present",
+                  "fa_review_status": "original_measurement",
+                  "measurement_source": "fit_doublet",
+                  "prior_measurement_id": null,
+                  "prior_measurement_fa_state": null,
+                  "source_refs": [
+                    "sh/H1/judgments"
+                  ]
+                }
+              ],
+              "best_assignment_status": "non_tbd",
+              "merge_conflict": true,
+              "final_assignment_status": "non_tbd"
+            },
+            {
+              "line_id": "line:sii-6732",
+              "feature_id": "fit:H1:0003",
+              "wavelength_angstrom": 7803.824,
+              "rest_wavelength_angstrom": 6732.7,
+              "line_kind": "emission",
+              "ionization_ev": 23.34,
+              "measurement_source": "fit_doublet",
+              "provenance": [
+                {
+                  "hypothesis_ref": "H1",
+                  "assignment_status": "non_tbd",
+                  "fa_state": "signal_present",
+                  "fa_review_status": "original_measurement",
+                  "measurement_source": "fit_doublet",
+                  "prior_measurement_id": null,
+                  "prior_measurement_fa_state": null,
+                  "source_refs": [
+                    "sh/H1/judgments"
+                  ]
+                }
+              ],
+              "best_assignment_status": "non_tbd",
+              "merge_conflict": true,
+              "final_assignment_status": "non_tbd"
+            }
+          ],
+          "excluded_pairs": [
+            {
+              "line_id": "line:cak-3934-abs",
+              "feature_id": "fit:H6:0004",
+              "had_fa_confirmation": true,
+              "reason": "another_feature_selected_for_line"
+            },
+            {
+              "line_id": "line:cah-3969-abs",
+              "feature_id": "fit:H6:0005",
+              "had_fa_confirmation": true,
+              "reason": "another_feature_selected_for_line"
+            },
+            {
+              "line_id": "line:gband-4305-abs",
+              "feature_id": "fit:H6:0014",
+              "had_fa_confirmation": true,
+              "reason": "another_feature_selected_for_line"
+            },
+            {
+              "line_id": "line:nad2-5897-abs",
+              "feature_id": "cwt:abs:0000",
+              "had_fa_confirmation": true,
+              "reason": "feature_selected_for_another_line"
+            },
+            {
+              "line_id": "line:sii-6718",
+              "feature_id": "fit:H6:0002",
+              "had_fa_confirmation": true,
+              "reason": "another_feature_selected_for_line"
+            },
+            {
+              "line_id": "line:sii-6732",
+              "feature_id": "fit:H6:0003",
+              "had_fa_confirmation": true,
+              "reason": "another_feature_selected_for_line"
+            }
+          ],
+          "fa_resolved_line_ids": [],
+          "merge_tbd_line_ids": [
+            "line:cah-3969-abs",
+            "line:cak-3934-abs",
+            "line:gband-4305-abs",
+            "line:sii-6718",
+            "line:sii-6732"
+          ],
+          "lost_shared_key_pairs": [],
+          "lost_type_support_line_ids": [],
+          "type_recheck_required": false,
+          "retained_line_count": 10,
+          "relative_error_l1": 0.0032995759747712627,
+          "relative_error_l2_squared": 4.7904011020835444e-06,
+          "iterations": [
+            {
+              "scoring_redshift": 0.15914557283724706,
+              "anchor_source": {
+                "kind": "line",
+                "line_id": "line:cak-3934-abs",
+                "feature_id": "fit:H1:0004"
+              },
+              "retained_line_count": 10,
+              "relative_error_l1": 0.0032995759747712627,
+              "relative_error_l2_squared": 4.7904011020835444e-06
+            }
+          ]
+        }
+      }
+    ],
+    "status": "provisional_selection",
+    "ra_review_pending": true
+  },
+  "hs_groups": [
+    {
+      "group_id": "hs.cross/H1+H6",
+      "candidate_type": "LRG/BGS",
+      "member_hypotheses": [
+        "H1",
+        "H6"
+      ],
+      "merge_status": "cross_merge",
+      "merged_anchor_redshift": 0.15914557283724706
+    }
+  ],
+  "hs_initial_groups": [
+    {
+      "group_id": "hs.merge/H1",
+      "member_hypotheses": [
+        "H1"
+      ]
+    },
+    {
+      "group_id": "hs.merge/H6",
+      "member_hypotheses": [
+        "H6"
+      ]
+    }
+  ],
+  "fa_summary": {
+    "run_id": "graph-df7434d5533647e999870708120307b0",
+    "branch_id": "main",
+    "requested_features": 74,
+    "scheduled_vote_seats": 222,
+    "successful_votes": 222,
+    "failed_seats": [],
+    "blocked_features": [],
+    "signal_present": [
+      "cwt:abs:0000",
+      "cwt:em:0002",
+      "fit:H1:0002",
+      "fit:H1:0003",
+      "fit:H1:0004",
+      "fit:H1:0005",
+      "fit:H1:0014",
+      "fit:H1:0017",
+      "fit:H2:0011",
+      "fit:H3:0017",
+      "fit:H3:0018",
+      "fit:H4:0011",
+      "fit:H6:0002",
+      "fit:H6:0003",
+      "fit:H6:0004",
+      "fit:H6:0005",
+      "fit:H6:0012",
+      "fit:H6:0014",
+      "fit:H6:0016"
+    ],
+    "signal_absent": [
+      "cwt:abs:0002",
+      "cwt:em:0001",
+      "fit:H1:0001",
+      "fit:H1:0007",
+      "fit:H1:0012",
+      "fit:H1:0013",
+      "fit:H1:0015",
+      "fit:H1:0016",
+      "fit:H2:0003",
+      "fit:H2:0007",
+      "fit:H2:0008",
+      "fit:H2:0009",
+      "fit:H2:0010",
+      "fit:H2:0012",
+      "fit:H2:0013",
+      "fit:H2:0015",
+      "fit:H2:0016",
+      "fit:H2:0017",
+      "fit:H2:0019",
+      "fit:H2:0020",
+      "fit:H2:0022",
+      "fit:H2:0023",
+      "fit:H3:0015",
+      "fit:H3:0016",
+      "fit:H3:0019",
+      "fit:H3:0020",
+      "fit:H3:0021",
+      "fit:H4:0001",
+      "fit:H4:0002",
+      "fit:H4:0003",
+      "fit:H4:0004",
+      "fit:H4:0006",
+      "fit:H4:0007",
+      "fit:H4:0008",
+      "fit:H4:0009",
+      "fit:H4:0010",
+      "fit:H4:0012",
+      "fit:H4:0013",
+      "fit:H4:0014",
+      "fit:H4:0015",
+      "fit:H4:0016",
+      "fit:H4:0017",
+      "fit:H4:0019",
+      "fit:H4:0020",
+      "fit:H4:0022",
+      "fit:H4:0023",
+      "fit:H5:0000",
+      "fit:H5:0001",
+      "fit:H5:0003",
+      "fit:H5:0007",
+      "fit:H6:0001",
+      "fit:H6:0007",
+      "fit:H6:0013",
+      "fit:H6:0015",
+      "fit:H6:0017"
+    ],
+    "pending_features": [],
+    "model_call_count": 222,
+    "input_tokens": 1082085,
+    "output_tokens": 60689,
+    "cache_hit_tokens": 878080,
+    "cache_hit_reported_calls": 222,
+    "cache_hit_unreported_calls": 0
+  },
+  "reasoning_tree_path": "/mnt/linux_share/code/FORMA/example/basic/output/20261019T110542Z-e9a5abd8/BGS_2/reasoning_tree.json"
+}

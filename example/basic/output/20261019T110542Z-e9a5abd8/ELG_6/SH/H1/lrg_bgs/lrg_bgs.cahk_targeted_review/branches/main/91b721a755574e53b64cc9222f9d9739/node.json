@@ -1,0 +1,129 @@
+{
+  "schema_version": "forma-lrg-bgs-node-v1",
+  "graph_version": "forma-lrg-bgs-type-graph-v2",
+  "run_id": "graph-fe0d30030bcc4939b88103e27753b2c1",
+  "branch_id": "main",
+  "hypothesis_ref": "H1",
+  "node_key": "sh2.lrg_bgs/H1/lrg_bgs.cahk_targeted_review",
+  "node_type": "lrg_bgs.cahk_targeted_review",
+  "status": "completed",
+  "input_refs": [
+    "sh2/dceb72598b754cf78d4621d0359a0fa7/node",
+    "sh/H1/catalog",
+    "spectrum_npz",
+    "lrg_bgs_cahk_vote/be3ef91465d64ae9aa8aac082fdd9df1/vote.json",
+    "lrg_bgs_cahk_vote/be3ef91465d64ae9aa8aac082fdd9df1/session.md",
+    "lrg_bgs_cahk_vote/be3ef91465d64ae9aa8aac082fdd9df1/model_usage.json",
+    "lrg_bgs_cahk_vote/291bafbd03504c86bd0f1d46df696538/vote.json",
+    "lrg_bgs_cahk_vote/291bafbd03504c86bd0f1d46df696538/session.md",
+    "lrg_bgs_cahk_vote/291bafbd03504c86bd0f1d46df696538/model_usage.json",
+    "lrg_bgs_cahk_vote/dbce2c7a8c4b4c3d866ab6a82932df5f/vote.json",
+    "lrg_bgs_cahk_vote/dbce2c7a8c4b4c3d866ab6a82932df5f/session.md",
+    "lrg_bgs_cahk_vote/dbce2c7a8c4b4c3d866ab6a82932df5f/model_usage.json"
+  ],
+  "evidence_refs": [
+    "sh2/dceb72598b754cf78d4621d0359a0fa7/node",
+    "sh/H1/catalog",
+    "spectrum_npz",
+    "lrg_bgs_cahk_vote/be3ef91465d64ae9aa8aac082fdd9df1/vote.json",
+    "lrg_bgs_cahk_vote/be3ef91465d64ae9aa8aac082fdd9df1/session.md",
+    "lrg_bgs_cahk_vote/be3ef91465d64ae9aa8aac082fdd9df1/model_usage.json",
+    "lrg_bgs_cahk_vote/291bafbd03504c86bd0f1d46df696538/vote.json",
+    "lrg_bgs_cahk_vote/291bafbd03504c86bd0f1d46df696538/session.md",
+    "lrg_bgs_cahk_vote/291bafbd03504c86bd0f1d46df696538/model_usage.json",
+    "lrg_bgs_cahk_vote/dbce2c7a8c4b4c3d866ab6a82932df5f/vote.json",
+    "lrg_bgs_cahk_vote/dbce2c7a8c4b4c3d866ab6a82932df5f/session.md",
+    "lrg_bgs_cahk_vote/dbce2c7a8c4b4c3d866ab6a82932df5f/model_usage.json"
+  ],
+  "output": {
+    "status": "complete",
+    "source": "targeted_window",
+    "pair_supported": false,
+    "vote_summary": {
+      "yes": 0,
+      "no": 3,
+      "yes_fraction": 0.0,
+      "assurance": "assured"
+    },
+    "consultative_only": false,
+    "coverage": {
+      "requested_window_angstrom": [
+        4275.108691201754,
+        4473.625968434096
+      ],
+      "actual_window_angstrom": [
+        4275.2000000001535,
+        4473.600000000199
+      ],
+      "spectrum_bounds_angstrom": [
+        3600.0,
+        9824.000000000524
+      ],
+      "component_cores": [
+        {
+          "line_id": "line:cak-3934-abs",
+          "predicted_obs_angstrom": 4355.108691201754,
+          "center_within_spectrum_bounds": true,
+          "samples": 37,
+          "valid_samples": 37,
+          "masked_samples": 0,
+          "assessable": true
+        },
+        {
+          "line_id": "line:cah-3969-abs",
+          "predicted_obs_angstrom": 4393.625968434096,
+          "center_within_spectrum_bounds": true,
+          "samples": 37,
+          "valid_samples": 37,
+          "masked_samples": 0,
+          "assessable": true
+        }
+      ],
+      "assessable": true,
+      "unreviewable_reason": null
+    },
+    "model_usage": {
+      "calls": 3,
+      "input_tokens": 26469,
+      "output_tokens": 466,
+      "cache_hit_tokens": 1152,
+      "cache_hit_reported_calls": 3,
+      "cache_hit_unreported_calls": 0
+    },
+    "ballots": [
+      {
+        "seat": 0,
+        "answer": "no",
+        "reason": "Ca K region (4355.1 Å) shows only a shallow dip (flux -0.43 at 4355.2, ivar ~2.9, low S/N) with no clear absorption trough; Ca H at 4393.6 Å shows no absorption at all (flux 0.61, near continuum, flanked by emission at 4392-4393). No paired doublet absorption is visible in the pixels.",
+        "vote_ref": "lrg_bgs_cahk_vote/be3ef91465d64ae9aa8aac082fdd9df1/vote.json"
+      },
+      {
+        "seat": 1,
+        "answer": "no",
+        "reason": "Ca K region (4355.1 Å) shows only a shallow dip (flux ~-0.43 at 4355.2, ivar ~2.9, i.e. very low S/N) with no convincing absorption trough; Ca H at 4393.6 Å shows no absorption at all (flux 0.61 at 4393.6, rising to 2.6 at 4395.2). No paired doublet absorption is visible in the pixels.",
+        "vote_ref": "lrg_bgs_cahk_vote/291bafbd03504c86bd0f1d46df696538/vote.json"
+      },
+      {
+        "seat": 2,
+        "answer": "no",
+        "reason": "Ca K region (4355.1 Å) shows only a shallow dip (flux ~-0.43 at 4355.2, ivar ~2.9, low S/N) with no clear absorption trough; Ca H region (4393.6 Å) shows no absorption at all (flux 0.61 at 4393.6, flanked by emission at 4392-4392.8 and 4394.4-4396). No paired doublet absorption is visible in the pixels.",
+        "vote_ref": "lrg_bgs_cahk_vote/dbce2c7a8c4b4c3d866ab6a82932df5f/vote.json"
+      }
+    ],
+    "prompt_identity": {
+      "system_sha256": "c7319c122c261f28422d8edc735773b66703735f52f5f0263aaa015fa60771d7",
+      "user_sha256": "14e6f8ab1a0665e1924248ea028463cdf307f822f3ac31b31b0ce5fb97f26831",
+      "tool_name": "submit_cahk_vote",
+      "prompt_text_sha256": "2cd270f2b53aacc4e206a3ce1fb2561195f8294054ac3a945f34c6b64b46c989"
+    },
+    "unresolved_reasons": [],
+    "sampled_observation": {
+      "status": "not_required",
+      "candidates": []
+    }
+  },
+  "unresolved_reasons": [],
+  "created_by": "code",
+  "node_execution_id": "91b721a755574e53b64cc9222f9d9739",
+  "attempt_id": "ddb0e29bf74c4178958690d0c80f31b2"
+}

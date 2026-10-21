@@ -1,0 +1,13 @@
+{
+  "answer": "no",
+  "reason": "Neither window shows absorption: Ca K region (~8438 Å) is flat with no dip at prediction (claimed center 8447.4 Å is ~9 Å off, FA signal_absent), and Ca H region (~8512.8 Å) is flat with no feature (SH NOT_FOUND, no pairing). The orphan two-component interpretation is not corroborated.",
+  "execution": {
+    "schema_version": "forma-agentic-node-execution-v1",
+    "run_id": "graph-6f4e6510cc5d45df9da3b7be0c8597cc",
+    "branch_id": "main",
+    "node_key": "fa.real_doublet_or_not/graph-6f4e6510cc5d45df9da3b7be0c8597cc/H4/doublet%3Acahk",
+    "node_execution_id": "fc91a97a95034c759ccb2f56d98a1b2f",
+    "attempt_id": "8e02481c161f4d03b85ba1d7f102f75e",
+    "relative_dir": "FA/H4/real_doublet_or_not/doublet-cahk-adc0de4c56cfce1d/branches/main/fc91a97a95034c759ccb2f56d98a1b2f"
+  }
+}

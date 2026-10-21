@@ -1,0 +1,26 @@
+{
+  "schema_version": "forma-sh-line-review-v1",
+  "key": "sh.pre_analysis/graph-853b617a68f04c36bd82f06bdb770ac4/H2",
+  "hypothesis_ref": "H2",
+  "hypothesis_redshift": 0.6713696831689161,
+  "status": "complete",
+  "csv_path": "/mnt/linux_share/code/FORMA/example/basic/output/20261019T110542Z-e9a5abd8/QSO_4/SH/H2/pre_analysis/branches/main/6a3c37c19110494595eddd41e08b7b49/lines.csv",
+  "csv_sha256": "21c75e48a3640859e0ed285be786348ac9ec8969f47a0da454d77dcc8ea64c94",
+  "measurement_catalog_path": "/mnt/linux_share/code/FORMA/example/basic/output/20261019T110542Z-e9a5abd8/QSO_4/VI/measurements/hypothesis_001_measurement_catalog.json",
+  "measurement_catalog_sha256": "11681d85dba9d30a6f46bcea610677cf2af493f7dd5c4ff0eec1ae0cefb783db",
+  "judgment_path": "/mnt/linux_share/code/FORMA/example/basic/output/20261019T110542Z-e9a5abd8/QSO_4/SH/H2/pre_analysis/branches/main/6a3c37c19110494595eddd41e08b7b49/lines_judgments.json",
+  "judgment_sha256": "db190fab38bd614e13800883ed4d326fb6a016ddd54e8429cfbfbed87921b17a",
+  "session_stage1_path": "/mnt/linux_share/code/FORMA/example/basic/output/20261019T110542Z-e9a5abd8/QSO_4/SH/H2/pre_analysis/branches/main/6a3c37c19110494595eddd41e08b7b49/stage1_session.md",
+  "session_stage1_sha256": "683b84b438aaef3c9fc7a6e71905f3ce9bd9238388e9a55247fb4caae0ddab10",
+  "adopted_lines_plot_path": "/mnt/linux_share/code/FORMA/example/basic/output/20261019T110542Z-e9a5abd8/QSO_4/SH/H2/pre_analysis/branches/main/6a3c37c19110494595eddd41e08b7b49/adopted_lines.png",
+  "adopted_lines_plot_sha256": "a486967c80adb3827b05638ef9d0bd9f4d56b2e3cec4fae9bed8b08755e861e8",
+  "execution": {
+    "schema_version": "forma-agentic-node-execution-v1",
+    "run_id": "graph-853b617a68f04c36bd82f06bdb770ac4",
+    "branch_id": "main",
+    "node_key": "sh.pre_analysis/graph-853b617a68f04c36bd82f06bdb770ac4/H2",
+    "node_execution_id": "6a3c37c19110494595eddd41e08b7b49",
+    "attempt_id": "4a6e1eba52d54b7d8eba23b72f591839",
+    "relative_dir": "SH/H2/pre_analysis/branches/main/6a3c37c19110494595eddd41e08b7b49"
+  }
+}

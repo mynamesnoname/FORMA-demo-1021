@@ -1,0 +1,13 @@
+{
+  "answer": "no",
+  "reason": "Ca K window (~6720 Å) shows only continuum scatter with no absorption trough (SH=NOT_FOUND, no measurement). Ca H window (~6780 Å) likewise lacks a dip; the claimed center 6784.7 Å is ~5 Å off prediction and lands on a local flux maximum (0.637), consistent with FA signal_absent and rejected pairing. Neither component is visually supported, so the pair interpretation is uncorroborated.",
+  "execution": {
+    "schema_version": "forma-agentic-node-execution-v1",
+    "run_id": "graph-325ff74c7f444efdb17e3f3b69698eea",
+    "branch_id": "main",
+    "node_key": "fa.real_doublet_or_not/graph-325ff74c7f444efdb17e3f3b69698eea/H6/doublet%3Acahk",
+    "node_execution_id": "a252cf52dfbc4f24b4d2602b419bc385",
+    "attempt_id": "b873055a7e734b01a0bfd87b6758d2af",
+    "relative_dir": "FA/H6/real_doublet_or_not/doublet-cahk-adc0de4c56cfce1d/branches/main/a252cf52dfbc4f24b4d2602b419bc385"
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "answer": "no",
+  "reason": "Component a window (~4953.5 Å) shows no emission feature, consistent with NOT_FOUND. Component b's claimed center (5018.7 Å) is ~17 Å off prediction and that location shows only a modest bump amid comparable scatter; no credible line at 5001.4 Å either. No measured separation or ratio supports the pair.",
+  "execution": {
+    "schema_version": "forma-agentic-node-execution-v1",
+    "run_id": "graph-df7434d5533647e999870708120307b0",
+    "branch_id": "main",
+    "node_key": "fa.real_doublet_or_not/graph-df7434d5533647e999870708120307b0/H4/doublet%3Aoiii",
+    "node_execution_id": "994f71f95ea146c886338eb93005a4b3",
+    "attempt_id": "0f532ad302184eff840d9e9afd7d5e01",
+    "relative_dir": "FA/H4/real_doublet_or_not/doublet-oiii-15250b3aa7a2fbdb/branches/main/994f71f95ea146c886338eb93005a4b3"
+  }
+}

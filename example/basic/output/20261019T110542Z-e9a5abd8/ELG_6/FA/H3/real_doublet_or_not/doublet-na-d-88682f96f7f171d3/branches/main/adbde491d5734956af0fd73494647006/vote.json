@@ -1,0 +1,13 @@
+{
+  "answer": "no",
+  "reason": "D1 window (5889.6-5893.6 Å) shows no absorption dip at 5892.6 Å, only a single low-ivar noise spike at 5891.2; D2 window (5896.8-5900 Å) shows a shallow noisy decline with fit center 5900.40 Å, 1.82 Å off prediction, in low-ivar pixels. Neither component is a credible line, so the orphan pair is unsupported.",
+  "execution": {
+    "schema_version": "forma-agentic-node-execution-v1",
+    "run_id": "graph-fe0d30030bcc4939b88103e27753b2c1",
+    "branch_id": "main",
+    "node_key": "fa.real_doublet_or_not/graph-fe0d30030bcc4939b88103e27753b2c1/H3/doublet%3Ana-d",
+    "node_execution_id": "adbde491d5734956af0fd73494647006",
+    "attempt_id": "4bccbc3bc18045609cf506e5b3eb88fb",
+    "relative_dir": "FA/H3/real_doublet_or_not/doublet-na-d-88682f96f7f171d3/branches/main/adbde491d5734956af0fd73494647006"
+  }
+}

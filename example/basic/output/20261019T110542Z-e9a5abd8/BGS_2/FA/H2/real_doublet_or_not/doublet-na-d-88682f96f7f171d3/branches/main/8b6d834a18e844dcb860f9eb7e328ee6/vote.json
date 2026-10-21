@@ -1,0 +1,13 @@
+{
+  "answer": "no",
+  "reason": "Component a window (5883.9 Å) is flat continuum with no absorption dip (SH NOT_FOUND, FA none). Component b shows only a shallow, noisy dip whose fit center (5891.3 Å) is 1.4 Å redward of prediction, and its single-feature FA is signal_absent. No credible paired Na D doublet is corroborated.",
+  "execution": {
+    "schema_version": "forma-agentic-node-execution-v1",
+    "run_id": "graph-df7434d5533647e999870708120307b0",
+    "branch_id": "main",
+    "node_key": "fa.real_doublet_or_not/graph-df7434d5533647e999870708120307b0/H2/doublet%3Ana-d",
+    "node_execution_id": "8b6d834a18e844dcb860f9eb7e328ee6",
+    "attempt_id": "2d226af054cb44c7b17a0f878811da51",
+    "relative_dir": "FA/H2/real_doublet_or_not/doublet-na-d-88682f96f7f171d3/branches/main/8b6d834a18e844dcb860f9eb7e328ee6"
+  }
+}

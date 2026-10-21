@@ -1,0 +1,13 @@
+{
+  "answer": "no",
+  "reason": "Both windows (~8408 and ~8426 Å) show flat, noisy continuum with no distinct emission peaks at the predicted positions. Both components share the same measured center (8430.4 Å), giving zero separation vs 18 Å expected — a pairing mismatch. The 8430 Å feature is a low-ivar noise spike, not a resolved doublet; single-feature states are signal_absent.",
+  "execution": {
+    "schema_version": "forma-agentic-node-execution-v1",
+    "run_id": "graph-6f4e6510cc5d45df9da3b7be0c8597cc",
+    "branch_id": "main",
+    "node_key": "fa.real_doublet_or_not/graph-6f4e6510cc5d45df9da3b7be0c8597cc/H1/doublet%3Asii",
+    "node_execution_id": "7ed0e3af6c5a461f84d6c005ff843ebf",
+    "attempt_id": "1ba0e4b1288d48e9a835c8f4257fbed0",
+    "relative_dir": "FA/H1/real_doublet_or_not/doublet-sii-21eebc95bccd5619/branches/main/7ed0e3af6c5a461f84d6c005ff843ebf"
+  }
+}

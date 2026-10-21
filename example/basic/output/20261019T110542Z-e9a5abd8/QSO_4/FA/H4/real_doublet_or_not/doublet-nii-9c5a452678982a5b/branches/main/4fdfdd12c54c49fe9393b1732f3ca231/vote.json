@@ -1,0 +1,13 @@
+{
+  "answer": "no",
+  "reason": "Component a window (6536-6538 Å) shows only continuum-level flux with no distinct peak at the claimed center, matching its signal_absent state. Component b's weak bump sits ~7 Å blueward of prediction (6565.9 vs 6573.2), a pairing mismatch, with continuum at the predicted position. Separation is 5.8 Å short and the ratio is outside the advisory window; the joint doublet is not visually corroborated.",
+  "execution": {
+    "schema_version": "forma-agentic-node-execution-v1",
+    "run_id": "graph-853b617a68f04c36bd82f06bdb770ac4",
+    "branch_id": "main",
+    "node_key": "fa.real_doublet_or_not/graph-853b617a68f04c36bd82f06bdb770ac4/H4/doublet%3Anii",
+    "node_execution_id": "4fdfdd12c54c49fe9393b1732f3ca231",
+    "attempt_id": "ec2a0bed2caa4c6f918bfa6783b2aaba",
+    "relative_dir": "FA/H4/real_doublet_or_not/doublet-nii-9c5a452678982a5b/branches/main/4fdfdd12c54c49fe9393b1732f3ca231"
+  }
+}

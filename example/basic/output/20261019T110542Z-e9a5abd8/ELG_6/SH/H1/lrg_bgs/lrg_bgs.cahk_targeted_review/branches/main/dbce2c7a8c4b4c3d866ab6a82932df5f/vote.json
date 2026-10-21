@@ -1,0 +1,13 @@
+{
+  "answer": "no",
+  "reason": "Ca K region (4355.1 Å) shows only a shallow dip (flux ~-0.43 at 4355.2, ivar ~2.9, low S/N) with no clear absorption trough; Ca H region (4393.6 Å) shows no absorption at all (flux 0.61 at 4393.6, flanked by emission at 4392-4392.8 and 4394.4-4396). No paired doublet absorption is visible in the pixels.",
+  "execution": {
+    "schema_version": "forma-agentic-node-execution-v1",
+    "run_id": "graph-fe0d30030bcc4939b88103e27753b2c1",
+    "branch_id": "main",
+    "node_key": "sh2.lrg_bgs/H1/lrg_bgs.cahk_targeted_review",
+    "node_execution_id": "dbce2c7a8c4b4c3d866ab6a82932df5f",
+    "attempt_id": "dc7e58e1bb2347e8a23ae01846cda538",
+    "relative_dir": "SH/H1/lrg_bgs/lrg_bgs.cahk_targeted_review/branches/main/dbce2c7a8c4b4c3d866ab6a82932df5f"
+  }
+}

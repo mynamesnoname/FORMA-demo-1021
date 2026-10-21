@@ -1,0 +1,9 @@
+{
+  "schema_version": "forma-agentic-node-execution-v1",
+  "run_id": "graph-853b617a68f04c36bd82f06bdb770ac4",
+  "branch_id": "main",
+  "node_key": "sh2.qso/H1/qso.nev_pairing_gate",
+  "node_execution_id": "f38acbe4c26a4b3d874cddbd392aaded",
+  "attempt_id": "7aff3f904eb2497ca18f3bc2308d0d88",
+  "relative_dir": "SH/H1/qso/qso.nev_pairing_gate/branches/main/f38acbe4c26a4b3d874cddbd392aaded"
+}

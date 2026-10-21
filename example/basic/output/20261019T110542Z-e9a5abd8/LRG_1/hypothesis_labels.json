@@ -1,0 +1,48 @@
+{
+  "schema_version": "forma-agentic-redrock-labels-v1",
+  "seed": "62d9a204c932338162fae2e182a3cc97",
+  "entries": [
+    {
+      "hypothesis_ref": "H1",
+      "znum": 5,
+      "redshift": 0.2515625506820086,
+      "spectype": "GALAXY",
+      "subtype": "LRG_1;BGS_0"
+    },
+    {
+      "hypothesis_ref": "H2",
+      "znum": 2,
+      "redshift": -0.0002616156273229071,
+      "spectype": "STAR",
+      "subtype": "WD:DB_0;O8e(188001)_31"
+    },
+    {
+      "hypothesis_ref": "H3",
+      "znum": 3,
+      "redshift": 0.2725121403358714,
+      "spectype": "QSO",
+      "subtype": "BAL_53;BAL_1"
+    },
+    {
+      "hypothesis_ref": "H4",
+      "znum": 4,
+      "redshift": 1.1444862294603826,
+      "spectype": "QSO",
+      "subtype": "BAL_1;BAL_7"
+    },
+    {
+      "hypothesis_ref": "H5",
+      "znum": 0,
+      "redshift": 0.2717824860918102,
+      "spectype": "GALAXY",
+      "subtype": "LRG_1;LRG_3"
+    },
+    {
+      "hypothesis_ref": "H6",
+      "znum": 1,
+      "redshift": 0.001342809297630766,
+      "spectype": "STAR",
+      "subtype": "WD:DB_0;WD:DA_1"
+    }
+  ]
+}

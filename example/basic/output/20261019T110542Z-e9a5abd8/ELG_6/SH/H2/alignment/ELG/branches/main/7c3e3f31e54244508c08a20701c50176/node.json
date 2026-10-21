@@ -1,0 +1,253 @@
+{
+  "schema_version": "forma-sh-line-alignment-v1",
+  "run_id": "graph-fe0d30030bcc4939b88103e27753b2c1",
+  "branch_id": "main",
+  "hypothesis_ref": "H2",
+  "graph": "ELG",
+  "node_key": "sh2.alignment/H2/ELG",
+  "node_execution_id": "7c3e3f31e54244508c08a20701c50176",
+  "input_refs": [
+    "sh/H2/node",
+    "sh/H2/catalog",
+    "sh/H2/judgments",
+    "spectrum_npz",
+    "fa/02965b48b9354740ba86e71bd330f0b5/node",
+    "fa/099aa9932e964ca0b36691801cf35439/node",
+    "fa/09d2ef6b631947f1bc5a1e39dd318500/node",
+    "fa/17092ccdcc2342a5be01c0276cdde89d/node",
+    "fa/19ea8b05f7b4470289d3341fb8adc174/node",
+    "fa/19fea7b7d50d4af9aced59f0128a981c/node",
+    "fa/1cde13ea9b4440bd96f4415429a87c69/node",
+    "fa/1dca4ca4940b4a55ada32387e1c6e99e/node",
+    "fa/1e34ea100b834a04b471fc74fc6661ff/node",
+    "fa/23e457d0e6e44d7c93bb0bd68b2bf6ec/node",
+    "fa/255b715fafa44007a6d7e6d9e3247d20/node",
+    "fa/26f87c7a2c7545c89662311ab13a744b/node",
+    "fa/27a4d18069514c23b98e3794958e00ad/node",
+    "fa/2c50ff5c25364b928cab718eadd55f86/node",
+    "fa/320a8b9a73184156b93927f20f1f5cfa/node",
+    "fa/363223d14ef34cb5a57da8de9bd0c2ee/node",
+    "fa/3941e33df75a4c7e8d908ca2461d60a6/node",
+    "fa/43923ae6230440009b449b3a0e21e1e3/node",
+    "fa/46f4e7e76bb54c548fef914ec5c37389/node",
+    "fa/47900d82f9a3406b8dfd2e517957d0d4/node",
+    "fa/56a1091bcae64749b8db5d0875fb9212/node",
+    "fa/5e2a3e0ae3d94369be31f7eb2117ba43/node",
+    "fa/5f6a24989a6249a6852f7426bb8acdfb/node",
+    "fa/5fcfb8fd9b7d4deeb8159840997e57d0/node",
+    "fa/615637b258c54d2da95999e92824c341/node",
+    "fa/6b72ceca6d8044b39c38ace60e1d6c81/node",
+    "fa/71759de65128463ebc33668b02364990/node",
+    "fa/721484c7716c4157a93745e78e792c0d/node",
+    "fa/772d33310d634011833c468f66089d04/node",
+    "fa/78b3aac56efa44e4bfd6c059a4564179/node",
+    "fa/7dc5fdda4abc498b922653eb5e88a26c/node",
+    "fa/811c1588e10a4d69819e3ced68b89f5c/node",
+    "fa/8d277314fa5e4142be3176009d6d0870/node",
+    "fa/93618f8e811d43d088780decaaad3317/node",
+    "fa/9be9acdfdd98486eaba21433da416e2b/node",
+    "fa/a416f02342a046fc91f90e6617bd2cfd/node",
+    "fa/a5750320fca4423eab9bbe5d7ad28289/node",
+    "fa/a9a836780c914e15bb2479546bd8b5f2/node",
+    "fa/a9acbdde0e0c49769f36b73729057c0d/node",
+    "fa/b88a9233e88d4a41ab45712e665b92e7/node",
+    "fa/bda4763884a746888c724bd91328190a/node",
+    "fa/bef91f4b89434c5da1acb1d2bf4384e9/node",
+    "fa/c416b28371b5419b9966b86d6ce40e1a/node",
+    "fa/cf28f57f2acb49c8a58a1c0790fe77b7/node",
+    "fa/d34a178d50664f5a9ad7fed5b4ecf591/node",
+    "fa/d5dfe389c0a14b29b2fb320562298a08/node",
+    "fa/d7c3ed75f3384f138fcba289c755a08e/node",
+    "fa/d8cf0471f341475686a790dd63daed01/node",
+    "fa/ddd34a42cd6443b792f598b01f717ea3/node",
+    "fa/e4d33edb9cc34845851b82f8e810ee25/node",
+    "fa/f3b19fb3a472488d8b0902d9fbab4c99/node"
+  ],
+  "vote_refs": [],
+  "output": {
+    "collisions": [],
+    "aligned_claims": [
+      {
+        "line_id": "line:cah-3969-abs",
+        "original_measurement_id": null,
+        "status": "unassigned",
+        "effective_feature_id": null
+      },
+      {
+        "line_id": "line:cak-3934-abs",
+        "original_measurement_id": "fit:H2:0000",
+        "status": "unassigned",
+        "effective_feature_id": null
+      },
+      {
+        "line_id": "line:cat1-8498-abs",
+        "original_measurement_id": null,
+        "status": "unassigned",
+        "effective_feature_id": null
+      },
+      {
+        "line_id": "line:cat2-8542-abs",
+        "original_measurement_id": "cwt:abs:0024",
+        "status": "unassigned",
+        "effective_feature_id": null
+      },
+      {
+        "line_id": "line:cat3-8662-abs",
+        "original_measurement_id": "fit:H2:0009",
+        "status": "unassigned",
+        "effective_feature_id": null
+      },
+      {
+        "line_id": "line:gband-4305-abs",
+        "original_measurement_id": null,
+        "status": "unassigned",
+        "effective_feature_id": null
+      },
+      {
+        "line_id": "line:half-6564",
+        "original_measurement_id": "cwt:em:0012",
+        "status": "original_claim",
+        "effective_feature_id": "cwt:em:0012"
+      },
+      {
+        "line_id": "line:half-6564-abs",
+        "original_measurement_id": null,
+        "status": "unassigned",
+        "effective_feature_id": null
+      },
+      {
+        "line_id": "line:hbet-4862",
+        "original_measurement_id": "cwt:em:0006",
+        "status": "original_claim",
+        "effective_feature_id": "cwt:em:0006"
+      },
+      {
+        "line_id": "line:hbet-4862-abs",
+        "original_measurement_id": null,
+        "status": "unassigned",
+        "effective_feature_id": null
+      },
+      {
+        "line_id": "line:hdel-4102",
+        "original_measurement_id": "cwt:em:0003",
+        "status": "original_claim",
+        "effective_feature_id": "cwt:em:0003"
+      },
+      {
+        "line_id": "line:hdel-4102-abs",
+        "original_measurement_id": "fit:H2:0007",
+        "status": "unassigned",
+        "effective_feature_id": null
+      },
+      {
+        "line_id": "line:heps-3970",
+        "original_measurement_id": "fit:H2:0005",
+        "status": "unassigned",
+        "effective_feature_id": null
+      },
+      {
+        "line_id": "line:heps-3970-abs",
+        "original_measurement_id": null,
+        "status": "unassigned",
+        "effective_feature_id": null
+      },
+      {
+        "line_id": "line:hgam-4341",
+        "original_measurement_id": "cwt:em:0005",
+        "status": "original_claim",
+        "effective_feature_id": "cwt:em:0005"
+      },
+      {
+        "line_id": "line:hgam-4341-abs",
+        "original_measurement_id": null,
+        "status": "unassigned",
+        "effective_feature_id": null
+      },
+      {
+        "line_id": "line:mgi-5176-abs",
+        "original_measurement_id": null,
+        "status": "unassigned",
+        "effective_feature_id": null
+      },
+      {
+        "line_id": "line:nad-5895-abs",
+        "original_measurement_id": null,
+        "status": "unassigned",
+        "effective_feature_id": null
+      },
+      {
+        "line_id": "line:nad1-5891-abs",
+        "original_measurement_id": "fit:H2:0002",
+        "status": "unassigned",
+        "effective_feature_id": null
+      },
+      {
+        "line_id": "line:nad2-5897-abs",
+        "original_measurement_id": "fit:H2:0003",
+        "status": "unassigned",
+        "effective_feature_id": null
+      },
+      {
+        "line_id": "line:nev-3426",
+        "original_measurement_id": null,
+        "status": "unassigned",
+        "effective_feature_id": null
+      },
+      {
+        "line_id": "line:nii-6549",
+        "original_measurement_id": null,
+        "status": "unassigned",
+        "effective_feature_id": null
+      },
+      {
+        "line_id": "line:nii-6585",
+        "original_measurement_id": "cwt:em:0013",
+        "status": "original_claim",
+        "effective_feature_id": "cwt:em:0013"
+      },
+      {
+        "line_id": "line:oii-3727",
+        "original_measurement_id": "cwt:em:0000",
+        "status": "original_claim",
+        "effective_feature_id": "cwt:em:0000"
+      },
+      {
+        "line_id": "line:oiii-4960",
+        "original_measurement_id": "cwt:em:0007",
+        "status": "original_claim",
+        "effective_feature_id": "cwt:em:0007"
+      },
+      {
+        "line_id": "line:oiii-5008",
+        "original_measurement_id": "cwt:em:0008",
+        "status": "original_claim",
+        "effective_feature_id": "cwt:em:0008"
+      },
+      {
+        "line_id": "line:sii-6718",
+        "original_measurement_id": "cwt:em:0014",
+        "status": "original_claim",
+        "effective_feature_id": "cwt:em:0014"
+      },
+      {
+        "line_id": "line:sii-6732",
+        "original_measurement_id": "cwt:em:0015",
+        "status": "original_claim",
+        "effective_feature_id": "cwt:em:0015"
+      }
+    ],
+    "model_usage": {
+      "calls": 0,
+      "input_tokens": 0,
+      "output_tokens": 0,
+      "cache_hit_tokens": 0,
+      "cache_hit_reported_calls": 0,
+      "cache_hit_unreported_calls": 0
+    },
+    "window_half_angstrom": 100.0,
+    "vote_quorum": 3,
+    "max_attempts_per_vote_seat": 2,
+    "outer_reference_sigma": 3.0,
+    "concurrency": 3
+  }
+}

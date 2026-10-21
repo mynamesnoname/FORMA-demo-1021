@@ -1,0 +1,200 @@
+[
+  {
+    "line_id": "line:mgii-2800",
+    "measurement_id": null,
+    "status": "NOT_FOUND",
+    "reason_codes": [
+      "no_cwt_feature",
+      "fit_center_at_bound",
+      "fit_rejected"
+    ],
+    "comment": "No CWT peak near 4679.8; nearest peaks 4616.8 (z=0.649) and 4791.2 (z=0.711) are outside window. Targeted fit center_at_bound (4629.8, huge error) is unselectable."
+  },
+  {
+    "line_id": "line:mgii-2800-abs",
+    "measurement_id": null,
+    "status": "NOT_FOUND",
+    "reason_codes": [
+      "no_cwt_feature",
+      "offset_too_large",
+      "weak_snr"
+    ],
+    "comment": "No CWT trough at 4679.8; fit:H2:0007 lands at 4715.0 (offset ~35 A, weak) with low local SNR 1.73 and very broad FWHM; not credible."
+  },
+  {
+    "line_id": "line:nev-3426",
+    "measurement_id": null,
+    "status": "NOT_FOUND",
+    "reason_codes": [
+      "no_cwt_feature",
+      "fit_center_at_bound",
+      "fit_rejected"
+    ],
+    "comment": "No CWT peak near 5726.1; nearest 5802.4 (z=0.694) outside window. Targeted fit center_at_bound with zero amplitude, unselectable."
+  },
+  {
+    "line_id": "line:oii-3727",
+    "measurement_id": null,
+    "status": "NOT_FOUND",
+    "reason_codes": [
+      "offset_too_large",
+      "blend_ambiguity"
+    ],
+    "comment": "Only nearby peak cwt:em:0010 at 6200.0 implies z=0.6635, offset ~29 A from 6229.2 (weaker offset band); no CWT feature at predicted position, so not adopted."
+  },
+  {
+    "line_id": "line:cak-3934-abs",
+    "measurement_id": null,
+    "status": "NOT_FOUND",
+    "reason_codes": [
+      "no_cwt_feature",
+      "doublet_separation_fail",
+      "weak_snr"
+    ],
+    "comment": "No CWT trough near 6576.5. Doublet fit fit:H2:0000 at 6599.1 (offset ~23 A) with separation fail and local SNR 1.15; not credible."
+  },
+  {
+    "line_id": "line:cah-3969-abs",
+    "measurement_id": null,
+    "status": "NOT_FOUND",
+    "reason_codes": [
+      "no_cwt_feature",
+      "doublet_separation_fail",
+      "weak_snr"
+    ],
+    "comment": "No CWT trough near 6634.7. Doublet fit fit:H2:0001 at 6596.1 with separation fail, tiny amplitude and SNR 1.15; not credible."
+  },
+  {
+    "line_id": "line:heps-3970",
+    "measurement_id": null,
+    "status": "NOT_FOUND",
+    "reason_codes": [
+      "no_cwt_feature",
+      "weak_snr",
+      "low_delta_chi2"
+    ],
+    "comment": "No CWT peak at 6635.5. Fit fit:H2:0004 converged at 6635.8 but amplitude 0.15, local SNR 1.13, dchi2/n 0.022; not a credible detection."
+  },
+  {
+    "line_id": "line:heps-3970-abs",
+    "measurement_id": null,
+    "status": "NOT_FOUND",
+    "reason_codes": [
+      "no_cwt_feature",
+      "fit_center_at_bound",
+      "fit_rejected"
+    ],
+    "comment": "No CWT trough at 6635.5; targeted fit center_at_bound with zero amplitude, unselectable."
+  },
+  {
+    "line_id": "line:hdel-4102",
+    "measurement_id": null,
+    "status": "NOT_FOUND",
+    "reason_codes": [
+      "no_cwt_feature",
+      "weak_snr",
+      "low_delta_chi2"
+    ],
+    "comment": "No CWT peak at 6857.5. Fit fit:H2:0005 at 6872.4 (offset ~15 A) with amplitude 0.11, SNR 0.95, dchi2/n 0.012; not credible."
+  },
+  {
+    "line_id": "line:hdel-4102-abs",
+    "measurement_id": null,
+    "status": "NOT_FOUND",
+    "reason_codes": [
+      "no_cwt_feature",
+      "weak_snr",
+      "offset_too_large"
+    ],
+    "comment": "No CWT trough at 6857.5. Fit fit:H2:0009 at 6824.7 (offset ~33 A) with amplitude 0.10, SNR 0.88; not credible."
+  },
+  {
+    "line_id": "line:gband-4305-abs",
+    "measurement_id": null,
+    "status": "NOT_FOUND",
+    "reason_codes": [
+      "no_cwt_feature",
+      "weak_snr",
+      "low_delta_chi2"
+    ],
+    "comment": "No CWT trough at 7196.2. Fit fit:H2:0010 at 7192.3 is positionally close but amplitude 0.05, local SNR 0.43, dchi2/n 0.001; not a credible detection."
+  },
+  {
+    "line_id": "line:hgam-4341",
+    "measurement_id": "fit:H2:0006",
+    "status": "MARGINAL",
+    "reason_codes": [
+      "no_cwt_feature",
+      "fit_only",
+      "offset_weak_band",
+      "narrow_width"
+    ],
+    "comment": "No CWT peak at 7256.6; fit fit:H2:0006 converged at 7276.1 (offset ~20 A, weaker band) with amplitude 0.77, local SNR 7.4, FWHM 142 km/s (narrower than broad guide). Weak but plausible emission; adopted as marginal."
+  },
+  {
+    "line_id": "line:hgam-4341-abs",
+    "measurement_id": null,
+    "status": "NOT_FOUND",
+    "reason_codes": [
+      "no_cwt_feature",
+      "fit_center_at_bound",
+      "fit_rejected"
+    ],
+    "comment": "No CWT trough at 7256.6; targeted fit center_at_bound with zero amplitude, unselectable."
+  },
+  {
+    "line_id": "line:hbet-4862",
+    "measurement_id": "cwt:em:0012",
+    "status": "LIKELY",
+    "reason_codes": [
+      "cwt_match",
+      "strong_snr",
+      "position_match"
+    ],
+    "comment": "CWT peak at 8127.2 implies z=0.6713, offset ~0.2 A from prediction; strong SNR 22.7, ridge 22. Credible H-beta emission."
+  },
+  {
+    "line_id": "line:hbet-4862-abs",
+    "measurement_id": null,
+    "status": "NOT_FOUND",
+    "reason_codes": [
+      "blend_ambiguity",
+      "offset_too_large",
+      "weak_snr"
+    ],
+    "comment": "Only nearby trough cwt:abs:0021 at 8120.0 (z=0.6699, offset ~7 A) is weak (amp -3.5, SNR 9.5) and adjacent to the strong emission peak; likely emission-wing artifact, not adopted."
+  },
+  {
+    "line_id": "line:oiii-4960",
+    "measurement_id": null,
+    "status": "NOT_FOUND",
+    "reason_codes": [
+      "offset_too_large",
+      "blend_ambiguity",
+      "doublet_ratio_fail"
+    ],
+    "comment": "Predicted 8290.5; nearby peaks 8318.4 (z=0.6770, offset ~28 A) and 8336.0 (z=0.6805, offset ~46 A) are outside/edge of window and inconsistent with the [O III] doublet separation; not adopted."
+  },
+  {
+    "line_id": "line:oiii-5008",
+    "measurement_id": null,
+    "status": "NOT_FOUND",
+    "reason_codes": [
+      "offset_too_large",
+      "blend_ambiguity",
+      "doublet_ratio_fail"
+    ],
+    "comment": "Predicted 8370.6; only peak cwt:em:0014 at 8336.0 (z=0.6645, offset ~35 A) is weak and would break the expected 80 A doublet separation; not adopted."
+  },
+  {
+    "line_id": "line:mgi-5176-abs",
+    "measurement_id": null,
+    "status": "NOT_FOUND",
+    "reason_codes": [
+      "no_cwt_feature",
+      "weak_snr",
+      "low_delta_chi2"
+    ],
+    "comment": "No CWT trough at 8652.2. Fit fit:H2:0012 at 8659.5 (offset ~7 A) with amplitude 0.10, local SNR 1.29, dchi2/n 0.012; not credible."
+  }
+]
