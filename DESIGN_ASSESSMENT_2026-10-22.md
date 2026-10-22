@@ -201,3 +201,87 @@ Avoid claiming the current demo is a fully ontology-driven autonomous planner or
 - `src/FORMA/agentic_graph/prompts/fa_doublet_system.md`
 
 **Review limitations:** This is a targeted architecture/code inspection and design conversation, not a full repository audit or an empirical evaluation. Proposed extensions and expected ML cost/performance benefits remain untested.
+
+
+---
+
+## 11. Refined research positioning: expert VI as a verification task
+
+**Discussion update — 2026-10-22.** The project owner clarified that FORMA does **not** primarily aim to replace Redrock, QuasarNET, Mg II-specific pipelines, or other mature numerical / ML spectral systems. DESI already uses specialized tools spanning template fitting and ML, yet expert visual inspection (VI) remains useful for independently checking difficult classifications, assessing conflicting evidence, identifying failure modes, and auditing pipeline quality. Expert VI should not be interpreted simply as blanket distrust of automated pipelines: model prediction and independent scientific validation have different roles.
+
+The project's target is the part of expert VI that requires **synthesizing evidence and deciding which investigation to perform next**—not merely recognizing peaks or predicting a spectral class.
+
+### 11.1 Distinguish three responsibilities
+
+| Layer | Scientific question | Typical tools | FORMA relationship |
+| --- | --- | --- | --- |
+| Measurement | Which signals and quantitative features are present? | Spectral fitting, CWT, Redrock measurements | Consume and cross-check source-bound measurements |
+| Prediction | Which redshift/type best explains the spectrum? | Redrock, QuasarNET, dedicated classifiers / afterburners | Treat outputs as fallible hypotheses or supporting evidence, not automatic truth |
+| Verification | Are the claims adequately supported; what should be inspected next; when should one stop or abstain? | Expert VI and FORMA | **Primary research target** |
+
+Two pipelines returning the same class or redshift do not necessarily furnish statistically independent evidence. FORMA should inspect *why* predictions agree or disagree, their actual spectral support, and shared data-quality or model failure modes.
+
+### 11.2 The three core agent capabilities
+
+1. **Evidence synthesis.** Integrate measurements, pipeline outputs, FA assessments, and diagnostic rules; identify which specific observations support or contradict a proposed interpretation and report missing/unresolved checks.
+2. **Investigation orchestration.** Decide what evidence is needed, what tool or domain rule can provide it cheaply, when to escalate to a model/human, and when sufficient *operational* confidence justifies a local exit or global stop.
+3. **Auditable verification.** Preserve evidence lineage, rule applicability, tool results, competing hypotheses, abstention reasons, and a reproducible account of why a decision was reached.
+
+Investigation orchestration is plausibly the most distinctive *agentic* capability: a static reporting system can summarize existing records, and specialized ML can detect signals, but cost-sensitive adaptive selection of verification actions is a separate question that must be evaluated.
+
+### 11.3 Why dedicated perception ML does not threaten the project's thesis
+
+Replacing low-level FA peak/trough votes with a lightweight ML model would change the **perception backend**, not the primary scientific problem. A useful separation is:
+
+```text
+Specialized measurement/prediction pipelines
+    ↓ candidate claims and grounded measurements
+Perception and feature checks (statistics / ML / selective LLM)
+    ↓ verified or unresolved evidence
+Rule-constrained agent investigation
+    ↓ targeted additional checks, competing interpretations
+Evidence synthesis and hypothesis comparison
+    ↓
+Provisional decision / escalation / abstention
+```
+
+Conversely, LLM calls should not be retained merely to preserve an “agentic” label. FORMA's justification should be the *incremental benefit* of orchestration and synthesis in verification quality, calibrated risk, latency, and human-review savings.
+
+### 11.4 Proposed experiment: isolate the value of the agent layer
+
+Compare at least the following under **the same input measurement/prediction evidence** and against independently adjudicated expert VI labels:
+
+| Arm | Verification strategy | Purpose |
+| --- | --- | --- |
+| **A. Pipeline baseline** | Accept selected pipeline classification/redshift under an explicit confidence policy | Measure what automated output alone achieves |
+| **B. Static verifier** | Apply the same available domain checks in a fixed schedule; no adaptive agent selection | Separate the value of diagnostic tools/rules from routing |
+| **C. FORMA** | Apply the same measurement tools and rules, but adapt verification via conditional routes, targeted checks, hypothesis synthesis, and operational stopping | Isolate the incremental contribution of orchestration/synthesis |
+
+The research question is **not** simply “Can FORMA outperform Redrock or QuasarNET in classification accuracy?” It is:
+
+> **Can agentic evidence synthesis and investigation orchestration reproduce useful aspects of expert scientific VI, improving verification reliability and/or reducing verification cost over existing automated predictions and fixed checking workflows?**
+
+Useful outcomes include false acceptance of incorrect pipeline conclusions, missed unusual objects, ability to recognize incompatible hypotheses, selective-review coverage, abstention calibration, expert effort saved, wall-clock time, and local inference costs. Evaluate results by object type, redshift, SNR, instrumental issue, and other relevant difficult strata. Care is required when the expert VI reference itself has ambiguity, inter-annotator disagreement, or selection bias.
+
+The experiment should also differentiate **better final evidence decisions** from **better explanations**: persuasive prose by itself is not scientific verification. Evidence references and conclusions need independent checking.
+
+### 11.5 Proposed language for reports and README
+
+> **FORMA is an agentic verification framework that synthesizes scientific evidence and orchestrates targeted investigations to assess the reliability of automated spectral classifications.**
+
+A broader framing:
+
+> **FORMA studies whether an agent can reproduce the evidence synthesis and investigation decisions that make expert scientific verification valuable.**
+
+These are **research aims**, not established outcomes of the present demo. This document's original definition (“ontology-inspired, knowledge-constrained, deterministic-first scientific verification workflow”) remains useful as the implementation-level description; the revised statements clarify the *research problem and intended users*.
+
+### 11.6 Updated prioritization
+
+In light of this clarified aim, optimizing or replacing the current FA vote backend is useful but **not the first-order research milestone**. Prioritize:
+
+1. Defining the expert-VI verification target, label quality, and risk / abstention standards.
+2. Evaluating the quality and cost benefits of evidence synthesis and adaptive investigation against fixed and pipeline baselines.
+3. Measuring specific agent failures (misleading synthesis, missed competing interpretation, premature stop, unnecessary investigation) with trace-level diagnostics.
+4. Then optimizing low-level FA/SH perception and vote latency where profiling shows material savings, potentially using task-specific ML.
+
+This ordering intentionally shifts emphasis from “Which model reads local pixels best?” toward “Does the agent make the *overall verification process* more trustworthy and efficient?”
